@@ -1,0 +1,23 @@
+# Environnement
+.env
+.env.example
+__pycache__/
+*.pyc
+.DS_Store
+
+# IDE
+.vscode/
+.cline/
+
+# BMad
+_bmad/
+_bmad-output/
+_bmad/custom/config.toml
+
+# Archives
+_archive/
+demo-bmad/
+
+# Logs et artefacts
+*.log
+data/backups/

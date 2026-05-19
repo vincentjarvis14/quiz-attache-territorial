@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Attaché Territorial</title>
+  <link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body>
+  <div class="app-wrapper">
+
+    <!-- ============================================================
+         ÉCRAN 1 — ACCUEIL
+         ============================================================ -->
+    <div id="screen-home" class="screen screen-home active">
+
+      <!-- Logo Duolingo Style -->
+      <div class="home-logo">
+        <div class="home-logo-icon">
+          <svg width="56" height="56" viewBox="0 0 100 100">
+            <rect x="20" y="15" width="60" height="70" rx="8" fill="#FFF3E0" stroke="#DDA800" stroke-width="3"/>
+            <rect x="25" y="20" width="50" height="60" rx="6" fill="#FFF8E1"/>
+            <circle cx="50" cy="50" r="18" fill="none" stroke="#58CC02" stroke-width="3"/>
+            <text x="50" y="56" text-anchor="middle" font-size="22" font-weight="bold" fill="#58CC02">✓</text>
+            <rect x="30" y="26" width="40" height="4" rx="2" fill="#E0E0E0"/>
+            <rect x="30" y="34" width="30" height="4" rx="2" fill="#E0E0E0"/>
+            <rect x="30" y="42" width="35" height="4" rx="2" fill="#E0E0E0"/>
+          </svg>
+        </div>
+        <div>
+          <div class="home-logo-text">Quiz Attaché<br>Territorial</div>
+          <div class="home-logo-sub">Prépare ton concours</div>
+        </div>
+      </div>
+
+      <!-- Sélection thématique -->
+      <div>
+        <div class="home-section-label">Choisir une thématique</div>
+        <div id="themes-grid" class="themes-grid">
+          <!-- Chips générées dynamiquement par JS -->
+        </div>
+      </div>
+
+      <!-- Nombre de questions -->
+      <div class="qty-section">
+        <div class="home-section-label">Nombre de questions</div>
+        <div class="qty-options">
+          <button class="qty-btn" data-qty="5">5</button>
+          <button class="qty-btn selected" data-qty="10">10</button>
+          <button class="qty-btn" data-qty="15">15</button>
+          <button class="qty-btn" data-qty="20">20</button>
+          <button class="qty-btn" data-qty="all">Toutes</button>
+        </div>
+      </div>
+
+      <!-- Mode de jeu -->
+      <div class="mode-section">
+        <div class="home-section-label">Mode de jeu</div>
+        <div class="mode-toggle">
+          <button id="mode-chill" class="mode-btn selected" data-mode="chill">
+            <span class="mode-icon">😌</span>
+            <span class="mode-label">Mode Chill</span>
+            <span class="mode-desc">Pas de vies, pas de pression</span>
+          </button>
+          <button id="mode-lives" class="mode-btn" data-mode="lives">
+            <span class="mode-icon">❤️</span>
+            <span class="mode-label">Mode Challenge</span>
+            <span class="mode-desc">3 vies, fin du quiz si épuisées</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Compteur disponible -->
+      <div id="available-counter" style="font-size: var(--fs-sm); font-weight: 700; color: var(--gray-3); text-align: center; min-height: 20px;"></div>
+
+      <!-- CTA -->
+      <div class="action-bar" style="position: static; border: none; background: transparent; padding: 0; margin-top: auto; padding-top: 16px;">
+        <button id="btn-start" class="btn btn-green btn-full" disabled>
+          Commencer
+        </button>
+        <button id="btn-changelog" class="btn btn-gray btn-full" style="margin-top:8px; font-size:0.85rem;">
+          📋 Voir les améliorations du 17/05
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ============================================================
+         ÉCRAN 2 — QUIZ EN COURS
+         ============================================================ -->
+    <div id="screen-quiz" class="screen screen-quiz">
+
+      <!-- Header -->
+      <div class="app-header">
+        <button id="btn-close-quiz" class="btn-close" aria-label="Quitter le quiz">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+        <div class="progress-track">
+          <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+        </div>
+        <div id="header-counter" class="header-counter">0/0</div>
+        <div id="lives-container" class="lives">
+          <span class="life">❤️</span>
+          <span class="life">❤️</span>
+          <span class="life">❤️</span>
+        </div>
+      </div>
+
+      <!-- Corps de la question -->
+      <div class="quiz-body">
+        <div id="quiz-bloom" class="quiz-meta"></div>
+        <div id="quiz-question" class="quiz-question"></div>
+        <div id="quiz-options" class="quiz-options"></div>
+
+        <!-- Source (affiché après vérification) -->
+        <div id="source-block" class="source-block" style="display: none;">
+          <div class="source-block-header">
+            <span class="source-block-badge">📖 Source</span>
+            <span class="source-block-section" id="source-section-title"></span>
+          </div>
+          <div class="source-block-meta">
+            <span class="source-block-chapter" id="source-chapter-title"></span>
+            <span class="source-block-ref" id="source-page-ref"></span>
+          </div>
+          <div class="source-block-body">
+            <!-- Extrait contextuel (sourceContext avec 💚) -->
+            <div class="source-block-extract" id="source-extract-block">
+              <div class="source-block-extract-label">💡 Extrait du cours</div>
+              <div class="source-block-extract-content" id="source-extract-content"></div>
+            </div>
+            <!-- Séparateur (visible seulement si explication) -->
+            <div class="source-block-divider" id="source-divider" style="display:none;"></div>
+            <!-- Explication -->
+            <div class="source-block-explanation" id="source-explanation-block" style="display:none;">
+              <div class="source-block-explanation-label">ℹ️ Explication</div>
+              <div class="source-block-explanation-content" id="source-explanation-content"></div>
+            </div>
+            <!-- Mots-clés -->
+            <div class="source-block-keywords" id="source-keywords-block" style="display:none;">
+              <div class="source-block-divider"></div>
+              <div class="source-block-explanation-label">🏷️ Mots-clés</div>
+              <div class="keywords-grid" id="source-keywords-grid"></div>
+            </div>
+          </div>
+          <button class="source-block-footer" id="btn-see-source">
+            🔍 Voir la fiche complète →
+          </button>
+        </div>
+      </div>
+
+      <!-- Barre d'action -->
+      <div id="action-bar" class="action-bar">
+        <button id="btn-verify" class="btn btn-green btn-full" disabled>
+          Vérifier
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ============================================================
+         ÉCRAN 3 — RÉSULTATS
+         ============================================================ -->
+    <div id="screen-results" class="screen screen-results">
+
+      <div id="results-owl" class="results-owl">🦉</div>
+      <div id="results-title" class="results-title">Bravo !</div>
+
+      <div class="results-score">
+        <div class="score-card correct">
+          <span id="results-correct" class="score-card-value">—</span>
+          <span class="score-card-label">Correctes</span>
+        </div>
+        <div class="score-card wrong">
+          <span id="results-wrong" class="score-card-value">—</span>
+          <span class="score-card-label">Incorrectes</span>
+        </div>
+        <div class="score-card total">
+          <span id="results-pct" class="score-card-value">—</span>
+          <span class="score-card-label">Score</span>
+        </div>
+        <div class="score-card streak">
+          <span id="results-streak" class="score-card-value">—</span>
+          <span class="score-card-label">Meilleur streak</span>
+        </div>
+      </div>
+
+      <div id="pool-done-banner" class="pool-done" style="display: none;">
+        <span class="pool-done-icon">🎉</span>
+        <span class="pool-done-text">Tu as vu toutes les questions de ce chapitre !<br>
+          <button id="btn-reset-pool" style="background:none; border:none; color: var(--yellow-dark); font-weight:800; font-family:var(--font); cursor:pointer; padding:0; text-decoration:underline;">
+            Réinitialiser et recommencer depuis le début
+          </button>
+        </span>
+      </div>
+
+      <div class="results-actions">
+        <button id="btn-replay" class="btn btn-green btn-full">
+          Rejouer (même thème)
+        </button>
+        <button id="btn-change-theme" class="btn btn-gray btn-full">
+          Choisir un autre thème
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ============================================================
+         ÉCRAN 4 — AVANCEMENT PROJET BMAD
+         ============================================================ -->
+    <div id="screen-changelog" class="screen screen-changelog">
+      <div class="changelog-container">
+        <div class="changelog-header">
+          <button id="btn-close-changelog" class="changelog-back" aria-label="Retour">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/>
+            </svg>
+          </button>
+          <div>
+            <div class="changelog-title">📋 Avancement Projet — Quiz Attaché Territorial</div>
+            <div class="changelog-subtitle">BMAD Builder — Session du 18 mai 2026</div>
+          </div>
+        </div>
+
+        <div class="changelog-body">
+
+          <!-- Section 1 : Vue d'ensemble -->
+          <div class="cl-section">
+            <div class="cl-section-title">
+              <span class="cl-icon">📊</span>
+              Vue d'ensemble du projet
+            </div>
+            <div class="cl-stats">
+              <div class="cl-stat">
+                <span class="cl-stat-value">5</span>
+                <span class="cl-stat-label">Modules JS</span>
+              </div>
+              <div class="cl-stat">
+                <span class="cl-stat-value">264</span>
+                <span class="cl-stat-label">Questions</span>
+              </div>
+              <div class="cl-stat">
+                <span class="cl-stat-value">24</span>
+                <span class="cl-stat-label">Tests ✅</span>
+              </div>
+              <div class="cl-stat">
+                <span class="cl-stat-value">2</span>
+                <span class="cl-stat-label">Modes de jeu</span>
+              </div>
+              <div class="cl-stat">
+                <span class="cl-stat-value">6</span>
+                <span class="cl-stat-label">Thématiques</span>
+              </div>
+              <div class="cl-stat">
+                <span class="cl-stat-value">✓</span>
+                <span class="cl-stat-label">WCAG AA</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 2 : Architecture -->
+          <div class="cl-section">
+            <div class="cl-section-title">
+              <span class="cl-icon">🏗️</span>
+              Architecture modulaire
+            </div>
+            <div class="cl-modules">
+              <div class="cl-module">
+                <div class="cl-module-icon">📦</div>
+                <div class="cl-module-name">state.js</div>
+                <div class="cl-module-desc">Mini-store pub/sub — getters/setters immutables, subscribe, resetSession</div>
+              </div>
+              <div class="cl-module">
+                <div class="cl-module-icon">💾</div>
+                <div class="cl-module-name">storage.js</div>
+                <div class="cl-module-desc">Persistance localStorage — save/load/clear seenIds</div>
+              </div>
+              <div class="cl-module">
+                <div class="cl-module-icon">🧠</div>
+                <div class="cl-module-name">quiz.js</div>
+                <div class="cl-module-desc">Logique métier — shuffle, buildQueue, scoring, streak</div>
+              </div>
+              <div class="cl-module">
+                <div class="cl-module-icon">🎨</div>
+                <div class="cl-module-name">ui.js</div>
+                <div class="cl-module-desc">Rendu DOM — écrans, options, résultats, modale</div>
+              </div>
+              <div class="cl-module highlight">
+                <div class="cl-module-icon">🎯</div>
+                <div class="cl-module-name">app.js</div>
+                <div class="cl-module-desc">Orchestrateur — point d'entrée allégé</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 3 : Dernières corrections -->
+          <div class="cl-section">
+            <div class="cl-section-title">
+              <span class="cl-icon">🔧</span>
+              Dernières corrections (18 mai)
+            </div>
+            <div class="cl-grid">
+              <div class="cl-item bad">
+                <span class="cl-status">✕</span>
+                <span class="cl-text">CSS manquait /* en tête de fichier → tout le style ignoré</span>
+              </div>
+              <div class="cl-item bad">
+                <span class="cl-status">✕</span>
+                <span class="cl-text">showFeedback() ne marquait jamais la mauvaise réponse en rouge</span>
+              </div>
+              <div class="cl-item bad">
+                <span class="cl-status">✕</span>
+                <span class="cl-text">bindQuizEvents() clonait les boutons → listeners dupliqués</span>
+              </div>
+              <div class="cl-item bad">
+                <span class="cl-status">✕</span>
+                <span class="cl-text">Classes CSS .quiz-option vs .option-btn incompatibles</span>
+              </div>
+              <div class="cl-item bad">
+                <span class="cl-status">✕</span>
+                <span class="cl-text">onclick="openSourceModal()" dans le HTML</span>
+              </div>
+              <div class="cl-item good">
+                <span class="cl-status">✔</span>
+                <span class="cl-text">Nouveau logo : parchemin/diplôme</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 4 : Prochaines étapes -->
+          <div class="cl-section">
+            <div class="cl-section-title">
+              <span class="cl-icon">🚀</span>
+              Prochaines étapes envisagées
+            </div>
+            <div class="cl-ux-list">
+              <div class="cl-ux-item">
+                <span class="cl-ux-icon">📱</span>
+                <div><strong>Mode responsive avancé</strong> — Adapter le layout pour mobile et tablette</div>
+              </div>
+              <div class="cl-ux-item">
+                <span class="cl-ux-icon">📊</span>
+                <div><strong>Statistiques utilisateur</strong> — Suivi de progression dans le temps</div>
+              </div>
+              <div class="cl-ux-item">
+                <span class="cl-ux-icon">🔊</span>
+                <div><strong>Audio & prononciation</strong> — Questions en mode oral</div>
+              </div>
+              <div class="cl-ux-item">
+                <span class="cl-ux-icon">🏆</span>
+                <div><strong>Système de badges</strong> — Débloquer des succès (streak, score parfait...)</div>
+              </div>
+              <div class="cl-ux-item">
+                <span class="cl-ux-icon">🌙</span>
+                <div><strong>Mode sombre</strong> — Thème dark pour révisions nocturnes</div>
+              </div>
+              <div class="cl-ux-item">
+                <span class="cl-ux-icon">📝</span>
+                <div><strong>Quiz personnalisé</strong> — Sélectionner des questions spécifiques par sous-thème</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 5 : Chronologie des réalisations -->
+          <div class="cl-section">
+            <div class="cl-section-title">
+              <span class="cl-icon">📅</span>
+              Chronologie des réalisations
+            </div>
+            <div class="cl-timeline">
+              <div class="cl-timeline-item">
+                <div class="cl-timeline-marker">
+                  <span class="cl-timeline-dot"></span>
+                </div>
+                <div class="cl-timeline-content">
+                  <div class="cl-timeline-title">Architecture modulaire & refactoring</div>
+                  <div class="cl-timeline-desc">Découpage de app.js monolithique en 5 modules (state, storage, quiz, ui, app). Tests unitaires (24 ✅). Accessibilité WCAG AA. Gestion d'erreur, loading state, randomisation.</div>
+                  <div class="cl-timeline-agents">
+                    <span class="cl-agent-badge">📐 bmad-create-architecture</span>
+                    <span class="cl-agent-badge">🔍 bmad-code-review</span>
+                    <span class="cl-agent-badge">📋 bmad-quick-dev</span>
+                  </div>
+                </div>
+              </div>
+              <div class="cl-timeline-item">
+                <div class="cl-timeline-marker">
+                  <span class="cl-timeline-dot"></span>
+                </div>
+                <div class="cl-timeline-content">
+                  <div class="cl-timeline-title">Corrections bugs & nouveau logo</div>
+                  <div class="cl-timeline-desc">CSS réparé (/* manquant), feedback rouge corrigé, listeners dupliqués nettoyés, classes CSS harmonisées, onclick supprimé du HTML. Logo remplacé par un parchemin/diplôme.</div>
+                  <div class="cl-timeline-agents">
+                    <span class="cl-agent-badge">🤖 Le Professeur</span>
+                    <span class="cl-agent-badge">📋 bmad-quick-dev</span>
+                    <span class="cl-agent-badge">📊 bmad-sprint-planning</span>
+                  </div>
+                </div>
+              </div>
+              <div class="cl-timeline-item">
+                <div class="cl-timeline-marker">
+                  <span class="cl-timeline-dot future"></span>
+                </div>
+                <div class="cl-timeline-content">
+                  <div class="cl-timeline-title">Prochaines fonctionnalités</div>
+                  <div class="cl-timeline-desc">Mode responsive, statistiques utilisateur, audio/prononciation, badges, mode sombre, quiz personnalisé.</div>
+                  <div class="cl-timeline-agents">
+                    <span class="cl-agent-badge">📐 bmad-create-architecture</span>
+                    <span class="cl-agent-badge">🔍 bmad-code-review</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ============================================================
+       MODALE SOURCE COMPLÈTE
+       ============================================================ -->
+  <div id="source-modal" class="source-modal" style="display:none;" aria-modal="true" role="dialog">
+    <div class="source-modal-backdrop" id="modal-backdrop"></div>
+    <div class="source-modal-panel">
+      <div class="source-modal-header">
+        <div class="source-modal-title">
+          <span>📖</span>
+          <span id="modal-section-title">Fiche source</span>
+        </div>
+        <button class="source-modal-close" id="modal-close-btn" aria-label="Fermer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div id="modal-content" class="source-modal-content"></div>
+      <div class="source-modal-footer">
+        <button class="btn btn-gray" id="modal-close-footer-btn">Fermer</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modules JS (ordre important) -->
+  <script src="js/state.js?v=2"></script>
+  <script src="js/storage.js?v=2"></script>
+  <script src="js/quiz.js?v=2"></script>
+  <script src="js/ui.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
+</body>
+</html>
