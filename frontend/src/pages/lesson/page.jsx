@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate, useLocation } from 'react-router-dom';
+import ProfessionalSidebar from '@/components/professional/sidebar';
 import ProfessionalQuizHeader from '@/components/professional/quiz-header';
 import ProfessionalQuestionCard from '@/components/professional/question-card';
 import ProfessionalAnswerOption from '@/components/professional/answer-option';
 import ProfessionalValidationBar from '@/components/professional/validation-bar';
+import SourcePanel from '@/components/professional/source-panel';
 import ResultScreen from '@/components/lesson/result-screen';
 import ExitModal from '@/components/lesson/exit-modal';
 import { toast } from 'sonner';
@@ -254,68 +256,92 @@ const LessonPage = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
-      {/* Header */}
-      <ProfessionalQuizHeader
-        progress={progress}
-        hearts={hearts}
-        questionNumber={currentQuestionIndex + 1}
-        totalQuestions={mockQuestions.length}
-        difficulty={currentQuestion.difficulty || 2}
-        onExit={() => setShowExitModal(true)}
-      />
-
-      {/* Main Content */}
-      <div className="flex-1 flex items-center justify-center px-6 py-12 pb-32">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentQuestionIndex}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="w-full max-w-5xl space-y-6"
-          >
-            {/* Question */}
-            <ProfessionalQuestionCard 
-              question={currentQuestion.question}
-              questionNumber={currentQuestionIndex + 1}
-              difficulty={currentQuestion.difficulty || 2}
-              sourceSection={currentQuestion.sourceSection}
-              sousTheme="Environnement Territorial"
-            />
-
-            {/* Answer Options */}
-            <div className="grid grid-cols-1 gap-3 max-w-4xl mx-auto">
-              {currentQuestion.options.map((option, index) => (
-                <ProfessionalAnswerOption
-                  key={option.id}
-                  option={option}
-                  index={index}
-                  selected={selectedAnswer === option.id}
-                  isCorrect={isAnswerChecked && option.id === currentQuestion.correctAnswer}
-                  isWrong={isAnswerChecked && selectedAnswer === option.id && !isCorrect}
-                  disabled={isAnswerChecked}
-                  onClick={() => handleAnswerSelect(option.id)}
-                />
-              ))}
-            </div>
-          </motion.div>
-        </AnimatePresence>
+    <div className="flex min-h-screen bg-[hsl(215,20%,97%)]">
+      {/* Professional Sidebar - ALWAYS VISIBLE */}
+      <div className="hidden lg:block">
+        <ProfessionalSidebar />
       </div>
 
-      {/* Validation Bar */}
-      <ProfessionalValidationBar
-        selectedAnswer={selectedAnswer}
-        isAnswerChecked={isAnswerChecked}
-        isCorrect={isCorrect}
-        explanation={isAnswerChecked ? currentQuestion.explanation : null}
-        sourceFile={isAnswerChecked ? currentQuestion.sourceFile : null}
-        onCheck={handleCheck}
-        onNext={handleNext}
-        onRetry={handleRetry}
-        onViewSource={() => toast.info('Consultation des sources PDF - Fonctionnalité à venir')}
-      />
+      {/* Main Quiz Area */}
+      <div className="flex-1 lg:ml-72 flex flex-col">
+        {/* Header */}
+        <ProfessionalQuizHeader
+          progress={progress}
+          hearts={hearts}
+          questionNumber={currentQuestionIndex + 1}
+          totalQuestions={mockQuestions.length}
+          difficulty={currentQuestion.difficulty || 2}
+          onExit={() => setShowExitModal(true)}
+        />
+
+        {/* Two Column Layout: Quiz + Source Panel */}
+        <div className="flex-1 grid lg:grid-cols-5 gap-6 px-6 py-8 pb-32">
+          {/* Left: Quiz (3/5 width) */}
+          <div className="lg:col-span-3 flex items-center">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentQuestionIndex}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+                className="w-full space-y-6"
+              >
+                {/* Question */}
+                <ProfessionalQuestionCard 
+                  question={currentQuestion.question}
+                  questionNumber={currentQuestionIndex + 1}
+                  difficulty={currentQuestion.difficulty || 2}
+                  sourceSection={currentQuestion.sourceSection}
+                  sousTheme="Environnement Territorial"
+                />
+
+                {/* Answer Options */}
+                <div className="grid grid-cols-1 gap-3">
+                  {currentQuestion.options.map((option, index) => (
+                    <ProfessionalAnswerOption
+                      key={option.id}
+                      option={option}
+                      index={index}
+                      selected={selectedAnswer === option.id}
+                      isCorrect={isAnswerChecked && option.id === currentQuestion.correctAnswer}
+                      isWrong={isAnswerChecked && selectedAnswer === option.id && !isCorrect}
+                      disabled={isAnswerChecked}
+                      onClick={() => handleAnswerSelect(option.id)}
+                    />
+                  ))}
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Right: Source Panel (2/5 width) */}
+          <div className="hidden lg:block lg:col-span-2">
+            <div className="sticky top-24">
+              <SourcePanel 
+                sourceFile={currentQuestion.sourceFile}
+                sourceSection={currentQuestion.sourceSection}
+                explanation={isAnswerChecked ? currentQuestion.explanation : null}
+                isCorrect={isCorrect}
+                showContent={isAnswerChecked}
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Validation Bar */}
+        <ProfessionalValidationBar
+          selectedAnswer={selectedAnswer}
+          isAnswerChecked={isAnswerChecked}
+          isCorrect={isCorrect}
+          explanation={isAnswerChecked ? currentQuestion.explanation : null}
+          sourceFile={isAnswerChecked ? currentQuestion.sourceFile : null}
+          onCheck={handleCheck}
+          onNext={handleNext}
+          onRetry={handleRetry}
+          onViewSource={() => toast.info('Consultation des sources PDF - Fonctionnalité à venir')}
+        />
+      </div>
 
       {/* Exit Modal */}
       <ExitModal

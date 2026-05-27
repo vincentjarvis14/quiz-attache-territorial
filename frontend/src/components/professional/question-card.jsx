@@ -47,17 +47,17 @@ const ProfessionalQuestionCard = ({
       </div>
 
       {/* Question Card */}
-      <div className="card-professional p-8">
+      <div className="card-professional p-8 bg-white">
         {/* Question Number Badge */}
-        <div className="inline-flex items-center gap-2 mb-5 px-3 py-1.5 rounded-md bg-muted">
+        <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-md bg-[hsl(215,25%,97%)]">
           <AlertCircle className="w-3.5 h-3.5 text-[hsl(215,25%,35%)]" />
           <span className="text-xs font-medium text-muted-foreground">
             Question {questionNumber}
           </span>
         </div>
 
-        {/* Question Text - Serif Legal Style */}
-        <div className="legal-text">
+        {/* Question Text - LARGE SERIF LEGAL STYLE */}
+        <div className="legal-text text-xl leading-loose font-serif text-[hsl(215,25%,10%)]">
           {question}
         </div>
       </div>
