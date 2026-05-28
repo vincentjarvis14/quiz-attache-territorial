@@ -7,6 +7,7 @@ import {
   challengeProgress,
   challenges,
   lessons,
+  profiles,
   sousThemes,
   themes,
   userProgress,
@@ -14,6 +15,17 @@ import {
   quizSessions,
   userAnswers,
 } from "@/db/schema";
+
+// ─── Profil utilisateur ─────────────────────────────────────────
+
+export const getProfile = cache(async () => {
+  const userId = await auth();
+  if (!userId) return null;
+
+  return db.query.profiles.findFirst({
+    where: eq(profiles.id, userId),
+  });
+});
 
 // ─── Progression utilisateur ────────────────────────────────────
 
@@ -466,9 +478,18 @@ export async function getQuestionsForSousTheme(
   limit: number = 10
 ) {
   return await db
-    .select()
+    .select({
+      id: challenges.id,
+      lessonId: challenges.lessonId,
+      question: challenges.question,
+      explanation: challenges.explanation,
+      sourceChunk: challenges.sourceChunk,
+      sourceSection: challenges.sourceSection,
+      difficulty: challenges.difficulty,
+    })
     .from(challenges)
-    .where(eq(challenges.lessonId, sousThemeId))
+    .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+    .where(eq(lessons.sousThemeId, sousThemeId))
     .orderBy(sql`RANDOM()`)
     .limit(limit);
 }
@@ -576,13 +597,21 @@ export async function saveUserAnswer(
     .then((r) => r[0]);
 
   if (question) {
+    // Récupérer le sousThemeId via la leçon
+    const lessonRow = await db.query.lessons.findFirst({
+      where: eq(lessons.id, question.lessonId),
+      columns: { sousThemeId: true },
+    });
+    const sousThemeId = lessonRow?.sousThemeId;
+    if (!sousThemeId) return;
+
     const existing = await db
       .select()
       .from(userSousThemeProgress)
       .where(
         and(
           eq(userSousThemeProgress.userId, userId),
-          eq(userSousThemeProgress.sousThemeId, question.lessonId)
+          eq(userSousThemeProgress.sousThemeId, sousThemeId)
         )
       )
       .limit(1)
@@ -614,7 +643,7 @@ export async function saveUserAnswer(
     } else {
       await db.insert(userSousThemeProgress).values({
         userId,
-        sousThemeId: question.lessonId,
+        sousThemeId,
         totalAnswered: 1,
         correctCount: correct ? 1 : 0,
         lastReviewedAt: new Date(),
@@ -623,6 +652,63 @@ export async function saveUserAnswer(
     }
   }
 }
+
+// ─── Stats page marketing ───────────────────────────────────────
+
+import { unstable_cache } from "next/cache";
+
+export const getMarketingStats = unstable_cache(
+  async () => {
+    const allThemes = await db
+      .select({
+        id: themes.id,
+        title: themes.title,
+        matiere: themes.matiere,
+        imageSrc: themes.imageSrc,
+      })
+      .from(themes)
+      .orderBy(themes.order);
+
+    const themesWithStats = await Promise.all(
+      allThemes.map(async (theme) => {
+        const [{ chapitreCount }] = await db
+          .select({ chapitreCount: sql<number>`count(*)` })
+          .from(sousThemes)
+          .where(eq(sousThemes.themeId, theme.id));
+
+        const [{ questionCount }] = await db
+          .select({ questionCount: sql<number>`count(*)` })
+          .from(challenges)
+          .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+          .innerJoin(sousThemes, eq(lessons.sousThemeId, sousThemes.id))
+          .where(eq(sousThemes.themeId, theme.id));
+
+        return {
+          ...theme,
+          chapitreCount: Number(chapitreCount),
+          questionCount: Number(questionCount),
+        };
+      })
+    );
+
+    const [{ totalQuestions }] = await db
+      .select({ totalQuestions: sql<number>`count(*)` })
+      .from(challenges);
+
+    const [{ totalDocs }] = await db
+      .select({ totalDocs: sql<number>`count(*)` })
+      .from(sousThemes);
+
+    return {
+      totalQuestions: Number(totalQuestions),
+      totalDocs: Number(totalDocs),
+      totalMatieres: allThemes.length,
+      themes: themesWithStats,
+    };
+  },
+  ["marketing-stats"],
+  { revalidate: 3600 }
+);
 
 // ─── Assistant IA (RAG) ─────────────────────────────────────────
 

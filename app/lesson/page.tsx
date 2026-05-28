@@ -1,35 +1,38 @@
 import { redirect } from "next/navigation";
+import { getLesson } from "@/db/queries";
+import { QuizPlayer, type QuizQuestion } from "./quiz-player";
 
-import { getLesson, getUserProgress } from "@/db/queries";
-import { Quiz } from "./quiz";
+const LessonPage = async ({
+  searchParams,
+}: {
+  searchParams: Promise<{ lessonId?: string }>;
+}) => {
+  const { lessonId } = await searchParams;
+  const lesson = await getLesson(lessonId ? Number(lessonId) : undefined);
 
-const LessonPage = async () => {
-  const lessonData = getLesson();
-  const userProgressData = getUserProgress();
-
-  const [lesson, userProgress] = await Promise.all([
-    lessonData,
-    userProgressData,
-  ]);
-
-  if (!lesson || !userProgress) {
+  if (!lesson) {
     redirect("/learn");
   }
 
-  const initialPercentage =
-    lesson.challenges.filter((challenge) => challenge.completed).length /
-    lesson.challenges.length *
-    100;
+  const questions: QuizQuestion[] = lesson.challenges.map((ch) => {
+    const opts = [...ch.challengeOptions].sort((a, b) => a.id - b.id);
+    return {
+      question: ch.question,
+      options: opts.map((o) => o.text),
+      correctIndex: opts.findIndex((o) => o.correct),
+      source: {
+        pdf: lesson.sousTheme?.title ?? "Cours",
+        section: ch.sourceSection ?? "",
+        excerpt: ch.sourceChunk,
+      },
+    };
+  });
 
-  return (
-    <Quiz
-      initialLessonId={lesson.id}
-      initialLessonChallenges={lesson.challenges}
-      initialHearts={userProgress.hearts}
-      initialPercentage={initialPercentage}
-      pdfFileName={lesson.sousTheme?.pdfFileName || undefined}
-    />
-  );
+  if (questions.length === 0) {
+    redirect("/learn");
+  }
+
+  return <QuizPlayer questions={questions} />;
 };
 
 export default LessonPage;
