@@ -1,0 +1,648 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Quels sont les massifs auxquels la loi Montagne est applicable ?",
+      "options": [
+        "Les massifs des Alpes, de Corse, du Massif central, du Jura, des Vosges et des Pyrénées",
+        "Uniquement les massifs des Alpes et des Pyrénées",
+        "Les massifs des Alpes, du Jura, des Vosges, des Ardennes et des Pyrénées",
+        "Tous les territoires situés à plus de 1 000 mètres d'altitude"
+      ],
+      "answer": 0,
+      "explanation": "La loi Montagne s'applique aux massifs des Alpes, de Corse, du Massif central, du Jura, des Vosges et des Pyrénées.",
+      "id": "urb1__101-loi-montagne__1__opus_001",
+      "sectionTitle": "Champ d'application de la loi Montagne",
+      "sourceLink": "#section-101-loi-montagne__1",
+      "sourceText": "il s'agit des massifs des Alpes, de Corse, du Massif central, du Jura, des Vosges et des Pyrénées.",
+      "sourceContext": "il s'agit des massifs des Alpes, de Corse, du Massif central, du Jura, des Vosges et des Pyrénées.",
+      "sectionId": "101-loi-montagne__1",
+      "keywords": [
+        "loi Montagne",
+        "massifs",
+        "champ d'application"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la portée des règles spécifiques issues de la loi Montagne en matière de travaux et d'aménagements ?",
+      "options": [
+        "Elles sont opposables tant aux personnes publiques que privées",
+        "Elles ne sont opposables qu'aux seules personnes publiques",
+        "Elles ne s'imposent qu'aux propriétaires privés riverains des massifs",
+        "Elles ont une simple valeur indicative pour les collectivités"
+      ],
+      "answer": 0,
+      "explanation": "Les règles de la loi Montagne s'imposent pour tous travaux et aménagements et sont opposables aux personnes publiques comme privées.",
+      "id": "urb1__101-loi-montagne__1__opus_002",
+      "sectionTitle": "Champ d'application de la loi Montagne",
+      "sourceLink": "#section-101-loi-montagne__1",
+      "sourceText": "Les règles spécifiques issues de la loi Montagne s'imposent pour tous travaux et aménagements et sont opposables tant aux personnes publiques que privées.",
+      "sourceContext": "Les règles spécifiques issues de la loi Montagne s'imposent pour tous travaux et aménagements et sont opposables tant aux personnes publiques que privées.",
+      "sectionId": "101-loi-montagne__1",
+      "keywords": [
+        "opposabilité",
+        "travaux",
+        "personnes publiques et privées"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel article du Code de l'urbanisme précise les principes fondateurs d'aménagement et de protection en zone de montagne ?",
+      "options": [
+        "L'article L. 145-3 du Code de l'urbanisme",
+        "L'article L. 142-2 du Code de l'urbanisme",
+        "L'article L. 145-5 du Code de l'urbanisme",
+        "L'article L. 121-1 du Code de l'urbanisme"
+      ],
+      "answer": 0,
+      "explanation": "Les principes fondateurs d'aménagement et de protection en zone de montagne sont précisés à l'article L. 145-3 du Code de l'urbanisme.",
+      "id": "urb1__101-loi-montagne__2__opus_003",
+      "sectionTitle": "Les principes d'aménagement et de protection en zone de montagne",
+      "sourceLink": "#section-101-loi-montagne__2",
+      "sourceText": "Les principes fondateurs d'aménagement et de protection en zone de montagne sont précisés à l'article L. 145-3 du Code de l'urbanisme.",
+      "sourceContext": "Les principes fondateurs d'aménagement et de protection en zone de montagne sont précisés à l'article L. 145-3 du Code de l'urbanisme.",
+      "sectionId": "101-loi-montagne__2",
+      "keywords": [
+        "L. 145-3",
+        "principes",
+        "aménagement"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment s'apprécie la nécessité de préserver les terres agricoles, pastorales et forestières en zone de montagne ?",
+      "options": [
+        "Au regard de leur rôle et de leur place dans les systèmes d'exploitation locaux",
+        "En fonction de la valeur vénale des parcelles concernées",
+        "Selon le seul classement opéré par le document d'urbanisme",
+        "D'après la surface minimale fixée par décret en Conseil d'État"
+      ],
+      "answer": 0,
+      "explanation": "La nécessité de préserver ces terres s'apprécie au regard de leur rôle et de leur place dans les systèmes d'exploitation locaux.",
+      "id": "urb1__101-loi-montagne__2_1_1__opus_004",
+      "sectionTitle": "Une constructibilité limitée",
+      "sourceLink": "#section-101-loi-montagne__2_1_1",
+      "sourceText": "La nécessité de préserver ces terres s'apprécie au regard de leur rôle et de leur place dans les systèmes d'exploitation locaux.",
+      "sourceContext": "La nécessité de préserver ces terres s'apprécie au regard de leur rôle et de leur place dans les systèmes d'exploitation locaux.",
+      "sectionId": "101-loi-montagne__2_1_1",
+      "keywords": [
+        "constructibilité limitée",
+        "terres agricoles",
+        "systèmes d'exploitation"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans un espace agricole de montagne, un porteur de projet souhaite édifier une construction. À quelle condition celle-ci peut-elle être autorisée ?",
+      "options": [
+        "Seulement si elle est nécessaire aux activités agricoles, pastorales ou forestières",
+        "Si elle respecte une hauteur maximale fixée par le PLU",
+        "Dès lors qu'elle est implantée à plus de 300 mètres d'une habitation",
+        "Si elle bénéficie d'un accord écrit des propriétaires voisins"
+      ],
+      "answer": 0,
+      "explanation": "Dans les espaces agricoles ou naturels, seules les constructions nécessaires à ces activités sont autorisées.",
+      "id": "urb1__101-loi-montagne__2_1_1__opus_005",
+      "sectionTitle": "Une constructibilité limitée",
+      "sourceLink": "#section-101-loi-montagne__2_1_1",
+      "sourceText": "Dans les espaces agricoles ou naturels, seules les constructions nécessaires à ces activités sont donc autorisées.",
+      "sourceContext": "Dans les espaces agricoles ou naturels, seules les constructions nécessaires à ces activités sont donc autorisées.",
+      "sectionId": "101-loi-montagne__2_1_1",
+      "keywords": [
+        "espaces agricoles",
+        "constructions nécessaires",
+        "autorisation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle autorité doit donner son accord pour la restauration ou l'extension limitée d'anciens chalets d'alpage ou de bâtiments d'estive ?",
+      "options": [
+        "Le préfet de département, après avis de la commission départementale compétente en matière de nature, de paysages et de sites",
+        "Le maire de la commune, après délibération du conseil municipal",
+        "Le président du conseil départemental, après avis du comité de massif",
+        "Le préfet coordonnateur de massif, sans avis préalable"
+      ],
+      "answer": 0,
+      "explanation": "Cette procédure spécifique nécessite l'accord du préfet de département, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "id": "urb1__101-loi-montagne__2_1_2__opus_006",
+      "sectionTitle": "Les autres constructions autorisées",
+      "sourceLink": "#section-101-loi-montagne__2_1_2",
+      "sourceText": "Il s'agit d'une procédure spécifique nécessitant l'accord du préfet de département, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sourceContext": "Il s'agit d'une procédure spécifique nécessitant l'accord du préfet de département, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sectionId": "101-loi-montagne__2_1_2",
+      "keywords": [
+        "chalets d'alpage",
+        "préfet de département",
+        "commission départementale"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un ancien chalet d'alpage n'est desservi que par une voie inutilisable en période hivernale. Quelle mesure l'autorité compétente peut-elle imposer au permis de construire ?",
+      "options": [
+        "L'institution d'une servitude administrative interdisant l'utilisation du bâtiment en période hivernale",
+        "Le raccordement obligatoire du bâtiment aux réseaux publics avant tous travaux",
+        "Le refus systématique de tout permis de construire sur le chalet",
+        "La démolition préalable des parties non desservies du bâtiment"
+      ],
+      "answer": 0,
+      "explanation": "L'autorité compétente peut subordonner les travaux à l'institution d'une servitude administrative interdisant l'utilisation du bâtiment en période hivernale.",
+      "id": "urb1__101-loi-montagne__2_1_2__opus_007",
+      "sectionTitle": "Les autres constructions autorisées",
+      "sourceLink": "#section-101-loi-montagne__2_1_2",
+      "sourceText": "l'autorité compétente peut subordonner la réalisation des travaux faisant l'objet d'un permis de construire ou d'une déclaration de travaux à l'institution d'une servitude administrative, publiée au fichier immobilier, interdisant l'utilisation du bâtiment en période hivernale ou limitant son usage pour tenir compte de l'absence de réseaux.",
+      "sourceContext": "l'autorité compétente peut subordonner la réalisation des travaux faisant l'objet d'un permis de construire ou d'une déclaration de travaux à l'institution d'une servitude administrative, publiée au fichier immobilier, interdisant l'utilisation du bâtiment en période hivernale ou limitant son usage pour tenir compte de l'absence de réseaux.",
+      "sectionId": "101-loi-montagne__2_1_2",
+      "keywords": [
+        "servitude administrative",
+        "période hivernale",
+        "absence de réseaux"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le principe de continuité, avec quels éléments l'urbanisation doit-elle être réalisée en zone de montagne ?",
+      "options": [
+        "Avec les bourgs, villages, hameaux, groupes de constructions traditionnelles ou d'habitations existants",
+        "Avec les seules zones urbaines délimitées par un SCOT",
+        "Avec les infrastructures touristiques et les remontées mécaniques",
+        "Avec les axes routiers principaux desservant le massif"
+      ],
+      "answer": 0,
+      "explanation": "L'urbanisation doit se réaliser en continuité avec les bourgs, villages, hameaux, groupes de constructions traditionnelles ou d'habitations existants.",
+      "id": "urb1__101-loi-montagne__2_1_2__opus_008",
+      "sectionTitle": "Les autres constructions autorisées",
+      "sourceLink": "#section-101-loi-montagne__2_1_2",
+      "sourceText": "L'urbanisation doit se réaliser en continuité avec les bourgs, villages, hameaux, groupes de constructions traditionnelles ou d'habitations existants.",
+      "sourceContext": "L'urbanisation doit se réaliser en continuité avec les bourgs, villages, hameaux, groupes de constructions traditionnelles ou d'habitations existants.",
+      "sectionId": "101-loi-montagne__2_1_2",
+      "keywords": [
+        "principe de continuité",
+        "urbanisation",
+        "bourgs et villages"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Les dérogations au principe d'urbanisation en continuité proviennent de plusieurs situations distinctes. Lesquelles ?",
+      "options": [
+        "L'adaptation ou l'extension limitée, l'insertion d'une étude dans le PLU ou le SCOT, la délimitation de hameaux nouveaux et l'application des exceptions à la constructibilité limitée",
+        "La seule délivrance d'un permis de construire par le préfet de massif",
+        "L'accord exprès des propriétaires riverains et l'avis de la chambre d'agriculture",
+        "L'existence d'un projet d'intérêt touristique majeur validé par la région"
+      ],
+      "answer": 0,
+      "explanation": "Les dérogations au principe de continuité proviennent de quatre situations, dont l'insertion d'une étude dans le PLU ou le SCOT et la délimitation de hameaux nouveaux.",
+      "id": "urb1__101-loi-montagne__2_2_2__opus_009",
+      "sectionTitle": "Les dérogations",
+      "sourceLink": "#section-101-loi-montagne__2_2_2",
+      "sourceText": "Les dérogations proviennent de quatre situations : l'adaptation, de l'extension limitée des constructions existantes et de la réalisation d'installations incompatibles avec le voisinage des zones habitées (2.2.2.1), l'insertion d'une étude dans le PLU ou le SCOT (2.2.2.2), la délimitation de groupes d'habitation ou de hameaux nouveaux intégrés à l'environnement (2.2.2.3), l'application des exceptions au principe de constructibilité limitée (2.2.2.4).",
+      "sourceContext": "Les dérogations proviennent de quatre situations : l'adaptation, de l'extension limitée des constructions existantes et de la réalisation d'installations incompatibles avec le voisinage des zones habitées (2.2.2.1), l'insertion d'une étude dans le PLU ou le SCOT (2.2.2.2), la délimitation de groupes d'habitation ou de hameaux nouveaux intégrés à l'environnement (2.2.2.3), l'application des exceptions au principe de constructibilité limitée (2.2.2.4).",
+      "sectionId": "101-loi-montagne__2_2_2",
+      "keywords": [
+        "dérogations",
+        "continuité",
+        "quatre situations"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune dotée d'un PLU souhaite organiser une extension de l'urbanisation. Que peut prévoir ce document à cet égard ?",
+      "options": [
+        "Délimiter les hameaux et groupes de constructions existants en continuité desquels il prévoit une extension de l'urbanisation",
+        "Autoriser librement les constructions isolées sur tout le territoire communal",
+        "Supprimer toute obligation de continuité de l'urbanisation",
+        "Imposer une distance minimale de 300 mètres entre chaque nouvelle construction"
+      ],
+      "answer": 0,
+      "explanation": "Le PLU peut délimiter les hameaux et groupes de constructions existants en continuité desquels il prévoit une extension de l'urbanisation.",
+      "id": "urb1__101-loi-montagne__2_2_2_1__opus_010",
+      "sectionTitle": "Les dérogations tirées de l'adaptation, de l'extension limitée des constructions existantes",
+      "sourceLink": "#section-101-loi-montagne__2_2_2_1",
+      "sourceText": "ce document peut délimiter les hameaux et groupes de constructions traditionnelles ou d'habitations existants en continuité desquels il prévoit une extension de l'urbanisation, en prenant en compte les caractéristiques traditionnelles de l'habitat, les constructions implantées et l'existence de voies et réseaux.",
+      "sourceContext": "ce document peut délimiter les hameaux et groupes de constructions traditionnelles ou d'habitations existants en continuité desquels il prévoit une extension de l'urbanisation, en prenant en compte les caractéristiques traditionnelles de l'habitat, les constructions implantées et l'existence de voies et réseaux.",
+      "sectionId": "101-loi-montagne__2_2_2_1",
+      "keywords": [
+        "PLU",
+        "délimitation des hameaux",
+        "extension de l'urbanisation"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque le SCOT ou le PLU comporte une étude justifiant une urbanisation en discontinuité, à quelle instance cette étude doit-elle être soumise avant l'arrêt du projet ?",
+      "options": [
+        "À la commission départementale compétente en matière de nature, de paysages et de sites",
+        "Au comité de massif réuni en formation plénière",
+        "Au préfet coordonnateur de massif statuant seul",
+        "À la chambre d'agriculture et au conseil départemental"
+      ],
+      "answer": 0,
+      "explanation": "L'étude est soumise, avant l'arrêt du projet, à la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "id": "urb1__101-loi-montagne__2_2_2_2__opus_011",
+      "sectionTitle": "L'insertion d'une étude dans le PLU ou le SCOT",
+      "sourceLink": "#section-101-loi-montagne__2_2_2_2",
+      "sourceText": "L'étude est soumise, avant l'arrêt du projet de schéma ou de plan, à la commission départementale compétente en matière de nature, de paysages et de sites dont l'avis est joint au dossier de l'enquête publique ; le plan local d'urbanisme ou la carte communale délimite alors les zones à urbaniser dans le respect des conclusions de cette étude.",
+      "sourceContext": "L'étude est soumise, avant l'arrêt du projet de schéma ou de plan, à la commission départementale compétente en matière de nature, de paysages et de sites dont l'avis est joint au dossier de l'enquête publique ; le plan local d'urbanisme ou la carte communale délimite alors les zones à urbaniser dans le respect des conclusions de cette étude.",
+      "sectionId": "101-loi-montagne__2_2_2_2",
+      "keywords": [
+        "étude",
+        "commission départementale",
+        "discontinuité"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En l'absence d'étude, à quelles conditions le PLU peut-il délimiter à titre exceptionnel des zones d'urbanisation future de taille et de capacité d'accueil limitées ?",
+      "options": [
+        "Après accord de la chambre d'agriculture et de la commission départementale compétente en matière de nature, de paysages et de sites",
+        "Après simple délibération motivée du conseil municipal",
+        "Après accord du seul préfet coordonnateur de massif",
+        "Après avis conforme du comité de massif et enquête publique"
+      ],
+      "answer": 0,
+      "explanation": "Ces zones ne peuvent être délimitées qu'à titre exceptionnel et après accord de la chambre d'agriculture et de la commission départementale compétente.",
+      "id": "urb1__101-loi-montagne__2_2_2_3__opus_012",
+      "sectionTitle": "La délimitation de groupes d'habitation ou de hameaux nouveaux intégrés à l'environnement",
+      "sourceLink": "#section-101-loi-montagne__2_2_2_3",
+      "sourceText": "le plan local d'urbanisme ou la carte communale peut délimiter des hameaux et des groupes d'habitations nouveaux intégrés à l'environnement ou, à titre exceptionnel et après accord de la chambre d'agriculture et de la commission départementale compétente en matière de nature, de paysages et de sites, des zones d'urbanisation future de taille et de capacité d'accueil limitées.",
+      "sourceContext": "le plan local d'urbanisme ou la carte communale peut délimiter des hameaux et des groupes d'habitations nouveaux intégrés à l'environnement ou, à titre exceptionnel et après accord de la chambre d'agriculture et de la commission départementale compétente en matière de nature, de paysages et de sites, des zones d'urbanisation future de taille et de capacité d'accueil limitées.",
+      "sectionId": "101-loi-montagne__2_2_2_3",
+      "keywords": [
+        "hameaux nouveaux",
+        "chambre d'agriculture",
+        "zones d'urbanisation future"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans une commune sans PLU ni carte communale, quel motif peut justifier d'autoriser des constructions non situées en continuité de l'existant ?",
+      "options": [
+        "L'intérêt de la commune, en particulier pour éviter une diminution de la population communale",
+        "La volonté de développer les résidences secondaires sur le territoire",
+        "La recherche de recettes fiscales supplémentaires pour la commune",
+        "Le simple souhait des propriétaires de bâtir sur leurs parcelles"
+      ],
+      "answer": 0,
+      "explanation": "Ces constructions peuvent être autorisées si l'intérêt de la commune, en particulier pour éviter une diminution de la population communale, le justifie.",
+      "id": "urb1__101-loi-montagne__2_2_2_4__opus_013",
+      "sectionTitle": "L'application des exceptions au principe de constructibilité limitée",
+      "sourceLink": "#section-101-loi-montagne__2_2_2_4",
+      "sourceText": "peuvent être autorisées, si l'intérêt de la commune, en particulier pour éviter une diminution de la population communale, le justifie.",
+      "sourceContext": "peuvent être autorisées, si l'intérêt de la commune, en particulier pour éviter une diminution de la population communale, le justifie.",
+      "sectionId": "101-loi-montagne__2_2_2_4",
+      "keywords": [
+        "communes sans PLU",
+        "population communale",
+        "exception"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Avant d'accorder cette dérogation dans une commune sans document d'urbanisme, de quoi faut-il notamment s'assurer ?",
+      "options": [
+        "Que la commune ne subit pas de pression foncière due au développement démographique ou à la construction de résidences secondaires",
+        "Que la commune dispose d'un budget suffisant pour viabiliser les terrains",
+        "Que la majorité des habitants a approuvé le projet par référendum local",
+        "Que le projet est situé à plus de 300 mètres d'un plan d'eau"
+      ],
+      "answer": 0,
+      "explanation": "Il faut s'assurer que la commune ne subit pas de pression foncière due au développement démographique ou à la construction de résidences secondaires.",
+      "id": "urb1__101-loi-montagne__2_2_2_4__opus_014",
+      "sectionTitle": "L'application des exceptions au principe de constructibilité limitée",
+      "sourceLink": "#section-101-loi-montagne__2_2_2_4",
+      "sourceText": "il faut s'assurer que la commune ne subit pas de pression foncière due au développement démographique ou à la construction de résidences secondaires et que la dérogation envisagée est compatible avec les objectifs de protection des terres agricoles, pastorales et forestières et avec la préservation des paysages et milieux caractéristiques du patrimoine naturel.",
+      "sourceContext": "il faut s'assurer que la commune ne subit pas de pression foncière due au développement démographique ou à la construction de résidences secondaires et que la dérogation envisagée est compatible avec les objectifs de protection des terres agricoles, pastorales et forestières et avec la préservation des paysages et milieux caractéristiques du patrimoine naturel.",
+      "sectionId": "101-loi-montagne__2_2_2_4",
+      "keywords": [
+        "pression foncière",
+        "résidences secondaires",
+        "dérogation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Sur quelle distance, à compter de la rive, l'urbanisation est-elle interdite sur les parties naturelles des rives des plans d'eau de montagne ?",
+      "options": [
+        "Trois cents mètres",
+        "Cent mètres",
+        "Cinq cents mètres",
+        "Deux cents mètres"
+      ],
+      "answer": 0,
+      "explanation": "Toutes constructions et installations nouvelles sont interdites sur les parties naturelles des rives des plans d'eau sur une distance de trois cents mètres à compter de la rive.",
+      "id": "urb1__101-loi-montagne__2_3_1_1__opus_015",
+      "sectionTitle": "Une urbanisation interdite",
+      "sourceLink": "#section-101-loi-montagne__2_3_1_1",
+      "sourceText": "Toutes constructions, installations et routes nouvelles, ainsi que toutes extractions et tous affouillements, sont interdites sur les parties naturelles des rives des plans d'eau naturels ou artificiels sur une distance de trois cents mètres à compter de la rive.",
+      "sourceContext": "Toutes constructions, installations et routes nouvelles, ainsi que toutes extractions et tous affouillements, sont interdites sur les parties naturelles des rives des plans d'eau naturels ou artificiels sur une distance de trois cents mètres à compter de la rive.",
+      "sectionId": "101-loi-montagne__2_3_1_1",
+      "keywords": [
+        "rives des plans d'eau",
+        "trois cents mètres",
+        "interdiction"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quels plans d'eau l'interdiction d'urbaniser les rives prévue par la loi Montagne ne s'applique-t-elle pas ?",
+      "options": [
+        "Aux plans d'eau de plus de 1 000 ha, soumis à la loi Littoral",
+        "Aux plans d'eau artificiels créés après l'entrée en vigueur de la loi",
+        "Aux plans d'eau situés à moins de 300 mètres d'une agglomération",
+        "Aux plans d'eau dont les rives sont déjà urbanisées pour moitié"
+      ],
+      "answer": 0,
+      "explanation": "Cette interdiction ne s'applique pas aux plans d'eau de plus de 1 000 ha, qui relèvent de la loi Littoral.",
+      "id": "urb1__101-loi-montagne__2_3_1_1__opus_016",
+      "sectionTitle": "Une urbanisation interdite",
+      "sourceLink": "#section-101-loi-montagne__2_3_1_1",
+      "sourceText": "Cette disposition ne s'applique pas aux plans d'eau de plus de 1 000 ha qui sont soumis à la loi « littoral ».",
+      "sourceContext": "Cette disposition ne s'applique pas aux plans d'eau de plus de 1 000 ha qui sont soumis à la loi « littoral ».",
+      "sectionId": "101-loi-montagne__2_3_1_1",
+      "keywords": [
+        "plans d'eau",
+        "loi Littoral",
+        "1 000 hectares"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pour exempter certains plans d'eau de l'interdiction d'urbaniser en raison de la faible part de leurs rives en zone de montagne, quelle autorité intervient par arrêté ?",
+      "options": [
+        "Le préfet coordonnateur de massif, pour les plans d'eau dont moins du quart des rives est situé en zone de montagne",
+        "Le préfet de département, pour les plans d'eau dont plus de la moitié des rives est en zone de montagne",
+        "Le maire, pour tous les plans d'eau situés sur le territoire communal",
+        "Le ministre chargé de l'urbanisme, pour l'ensemble des plans d'eau du massif"
+      ],
+      "answer": 0,
+      "explanation": "Le préfet coordonnateur de massif peut exempter par arrêté les plans d'eau dont moins du quart des rives est situé dans la zone de montagne.",
+      "id": "urb1__101-loi-montagne__2_3_1_2__opus_017",
+      "sectionTitle": "Les dérogations",
+      "sourceLink": "#section-101-loi-montagne__2_3_1_2",
+      "sourceText": "par arrêté du préfet coordonnateur de massif, les plans d'eau dont moins du quart des rives est situé dans la zone de montagne.",
+      "sourceContext": "par arrêté du préfet coordonnateur de massif, les plans d'eau dont moins du quart des rives est situé dans la zone de montagne.",
+      "sectionId": "101-loi-montagne__2_3_1_2",
+      "keywords": [
+        "préfet coordonnateur de massif",
+        "plans d'eau",
+        "quart des rives"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quelle condition les installations et ouvrages des services publics autres que les remontées mécaniques échappent-ils aux dispositions de protection de la zone de montagne ?",
+      "options": [
+        "Si leur localisation dans ces espaces correspond à une nécessité technique impérative",
+        "S'ils ont reçu un avis favorable du comité de massif",
+        "S'ils sont implantés à plus de 300 mètres de toute habitation",
+        "S'ils sont financés majoritairement par des fonds publics"
+      ],
+      "answer": 0,
+      "explanation": "Ces installations ne sont pas soumises aux dispositions de la section si leur localisation correspond à une nécessité technique impérative.",
+      "id": "urb1__101-loi-montagne__2_3_3__opus_018",
+      "sectionTitle": "Les installations répondant à une nécessité technique particulière",
+      "sourceLink": "#section-101-loi-montagne__2_3_3",
+      "sourceText": "Les installations et ouvrages nécessaires aux établissements scientifiques, à la défense nationale, aux recherches et à l'exploitation de ressources minérales d'intérêt national, à la protection contre les risques naturels et aux services publics autres que les remontées mécaniques ne sont pas soumis aux dispositions de la présente section si leur localisation dans ces espaces correspond à une nécessité technique impérative.",
+      "sourceContext": "Les installations et ouvrages nécessaires aux établissements scientifiques, à la défense nationale, aux recherches et à l'exploitation de ressources minérales d'intérêt national, à la protection contre les risques naturels et aux services publics autres que les remontées mécaniques ne sont pas soumis aux dispositions de la présente section si leur localisation dans ces espaces correspond à une nécessité technique impérative.",
+      "sectionId": "101-loi-montagne__2_3_3",
+      "keywords": [
+        "nécessité technique impérative",
+        "services publics",
+        "remontées mécaniques"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que doit notamment respecter le développement touristique et la création d'une UTN en zone de montagne ?",
+      "options": [
+        "La qualité des sites et les grands équilibres naturels, en prenant en compte les communautés d'intérêt des collectivités locales concernées",
+        "La seule rentabilité économique du projet touristique",
+        "Le classement préalable de la station par le ministre du tourisme",
+        "L'avis conforme de la chambre de commerce et d'industrie"
+      ],
+      "answer": 0,
+      "explanation": "La création d'une UTN doit respecter la qualité des sites et les grands équilibres naturels et prendre en compte les communautés d'intérêt des collectivités concernées.",
+      "id": "urb1__101-loi-montagne__3__opus_019",
+      "sectionTitle": "L'encadrement du développement touristique et des unités touristiques nouvelles",
+      "sourceLink": "#section-101-loi-montagne__3",
+      "sourceText": "doit respecter la qualité des sites et les grands équilibres naturels et prendre en compte les communautés d'intérêt des collectivités locales concernées.",
+      "sourceContext": "doit respecter la qualité des sites et les grands équilibres naturels et prendre en compte les communautés d'intérêt des collectivités locales concernées.",
+      "sectionId": "101-loi-montagne__3",
+      "keywords": [
+        "UTN",
+        "qualité des sites",
+        "équilibres naturels"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un projet en zone de montagne crée des remontées mécaniques. À quel titre est-il susceptible d'être qualifié d'unité touristique nouvelle ?",
+      "options": [
+        "Parce que la création de remontées mécaniques constitue l'une des hypothèses d'UTN",
+        "Uniquement s'il s'accompagne de surfaces d'hébergement touristique",
+        "Seulement si le domaine skiable existant est étendu de plus de 50 %",
+        "Parce que toute remontée mécanique est par nature soumise à autorisation préfectorale"
+      ],
+      "answer": 0,
+      "explanation": "La création de remontées mécaniques constitue l'une des hypothèses pouvant qualifier une opération d'unité touristique nouvelle.",
+      "id": "urb1__101-loi-montagne__3_1__opus_020",
+      "sectionTitle": "La définition de l'unité touristique nouvelle",
+      "sourceLink": "#section-101-loi-montagne__3_1",
+      "sourceText": "Une autre hypothèse consiste en la création de remontées mécaniques.",
+      "sourceContext": "Une autre hypothèse consiste en la création de remontées mécaniques.",
+      "sectionId": "101-loi-montagne__3_1",
+      "keywords": [
+        "UTN",
+        "remontées mécaniques",
+        "définition"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la fonction de l'autorisation UTN au regard des obligations de l'article L. 145-3 III ?",
+      "options": [
+        "Permettre de s'affranchir des obligations issues de l'article L. 145-3 III",
+        "Renforcer les obligations de continuité de l'urbanisation",
+        "Dispenser le projet de toute évaluation environnementale",
+        "Transférer la compétence d'urbanisme au préfet de massif"
+      ],
+      "answer": 0,
+      "explanation": "L'autorisation UTN permet de s'affranchir des obligations issues de l'article L. 145-3 III.",
+      "id": "urb1__101-loi-montagne__3_2__opus_021",
+      "sectionTitle": "Le but des UTN",
+      "sourceLink": "#section-101-loi-montagne__3_2",
+      "sourceText": "L'autorisation UTN est uniquement de nature à permettre de s'affranchir des obligations issues de l'article L 145-3 III (urbanisation en continuité et capacité d'accueil des espaces destinés à l'urbanisation compatible avec la préservation des espaces naturels et agricoles, avis de la commission départementale compétente en matière de nature, de paysages et de sites).",
+      "sourceContext": "L'autorisation UTN est uniquement de nature à permettre de s'affranchir des obligations issues de l'article L 145-3 III (urbanisation en continuité et capacité d'accueil des espaces destinés à l'urbanisation compatible avec la préservation des espaces naturels et agricoles, avis de la commission départementale compétente en matière de nature, de paysages et de sites).",
+      "sectionId": "101-loi-montagne__3_2",
+      "keywords": [
+        "autorisation UTN",
+        "L. 145-3 III",
+        "affranchissement"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune n'est pas couverte par un SCOT et envisage la création d'une UTN. Quelle est la conséquence procédurale ?",
+      "options": [
+        "La création et l'extension d'unités touristiques nouvelles sont soumises à autorisation",
+        "La création est libre, le SCOT n'étant pas obligatoire en zone de montagne",
+        "La création relève de la seule compétence du conseil municipal",
+        "La création est interdite tant qu'un SCOT n'a pas été approuvé"
+      ],
+      "answer": 0,
+      "explanation": "Dans les communes non couvertes par un SCOT, la création et l'extension d'UTN sont soumises à autorisation.",
+      "id": "urb1__101-loi-montagne__3_3_1__opus_022",
+      "sectionTitle": "Dans les communes non couvertes par un SCOT",
+      "sourceLink": "#section-101-loi-montagne__3_3_1",
+      "sourceText": "Dans les communes qui ne sont pas couvertes par un schéma de cohérence territoriale, la création et l'extension d'unités touristiques nouvelles sont soumises à autorisation.",
+      "sourceContext": "Dans les communes qui ne sont pas couvertes par un schéma de cohérence territoriale, la création et l'extension d'unités touristiques nouvelles sont soumises à autorisation.",
+      "sectionId": "101-loi-montagne__3_3_1",
+      "keywords": [
+        "communes sans SCOT",
+        "UTN",
+        "autorisation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Qui délivre l'autorisation pour une UTN d'importance interrégionale ou régionale ?",
+      "options": [
+        "Le préfet coordonnateur de massif, après avis de la commission spécialisée du comité de massif",
+        "Le préfet de département, après avis de la commission départementale de la nature",
+        "Le président du conseil régional, après délibération de l'assemblée",
+        "Le ministre chargé du tourisme, après avis du comité de massif"
+      ],
+      "answer": 0,
+      "explanation": "L'autorisation des UTN interrégionales ou régionales est délivrée par le préfet coordonnateur de massif, après avis de la commission spécialisée du comité de massif.",
+      "id": "urb1__101-loi-montagne__3_3_2__opus_023",
+      "sectionTitle": "Pour les UTN d'importance interrégionale ou régionale",
+      "sourceLink": "#section-101-loi-montagne__3_3_2",
+      "sourceText": "L'autorisation est délivrée par le préfet coordonnateur de massif, après avis de la commission spécialisée du comité de massif, lorsqu'elle porte sur des remontées mécaniques qui ont pour effet la création d'un nouveau domaine skiable ou l'extension du domaine skiable existant au-delà d'un seuil fixé par décret en Conseil d'Etat, ou sur une opération qui présente un intérêt régional ou interrégional en raison de sa surface ou de sa capacité d'accueil.",
+      "sourceContext": "L'autorisation est délivrée par le préfet coordonnateur de massif, après avis de la commission spécialisée du comité de massif, lorsqu'elle porte sur des remontées mécaniques qui ont pour effet la création d'un nouveau domaine skiable ou l'extension du domaine skiable existant au-delà d'un seuil fixé par décret en Conseil d'Etat, ou sur une opération qui présente un intérêt régional ou interrégional en raison de sa surface ou de sa capacité d'accueil.",
+      "sectionId": "101-loi-montagne__3_3_2",
+      "keywords": [
+        "UTN régionale",
+        "préfet coordonnateur de massif",
+        "comité de massif"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Qui délivre l'autorisation pour une UTN d'importance départementale ?",
+      "options": [
+        "Le représentant de l'État dans le département, après avis d'une formation spécialisée de la commission départementale compétente en matière de nature, de paysages et des sites",
+        "Le préfet coordonnateur de massif, après avis du comité de massif",
+        "Le président du conseil départemental, après avis de la chambre d'agriculture",
+        "Le maire, après délibération du conseil municipal"
+      ],
+      "answer": 0,
+      "explanation": "L'autorisation des UTN départementales est délivrée par le représentant de l'État dans le département, après avis d'une formation spécialisée de la commission départementale.",
+      "id": "urb1__101-loi-montagne__3_3_3__opus_024",
+      "sectionTitle": "Pour les UTN d'importance départementale",
+      "sourceLink": "#section-101-loi-montagne__3_3_3",
+      "sourceText": "L'autorisation est délivrée par le représentant de l'Etat dans le département, après avis d'une formation spécialisée de la commission départementale compétente en matière de nature, de paysages et des sites, lorsqu'elle porte sur une remontée mécanique ayant pour effet l'extension d'un domaine skiable existant au-delà d'un seuil fixé par décret en Conseil d'Etat, ou sur une opération qui présente un intérêt local en raison de sa situation, de sa surface ou de sa capacité d'accueil.",
+      "sourceContext": "L'autorisation est délivrée par le représentant de l'Etat dans le département, après avis d'une formation spécialisée de la commission départementale compétente en matière de nature, de paysages et des sites, lorsqu'elle porte sur une remontée mécanique ayant pour effet l'extension d'un domaine skiable existant au-delà d'un seuil fixé par décret en Conseil d'Etat, ou sur une opération qui présente un intérêt local en raison de sa situation, de sa surface ou de sa capacité d'accueil.",
+      "sectionId": "101-loi-montagne__3_3_3",
+      "keywords": [
+        "UTN départementale",
+        "représentant de l'État",
+        "commission départementale"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pendant quelle durée minimale le dossier d'un projet d'UTN d'importance régionale ou départementale hors SCOT doit-il être mis à la disposition du public ?",
+      "options": [
+        "Pendant au moins un mois",
+        "Pendant au moins quinze jours",
+        "Pendant au moins deux mois",
+        "Pendant au moins trois mois"
+      ],
+      "answer": 0,
+      "explanation": "Le dossier doit être mis à la disposition du public pendant au moins un mois.",
+      "id": "urb1__101-loi-montagne__3_4_1__opus_025",
+      "sectionTitle": "L'instruction",
+      "sourceLink": "#section-101-loi-montagne__3_4_1",
+      "sourceText": "le dossier doit être mis à la disposition du public pendant au moins un mois.",
+      "sourceContext": "le dossier doit être mis à la disposition du public pendant au moins un mois.",
+      "sectionId": "101-loi-montagne__3_4_1",
+      "keywords": [
+        "UTN",
+        "mise à disposition du public",
+        "instruction"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un porteur de projet constitue son dossier de demande d'UTN. Quel élément doit-il notamment y faire figurer ?",
+      "options": [
+        "L'état des milieux naturels, des paysages, du site et de son environnement",
+        "Le plan de financement détaillé des seuls fonds publics sollicités",
+        "La liste nominative des futurs employés de la station",
+        "Le calendrier prévisionnel des compétitions sportives envisagées"
+      ],
+      "answer": 0,
+      "explanation": "Le dossier doit comprendre l'état des milieux naturels, des paysages, du site et de son environnement.",
+      "id": "urb1__101-loi-montagne__3_4_2__opus_026",
+      "sectionTitle": "Le contenu du dossier de demande d'UTN",
+      "sourceLink": "#section-101-loi-montagne__3_4_2",
+      "sourceText": "Ils doivent comprendre l'état des milieux naturels, des paysages, du site et de son environnement, les caractéristiques principales du projet, et notamment de la demande à satisfaire.",
+      "sourceContext": "Ils doivent comprendre l'état des milieux naturels, des paysages, du site et de son environnement, les caractéristiques principales du projet, et notamment de la demande à satisfaire.",
+      "sectionId": "101-loi-montagne__3_4_2",
+      "keywords": [
+        "dossier UTN",
+        "milieux naturels",
+        "contenu"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle directive territoriale d'aménagement précise les modalités d'application des dispositions particulières aux zones de montagne ?",
+      "options": [
+        "La DTA des Alpes Maritimes, seule DTA à le faire",
+        "La DTA des Alpes du Nord et de la Savoie",
+        "La DTA du Massif central, approuvée la même année",
+        "Plusieurs DTA réparties sur l'ensemble des massifs"
+      ],
+      "answer": 0,
+      "explanation": "La DTA des Alpes Maritimes est la seule DTA qui précise les modalités d'application des dispositions particulières aux zones de montagne.",
+      "id": "urb1__101-loi-montagne__4_1__opus_027",
+      "sectionTitle": "Les directives territoriales d'aménagement",
+      "sourceLink": "#section-101-loi-montagne__4_1",
+      "sourceText": "est la seule DTA qui précise les modalités d'application des dispositions particulières aux zones de montagne, adaptées aux particularités géographiques locales.",
+      "sourceContext": "est la seule DTA qui précise les modalités d'application des dispositions particulières aux zones de montagne, adaptées aux particularités géographiques locales.",
+      "sectionId": "101-loi-montagne__4_1",
+      "keywords": [
+        "DTA",
+        "Alpes Maritimes",
+        "zones de montagne"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En l'absence de DTA, comment des prescriptions particulières de massif acquièrent-elles une portée juridique ?",
+      "options": [
+        "Par des décrets en Conseil d'État, sur proposition du Comité de massif",
+        "Par simple arrêté du préfet coordonnateur de massif",
+        "Par délibération concordante des conseils départementaux concernés",
+        "Par approbation directe du SCOT couvrant le massif"
+      ],
+      "answer": 0,
+      "explanation": "Ce sont des décrets en Conseil d'État qui donnent une portée juridique aux prescriptions particulières de massif.",
+      "id": "urb1__101-loi-montagne__4_2__opus_028",
+      "sectionTitle": "Les prescriptions particulières de massif",
+      "sourceLink": "#section-101-loi-montagne__4_2",
+      "sourceText": "Ce sont ensuite des décrets en Conseil d'Etat qui donnent une portée juridique à ces prescriptions.",
+      "sourceContext": "Ce sont ensuite des décrets en Conseil d'Etat qui donnent une portée juridique à ces prescriptions.",
+      "sectionId": "101-loi-montagne__4_2",
+      "keywords": [
+        "prescriptions de massif",
+        "décret en Conseil d'État",
+        "Comité de massif"
+      ]
+    }
+  ]
+}

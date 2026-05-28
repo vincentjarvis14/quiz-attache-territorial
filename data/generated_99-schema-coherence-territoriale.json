@@ -1,0 +1,726 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Quels documents spécifiques composent le schéma de cohérence territoriale ?",
+      "options": [
+        "Deux documents : un rapport de présentation et un règlement",
+        "Trois documents : un rapport de présentation, un PADD et un document d'orientation et d'objectifs",
+        "Quatre documents, dont un règlement opposable aux tiers",
+        "Un document unique comportant des annexes graphiques"
+      ],
+      "answer": 1,
+      "explanation": "Le SCOT comprend trois documents : un rapport de présentation, un PADD et un document d'orientations et d'objectifs.",
+      "id": "urb1__99-schema-coherence-territoriale__1__opus_001",
+      "sectionTitle": "Contenu du SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1",
+      "sourceText": "Le Schéma de cohérence territoriale comprend trois documents spécifiques, chacun pouvant comprendre des documents graphiques : un rapport de présentation (1.1), un projet d'aménagement et de développement durables (1.2), ainsi qu'un document d'orientations et d'objectifs (1.3).",
+      "sourceContext": "Le Schéma de cohérence territoriale comprend trois documents spécifiques, chacun pouvant comprendre des documents graphiques : un rapport de présentation (1.1), un projet d'aménagement et de développement durables (1.2), ainsi qu'un document d'orientations et d'objectifs (1.3).",
+      "sectionId": "99-schema-coherence-territoriale__1",
+      "keywords": ["SCOT", "trois documents", "composition"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le rôle principal du rapport de présentation du SCOT ?",
+      "options": [
+        "Un rôle réglementaire opposable aux autorisations d'urbanisme",
+        "Un rôle avant tout explicatif des choix retenus",
+        "Un rôle de fixation des objectifs des politiques publiques",
+        "Un rôle de délimitation graphique des zones constructibles"
+      ],
+      "answer": 1,
+      "explanation": "Le rapport de présentation a avant tout un rôle explicatif des choix retenus pour établir le PADD et le DOO.",
+      "id": "urb1__99-schema-coherence-territoriale__1_1__opus_002",
+      "sectionTitle": "Le rapport de présentation",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_1",
+      "sourceText": "Le rapport de présentation a avant tout un rôle explicatif. Il explique en effet les choix retenus pour établir le projet d'aménagement et de développement durables (PADD), ainsi que le document d'orientation et d'objectifs.",
+      "sourceContext": "Le rapport de présentation a avant tout un rôle explicatif. Il explique en effet les choix retenus pour établir le projet d'aménagement et de développement durables (PADD), ainsi que le document d'orientation et d'objectifs.",
+      "sectionId": "99-schema-coherence-territoriale__1_1",
+      "keywords": ["rapport de présentation", "rôle explicatif"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Sur quelle période le rapport de présentation doit-il analyser la consommation d'espaces naturels, agricoles et forestiers ?",
+      "options": [
+        "Les dix années précédant l'approbation du schéma",
+        "Les cinq années précédant l'approbation du schéma",
+        "Les vingt années précédant l'approbation du schéma",
+        "La période courant depuis la dernière révision du document"
+      ],
+      "answer": 0,
+      "explanation": "Le rapport analyse la consommation d'espaces au cours des dix années précédant l'approbation du schéma.",
+      "id": "urb1__99-schema-coherence-territoriale__1_1__opus_003",
+      "sectionTitle": "Le rapport de présentation",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_1",
+      "sourceText": "En outre, le rapport de présentation doit présenter une analyse de la consommation d'espaces naturels, agricoles et forestiers au cours des dix années précédant l'approbation du schéma.",
+      "sourceContext": "En outre, le rapport de présentation doit présenter une analyse de la consommation d'espaces naturels, agricoles et forestiers au cours des dix années précédant l'approbation du schéma.",
+      "sectionId": "99-schema-coherence-territoriale__1_1",
+      "keywords": ["consommation d'espaces", "analyse", "dix ans"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle est la fonction principale du projet d'aménagement et de développement durables (PADD) ?",
+      "options": [
+        "Fixer des objectifs à atteindre dans de nombreux domaines",
+        "Édicter des règles opposables aux permis de construire",
+        "Justifier les choix par un diagnostic démographique",
+        "Délimiter le périmètre constructible des communes"
+      ],
+      "answer": 0,
+      "explanation": "Le PADD fixe des objectifs à atteindre dans de nombreux domaines.",
+      "id": "urb1__99-schema-coherence-territoriale__1_2__opus_004",
+      "sectionTitle": "Le projet d'aménagement et de développement durables (PADD)",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_2",
+      "sourceText": "Le projet d'aménagement et de développement durables (PADD) fixe des objectifs à atteindre dans de nombreux domaines.",
+      "sourceContext": "Le projet d'aménagement et de développement durables (PADD) fixe des objectifs à atteindre dans de nombreux domaines.",
+      "sectionId": "99-schema-coherence-territoriale__1_2",
+      "keywords": ["PADD", "objectifs"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le périmètre d'un SCOT recouvre en partie celui d'un pays publié par arrêté préfectoral. Quelle obligation pèse sur le PADD ?",
+      "options": [
+        "Le PADD doit être soumis pour avis à l'organe de gestion du pays",
+        "Le PADD prend en compte la charte de développement du pays",
+        "Le PADD doit reprendre intégralement les objectifs de la charte du pays",
+        "Le PADD est dispensé de fixer des objectifs de développement économique"
+      ],
+      "answer": 1,
+      "explanation": "Lorsque le périmètre du SCOT recouvre celui d'un pays, le PADD prend en compte la charte de développement du pays.",
+      "id": "urb1__99-schema-coherence-territoriale__1_2__opus_005",
+      "sectionTitle": "Le projet d'aménagement et de développement durables (PADD)",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_2",
+      "sourceText": "lorsque le périmètre d'un schéma de cohérence territoriale (SCOT) recouvre en tout ou partie celui d'un pays ayant fait l'objet d'une publication par arrêté préfectoral, le PADD prend en compte la charte de développement du pays.",
+      "sourceContext": "lorsque le périmètre d'un schéma de cohérence territoriale (SCOT) recouvre en tout ou partie celui d'un pays ayant fait l'objet d'une publication par arrêté préfectoral, le PADD prend en compte la charte de développement du pays.",
+      "sectionId": "99-schema-coherence-territoriale__1_2",
+      "keywords": ["PADD", "pays", "charte de développement"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle place le document d'orientation et d'objectifs (DOO) occupe-t-il dans le dossier du SCOT ?",
+      "options": [
+        "Un document facultatif annexé au rapport de présentation",
+        "L'élément central du dossier, élaboré dans le respect des objectifs du PADD",
+        "Un document subordonné aux orientations du rapport de présentation",
+        "Un document graphique sans portée normative"
+      ],
+      "answer": 1,
+      "explanation": "Le DOO est l'élément central du dossier du SCOT, élaboré dans le respect des objectifs du PADD.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3__opus_006",
+      "sectionTitle": "Le document d'orientation et d'objectifs",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3",
+      "sourceText": "Le document d'orientation et d'objectifs (DOO) est l'élément central du dossier du SCOT, élaboré dans le respect des objectifs du PADD.",
+      "sourceContext": "Le document d'orientation et d'objectifs (DOO) est l'élément central du dossier du SCOT, élaboré dans le respect des objectifs du PADD.",
+      "sectionId": "99-schema-coherence-territoriale__1_3",
+      "keywords": ["DOO", "élément central", "PADD"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle est l'une des missions obligatoires du document d'orientation et d'objectifs (DOO) ?",
+      "options": [
+        "Délivrer les autorisations d'occupation du sol",
+        "Déterminer les orientations générales de l'organisation de l'espace et les grands équilibres",
+        "Fixer le montant des participations financières des constructeurs",
+        "Approuver les programmes locaux de l'habitat des communes membres"
+      ],
+      "answer": 1,
+      "explanation": "Le DOO détermine les orientations générales de l'organisation de l'espace et les grands équilibres entre espaces urbains et ruraux.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_1_1__opus_007",
+      "sectionTitle": "Les objectifs et orientations obligatoires",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_1_1",
+      "sourceText": "Le document d'orientation et d'objectifs (DOO) a pour rôle de déterminer les orientations générales de l'organisation de l'espace et les grands équilibres entre les espaces urbains et à urbaniser et les espaces ruraux, naturels, agricoles et forestiers.",
+      "sourceContext": "Le document d'orientation et d'objectifs (DOO) a pour rôle de déterminer les orientations générales de l'organisation de l'espace et les grands équilibres entre les espaces urbains et à urbaniser et les espaces ruraux, naturels, agricoles et forestiers.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_1_1",
+      "keywords": ["DOO", "organisation de l'espace", "grands équilibres"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Vis-à-vis du PADD, quelle contrainte s'impose au document d'orientation et d'objectifs ?",
+      "options": [
+        "Le DOO doit impérativement respecter les orientations définies par le PADD",
+        "Le DOO peut librement déroger aux orientations du PADD",
+        "Le DOO se substitue au PADD une fois le SCOT approuvé",
+        "Le DOO ne tient compte du PADD que pour la politique de l'habitat"
+      ],
+      "answer": 0,
+      "explanation": "Le DOO doit impérativement respecter les orientations définies par le PADD.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_1_1__opus_008",
+      "sectionTitle": "Les objectifs et orientations obligatoires",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_1_1",
+      "sourceText": "Pour ce faire, le DOO doit impérativement respecter les orientations définies par le PADD.",
+      "sourceContext": "Pour ce faire, le DOO doit impérativement respecter les orientations définies par le PADD.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_1_1",
+      "keywords": ["DOO", "PADD", "respect des orientations"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un SCOT souhaite conditionner l'ouverture de nouvelles zones à urbaniser. Que peut prévoir le DOO au titre de son pouvoir discrétionnaire ?",
+      "options": [
+        "Imposer la réalisation d'une étude d'impact ou de densification avant toute ouverture à l'urbanisation",
+        "Interdire définitivement toute nouvelle ouverture à l'urbanisation",
+        "Délivrer lui-même les permis d'aménager des zones concernées",
+        "Exonérer ces zones de toute évaluation environnementale"
+      ],
+      "answer": 0,
+      "explanation": "Le DOO peut imposer, avant toute ouverture à l'urbanisation, la réalisation d'une étude d'impact ou de densification des zones déjà urbanisées.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_1_2__opus_009",
+      "sectionTitle": "Les objectifs et orientations reposant sur un pouvoir discrétionnaire",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_1_2",
+      "sourceText": "Il peut également imposer, avant toute ouverture à l'urbanisation, la réalisation d'une étude d'impact ou une étude de densification des zones déjà urbanisées.",
+      "sourceContext": "Il peut également imposer, avant toute ouverture à l'urbanisation, la réalisation d'une étude d'impact ou une étude de densification des zones déjà urbanisées.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_1_2",
+      "keywords": ["DOO", "pouvoir discrétionnaire", "étude d'impact"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Sur quel critère le DOO peut-il déterminer des règles de densité au titre de son pouvoir discrétionnaire ?",
+      "options": [
+        "En fonction de l'existence de transports collectifs",
+        "En fonction du nombre d'habitants de chaque commune",
+        "En fonction des recettes fiscales attendues",
+        "En fonction de l'ancienneté du PLU communal"
+      ],
+      "answer": 0,
+      "explanation": "Le DOO peut déterminer des règles de densité en fonction de l'existence de transports collectifs.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_1_2__opus_010",
+      "sectionTitle": "Les objectifs et orientations reposant sur un pouvoir discrétionnaire",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_1_2",
+      "sourceText": "En outre, le DOO peut déterminer des règles de densité en fonction de l'existence de transports collectifs.",
+      "sourceContext": "En outre, le DOO peut déterminer des règles de densité en fonction de l'existence de transports collectifs.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_1_2",
+      "keywords": ["DOO", "densité", "transports collectifs"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En matière de politique de l'habitat, à quoi le DOO accorde-t-il une attention particulière ?",
+      "options": [
+        "À la rentabilité financière des opérations de logement",
+        "À la mixité sociale, en prenant en compte l'évolution démographique et économique",
+        "Au seul respect des quotas de logements sociaux par commune",
+        "À la libéralisation totale du marché foncier local"
+      ],
+      "answer": 1,
+      "explanation": "Le DOO définit la politique de l'habitat au regard notamment de la mixité sociale, en prenant en compte l'évolution démographique et économique.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_2_1__opus_011",
+      "sectionTitle": "La politique de l'habitat",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_2_1",
+      "sourceText": "Le document d'orientation et d'objectifs définit les objectifs et les principes de la politique de l'habitat au regard, notamment, de la mixité sociale, en prenant en compte l'évolution démographique et économique et les projets d'équipements et de dessertes en transports collectifs.",
+      "sourceContext": "Le document d'orientation et d'objectifs définit les objectifs et les principes de la politique de l'habitat au regard, notamment, de la mixité sociale, en prenant en compte l'évolution démographique et économique et les projets d'équipements et de dessertes en transports collectifs.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_2_1",
+      "keywords": ["politique de l'habitat", "mixité sociale"]
+    },
+    {
+      "bloom": "application",
+      "q": "En matière de stationnement, sur quel fondement le DOO peut-il déterminer la politique d'implantation des aires ?",
+      "options": [
+        "En fonction de la desserte en transports publics réguliers et de la destination des bâtiments",
+        "En fonction uniquement du nombre de logements créés",
+        "En fonction du seul classement de la voirie communale",
+        "En fonction des tarifs de stationnement pratiqués"
+      ],
+      "answer": 0,
+      "explanation": "Le DOO peut déterminer la politique d'implantation des aires de stationnement selon la desserte en transports publics réguliers et la destination des bâtiments.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_2_2__opus_012",
+      "sectionTitle": "La politique des transports et de déplacements",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_2_2",
+      "sourceText": "Il peut également déterminer la politique d'implantation des aires de stationnement, en fonction de la desserte en transports publics réguliers, et en tenant compte de la destination des bâtiments.",
+      "sourceContext": "Il peut également déterminer la politique d'implantation des aires de stationnement, en fonction de la desserte en transports publics réguliers, et en tenant compte de la destination des bâtiments.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_2_2",
+      "keywords": ["stationnement", "transports publics", "DOO"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En matière d'équipement commercial, quel objectif le DOO poursuit-il en définissant les localisations préférentielles des commerces ?",
+      "options": [
+        "Concentrer les commerces dans les seules zones périphériques",
+        "Favoriser la revitalisation des centres-villes et le maintien d'une offre de proximité",
+        "Maximiser le nombre de grandes surfaces sur le territoire",
+        "Supprimer les commerces de proximité jugés non rentables"
+      ],
+      "answer": 1,
+      "explanation": "Le DOO définit les localisations préférentielles des commerces en prenant en compte la revitalisation des centres-villes et le maintien d'une offre de proximité.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_2_3__opus_013",
+      "sectionTitle": "La politique de l'équipement commercial et artisanal",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_2_3",
+      "sourceText": "il définit les localisations préférentielles des commerces en prenant en compte les objectifs de revitalisation des centres-villes, de maintien d'une offre commerciale diversifiée de proximité permettant de répondre aux besoins courants de la population tout en limitant les obligations de déplacement et les émissions de gaz à effet de serre, de cohérence entre la localisation des équipements commerciaux et la maîtrise des flux de personnes et de marchandises, de consommation économe de l'espace et de préservation de l'environnement, des paysages et de l'architecture.",
+      "sourceContext": "il définit les localisations préférentielles des commerces en prenant en compte les objectifs de revitalisation des centres-villes, de maintien d'une offre commerciale diversifiée de proximité permettant de répondre aux besoins courants de la population tout en limitant les obligations de déplacement et les émissions de gaz à effet de serre, de cohérence entre la localisation des équipements commerciaux et la maîtrise des flux de personnes et de marchandises, de consommation économe de l'espace et de préservation de l'environnement, des paysages et de l'architecture.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_2_3",
+      "keywords": ["équipement commercial", "centres-villes", "localisations préférentielles"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un SCOT comprend une ou plusieurs communes littorales. Que peut-il comporter à ce titre ?",
+      "options": [
+        "Un chapitre individualisé valant schéma de mise en valeur de la mer",
+        "Un règlement spécifique se substituant à la loi Littoral",
+        "Une carte communale dérogatoire au DOO",
+        "Une zone franche d'urbanisation sur le rivage"
+      ],
+      "answer": 0,
+      "explanation": "Lorsqu'ils comprennent des communes littorales, les SCOT peuvent comporter un chapitre individualisé valant schéma de mise en valeur de la mer.",
+      "id": "urb1__99-schema-coherence-territoriale__1_3_2_4__opus_014",
+      "sectionTitle": "Les spécificités des zones de montagne et littoral",
+      "sourceLink": "#section-99-schema-coherence-territoriale__1_3_2_4",
+      "sourceText": "Lorsqu'ils comprennent une ou des communes littorales, les schémas de cohérence territoriale peuvent comporter un chapitre individualisé valant schéma de mise en valeur de la mer.",
+      "sourceContext": "Lorsqu'ils comprennent une ou des communes littorales, les schémas de cohérence territoriale peuvent comporter un chapitre individualisé valant schéma de mise en valeur de la mer.",
+      "sectionId": "99-schema-coherence-territoriale__1_3_2_4",
+      "keywords": ["communes littorales", "schéma de mise en valeur de la mer"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "À l'initiative de qui le schéma de cohérence territoriale est-il élaboré ?",
+      "options": [
+        "À l'initiative du préfet de département exclusivement",
+        "À l'initiative des communes ou de leurs groupements compétents",
+        "À l'initiative du conseil régional",
+        "À l'initiative du conseil départemental"
+      ],
+      "answer": 1,
+      "explanation": "Le SCOT est élaboré à l'initiative des communes ou de leurs groupements compétents.",
+      "id": "urb1__99-schema-coherence-territoriale__2_1__opus_015",
+      "sectionTitle": "Les structures compétentes pour élaborer un SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_1",
+      "sourceText": "Le schéma de cohérence territoriale est élaboré à l'initiative des communes ou de leurs groupements compétents.",
+      "sourceContext": "Le schéma de cohérence territoriale est élaboré à l'initiative des communes ou de leurs groupements compétents.",
+      "sectionId": "99-schema-coherence-territoriale__2_1",
+      "keywords": ["élaboration", "communes", "groupements"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le préfet constate qu'une zone dépourvue de SCOT nuit gravement à la cohérence des politiques publiques. Quelle initiative peut-il prendre ?",
+      "options": [
+        "Élaborer lui-même directement le SCOT à la place des collectivités",
+        "Demander à un EPCI de délibérer sur un SCOT",
+        "Suspendre tous les PLU des communes concernées",
+        "Imposer un moratoire définitif sur l'urbanisation"
+      ],
+      "answer": 1,
+      "explanation": "L'État peut prendre l'initiative d'un SCOT : le préfet peut demander à un EPCI de délibérer sur un SCOT.",
+      "id": "urb1__99-schema-coherence-territoriale__2_1__opus_016",
+      "sectionTitle": "Les structures compétentes pour élaborer un SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_1",
+      "sourceText": "L'Etat a également la possibilité de prendre l'initiative d'un SCOT : le préfet peut demander à un EPCI de délibérer sur un SCOT.",
+      "sourceContext": "L'Etat a également la possibilité de prendre l'initiative d'un SCOT : le préfet peut demander à un EPCI de délibérer sur un SCOT.",
+      "sectionId": "99-schema-coherence-territoriale__2_1",
+      "keywords": ["préfet", "initiative", "EPCI"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle caractéristique géographique le périmètre d'un SCOT doit-il présenter ?",
+      "options": [
+        "Un territoire d'un seul tenant et sans enclave",
+        "Un territoire pouvant comporter des enclaves justifiées",
+        "Un territoire limité aux seules communes urbaines",
+        "Un territoire identique au périmètre du département"
+      ],
+      "answer": 0,
+      "explanation": "Le périmètre du SCOT délimite un territoire d'un seul tenant et sans enclave.",
+      "id": "urb1__99-schema-coherence-territoriale__2_2__opus_017",
+      "sectionTitle": "La détermination du périmètre du SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_2",
+      "sourceText": "Le périmètre du schéma de cohérence territoriale délimite un territoire d'un seul tenant et sans enclave.",
+      "sourceContext": "Le périmètre du schéma de cohérence territoriale délimite un territoire d'un seul tenant et sans enclave.",
+      "sectionId": "99-schema-coherence-territoriale__2_2",
+      "keywords": ["périmètre", "un seul tenant", "sans enclave"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel délai l'avis du conseil départemental sur le projet de périmètre est-il réputé positif s'il n'a pas été formulé ?",
+      "options": [
+        "Dans un délai de trois mois",
+        "Dans un délai d'un mois",
+        "Dans un délai de six mois",
+        "Dans un délai de deux mois"
+      ],
+      "answer": 0,
+      "explanation": "L'avis du conseil départemental est réputé positif s'il n'a pas été formulé dans un délai de trois mois.",
+      "id": "urb1__99-schema-coherence-territoriale__2_2__opus_018",
+      "sectionTitle": "La détermination du périmètre du SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_2",
+      "sourceText": "Cet avis est réputé positif s'il n'a pas été formulé dans un délai de trois mois.",
+      "sourceContext": "Cet avis est réputé positif s'il n'a pas été formulé dans un délai de trois mois.",
+      "sectionId": "99-schema-coherence-territoriale__2_2",
+      "keywords": ["périmètre", "avis", "délai trois mois"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Lors de la prescription de l'élaboration du SCOT, que doit préciser l'EPCI ?",
+      "options": [
+        "Les objectifs poursuivis et les modalités de concertation",
+        "Le contenu définitif du futur DOO",
+        "La liste des permis de construire à venir",
+        "Le montant du budget alloué au projet"
+      ],
+      "answer": 0,
+      "explanation": "L'EPCI prescrit l'élaboration du schéma et précise les objectifs poursuivis et les modalités de concertation.",
+      "id": "urb1__99-schema-coherence-territoriale__2_3__opus_019",
+      "sectionTitle": "La prescription de l'élaboration",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_3",
+      "sourceText": "L'EPCI prescrit l'élaboration du schéma et précise les objectifs poursuivis et les modalités de concertation.",
+      "sourceContext": "L'EPCI prescrit l'élaboration du schéma et précise les objectifs poursuivis et les modalités de concertation.",
+      "sectionId": "99-schema-coherence-territoriale__2_3",
+      "keywords": ["prescription", "objectifs", "concertation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quel moment doit se tenir le débat sur les orientations du PADD au sein de l'organe délibérant ?",
+      "options": [
+        "Au plus tard quatre mois avant l'examen du projet de schéma",
+        "Au plus tard deux mois après l'arrêt du projet",
+        "Au moment de l'approbation définitive du schéma",
+        "Au plus tard un an avant l'enquête publique"
+      ],
+      "answer": 0,
+      "explanation": "Le débat sur les orientations du PADD a lieu au plus tard quatre mois avant l'examen du projet de schéma.",
+      "id": "urb1__99-schema-coherence-territoriale__2_5__opus_020",
+      "sectionTitle": "Le débat sur les orientations du PADD",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_5",
+      "sourceText": "Un débat a lieu au sein de l'organe délibérant de l'établissement sur les orientations du projet d'aménagement et de développement durables au plus tard quatre mois avant l'examen du projet de schéma.",
+      "sourceContext": "Un débat a lieu au sein de l'organe délibérant de l'établissement sur les orientations du projet d'aménagement et de développement durables au plus tard quatre mois avant l'examen du projet de schéma.",
+      "sectionId": "99-schema-coherence-territoriale__2_5",
+      "keywords": ["débat PADD", "quatre mois", "organe délibérant"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Après l'arrêt du projet de SCOT, dans quel délai les personnes consultées doivent-elles rendre leur avis, à défaut duquel il est réputé favorable ?",
+      "options": [
+        "Au plus tard trois mois à compter de la transmission du projet",
+        "Au plus tard un mois à compter de la transmission du projet",
+        "Au plus tard six mois à compter de la transmission du projet",
+        "Au plus tard quatre mois à compter de la transmission du projet"
+      ],
+      "answer": 0,
+      "explanation": "Les personnes et commissions consultées rendent leur avis au plus tard trois mois à compter de la transmission, à défaut l'avis est réputé favorable.",
+      "id": "urb1__99-schema-coherence-territoriale__2_6__opus_021",
+      "sectionTitle": "L'arrêt du projet de SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_6",
+      "sourceText": "Les personnes et les commissions consultées rendent leur avis dans les limites de leurs compétences propres, au plus tard trois mois à compter de la transmission du projet de schéma. A défaut de réponse dans ce délai l'avis est réputé favorable.",
+      "sourceContext": "Les personnes et les commissions consultées rendent leur avis dans les limites de leurs compétences propres, au plus tard trois mois à compter de la transmission du projet de schéma. A défaut de réponse dans ce délai l'avis est réputé favorable.",
+      "sectionId": "99-schema-coherence-territoriale__2_6",
+      "keywords": ["arrêt du projet", "avis", "trois mois"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune membre estime qu'un intérêt essentiel est compromis par le projet de SCOT. Quelle démarche peut-elle engager ?",
+      "options": [
+        "Saisir le préfet, dans un délai de trois mois, par délibération motivée précisant les modifications demandées",
+        "Saisir directement le tribunal administratif pour annulation",
+        "Opposer son veto à l'arrêt du projet de schéma",
+        "Demander au conseil régional de suspendre la procédure"
+      ],
+      "answer": 0,
+      "explanation": "La commune dont un intérêt essentiel est compromis peut, dans un délai de trois mois, saisir le préfet par délibération motivée précisant les modifications demandées.",
+      "id": "urb1__99-schema-coherence-territoriale__2_6__opus_022",
+      "sectionTitle": "L'arrêt du projet de SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_6",
+      "sourceText": "C'est à ce stade qu'une commune ou un groupement de communes membre de l'EPCI qui estime que l'un de ses intérêts essentiels est compromis par les dispositions du projet du schéma peut, dans un délai de trois mois, saisir le préfet par délibération motivée qui précise les modifications demandées au projet.",
+      "sourceContext": "C'est à ce stade qu'une commune ou un groupement de communes membre de l'EPCI qui estime que l'un de ses intérêts essentiels est compromis par les dispositions du projet du schéma peut, dans un délai de trois mois, saisir le préfet par délibération motivée qui précise les modifications demandées au projet.",
+      "sectionId": "99-schema-coherence-territoriale__2_6",
+      "keywords": ["commune", "intérêt essentiel", "saisine du préfet"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel texte impose aux SCOT de faire l'objet d'une évaluation environnementale ?",
+      "options": [
+        "La loi « Grenelle II » du 12 juillet 2010 portant engagement national pour l'environnement",
+        "La loi « SRU » relative à la solidarité et au renouvellement urbains",
+        "La loi « ALUR » pour l'accès au logement",
+        "La loi « Littoral » du 3 janvier 1986"
+      ],
+      "answer": 0,
+      "explanation": "C'est la loi Grenelle II du 12 juillet 2010 qui impose aux SCOT de faire l'objet d'une évaluation environnementale.",
+      "id": "urb1__99-schema-coherence-territoriale__2_7__opus_023",
+      "sectionTitle": "L'évaluation environnementale",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_7",
+      "sourceText": "La loi « Grenelle II » du 12 juillet 2010 portant engagement national pour l'environnement impose aux SCOT de faire l'objet d'une évaluation environnementale.",
+      "sourceContext": "La loi « Grenelle II » du 12 juillet 2010 portant engagement national pour l'environnement impose aux SCOT de faire l'objet d'une évaluation environnementale.",
+      "sectionId": "99-schema-coherence-territoriale__2_7",
+      "keywords": ["évaluation environnementale", "Grenelle II"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est l'objectif de l'enquête publique à laquelle le projet de SCOT arrêté est soumis ?",
+      "options": [
+        "Assurer une information complète du public et lui permettre de faire connaître son opinion",
+        "Recueillir l'accord exprès de chaque commune membre",
+        "Valider juridiquement la légalité du schéma",
+        "Fixer le montant des compensations financières"
+      ],
+      "answer": 0,
+      "explanation": "L'enquête publique vise à assurer une information complète du public et à lui permettre de faire connaître son opinion.",
+      "id": "urb1__99-schema-coherence-territoriale__2_8__opus_024",
+      "sectionTitle": "L'enquête publique",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_8",
+      "sourceText": "Cette enquête vise à assurer une information complète du public et lui permettre de faire connaitre son opinion.",
+      "sourceContext": "Cette enquête vise à assurer une information complète du public et lui permettre de faire connaitre son opinion.",
+      "sectionId": "99-schema-coherence-territoriale__2_8",
+      "keywords": ["enquête publique", "information du public"]
+    },
+    {
+      "bloom": "application",
+      "q": "À la clôture de l'enquête, le commissaire enquêteur remet son procès-verbal de synthèse. De quel délai dispose le président de l'EPCI pour répondre ?",
+      "options": [
+        "Quinze jours pour adresser ses observations en réponse",
+        "Un mois pour adresser ses observations en réponse",
+        "Huit jours pour adresser ses observations en réponse",
+        "Deux mois pour adresser ses observations en réponse"
+      ],
+      "answer": 0,
+      "explanation": "Le président de l'EPCI dispose de quinze jours pour adresser au commissaire enquêteur ses observations en réponse.",
+      "id": "urb1__99-schema-coherence-territoriale__2_8__opus_025",
+      "sectionTitle": "L'enquête publique",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_8",
+      "sourceText": "Ce dernier a alors quinze jours pour adresser au commissaire enquêteur ses observations en réponse.",
+      "sourceContext": "Ce dernier a alors quinze jours pour adresser au commissaire enquêteur ses observations en réponse.",
+      "sectionId": "99-schema-coherence-territoriale__2_8",
+      "keywords": ["commissaire enquêteur", "quinze jours", "EPCI"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel organe prononce l'approbation du projet de SCOT ?",
+      "options": [
+        "L'organe délibérant de l'EPCI",
+        "Le préfet de département par arrêté",
+        "Le commissaire enquêteur",
+        "Le conseil régional"
+      ],
+      "answer": 0,
+      "explanation": "Le projet de SCOT revient devant l'organe délibérant de l'EPCI, qui prononce son approbation.",
+      "id": "urb1__99-schema-coherence-territoriale__2_9__opus_026",
+      "sectionTitle": "L'approbation",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_9",
+      "sourceText": "Le projet de SCOT revient alors devant l'organe délibérant de l'EPCI, qui prononce son approbation.",
+      "sourceContext": "Le projet de SCOT revient alors devant l'organe délibérant de l'EPCI, qui prononce son approbation.",
+      "sectionId": "99-schema-coherence-territoriale__2_9",
+      "keywords": ["approbation", "organe délibérant", "EPCI"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À partir de quel moment le SCOT devient-il exécutoire ?",
+      "options": [
+        "Deux mois après sa transmission au préfet",
+        "Immédiatement après son approbation par l'EPCI",
+        "Un mois après l'affichage de la délibération",
+        "Six mois après sa transmission au préfet"
+      ],
+      "answer": 0,
+      "explanation": "Le SCOT devient exécutoire deux mois après sa transmission au préfet.",
+      "id": "urb1__99-schema-coherence-territoriale__2_10__opus_027",
+      "sectionTitle": "L'entrée en vigueur du SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_10",
+      "sourceText": "Le SCOT devient exécutoire deux mois après sa transmission au préfet.",
+      "sourceContext": "Le SCOT devient exécutoire deux mois après sa transmission au préfet.",
+      "sectionId": "99-schema-coherence-territoriale__2_10",
+      "keywords": ["entrée en vigueur", "exécutoire", "deux mois"]
+    },
+    {
+      "bloom": "application",
+      "q": "Durant le délai précédant l'entrée en vigueur, pour quel motif le préfet peut-il demander des modifications au SCOT ?",
+      "options": [
+        "S'il estime que les dispositions ne sont pas compatibles avec une DTA ou les lois Montagne ou Littoral",
+        "S'il juge le schéma insuffisamment ambitieux sur le plan touristique",
+        "S'il considère que le budget de l'EPCI est insuffisant",
+        "Si une commune membre conteste politiquement le schéma"
+      ],
+      "answer": 0,
+      "explanation": "Le préfet peut demander des modifications s'il estime le schéma incompatible avec une directive territoriale d'aménagement ou les lois Montagne ou Littoral.",
+      "id": "urb1__99-schema-coherence-territoriale__2_10__opus_028",
+      "sectionTitle": "L'entrée en vigueur du SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__2_10",
+      "sourceText": "Durant ce délai, le préfet peut, par lettre motivée, demander à l'EPCI des modifications s'il estime que les dispositions du schéma ne sont pas compatibles avec une directive territoriale d'aménagement ou les lois Montagne ou Littoral ou si elles compromettent gravement les principes généraux de l'urbanisme énoncés aux articles L. 110 et L. 121-1, ou encore si elles sont contraires à un projet d'intérêt général.",
+      "sourceContext": "Durant ce délai, le préfet peut, par lettre motivée, demander à l'EPCI des modifications s'il estime que les dispositions du schéma ne sont pas compatibles avec une directive territoriale d'aménagement ou les lois Montagne ou Littoral ou si elles compromettent gravement les principes généraux de l'urbanisme énoncés aux articles L. 110 et L. 121-1, ou encore si elles sont contraires à un projet d'intérêt général.",
+      "sectionId": "99-schema-coherence-territoriale__2_10",
+      "keywords": ["préfet", "modifications", "compatibilité"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En l'absence de SCOT en vigueur, quelle conséquence s'applique aux zones N et AU délimitées par les PLU ?",
+      "options": [
+        "Elles ne peuvent pas être ouvertes à l'urbanisation",
+        "Elles deviennent automatiquement constructibles",
+        "Elles sont transférées à la compétence du préfet",
+        "Elles doivent être reclassées en zone urbaine"
+      ],
+      "answer": 0,
+      "explanation": "En l'absence de SCOT, les zones N et AU créées par les PLU ne peuvent pas être ouvertes à l'urbanisation.",
+      "id": "urb1__99-schema-coherence-territoriale__3_1_1__opus_029",
+      "sectionTitle": "Des zones ouvertes à l'urbanisation grâce au SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__3_1_1",
+      "sourceText": "Lorsqu'aucun SCOT n'est en vigueur, les zones naturelles (N) et les zones à urbaniser (AU) créées par les PLU, ainsi que les secteurs non constructibles des cartes communales, ne peuvent pas être ouvertes à l'urbanisation.",
+      "sourceContext": "Lorsqu'aucun SCOT n'est en vigueur, les zones naturelles (N) et les zones à urbaniser (AU) créées par les PLU, ainsi que les secteurs non constructibles des cartes communales, ne peuvent pas être ouvertes à l'urbanisation.",
+      "sectionId": "99-schema-coherence-territoriale__3_1_1",
+      "keywords": ["absence de SCOT", "zones N et AU", "urbanisation"]
+    },
+    {
+      "bloom": "application",
+      "q": "En l'absence de SCOT, une commune souhaite ouvrir une zone à l'urbanisation. Par quel mécanisme cela peut-il être accordé ?",
+      "options": [
+        "Par une dérogation donnée par le préfet après avis de la commission départementale des espaces agricoles",
+        "Par une simple délibération du conseil municipal",
+        "Par autorisation du conseil régional",
+        "Par décision du commissaire enquêteur"
+      ],
+      "answer": 0,
+      "explanation": "L'ouverture à l'urbanisation peut être accordée par dérogation du préfet, après avis de la commission départementale des espaces agricoles.",
+      "id": "urb1__99-schema-coherence-territoriale__3_1_2__opus_030",
+      "sectionTitle": "Des exceptions permettant l'urbanisation malgré l'absence de SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__3_1_2",
+      "sourceText": "La première hypothèse a trait au cas dans lequel l'ouverture à l'urbanisation est accordée par dérogation donnée par le préfet, une fois que la commission départementale de la commission départementale de la commission des espaces agricoles ait donné son avis.",
+      "sourceContext": "La première hypothèse a trait au cas dans lequel l'ouverture à l'urbanisation est accordée par dérogation donnée par le préfet, une fois que la commission départementale de la commission départementale de la commission des espaces agricoles ait donné son avis.",
+      "sectionId": "99-schema-coherence-territoriale__3_1_2",
+      "keywords": ["dérogation", "préfet", "absence de SCOT"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsqu'un SCOT est approuvé après un PLH ou un PDU, dans quel délai ces derniers doivent-ils être rendus compatibles ?",
+      "options": [
+        "Dans un délai de trois ans",
+        "Dans un délai d'un an",
+        "Dans un délai de cinq ans",
+        "Immédiatement à compter de l'approbation"
+      ],
+      "answer": 0,
+      "explanation": "Lorsqu'un SCOT est approuvé après un PLH ou un PDU, ceux-ci sont rendus compatibles dans un délai de trois ans.",
+      "id": "urb1__99-schema-coherence-territoriale__3_2__opus_031",
+      "sectionTitle": "L'obligation de compatibilité des documents locaux avec le SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__3_2",
+      "sourceText": "Lorsqu'un schéma de cohérence territoriale est approuvé après l'approbation d'un programme local de l'habitat ou d'un plan de déplacements urbains, ces derniers sont, le cas échéant, rendus compatibles dans un délai de trois ans.",
+      "sourceContext": "Lorsqu'un schéma de cohérence territoriale est approuvé après l'approbation d'un programme local de l'habitat ou d'un plan de déplacements urbains, ces derniers sont, le cas échéant, rendus compatibles dans un délai de trois ans.",
+      "sectionId": "99-schema-coherence-territoriale__3_2",
+      "keywords": ["compatibilité", "PLH", "PDU", "trois ans"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel délai maximal l'EPCI doit-il procéder à une analyse des résultats de l'application du SCOT après son approbation ?",
+      "options": [
+        "Six ans au plus après la délibération portant approbation",
+        "Trois ans au plus après la délibération portant approbation",
+        "Dix ans au plus après la délibération portant approbation",
+        "Un an au plus après la délibération portant approbation"
+      ],
+      "answer": 0,
+      "explanation": "L'EPCI procède à l'analyse des résultats six ans au plus après la délibération portant approbation du schéma.",
+      "id": "urb1__99-schema-coherence-territoriale__4_1__opus_032",
+      "sectionTitle": "L'analyse des résultats",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_1",
+      "sourceText": "Ainsi, six ans au plus après la délibération portant approbation du schéma de cohérence territoriale, la dernière délibération portant révision complète de ce schéma, ou de la délibération ayant décidé son maintien en vigueur, l'EPCI procède à une analyse des résultats de l'application du schéma, notamment en matière d'environnement, de transports et de déplacements, de maîtrise de la consommation de l'espace et d'implantations commerciales.",
+      "sourceContext": "Ainsi, six ans au plus après la délibération portant approbation du schéma de cohérence territoriale, la dernière délibération portant révision complète de ce schéma, ou de la délibération ayant décidé son maintien en vigueur, l'EPCI procède à une analyse des résultats de l'application du schéma, notamment en matière d'environnement, de transports et de déplacements, de maîtrise de la consommation de l'espace et d'implantations commerciales.",
+      "sectionId": "99-schema-coherence-territoriale__4_1",
+      "keywords": ["analyse des résultats", "six ans", "EPCI"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment se caractérise la procédure de révision du SCOT par rapport aux autres procédures d'évolution ?",
+      "options": [
+        "C'est la procédure d'évolution la plus lourde",
+        "C'est la procédure la plus simple et la plus rapide",
+        "C'est une procédure dispensée d'enquête publique",
+        "C'est une procédure relevant du seul préfet"
+      ],
+      "answer": 0,
+      "explanation": "La révision du SCOT est la procédure d'évolution la plus lourde, suivant les mêmes modalités que l'élaboration.",
+      "id": "urb1__99-schema-coherence-territoriale__4_2__opus_033",
+      "sectionTitle": "La révision du SCOT",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_2",
+      "sourceText": "La révision du SCOT est la procédure d'évolution du PLU la plus lourde.",
+      "sourceContext": "La révision du SCOT est la procédure d'évolution du PLU la plus lourde.",
+      "sectionId": "99-schema-coherence-territoriale__4_2",
+      "keywords": ["révision", "procédure lourde"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un EPCI souhaite corriger le DOO sans que la révision ne s'impose. Quelle procédure utilise-t-il ?",
+      "options": [
+        "La modification, procédure moins lourde que la révision",
+        "La mise en compatibilité imposée par le préfet",
+        "Une nouvelle élaboration complète du SCOT",
+        "L'abrogation pure et simple du DOO"
+      ],
+      "answer": 0,
+      "explanation": "La modification, moins lourde que la révision, s'applique pour corriger le DOO dans les cas où la révision ne s'impose pas.",
+      "id": "urb1__99-schema-coherence-territoriale__4_3_1__opus_034",
+      "sectionTitle": "La modification normale",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_3_1",
+      "sourceText": "Elle s'applique quand l'EPCI veut corriger le document d'orientation et d'objectifs, dans les hypothèses où la révision ne s'impose pas.",
+      "sourceContext": "Elle s'applique quand l'EPCI veut corriger le document d'orientation et d'objectifs, dans les hypothèses où la révision ne s'impose pas.",
+      "sectionId": "99-schema-coherence-territoriale__4_3_1",
+      "keywords": ["modification", "DOO", "EPCI"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans quel cas la modification simplifiée du SCOT peut-elle être utilisée ?",
+      "options": [
+        "Pour la rectification d'une erreur matérielle",
+        "Pour modifier les grands équilibres entre espaces urbains et ruraux",
+        "Pour réviser intégralement le PADD",
+        "Pour étendre le périmètre du SCOT"
+      ],
+      "answer": 0,
+      "explanation": "La procédure simplifiée, dispensée d'enquête publique, est notamment utilisée pour la rectification d'une erreur matérielle.",
+      "id": "urb1__99-schema-coherence-territoriale__4_3_2__opus_035",
+      "sectionTitle": "La modification simplifiée",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_3_2",
+      "sourceText": "Cette procédure simplifiée est aussi utilisée pour la rectification d'une erreur matérielle.",
+      "sourceContext": "Cette procédure simplifiée est aussi utilisée pour la rectification d'une erreur matérielle.",
+      "sectionId": "99-schema-coherence-territoriale__4_3_2",
+      "keywords": ["modification simplifiée", "erreur matérielle"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans la modification simplifiée, quelle est la durée de mise à disposition du projet au public ?",
+      "options": [
+        "Pendant un mois",
+        "Pendant huit jours",
+        "Pendant quinze jours",
+        "Pendant trois mois"
+      ],
+      "answer": 0,
+      "explanation": "Dans la modification simplifiée, le projet est mis à disposition du public pendant un mois.",
+      "id": "urb1__99-schema-coherence-territoriale__4_3_2__opus_036",
+      "sectionTitle": "La modification simplifiée",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_3_2",
+      "sourceText": "Le projet de modification, l'exposé de ses motifs et, le cas échéant, les avis émis par les personnes associées sont ensuite mis à disposition du public pendant un mois, dans des conditions lui permettant de formuler ses observations.",
+      "sourceContext": "Le projet de modification, l'exposé de ses motifs et, le cas échéant, les avis émis par les personnes associées sont ensuite mis à disposition du public pendant un mois, dans des conditions lui permettant de formuler ses observations.",
+      "sectionId": "99-schema-coherence-territoriale__4_3_2",
+      "keywords": ["modification simplifiée", "mise à disposition", "un mois"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le préfet notifie à l'EPCI une mise en compatibilité nécessaire. De quel délai dispose l'EPCI pour faire connaître s'il entend l'opérer ?",
+      "options": [
+        "Un délai de deux mois",
+        "Un délai de trois mois",
+        "Un délai d'un mois",
+        "Un délai de six mois"
+      ],
+      "answer": 0,
+      "explanation": "Dans un délai de deux mois, l'établissement public fait connaître au préfet s'il entend opérer la mise en compatibilité.",
+      "id": "urb1__99-schema-coherence-territoriale__4_4_1__opus_037",
+      "sectionTitle": "Les cas imposant une mise en compatibilité",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_4_1",
+      "sourceText": "Dans un délai de deux mois, l'établissement public fait connaître au préfet s'il entend opérer la mise en compatibilité nécessaire.",
+      "sourceContext": "Dans un délai de deux mois, l'établissement public fait connaître au préfet s'il entend opérer la mise en compatibilité nécessaire.",
+      "sectionId": "99-schema-coherence-territoriale__4_4_1",
+      "keywords": ["mise en compatibilité", "deux mois", "préfet"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qui met en œuvre l'enquête publique de la procédure de mise en compatibilité lorsqu'une déclaration d'utilité publique est requise ?",
+      "options": [
+        "Le préfet",
+        "Le président de l'EPCI",
+        "Le commissaire enquêteur seul",
+        "Le maire de la commune concernée"
+      ],
+      "answer": 0,
+      "explanation": "L'enquête publique est mise en œuvre par le préfet lorsqu'une déclaration d'utilité publique est requise.",
+      "id": "urb1__99-schema-coherence-territoriale__4_4_2__opus_038",
+      "sectionTitle": "La procédure à suivre",
+      "sourceLink": "#section-99-schema-coherence-territoriale__4_4_2",
+      "sourceText": "Celle-ci est mise en œuvre par le préfet lorsqu'une déclaration d'utilité publique est requise, lorsque la mise en compatibilité est nécessaire pour permettre la réalisation d'un projet d'une personne publique autre que l'établissement public compétent ou d'une commune ainsi que dans le cas où la mise en compatibilité est engagée par le préfet.",
+      "sourceContext": "Celle-ci est mise en œuvre par le préfet lorsqu'une déclaration d'utilité publique est requise, lorsque la mise en compatibilité est nécessaire pour permettre la réalisation d'un projet d'une personne publique autre que l'établissement public compétent ou d'une commune ainsi que dans le cas où la mise en compatibilité est engagée par le préfet.",
+      "sectionId": "99-schema-coherence-territoriale__4_4_2",
+      "keywords": ["mise en compatibilité", "enquête publique", "préfet"]
+    }
+  ]
+}
