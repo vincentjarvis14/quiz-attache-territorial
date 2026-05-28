@@ -1,0 +1,650 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Sous la responsabilité de qui le PLU est-il élaboré lorsque l'EPCI dispose de la compétence en la matière ?",
+      "options": [
+        "De l'EPCI, en collaboration avec les communes membres",
+        "De la commune, en collaboration avec le préfet",
+        "Du préfet de département, après avis de l'EPCI",
+        "De la région, en collaboration avec l'EPCI"
+      ],
+      "answer": 0,
+      "explanation": "Lorsqu'il est doté de la compétence, l'EPCI élabore le PLU en collaboration avec les communes membres.",
+      "id": "urb1__98-plan-local-urbanisme__1_1__opus_001",
+      "sectionTitle": "La prescription",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_1",
+      "sourceText": "Le PLU est élaboré à l'initiative et sous la responsabilité de l'Etablissement public de coopération intercommunale (EPCI) lorsqu'il est doté de la compétence en la matière, en collaboration avec les communes membres.",
+      "sourceContext": "Le PLU est élaboré à l'initiative et sous la responsabilité de l'Etablissement public de coopération intercommunale (EPCI) lorsqu'il est doté de la compétence en la matière, en collaboration avec les communes membres.",
+      "sectionId": "98-plan-local-urbanisme__1_1",
+      "keywords": ["prescription", "EPCI", "compétence"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que peut décider l'autorité compétente dès la publication de la délibération prescrivant l'élaboration du PLU ?",
+      "options": [
+        "Surseoir à statuer sur les demandes d'autorisation compromettant le futur plan",
+        "Refuser définitivement toute demande de permis de construire",
+        "Suspendre l'application du SCOT en vigueur",
+        "Exproprier les terrains nécessaires au futur plan"
+      ],
+      "answer": 0,
+      "explanation": "Dès la publication de la délibération de prescription, l'autorité peut surseoir à statuer sur les demandes de nature à compromettre le futur plan.",
+      "id": "urb1__98-plan-local-urbanisme__1_1__opus_002",
+      "sectionTitle": "La prescription",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_1",
+      "sourceText": "A compter de la publication de la délibération prescrivant l'élaboration d'un plan local d'urbanisme, l'autorité compétente peut décider de surseoir à statuer sur les demandes d'autorisation concernant des constructions, installations ou opérations qui seraient de nature à compromettre ou à rendre plus onéreuse l'exécution du futur plan.",
+      "sourceContext": "A compter de la publication de la délibération prescrivant l'élaboration d'un plan local d'urbanisme, l'autorité compétente peut décider de surseoir à statuer sur les demandes d'autorisation concernant des constructions, installations ou opérations qui seraient de nature à compromettre ou à rendre plus onéreuse l'exécution du futur plan.",
+      "sectionId": "98-plan-local-urbanisme__1_1",
+      "keywords": ["sursis à statuer", "prescription", "autorité compétente"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que porte le préfet à la connaissance de l'exécutif lors de l'association de l'État à l'élaboration du PLU ?",
+      "options": [
+        "Le cadre législatif et réglementaire à respecter, ainsi que les projets en cours et existants",
+        "Le projet de règlement de zone rédigé par ses services",
+        "La liste des permis de construire qu'il entend délivrer",
+        "Le montant des subventions accordées à la commune"
+      ],
+      "answer": 0,
+      "explanation": "Le préfet porte à la connaissance de l'exécutif le cadre législatif et réglementaire à respecter, ainsi que les projets en cours d'élaboration et existants.",
+      "id": "urb1__98-plan-local-urbanisme__1_2__opus_003",
+      "sectionTitle": "L'association avec l'Etat et les personnes concernées",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_2",
+      "sourceText": "Dans ce cadre, le préfet porte à la connaissance de l'exécutif le cadre législatif et réglementaire à respecter, ainsi que les projets des collectivités territoriales et de l'Etat en cours d'élaboration et existants.",
+      "sourceContext": "Dans ce cadre, le préfet porte à la connaissance de l'exécutif le cadre législatif et réglementaire à respecter, ainsi que les projets des collectivités territoriales et de l'Etat en cours d'élaboration et existants.",
+      "sectionId": "98-plan-local-urbanisme__1_2",
+      "keywords": ["association", "préfet", "porter à connaissance"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Sur quoi porte le débat tenu au sein de l'organe délibérant, au plus tard deux mois avant l'examen du projet de PLU ?",
+      "options": [
+        "Les orientations générales du projet d'aménagement et de développement durables",
+        "Le règlement de zone et les documents graphiques",
+        "Le montant des emplacements réservés à inscrire au PLU",
+        "Le bilan de la concertation avec les habitants"
+      ],
+      "answer": 0,
+      "explanation": "Le débat porte sur les orientations générales du PADD, au plus tard deux mois avant l'examen du projet de PLU.",
+      "id": "urb1__98-plan-local-urbanisme__1_3__opus_004",
+      "sectionTitle": "Le débat d'orientation",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_3",
+      "sourceText": "Un débat a lieu au sein de l'organe délibérant de l'établissement public de coopération intercommunale et des conseils municipaux ou du conseil municipal sur les orientations générales du projet d'aménagement et de développement durables au plus tard deux mois avant l'examen du projet de plan local d'urbanisme.",
+      "sourceContext": "Un débat a lieu au sein de l'organe délibérant de l'établissement public de coopération intercommunale et des conseils municipaux ou du conseil municipal sur les orientations générales du projet d'aménagement et de développement durables au plus tard deux mois avant l'examen du projet de plan local d'urbanisme.",
+      "sectionId": "98-plan-local-urbanisme__1_3",
+      "keywords": ["débat d'orientation", "PADD", "délai"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que devient l'évaluation environnementale du PLU si l'autorité administrative ne se prononce pas dans les deux mois ?",
+      "options": [
+        "Elle devient obligatoire",
+        "Elle est réputée non nécessaire",
+        "Le délai d'instruction est prorogé d'un mois",
+        "La décision revient alors au conseil municipal"
+      ],
+      "answer": 0,
+      "explanation": "En l'absence de décision au terme des deux mois, l'évaluation environnementale du PLU est obligatoire.",
+      "id": "urb1__98-plan-local-urbanisme__1_4__opus_005",
+      "sectionTitle": "La question de l'évaluation environnementale",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_4",
+      "sourceText": "En l'absence de décision au terme des deux mois, l'évaluation environnementale du PLU est obligatoire.",
+      "sourceContext": "En l'absence de décision au terme des deux mois, l'évaluation environnementale du PLU est obligatoire.",
+      "sectionId": "98-plan-local-urbanisme__1_4",
+      "keywords": ["évaluation environnementale", "silence", "obligatoire"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le PLU intercommunal d'un EPCI couvre le territoire d'une commune littorale. L'évaluation environnementale est-elle requise ?",
+      "options": [
+        "Oui, elle est obligatoire dès lors qu'au moins une commune littorale est couverte",
+        "Non, sauf si un site Natura 2000 est aussi concerné",
+        "Non, elle reste facultative dans tous les cas",
+        "Oui, mais seulement après décision expresse du préfet"
+      ],
+      "answer": 0,
+      "explanation": "L'évaluation environnementale est obligatoire lorsque le PLU couvre le territoire d'au moins une commune littorale.",
+      "id": "urb1__98-plan-local-urbanisme__1_4__opus_006",
+      "sectionTitle": "La question de l'évaluation environnementale",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_4",
+      "sourceText": "Il s'agit des cas où le PLU est un PLU intercommunal valant plan de déplacement urbain, où le PLU s'applique à un territoire comprenant en tout ou partie un site Natura 2000, où le PLU couvre le territoire d'au moins une commune littorale, où le PLU s'applique à un territoire en zone de montagne et prévoit la réalisation d'une unité touristique nouvelle soumise à autorisation.",
+      "sourceContext": "Il s'agit des cas où le PLU est un PLU intercommunal valant plan de déplacement urbain, où le PLU s'applique à un territoire comprenant en tout ou partie un site Natura 2000, où le PLU couvre le territoire d'au moins une commune littorale, où le PLU s'applique à un territoire en zone de montagne et prévoit la réalisation d'une unité touristique nouvelle soumise à autorisation.",
+      "sectionId": "98-plan-local-urbanisme__1_4",
+      "keywords": ["évaluation environnementale", "commune littorale", "obligatoire"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel organe est seul compétent pour arrêter le projet de PLU ?",
+      "options": [
+        "L'assemblée délibérante",
+        "L'exécutif local",
+        "Le préfet de département",
+        "La commission départementale de la préservation des espaces"
+      ],
+      "answer": 0,
+      "explanation": "Seule l'assemblée délibérante est compétente pour arrêter le projet de PLU présenté par l'exécutif.",
+      "id": "urb1__98-plan-local-urbanisme__1_5__opus_007",
+      "sectionTitle": "La délibération arrêtant le projet de PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_5",
+      "sourceText": "Le projet de PLU complet est présenté par l'exécutif à l'assemblée délibérante, seule compétente pour arrêter le projet de PLU.",
+      "sourceContext": "Le projet de PLU complet est présenté par l'exécutif à l'assemblée délibérante, seule compétente pour arrêter le projet de PLU.",
+      "sectionId": "98-plan-local-urbanisme__1_5",
+      "keywords": ["arrêt du projet", "assemblée délibérante", "compétence"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune membre émet un avis défavorable sur les dispositions du règlement la concernant directement. À quelle majorité l'EPCI arrête-t-il alors le projet de PLU ?",
+      "options": [
+        "À la majorité des deux tiers des suffrages exprimés",
+        "À la majorité simple des suffrages exprimés",
+        "À l'unanimité des communes membres",
+        "À la majorité absolue des membres en exercice"
+      ],
+      "answer": 0,
+      "explanation": "En cas d'avis défavorable d'une commune sur ce qui la concerne directement, l'EPCI arrête le projet à la majorité des deux tiers des suffrages exprimés.",
+      "id": "urb1__98-plan-local-urbanisme__1_5__opus_008",
+      "sectionTitle": "La délibération arrêtant le projet de PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_5",
+      "sourceText": "Lorsqu'une commune membre de l'établissement public de coopération intercommunale émet un avis défavorable sur les orientations d'aménagement et de programmation ou les dispositions du règlement qui la concernent directement, l'organe délibérant compétent de l'établissement public de coopération intercommunale délibère à nouveau et arrête le projet de plan local d'urbanisme à la majorité des deux tiers des suffrages exprimés.",
+      "sourceContext": "Lorsqu'une commune membre de l'établissement public de coopération intercommunale émet un avis défavorable sur les orientations d'aménagement et de programmation ou les dispositions du règlement qui la concernent directement, l'organe délibérant compétent de l'établissement public de coopération intercommunale délibère à nouveau et arrête le projet de plan local d'urbanisme à la majorité des deux tiers des suffrages exprimés.",
+      "sectionId": "98-plan-local-urbanisme__1_5",
+      "keywords": ["avis défavorable", "majorité des deux tiers", "EPCI"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quelle majorité un PLU intercommunal est-il approuvé par l'organe délibérant de l'EPCI après l'enquête publique ?",
+      "options": [
+        "À la majorité des suffrages exprimés",
+        "À la majorité des deux tiers des suffrages exprimés",
+        "À l'unanimité des communes membres",
+        "Par arrêté du préfet sans vote"
+      ],
+      "answer": 0,
+      "explanation": "L'organe délibérant de l'EPCI approuve le PLU intercommunal à la majorité des suffrages exprimés.",
+      "id": "urb1__98-plan-local-urbanisme__1_7__opus_009",
+      "sectionTitle": "L'approbation du PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_7",
+      "sourceText": "Ensuite, l'organe délibérant de l'établissement public de coopération intercommunale approuve le projet de plan local d'urbanisme à la majorité des suffrages exprimés, en tenant compte des avis qui ont été joints au dossier, des observations du public et du rapport du commissaire ou de la commission d'enquête.",
+      "sourceContext": "Ensuite, l'organe délibérant de l'établissement public de coopération intercommunale approuve le projet de plan local d'urbanisme à la majorité des suffrages exprimés, en tenant compte des avis qui ont été joints au dossier, des observations du public et du rapport du commissaire ou de la commission d'enquête.",
+      "sectionId": "98-plan-local-urbanisme__1_7",
+      "keywords": ["approbation", "PLU intercommunal", "majorité"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Où le PLU approuvé doit-il toujours être tenu à la disposition du public ?",
+      "options": [
+        "En mairie",
+        "Au siège du conseil régional",
+        "À la préfecture uniquement",
+        "Au siège de la chambre consulaire"
+      ],
+      "answer": 0,
+      "explanation": "Le PLU doit toujours être tenu à la disposition du public en mairie.",
+      "id": "urb1__98-plan-local-urbanisme__1_8__opus_010",
+      "sectionTitle": "La mise à disposition",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_8",
+      "sourceText": "Le PLU quant à lui doit toujours être tenu à la disposition du public en mairie.",
+      "sourceContext": "Le PLU quant à lui doit toujours être tenu à la disposition du public en mairie.",
+      "sectionId": "98-plan-local-urbanisme__1_8",
+      "keywords": ["mise à disposition", "mairie", "public"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un PLU porte sur un territoire non couvert par un SCOT approuvé. À partir de quand devient-il exécutoire après transmission au préfet ?",
+      "options": [
+        "À l'issue d'un délai d'un mois à compter de sa transmission au préfet",
+        "Dès sa transmission au préfet",
+        "À l'issue d'un délai de trois mois à compter de sa transmission",
+        "Après accord exprès du préfet, sans condition de délai"
+      ],
+      "answer": 0,
+      "explanation": "Hors territoire couvert par un SCOT approuvé, le PLU devient exécutoire à l'issue d'un délai d'un mois à compter de sa transmission au préfet.",
+      "id": "urb1__98-plan-local-urbanisme__1_9__opus_011",
+      "sectionTitle": "L'entrée en vigueur",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_9",
+      "sourceText": "Il devient exécutoire à l'issue d'un délai d'un mois à compter de sa transmission au préfet.",
+      "sourceContext": "Il devient exécutoire à l'issue d'un délai d'un mois à compter de sa transmission au préfet.",
+      "sectionId": "98-plan-local-urbanisme__1_9",
+      "keywords": ["entrée en vigueur", "délai d'un mois", "préfet"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque le préfet a notifié les modifications nécessaires dans le délai d'un mois, quand le PLU devient-il exécutoire ?",
+      "options": [
+        "Après l'intervention, la publication et la transmission au préfet des modifications demandées",
+        "Immédiatement, la notification du préfet étant sans effet suspensif",
+        "À l'expiration d'un nouveau délai de trois mois",
+        "Après accord exprès du conseil régional"
+      ],
+      "answer": 0,
+      "explanation": "Le PLU ne devient exécutoire qu'après l'intervention, la publication et la transmission au préfet des modifications demandées.",
+      "id": "urb1__98-plan-local-urbanisme__1_9__opus_012",
+      "sectionTitle": "L'entrée en vigueur",
+      "sourceLink": "#section-98-plan-local-urbanisme__1_9",
+      "sourceText": "Le plan local d'urbanisme ne devient alors exécutoire qu'après l'intervention, la publication et la transmission au préfet des modifications demandées.",
+      "sourceContext": "Le plan local d'urbanisme ne devient alors exécutoire qu'après l'intervention, la publication et la transmission au préfet des modifications demandées.",
+      "sectionId": "98-plan-local-urbanisme__1_9",
+      "keywords": ["entrée en vigueur", "préfet", "modifications"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est le but principal du rapport de présentation du PLU ?",
+      "options": [
+        "Expliquer les choix retenus pour établir le PADD, les OAP et le règlement",
+        "Fixer les règles d'implantation des constructions par zone",
+        "Arrêter les objectifs chiffrés de modération de la consommation de l'espace",
+        "Définir les orientations générales de la politique d'aménagement"
+      ],
+      "answer": 0,
+      "explanation": "Le rapport de présentation a pour but d'expliquer les choix retenus pour établir le PADD, les OAP et le règlement.",
+      "id": "urb1__98-plan-local-urbanisme__2_1__opus_013",
+      "sectionTitle": "Le rapport de présentation",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_1",
+      "sourceText": "Le rapport de présentation a pour but d'expliquer les choix retenus pour établir le projet d'aménagement et de développement durables, les orientations d'aménagement et de programmation ainsi que le règlement.",
+      "sourceContext": "Le rapport de présentation a pour but d'expliquer les choix retenus pour établir le projet d'aménagement et de développement durables, les orientations d'aménagement et de programmation ainsi que le règlement.",
+      "sectionId": "98-plan-local-urbanisme__2_1",
+      "keywords": ["rapport de présentation", "choix retenus", "PADD"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel document du PLU fixe les objectifs chiffrés de modération de la consommation de l'espace et de lutte contre l'étalement urbain ?",
+      "options": [
+        "Le PADD",
+        "Le rapport de présentation",
+        "Le règlement de zone",
+        "Les annexes"
+      ],
+      "answer": 0,
+      "explanation": "Le PADD fixe les objectifs chiffrés de modération de la consommation de l'espace et de lutte contre l'étalement urbain.",
+      "id": "urb1__98-plan-local-urbanisme__2_2__opus_014",
+      "sectionTitle": "Le projet d'aménagement et de développement durables (PADD)",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_2",
+      "sourceText": "Enfin, il fixe les objectifs chiffrés de modération de la consommation de l'espace et de lutte contre l'étalement urbain.",
+      "sourceContext": "Enfin, il fixe les objectifs chiffrés de modération de la consommation de l'espace et de lutte contre l'étalement urbain.",
+      "sectionId": "98-plan-local-urbanisme__2_2",
+      "keywords": ["PADD", "modération", "étalement urbain"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans le respect de quel document les orientations d'aménagement et de programmation (OAP) sont-elles mises en œuvre ?",
+      "options": [
+        "Le PADD",
+        "Le SCOT",
+        "Le rapport de présentation",
+        "Le règlement de zone"
+      ],
+      "answer": 0,
+      "explanation": "Les OAP sont mises en œuvre dans le respect du PADD.",
+      "id": "urb1__98-plan-local-urbanisme__2_3__opus_015",
+      "sectionTitle": "Les orientations d'aménagement et de programmation (OAP)",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_3",
+      "sourceText": "Les OAP sont mises en œuvre dans le respect du PADD.",
+      "sourceContext": "Les OAP sont mises en œuvre dans le respect du PADD.",
+      "sectionId": "98-plan-local-urbanisme__2_3",
+      "keywords": ["OAP", "PADD", "mise en œuvre"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Avec quel document le règlement du PLU fixe-t-il, en cohérence, les règles générales et servitudes d'utilisation des sols ?",
+      "options": [
+        "Le projet d'aménagement et de développement durables",
+        "Le rapport de présentation",
+        "Le SCOT du territoire",
+        "Le programme local de l'habitat"
+      ],
+      "answer": 0,
+      "explanation": "Le règlement fixe les règles générales et servitudes d'utilisation des sols en cohérence avec le PADD.",
+      "id": "urb1__98-plan-local-urbanisme__2_4__opus_016",
+      "sectionTitle": "Le règlement",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4",
+      "sourceText": "Le règlement fixe, en cohérence avec le projet d'aménagement et de développement durables, les règles générales et les servitudes d'utilisation des sols permettant d'atteindre les objectifs de l'article L. 121-1, qui peuvent notamment comporter l'interdiction de construire, délimite les zones urbaines ou à urbaniser et les zones naturelles ou agricoles et forestières à protéger et définit, en fonction des circonstances locales, les règles concernant l'implantation des constructions.",
+      "sourceContext": "Le règlement fixe, en cohérence avec le projet d'aménagement et de développement durables, les règles générales et les servitudes d'utilisation des sols permettant d'atteindre les objectifs de l'article L. 121-1, qui peuvent notamment comporter l'interdiction de construire, délimite les zones urbaines ou à urbaniser et les zones naturelles ou agricoles et forestières à protéger et définit, en fonction des circonstances locales, les règles concernant l'implantation des constructions.",
+      "sectionId": "98-plan-local-urbanisme__2_4",
+      "keywords": ["règlement", "PADD", "utilisation des sols"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une zone AU souffre d'une insuffisance des équipements existants. Comment son ouverture à l'urbanisation peut-elle intervenir ?",
+      "options": [
+        "Par une modification ou une révision du PLU",
+        "Par simple décision du maire au cas par cas",
+        "Au fur et à mesure de la réalisation des équipements",
+        "Par une délibération de la commission départementale"
+      ],
+      "answer": 0,
+      "explanation": "En cas d'insuffisance des équipements, l'ouverture à l'urbanisation d'une zone AU impliquera une modification ou une révision du PLU.",
+      "id": "urb1__98-plan-local-urbanisme__2_4_1_2__opus_017",
+      "sectionTitle": "Les zones à urbaniser dites « zones AU »",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4_1_2",
+      "sourceText": "En revanche, en cas d'insuffisance des équipements, l'ouverture à l'urbanisation impliquera une modification ou une révision du PLU.",
+      "sourceContext": "En revanche, en cas d'insuffisance des équipements, l'ouverture à l'urbanisation impliquera une modification ou une révision du PLU.",
+      "sectionId": "98-plan-local-urbanisme__2_4_1_2",
+      "keywords": ["zone AU", "équipements insuffisants", "révision"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pour quelle durée maximale une servitude de gel des constructions peut-elle être instituée dans une zone AU ou urbaine du PLU ?",
+      "options": [
+        "Cinq ans",
+        "Trois ans",
+        "Neuf ans",
+        "Dix ans"
+      ],
+      "answer": 0,
+      "explanation": "Ces servitudes consistent à interdire, dans un périmètre délimité et pour une durée maximale de cinq ans, certaines constructions.",
+      "id": "urb1__98-plan-local-urbanisme__2_4_1_2__opus_018",
+      "sectionTitle": "Les zones à urbaniser dites « zones AU »",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4_1_2",
+      "sourceText": "Celles-ci consistent à interdire, dans un périmètre délimité et pour une durée maximale de cinq ans, les constructions ou installations d'une superficie supérieure à un seuil défini par le règlement.",
+      "sourceContext": "Celles-ci consistent à interdire, dans un périmètre délimité et pour une durée maximale de cinq ans, les constructions ou installations d'une superficie supérieure à un seuil défini par le règlement.",
+      "sectionId": "98-plan-local-urbanisme__2_4_1_2",
+      "keywords": ["servitude", "durée maximale", "cinq ans"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un pétitionnaire veut construire en zone agricole (zone A). Quelles constructions y sont seules autorisées ?",
+      "options": [
+        "Celles nécessaires aux services publics et à l'exploitation agricole, compatibles avec la zone",
+        "Toute construction à usage d'habitation individuelle",
+        "Les constructions touristiques et hôtelières",
+        "Les seules constructions liées aux remontées mécaniques"
+      ],
+      "answer": 0,
+      "explanation": "En zone A, sont seules autorisées les constructions nécessaires aux services publics et à l'exploitation agricole, compatibles avec la vocation de la zone.",
+      "id": "urb1__98-plan-local-urbanisme__2_4_1_3__opus_019",
+      "sectionTitle": "Les zones agricoles dites « zones A »",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4_1_3",
+      "sourceText": "Dans ces zones sont seules autorisées les constructions ou installations nécessaires aux services publics et à l'exploitation agricole, à condition qu'elles soient compatibles avec la vocation de la zone.",
+      "sourceContext": "Dans ces zones sont seules autorisées les constructions ou installations nécessaires aux services publics et à l'exploitation agricole, à condition qu'elles soient compatibles avec la vocation de la zone.",
+      "sectionId": "98-plan-local-urbanisme__2_4_1_3",
+      "keywords": ["zone A", "exploitation agricole", "constructions autorisées"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle réforme de la loi Alur du 24 mars 2014 a affecté le règlement du PLU s'agissant des terrains constructibles ?",
+      "options": [
+        "La suppression du COS et de la possibilité de fixer une superficie minimale des terrains",
+        "L'instauration d'un coefficient de biotope obligatoire",
+        "La création d'un droit de préemption sur les zones AU",
+        "L'obligation d'un échéancier d'ouverture à l'urbanisation"
+      ],
+      "answer": 0,
+      "explanation": "La loi Alur a supprimé le coefficient d'occupation des sols et, avec lui, la possibilité de fixer une superficie minimale des terrains constructibles.",
+      "id": "urb1__98-plan-local-urbanisme__2_4_2_1__opus_020",
+      "sectionTitle": "L'usage des sols et la destination des constructions",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4_2_1",
+      "sourceText": "A ainsi été supprimée le coefficient d'occupation des sols, et avec elle la possibilité de fixer une superficie minimale des terrains constructibles dans le règlement du PLU.",
+      "sourceContext": "A ainsi été supprimée le coefficient d'occupation des sols, et avec elle la possibilité de fixer une superficie minimale des terrains constructibles dans le règlement du PLU.",
+      "sectionId": "98-plan-local-urbanisme__2_4_2_1",
+      "keywords": ["loi Alur", "COS", "superficie minimale"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "S'agissant des caractéristiques architecturales, quelle obligation le règlement peut-il imposer pour favoriser la biodiversité ?",
+      "options": [
+        "Une part minimale de surfaces non imperméabilisées ou éco-aménageables",
+        "Un raccordement obligatoire aux réseaux de chaleur",
+        "Une hauteur maximale uniforme de toutes les constructions",
+        "L'usage exclusif de matériaux biosourcés"
+      ],
+      "answer": 0,
+      "explanation": "Le règlement peut imposer une part minimale de surfaces non imperméabilisées ou éco-aménageables pour maintenir la biodiversité et la nature en ville.",
+      "id": "urb1__98-plan-local-urbanisme__2_4_2_2__opus_021",
+      "sectionTitle": "Les caractéristiques architecturale, urbaine et écologique",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4_2_2",
+      "sourceText": "Des règles peuvent, en outre, imposer une part minimale de surfaces non imperméabilisées ou éco-aménageables, éventuellement pondérées en fonction de leur nature, afin de contribuer au maintien de la biodiversité et de la nature en ville.",
+      "sourceContext": "Des règles peuvent, en outre, imposer une part minimale de surfaces non imperméabilisées ou éco-aménageables, éventuellement pondérées en fonction de leur nature, afin de contribuer au maintien de la biodiversité et de la nature en ville.",
+      "sectionId": "98-plan-local-urbanisme__2_4_2_2",
+      "keywords": ["surfaces éco-aménageables", "biodiversité", "règlement"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles sont les seules règles qui doivent nécessairement figurer dans le règlement, à l'écrit ou en documents graphiques ?",
+      "options": [
+        "Celles relatives à l'implantation des constructions par rapport aux voies et limites séparatives",
+        "Celles relatives à la hauteur maximale des constructions",
+        "Celles relatives au stationnement des véhicules motorisés",
+        "Celles relatives à l'aspect extérieur des constructions"
+      ],
+      "answer": 0,
+      "explanation": "Les règles d'implantation des constructions par rapport aux voies, emprises publiques et limites séparatives sont les seules à devoir nécessairement figurer dans le règlement.",
+      "id": "urb1__98-plan-local-urbanisme__2_4_2_6__opus_022",
+      "sectionTitle": "Les règles obligatoires",
+      "sourceLink": "#section-98-plan-local-urbanisme__2_4_2_6",
+      "sourceText": "Il s'agit des seules règles qui doivent nécessairement être comprises dans le règlement, que ce soit à l'écrit ou dans les documents graphiques.",
+      "sourceContext": "Il s'agit des seules règles qui doivent nécessairement être comprises dans le règlement, que ce soit à l'écrit ou dans les documents graphiques.",
+      "sectionId": "98-plan-local-urbanisme__2_4_2_6",
+      "keywords": ["règles obligatoires", "implantation", "documents graphiques"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel effet l'approbation du PLU produit-elle sur les compétences exercées en matière d'occupation du sol ?",
+      "options": [
+        "Un transfert global de compétences de l'État vers l'exécutif local",
+        "Un partage des compétences entre l'État et la commune",
+        "Un transfert des compétences vers la région",
+        "Un maintien des compétences au profit du préfet"
+      ],
+      "answer": 0,
+      "explanation": "L'approbation du PLU entraîne un transfert global de compétences de l'État au profit de l'exécutif local pour l'occupation du sol et de l'espace.",
+      "id": "urb1__98-plan-local-urbanisme__3_1_1__opus_023",
+      "sectionTitle": "Un transfert de compétences",
+      "sourceLink": "#section-98-plan-local-urbanisme__3_1_1",
+      "sourceText": "L'approbation du PLU entraine un transfert de compétences de l'Etat au profit de l'exécutif local. Ce transfert est global et concerne l'ensemble des procédures, décisions et formalités qui concernent l'occupation du sol et de l'espace.",
+      "sourceContext": "L'approbation du PLU entraine un transfert de compétences de l'Etat au profit de l'exécutif local. Ce transfert est global et concerne l'ensemble des procédures, décisions et formalités qui concernent l'occupation du sol et de l'espace.",
+      "sectionId": "98-plan-local-urbanisme__3_1_1",
+      "keywords": ["transfert de compétences", "État", "exécutif local"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Avec quel document de planification le PLU doit-il avant tout être compatible dans la hiérarchie des normes ?",
+      "options": [
+        "Le SCOT",
+        "Le programme local de l'habitat",
+        "Le plan de déplacements urbains",
+        "Le schéma régional du climat, de l'air et de l'énergie"
+      ],
+      "answer": 0,
+      "explanation": "Le PLU doit surtout être compatible avec le SCOT.",
+      "id": "urb1__98-plan-local-urbanisme__3_2_1__opus_024",
+      "sectionTitle": "L'évolution de la hiérarchie des normes",
+      "sourceLink": "#section-98-plan-local-urbanisme__3_2_1",
+      "sourceText": "Surtout, le PLU doit être compatible avec le SCOT.",
+      "sourceContext": "Surtout, le PLU doit être compatible avec le SCOT.",
+      "sectionId": "98-plan-local-urbanisme__3_2_1",
+      "keywords": ["hiérarchie des normes", "compatibilité", "SCOT"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quelle condition les seules adaptations mineures aux dispositions du PLU sont-elles admises ?",
+      "options": [
+        "Lorsqu'elles sont rendues nécessaires par la nature du sol, les parcelles ou les constructions avoisinantes",
+        "Lorsque le pétitionnaire obtient l'accord du préfet",
+        "Lorsqu'elles sont prévues par une délibération du conseil municipal",
+        "Lorsqu'elles concernent un immeuble protégé"
+      ],
+      "answer": 0,
+      "explanation": "Les adaptations mineures sont admises à condition d'être rendues nécessaires par la nature du sol, la configuration des parcelles ou le caractère des constructions avoisinantes.",
+      "id": "urb1__98-plan-local-urbanisme__3_2_3__opus_025",
+      "sectionTitle": "De possibles aménagements au PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__3_2_3",
+      "sourceText": "Seules des adaptations mineures sont admises, à condition qu'elles soient rendues nécessaires par la nature du sol, la configuration des parcelles ou le caractère des constructions avoisinantes.",
+      "sourceContext": "Seules des adaptations mineures sont admises, à condition qu'elles soient rendues nécessaires par la nature du sol, la configuration des parcelles ou le caractère des constructions avoisinantes.",
+      "sectionId": "98-plan-local-urbanisme__3_2_3",
+      "keywords": ["adaptations mineures", "nature du sol", "parcelles"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une catastrophe naturelle a détruit un bâtiment il y a huit mois. Une dérogation au PLU pour sa reconstruction est-elle envisageable ?",
+      "options": [
+        "Oui, les dérogations sont permises pour les catastrophes survenues depuis moins d'un an",
+        "Non, aucune dérogation n'est possible après une catastrophe naturelle",
+        "Oui, mais uniquement dans un délai de six mois après la catastrophe",
+        "Non, sauf accord de la commission départementale"
+      ],
+      "answer": 0,
+      "explanation": "Des dérogations sont permises pour les reconstructions de bâtiments après une catastrophe naturelle survenue depuis moins d'un an.",
+      "id": "urb1__98-plan-local-urbanisme__3_2_3__opus_026",
+      "sectionTitle": "De possibles aménagements au PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__3_2_3",
+      "sourceText": "Elles sont permises pour des reconstructions de bâtiments après une catastrophe naturelle survenue depuis moins d'un an.",
+      "sourceContext": "Elles sont permises pour des reconstructions de bâtiments après une catastrophe naturelle survenue depuis moins d'un an.",
+      "sectionId": "98-plan-local-urbanisme__3_2_3",
+      "keywords": ["dérogation", "catastrophe naturelle", "reconstruction"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quelle fréquence doit intervenir l'évaluation des objectifs globaux du PLU au regard de l'article L. 121-1 ?",
+      "options": [
+        "Tous les neuf ans",
+        "Tous les trois ans",
+        "Tous les six ans",
+        "Tous les dix ans"
+      ],
+      "answer": 0,
+      "explanation": "L'évaluation des objectifs globaux du PLU au regard de l'article L. 121-1 doit intervenir tous les neuf ans.",
+      "id": "urb1__98-plan-local-urbanisme__3_2_4__opus_027",
+      "sectionTitle": "Le suivi du PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__3_2_4",
+      "sourceText": "Tout d'abord, une évaluation des objectifs globaux du PLU en application des objectifs de l'article L. 121-1 doit intervenir tous les neuf ans.",
+      "sourceContext": "Tout d'abord, une évaluation des objectifs globaux du PLU en application des objectifs de l'article L. 121-1 doit intervenir tous les neuf ans.",
+      "sectionId": "98-plan-local-urbanisme__3_2_4",
+      "keywords": ["suivi", "évaluation", "neuf ans"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un EPCI envisage de changer les orientations du PADD. Quelle procédure d'évolution du PLU doit-il engager ?",
+      "options": [
+        "La révision selon la procédure normale",
+        "La modification de droit commun",
+        "La modification simplifiée",
+        "La mise à jour par arrêté de l'exécutif"
+      ],
+      "answer": 0,
+      "explanation": "Le PLU fait l'objet d'une révision lorsque l'EPCI ou la commune envisage de changer les orientations du PADD.",
+      "id": "urb1__98-plan-local-urbanisme__4_1_1__opus_028",
+      "sectionTitle": "La procédure normale",
+      "sourceLink": "#section-98-plan-local-urbanisme__4_1_1",
+      "sourceText": "Le PLU fait l'objet d'une révision lorsque l'EPCI ou la commune envisage, tout d'abord de changer les orientations du PADD.",
+      "sourceContext": "Le PLU fait l'objet d'une révision lorsque l'EPCI ou la commune envisage, tout d'abord de changer les orientations du PADD.",
+      "sectionId": "98-plan-local-urbanisme__4_1_1",
+      "keywords": ["révision", "PADD", "procédure normale"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une modification du PLU majorerait de 25 % les possibilités de construire dans une zone. Une enquête publique est-elle exigée ?",
+      "options": [
+        "Oui, car la majoration des possibilités de construire dépasse 20 %",
+        "Non, la modification normale n'exige jamais d'enquête publique",
+        "Non, une simple mise à disposition du public suffit",
+        "Oui, mais seulement avec l'accord préalable du préfet"
+      ],
+      "answer": 0,
+      "explanation": "L'enquête publique est exigée si la modification majore de plus de 20 % les possibilités de construire dans une zone.",
+      "id": "urb1__98-plan-local-urbanisme__4_2_1__opus_029",
+      "sectionTitle": "La modification normale",
+      "sourceLink": "#section-98-plan-local-urbanisme__4_2_1",
+      "sourceText": "Cette enquête publique n'est exigée que si la modification conduit à majorer de plus de 20% les possibilités de construire résultant des diverses règles dans une zone, diminuer les possibilités de construire, ou réduire la surface d'une zone urbaine ou à urbaniser.",
+      "sourceContext": "Cette enquête publique n'est exigée que si la modification conduit à majorer de plus de 20% les possibilités de construire résultant des diverses règles dans une zone, diminuer les possibilités de construire, ou réduire la surface d'une zone urbaine ou à urbaniser.",
+      "sectionId": "98-plan-local-urbanisme__4_2_1",
+      "keywords": ["modification normale", "enquête publique", "20%"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans la procédure de modification simplifiée du PLU, par quoi l'enquête publique est-elle remplacée ?",
+      "options": [
+        "Une mise à disposition du dossier au public pendant un mois avec recueil des observations",
+        "Un examen conjoint avec l'État et les personnes publiques associées",
+        "Un débat au sein de l'organe délibérant",
+        "Une simple notification au préfet"
+      ],
+      "answer": 0,
+      "explanation": "Dans la modification simplifiée, l'enquête publique est remplacée par une mise à disposition du dossier au public pendant un mois avec recueil des observations.",
+      "id": "urb1__98-plan-local-urbanisme__4_2_2__opus_030",
+      "sectionTitle": "La modification simplifiée",
+      "sourceLink": "#section-98-plan-local-urbanisme__4_2_2",
+      "sourceText": "Dans ce cadre, l'enquête publique est remplacée par une mise à disposition du public du dossier pendant un mois, avec un recueil des observations.",
+      "sourceContext": "Dans ce cadre, l'enquête publique est remplacée par une mise à disposition du public du dossier pendant un mois, avec un recueil des observations.",
+      "sectionId": "98-plan-local-urbanisme__4_2_2",
+      "keywords": ["modification simplifiée", "mise à disposition", "un mois"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le PLU n'a pas été rendu compatible avec le SCOT après trois ans, et la commune ne réagit pas. Qui engage et approuve la mise en compatibilité ?",
+      "options": [
+        "Le préfet",
+        "Le conseil municipal seul",
+        "La commission départementale des espaces naturels",
+        "L'établissement public chargé du SCOT"
+      ],
+      "answer": 0,
+      "explanation": "À défaut d'accord ou de délibération de la commune dans les délais, le préfet engage et approuve la mise en compatibilité.",
+      "id": "urb1__98-plan-local-urbanisme__4_3_1__opus_031",
+      "sectionTitle": "La mise en compatibilité avec des documents de niveau supérieur",
+      "sourceLink": "#section-98-plan-local-urbanisme__4_3_1",
+      "sourceText": "A défaut d'accord dans le délai d'un mois prévu ou, en cas d'accord, à défaut d'une délibération approuvant dans un délai de six mois à compter de la notification initiale du préfet, la mise en compatibilité, le préfet engage et approuve cette mise en compatibilité.",
+      "sourceContext": "A défaut d'accord dans le délai d'un mois prévu ou, en cas d'accord, à défaut d'une délibération approuvant dans un délai de six mois à compter de la notification initiale du préfet, la mise en compatibilité, le préfet engage et approuve cette mise en compatibilité.",
+      "sectionId": "98-plan-local-urbanisme__4_3_1",
+      "keywords": ["mise en compatibilité", "préfet", "carence"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel acte suffit pour procéder à une mise à jour du PLU ?",
+      "options": [
+        "Un simple arrêté de l'exécutif local",
+        "Une délibération de l'assemblée délibérante",
+        "Une enquête publique préalable",
+        "Un arrêté préfectoral"
+      ],
+      "answer": 0,
+      "explanation": "Pour la mise à jour du PLU, un simple arrêté de l'exécutif local suffit.",
+      "id": "urb1__98-plan-local-urbanisme__4_4__opus_032",
+      "sectionTitle": "La mise à jour du PLU",
+      "sourceLink": "#section-98-plan-local-urbanisme__4_4",
+      "sourceText": "Pour la mise à jour, un simple arrêté de l'exécutif local suffit.",
+      "sourceContext": "Pour la mise à jour, un simple arrêté de l'exécutif local suffit.",
+      "sectionId": "98-plan-local-urbanisme__4_4",
+      "keywords": ["mise à jour", "arrêté", "exécutif local"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle étendue territoriale couvre le PLU lorsqu'il est élaboré par un EPCI compétent ?",
+      "options": [
+        "L'intégralité de son territoire",
+        "Le seul territoire de la ville-centre",
+        "Les seules communes l'ayant approuvé",
+        "Le périmètre du SCOT"
+      ],
+      "answer": 0,
+      "explanation": "Lorsqu'il est élaboré par un EPCI compétent, le PLU couvre l'intégralité de son territoire.",
+      "id": "urb1__98-plan-local-urbanisme__5_1__opus_033",
+      "sectionTitle": "Contenu du PLU intercommunal",
+      "sourceLink": "#section-98-plan-local-urbanisme__5_1",
+      "sourceText": "Lorsqu'il est élaboré par un établissement public de coopération intercommunale compétent, le plan local d'urbanisme couvre l'intégralité de son territoire.",
+      "sourceContext": "Lorsqu'il est élaboré par un établissement public de coopération intercommunale compétent, le plan local d'urbanisme couvre l'intégralité de son territoire.",
+      "sectionId": "98-plan-local-urbanisme__5_1",
+      "keywords": ["PLU intercommunal", "territoire", "EPCI"]
+    },
+    {
+      "bloom": "application",
+      "q": "Deux EPCI fusionnent alors qu'un PLU est en cours d'élaboration. Dans quel délai l'EPCI nouvellement compétent doit-il achever la procédure ?",
+      "options": [
+        "Dans un délai de deux ans à compter de l'intégration ou de la fusion",
+        "Dans un délai d'un an à compter de la fusion",
+        "Dans un délai de trois ans à compter de l'intégration",
+        "Dans un délai de six mois à compter de la fusion"
+      ],
+      "answer": 0,
+      "explanation": "L'EPCI nouvellement compétent achève la procédure dans un délai de deux ans à compter de l'intégration ou de la fusion.",
+      "id": "urb1__98-plan-local-urbanisme__5_2_1__opus_034",
+      "sectionTitle": "L'achèvement de la procédure par l'EPCI nouvellement compétent",
+      "sourceLink": "#section-98-plan-local-urbanisme__5_2_1",
+      "sourceText": "Dans ces cas, l'EPCI nouvellement compétent achève la procédure d'élaboration, de révision, de modification ou de mise en compatibilité dans un délai de deux ans à compter de l'intégration ou de la fusion.",
+      "sourceContext": "Dans ces cas, l'EPCI nouvellement compétent achève la procédure d'élaboration, de révision, de modification ou de mise en compatibilité dans un délai de deux ans à compter de l'intégration ou de la fusion.",
+      "sectionId": "98-plan-local-urbanisme__5_2_1",
+      "keywords": ["fusion EPCI", "délai de deux ans", "achèvement"]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Sur quoi le certificat d'urbanisme a-t-il pour objet de renseigner le pétitionnaire ?",
+      "options": [
+        "Sur le droit de l'urbanisme en vigueur dans une zone ou la possibilité d'y réaliser un projet",
+        "Sur la valeur vénale du terrain et son prix de marché",
+        "Sur l'obtention automatique d'un permis de construire",
+        "Sur la régularité fiscale du propriétaire du terrain"
+      ],
+      "answer": 0,
+      "explanation": "Le certificat d'urbanisme renseigne le pétitionnaire sur le droit de l'urbanisme en vigueur dans une zone ou sur la possibilité d'y réaliser un projet.",
+      "id": "urb1__102-certificat-urbanisme__1__opus_001",
+      "sectionTitle": "L'objet du certificat d'urbanisme",
+      "sourceLink": "#section-102-certificat-urbanisme__1",
+      "sourceText": "Le certificat d'urbanisme permet de renseigner un pétitionnaire sur le droit de l'urbanisme en vigueur dans une certaine zone ou sur la possibilité d'y réaliser un projet.",
+      "sourceContext": "Le certificat d'urbanisme permet de renseigner un pétitionnaire sur le droit de l'urbanisme en vigueur dans une certaine zone ou sur la possibilité d'y réaliser un projet.",
+      "sectionId": "102-certificat-urbanisme__1",
+      "keywords": [
+        "certificat d'urbanisme",
+        "objet",
+        "renseignement"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qu'est-ce qui caractérise le certificat d'urbanisme neutre par rapport au pré-opérationnel ?",
+      "options": [
+        "Il ne repose sur aucun projet particulier",
+        "Il se prononce sur la faisabilité technique d'une opération précise",
+        "Il garantit la constructibilité définitive du terrain",
+        "Il dispense le pétitionnaire de toute autorisation ultérieure"
+      ],
+      "answer": 0,
+      "explanation": "Le certificat d'urbanisme neutre se distingue par le fait qu'il ne repose sur aucun projet particulier.",
+      "id": "urb1__102-certificat-urbanisme__1_1__opus_002",
+      "sectionTitle": "Le certificat d'urbanisme neutre",
+      "sourceLink": "#section-102-certificat-urbanisme__1_1",
+      "sourceText": "Ce certificat ne repose sur aucun projet particulier.",
+      "sourceContext": "Ce certificat ne repose sur aucun projet particulier.",
+      "sectionId": "102-certificat-urbanisme__1_1",
+      "keywords": [
+        "certificat neutre",
+        "absence de projet",
+        "dispositions d'urbanisme"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la portée du certificat d'urbanisme pré-opérationnel à l'égard de la constructibilité du terrain ?",
+      "options": [
+        "Il ne se prononce pas sur la constructibilité du terrain",
+        "Il atteste définitivement que le terrain est constructible",
+        "Il vaut autorisation de construire pour l'opération envisagée",
+        "Il interdit toute construction tant qu'il est en cours de validité"
+      ],
+      "answer": 0,
+      "explanation": "Le certificat d'urbanisme pré-opérationnel ne se prononce pas sur la constructibilité du terrain, il crée seulement des droits quant à l'application de certaines règles.",
+      "id": "urb1__102-certificat-urbanisme__1_2__opus_003",
+      "sectionTitle": "Le certificat d'urbanisme pré-opérationnel",
+      "sourceLink": "#section-102-certificat-urbanisme__1_2",
+      "sourceText": "Le certificat d'urbanisme ne se prononce pas sur la constructibilité du terrain.",
+      "sourceContext": "Le certificat d'urbanisme ne se prononce pas sur la constructibilité du terrain.",
+      "sectionId": "102-certificat-urbanisme__1_2",
+      "keywords": [
+        "certificat pré-opérationnel",
+        "constructibilité",
+        "création de droits"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Qui peut, en règle générale, présenter une demande de certificat d'urbanisme ?",
+      "options": [
+        "Le propriétaire du terrain ou son mandataire",
+        "Exclusivement le maire de la commune concernée",
+        "Uniquement un notaire mandaté à cet effet",
+        "Seul le futur constructeur titulaire d'un permis"
+      ],
+      "answer": 0,
+      "explanation": "La demande est en règle générale présentée par le propriétaire du terrain ou son mandataire.",
+      "id": "urb1__102-certificat-urbanisme__2_1__opus_004",
+      "sectionTitle": "La demande",
+      "sourceLink": "#section-102-certificat-urbanisme__2_1",
+      "sourceText": "En ce qui concerne le pétitionnaire, la demande de certificat d'urbanisme est en règle générale présentée par le propriétaire du terrain ou son mandataire.",
+      "sourceContext": "En ce qui concerne le pétitionnaire, la demande de certificat d'urbanisme est en règle générale présentée par le propriétaire du terrain ou son mandataire.",
+      "sectionId": "102-certificat-urbanisme__2_1",
+      "keywords": [
+        "demande",
+        "pétitionnaire",
+        "propriétaire"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un usager dépose une demande de certificat d'urbanisme pré-opérationnel : à quelle autorité doit-il adresser son dossier et selon quelle exigence d'exemplaires ?",
+      "options": [
+        "Au maire de la commune de situation du terrain, en quatre exemplaires",
+        "Au préfet du département, en deux exemplaires",
+        "Au maire de la commune de situation du terrain, en deux exemplaires",
+        "Au président de l'EPCI, en quatre exemplaires"
+      ],
+      "answer": 0,
+      "explanation": "Le dossier est adressé au maire de la commune de situation du terrain et 4 exemplaires sont nécessaires pour le certificat pré-opérationnel.",
+      "id": "urb1__102-certificat-urbanisme__2_1__opus_005",
+      "sectionTitle": "La demande",
+      "sourceLink": "#section-102-certificat-urbanisme__2_1",
+      "sourceText": "Le dossier doit être adressé au maire de la commune de situation du terrain. S'il s'agit d'un certificat d'urbanisme neutre, 2 exemplaires suffisant, tandis que 4 sont nécessaires pour le certificat pré-opérationnel.",
+      "sourceContext": "Le dossier doit être adressé au maire de la commune de situation du terrain. S'il s'agit d'un certificat d'urbanisme neutre, 2 exemplaires suffisant, tandis que 4 sont nécessaires pour le certificat pré-opérationnel.",
+      "sectionId": "102-certificat-urbanisme__2_1",
+      "keywords": [
+        "dossier",
+        "maire",
+        "exemplaires"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quels sont les délais d'instruction respectifs du certificat neutre et du certificat pré-opérationnel ?",
+      "options": [
+        "Un mois pour le certificat neutre et deux mois pour le pré-opérationnel",
+        "Quinze jours pour le neutre et un mois pour le pré-opérationnel",
+        "Deux mois pour le neutre et trois mois pour le pré-opérationnel",
+        "Un mois pour les deux types de certificat"
+      ],
+      "answer": 0,
+      "explanation": "Le délai d'instruction est d'un mois pour le certificat neutre et de deux mois pour le certificat pré-opérationnel.",
+      "id": "urb1__102-certificat-urbanisme__2_2__opus_006",
+      "sectionTitle": "L'instruction de la demande",
+      "sourceLink": "#section-102-certificat-urbanisme__2_2",
+      "sourceText": "Le délai d'instruction est d'un mois pour le certificat neutre, et de deux mois pour le certificat pré-opérationnel.",
+      "sourceContext": "Le délai d'instruction est d'un mois pour le certificat neutre, et de deux mois pour le certificat pré-opérationnel.",
+      "sectionId": "102-certificat-urbanisme__2_2",
+      "keywords": [
+        "délai d'instruction",
+        "certificat neutre",
+        "pré-opérationnel"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lors de l'instruction d'un certificat pré-opérationnel, un service compétent sollicité n'émet aucun avis dans le mois imparti : quelle est la conséquence ?",
+      "options": [
+        "Le silence vaut approbation",
+        "Le silence vaut rejet de la demande",
+        "Le délai d'instruction est suspendu indéfiniment",
+        "L'avis devient obligatoire avant toute décision"
+      ],
+      "answer": 0,
+      "explanation": "Les avis doivent être émis dans un délai d'un mois, à défaut de quoi le silence vaut approbation.",
+      "id": "urb1__102-certificat-urbanisme__2_2__opus_007",
+      "sectionTitle": "L'instruction de la demande",
+      "sourceLink": "#section-102-certificat-urbanisme__2_2",
+      "sourceText": "Dans ce dernier cas, si le service instructeur demande des avis à d'éventuelles personnes compétentes, ces avis doivent nécessairement avoir été émis dans un délai d'un mois, à défaut de quoi le silence vaudra approbation.",
+      "sourceContext": "Dans ce dernier cas, si le service instructeur demande des avis à d'éventuelles personnes compétentes, ces avis doivent nécessairement avoir été émis dans un délai d'un mois, à défaut de quoi le silence vaudra approbation.",
+      "sectionId": "102-certificat-urbanisme__2_2",
+      "keywords": [
+        "avis",
+        "silence vaut approbation",
+        "délai d'un mois"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que se passe-t-il si aucune notification n'intervient avant l'issue du délai d'instruction ?",
+      "options": [
+        "Le demandeur bénéficie d'un certificat d'urbanisme tacite",
+        "La demande est réputée rejetée",
+        "Le délai est automatiquement prorogé de deux mois",
+        "Le pétitionnaire doit déposer une nouvelle demande"
+      ],
+      "answer": 0,
+      "explanation": "Si aucune notification n'a lieu dans le délai d'instruction, le demandeur bénéficie d'un certificat d'urbanisme tacite.",
+      "id": "urb1__102-certificat-urbanisme__2_3__opus_008",
+      "sectionTitle": "La décision de l'administration",
+      "sourceLink": "#section-102-certificat-urbanisme__2_3",
+      "sourceText": "Si aucune notification n'a lieu dans ce délai, le demandeur bénéficie d'un certificat d'urbanisme tacite.",
+      "sourceContext": "Si aucune notification n'a lieu dans ce délai, le demandeur bénéficie d'un certificat d'urbanisme tacite.",
+      "sectionId": "102-certificat-urbanisme__2_3",
+      "keywords": [
+        "certificat tacite",
+        "notification",
+        "délai d'instruction"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Outre les dispositions d'urbanisme, de quelles situations le certificat doit-il mentionner l'éventualité au demandeur ?",
+      "options": [
+        "L'opposabilité d'un sursis à statuer ou la situation dans un périmètre de préemption",
+        "Le montant exact des travaux à réaliser sur le terrain",
+        "L'identité des futurs voisins de la parcelle",
+        "La date prévisionnelle d'achèvement de l'opération"
+      ],
+      "answer": 0,
+      "explanation": "Le certificat doit mentionner si un sursis à statuer est opposable ou si le bien se situe dans un périmètre de préemption.",
+      "id": "urb1__102-certificat-urbanisme__3_1_1__opus_009",
+      "sectionTitle": "Les garanties accordées par le certificat d'urbanisme",
+      "sourceLink": "#section-102-certificat-urbanisme__3_1_1",
+      "sourceText": "Le certificat doit aussi mentionnée si un sursis à statuer est éventuellement opposable, ou si le bien se situe dans un périmètre de préemption.",
+      "sourceContext": "Le certificat doit aussi mentionnée si un sursis à statuer est éventuellement opposable, ou si le bien se situe dans un périmètre de préemption.",
+      "sectionId": "102-certificat-urbanisme__3_1_1",
+      "keywords": [
+        "garanties",
+        "sursis à statuer",
+        "droit de préemption"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans quel délai maximal la demande de décision d'urbanisme doit-elle intervenir après la délivrance du certificat pré-opérationnel ?",
+      "options": [
+        "À l'issue d'un délai de 18 mois courant à partir de la délivrance",
+        "À l'issue d'un délai de 6 mois courant à partir de la délivrance",
+        "À l'issue d'un délai de 2 ans courant à partir de la délivrance",
+        "À l'issue d'un délai de 12 mois courant à partir de la délivrance"
+      ],
+      "answer": 0,
+      "explanation": "La demande de décision d'urbanisme doit intervenir au maximum à l'issue d'un délai de 18 mois à compter de la délivrance du certificat.",
+      "id": "urb1__102-certificat-urbanisme__3_1_2__opus_010",
+      "sectionTitle": "La portée limitée du certificat d'urbanisme",
+      "sourceLink": "#section-102-certificat-urbanisme__3_1_2",
+      "sourceText": "La demande de décision d'urbanisme doit en effet intervenir au maximum à l'issue d'un délai de 18 mois courant à partir de la délivrance du certificat.",
+      "sourceContext": "La demande de décision d'urbanisme doit en effet intervenir au maximum à l'issue d'un délai de 18 mois courant à partir de la délivrance du certificat.",
+      "sectionId": "102-certificat-urbanisme__3_1_2",
+      "keywords": [
+        "validité",
+        "délai de 18 mois",
+        "garanties temporelles"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un demandeur reçoit des renseignements inexacts dans son certificat d'urbanisme : quelle conséquence cela peut-il entraîner pour l'autorité locale ?",
+      "options": [
+        "La recherche de sa responsabilité pour faute",
+        "L'annulation automatique de tous les certificats du secteur",
+        "Le versement d'une amende fixe au profit de l'État",
+        "L'impossibilité définitive de délivrer un nouveau certificat"
+      ],
+      "answer": 0,
+      "explanation": "La responsabilité pour faute de l'autorité locale peut être recherchée si des renseignements incomplets ou inexacts ont été fournis au demandeur.",
+      "id": "urb1__102-certificat-urbanisme__3_2__opus_011",
+      "sectionTitle": "Le contentieux particulier des certificats d'urbanisme",
+      "sourceLink": "#section-102-certificat-urbanisme__3_2",
+      "sourceText": "Ainsi, la responsabilité pour faute de l'autorité locale peut être recherchée si des renseignements incomplets ou inexacts ont été fournis au demandeur.",
+      "sourceContext": "Ainsi, la responsabilité pour faute de l'autorité locale peut être recherchée si des renseignements incomplets ou inexacts ont été fournis au demandeur.",
+      "sectionId": "102-certificat-urbanisme__3_2",
+      "keywords": [
+        "contentieux",
+        "responsabilité pour faute",
+        "renseignements inexacts"
+      ]
+    }
+  ]
+}
