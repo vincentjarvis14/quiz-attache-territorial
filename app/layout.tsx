@@ -1,47 +1,35 @@
 import type { Metadata, Viewport } from "next";
-import { Poppins, Inter } from "next/font/google";
-
-import { ExitModal } from "@/components/modals/exit-modal";
-import { HeartsModal } from "@/components/modals/hearts-modal";
-import { PracticeModal } from "@/components/modals/practice-modal";
+import { Inter } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
-
 import "./globals.css";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-poppins",
-});
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
   variable: "--font-inter",
 });
 
-export const viewport: Viewport = {
-  themeColor: "#7C3AED",
+export const metadata: Metadata = {
+  title: {
+    default: "Quiz Attaché Territorial",
+    template: "%s | Quiz Attaché Territorial",
+  },
+  description:
+    "Préparez le concours d'Attaché Territorial avec 400+ QCM d'expert générés à partir des documents officiels. Sources PDF référencées pour chaque question.",
 };
 
-export const metadata: Metadata = {
-  title: "Quiz Attaché Territorial",
-  description:
-    "Préparez efficacement le concours d'Attaché Territorial avec des QCM experts générés par IA.",
+export const viewport: Viewport = {
+  themeColor: "#1e3a5f",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="fr">
-      <body className={`${poppins.variable} ${inter.variable} font-sans`}>
-        <Toaster theme="light" richColors closeButton />
-        <ExitModal />
-        <HeartsModal />
-        <PracticeModal />
+      <body className={`${inter.variable} font-sans antialiased`}>
+        <Toaster />
         {children}
       </body>
     </html>

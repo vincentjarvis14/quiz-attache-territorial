@@ -2,51 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body,
-:root {
-  @apply h-full;
-}
-
 @layer base {
   :root {
-    --background: 270 100% 98%; /* #FAF5FF */
-    --foreground: 248 54% 20%; /* #1E1B4B */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 248 54% 20%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 248 54% 20%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 271 81% 56%; /* #7C3AED - Violet */
+    --primary: 213 94% 18%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 160 84% 39%; /* #10B981 - Émeraude */
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 270 100% 96%; /* #F3E8FF */
-    --muted-foreground: 271 20% 50%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 271 81% 56%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 271 50% 92%; /* #E9D5FF */
-    --input: 271 50% 92%;
-    --ring: 271 81% 56%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 213 94% 18%;
 
     --radius: 0.5rem;
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv11", "ss01";
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fade-in-up 0.4s ease-out both;
   }
-  body {
-    @apply bg-background text-foreground;
+  .animate-fade-in-scale {
+    animation: fade-in-scale 0.3s ease-out both;
   }
+  .animate-combo-pop {
+    animation: combo-pop 0.3s ease-out;
+  }
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in-scale {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes combo-pop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.3); }
+  100% { transform: scale(1); }
 }
