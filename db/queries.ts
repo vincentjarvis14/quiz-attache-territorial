@@ -658,6 +658,162 @@ export async function getRevisionQuestions(limit = 20) {
   return loadChallenges([...collected]);
 }
 
+// ─── Tableau de bord : progression par sous-thème ───────────────
+// Source de vérité = user_answers (dernière réponse par question), et non
+// les compteurs cumulés de user_sous_theme_progress (qui sur-comptent en
+// mode révision). Deux requêtes seulement, agrégation en mémoire :
+// app mono-utilisatrice, ~quelques centaines de challenges → coût négligeable.
+
+export type ProgressionRow = {
+  sousThemeId: number;
+  title: string;
+  matiere: string;
+  totalQuestions: number;
+  answered: number; // questions distinctes répondues au moins une fois
+  correctLast: number; // questions dont la DERNIÈRE réponse est correcte
+  coverage: number; // answered / totalQuestions (%)
+  accuracy: number; // correctLast / answered (%)
+};
+
+export const getProgressionBySousTheme = cache(
+  async (): Promise<ProgressionRow[]> => {
+    const userId = await auth();
+    const userProg = await getUserProgress();
+    if (!userId || !userProg?.activeThemeId) return [];
+
+    // 1. Tous les challenges du thème actif, rattachés à leur sous-thème.
+    const challengeRows = await db
+      .select({
+        challengeId: challenges.id,
+        sousThemeId: sousThemes.id,
+        sousThemeTitle: sousThemes.title,
+        sousThemeOrder: sousThemes.order,
+        matiere: themes.matiere,
+      })
+      .from(challenges)
+      .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+      .innerJoin(sousThemes, eq(lessons.sousThemeId, sousThemes.id))
+      .innerJoin(themes, eq(sousThemes.themeId, themes.id))
+      .where(eq(sousThemes.themeId, userProg.activeThemeId));
+
+    if (challengeRows.length === 0) return [];
+
+    // 2. Dernière réponse par question (même motif que le mode révision).
+    const lastAnswers = await db
+      .select({
+        questionId: userAnswers.questionId,
+        lastCorrect: sql<boolean>`(array_agg(${userAnswers.correct} ORDER BY ${userAnswers.createdAt} DESC, ${userAnswers.id} DESC))[1]`,
+      })
+      .from(userAnswers)
+      .where(eq(userAnswers.userId, userId))
+      .groupBy(userAnswers.questionId);
+
+    const lastMap = new Map(
+      lastAnswers.map((r) => [r.questionId, r.lastCorrect]),
+    );
+
+    // 3. Agrégation par sous-thème (ordre stable via sousThemes.order).
+    const acc = new Map<number, ProgressionRow & { order: number }>();
+    for (const c of challengeRows) {
+      let row = acc.get(c.sousThemeId);
+      if (!row) {
+        row = {
+          sousThemeId: c.sousThemeId,
+          title: c.sousThemeTitle,
+          matiere: c.matiere,
+          totalQuestions: 0,
+          answered: 0,
+          correctLast: 0,
+          coverage: 0,
+          accuracy: 0,
+          order: c.sousThemeOrder,
+        };
+        acc.set(c.sousThemeId, row);
+      }
+      row.totalQuestions += 1;
+      if (lastMap.has(c.challengeId)) {
+        row.answered += 1;
+        if (lastMap.get(c.challengeId) === true) row.correctLast += 1;
+      }
+    }
+
+    return [...acc.values()]
+      .sort((a, b) => a.order - b.order)
+      .map(({ order: _order, ...r }) => ({
+        ...r,
+        coverage:
+          r.totalQuestions > 0
+            ? Math.round((r.answered / r.totalQuestions) * 100)
+            : 0,
+        accuracy:
+          r.answered > 0 ? Math.round((r.correctLast / r.answered) * 100) : 0,
+      }));
+  },
+);
+
+// ─── Tableau de bord : questions les plus ratées ────────────────
+// Questions dont la DERNIÈRE réponse est incorrecte, triées par nombre
+// d'erreurs cumulées puis par nombre de tentatives. Top `limit`.
+
+export type MissedQuestion = {
+  questionId: number;
+  question: string;
+  sousThemeTitle: string;
+  attempts: number;
+  wrongCount: number;
+};
+
+export const getMostMissedQuestions = cache(
+  async (limit = 10): Promise<MissedQuestion[]> => {
+    const userId = await auth();
+    if (!userId) return [];
+
+    const rows = await db
+      .select({
+        questionId: userAnswers.questionId,
+        attempts: sql<number>`count(*)`,
+        wrongCount: sql<number>`count(*) filter (where ${userAnswers.correct} = false)`,
+        lastCorrect: sql<boolean>`(array_agg(${userAnswers.correct} ORDER BY ${userAnswers.createdAt} DESC, ${userAnswers.id} DESC))[1]`,
+      })
+      .from(userAnswers)
+      .where(eq(userAnswers.userId, userId))
+      .groupBy(userAnswers.questionId);
+
+    const missed = rows.filter((r) => r.lastCorrect === false);
+    if (missed.length === 0) return [];
+
+    missed.sort(
+      (a, b) =>
+        Number(b.wrongCount) - Number(a.wrongCount) ||
+        Number(b.attempts) - Number(a.attempts),
+    );
+    const top = missed.slice(0, limit);
+    const ids = top.map((r) => r.questionId);
+
+    // Textes + sous-thème pour les questions retenues (une seule requête).
+    const meta = await db
+      .select({
+        id: challenges.id,
+        question: challenges.question,
+        sousThemeTitle: sousThemes.title,
+      })
+      .from(challenges)
+      .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+      .innerJoin(sousThemes, eq(lessons.sousThemeId, sousThemes.id))
+      .where(inArray(challenges.id, ids));
+
+    const metaMap = new Map(meta.map((m) => [m.id, m]));
+
+    return top.map((r) => ({
+      questionId: r.questionId,
+      question: metaMap.get(r.questionId)?.question ?? "Question indisponible",
+      sousThemeTitle: metaMap.get(r.questionId)?.sousThemeTitle ?? "—",
+      attempts: Number(r.attempts),
+      wrongCount: Number(r.wrongCount),
+    }));
+  },
+);
+
 // ─── Session de quiz ────────────────────────────────────────────
 
 export async function createQuizSession(
