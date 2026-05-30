@@ -1,5 +1,7 @@
 # Environnement
 .env
+.env.*
+!.env.example
 .env.example
 __pycache__/
 *.pyc
@@ -21,3 +23,21 @@ demo-bmad/
 # Logs et artefacts
 *.log
 data/backups/
+
+# Dépendances & build Next.js
+node_modules/
+.next/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# Outils agents / MCP
+.claude/
+.playwright-mcp/
+
+# Captures d'écran (racine)
+/*.png
+
+# Legacy / imports temporaires
+_legacy/
+quiz-attache-territorial-3-Emergent/
