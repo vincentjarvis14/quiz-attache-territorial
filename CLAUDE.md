@@ -1,80 +1,75 @@
 # Quiz Attaché Territorial
 
+App de révision pour le concours d'Attaché Territorial. **Application mono-utilisatrice** :
+exclure tout module social ou compétitif (ligues, classements, défis entre joueurs).
+
 ## Stack technique
-- **HTML/CSS/JS vanilla** — Aucun framework, zéro dépendance
-- Compatible **GitHub Pages** (statique)
-- Design system inspiré de **Duolingo**
+- **Next.js 16** (App Router, Turbopack) — React 19, TypeScript
+- **Drizzle ORM** + **Neon Postgres** (serverless, `@neondatabase/serverless`)
+- **Supabase** pour l'authentification (`@supabase/ssr`) + fallback invité par cookie
+- **Tailwind CSS** — design system maison corail (`#E85C51`) / cream (`#FBF1E7`) / ink (`#1F1D1B`)
+- Framer Motion, Zustand (état UI local)
 
 ## Structure du projet
 ```
 /
-├── index.html              # Point d'entrée unique (SPA)
-├── css/style.css           # Design system Duolingo
-├── js/
-│   ├── app.js              # Orchestrateur (point d'entrée)
-│   ├── state.js            # Mini-store pub/sub (état global)
-│   ├── quiz.js             # Logique métier (shuffle, scoring, buildQueue)
-│   ├── ui.js               # Rendu DOM (écrans, options, résultats)
-│   └── storage.js          # Persistance localStorage
-├── assets/icons/           # Icônes SVG
-├── data/quiz_pool.json     # Base de questions
-├── data/quiz_pool.light.json  # Version allégée (sourceContext tronqué)
-├── scripts/                # Scripts Python (génération, diagnostic, etc.)
-├── docs/                   # Documentation
-├── tests/                  # Tests unitaires
-├── skills/                 # Skills BMAD Builder
-├── _bmad/                  # Framework BMAD
-└── _bmad-output/           # Artéfacts BMAD
+├── app/
+│   ├── (auth)/            # sign-in, sign-up (Supabase)
+│   ├── (main)/            # courses, dashboard, learn, library (app connectée)
+│   ├── (marketing)/       # landing + pages présentation
+│   ├── lesson/            # lecteur de quiz (page.tsx → quiz-player.tsx)
+│   ├── api/               # routes : chapter, glossary, guest, questions, rag, section
+│   └── auth/callback/     # callback OAuth Supabase
+├── db/
+│   ├── drizzle.ts         # connexion Neon (DATABASE_URL)
+│   ├── schema.ts          # schéma Drizzle (tables + relations + enums)
+│   └── queries.ts         # toutes les requêtes (cache React)
+├── actions/               # Server Actions (answers, self-mastery, user-progress, ...)
+├── lib/                   # auth, rag, mastery, supabase-server, utils
+├── components/            # composants UI partagés + ui/ (primitives)
+├── drizzle/               # migrations SQL + meta/_journal.json
+├── scripts/               # seed (tsx) + génération de questions (Opus, Python)
+└── data/generated_*.json  # questions générées, prêtes à seeder
 ```
 
 ## Architecture
-- **SPA** (Single Page Application) — tout dans `index.html`
-- Écrans : Accueil → Quiz → Résultats
-- **Modules séparés** : state (store pub/sub), quiz (logique métier), ui (rendu DOM), storage (localStorage)
-- State global encapsulé dans `Store` (getters/setters/subscribe)
-- Questions persistées en localStorage (`quiz_seen_ids`)
-- 2 modes de jeu : `chill` (sans limite) et `lives` (3 vies)
+- **Server Components** par défaut + **Server Actions** pour les mutations
+- Auth côté serveur via `lib/auth.ts` → `auth()` renvoie le userId Supabase, sinon l'invité (cookie `guest_id`), sinon `null`. **Le userId ne vient jamais du client.**
+- Modèle de données inspiré de Duolingo : `themes` (matières) → `sous_themes` (= PDF) → `lessons` → `challenges` (questions) → `challenge_options`
+- **Modes de quiz** (via `/lesson` query params) :
+  - **libre** : pool mélangé de sous-thèmes (`?sousThemeIds=`)
+  - **leçon** : une leçon précise (`?lessonId=` / `?sousThemeId=`)
+  - **révision** : rejoue en priorité les questions ratées (`?mode=revision`)
+- Réponses persistées dans `user_answers` via l'action `recordAnswer`. La révision se base
+  sur la **dernière** réponse par question (incorrecte = à retravailler).
 
-## Design System (Duolingo-like)
-- Vert principal : `#58CC02`
-- Police : Nunito
-- Boutons 3D, ombres, animations fluides
+## Base de données (Neon Postgres)
+Tables principales : `themes`, `sous_themes`, `lessons`, `sections`, `challenges`,
+`challenge_options`, `user_answers`, `user_progress`, `user_sous_theme_progress`,
+`quiz_sessions`, `challenge_progress`, `legal_chunks`, `section_legal_refs`, `profiles`.
 
-## Données (quiz_pool.json)
-- Structure : `chapters[]` → `sections{}` + `questions[]`
-- Chapitres actuels : institutions françaises, fonction publique, collectivités territoriales, etc.
+RAG urbanisme : `legal_chunks` (articles du Code de l'urbanisme, recherche plein-texte BM25)
+et `section_legal_refs` (mapping section de cours → articles pertinents).
 
-## État d'avancement
-- [x] Structure HTML complète
-- [x] Design Duolingo implémenté
-- [x] Système de quiz fonctionnel
-- [x] Modes chill et lives
-- [x] Persistance des questions vues
-- [x] Projet autonome
-- [x] Modules JS séparés (state, quiz, ui, storage)
-- [x] Tests unitaires (Store)
-- [ ] Génération massive des 9 chapitres
-- [ ] Auth Supabase + Google
-- [ ] Mode révision
-- [ ] PWA
-- [ ] Stats cross-session
-
-## Agents BMAD disponibles
-- 📊 **Mary** — Business Analyst
-- 📚 **Paige** — Technical Writer
-- 📋 **John** — Product Manager
-- 🎨 **Sally** — UX Designer
-- 🏗️ **Winston** — System Architect
-- 💻 **Amelia** — Développeuse
-- 📋 **Pierre** — Chef de Projet
-- 🤖 **Alex** — Spécialiste Product Builder IA
-- 🎮 **Luna** — Spécialiste Jeu
+## Génération des questions
+Questions générées par **Opus** à partir des PDF de cours (`Source RAG/`), avec ancrage
+strict sur le texte source (qualité concours). Sortie → `data/generated_*.json` → seed en base.
 
 ## Commandes utiles
 ```bash
-python3 -m http.server 8080          # Lancer le serveur
-node tests/state.test.js              # Lancer les tests unitaires
-python3 scripts/generate_quiz.py      # Générer des questions
-python3 scripts/generate_quiz.py --force  # Tout régénérer
-python3 scripts/diagnostic.py         # Diagnostic complet
+npm run dev            # serveur de dev (http://localhost:3000)
+npm run build          # build de production
+npm run lint           # ESLint
+npm run format:fix     # Prettier (écriture)
+
+npm run db:studio      # Drizzle Studio (exploration de la base)
+npm run db:push        # pousser le schéma vers Neon (⚠️ destructif — revue d'abord)
+npm run db:generate    # générer une migration SQL depuis le schéma
+npm run db:migrate     # appliquer les migrations
+
+npm run seed:themes              # seed des thèmes
+npx tsx scripts/seed-opus.ts --all   # seed des questions générées
 ```
+
+> ⚠️ `db:push` diffe le schéma TypeScript contre la base live et peut supprimer des
+> colonnes/tables. Toujours revoir le plan (et sauvegarder) avant de confirmer.
