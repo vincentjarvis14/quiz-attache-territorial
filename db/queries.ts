@@ -7,14 +7,19 @@ import {
   challengeProgress,
   challenges,
   lessons,
+  matiereEnum,
   profiles,
+  sections,
   sousThemes,
   themes,
   userProgress,
   userSousThemeProgress,
   quizSessions,
   userAnswers,
+  sectionLegalRefs,
+  legalChunks,
 } from "@/db/schema";
+import type { Block } from "@/lib/clean-section";
 
 // ─── Profil utilisateur ─────────────────────────────────────────
 
@@ -471,6 +476,33 @@ export async function getThemeProgress(userId: string) {
   return result;
 }
 
+// ─── Pool de questions pour plusieurs sous-thèmes ───────────────
+
+export async function getQuestionsPool(sousThemeIds: number[], limit = 20) {
+  const userId = await auth();
+  if (!userId) return null;
+
+  // 1. Récupère les IDs de leçons appartenant à ces sous-thèmes
+  const lessonRows = await db
+    .select({ id: lessons.id, sousThemeId: lessons.sousThemeId })
+    .from(lessons)
+    .where(inArray(lessons.sousThemeId, sousThemeIds));
+
+  if (lessonRows.length === 0) return [];
+
+  const lessonIds = lessonRows.map((l) => l.id);
+
+  // 2. Récupère les challenges avec leurs options, mélangés
+  const rows = await db.query.challenges.findMany({
+    where: inArray(challenges.lessonId, lessonIds),
+    with: { challengeOptions: true },
+    orderBy: sql`RANDOM()`,
+    limit,
+  });
+
+  return rows;
+}
+
 // ─── Questions pour un sous-thème (mode libre) ──────────────────
 
 export async function getQuestionsForSousTheme(
@@ -513,14 +545,117 @@ export async function getWeaknessQuestions(userId: string, limit: number = 10) {
 
   if (weakProgress.length === 0) return [];
 
-  const weakIds = weakProgress.map((p) => p.sousThemeId);
+  const weakSousThemeIds = weakProgress.map((p) => p.sousThemeId);
 
+  // challenges.lessonId référence lessons.id, pas sousThemes.id : on passe par
+  // la jointure lessons.sousThemeId pour retrouver les questions du sous-thème.
   return await db
-    .select()
+    .select({
+      id: challenges.id,
+      lessonId: challenges.lessonId,
+      question: challenges.question,
+      explanation: challenges.explanation,
+      sourceChunk: challenges.sourceChunk,
+      sourceSection: challenges.sourceSection,
+      difficulty: challenges.difficulty,
+    })
     .from(challenges)
-    .where(inArray(challenges.lessonId, weakIds))
+    .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+    .where(inArray(lessons.sousThemeId, weakSousThemeIds))
     .orderBy(sql`RANDOM()`)
     .limit(limit);
+}
+
+// ─── Mode révision : questions à retravailler ───────────────────
+// Priorité : (1) questions dont la DERNIÈRE réponse est incorrecte,
+// (2) complément par sous-thèmes faibles (needs_review / selfMastery a_revoir),
+// (3) complément par questions jamais répondues. Renvoie challenges + options.
+
+async function getMissedQuestionIds(userId: string): Promise<number[]> {
+  // Dernière réponse par question (tie-break id DESC car createdAt non unique).
+  const rows = await db
+    .select({
+      questionId: userAnswers.questionId,
+      lastCorrect: sql<boolean>`(array_agg(${userAnswers.correct} ORDER BY ${userAnswers.createdAt} DESC, ${userAnswers.id} DESC))[1]`,
+    })
+    .from(userAnswers)
+    .where(eq(userAnswers.userId, userId))
+    .groupBy(userAnswers.questionId);
+
+  return rows.filter((r) => r.lastCorrect === false).map((r) => r.questionId);
+}
+
+export async function getRevisionCount(): Promise<number> {
+  const userId = await auth();
+  if (!userId) return 0;
+  const missed = await getMissedQuestionIds(userId);
+  return missed.length;
+}
+
+export async function getRevisionQuestions(limit = 20) {
+  const userId = await auth();
+  if (!userId) return null;
+
+  const loadChallenges = (ids: number[]) =>
+    db.query.challenges.findMany({
+      where: inArray(challenges.id, ids),
+      with: { challengeOptions: true },
+      orderBy: sql`RANDOM()`,
+      limit,
+    });
+
+  // 1. Questions ratées (dernière réponse incorrecte).
+  const missedIds = await getMissedQuestionIds(userId);
+  const collected = new Set<number>(missedIds);
+
+  // 2. Complément : sous-thèmes faibles (needs_review OU selfMastery a_revoir).
+  if (collected.size < limit) {
+    const weak = await db
+      .select({ sousThemeId: userSousThemeProgress.sousThemeId })
+      .from(userSousThemeProgress)
+      .where(
+        and(
+          eq(userSousThemeProgress.userId, userId),
+          sql`(${userSousThemeProgress.status} = 'needs_review' OR ${userSousThemeProgress.selfMastery} = 'a_revoir')`
+        )
+      );
+
+    if (weak.length > 0) {
+      const weakRows = await db
+        .select({ id: challenges.id })
+        .from(challenges)
+        .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+        .where(inArray(lessons.sousThemeId, weak.map((w) => w.sousThemeId)))
+        .orderBy(sql`RANDOM()`)
+        .limit(limit * 2);
+      for (const r of weakRows) {
+        if (collected.size >= limit) break;
+        collected.add(r.id);
+      }
+    }
+  }
+
+  // 3. Fallback : questions jamais répondues (toutes matières confondues).
+  if (collected.size < limit) {
+    const answered = await db
+      .select({ questionId: userAnswers.questionId })
+      .from(userAnswers)
+      .where(eq(userAnswers.userId, userId));
+    const answeredIds = new Set(answered.map((a) => a.questionId));
+
+    const freshRows = await db
+      .select({ id: challenges.id })
+      .from(challenges)
+      .orderBy(sql`RANDOM()`)
+      .limit(limit * 3);
+    for (const r of freshRows) {
+      if (collected.size >= limit) break;
+      if (!answeredIds.has(r.id)) collected.add(r.id);
+    }
+  }
+
+  if (collected.size === 0) return [];
+  return loadChallenges([...collected]);
 }
 
 // ─── Session de quiz ────────────────────────────────────────────
@@ -579,7 +714,11 @@ export async function saveUserAnswer(
   questionId: number,
   selectedAnswer: number,
   correct: boolean,
-  sessionId?: number
+  sessionId?: number,
+  // En mode révision, les questions ratées sont sur-échantillonnées : on
+  // enregistre la réponse (suivi ratée→réussie) sans recompter la maîtrise
+  // du sous-thème, sinon le ratio s'effondre artificiellement.
+  updateProgress: boolean = true
 ) {
   await db.insert(userAnswers).values({
     userId,
@@ -588,6 +727,8 @@ export async function saveUserAnswer(
     correct,
     sessionId,
   });
+
+  if (!updateProgress) return;
 
   const question = await db
     .select()
@@ -720,4 +861,298 @@ export async function searchQuestionsByText(search: string) {
       sql`to_tsvector('french', ${challenges.question}) @@ plainto_tsquery('french', ${search})`
     )
     .limit(5);
+}
+
+// ─── Bibliothèque de révision ───────────────────────────────────
+// Le join sections ↔ sous_themes se fait par valeur : sous_themes.pdf_file_name
+// porte l'extension ".pdf" alors que sections.source_pdf ne l'a pas. On normalise.
+
+const stripPdf = (name: string) => name.replace(/\.pdf$/i, "");
+
+// L'enum matiere ("environnement_territorial") ↔ slug URL ("environnement-territorial").
+export const matiereToSlug = (matiere: string) => matiere.replace(/_/g, "-");
+export const slugToMatiere = (slug: string) => slug.replace(/-/g, "_");
+
+// Ordre naturel des sections via le suffixe d'id ("…__4_1" → [4, 1]).
+function sectionOrderKey(id: string): number[] {
+  const suffix = id.split("__")[1] ?? "";
+  return suffix.split("_").map((n) => parseInt(n, 10) || 0);
+}
+function compareSectionIds(a: string, b: string): number {
+  const ka = sectionOrderKey(a);
+  const kb = sectionOrderKey(b);
+  for (let i = 0; i < Math.max(ka.length, kb.length); i++) {
+    const diff = (ka[i] ?? 0) - (kb[i] ?? 0);
+    if (diff !== 0) return diff;
+  }
+  return 0;
+}
+
+function sectionToBlocks(s: { contentClean: Block[] | null; content: string }): Block[] {
+  if (s.contentClean && s.contentClean.length > 0) return s.contentClean;
+  return s.content
+    .split(/\n\s*\n/)
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .map((text) => ({ type: "paragraph" as const, text }));
+}
+
+export type LibraryThemeSummary = {
+  id: number;
+  title: string;
+  matiere: string;
+  slug: string;
+  sousThemeCount: number;
+  sectionCount: number;
+};
+
+export const getLibraryCatalog = unstable_cache(
+  async (): Promise<LibraryThemeSummary[]> => {
+    const allThemes = await db.query.themes.findMany({
+      orderBy: (t, { asc }) => [asc(t.order)],
+      with: { sousThemes: { columns: { pdfFileName: true } } },
+    });
+
+    return Promise.all(
+      allThemes.map(async (theme) => {
+        const slugs = theme.sousThemes.map((st) => stripPdf(st.pdfFileName));
+        const [row] = slugs.length
+          ? await db
+              .select({ n: sql<number>`count(*)` })
+              .from(sections)
+              .where(inArray(sections.sourcePdf, slugs))
+          : [{ n: 0 }];
+        return {
+          id: theme.id,
+          title: theme.title,
+          matiere: theme.matiere,
+          slug: matiereToSlug(theme.matiere),
+          sousThemeCount: theme.sousThemes.length,
+          sectionCount: Number(row.n),
+        };
+      })
+    );
+  },
+  ["library-catalog"],
+  { revalidate: 3600, tags: ["sections"] }
+);
+
+export const getLibraryTheme = unstable_cache(
+  async (matiereSlug: string) => {
+    const matiere = slugToMatiere(matiereSlug);
+    if (!matiereEnum.enumValues.includes(matiere as never)) return null;
+    const theme = await db.query.themes.findFirst({
+      where: eq(themes.matiere, matiere as typeof themes.$inferSelect.matiere),
+      with: { sousThemes: { orderBy: (s, { asc }) => [asc(s.order)] } },
+    });
+    if (!theme) return null;
+
+    const sousThemesWithCounts = await Promise.all(
+      theme.sousThemes.map(async (st) => {
+        const slug = stripPdf(st.pdfFileName);
+        const [secRow] = await db
+          .select({
+            n: sql<number>`count(*)`,
+            chars: sql<number>`coalesce(sum(char_length(${sections.content})), 0)`,
+          })
+          .from(sections)
+          .where(eq(sections.sourcePdf, slug));
+        const sectionTitleRows = await db
+          .select({ id: sections.id, title: sections.title })
+          .from(sections)
+          .where(eq(sections.sourcePdf, slug))
+          .orderBy(sections.pageStart);
+        const [qRow] = await db
+          .select({ n: sql<number>`count(*)` })
+          .from(challenges)
+          .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+          .where(eq(lessons.sousThemeId, st.id));
+        return {
+          id: st.id,
+          title: st.title,
+          description: st.description,
+          order: st.order,
+          sectionCount: Number(secRow.n),
+          questionCount: Number(qRow.n),
+          sectionTitles: sectionTitleRows.map((r) => ({ id: r.id, title: r.title })),
+          // ~5 car./mot, lecture ~200 mots/min → minutes = car. / 1000.
+          readingMinutes: Math.max(1, Math.round(Number(secRow.chars) / 1000)),
+        };
+      })
+    );
+
+    return {
+      id: theme.id,
+      title: theme.title,
+      matiere: theme.matiere,
+      slug: matiereToSlug(theme.matiere),
+      sousThemes: sousThemesWithCounts,
+    };
+  },
+  ["library-theme"],
+  { revalidate: 3600, tags: ["sections"] }
+);
+
+export type LegalRef = {
+  articleRef: string | null;
+  content: string;
+  headingPath: string | null;
+  position: number;
+};
+
+export type LibrarySection = {
+  id: string;
+  title: string;
+  blocks: Block[];
+  pageStart: number | null;
+  legalRefs: LegalRef[];
+};
+
+export const getSousThemeReading = unstable_cache(
+  async (sousThemeId: number) => {
+    const sousTheme = await db.query.sousThemes.findFirst({
+      where: eq(sousThemes.id, sousThemeId),
+      with: { theme: true },
+    });
+    if (!sousTheme) return null;
+
+    const slug = stripPdf(sousTheme.pdfFileName);
+    const rawSections = await db
+      .select({
+        id: sections.id,
+        title: sections.title,
+        content: sections.content,
+        contentClean: sections.contentClean,
+        pageStart: sections.pageStart,
+      })
+      .from(sections)
+      .where(eq(sections.sourcePdf, slug));
+
+    // Articles du Code de l'urbanisme rattachés aux sections (RAG pré-calculé).
+    // Uniquement pour la matière « urbanisme » — sinon hors-sujet.
+    const sectionIds = rawSections.map((s) => s.id);
+    const legalBySection = new Map<string, LegalRef[]>();
+    if (sousTheme.theme.matiere === "urbanisme" && sectionIds.length > 0) {
+      const refRows = await db
+        .select({
+          sectionId: sectionLegalRefs.sectionId,
+          articleRef: sectionLegalRefs.articleRef,
+          position: sectionLegalRefs.position,
+          content: legalChunks.content,
+          headingPath: legalChunks.headingPath,
+        })
+        .from(sectionLegalRefs)
+        .innerJoin(legalChunks, eq(sectionLegalRefs.chunkId, legalChunks.id))
+        .where(inArray(sectionLegalRefs.sectionId, sectionIds))
+        .orderBy(sectionLegalRefs.position);
+      for (const r of refRows) {
+        const list = legalBySection.get(r.sectionId) ?? [];
+        list.push({
+          articleRef: r.articleRef,
+          content: r.content,
+          headingPath: r.headingPath,
+          position: r.position,
+        });
+        legalBySection.set(r.sectionId, list);
+      }
+    }
+
+    const orderedSections: LibrarySection[] = rawSections
+      .sort((a, b) => compareSectionIds(a.id, b.id))
+      .map((s) => ({
+        id: s.id,
+        title: s.title,
+        pageStart: s.pageStart,
+        blocks: sectionToBlocks(s),
+        legalRefs: legalBySection.get(s.id) ?? [],
+      }));
+
+    // Articles-clés du chapitre : dédupliqués, 1ʳᵉ occurrence (position la plus basse).
+    const keyArticlesMap = new Map<string, LegalRef>();
+    for (const sec of orderedSections) {
+      for (const ref of sec.legalRefs) {
+        if (!ref.articleRef) continue;
+        if (!keyArticlesMap.has(ref.articleRef)) {
+          keyArticlesMap.set(ref.articleRef, ref);
+        }
+      }
+    }
+    const keyArticles = [...keyArticlesMap.values()].slice(0, 12);
+
+    const siblings = await db
+      .select({ id: sousThemes.id, title: sousThemes.title })
+      .from(sousThemes)
+      .where(eq(sousThemes.themeId, sousTheme.themeId))
+      .orderBy(sousThemes.order);
+    const idx = siblings.findIndex((s) => s.id === sousThemeId);
+
+    const [qRow] = await db
+      .select({ n: sql<number>`count(*)` })
+      .from(challenges)
+      .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+      .where(eq(lessons.sousThemeId, sousThemeId));
+
+    return {
+      sousTheme: {
+        id: sousTheme.id,
+        title: sousTheme.title,
+        description: sousTheme.description,
+        pdfSlug: slug,
+      },
+      theme: {
+        id: sousTheme.theme.id,
+        title: sousTheme.theme.title,
+        matiere: sousTheme.theme.matiere,
+        slug: matiereToSlug(sousTheme.theme.matiere),
+      },
+      sections: orderedSections,
+      keyArticles,
+      prev: idx > 0 ? siblings[idx - 1] : null,
+      next: idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null,
+      questionCount: Number(qRow.n),
+    };
+  },
+  ["library-reading"],
+  { revalidate: 3600, tags: ["sections"] }
+);
+
+// ─── Niveau de maîtrise auto-déclaré ────────────────────────────
+// Par utilisateur → jamais mis en cache (dépend de auth()/cookies).
+
+import type { MasteryLevel } from "@/lib/mastery";
+export type { MasteryLevel };
+
+export async function getSelfMasteryMap(
+  sousThemeIds: number[]
+): Promise<Map<number, MasteryLevel>> {
+  const result = new Map<number, MasteryLevel>();
+  if (sousThemeIds.length === 0) return result;
+
+  const userId = await auth();
+  if (!userId) return result;
+
+  const rows = await db
+    .select({
+      sousThemeId: userSousThemeProgress.sousThemeId,
+      selfMastery: userSousThemeProgress.selfMastery,
+    })
+    .from(userSousThemeProgress)
+    .where(
+      and(
+        eq(userSousThemeProgress.userId, userId),
+        inArray(userSousThemeProgress.sousThemeId, sousThemeIds)
+      )
+    );
+
+  for (const row of rows) {
+    if (row.selfMastery) result.set(row.sousThemeId, row.selfMastery);
+  }
+  return result;
+}
+
+export async function getSelfMastery(
+  sousThemeId: number
+): Promise<MasteryLevel | null> {
+  const map = await getSelfMasteryMap([sousThemeId]);
+  return map.get(sousThemeId) ?? null;
 }

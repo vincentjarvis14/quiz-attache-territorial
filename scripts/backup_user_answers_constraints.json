@@ -1,0 +1,29 @@
+{
+  "takenAt": "2026-05-30T12:13:52.045Z",
+  "table": "user_answers",
+  "constraints": [
+    {
+      "conname": "user_answers_pkey",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "conname": "user_answers_question_id_challenges_id_fk",
+      "definition": "FOREIGN KEY (question_id) REFERENCES challenges(id) ON DELETE CASCADE"
+    },
+    {
+      "conname": "user_answers_question_id_questions_id_fk",
+      "definition": "FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE"
+    },
+    {
+      "conname": "user_answers_session_id_quiz_sessions_id_fk",
+      "definition": "FOREIGN KEY (session_id) REFERENCES quiz_sessions(id) ON DELETE CASCADE"
+    }
+  ],
+  "rowCounts": {
+    "user_answers": 0,
+    "challenges": 744,
+    "questions": 0
+  },
+  "plannedChange": "ALTER TABLE user_answers DROP CONSTRAINT user_answers_question_id_questions_id_fk",
+  "rollback": "ALTER TABLE user_answers ADD CONSTRAINT user_answers_question_id_questions_id_fk FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE cascade"
+}

@@ -1,47 +1,71 @@
-import { redirect } from "next/navigation";
+import { eq, sql } from "drizzle-orm";
 
-import { FeedWrapper } from "@/components/feed-wrapper";
-import { StickyWrapper } from "@/components/sticky-wrapper";
-import { UserProgress } from "@/components/user-progress";
-import {
-  getSousThemesWithProgress,
-  getUserProgress,
-} from "@/db/queries";
+import db from "@/db/drizzle";
+import { challenges, lessons, userSousThemeProgress } from "@/db/schema";
+import { auth } from "@/lib/auth";
+import { getRevisionCount } from "@/db/queries";
 
-import { SousThemeGrid } from "./sous-theme-grid";
-import { Header } from "./header";
+import { GuestWelcomeModal } from "@/components/modals/guest-welcome-modal";
+
+import { AppHeader } from "./app-header";
+import { Dashboard, type DashMatiere } from "./dashboard";
 
 const LearnPage = async () => {
-  const userProgressData = getUserProgress();
-  const sousThemesData = getSousThemesWithProgress();
+  const userId = await auth();
+  const isGuest = userId?.startsWith("guest_") ?? false;
 
-  const [userProgress, sousThemesList] = await Promise.all([
-    userProgressData,
-    sousThemesData,
-  ]);
+  // Toutes les matières + leurs sous-thèmes (pour les onglets)
+  const themesList = await db.query.themes.findMany({
+    orderBy: (t, { asc }) => [asc(t.order)],
+    with: {
+      sousThemes: {
+        orderBy: (s, { asc }) => [asc(s.order)],
+      },
+    },
+  });
 
-  if (!userProgress || !userProgress.activeTheme) {
-    redirect("/courses");
-  }
+  // Nombre de questions par sous-thème
+  const counts = await db
+    .select({
+      sousThemeId: lessons.sousThemeId,
+      count: sql<number>`count(*)`,
+    })
+    .from(challenges)
+    .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+    .groupBy(lessons.sousThemeId);
+  const countMap = new Map(counts.map((c) => [c.sousThemeId, Number(c.count)]));
 
-  const themeTitle = userProgress.activeTheme.title;
+  // Progression de l'utilisateur courant
+  const progress = userId
+    ? await db
+        .select()
+        .from(userSousThemeProgress)
+        .where(eq(userSousThemeProgress.userId, userId))
+    : [];
+  const doneMap = new Map(
+    progress.map((p) => [p.sousThemeId, p.totalAnswered ?? 0]),
+  );
+
+  const revisionCount = await getRevisionCount();
+
+  const matieres: DashMatiere[] = themesList.map((theme) => ({
+    id: theme.id,
+    title: theme.title,
+    sousThemes: theme.sousThemes.map((st) => ({
+      id: st.id,
+      number: String(st.order).padStart(2, "0"),
+      title: st.title,
+      blurb: st.description,
+      total: countMap.get(st.id) ?? 0,
+      done: doneMap.get(st.id) ?? 0,
+    })),
+  }));
 
   return (
-    <div className="flex flex-row-reverse gap-[48px] px-6">
-      <StickyWrapper>
-        <UserProgress
-          activeTheme={userProgress.activeTheme}
-          hearts={userProgress.hearts}
-          points={userProgress.points}
-          hasActiveSubscription={false}
-        />
-      </StickyWrapper>
-      <FeedWrapper>
-        <Header title={themeTitle} />
-        <div className="px-1">
-          <SousThemeGrid sousThemes={sousThemesList} />
-        </div>
-      </FeedWrapper>
+    <div className="flex min-h-screen flex-col bg-cream">
+      <AppHeader />
+      <Dashboard matieres={matieres} revisionCount={revisionCount} />
+      <GuestWelcomeModal isGuest={isGuest} />
     </div>
   );
 };
