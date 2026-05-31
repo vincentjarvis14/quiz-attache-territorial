@@ -1,441 +1,809 @@
 {
   "questions": [
     {
-      "bloom": "rappel",
-      "q": "À quelles communes la loi Littoral s'applique-t-elle selon l'article L. 321-1 du Code de l'environnement ?",
+      "bloom": "comprehension",
+      "q": "Selon le texte, à quelles communes s'applique la loi « Littoral » ?",
       "options": [
-        "Aux communes riveraines des mers, océans, des étangs salés et des plans d'eau intérieurs de plus de mille hectares, ainsi qu'aux communes riveraines des estuaires et deltas",
-        "Aux seules communes riveraines des mers et océans métropolitains",
-        "À toutes les communes situées à moins de 10 kilomètres du rivage",
-        "Aux communes dont le PLU prévoit explicitement une zone littorale"
+        "Uniquement aux communes situées en bordure directe de la mer ou de l'océan",
+        "Aux seules communes riveraines des fleuves et rivières",
+        "Aux communes riveraines des mers, océans, étangs salés et plans d'eau intérieurs de plus de mille hectares, ainsi qu'aux estuaires et deltas listés",
+        "À toutes les communes de France métropolitaine sans distinction"
       ],
-      "answer": 0,
-      "explanation": "La loi Littoral s'applique aux communes riveraines des mers, océans, des étangs salés et des plans d'eau intérieurs de plus de mille hectares, ainsi qu'aux communes riveraines des estuaires et deltas dont la liste est fixée à l'article R. 321-1 du Code de l'environnement.",
-      "id": "lit__100-loi-littoral__1__opus_001",
-      "sectionTitle": "Champ d'application de la Loi Littoral",
+      "answer": 2,
+      "explanation": "Le texte indique que la loi s'applique aux communes riveraines des mers, océans, étangs salés et plans d'eau intérieurs de plus de mille hectares, ainsi qu'aux communes riveraines des estuaires et deltas dont la liste est fixée par décret.",
+      "id": "urb__100-loi-littoral__1__opus_001",
+      "sectionTitle": "Champ d’application de la Loi Littoral",
       "sourceLink": "#section-100-loi-littoral__1",
-      "sourceText": "la loi « Littoral » s'applique aux communes riveraines des mers, océans, des étangs salés et des plans d'eau intérieurs de plus de mille hectares, ainsi qu'aux communes riveraines des estuaires et deltas dont la liste est fixée à l'article R. 321-1 du Code de l'environnement.",
-      "sourceContext": "la loi « Littoral » s'applique aux communes riveraines des mers, océans, des étangs salés et des plans d'eau intérieurs de plus de mille hectares, ainsi qu'aux communes riveraines des estuaires et deltas dont la liste est fixée à l'article R. 321-1 du Code de l'environnement.",
+      "sourceText": "Ainsi, la loi « Littoral » s’applique aux communes riveraines des mers, océans, des étangs salés et des plans d’eau intérieurs de plus de mille hectares, ainsi qu’aux communes riveraines des estuaires et deltas dont la liste est fixée à l’article R. 321-1 du Code de l’environnement.",
+      "sourceContext": "Ainsi, la loi « Littoral » s’applique aux communes riveraines des mers, océans, des étangs salés et des plans d’eau intérieurs de plus de mille hectares, ainsi qu’aux communes riveraines des estuaires et deltas dont la liste est fixée à l’article R. 321-1 du Code de l’environnement.",
       "sectionId": "100-loi-littoral__1",
-      "keywords": ["loi Littoral", "champ d'application", "communes riveraines"]
+      "keywords": [
+        "champ d'application",
+        "communes riveraines",
+        "plans d'eau"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Combien de communes françaises sont concernées par l'application de la loi Littoral ?",
+      "bloom": "comprehension",
+      "q": "Comment le texte caractérise-t-il la définition du littoral retenue par la loi ?",
       "options": [
-        "Plus de 1 200 communes",
-        "Environ 500 communes",
-        "Moins de 800 communes",
-        "Plus de 3 000 communes"
+        "Une définition fiscale liée à la valeur des terrains",
+        "Une définition purement géométrique fondée sur la distance au rivage",
+        "Une définition administrative fondée sur le découpage des départements",
+        "Une définition téléologique tournée vers la protection de zones sensibles proches de l'eau"
       ],
-      "answer": 0,
-      "explanation": "Le texte précise que plus de 1 200 communes françaises sont concernées par l'application de la loi Littoral.",
-      "id": "lit__100-loi-littoral__1__opus_002",
-      "sectionTitle": "Champ d'application de la Loi Littoral",
+      "answer": 3,
+      "explanation": "Le texte qualifie la définition de téléologique et précise que ce qui importe est la protection de zones sensibles situées proches de l'eau.",
+      "id": "urb__100-loi-littoral__1__opus_002",
+      "sectionTitle": "Champ d’application de la Loi Littoral",
       "sourceLink": "#section-100-loi-littoral__1",
-      "sourceText": "plus de 1 200 communes françaises sont concernées par l'application de la Loi Littoral.",
-      "sourceContext": "plus de 1 200 communes françaises sont concernées par l'application de la Loi Littoral.",
+      "sourceText": "Cette définition téléologique montre bien que ce qui importe est la protection de zones sensibles situées proches de l’eau. Ainsi, la loi « Littoral »",
+      "sourceContext": "Cette définition téléologique montre bien que ce qui importe est la protection de zones sensibles situées proches de l’eau. Ainsi, la loi « Littoral »",
       "sectionId": "100-loi-littoral__1",
-      "keywords": ["1200 communes", "loi Littoral", "champ d'application"]
+      "keywords": [
+        "définition téléologique",
+        "zones sensibles",
+        "protection"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Quel est le premier objectif de la loi Littoral énoncé dans le texte ?",
+      "bloom": "comprehension",
+      "q": "Parmi ces objectifs, lequel correspond au second objectif de la Loi Littoral selon le texte ?",
       "options": [
-        "La mise en œuvre d'un effort de recherche et d'innovation portant sur les particularités et les ressources du littoral",
-        "La protection des équilibres biologiques et écologiques",
-        "Le maintien des activités agricoles ou sylvicoles",
-        "La préservation des sites et paysages"
+        "La mise en œuvre d'un effort de recherche et d'innovation sur les ressources du littoral",
+        "L'extension prioritaire de l'urbanisation balnéaire",
+        "La création de nouvelles infrastructures portuaires de transit",
+        "La protection des équilibres biologiques et écologiques, la lutte contre l'érosion et la préservation des sites et paysages"
       ],
-      "answer": 0,
-      "explanation": "Le premier objectif de la loi Littoral est la mise en œuvre d'un effort de recherche et d'innovation portant sur les particularités et les ressources du littoral.",
-      "id": "lit__100-loi-littoral__2__opus_001",
+      "answer": 3,
+      "explanation": "Le texte indique que le second objectif vise la protection des équilibres biologiques et écologiques, la lutte contre l'érosion, la préservation des sites et paysages et du patrimoine.",
+      "id": "urb__100-loi-littoral__2__opus_001",
       "sectionTitle": "Les objectifs de la Loi Littoral",
       "sourceLink": "#section-100-loi-littoral__2",
-      "sourceText": "Le premier objectif de la Loi Littoral est la mise en œuvre d'un effort de recherche et d'innovation portant sur les particularités et les ressources du littoral.",
-      "sourceContext": "Le premier objectif de la Loi Littoral est la mise en œuvre d'un effort de recherche et d'innovation portant sur les particularités et les ressources du littoral.",
+      "sourceText": "Le second vise la protection des équilibres biologiques et écologiques, la lutte contre l’érosion, la préservation des sites et paysages et du patrimoine La Loi Littoral doit également permettre la préservation et le développement des activités économiques liées à la proximité de l’eau, telles que : la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes Enfin, le maintien ou le développement, dans la zone littorale des activités agricoles ou sylvicoles, de l’industrie, de l’artisanat et du tourisme est un autre objectif.",
+      "sourceContext": "Le second vise la protection des équilibres biologiques et écologiques, la lutte contre l’érosion, la préservation des sites et paysages et du patrimoine La Loi Littoral doit également permettre la préservation et le développement des activités économiques liées à la proximité de l’eau, telles que : la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes Enfin, le maintien ou le développement, dans la zone littorale des activités agricoles ou sylvicoles, de l’industrie, de l’artisanat et du tourisme est un autre objectif.",
       "sectionId": "100-loi-littoral__2",
-      "keywords": ["objectifs", "recherche", "innovation", "littoral"]
+      "keywords": [
+        "objectifs",
+        "équilibres biologiques",
+        "érosion"
+      ]
     },
     {
-      "bloom": "compréhension",
-      "q": "Parmi les activités économiques dont la loi Littoral vise à préserver et développer la présence en zone littorale, laquelle est expressément citée ?",
+      "bloom": "application",
+      "q": "Une commune littorale souhaite soutenir la pêche et les cultures marines. Cet objectif est-il prévu par la Loi Littoral selon le texte ?",
       "options": [
-        "La pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes",
-        "Le tourisme balnéaire, la restauration et l'hôtellerie de plage",
-        "L'industrie lourde et la pétrochimie en zone portuaire",
-        "La promotion immobilière et la construction de résidences secondaires"
+        "Non, la loi interdit toute activité économique sur le littoral",
+        "Oui, mais uniquement pour les transports maritimes",
+        "Non, la loi n'autorise que les activités touristiques",
+        "Oui, la loi permet la préservation et le développement des activités économiques liées à la proximité de l'eau, dont la pêche et les cultures marines"
       ],
-      "answer": 0,
-      "explanation": "La loi Littoral vise à permettre la préservation et le développement des activités économiques liées à la proximité de l'eau telles que la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes.",
-      "id": "lit__100-loi-littoral__2__opus_002",
+      "answer": 3,
+      "explanation": "Le texte range expressément la pêche et les cultures marines parmi les activités économiques liées à la proximité de l'eau dont la loi permet la préservation et le développement.",
+      "id": "urb__100-loi-littoral__2__opus_002",
       "sectionTitle": "Les objectifs de la Loi Littoral",
       "sourceLink": "#section-100-loi-littoral__2",
-      "sourceText": "la préservation et le développement des activités économiques liées à la proximité de l'eau, telles que : la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes",
-      "sourceContext": "la préservation et le développement des activités économiques liées à la proximité de l'eau, telles que : la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes",
+      "sourceText": "La Loi Littoral doit également permettre la préservation et le développement des activités économiques liées à la proximité de l’eau, telles que : la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes Enfin, le maintien ou le développement, dans la zone littorale des activités agricoles ou sylvicoles, de l’industrie, de l’artisanat et du tourisme est un autre objectif.",
+      "sourceContext": "La Loi Littoral doit également permettre la préservation et le développement des activités économiques liées à la proximité de l’eau, telles que : la pêche, les cultures marines, les activités portuaires, la construction et la réparation navales et les transports maritimes Enfin, le maintien ou le développement, dans la zone littorale des activités agricoles ou sylvicoles, de l’industrie, de l’artisanat et du tourisme est un autre objectif.",
       "sectionId": "100-loi-littoral__2",
-      "keywords": ["activités économiques", "pêche", "cultures marines", "transports maritimes"]
+      "keywords": [
+        "activités économiques",
+        "pêche",
+        "cultures marines"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Selon l'article L. 146-4 du Code de l'urbanisme, de quelle manière l'extension de l'urbanisation doit-elle se réaliser en zone littorale ?",
+      "bloom": "comprehension",
+      "q": "À qui revient, selon le texte, la mise en œuvre des mesures de protection et d'aménagement découlant de ces objectifs ?",
       "options": [
+        "Aux propriétaires riverains exclusivement",
+        "Aux documents locaux d'urbanisme",
+        "À la Commission européenne",
+        "Au seul préfet de département"
+      ],
+      "answer": 1,
+      "explanation": "Le texte précise que ces objectifs impliquent de nombreuses mesures que doivent mettre en œuvre les documents locaux d'urbanisme.",
+      "id": "urb__100-loi-littoral__2__opus_003",
+      "sectionTitle": "Les objectifs de la Loi Littoral",
+      "sourceLink": "#section-100-loi-littoral__2",
+      "sourceText": "Ces objectifs impliquent de nombreuses mesures concernant la protection et l’aménagement du littoral et des plans d’eau intérieurs, que doivent mettre en œuvre les documents locaux d’urbanisme.",
+      "sourceContext": "Ces objectifs impliquent de nombreuses mesures concernant la protection et l’aménagement du littoral et des plans d’eau intérieurs, que doivent mettre en œuvre les documents locaux d’urbanisme.",
+      "sectionId": "100-loi-littoral__2",
+      "keywords": [
+        "documents locaux d'urbanisme",
+        "mise en œuvre",
+        "mesures"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pour déterminer la capacité d'accueil des espaces urbanisés ou à urbaniser, de quoi les documents d'urbanisme doivent-ils tenir compte selon le texte ?",
+      "options": [
+        "Uniquement du nombre d'habitants permanents de la commune",
+        "Du seul potentiel fiscal des terrains concernés",
+        "De la proximité des aéroports et gares",
+        "De la préservation des espaces et milieux fragiles, de la protection des espaces agricoles et maritimes, et des conditions de fréquentation par le public"
+      ],
+      "answer": 3,
+      "explanation": "Le texte énumère la préservation des espaces et milieux fragiles, la protection des espaces nécessaires aux activités agricoles, pastorales, forestières et maritimes, ainsi que les conditions de fréquentation par le public.",
+      "id": "urb__100-loi-littoral__3__opus_001",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
+      "sourceLink": "#section-100-loi-littoral__3",
+      "sourceText": "Pour déterminer la capacité d'accueil des espaces urbanisés ou à urbaniser, les documents d'urbanisme doivent tenir compte de la préservation des espaces et milieux fragiles, de la protection des espaces nécessaires au maintien ou au développement des activités agricoles, pastorales, forestières et maritimes ainsi que des conditions de fréquentation par le public des espaces naturels et littoraux.",
+      "sourceContext": "Pour déterminer la capacité d'accueil des espaces urbanisés ou à urbaniser, les documents d'urbanisme doivent tenir compte de la préservation des espaces et milieux fragiles, de la protection des espaces nécessaires au maintien ou au développement des activités agricoles, pastorales, forestières et maritimes ainsi que des conditions de fréquentation par le public des espaces naturels et littoraux.",
+      "sectionId": "100-loi-littoral__3",
+      "keywords": [
+        "capacité d'accueil",
+        "milieux fragiles",
+        "fréquentation"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Dans un espace urbanisé, une commune autorise la réhabilitation de l'habitat existant. Au regard du texte, cette opération est-elle admissible ?",
+      "options": [
+        "Oui, car dans les espaces urbanisés ces dispositions n'empêchent pas la rénovation ou la réhabilitation de l'habitat existant",
+        "Non, seules les constructions neuves sont autorisées",
+        "Oui, mais uniquement après accord du ministre",
+        "Non, toute opération est interdite dans les espaces urbanisés"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que, dans les espaces urbanisés, ces dispositions n'empêchent pas la réalisation d'opérations de rénovation des quartiers ou de réhabilitation de l'habitat existant.",
+      "id": "urb__100-loi-littoral__3__opus_002",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
+      "sourceLink": "#section-100-loi-littoral__3",
+      "sourceText": "Néanmoins, dans les espaces urbanisés, ces dispositions n’empêchent pas la réalisation d’opérations de rénovation des quartiers ou de réhabilitation de l'habitat existant, ainsi que l'amélioration, l'extension ou la reconstruction des constructions existantes.",
+      "sourceContext": "Néanmoins, dans les espaces urbanisés, ces dispositions n’empêchent pas la réalisation d’opérations de rénovation des quartiers ou de réhabilitation de l'habitat existant, ainsi que l'amélioration, l'extension ou la reconstruction des constructions existantes.",
+      "sectionId": "100-loi-littoral__3",
+      "keywords": [
+        "espaces urbanisés",
+        "réhabilitation",
+        "rénovation"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, sous quelles formes l'extension de l'urbanisation doit-elle se réaliser ?",
+      "options": [
+        "Uniquement sous forme de constructions isolées en site vierge",
+        "Exclusivement par la création d'agglomérations nouvelles importantes",
         "Soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l'environnement",
-        "Uniquement en continuité stricte avec les zones urbaines existantes, sans exception",
-        "Uniquement en hameaux nouveaux distincts des agglomérations existantes",
-        "Librement, sous réserve d'une autorisation préfectorale préalable"
+        "Librement, sans contrainte de localisation"
       ],
-      "answer": 0,
-      "explanation": "Selon l'article L. 146-4 I du Code de l'urbanisme, l'extension de l'urbanisation doit se réaliser soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l'environnement.",
-      "id": "lit__100-loi-littoral__3__opus_001",
-      "sectionTitle": "Les conditions de l'urbanisation en zone Littoral",
+      "answer": 2,
+      "explanation": "Le texte énonce que l'extension de l'urbanisation doit se réaliser soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l'environnement.",
+      "id": "urb__100-loi-littoral__3__opus_003",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
       "sourceLink": "#section-100-loi-littoral__3",
-      "sourceText": "L'extension de l'urbanisation doit se réaliser soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l'environnement.",
-      "sourceContext": "L'extension de l'urbanisation doit se réaliser soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l'environnement.",
+      "sourceText": "L’extension de l’urbanisation doit se réaliser soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l’environnement.",
+      "sourceContext": "L’extension de l’urbanisation doit se réaliser soit en continuité avec les agglomérations et villages existants, soit en hameaux nouveaux intégrés à l’environnement.",
       "sectionId": "100-loi-littoral__3",
-      "keywords": ["extension urbanisation", "continuité", "hameaux nouveaux", "L. 146-4"]
+      "keywords": [
+        "continuité",
+        "hameaux nouveaux",
+        "extension"
+      ]
     },
     {
-      "bloom": "application",
-      "q": "Un agriculteur souhaite construire une installation liée à son activité forestière incompatible avec le voisinage des zones habitées, en dehors des espaces proches du rivage. Quelle condition s'impose ?",
+      "bloom": "analyse",
+      "q": "Le principe de continuité de l'urbanisation interdit, selon le texte :",
       "options": [
-        "L'autorisation nécessite l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites",
-        "L'autorisation est libre dès lors que l'installation est en dehors des espaces urbanisés",
-        "L'autorisation relève exclusivement du maire, sans consultation de l'État",
-        "L'installation est interdite en zone littorale, quelle que soit sa localisation"
+        "Seulement les agglomérations nouvelles, les constructions isolées restant libres",
+        "Aucune construction, qu'elle soit isolée ou groupée",
+        "Seulement les constructions isolées, l'agglomération nouvelle restant libre",
+        "À la fois les constructions isolées et la création en site vierge d'agglomérations nouvelles importantes"
       ],
-      "answer": 0,
-      "explanation": "Pour les constructions ou installations liées aux activités agricoles ou forestières incompatibles avec le voisinage des zones habitées, situées en dehors des espaces proches du rivage, l'autorisation nécessite l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites.",
-      "id": "lit__100-loi-littoral__3__opus_002",
-      "sectionTitle": "Les conditions de l'urbanisation en zone Littoral",
+      "answer": 3,
+      "explanation": "Le texte précise que la loi interdit à la fois les constructions isolées et la création en site vierge d'agglomérations nouvelles importantes.",
+      "id": "urb__100-loi-littoral__3__opus_004",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
       "sourceLink": "#section-100-loi-littoral__3",
-      "sourceText": "L'autorisation nécessite alors l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites.",
-      "sourceContext": "L'autorisation nécessite alors l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites.",
+      "sourceText": "En prévoyant que l’urbanisation doit être réalisée en continuité des agglomérations et villages existants, ou sous forme de hameaux nouveaux, la loi interdit à la fois les constructions isolées et la création en site vierge d’agglomérations nouvelles importantes.",
+      "sourceContext": "En prévoyant que l’urbanisation doit être réalisée en continuité des agglomérations et villages existants, ou sous forme de hameaux nouveaux, la loi interdit à la fois les constructions isolées et la création en site vierge d’agglomérations nouvelles importantes.",
       "sectionId": "100-loi-littoral__3",
-      "keywords": ["accord préfet", "commission départementale", "activités forestières", "espaces proches"]
+      "keywords": [
+        "constructions isolées",
+        "agglomérations nouvelles",
+        "interdiction"
+      ]
     },
     {
-      "bloom": "compréhension",
-      "q": "Comment la délimitation des « espaces proches du rivage » est-elle appréciée selon la jurisprudence du Conseil d'État ?",
+      "bloom": "comprehension",
+      "q": "Selon le texte, quelle autorité doit donner son accord pour autoriser, hors espaces proches du rivage, des constructions liées aux activités agricoles incompatibles avec le voisinage des zones habitées ?",
       "options": [
-        "En fonction d'un faisceau d'indices, sans se fonder sur un critère unique tel que la distance",
-        "Exclusivement en fonction de la distance au rivage mesurée à 500 mètres",
-        "En référence au classement des zones dans le document d'urbanisme",
-        "Par décision unilatérale du préfet, après avis du conseil municipal"
+        "Le préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites",
+        "Le ministre de l'agriculture",
+        "Le conseil régional",
+        "Le maire seul, sans autre avis"
       ],
       "answer": 0,
-      "explanation": "La délimitation des espaces proches du rivage est appréciée localement, en fonction d'un faisceau d'indices : il ne faut donc pas se fonder sur un critère unique tel que la distance (CE, Société les Hauts de Saint-Antoine, 5 avril 2006).",
-      "id": "lit__100-loi-littoral__3__opus_003",
-      "sectionTitle": "Les conditions de l'urbanisation en zone Littoral",
+      "explanation": "Le texte indique que l'autorisation nécessite l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites.",
+      "id": "urb__100-loi-littoral__3__opus_005",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
       "sourceLink": "#section-100-loi-littoral__3",
-      "sourceText": "La délimitation des espaces proches du rivage ou des rives des plans d'eau intérieurs est appréciée localement, en fonction d'un faisceau d'indices, il ne faut donc pas se fonder sur un critère unique tel que la distance.",
-      "sourceContext": "La délimitation des espaces proches du rivage ou des rives des plans d'eau intérieurs est appréciée localement, en fonction d'un faisceau d'indices, il ne faut donc pas se fonder sur un critère unique tel que la distance.",
+      "sourceText": "L’autorisation nécessite alors l’accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites.",
+      "sourceContext": "L’autorisation nécessite alors l’accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysage et de sites.",
       "sectionId": "100-loi-littoral__3",
-      "keywords": ["espaces proches du rivage", "faisceau d'indices", "distance", "jurisprudence"]
+      "keywords": [
+        "préfet",
+        "commission départementale",
+        "exception agricole"
+      ]
     },
     {
-      "bloom": "application",
-      "q": "Une commune littorale envisage une extension d'urbanisation dans un espace proche du rivage, sans que celle-ci soit prévue par un SCOT. Quelle procédure s'impose ?",
+      "bloom": "comprehension",
+      "q": "Comment, selon le texte, s'apprécie la délimitation des espaces proches du rivage ?",
       "options": [
-        "L'extension ne peut être réalisée qu'après délibération spécifique du conseil municipal, avec l'accord du préfet, après avis de la commission départementale compétente",
-        "L'extension est libre dès lors que le PLU la prévoit",
-        "L'extension nécessite uniquement un arrêté préfectoral sans délibération du conseil municipal",
-        "L'extension est interdite dans tous les espaces proches du rivage sans exception"
+        "Localement, en fonction d'un faisceau d'indices, et non sur un critère unique tel que la distance",
+        "Selon une distance fixe et uniforme appliquée sur tout le territoire",
+        "Par référence au seul classement dans le document d'urbanisme",
+        "D'après la valeur vénale des parcelles"
       ],
       "answer": 0,
-      "explanation": "Si l'extension n'est pas prévue par un schéma (SCOT ou SAR), ni justifiée spécialement dans le PLU, les extensions d'urbanisation ne peuvent être réalisées qu'après délibération spécifique du conseil municipal, avec l'accord du préfet, après avis de la commission départementale compétente.",
-      "id": "lit__100-loi-littoral__3__opus_004",
-      "sectionTitle": "Les conditions de l'urbanisation en zone Littoral",
+      "explanation": "Le texte indique que la délimitation est appréciée localement, en fonction d'un faisceau d'indices, et qu'il ne faut pas se fonder sur un critère unique tel que la distance.",
+      "id": "urb__100-loi-littoral__3__opus_006",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
       "sourceLink": "#section-100-loi-littoral__3",
-      "sourceText": "les extensions d'urbanisation ne peuvent être réalisées qu'après délibération spécifique du conseil municipal, avec l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
-      "sourceContext": "les extensions d'urbanisation ne peuvent être réalisées qu'après délibération spécifique du conseil municipal, avec l'accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sourceText": "La délimitation des espaces proches du rivage ou des rives des plans d'eau intérieurs est appréciée localement, en fonction d’un faisceau d’indices, il ne faut donc pas se fonder sur un critère unique tel que la distance.",
+      "sourceContext": "La délimitation des espaces proches du rivage ou des rives des plans d'eau intérieurs est appréciée localement, en fonction d’un faisceau d’indices, il ne faut donc pas se fonder sur un critère unique tel que la distance.",
       "sectionId": "100-loi-littoral__3",
-      "keywords": ["espaces proches", "délibération", "accord préfet", "SCOT"]
+      "keywords": [
+        "espaces proches",
+        "faisceau d'indices",
+        "délimitation"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Une extension d'urbanisation dans les espaces proches du rivage n'est prévue par aucun schéma ni justifiée dans le PLU. Selon le texte, à quelle condition peut-elle être réalisée ?",
+      "options": [
+        "Sans aucune formalité, dès lors qu'elle reste de faible ampleur",
+        "Après délibération spécifique du conseil municipal, avec l'accord du préfet, après avis de la commission départementale compétente",
+        "Sur simple décision du maire",
+        "Après seule autorisation du ministre chargé de l'urbanisme"
+      ],
+      "answer": 1,
+      "explanation": "Le texte précise que, faute de schéma ou de justification dans le PLU, les extensions ne peuvent être réalisées qu'après délibération spécifique du conseil municipal, avec l'accord du préfet, après avis de la commission départementale.",
+      "id": "urb__100-loi-littoral__3__opus_007",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
+      "sourceLink": "#section-100-loi-littoral__3",
+      "sourceText": "En revanche, si l’extension n’est pas prévue par un schéma, ni justifiée spécialement dans le PLU, les extensions d’urbanisation ne peuvent être réalisées qu’après délibération spécifique du conseil municipal, avec l’accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sourceContext": "En revanche, si l’extension n’est pas prévue par un schéma, ni justifiée spécialement dans le PLU, les extensions d’urbanisation ne peuvent être réalisées qu’après délibération spécifique du conseil municipal, avec l’accord du préfet, après avis de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sectionId": "100-loi-littoral__3",
+      "keywords": [
+        "délibération",
+        "conseil municipal",
+        "préfet"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, à partir de quoi se mesure la bande littorale dans laquelle les constructions sont interdites hors espaces urbanisés ?",
+      "options": [
+        "Une bande mesurée à partir de la voie publique la plus proche",
+        "Une bande variable selon la hauteur des constructions voisines",
+        "Une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux",
+        "Une bande calculée depuis la limite communale"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que, dans une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux pour les plans d'eau intérieurs, les constructions sont interdites en dehors des espaces urbanisés.",
+      "id": "urb__100-loi-littoral__3__opus_008",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
+      "sourceLink": "#section-100-loi-littoral__3",
+      "sourceText": "Dans une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux pour les plans d’eau intérieurs, les constructions sont interdites en dehors des espaces urbanisés.",
+      "sourceContext": "Dans une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux pour les plans d’eau intérieurs, les constructions sont interdites en dehors des espaces urbanisés.",
+      "sectionId": "100-loi-littoral__3",
+      "keywords": [
+        "bande littorale",
+        "rivage",
+        "interdiction de construire"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment, selon le texte, s'apprécie le caractère urbanisé ou non des espaces de la bande littorale ?",
+      "options": [
+        "D'après la densité de population de la commune",
+        "Selon le nombre de permis de construire délivrés",
+        "Par référence au seul classement opéré par le document d'urbanisme",
+        "En fonction de la situation physique, et non par référence au classement dans le document d'urbanisme"
+      ],
+      "answer": 3,
+      "explanation": "Le texte précise que le caractère urbanisé ou non de ces espaces est apprécié en fonction de la situation physique et non par référence au classement dans le document d'urbanisme.",
+      "id": "urb__100-loi-littoral__3__opus_009",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
+      "sourceLink": "#section-100-loi-littoral__3",
+      "sourceText": "Le caractère urbanisé ou non de ces espaces est apprécié en fonction de la situation physique et non par référence au classement dans le document d’urbanisme.",
+      "sourceContext": "Le caractère urbanisé ou non de ces espaces est apprécié en fonction de la situation physique et non par référence au classement dans le document d’urbanisme.",
+      "sectionId": "100-loi-littoral__3",
+      "keywords": [
+        "situation physique",
+        "espaces urbanisés",
+        "classement"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Un PLU souhaite porter la largeur de la bande littorale à plus de cent mètres. Selon le texte, est-ce possible et à quelle condition ?",
+      "options": [
+        "Non, la largeur de cent mètres est intangible",
+        "Oui, mais seulement pour la réduire en deçà de cent mètres",
+        "Oui, lorsque des motifs liés à la sensibilité des milieux ou à l'érosion des côtes le justifient",
+        "Oui, sans aucune justification particulière"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que le PLU peut porter la largeur de la bande littorale à plus de cent mètres lorsque des motifs liés à la sensibilité des milieux ou à l'érosion des côtes le justifient.",
+      "id": "urb__100-loi-littoral__3__opus_010",
+      "sectionTitle": "Les conditions de l’urbanisation en zone Littoral",
+      "sourceLink": "#section-100-loi-littoral__3",
+      "sourceText": "Le plan local d'urbanisme peut porter la largeur de la bande littorale visée au premier alinéa du présent paragraphe à plus de cent mètres, lorsque des motifs liés à la sensibilité des milieux ou à l'érosion des côtes le justifient.",
+      "sourceContext": "Le plan local d'urbanisme peut porter la largeur de la bande littorale visée au premier alinéa du présent paragraphe à plus de cent mètres, lorsque des motifs liés à la sensibilité des milieux ou à l'érosion des côtes le justifient.",
+      "sectionId": "100-loi-littoral__3",
+      "keywords": [
+        "bande littorale",
+        "PLU",
+        "érosion"
+      ]
     },
     {
       "bloom": "rappel",
-      "q": "Dans la bande littorale de cent mètres en dehors des espaces urbanisés, quelle est la règle générale ?",
+      "q": "Parmi les espaces remarquables ou caractéristiques préservés, le texte cite notamment :",
       "options": [
-        "Les constructions sont interdites",
-        "Les constructions sont librement autorisées sous réserve d'un permis de construire",
-        "Seules les constructions de moins de 50 m² sont autorisées",
-        "Les constructions sont autorisées si elles respectent la hauteur du bâti existant"
+        "Les dunes, plages, ilots inhabités, marais, gisements de minéraux ou de fossiles et récifs coralliens",
+        "Les terrains de camping aménagés",
+        "Les zones industrielles et commerciales de l'arrière-pays",
+        "Les centres-villes historiques denses"
       ],
       "answer": 0,
-      "explanation": "Dans une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux pour les plans d'eau intérieurs, les constructions sont interdites en dehors des espaces urbanisés.",
-      "id": "lit__100-loi-littoral__3__opus_005",
-      "sectionTitle": "Les conditions de l'urbanisation en zone Littoral",
-      "sourceLink": "#section-100-loi-littoral__3",
-      "sourceText": "Dans une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux pour les plans d'eau intérieurs, les constructions sont interdites en dehors des espaces urbanisés.",
-      "sourceContext": "Dans une bande de cent mètres comptée horizontalement à partir de la limite haute du rivage ou des plus hautes eaux pour les plans d'eau intérieurs, les constructions sont interdites en dehors des espaces urbanisés.",
-      "sectionId": "100-loi-littoral__3",
-      "keywords": ["bande 100 mètres", "interdiction construction", "espaces urbanisés"]
-    },
-    {
-      "bloom": "compréhension",
-      "q": "Comment le caractère urbanisé d'un espace est-il apprécié dans la bande des cent mètres ?",
-      "options": [
-        "En fonction de la situation physique et non par référence au classement dans le document d'urbanisme",
-        "Par référence exclusive au zonage U du PLU",
-        "En fonction de la densité de population résidente",
-        "Par décision du préfet au cas par cas, sur demande du maire"
-      ],
-      "answer": 0,
-      "explanation": "Le caractère urbanisé ou non de ces espaces est apprécié en fonction de la situation physique et non par référence au classement dans le document d'urbanisme.",
-      "id": "lit__100-loi-littoral__3__opus_006",
-      "sectionTitle": "Les conditions de l'urbanisation en zone Littoral",
-      "sourceLink": "#section-100-loi-littoral__3",
-      "sourceText": "Le caractère urbanisé ou non de ces espaces est apprécié en fonction de la situation physique et non par référence au classement dans le document d'urbanisme.",
-      "sourceContext": "Le caractère urbanisé ou non de ces espaces est apprécié en fonction de la situation physique et non par référence au classement dans le document d'urbanisme.",
-      "sectionId": "100-loi-littoral__3",
-      "keywords": ["situation physique", "classement PLU", "bande 100 mètres", "espaces urbanisés"]
-    },
-    {
-      "bloom": "compréhension",
-      "q": "Quelles sont les deux catégories d'espaces protégés distinguées par la loi Littoral ?",
-      "options": [
-        "Les espaces, sites et paysages remarquables ou caractéristiques du littoral et les milieux nécessaires aux équilibres biologiques d'une part, les parcs et ensembles boisés les plus significatifs d'autre part",
-        "Les zones naturelles classées Natura 2000 et les zones agricoles protégées",
-        "Les plages publiques et les domaines publics maritimes",
-        "Les réserves naturelles nationales et les parcs naturels régionaux"
-      ],
-      "answer": 0,
-      "explanation": "Deux catégories d'espaces protégés sont à distinguer : les espaces, sites et paysages remarquables ou caractéristiques du littoral et les milieux nécessaires au maintien des équilibres biologiques (4.1), les parcs et ensembles boisés les plus significatifs (4.2).",
-      "id": "lit__100-loi-littoral__4__opus_001",
-      "sectionTitle": "Les espaces protégés par la Loi Littoral",
-      "sourceLink": "#section-100-loi-littoral__4",
-      "sourceText": "Deux catégories d'espaces protégés sont à distinguer : les espaces, sites et paysages remarquables ou caractéristiques du littoral et les milieux nécessaires au maintien des équilibres biologiques (4.1), les parcs et ensembles boisés les plus significatifs (4.2).",
-      "sourceContext": "Deux catégories d'espaces protégés sont à distinguer : les espaces, sites et paysages remarquables ou caractéristiques du littoral et les milieux nécessaires au maintien des équilibres biologiques (4.1), les parcs et ensembles boisés les plus significatifs (4.2).",
-      "sectionId": "100-loi-littoral__4",
-      "keywords": ["espaces protégés", "espaces remarquables", "parcs boisés"]
-    },
-    {
-      "bloom": "rappel",
-      "q": "Quels types d'espaces naturels sont expressément mentionnés comme relevant de la protection des espaces remarquables ou caractéristiques du littoral ?",
-      "options": [
-        "Les dunes, plages, îlots inhabités, marais, gisements de minéraux ou de fossiles, récifs coralliens",
-        "Les forêts de feuillus, les prairies humides et les zones de bocage",
-        "Les zones industrielles portuaires et les friches militaires côtières",
-        "Les espaces verts communaux et les parcs urbains en bord de mer"
-      ],
-      "answer": 0,
-      "explanation": "Il s'agit en particulier des dunes, plages, îlots inhabités, marais, gisements de minéraux ou de fossiles, récifs coralliens.",
-      "id": "lit__100-loi-littoral__4_1__opus_001",
-      "sectionTitle": "Les espaces, sites et paysages remarquables ou caractéristiques du littoral",
+      "explanation": "Le texte énumère en particulier les dunes, plages, ilots inhabités, marais, gisements de minéraux ou de fossiles et récifs coralliens.",
+      "id": "urb__100-loi-littoral__4_1__opus_001",
+      "sectionTitle": "Les espaces, sites et paysages remarquables ou caractéristiques",
       "sourceLink": "#section-100-loi-littoral__4_1",
-      "sourceText": "Il s'agit en particulier des dunes, plages, ilots inhabités, marais, gisements de minéraux ou de fossiles, récifs coralliens.",
-      "sourceContext": "Il s'agit en particulier des dunes, plages, ilots inhabités, marais, gisements de minéraux ou de fossiles, récifs coralliens.",
+      "sourceText": "Il s’agit en particulier des dunes, plages, ilots inhabités, marais, gisements de minéraux ou de fossiles, récifs coralliens.",
+      "sourceContext": "Il s’agit en particulier des dunes, plages, ilots inhabités, marais, gisements de minéraux ou de fossiles, récifs coralliens.",
       "sectionId": "100-loi-littoral__4_1",
-      "keywords": ["dunes", "plages", "marais", "récifs coralliens", "espaces remarquables"]
+      "keywords": [
+        "espaces remarquables",
+        "dunes",
+        "récifs coralliens"
+      ]
     },
     {
-      "bloom": "compréhension",
-      "q": "Depuis quelle évolution les canalisations du réseau public de transport ou de distribution d'électricité visant à promouvoir les énergies renouvelables peuvent-elles être autorisées dans les espaces remarquables du littoral ?",
+      "bloom": "evaluation",
+      "q": "Dans un espace remarquable, une collectivité projette un aménagement léger pour l'ouverture au public. Selon le texte, est-ce admissible ?",
       "options": [
-        "Depuis 2013, sous réserve d'une enquête publique",
-        "Depuis 2000, sous réserve de l'accord du préfet",
-        "Ces canalisations restent interdites dans tous les espaces remarquables",
-        "Depuis 1986, date de la loi Littoral, avec simple déclaration préalable"
+        "Oui, sans aucune réserve quant au caractère du site",
+        "Non, aucun aménagement n'est jamais autorisé dans ces espaces",
+        "Oui, des aménagements légers peuvent y être implantés lorsqu'ils sont nécessaires à la gestion, à la mise en valeur ou à l'ouverture au public, sans dénaturer le site",
+        "Oui, mais uniquement pour des constructions lourdes et permanentes"
       ],
-      "answer": 0,
-      "explanation": "Depuis 2013, peuvent être autorisées les canalisations du réseau public de transport ou de distribution d'électricité visant à promouvoir l'utilisation des énergies renouvelables, sous réserve d'une enquête publique.",
-      "id": "lit__100-loi-littoral__4_1__opus_002",
-      "sectionTitle": "Les espaces, sites et paysages remarquables ou caractéristiques du littoral",
+      "answer": 2,
+      "explanation": "Le texte admet que des aménagements légers peuvent y être implantés lorsqu'ils sont nécessaires à la gestion, à la mise en valeur ou à l'ouverture au public, sous réserve de ne pas dénaturer le caractère des sites.",
+      "id": "urb__100-loi-littoral__4_1__opus_002",
+      "sectionTitle": "Les espaces, sites et paysages remarquables ou caractéristiques",
       "sourceLink": "#section-100-loi-littoral__4_1",
-      "sourceText": "Depuis 2013, peuvent également être autorisées les canalisations du réseau public de transport ou de distribution d'électricité visant à promouvoir l'utilisation des énergies renouvelables. Leur réalisation est soumise à enquête publique.",
-      "sourceContext": "Depuis 2013, peuvent également être autorisées les canalisations du réseau public de transport ou de distribution d'électricité visant à promouvoir l'utilisation des énergies renouvelables. Leur réalisation est soumise à enquête publique.",
+      "sourceText": "Des aménagements légers peuvent toutefois y être implantés lorsqu’ils sont nécessaires à la gestion, à la mise en valeur ou à l’ouverture au public, sous réserve de ne pas dénaturer le caractère des sites.",
+      "sourceContext": "Des aménagements légers peuvent toutefois y être implantés lorsqu’ils sont nécessaires à la gestion, à la mise en valeur ou à l’ouverture au public, sous réserve de ne pas dénaturer le caractère des sites.",
       "sectionId": "100-loi-littoral__4_1",
-      "keywords": ["2013", "énergies renouvelables", "enquête publique", "espaces remarquables"]
+      "keywords": [
+        "aménagements légers",
+        "ouverture au public",
+        "espaces remarquables"
+      ]
     },
     {
       "bloom": "application",
-      "q": "Un PLU doit classer en espaces boisés les parcs et ensembles boisés les plus significatifs. Quelle procédure préalable est requise pour ce classement ?",
+      "q": "Un projet d'aménagement en espace remarquable n'entre pas dans le champ de l'enquête publique. Selon le texte, à quelle procédure peut-il être soumis ?",
       "options": [
-        "Une consultation de la commission départementale compétente en matière de nature, de paysages et de sites",
-        "Une délibération du conseil régional",
-        "Une enquête publique de deux mois",
-        "Un accord du ministre chargé de l'environnement"
+        "À aucune formalité de consultation du public",
+        "À une mise à disposition du public pendant une durée d'au moins quinze jours",
+        "À une autorisation tacite du préfet",
+        "À un référendum communal obligatoire"
       ],
-      "answer": 0,
-      "explanation": "Les PLU doivent classer en espaces boisés les parcs et ensembles boisés existants les plus significatifs après consultation de la commission départementale compétente en matière de nature, de paysages et de sites.",
-      "id": "lit__100-loi-littoral__4_2__opus_001",
+      "answer": 1,
+      "explanation": "Le texte prévoit, à défaut d'enquête publique, une mise à disposition du public pendant une durée d'au moins quinze jours permettant de formuler des observations.",
+      "id": "urb__100-loi-littoral__4_1__opus_003",
+      "sectionTitle": "Les espaces, sites et paysages remarquables ou caractéristiques",
+      "sourceLink": "#section-100-loi-littoral__4_1",
+      "sourceText": "Ces projets d'aménagement sont soumis, préalablement à leur autorisation, selon leur importance et leur incidence sur l'environnement, soit à l'enquête publique prévue au chapitre III du titre II du livre Ier du code de l'environnement lorsqu'ils entrent dans le champ d'application de cette enquête, soit à une mise à disposition du public pendant une durée d'au moins quinze jours, dans des conditions permettant à celui-ci de formuler ses observations.",
+      "sourceContext": "Ces projets d'aménagement sont soumis, préalablement à leur autorisation, selon leur importance et leur incidence sur l'environnement, soit à l'enquête publique prévue au chapitre III du titre II du livre Ier du code de l'environnement lorsqu'ils entrent dans le champ d'application de cette enquête, soit à une mise à disposition du public pendant une durée d'au moins quinze jours, dans des conditions permettant à celui-ci de formuler ses observations.",
+      "sectionId": "100-loi-littoral__4_1",
+      "keywords": [
+        "mise à disposition du public",
+        "quinze jours",
+        "enquête publique"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle obligation pèse sur les PLU concernant les parcs et ensembles boisés selon le texte ?",
+      "options": [
+        "Les transformer en zones constructibles",
+        "Autoriser librement leur défrichement",
+        "Classer en espaces boisés les parcs et ensembles boisés existants les plus significatifs, après consultation de la commission départementale compétente",
+        "Les céder gratuitement à l'État"
+      ],
+      "answer": 2,
+      "explanation": "Le texte impose aux PLU de classer en espaces boisés les parcs et ensembles boisés existants les plus significatifs de la commune ou du groupement, après consultation de la commission départementale compétente.",
+      "id": "urb__100-loi-littoral__4_2__opus_001",
       "sectionTitle": "Les parcs et ensembles boisés les plus significatifs",
       "sourceLink": "#section-100-loi-littoral__4_2",
-      "sourceText": "Les PLU doivent classer en espaces boisés, au titre de l'article L. 130-1 du code de l'urbanisme, les parcs et ensembles boisés existants les plus significatifs de la commune ou du groupement de communes, après consultation de la commission départementale compétente en matière de nature, de paysages et de sites.",
-      "sourceContext": "Les PLU doivent classer en espaces boisés, au titre de l'article L. 130-1 du code de l'urbanisme, les parcs et ensembles boisés existants les plus significatifs de la commune ou du groupement de communes, après consultation de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sourceText": "Les PLU doivent classer en espaces boisés, au titre de l'article L. 130-1 du code de l’urbanisme, les parcs et ensembles boisés existants les plus significatifs de la commune ou du groupement de communes, après consultation de la commission départementale compétente en matière de nature, de paysages et de sites.",
+      "sourceContext": "Les PLU doivent classer en espaces boisés, au titre de l'article L. 130-1 du code de l’urbanisme, les parcs et ensembles boisés existants les plus significatifs de la commune ou du groupement de communes, après consultation de la commission départementale compétente en matière de nature, de paysages et de sites.",
       "sectionId": "100-loi-littoral__4_2",
-      "keywords": ["espaces boisés classés", "L. 130-1", "commission départementale", "PLU"]
+      "keywords": [
+        "espaces boisés",
+        "PLU",
+        "classement"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Quelle est la largeur de la servitude longitudinale garantissant le libre accès au rivage de la mer ?",
+      "bloom": "comprehension",
+      "q": "Selon le texte, quels éléments sont pris en compte pour identifier les ensembles boisés les plus significatifs ?",
       "options": [
-        "Une bande de trois mètres réservée au passage des piétons",
-        "Une bande de dix mètres réservée au passage du public",
-        "Une bande de 3,25 mètres à partir de la limite des plus hautes eaux",
-        "Une bande de cinq mètres à partir du domaine public maritime"
+        "Le nombre de propriétaires concernés",
+        "La proximité d'une route nationale",
+        "Le seul rendement économique du bois",
+        "La qualité du boisement, sa superficie et son importance dans le paysage"
       ],
-      "answer": 0,
-      "explanation": "La servitude longitudinale grève les propriétés riveraines d'une bande de trois mètres réservée au passage des piétons.",
-      "id": "lit__100-loi-littoral__5_1__opus_001",
+      "answer": 3,
+      "explanation": "Le texte indique que sont pris en compte la qualité du boisement, sa superficie et son importance dans le paysage.",
+      "id": "urb__100-loi-littoral__4_2__opus_002",
+      "sectionTitle": "Les parcs et ensembles boisés les plus significatifs",
+      "sourceLink": "#section-100-loi-littoral__4_2",
+      "sourceText": "Sont pris en compte la qualité du boisement, sa superficie, son importance dans le paysage.",
+      "sourceContext": "Sont pris en compte la qualité du boisement, sa superficie, son importance dans le paysage.",
+      "sectionId": "100-loi-littoral__4_2",
+      "keywords": [
+        "qualité du boisement",
+        "superficie",
+        "paysage"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, le libre accès au rivage préservé par les servitudes concerne :",
+      "options": [
+        "Les plans d'eau intérieurs de moins de mille hectares",
+        "Les seuls étangs salés",
+        "La mer uniquement",
+        "Tous les cours d'eau et lacs sans distinction"
+      ],
+      "answer": 2,
+      "explanation": "Le texte précise que le libre accès au rivage concerne la mer uniquement.",
+      "id": "urb__100-loi-littoral__5_1__opus_001",
       "sectionTitle": "Le libre accès au rivage",
       "sourceLink": "#section-100-loi-littoral__5_1",
-      "sourceText": "La première est longitudinale, elle grève les propriétés riveraines d'une bande de trois mètres réservée au passage des piétons.",
-      "sourceContext": "La première est longitudinale, elle grève les propriétés riveraines d'une bande de trois mètres réservée au passage des piétons.",
+      "sourceText": "Le libre accès au rivage concerne la mer uniquement.",
+      "sourceContext": "Le libre accès au rivage concerne la mer uniquement.",
       "sectionId": "100-loi-littoral__5_1",
-      "keywords": ["servitude longitudinale", "trois mètres", "passage piétons", "libre accès"]
+      "keywords": [
+        "libre accès",
+        "rivage",
+        "mer"
+      ]
     },
     {
-      "bloom": "compréhension",
-      "q": "Quel est l'objet de la servitude transversale de libre accès au rivage ?",
+      "bloom": "analyse",
+      "q": "Quelle différence le texte établit-il entre la servitude longitudinale et la servitude transversale du littoral maritime ?",
       "options": [
-        "Relier la voirie publique au rivage de la mer ou aux sentiers d'accès immédiat à celui-ci, en l'absence de voie publique à moins de 500 mètres",
-        "Garantir le passage des pêcheurs le long du rivage sur une largeur de 3 mètres",
-        "Interdire toute clôture dans la bande littorale des 100 mètres",
-        "Réserver un accès exclusif aux services de sécurité civile"
+        "Aucune des deux ne concerne le passage des piétons",
+        "La longitudinale grève les propriétés riveraines d'une bande de trois mètres pour le passage des piétons ; la transversale relie la voirie publique au rivage",
+        "Les deux servitudes ont strictement le même objet et la même emprise",
+        "La longitudinale relie la voirie au rivage ; la transversale réserve une bande de passage le long du rivage"
       ],
-      "answer": 0,
-      "explanation": "La servitude transversale a pour but de relier la voirie publique au rivage de la mer ou aux sentiers d'accès immédiat à celui-ci, en l'absence de voie publique située à moins de cinq cent mètres et permettant l'accès au rivage.",
-      "id": "lit__100-loi-littoral__5_1__opus_002",
+      "answer": 1,
+      "explanation": "Le texte décrit la servitude longitudinale comme une bande de trois mètres réservée au passage des piétons grevant les propriétés riveraines, et la servitude transversale comme reliant la voirie publique au rivage.",
+      "id": "urb__100-loi-littoral__5_1__opus_002",
+      "sectionTitle": "Le libre accès au rivage",
+      "sourceLink": "#section-100-loi-littoral__5_1",
+      "sourceText": "La première est longitudinale, elle grève les propriétés riveraines d’une bande de trois mètres réservée au passage des piétons. Elle peut être adaptée en fonction des situations locales. Des motifs de sécurité peuvent ainsi justifier un déplacement de la servitude, par exemple selon une décision Association Levante, rendue par la Cour administrative d’appel de Marseille le 3 mars 2011. La seconde est transversale, elle a pour but de relier la voirie publique au rivage de la mer ou aux sentiers d'accès immédiat à celui-ci, en l'absence de voie publique située à moins de cinq cent mètres et permettant l'accès au rivage.",
+      "sourceContext": "La première est longitudinale, elle grève les propriétés riveraines d’une bande de trois mètres réservée au passage des piétons. Elle peut être adaptée en fonction des situations locales. Des motifs de sécurité peuvent ainsi justifier un déplacement de la servitude, par exemple selon une décision Association Levante, rendue par la Cour administrative d’appel de Marseille le 3 mars 2011. La seconde est transversale, elle a pour but de relier la voirie publique au rivage de la mer ou aux sentiers d'accès immédiat à celui-ci, en l'absence de voie publique située à moins de cinq cent mètres et permettant l'accès au rivage.",
+      "sectionId": "100-loi-littoral__5_1",
+      "keywords": [
+        "servitude longitudinale",
+        "servitude transversale",
+        "passage des piétons"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Selon le texte, à quelle condition la servitude transversale d'accès au rivage est-elle établie ?",
+      "options": [
+        "Dès qu'une propriété privée borde le rivage, sans autre condition",
+        "Uniquement si le propriétaire y consent",
+        "En l'absence de voie publique située à moins de cinq cent mètres et permettant l'accès au rivage",
+        "Seulement lorsqu'une voie publique existe à proximité immédiate"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que la servitude transversale relie la voirie publique au rivage en l'absence de voie publique située à moins de cinq cent mètres permettant l'accès au rivage.",
+      "id": "urb__100-loi-littoral__5_1__opus_003",
       "sectionTitle": "Le libre accès au rivage",
       "sourceLink": "#section-100-loi-littoral__5_1",
       "sourceText": "La seconde est transversale, elle a pour but de relier la voirie publique au rivage de la mer ou aux sentiers d'accès immédiat à celui-ci, en l'absence de voie publique située à moins de cinq cent mètres et permettant l'accès au rivage.",
       "sourceContext": "La seconde est transversale, elle a pour but de relier la voirie publique au rivage de la mer ou aux sentiers d'accès immédiat à celui-ci, en l'absence de voie publique située à moins de cinq cent mètres et permettant l'accès au rivage.",
       "sectionId": "100-loi-littoral__5_1",
-      "keywords": ["servitude transversale", "voirie publique", "rivage", "500 mètres"]
+      "keywords": [
+        "servitude transversale",
+        "accès au rivage",
+        "voie publique"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Quelle est la distance minimale à respecter par les propriétaires riverains de cours d'eau et lacs domaniaux pour planter des arbres ou se clore, au titre de la servitude de marchepied ?",
+      "bloom": "evaluation",
+      "q": "Selon le texte, dans quel cas la servitude transversale est-elle susceptible d'indemnisation ?",
       "options": [
-        "3,25 mètres à partir de la limite des plus hautes eaux",
-        "3 mètres à partir du domaine public fluvial",
-        "5 mètres à partir du rivage",
-        "10 mètres à partir de la limite des berges"
+        "S'il en résulte pour le propriétaire un dommage direct, matériel et certain",
+        "Jamais, aucune indemnisation n'étant prévue",
+        "Uniquement si le propriétaire renonce à son droit de clore",
+        "Dans tous les cas, de manière automatique"
       ],
       "answer": 0,
-      "explanation": "Les propriétaires riverains ne peuvent planter d'arbres ni se clore qu'à une distance de 3,25 mètres à partir de la limite des plus hautes eaux, au titre de la servitude de marchepied.",
-      "id": "lit__100-loi-littoral__5_1__opus_003",
+      "explanation": "Le texte précise que cette servitude est, dans certains cas, susceptible d'indemnisation s'il en résulte pour le propriétaire un dommage direct, matériel et certain.",
+      "id": "urb__100-loi-littoral__5_1__opus_004",
       "sectionTitle": "Le libre accès au rivage",
       "sourceLink": "#section-100-loi-littoral__5_1",
-      "sourceText": "les propriétaires riverains ne peuvent planter d'arbres ni se clore qu'à une distance de 3,25 mètres à partir de la limite des plus hautes eaux.",
-      "sourceContext": "les propriétaires riverains ne peuvent planter d'arbres ni se clore qu'à une distance de 3,25 mètres à partir de la limite des plus hautes eaux.",
+      "sourceText": "Cette servitude est, dans certains cas, susceptible d’indemnisation, s’il en résulte pour le propriétaire un dommage direct, matériel et certain.",
+      "sourceContext": "Cette servitude est, dans certains cas, susceptible d’indemnisation, s’il en résulte pour le propriétaire un dommage direct, matériel et certain.",
       "sectionId": "100-loi-littoral__5_1",
-      "keywords": ["marchepied", "3,25 mètres", "plus hautes eaux", "propriétaires riverains"]
+      "keywords": [
+        "indemnisation",
+        "dommage direct",
+        "servitude"
+      ]
     },
     {
-      "bloom": "compréhension",
-      "q": "À quelle condition un schéma d'aménagement des plages peut-il autoriser le maintien ou la reconstruction d'équipements dans la bande des cent mètres ?",
+      "bloom": "comprehension",
+      "q": "Qui peut établir le schéma d'aménagement des plages et espaces naturels de bord de mer selon le texte ?",
       "options": [
-        "S'il s'agit d'équipements ou constructions existant dans la bande des cent mètres avant l'entrée en vigueur de la loi Littoral",
-        "S'il s'agit de constructions à usage d'habitation pour les résidents permanents",
-        "S'il s'agit de constructions d'utilité publique approuvées par le Conseil d'État",
-        "S'il s'agit de constructions d'une hauteur inférieure à 4 mètres"
+        "Les propriétaires riverains regroupés en association",
+        "Le seul ministre de l'environnement",
+        "La région, à titre exclusif",
+        "Les communes littorales de la mer ou les EPCI compétents"
       ],
-      "answer": 0,
-      "explanation": "Les communes ou EPCI peuvent établir un schéma d'aménagement des plages prévoyant, à titre dérogatoire, d'autoriser le maintien ou la reconstruction d'une partie des équipements ou constructions existant dans la bande des cent mètres avant l'entrée en vigueur de la loi Littoral.",
-      "id": "lit__100-loi-littoral__5_2__opus_001",
-      "sectionTitle": "L'aménagement des plages et des espaces naturels de bord de mer",
+      "answer": 3,
+      "explanation": "Le texte indique que les communes littorales de la mer ou les EPCI compétents peuvent établir ce schéma d'aménagement.",
+      "id": "urb__100-loi-littoral__5_2__opus_001",
+      "sectionTitle": "L’aménagement des plages et des espaces naturels de bord de",
       "sourceLink": "#section-100-loi-littoral__5_2",
-      "sourceText": "les communes ou Etablissements Publics de Coopération Intercommunale (EPCI) qui peuvent établir un schéma d'aménagement des plages, prévoyant à titre dérogatoire, d'autoriser le maintien ou la reconstruction d'une partie des équipements ou constructions existant dans la bande des cent mètres avant l'entrée en vigueur de la Loi Littoral.",
-      "sourceContext": "les communes ou Etablissements Publics de Coopération Intercommunale (EPCI) qui peuvent établir un schéma d'aménagement des plages, prévoyant à titre dérogatoire, d'autoriser le maintien ou la reconstruction d'une partie des équipements ou constructions existant dans la bande des cent mètres avant l'entrée en vigueur de la Loi Littoral.",
+      "sourceText": "Les communes littorales de la mer ou les EPCI compétents peuvent établir un schéma d’aménagement visant à réduire, sur une plage et les espaces naturels proches, les nuisances ou les dégradations liées à la présence d’équipements ou de constructions réalisés avant l’entrée en vigueur de la loi littoral.",
+      "sourceContext": "Les communes littorales de la mer ou les EPCI compétents peuvent établir un schéma d’aménagement visant à réduire, sur une plage et les espaces naturels proches, les nuisances ou les dégradations liées à la présence d’équipements ou de constructions réalisés avant l’entrée en vigueur de la loi littoral.",
       "sectionId": "100-loi-littoral__5_2",
-      "keywords": ["schéma aménagement plages", "bande 100 mètres", "dérogation", "avant loi Littoral"]
+      "keywords": [
+        "schéma d'aménagement",
+        "EPCI",
+        "communes littorales"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "À quelle distance du rivage les routes nouvelles de transit doivent-elles être localisées selon la loi Littoral ?",
+      "bloom": "comprehension",
+      "q": "Selon le texte, quel est l'objet du schéma d'aménagement des plages ?",
       "options": [
-        "À plus de 2 000 mètres du rivage des mers, océans et étangs salés",
-        "À plus de 500 mètres du rivage",
-        "À plus de 1 000 mètres du rivage",
-        "À plus de 3 000 mètres du rivage dans les espaces naturels"
+        "Autoriser la construction libre de nouveaux immeubles sur la plage",
+        "Supprimer tout accès du public au domaine public maritime",
+        "Réduire, sur une plage et les espaces naturels proches, les nuisances ou dégradations liées aux équipements ou constructions réalisés avant l'entrée en vigueur de la loi littoral",
+        "Privatiser les espaces naturels de bord de mer"
       ],
-      "answer": 0,
-      "explanation": "Les routes nouvelles de transit doivent être localisées à plus de 2 000 mètres du rivage des mers, océans et étangs salés.",
-      "id": "lit__100-loi-littoral__5_3__opus_001",
-      "sectionTitle": "La création de nouvelles routes",
-      "sourceLink": "#section-100-loi-littoral__5_3",
-      "sourceText": "les routes nouvelles de transit doivent être localisées à plus de 2 000 mètres du rivage des mers, océans et étangs salés.",
-      "sourceContext": "les routes nouvelles de transit doivent être localisées à plus de 2 000 mètres du rivage des mers, océans et étangs salés.",
-      "sectionId": "100-loi-littoral__5_3",
-      "keywords": ["routes transit", "2000 mètres", "rivage", "L. 146-7"]
+      "answer": 2,
+      "explanation": "Le texte précise que le schéma vise à réduire, sur une plage et les espaces naturels proches, les nuisances ou les dégradations liées à la présence d'équipements ou de constructions réalisés avant l'entrée en vigueur de la loi littoral.",
+      "id": "urb__100-loi-littoral__5_2__opus_002",
+      "sectionTitle": "L’aménagement des plages et des espaces naturels de bord de",
+      "sourceLink": "#section-100-loi-littoral__5_2",
+      "sourceText": "Les communes littorales de la mer ou les EPCI compétents peuvent établir un schéma d’aménagement visant à réduire, sur une plage et les espaces naturels proches, les nuisances ou les dégradations liées à la présence d’équipements ou de constructions réalisés avant l’entrée en vigueur de la loi littoral.",
+      "sourceContext": "Les communes littorales de la mer ou les EPCI compétents peuvent établir un schéma d’aménagement visant à réduire, sur une plage et les espaces naturels proches, les nuisances ou les dégradations liées à la présence d’équipements ou de constructions réalisés avant l’entrée en vigueur de la loi littoral.",
+      "sectionId": "100-loi-littoral__5_2",
+      "keywords": [
+        "nuisances",
+        "dégradations",
+        "plage"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Quelles créations routières sont expressément interdites par la loi Littoral ?",
+      "bloom": "comprehension",
+      "q": "Selon le texte, comment le schéma d'aménagement des plages est-il approuvé ?",
       "options": [
-        "La création de nouvelles routes sur les plages, dunes ou en corniche",
-        "La création de toute nouvelle route dans la bande des cent mètres",
-        "La création de routes à moins de 500 mètres du rivage",
-        "La création de routes de desserte agricole en zone littorale"
+        "Par référendum local",
+        "Par décret en Conseil d'État et annexé au PLU s'il existe",
+        "Par délibération du conseil régional",
+        "Par simple arrêté du maire"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le schéma est approuvé par décret en Conseil d'État et annexé au PLU s'il existe.",
+      "id": "urb__100-loi-littoral__5_2__opus_003",
+      "sectionTitle": "L’aménagement des plages et des espaces naturels de bord de",
+      "sourceLink": "#section-100-loi-littoral__5_2",
+      "sourceText": "Il est approuvé par décret en Conseil d’Etat et annexé au PLU s’il existe.",
+      "sourceContext": "Il est approuvé par décret en Conseil d’Etat et annexé au PLU s’il existe.",
+      "sectionId": "100-loi-littoral__5_2",
+      "keywords": [
+        "décret en Conseil d'État",
+        "approbation",
+        "PLU"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, à quelle distance du rivage des mers, océans et étangs salés les routes nouvelles de transit doivent-elles être localisées ?",
+      "options": [
+        "À plus de 2 000 mètres du rivage",
+        "À plus de cent mètres du rivage",
+        "À plus de cinq cents mètres du rivage",
+        "Sur le rivage lui-même, sans contrainte"
       ],
       "answer": 0,
-      "explanation": "La création de nouvelles routes sur les plages, dunes ou en corniche est interdite.",
-      "id": "lit__100-loi-littoral__5_3__opus_002",
+      "explanation": "Le texte indique que les routes nouvelles de transit doivent être localisées à plus de 2 000 mètres du rivage des mers, océans et étangs salés.",
+      "id": "urb__100-loi-littoral__5_3__opus_001",
       "sectionTitle": "La création de nouvelles routes",
       "sourceLink": "#section-100-loi-littoral__5_3",
-      "sourceText": "la création de nouvelles routes sur les plages, dunes ou en corniche sont interdites.",
-      "sourceContext": "la création de nouvelles routes sur les plages, dunes ou en corniche sont interdites.",
+      "sourceText": "Tout d’abord, les routes nouvelles de transit doivent être localisées à plus de 2 000 mètres du rivage des mers, océans et étangs salés.",
+      "sourceContext": "Tout d’abord, les routes nouvelles de transit doivent être localisées à plus de 2 000 mètres du rivage des mers, océans et étangs salés.",
       "sectionId": "100-loi-littoral__5_3",
-      "keywords": ["routes interdites", "plages", "dunes", "corniche"]
+      "keywords": [
+        "routes de transit",
+        "2000 mètres",
+        "rivage"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Une commune veut créer une route de desserte locale sur le rivage. Au regard du texte, cela est-il permis ?",
+      "options": [
+        "Non, les routes de desserte locale ne peuvent être établies sur le rivage ni le longer",
+        "Oui, à condition qu'elle soit de transit",
+        "Oui, dès lors qu'elle dessert un camping",
+        "Oui, sans aucune restriction"
+      ],
+      "answer": 0,
+      "explanation": "Le texte énonce que les routes de desserte locale ne peuvent être établies sur le rivage ni le longer.",
+      "id": "urb__100-loi-littoral__5_3__opus_002",
+      "sectionTitle": "La création de nouvelles routes",
+      "sourceLink": "#section-100-loi-littoral__5_3",
+      "sourceText": "Enfin, les routes de desserte locale ne peuvent être établies sur le rivage ni le longer.",
+      "sourceContext": "Enfin, les routes de desserte locale ne peuvent être établies sur le rivage ni le longer.",
+      "sectionId": "100-loi-littoral__5_3",
+      "keywords": [
+        "desserte locale",
+        "rivage",
+        "interdiction"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Selon le texte, à quelle condition une dérogation aux limitations relatives aux routes peut-elle être accordée, et sur quel périmètre porte-t-elle ?",
+      "options": [
+        "Sur simple décision du maire, pour toutes les limitations",
+        "En cas de contrainte liée à la configuration des lieux ou à l'insularité, après avis de la commission départementale compétente, et seulement pour les deux dernières limitations",
+        "Sans condition, pour l'ensemble des trois limitations",
+        "Uniquement pour les routes de transit à plus de 2 000 mètres"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique qu'en cas de contrainte liée à la configuration des lieux ou à l'insularité, une dérogation peut être accordée après avis de la commission départementale compétente, et que cette dérogation ne vise que les deux dernières limitations.",
+      "id": "urb__100-loi-littoral__5_3__opus_003",
+      "sectionTitle": "La création de nouvelles routes",
+      "sourceLink": "#section-100-loi-littoral__5_3",
+      "sourceText": "En cas de contrainte liée à la configuration des lieux ou à l’insularité, une dérogation peut être accordée après avis de la Commission départementale compétente en matière de nature, de paysages et de sites. Cette dérogation ne vise que les deux dernières limitations.",
+      "sourceContext": "En cas de contrainte liée à la configuration des lieux ou à l’insularité, une dérogation peut être accordée après avis de la Commission départementale compétente en matière de nature, de paysages et de sites. Cette dérogation ne vise que les deux dernières limitations.",
+      "sectionId": "100-loi-littoral__5_3",
+      "keywords": [
+        "dérogation",
+        "insularité",
+        "commission départementale"
+      ]
     },
     {
       "bloom": "application",
-      "q": "L'aménagement et l'ouverture de terrains de camping en dehors des espaces urbanisés sont-ils librement autorisés en zone littorale ?",
+      "q": "Une route nouvelle dans la bande des cent mètres répond à un besoin de sécurité civile. Selon le texte, est-elle possible ?",
       "options": [
-        "Non, ils sont subordonnés à la délimitation de secteurs prévus à cet effet par le Plan Local d'Urbanisme",
-        "Oui, sous réserve d'un simple déclaration préalable en mairie",
-        "Oui, dès lors que le terrain n'est pas dans la bande des cent mètres",
-        "Non, ils sont totalement interdits dans toute commune littorale"
+        "Non, aucune route n'est jamais autorisée dans la bande des cent mètres",
+        "Oui, mais seulement pour des routes de transit",
+        "Oui, l'aménagement de routes dans la bande des cent mètres est possible si la route répond à des besoins de sécurité civile ou militaire",
+        "Non, sauf accord du conseil régional"
+      ],
+      "answer": 2,
+      "explanation": "Le texte précise que l'aménagement de routes dans la bande des cent mètres est notamment possible si la réalisation de la route répond à des besoins de sécurité civile ou militaire.",
+      "id": "urb__100-loi-littoral__5_3__opus_004",
+      "sectionTitle": "La création de nouvelles routes",
+      "sourceLink": "#section-100-loi-littoral__5_3",
+      "sourceText": "Il en va de même si la réalisation de la nouvelle route répond à des besoins de sécurité civile ou militaire.",
+      "sourceContext": "Il en va de même si la réalisation de la nouvelle route répond à des besoins de sécurité civile ou militaire.",
+      "sectionId": "100-loi-littoral__5_3",
+      "keywords": [
+        "bande des cent mètres",
+        "sécurité civile",
+        "route"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, à quoi est subordonné l'aménagement de terrains de camping hors espaces urbanisés ?",
+      "options": [
+        "À la délimitation de secteurs prévus à cet effet par le Plan Local d'Urbanisme",
+        "À aucune formalité particulière",
+        "À l'accord de l'office de tourisme",
+        "À la seule autorisation verbale du maire"
       ],
       "answer": 0,
-      "explanation": "L'aménagement et l'ouverture de terrains de camping ou de stationnement de caravanes en dehors des espaces urbanisés sont subordonnés à la délimitation de secteurs prévus à cet effet par le Plan Local d'Urbanisme.",
-      "id": "lit__100-loi-littoral__5_4__opus_001",
+      "explanation": "Le texte indique que l'aménagement et l'ouverture de terrains de camping ou de stationnement de caravanes hors espaces urbanisés sont subordonnés à la délimitation de secteurs prévus à cet effet par le PLU.",
+      "id": "urb__100-loi-littoral__5_4__opus_001",
       "sectionTitle": "Les terrains de camping ou de stationnement de caravanes",
       "sourceLink": "#section-100-loi-littoral__5_4",
       "sourceText": "L'aménagement et l'ouverture de terrains de camping ou de stationnement de caravanes en dehors des espaces urbanisés sont subordonnés à la délimitation de secteurs prévus à cet effet par le Plan Local d'Urbanisme.",
       "sourceContext": "L'aménagement et l'ouverture de terrains de camping ou de stationnement de caravanes en dehors des espaces urbanisés sont subordonnés à la délimitation de secteurs prévus à cet effet par le Plan Local d'Urbanisme.",
       "sectionId": "100-loi-littoral__5_4",
-      "keywords": ["camping", "caravanes", "PLU", "secteurs délimités"]
+      "keywords": [
+        "camping",
+        "PLU",
+        "secteurs"
+      ]
     },
     {
-      "bloom": "compréhension",
-      "q": "Quel est l'objet des directives territoriales d'aménagement en zone littorale ?",
+      "bloom": "evaluation",
+      "q": "Selon le texte, un terrain de camping peut-il être installé dans la bande littorale de cent mètres ?",
       "options": [
-        "Préciser les modalités d'application de la loi Littoral",
-        "Remplacer le PLU dans les communes non dotées d'un document d'urbanisme",
-        "Fixer les périmètres des espaces remarquables au niveau national",
-        "Autoriser des dérogations individuelles à l'interdiction de construire dans la bande des cent mètres"
+        "Non, ces terrains ne peuvent être installés dans la bande littorale de cent mètres",
+        "Oui, s'il est autorisé par le maire",
+        "Oui, sans restriction",
+        "Oui, à condition de respecter une distance de trois mètres au rivage"
       ],
       "answer": 0,
-      "explanation": "Les directives territoriales d'aménagement peuvent permettre de préciser les modalités d'application de la loi Littoral.",
-      "id": "lit__100-loi-littoral__6__opus_001",
-      "sectionTitle": "Les directives territoriales d'aménagement",
-      "sourceLink": "#section-100-loi-littoral__6",
-      "sourceText": "Les directives territoriales d'aménagement peuvent permettre de préciser les modalités d'application de la loi Littoral.",
-      "sourceContext": "Les directives territoriales d'aménagement peuvent permettre de préciser les modalités d'application de la loi Littoral.",
-      "sectionId": "100-loi-littoral__6",
-      "keywords": ["directives territoriales d'aménagement", "loi Littoral", "modalités d'application"]
+      "explanation": "Le texte précise que ces terrains doivent respecter les dispositions relatives à l'extension de l'urbanisation et ne peuvent être installés dans la bande littorale de cent mètres.",
+      "id": "urb__100-loi-littoral__5_4__opus_002",
+      "sectionTitle": "Les terrains de camping ou de stationnement de caravanes",
+      "sourceLink": "#section-100-loi-littoral__5_4",
+      "sourceText": "Ils doivent respecter les dispositions relatives à l'extension de l'urbanisation et ne peuvent être installés dans la bande littorale de cent mètres.",
+      "sourceContext": "Ils doivent respecter les dispositions relatives à l'extension de l'urbanisation et ne peuvent être installés dans la bande littorale de cent mètres.",
+      "sectionId": "100-loi-littoral__5_4",
+      "keywords": [
+        "bande des cent mètres",
+        "camping",
+        "interdiction"
+      ]
     },
     {
-      "bloom": "application",
-      "q": "Un projet de construction se situe dans une commune littorale couverte par une directive territoriale d'aménagement (DTA). Comment la conformité du projet doit-elle être appréciée ?",
+      "bloom": "comprehension",
+      "q": "Quel rôle le texte attribue-t-il aux directives territoriales d'aménagement à l'égard de la loi Littoral ?",
       "options": [
-        "Au regard des prescriptions de la DTA, à condition que celles-ci soient suffisamment précises et compatibles avec les articles L. 146-1 et suivants du Code de l'urbanisme",
-        "Exclusivement au regard du PLU communal, la DTA étant opposable uniquement aux personnes publiques",
-        "En faisant primer la DTA sur toute autre règle sans vérification de sa compatibilité avec le Code de l'urbanisme",
-        "Au regard des seuls articles L. 146-1 et suivants, la DTA étant inopposable aux particuliers"
+        "Elles sont sans aucun effet juridique",
+        "Elles se substituent intégralement aux PLU",
+        "Elles abrogent les dispositions de la loi Littoral",
+        "Elles peuvent permettre de préciser les modalités d'application de la loi Littoral"
       ],
-      "answer": 0,
-      "explanation": "Selon le Conseil d'État (CE, 16 juillet 2010, Société les Casuccie), la conformité d'un projet doit s'apprécier au regard des prescriptions de la DTA, mais il faut s'assurer que les dispositions de la directive étaient suffisamment précises et compatibles avec les articles L. 146-1 et suivants du Code de l'urbanisme.",
-      "id": "lit__100-loi-littoral__6__opus_002",
-      "sectionTitle": "Les directives territoriales d'aménagement",
+      "answer": 3,
+      "explanation": "Le texte indique que les directives territoriales d'aménagement peuvent permettre de préciser les modalités d'application de la loi Littoral.",
+      "id": "urb__100-loi-littoral__6__opus_001",
+      "sectionTitle": "Les directives territoriales d’aménagement",
       "sourceLink": "#section-100-loi-littoral__6",
-      "sourceText": "Le Conseil d'Etat a cependant précisé qu'il fallait s'assurer que les dispositions de la directive étaient suffisamment précises et compatibles avec les articles L. 146-1 et suivants du Code de l'urbanisme (CE, 16 juillet 2010, Société les Casuccie).",
-      "sourceContext": "Le Conseil d'Etat a cependant précisé qu'il fallait s'assurer que les dispositions de la directive étaient suffisamment précises et compatibles avec les articles L. 146-1 et suivants du Code de l'urbanisme (CE, 16 juillet 2010, Société les Casuccie).",
+      "sourceText": "Les directives territoriales d'aménagement peuvent permettre de préciser les modalités d’application de la loi Littoral.",
+      "sourceContext": "Les directives territoriales d'aménagement peuvent permettre de préciser les modalités d’application de la loi Littoral.",
       "sectionId": "100-loi-littoral__6",
-      "keywords": ["DTA", "Conseil d'État", "Société les Casuccie", "L. 146-1"]
+      "keywords": [
+        "directives territoriales",
+        "modalités d'application",
+        "loi Littoral"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À qui s'appliquent les directives territoriales d'aménagement selon le texte ?",
+      "options": [
+        "Uniquement aux exploitants agricoles",
+        "Aux seules personnes publiques",
+        "À toute personne publique ou privée pour l'exécution de travaux, constructions, défrichements, plantations et installations diverses",
+        "Aux seuls propriétaires privés du littoral"
+      ],
+      "answer": 2,
+      "explanation": "Le texte précise qu'elles sont applicables à toute personne publique ou privée pour l'exécution de tous travaux, constructions, défrichements, plantations, installations et travaux divers.",
+      "id": "urb__100-loi-littoral__6__opus_002",
+      "sectionTitle": "Les directives territoriales d’aménagement",
+      "sourceLink": "#section-100-loi-littoral__6",
+      "sourceText": "Elles sont applicables à toute personne publique ou privée pour l'exécution de tous travaux, constructions, défrichements, plantations, installations et travaux divers, la création de lotissements et l'ouverture de terrains de camping ou de stationnement de caravanes, l'établissement de clôtures, pour l'ouverture de carrières, la recherche et l'exploitation de minerais.",
+      "sourceContext": "Elles sont applicables à toute personne publique ou privée pour l'exécution de tous travaux, constructions, défrichements, plantations, installations et travaux divers, la création de lotissements et l'ouverture de terrains de camping ou de stationnement de caravanes, l'établissement de clôtures, pour l'ouverture de carrières, la recherche et l'exploitation de minerais.",
+      "sectionId": "100-loi-littoral__6",
+      "keywords": [
+        "personne publique ou privée",
+        "travaux",
+        "directives"
+      ]
     }
   ]
 }

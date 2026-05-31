@@ -1,0 +1,650 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Quels actes peuvent faire l'objet d'un recours direct en annulation en droit de l'urbanisme ?",
+      "options": [
+        "Les seuls actes considérés comme faisant grief, c'est-à-dire ayant des effets juridiques",
+        "Tous les actes, y compris les actes préparatoires",
+        "Les seuls actes réglementaires, à l'exclusion des décisions individuelles",
+        "Les seuls actes émanant du préfet"
+      ],
+      "answer": 0,
+      "explanation": "Seuls les actes faisant grief, ayant des effets juridiques, peuvent faire l'objet d'un recours direct en annulation, les actes préparatoires en étant exclus.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_1__opus_001",
+      "sectionTitle": "Les actes susceptibles de recours",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_1",
+      "sourceText": "Seuls peuvent faire l'objet d'un recours direct en annulation les actes considérés comme faisant grief.",
+      "sourceContext": "Seuls peuvent faire l'objet d'un recours direct en annulation les actes considérés comme faisant grief.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_1",
+      "keywords": ["acte faisant grief", "recours en annulation", "acte préparatoire"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon les caractères traditionnels de l'intérêt à agir, quelle doit être la nature de l'intérêt invoqué pour qu'il soit pertinent ?",
+      "options": [
+        "Il doit exclusivement être de nature urbanistique",
+        "Il peut être de nature patrimoniale ou financière",
+        "Il doit être de nature politique ou électorale",
+        "Il peut être de toute nature dès lors qu'il est personnel"
+      ],
+      "answer": 0,
+      "explanation": "Pour être pertinent, l'intérêt à agir doit exclusivement être de nature urbanistique.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_2_1__opus_002",
+      "sectionTitle": "Les caractères traditionnels",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_2_1",
+      "sourceText": "Enfin, l'intérêt doit être pertinent, ce qui implique que l'intérêt doit exclusivement être de nature urbanistique.",
+      "sourceContext": "Enfin, l'intérêt doit être pertinent, ce qui implique que l'intérêt doit exclusivement être de nature urbanistique.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_2_1",
+      "keywords": ["intérêt à agir", "pertinent", "nature urbanistique"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quelle date s'apprécie l'intérêt pour agir d'un requérant contre un permis de construire, sauf circonstances particulières ?",
+      "options": [
+        "À la date d'affichage en mairie de la demande du pétitionnaire",
+        "À la date de délivrance du permis de construire",
+        "À la date d'introduction du recours contentieux",
+        "À la date d'achèvement des travaux"
+      ],
+      "answer": 0,
+      "explanation": "Sauf circonstances particulières, l'intérêt pour agir contre un permis de construire s'apprécie à la date d'affichage en mairie de la demande du pétitionnaire.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_2_2__opus_003",
+      "sectionTitle": "Les règles particulières du code de l'urbanisme",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_2_2",
+      "sourceText": "En outre, et pour l'ensemble des requérants, sauf pour le requérant à justifier de circonstances particulières, l'intérêt pour agir contre un permis de construire, de démolir ou d'aménager s'apprécie à la date d'affichage en mairie de la demande du pétitionnaire.",
+      "sourceContext": "En outre, et pour l'ensemble des requérants, sauf pour le requérant à justifier de circonstances particulières, l'intérêt pour agir contre un permis de construire, de démolir ou d'aménager s'apprécie à la date d'affichage en mairie de la demande du pétitionnaire.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_2_2",
+      "keywords": ["intérêt pour agir", "affichage en mairie", "permis de construire"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un particulier voisin veut contester un permis de construire. À quelle condition son recours pour excès de pouvoir est-il recevable ?",
+      "options": [
+        "Si la construction est de nature à affecter directement les conditions d'occupation, d'utilisation ou de jouissance de son bien",
+        "S'il réside dans la même commune que le terrain concerné",
+        "S'il a formulé des observations lors de l'enquête publique",
+        "S'il justifie d'un intérêt esthétique ou environnemental"
+      ],
+      "answer": 0,
+      "explanation": "Le recours d'un particulier n'est recevable que si la construction affecte directement les conditions d'occupation, d'utilisation ou de jouissance du bien qu'il détient ou occupe régulièrement.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_2_2__opus_004",
+      "sectionTitle": "Les règles particulières du code de l'urbanisme",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_2_2",
+      "sourceText": "En effet, une personne autre que l'Etat, les collectivités territoriales ou leurs groupements ou une association n'est recevable à former un recours pour excès de pouvoir contre un permis de construire, de démolir ou d'aménager que si la construction, l'aménagement ou les travaux sont de nature à affecter directement les conditions d'occupation, d'utilisation ou de jouissance du bien qu'elle détient ou occupe régulièrement ou pour lequel elle bénéficie d'une promesse de vente, de bail, ou d'un contrat préliminaire.",
+      "sourceContext": "En effet, une personne autre que l'Etat, les collectivités territoriales ou leurs groupements ou une association n'est recevable à former un recours pour excès de pouvoir contre un permis de construire, de démolir ou d'aménager que si la construction, l'aménagement ou les travaux sont de nature à affecter directement les conditions d'occupation, d'utilisation ou de jouissance du bien qu'elle détient ou occupe régulièrement ou pour lequel elle bénéficie d'une promesse de vente, de bail, ou d'un contrat préliminaire.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_2_2",
+      "keywords": ["recevabilité", "intérêt à agir", "conditions d'occupation"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une association souhaite contester un permis de construire. Quelle formalité conditionne sa recevabilité à agir ?",
+      "options": [
+        "Le dépôt de ses statuts en préfecture antérieurement à l'affichage en mairie de la demande du pétitionnaire",
+        "La justification d'au moins cinquante adhérents domiciliés dans la commune",
+        "Une déclaration préalable d'intérêt à agir auprès du tribunal administratif",
+        "L'inscription de son objet social au registre du commerce"
+      ],
+      "answer": 0,
+      "explanation": "Pour les associations, la recevabilité suppose le dépôt des statuts en préfecture antérieurement à l'affichage en mairie de la demande du pétitionnaire.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_2_2__opus_005",
+      "sectionTitle": "Les règles particulières du code de l'urbanisme",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_2_2",
+      "sourceText": "Pour les associations, cela se matérialise par la nécessité de déposer les statuts de l'association en préfecture antérieurement à l'affichage en mairie de la demande du pétitionnaire.",
+      "sourceContext": "Pour les associations, cela se matérialise par la nécessité de déposer les statuts de l'association en préfecture antérieurement à l'affichage en mairie de la demande du pétitionnaire.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_2_2",
+      "keywords": ["association", "dépôt des statuts", "recevabilité"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Pour un permis de construire, à compter de quand court le délai de recours par voie d'action ?",
+      "options": [
+        "À compter du premier jour de l'affichage continu pendant au moins deux mois sur le terrain",
+        "À compter de la notification du permis au pétitionnaire",
+        "À compter de l'achèvement des travaux constaté en mairie",
+        "À compter de la publication de la décision au recueil des actes administratifs"
+      ],
+      "answer": 0,
+      "explanation": "Pour les permis de construire, le délai de recours de deux mois court à compter du premier jour de l'affichage continu pendant au moins deux mois sur le terrain.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_3_1__opus_006",
+      "sectionTitle": "Le recours par voie d'action",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_3_1",
+      "sourceText": "Par exemple, pour les permis de construire, il est de deux mois à compter du premier jour de l'affichage continu pendant au moins 2 mois sur le terrain.",
+      "sourceContext": "Par exemple, pour les permis de construire, il est de deux mois à compter du premier jour de l'affichage continu pendant au moins 2 mois sur le terrain.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_3_1",
+      "keywords": ["délai de recours", "affichage sur le terrain", "permis de construire"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que permet le recours par voie d'exception en matière de contestation d'un acte ?",
+      "options": [
+        "Contester la légalité d'un acte à l'occasion du recours contre une mesure d'application, alors même que le délai de recours contentieux est expiré",
+        "Obtenir l'annulation directe de l'acte malgré l'expiration du délai de recours",
+        "Saisir le juge pénal d'une illégalité administrative",
+        "Demander la suspension automatique de l'acte attaqué"
+      ],
+      "answer": 0,
+      "explanation": "Le recours par voie d'exception permet de contester la légalité d'un acte à l'occasion d'un recours contre une mesure d'application, même après expiration du délai contentieux.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_3_2__opus_007",
+      "sectionTitle": "Le recours par voie d'exception",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_3_2",
+      "sourceText": "Avec ce mécanisme, il est possible de contester la légalité d'un acte à l'occasion du recours contre une décision qui en constitue une mesure d'application, alors même que le délai de recours contentieux est expiré.",
+      "sourceContext": "Avec ce mécanisme, il est possible de contester la légalité d'un acte à l'occasion du recours contre une décision qui en constitue une mesure d'application, alors même que le délai de recours contentieux est expiré.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_3_2",
+      "keywords": ["voie d'exception", "mesure d'application", "délai expiré"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Passé quel délai l'illégalité pour vice de forme ou de procédure d'un document d'urbanisme ne peut-elle plus être invoquée par voie d'exception ?",
+      "options": [
+        "Six mois à compter de la prise d'effet du document en cause",
+        "Deux mois à compter de l'affichage du document",
+        "Un an à compter de l'approbation du document",
+        "Deux ans à compter de la prise d'effet du document"
+      ],
+      "answer": 0,
+      "explanation": "Le vice de forme ou de procédure d'un document d'urbanisme ne peut plus être invoqué par voie d'exception après un délai de six mois à compter de la prise d'effet du document.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_3_2__opus_008",
+      "sectionTitle": "Le recours par voie d'exception",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_3_2",
+      "sourceText": "Ainsi, l'illégalité pour vice de forme ou de procédure d'un schéma directeur, d'un schéma de cohérence territoriale, d'un plan d'occupation des sols, d'un plan local d'urbanisme, d'une carte communale ou d'un document d'urbanisme en tenant lieu ne peut être invoquée par voie d'exception, après l'expiration d'un délai de six mois à compter de la prise d'effet du document en cause.",
+      "sourceContext": "Ainsi, l'illégalité pour vice de forme ou de procédure d'un schéma directeur, d'un schéma de cohérence territoriale, d'un plan d'occupation des sols, d'un plan local d'urbanisme, d'une carte communale ou d'un document d'urbanisme en tenant lieu ne peut être invoquée par voie d'exception, après l'expiration d'un délai de six mois à compter de la prise d'effet du document en cause.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_3_2",
+      "keywords": ["vice de forme", "voie d'exception", "délai de six mois"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans quel délai l'auteur d'un recours contre un permis de construire doit-il notifier son recours, à peine d'irrecevabilité ?",
+      "options": [
+        "Dans un délai de quinze jours francs à compter du dépôt du recours, par lettre recommandée avec accusé de réception",
+        "Dans un délai de deux mois à compter du dépôt du recours",
+        "Dans un délai de huit jours à compter de la décision attaquée",
+        "Dans un délai d'un mois à compter de l'affichage du permis"
+      ],
+      "answer": 0,
+      "explanation": "La notification du recours doit intervenir par lettre recommandée avec accusé de réception dans un délai de quinze jours francs à compter du dépôt du recours.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_4__opus_009",
+      "sectionTitle": "L'obligation de notification des recours",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_4",
+      "sourceText": "La notification doit intervenir par lettre recommandée avec accusé de réception, dans un délai de quinze jours francs à compter du dépôt du déféré ou du recours.",
+      "sourceContext": "La notification doit intervenir par lettre recommandée avec accusé de réception, dans un délai de quinze jours francs à compter du dépôt du déféré ou du recours.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_4",
+      "keywords": ["notification du recours", "quinze jours francs", "lettre recommandée"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un voisin dépose un recours contre un permis de construire mais omet d'en aviser le titulaire de l'autorisation et l'auteur de la décision. Quelle conséquence en résulte ?",
+      "options": [
+        "L'irrecevabilité du recours",
+        "Une simple régularisation possible dans un délai de deux mois",
+        "Une amende pour recours abusif",
+        "Le rejet au fond du recours après instruction"
+      ],
+      "answer": 0,
+      "explanation": "Le défaut de notification du recours à l'auteur de la décision et au titulaire de l'autorisation entraîne l'irrecevabilité du recours.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_4__opus_010",
+      "sectionTitle": "L'obligation de notification des recours",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_4",
+      "sourceText": "En cas de déféré du préfet ou de recours contentieux à l'encontre d'un certificat d'urbanisme, d'une décision de nonopposition à une déclaration préalable ou d'un permis de construire, d'aménager ou de démolir, le préfet ou l'auteur du recours est tenu, à peine d'irrecevabilité, de notifier son recours à l'auteur de la décision et au titulaire de l'autorisation.",
+      "sourceContext": "En cas de déféré du préfet ou de recours contentieux à l'encontre d'un certificat d'urbanisme, d'une décision de nonopposition à une déclaration préalable ou d'un permis de construire, d'aménager ou de démolir, le préfet ou l'auteur du recours est tenu, à peine d'irrecevabilité, de notifier son recours à l'auteur de la décision et au titulaire de l'autorisation.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_4",
+      "keywords": ["irrecevabilité", "notification", "titulaire de l'autorisation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est l'objet du mécanisme de cristallisation des moyens devant le juge saisi d'un recours contre un permis ?",
+      "options": [
+        "Fixer une date au-delà de laquelle des moyens nouveaux ne peuvent plus être invoqués",
+        "Suspendre l'exécution du permis pendant l'instruction",
+        "Imposer une médiation préalable entre les parties",
+        "Limiter le nombre de requérants admis à agir"
+      ],
+      "answer": 0,
+      "explanation": "La cristallisation des moyens permet au juge de fixer une date au-delà de laquelle aucun moyen nouveau ne pourra plus être invoqué.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_5__opus_011",
+      "sectionTitle": "La cristallisation des moyens",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_5",
+      "sourceText": "En effet, saisi d'une demande motivée en ce sens, le juge devant lequel a été formé un recours contre un permis de construire, de démolir ou d'aménager peut fixer une date au-delà de laquelle des moyens nouveaux ne peuvent plus être invoqués.",
+      "sourceContext": "En effet, saisi d'une demande motivée en ce sens, le juge devant lequel a été formé un recours contre un permis de construire, de démolir ou d'aménager peut fixer une date au-delà de laquelle des moyens nouveaux ne peuvent plus être invoqués.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_5",
+      "keywords": ["cristallisation des moyens", "moyens nouveaux", "juge"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un titulaire de permis estime subir un préjudice excessif d'un recours engagé dans des conditions excédant la défense d'intérêts légitimes. Que peut-il demander au juge ?",
+      "options": [
+        "Condamner l'auteur du recours à lui allouer des dommages et intérêts, par un mémoire distinct",
+        "Obtenir l'irrecevabilité automatique du recours abusif",
+        "Faire prononcer une amende pénale contre le requérant",
+        "Demander la radiation du requérant des registres associatifs"
+      ],
+      "answer": 0,
+      "explanation": "Le bénéficiaire du permis peut demander, par un mémoire distinct, la condamnation de l'auteur du recours à lui allouer des dommages et intérêts.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_1_6__opus_012",
+      "sectionTitle": "La lutte contre les recours abusifs",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_1_6",
+      "sourceText": "Face à cet phénomène, une disposition a été introduite dans le code de l'urbanisme, selon laquelle : lorsque le droit de former un recours pour excès de pouvoir contre un permis de construire, de démolir ou d'aménager est mis en œuvre dans des conditions qui excèdent la défense des intérêts légitimes du requérant et qui causent un préjudice excessif au bénéficiaire du permis, celui-ci peut demander, par un mémoire distinct, au juge administratif saisi du recours de condamner l'auteur de celui-ci à lui allouer des dommages et intérêts.",
+      "sourceContext": "Face à cet phénomène, une disposition a été introduite dans le code de l'urbanisme, selon laquelle : lorsque le droit de former un recours pour excès de pouvoir contre un permis de construire, de démolir ou d'aménager est mis en œuvre dans des conditions qui excèdent la défense des intérêts légitimes du requérant et qui causent un préjudice excessif au bénéficiaire du permis, celui-ci peut demander, par un mémoire distinct, au juge administratif saisi du recours de condamner l'auteur de celui-ci à lui allouer des dommages et intérêts.",
+      "sectionId": "108-contentieux-urbanisme__1_1_1_6",
+      "keywords": ["recours abusif", "dommages et intérêts", "mémoire distinct"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est l'effet de l'annulation ou de la déclaration d'illégalité d'un plan local d'urbanisme sur le document antérieur ?",
+      "options": [
+        "Elle remet en vigueur le document d'urbanisme immédiatement antérieur",
+        "Elle laisse un vide juridique total jusqu'à l'adoption d'un nouveau document",
+        "Elle entraîne l'application automatique du seul règlement national d'urbanisme",
+        "Elle proroge le document annulé jusqu'à son remplacement"
+      ],
+      "answer": 0,
+      "explanation": "L'annulation ou la déclaration d'illégalité d'un PLU a pour effet de remettre en vigueur le document d'urbanisme immédiatement antérieur.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_2_1__opus_013",
+      "sectionTitle": "Les conséquences de l'annulation ou de la déclaration d'illégalité d'un document d'urbanisme",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_2_1",
+      "sourceText": "Ainsi, l'annulation ou la déclaration d'illégalité d'un schéma de cohérence territoriale, d'un plan local d'urbanisme, d'une carte communale, d'un schéma directeur ou d'un plan d'occupation des sols ou d'un document d'urbanisme en tenant lieu a pour effet de remettre en vigueur le schéma de cohérence territoriale, le schéma directeur ou le plan local d'urbanisme, la carte communale ou le plan d'occupation des sols ou le document d'urbanisme en tenant lieu immédiatement antérieur.",
+      "sourceContext": "Ainsi, l'annulation ou la déclaration d'illégalité d'un schéma de cohérence territoriale, d'un plan local d'urbanisme, d'une carte communale, d'un schéma directeur ou d'un plan d'occupation des sols ou d'un document d'urbanisme en tenant lieu a pour effet de remettre en vigueur le schéma de cohérence territoriale, le schéma directeur ou le plan local d'urbanisme, la carte communale ou le plan d'occupation des sols ou le document d'urbanisme en tenant lieu immédiatement antérieur.",
+      "sectionId": "108-contentieux-urbanisme__1_1_2_1",
+      "keywords": ["annulation", "document antérieur", "remise en vigueur"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que s'applique-t-il lorsqu'aucun document d'urbanisme n'existait antérieurement au document annulé ?",
+      "options": [
+        "Les dispositions du règlement national d'urbanisme",
+        "Les règles du document annulé maintenues à titre transitoire",
+        "Les seules prescriptions du schéma de cohérence territoriale",
+        "Une absence totale de règles d'urbanisme applicables"
+      ],
+      "answer": 0,
+      "explanation": "Si aucun document n'existait antérieurement au document annulé, ce sont les dispositions du règlement national d'urbanisme qui s'appliquent.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_2_1__opus_014",
+      "sectionTitle": "Les conséquences de l'annulation ou de la déclaration d'illégalité d'un document d'urbanisme",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_2_1",
+      "sourceText": "Si aucun document n'existait antérieurement au document annulé, les dispositions du règlement national d'urbanisme s'appliquent.",
+      "sourceContext": "Si aucun document n'existait antérieurement au document annulé, les dispositions du règlement national d'urbanisme s'appliquent.",
+      "sectionId": "108-contentieux-urbanisme__1_1_2_1",
+      "keywords": ["règlement national d'urbanisme", "absence de document", "annulation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Depuis la décision Commune de Courbevoie, comment un requérant doit-il contester un permis de construire après annulation du PLU sur lequel il est fondé ?",
+      "options": [
+        "En invoquant la méconnaissance des règles remises en vigueur par l'annulation du PLU",
+        "En invoquant directement l'illégalité du PLU annulé",
+        "En sollicitant l'annulation de plein droit du permis",
+        "En saisissant le juge judiciaire d'une demande de démolition"
+      ],
+      "answer": 0,
+      "explanation": "Depuis la décision Commune de Courbevoie, les requérants doivent contester le permis en invoquant la méconnaissance des règles remises en vigueur par l'annulation du PLU.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_2_2__opus_015",
+      "sectionTitle": "Les conséquences de l'annulation d'un plan local d'urbanisme sur les décisions prises sur son",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_2_2",
+      "sourceText": "Les requérants doivent nécessairement contester le permis en invoquant la méconnaissance des règles remises en vigueur par l'annulation du PLU, ce qui implique de respecter les dispositions de l'article L. 600-1 du code de l'urbanisme.",
+      "sourceContext": "Les requérants doivent nécessairement contester le permis en invoquant la méconnaissance des règles remises en vigueur par l'annulation du PLU, ce qui implique de respecter les dispositions de l'article L. 600-1 du code de l'urbanisme.",
+      "sectionId": "108-contentieux-urbanisme__1_1_2_2",
+      "keywords": ["Commune de Courbevoie", "règles remises en vigueur", "annulation du PLU"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le refus d'un permis est annulé par le juge. Dans quel délai le pétitionnaire doit-il confirmer sa demande pour bénéficier de la protection contre l'application de règles d'urbanisme postérieures ?",
+      "options": [
+        "Dans les six mois suivant la notification de l'annulation au pétitionnaire",
+        "Dans les deux mois suivant la décision juridictionnelle",
+        "Dans l'année suivant l'annulation définitive",
+        "Sans délai, dès que l'annulation est prononcée"
+      ],
+      "answer": 0,
+      "explanation": "La confirmation de la demande doit être effectuée dans les six mois suivant la notification de l'annulation devenue définitive au pétitionnaire.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_2_3__opus_016",
+      "sectionTitle": "Les conséquences de l'annulation d'un permis de construire",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_2_3",
+      "sourceText": "Encore faut-il que l'annulation soit devenue définitive et que la confirmation de la demande ou de la déclaration soit effectuée dans les six mois suivant la notification de l'annulation au pétitionnaire.",
+      "sourceContext": "Encore faut-il que l'annulation soit devenue définitive et que la confirmation de la demande ou de la déclaration soit effectuée dans les six mois suivant la notification de l'annulation au pétitionnaire.",
+      "sectionId": "108-contentieux-urbanisme__1_1_2_3",
+      "keywords": ["confirmation de la demande", "six mois", "annulation définitive"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsqu'une décision de préemption est annulée sans qu'il y ait eu transfert de propriété, pendant quel délai le titulaire ne peut-il exercer son droit à nouveau sur le bien ?",
+      "options": [
+        "Pendant un délai d'un an à compter de la décision juridictionnelle devenue définitive",
+        "Pendant un délai de six mois à compter de l'annulation",
+        "Pendant un délai de trois mois à compter de la notification",
+        "Pendant un délai de deux ans à compter de la décision"
+      ],
+      "answer": 0,
+      "explanation": "En l'absence de transfert de propriété, le titulaire ne peut exercer à nouveau son droit pendant un délai d'un an à compter de la décision juridictionnelle devenue définitive.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_2_4__opus_017",
+      "sectionTitle": "Les conséquences de l'annulation d'une décision de préemption",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_2_4",
+      "sourceText": "Lorsque qu'il n'y a pas eu transfert de propriété, et que la décision par laquelle le titulaire du droit de préemption décide d'exercer son droit est annulée ou déclarée illégale par la juridiction administrative, ce titulaire ne peut exercer son droit à nouveau sur le bien en cause pendant un délai d'un an à compter de la décision juridictionnelle devenue définitive.",
+      "sourceContext": "Lorsque qu'il n'y a pas eu transfert de propriété, et que la décision par laquelle le titulaire du droit de préemption décide d'exercer son droit est annulée ou déclarée illégale par la juridiction administrative, ce titulaire ne peut exercer son droit à nouveau sur le bien en cause pendant un délai d'un an à compter de la décision juridictionnelle devenue définitive.",
+      "sectionId": "108-contentieux-urbanisme__1_1_2_4",
+      "keywords": ["droit de préemption", "annulation", "délai d'un an"]
+    },
+    {
+      "bloom": "application",
+      "q": "Après transfert de propriété, une décision de préemption est annulée. Le titulaire propose le bien aux anciens propriétaires, qui ne répondent pas dans le délai de trois mois. Quelle conséquence ?",
+      "options": [
+        "Les anciens propriétaires sont réputés avoir renoncé à l'acquisition",
+        "Le titulaire conserve définitivement le bien sans contrepartie",
+        "Le bien est remis en vente aux enchères publiques",
+        "Le juge de l'expropriation impose la rétrocession d'office"
+      ],
+      "answer": 0,
+      "explanation": "À défaut d'acceptation dans le délai de trois mois à compter de la notification de la décision devenue définitive, les anciens propriétaires sont réputés avoir renoncé à l'acquisition.",
+      "id": "urb1__108-contentieux-urbanisme__1_1_2_4__opus_018",
+      "sectionTitle": "Les conséquences de l'annulation d'une décision de préemption",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_1_2_4",
+      "sourceText": "A défaut d'acceptation dans le délai de trois mois à compter de la notification de la décision juridictionnelle devenue définitive, les anciens propriétaires ou leurs ayants cause universels ou à titre universel sont réputés avoir renoncé à l'acquisition.",
+      "sourceContext": "A défaut d'acceptation dans le délai de trois mois à compter de la notification de la décision juridictionnelle devenue définitive, les anciens propriétaires ou leurs ayants cause universels ou à titre universel sont réputés avoir renoncé à l'acquisition.",
+      "sectionId": "108-contentieux-urbanisme__1_1_2_4",
+      "keywords": ["préemption", "délai de trois mois", "renonciation"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En matière de responsabilité pour faute en urbanisme, comment la jurisprudence Driancourt qualifie-t-elle l'illégalité d'un acte ?",
+      "options": [
+        "Toute illégalité est fautive, même lorsqu'elle résulte d'une simple erreur d'appréciation",
+        "Seule l'illégalité résultant d'une faute lourde est indemnisable",
+        "L'illégalité n'est fautive qu'en cas de mauvaise foi de l'administration",
+        "L'illégalité externe seule peut être qualifiée de fautive"
+      ],
+      "answer": 0,
+      "explanation": "Selon la jurisprudence Driancourt, toute illégalité est fautive, même lorsqu'elle résulte d'une simple erreur d'appréciation.",
+      "id": "urb1__108-contentieux-urbanisme__1_2_1_1_1__opus_019",
+      "sectionTitle": "La responsabilité pour faute",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_2_1_1_1",
+      "sourceText": "Ainsi, sont tout d'abord sanctionnées les illégalités, et ce d'autant plus que toute illégalité est fautive, même lorsqu'elle résulte d'une simple erreur d'appréciation (CE, 26 janvier 1973, Driancourt).",
+      "sourceContext": "Ainsi, sont tout d'abord sanctionnées les illégalités, et ce d'autant plus que toute illégalité est fautive, même lorsqu'elle résulte d'une simple erreur d'appréciation (CE, 26 janvier 1973, Driancourt).",
+      "sectionId": "108-contentieux-urbanisme__1_2_1_1_1",
+      "keywords": ["Driancourt", "illégalité fautive", "erreur d'appréciation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi la responsabilité sans faute est-elle rarement reconnue en droit de l'urbanisme ?",
+      "options": [
+        "Parce que par définition le droit de l'urbanisme entraîne des ruptures d'égalité",
+        "Parce que la loi l'interdit expressément en matière d'urbanisme",
+        "Parce que le préjudice y est toujours hypothétique",
+        "Parce que seule la responsabilité contractuelle y est admise"
+      ],
+      "answer": 0,
+      "explanation": "La responsabilité sans faute est rarement reconnue car, par définition, le droit de l'urbanisme entraîne des ruptures d'égalité.",
+      "id": "urb1__108-contentieux-urbanisme__1_2_1_1_2__opus_020",
+      "sectionTitle": "La responsabilité sans faute",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_2_1_1_2",
+      "sourceText": "Par définition, le droit de l'urbanisme entraine des ruptures d'égalité, la responsabilité sans faute est donc rarement reconnue.",
+      "sourceContext": "Par définition, le droit de l'urbanisme entraine des ruptures d'égalité, la responsabilité sans faute est donc rarement reconnue.",
+      "sectionId": "108-contentieux-urbanisme__1_2_1_1_2",
+      "keywords": ["responsabilité sans faute", "rupture d'égalité", "urbanisme"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle caractéristique le préjudice doit-il présenter pour être indemnisable, excluant ainsi la perte de chance ?",
+      "options": [
+        "Il doit être certain",
+        "Il doit être moral",
+        "Il doit être anormal et spécial dans tous les cas",
+        "Il doit être collectif"
+      ],
+      "answer": 0,
+      "explanation": "Le préjudice doit être certain pour être indemnisable, ce qui exclut l'indemnisation de la perte de chance.",
+      "id": "urb1__108-contentieux-urbanisme__1_2_1_2__opus_021",
+      "sectionTitle": "Le préjudice indemnisable",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_2_1_2",
+      "sourceText": "Pour être indemnisable, le préjudice doit être certain.",
+      "sourceContext": "Pour être indemnisable, le préjudice doit être certain.",
+      "sectionId": "108-contentieux-urbanisme__1_2_1_2",
+      "keywords": ["préjudice certain", "perte de chance", "indemnisation"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En principe, quel est le sort des servitudes d'urbanisme légalement instituées au regard de l'indemnisation ?",
+      "options": [
+        "Elles ne s'indemnisent pas",
+        "Elles donnent toujours lieu à indemnisation intégrale",
+        "Elles s'indemnisent uniquement si elles dépassent dix ans",
+        "Elles s'indemnisent sur décision du conseil municipal"
+      ],
+      "answer": 0,
+      "explanation": "En principe, les servitudes d'urbanisme légalement instituées ne s'indemnisent pas.",
+      "id": "urb1__108-contentieux-urbanisme__1_2_2__opus_022",
+      "sectionTitle": "Le régime légal",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_2_2",
+      "sourceText": "En principe, les servitudes d'urbanisme ne s'indemnisent pas, dans les cas où ces servitudes ont été légalement instituées.",
+      "sourceContext": "En principe, les servitudes d'urbanisme ne s'indemnisent pas, dans les cas où ces servitudes ont été légalement instituées.",
+      "sectionId": "108-contentieux-urbanisme__1_2_2",
+      "keywords": ["servitudes d'urbanisme", "non-indemnisation", "régime légal"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qu'a précisé la décision Bitouzet en matière d'indemnisation des servitudes d'urbanisme ?",
+      "options": [
+        "L'indemnisation est possible pour les propriétaires supportant une charge spéciale et exorbitante, hors de proportion avec l'objectif d'intérêt général",
+        "Toute servitude d'urbanisme devient indemnisable sans condition",
+        "L'indemnisation est exclue dès lors que la servitude est légale",
+        "Seules les servitudes contractuelles ouvrent droit à indemnisation"
+      ],
+      "answer": 0,
+      "explanation": "La décision Bitouzet admet l'indemnisation des propriétaires supportant une charge spéciale et exorbitante, hors de proportion avec l'objectif d'intérêt général suivi.",
+      "id": "urb1__108-contentieux-urbanisme__1_2_2__opus_023",
+      "sectionTitle": "Le régime légal",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_2_2",
+      "sourceText": "La décision Bitouzet (CE, 3 juillet 1998) est quant à elle venue préciser qu'est aussi possible l'indemnisation des propriétaires supportant une charge spéciale et exorbitante, hors de proportion avec l'objectif d'intérêt général suivi.",
+      "sourceContext": "La décision Bitouzet (CE, 3 juillet 1998) est quant à elle venue préciser qu'est aussi possible l'indemnisation des propriétaires supportant une charge spéciale et exorbitante, hors de proportion avec l'objectif d'intérêt général suivi.",
+      "sectionId": "108-contentieux-urbanisme__1_2_2",
+      "keywords": ["Bitouzet", "charge spéciale et exorbitante", "indemnisation"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un requérant souhaite faire suspendre en urgence un permis de construire. Peut-il recourir au référé-liberté ?",
+      "options": [
+        "Non, car il n'est pas possible d'utiliser le référé-liberté en matière de permis de construire",
+        "Oui, dès lors qu'il invoque le droit de propriété",
+        "Oui, à condition que l'urgence soit caractérisée",
+        "Oui, mais uniquement devant le juge judiciaire"
+      ],
+      "answer": 0,
+      "explanation": "Le référé-liberté ne peut pas être utilisé en matière de permis de construire.",
+      "id": "urb1__108-contentieux-urbanisme__1_3_1_1__opus_024",
+      "sectionTitle": "Le référé-liberté",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_3_1_1",
+      "sourceText": "Son utilisation dans ce domaine reste très cantonnée, ce d'autant plus qu'il n'est pas possible d'utiliser le référé-liberté en matière de permis de construire.",
+      "sourceContext": "Son utilisation dans ce domaine reste très cantonnée, ce d'autant plus qu'il n'est pas possible d'utiliser le référé-liberté en matière de permis de construire.",
+      "sectionId": "108-contentieux-urbanisme__1_3_1_1",
+      "keywords": ["référé-liberté", "permis de construire", "exclusion"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelles conditions cumulatives le juge des référés exige-t-il pour ordonner un référé-suspension ?",
+      "options": [
+        "L'urgence et un moyen propre à créer un doute sérieux quant à la légalité de la décision",
+        "Une faute lourde de l'administration et un préjudice irréversible",
+        "L'accord du préfet et l'avis de la commission départementale",
+        "L'épuisement préalable des voies de recours administratif"
+      ],
+      "answer": 0,
+      "explanation": "Le référé-suspension suppose que l'urgence le justifie et qu'il soit fait état d'un moyen propre à créer un doute sérieux quant à la légalité de la décision.",
+      "id": "urb1__108-contentieux-urbanisme__1_3_1_3__opus_025",
+      "sectionTitle": "Le référé-suspension",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_3_1_3",
+      "sourceText": "Quand une décision administrative, même de rejet, fait l'objet d'une requête en annulation ou en réformation, le juge des référés, saisi d'une demande en ce sens, peut ordonner la suspension de l'exécution de cette décision, ou de certains de ses effets, lorsque l'urgence le justifie et qu'il est fait état d'un moyen propre à créer, en l'état de l'instruction, un doute sérieux quant à la légalité de la décision.",
+      "sourceContext": "Quand une décision administrative, même de rejet, fait l'objet d'une requête en annulation ou en réformation, le juge des référés, saisi d'une demande en ce sens, peut ordonner la suspension de l'exécution de cette décision, ou de certains de ses effets, lorsque l'urgence le justifie et qu'il est fait état d'un moyen propre à créer, en l'état de l'instruction, un doute sérieux quant à la légalité de la décision.",
+      "sectionId": "108-contentieux-urbanisme__1_3_1_3",
+      "keywords": ["référé-suspension", "urgence", "doute sérieux"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque le préfet défère un permis de construire et demande la suspension dans les dix jours de la réception de l'acte, quel effet en résulte avant que le juge ait statué ?",
+      "options": [
+        "La demande entraîne la suspension de l'acte jusqu'à ce que le juge ait statué",
+        "L'acte demeure exécutoire jusqu'à la décision du juge",
+        "Le permis est automatiquement annulé",
+        "Le pétitionnaire dispose d'un mois pour régulariser"
+      ],
+      "answer": 0,
+      "explanation": "La demande de suspension formulée par le préfet dans les dix jours de la réception de l'acte entraîne la suspension de celui-ci jusqu'à ce que le juge ait statué.",
+      "id": "urb1__108-contentieux-urbanisme__1_3_2_1__opus_026",
+      "sectionTitle": "Le référé-suspension visant les actes des collectivités",
+      "sourceLink": "#section-108-contentieux-urbanisme__1_3_2_1",
+      "sourceText": "De plus, jusqu'à ce que le président du tribunal administratif ou le magistrat délégué par lui ait statué, la demande de suspension en matière d'urbanisme, de marchés et de délégation de service public formulée par le représentant de l'Etat dans les dix jours à compter de la réception de l'acte entraîne la suspension de celui-ci.",
+      "sourceContext": "De plus, jusqu'à ce que le président du tribunal administratif ou le magistrat délégué par lui ait statué, la demande de suspension en matière d'urbanisme, de marchés et de délégation de service public formulée par le représentant de l'Etat dans les dix jours à compter de la réception de l'acte entraîne la suspension de celui-ci.",
+      "sectionId": "108-contentieux-urbanisme__1_3_2_1",
+      "keywords": ["déféré préfectoral", "suspension", "dix jours"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Selon la Cour de cassation, comment sont présumés les délits d'urbanisme s'agissant de l'élément intentionnel ?",
+      "options": [
+        "Ils sont présumés être intentionnels",
+        "Ils sont présumés non intentionnels",
+        "L'intention doit toujours être prouvée par le ministère public",
+        "Ils ne nécessitent jamais d'élément intentionnel"
+      ],
+      "answer": 0,
+      "explanation": "Selon la Cour de cassation, les délits d'urbanisme sont présumés être intentionnels.",
+      "id": "urb1__108-contentieux-urbanisme__2_1_1__opus_027",
+      "sectionTitle": "Les infractions",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_1_1",
+      "sourceText": "L'infraction est relativement souvent constituée, puisque les délits d'urbanisme sont présumés être intentionnels selon la Cour de cassation.",
+      "sourceContext": "L'infraction est relativement souvent constituée, puisque les délits d'urbanisme sont présumés être intentionnels selon la Cour de cassation.",
+      "sectionId": "108-contentieux-urbanisme__2_1_1",
+      "keywords": ["délits d'urbanisme", "présomption d'intention", "Cour de cassation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle valeur probante est attachée aux procès-verbaux dressés par les agents habilités à constater les infractions d'urbanisme ?",
+      "options": [
+        "Ils font foi jusqu'à preuve du contraire",
+        "Ils ont une valeur indicative non contraignante",
+        "Ils font foi jusqu'à inscription de faux",
+        "Ils ne lient pas le juge pénal"
+      ],
+      "answer": 0,
+      "explanation": "Les procès-verbaux dressés par les agents habilités font foi jusqu'à preuve du contraire.",
+      "id": "urb1__108-contentieux-urbanisme__2_1_2_1__opus_028",
+      "sectionTitle": "Les personnes habilitées",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_1_2_1",
+      "sourceText": "Les procèsverbaux dressés par ces agents font foi jusqu'à preuve du contraire.",
+      "sourceContext": "Les procèsverbaux dressés par ces agents font foi jusqu'à preuve du contraire.",
+      "sectionId": "108-contentieux-urbanisme__2_1_2_1",
+      "keywords": ["procès-verbal", "force probante", "preuve du contraire"]
+    },
+    {
+      "bloom": "application",
+      "q": "Des travaux sont menés sans permis de construire et se poursuivent malgré le constat de l'infraction. Que peut faire le juge administratif des référés ?",
+      "options": [
+        "Enjoindre au maire d'édicter un arrêté interruptif des travaux",
+        "Prononcer lui-même la démolition de la construction",
+        "Infliger une amende pénale au constructeur",
+        "Ordonner la saisie immédiate du terrain"
+      ],
+      "answer": 0,
+      "explanation": "Si les travaux se poursuivent, le juge administratif des référés peut enjoindre au maire d'édicter un arrêté interruptif des travaux.",
+      "id": "urb1__108-contentieux-urbanisme__2_1_2_2__opus_029",
+      "sectionTitle": "L'interruption des travaux",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_1_2_2",
+      "sourceText": "Si les travaux se poursuivent, le juge administratif des référés peut agir, enjoignant au maire d'édicter un arrêté interruptif des travaux.",
+      "sourceContext": "Si les travaux se poursuivent, le juge administratif des référés peut agir, enjoignant au maire d'édicter un arrêté interruptif des travaux.",
+      "sectionId": "108-contentieux-urbanisme__2_1_2_2",
+      "keywords": ["interruption des travaux", "arrêté interruptif", "référé"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque l'autorité administrative compétente a connaissance d'une infraction d'urbanisme, quelle obligation pèse sur elle ?",
+      "options": [
+        "Elle est tenue d'en faire dresser procès-verbal",
+        "Elle peut librement apprécier l'opportunité de poursuivre",
+        "Elle doit saisir directement le juge pénal sans procès-verbal",
+        "Elle doit en informer uniquement le préfet"
+      ],
+      "answer": 0,
+      "explanation": "L'autorité administrative ayant connaissance d'une infraction est tenue d'en faire dresser procès-verbal, sa carence pouvant engager sa responsabilité.",
+      "id": "urb1__108-contentieux-urbanisme__2_1_2_3__opus_030",
+      "sectionTitle": "Les poursuites",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_1_2_3",
+      "sourceText": "Lorsque l'autorité administrative et, au cas où il est compétent pour délivrer les autorisations, le maire ou le président de l'établissement public de coopération intercommunale compétent ont connaissance d'une infraction de la nature de celles que prévoient les articles L. 160-1 et L. 480-4, ils sont tenus d'en faire dresser procès verbal.",
+      "sourceContext": "Lorsque l'autorité administrative et, au cas où il est compétent pour délivrer les autorisations, le maire ou le président de l'établissement public de coopération intercommunale compétent ont connaissance d'une infraction de la nature de celles que prévoient les articles L. 160-1 et L. 480-4, ils sont tenus d'en faire dresser procès verbal.",
+      "sectionId": "108-contentieux-urbanisme__2_1_2_3",
+      "keywords": ["poursuites", "procès-verbal obligatoire", "infraction"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pour les personnes morales reconnues responsables d'infractions d'urbanisme, comment sont fixées les amendes ?",
+      "options": [
+        "Les amendes sont quintuplées",
+        "Les amendes sont doublées",
+        "Les amendes sont identiques à celles des personnes physiques",
+        "Les amendes sont triplées"
+      ],
+      "answer": 0,
+      "explanation": "Pour les personnes morales, les amendes sont quintuplées, et des peines particulières leur sont applicables.",
+      "id": "urb1__108-contentieux-urbanisme__2_1_3__opus_031",
+      "sectionTitle": "Les sanctions",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_1_3",
+      "sourceText": "Pour les personnes morales, les amendes sont quintuplées.",
+      "sourceContext": "Pour les personnes morales, les amendes sont quintuplées.",
+      "sectionId": "108-contentieux-urbanisme__2_1_3",
+      "keywords": ["personnes morales", "amendes quintuplées", "sanctions"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un tiers veut engager une action en démolition d'une construction édifiée conformément à un permis de construire. Quel préalable est exigé ?",
+      "options": [
+        "Le permis doit avoir été préalablement annulé pour excès de pouvoir par la juridiction administrative",
+        "Une simple mise en demeure adressée au constructeur",
+        "L'accord exprès de la commune concernée",
+        "La preuve d'un trouble anormal de voisinage"
+      ],
+      "answer": 0,
+      "explanation": "L'action en démolition d'une construction édifiée conformément à un permis suppose que le permis ait été préalablement annulé pour excès de pouvoir par la juridiction administrative.",
+      "id": "urb1__108-contentieux-urbanisme__2_2_1_1__opus_032",
+      "sectionTitle": "La violation d'une servitude d'urbanisme",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_2_1_1",
+      "sourceText": "Pour saisir le juge civil, les tiers doivent prouver que la violation invoquée concerne une règle de fond, en particulier une servitude d'urbanisme, ou une prescription tirée d'une autorisation d'occupation des sols, et qu'ils subissent un préjudice personnel.",
+      "sourceContext": "Pour saisir le juge civil, les tiers doivent prouver que la violation invoquée concerne une règle de fond, en particulier une servitude d'urbanisme, ou une prescription tirée d'une autorisation d'occupation des sols, et qu'ils subissent un préjudice personnel.",
+      "sectionId": "108-contentieux-urbanisme__2_2_1_1",
+      "keywords": ["juge civil", "règle de fond", "préjudice personnel"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En cas d'empiètement sur la propriété d'un tiers, l'intervention préalable du juge administratif est-elle nécessaire pour invoquer la violation d'un droit réel ?",
+      "options": [
+        "Non, il n'est pas nécessaire que le juge administratif intervienne préalablement",
+        "Oui, le permis doit d'abord avoir été annulé",
+        "Oui, le préfet doit constater l'illégalité",
+        "Oui, sauf si la construction est achevée"
+      ],
+      "answer": 0,
+      "explanation": "En cas de violation d'un droit réel, il n'est pas nécessaire que le juge administratif intervienne préalablement.",
+      "id": "urb1__108-contentieux-urbanisme__2_2_1_2__opus_033",
+      "sectionTitle": "La violation d'un droit réel",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_2_1_2",
+      "sourceText": "Dans ce cas, il n'est pas nécessaire que le juge administratif intervienne préalablement.",
+      "sourceContext": "Dans ce cas, il n'est pas nécessaire que le juge administratif intervienne préalablement.",
+      "sectionId": "108-contentieux-urbanisme__2_2_1_2",
+      "keywords": ["droit réel", "empiètement", "juge civil"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans quel délai se prescrit l'action civile de la commune tendant à faire ordonner la démolition d'un ouvrage édifié sans autorisation ?",
+      "options": [
+        "Par dix ans à compter de l'achèvement des travaux",
+        "Par deux ans à compter de l'achèvement des travaux",
+        "Par cinq ans à compter de la découverte de l'infraction",
+        "Par trois ans à compter de la mise en demeure"
+      ],
+      "answer": 0,
+      "explanation": "L'action civile de la commune se prescrit par dix ans à compter de l'achèvement des travaux.",
+      "id": "urb1__108-contentieux-urbanisme__2_2_2__opus_034",
+      "sectionTitle": "La responsabilité civile mise en œuvre par l'administration",
+      "sourceLink": "#section-108-contentieux-urbanisme__2_2_2",
+      "sourceText": "L'action civile se prescrit en pareil cas par dix ans à compter de l'achèvement des travaux.",
+      "sourceContext": "L'action civile se prescrit en pareil cas par dix ans à compter de l'achèvement des travaux.",
+      "sectionId": "108-contentieux-urbanisme__2_2_2",
+      "keywords": ["action civile", "prescription décennale", "démolition"]
+    }
+  ]
+}

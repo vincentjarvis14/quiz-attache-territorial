@@ -8,7 +8,10 @@ import {
   text,
   timestamp,
   jsonb,
+  index,
+  uniqueIndex,
 } from "drizzle-orm/pg-core";
+import type { Block } from "@/lib/clean-section";
 
 // ─── Énumérations ───────────────────────────────────────────────
 
@@ -17,6 +20,13 @@ export const sousThemeStatusEnum = pgEnum("sous_theme_status", [
   "in_progress",
   "needs_review",
   "mastered",
+]);
+
+// Niveau de maîtrise auto-déclaré par le lecteur (3 niveaux).
+export const masteryLevelEnum = pgEnum("mastery_level", [
+  "a_revoir",
+  "en_cours",
+  "maitrise",
 ]);
 
 export const quizModeEnum = pgEnum("quiz_mode", ["free", "challenge"]);
@@ -90,6 +100,22 @@ export const lessonsRelations = relations(lessons, ({ one, many }) => ({
   challenges: many(challenges),
 }));
 
+// ─── Sections sources (texte intégral extrait des PDF) ──────────
+// Une section = un bloc thématique du cours, source des extraits de questions
+
+export const sections = pgTable("sections", {
+  id: text("id").primaryKey(),
+  title: text("title").notNull(),
+  content: text("content").notNull(),
+  contentClean: jsonb("content_clean").$type<Block[]>(),
+  sourcePdf: text("source_pdf"),
+  pageStart: integer("page_start"),
+});
+
+export const sectionsRelations = relations(sections, ({ many }) => ({
+  challenges: many(challenges),
+}));
+
 // ─── Challenges (questions) ─────────────────────────────────────
 // Correspond à "Challenge" dans le modèle Duolingo
 
@@ -104,6 +130,9 @@ export const challenges = pgTable("challenges", {
   explanation: text("explanation").notNull(),
   sourceChunk: text("source_chunk").notNull(),
   sourceSection: text("source_section"),
+  sourceSectionId: text("source_section_id").references(() => sections.id, {
+    onDelete: "set null",
+  }),
   difficulty: integer("difficulty").default(2),
 });
 
@@ -111,6 +140,10 @@ export const challengesRelations = relations(challenges, ({ one, many }) => ({
   lesson: one(lessons, {
     fields: [challenges.lessonId],
     references: [lessons.id],
+  }),
+  section: one(sections, {
+    fields: [challenges.sourceSectionId],
+    references: [sections.id],
   }),
   challengeOptions: many(challengeOptions),
   challengeProgress: many(challengeProgress),
@@ -167,6 +200,8 @@ export const userProgress = pgTable("user_progress", {
     .references(() => themes.id, { onDelete: "set null" }),
   hearts: integer("hearts").notNull().default(5),
   points: integer("points").notNull().default(0),
+  // Date du concours (réglage utilisateur) — sert au plafond de planification SRS.
+  examDate: timestamp("exam_date"),
 });
 
 export const userProgressRelations = relations(userProgress, ({ one }) => ({
@@ -188,6 +223,8 @@ export const userSousThemeProgress = pgTable("user_sous_theme_progress", {
   correctCount: integer("correct_count").default(0),
   lastReviewedAt: timestamp("last_reviewed_at"),
   status: sousThemeStatusEnum("status").default("not_started"),
+  // Niveau auto-déclaré par le lecteur (null = non évalué).
+  selfMastery: masteryLevelEnum("self_mastery"),
 });
 
 export const userSousThemeProgressRelations = relations(
@@ -252,6 +289,69 @@ export const userAnswersRelations = relations(userAnswers, ({ one }) => ({
     references: [quizSessions.id],
   }),
 }));
+
+// ─── Répétition espacée (Leitner) ───────────────────────────────
+// État courant de planification d'une "carte" = (utilisateur, question).
+// Le journal brut des réponses reste user_answers ; cette table est dérivée.
+
+export const userQuestionSrs = pgTable(
+  "user_question_srs",
+  {
+    id: serial("id").primaryKey(),
+    userId: text("user_id").notNull(),
+    questionId: integer("question_id")
+      .references(() => challenges.id, { onDelete: "cascade" })
+      .notNull(),
+    box: integer("box").notNull().default(0), // boîte Leitner 0..6
+    dueAt: timestamp("due_at").notNull(), // prochaine révision (normalisée minuit)
+    lastReviewedAt: timestamp("last_reviewed_at").notNull().defaultNow(),
+    lapses: integer("lapses").notNull().default(0), // nb d'oublis (diagnostic)
+  },
+  (t) => [
+    // une seule carte par (utilisateur, question)
+    uniqueIndex("uqs_user_question_unique").on(t.userId, t.questionId),
+    // récupération rapide des cartes dues
+    index("uqs_user_due_idx").on(t.userId, t.dueAt),
+  ]
+);
+
+export const userQuestionSrsRelations = relations(userQuestionSrs, ({ one }) => ({
+  question: one(challenges, {
+    fields: [userQuestionSrs.questionId],
+    references: [challenges.id],
+  }),
+}));
+
+// ─── Chunks du Code de l'urbanisme (RAG BM25) ───────────────────
+// Chaque ligne = un article ou groupe d'articles du Code de l'urbanisme
+// Indexé avec tsvector français pour la recherche full-text
+
+export const legalChunks = pgTable("legal_chunks", {
+  id: serial("id").primaryKey(),
+  sourceDoc: text("source_doc").notNull().default("code_urbanisme"),
+  articleRef: text("article_ref"),   // ex: "L111-1", "R*420-1"
+  title: text("title"),
+  headingPath: text("heading_path"), // fil d'Ariane: "Titre V › Chapitre III › Section 4"
+  content: text("content").notNull(),
+  pageNumber: integer("page_number"),
+  chunkIndex: integer("chunk_index"),
+});
+
+// ─── Mapping section de cours → articles du Code (RAG) ──────────
+// Pré-calculé : pour chaque section (urbanisme), les articles du Code
+// de l'urbanisme les plus pertinents. Alimente les encarts pédagogiques.
+
+export const sectionLegalRefs = pgTable("section_legal_refs", {
+  id: serial("id").primaryKey(),
+  sectionId: text("section_id")
+    .references(() => sections.id, { onDelete: "cascade" })
+    .notNull(),
+  chunkId: integer("chunk_id")
+    .references(() => legalChunks.id, { onDelete: "cascade" })
+    .notNull(),
+  articleRef: text("article_ref"),
+  position: integer("position").notNull(), // 0 = plus pertinent
+});
 
 // ─── Profil utilisateur (étendu Supabase) ───────────────────────
 

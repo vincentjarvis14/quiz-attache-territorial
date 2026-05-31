@@ -1,17 +1,17 @@
 {
   "questions": [
     {
-      "bloom": "rappel",
-      "q": "Qui peut décider d'intervenir pour créer une zone d'aménagement concerté ?",
+      "bloom": "comprehension",
+      "q": "Selon le code de l'urbanisme, qu'est-ce qui caractérise une zone d'aménagement concerté (ZAC) au regard de l'acteur décisionnaire ?",
       "options": [
-        "Une collectivité publique ou un établissement public y ayant vocation",
-        "Tout propriétaire foncier riverain du périmètre",
-        "Une société commerciale privée agréée par le préfet",
-        "Le seul représentant de l'État dans le département"
+        "Un promoteur privé décide seul d'y réaliser l'aménagement des terrains sans intervention publique",
+        "Une collectivité publique ou un établissement public y ayant vocation décide d'y intervenir pour réaliser ou faire réaliser l'aménagement et l'équipement des terrains",
+        "Le préfet décide systématiquement d'y réaliser l'aménagement et l'équipement des terrains",
+        "Une association syndicale de propriétaires décide d'y réaliser l'aménagement des terrains"
       ],
-      "answer": 0,
-      "explanation": "La ZAC est une zone où une collectivité publique ou un établissement public y ayant vocation décide d'intervenir.",
-      "id": "urb1__107-operations-amenagement__1_1_1_1__opus_001",
+      "answer": 1,
+      "explanation": "Le texte définit la ZAC comme une zone à l'intérieur de laquelle une collectivité publique ou un établissement public y ayant vocation décide d'intervenir pour réaliser ou faire réaliser l'aménagement et l'équipement des terrains.",
+      "id": "urb__107-operations-amenagement__1_1_1_1__opus_001",
       "sectionTitle": "L’objet de la ZAC",
       "sourceLink": "#section-107-operations-amenagement__1_1_1_1",
       "sourceText": "Les zones d'aménagement concerté sont définies comme les zones à l'intérieur desquelles une collectivité publique ou un établissement public y ayant vocation décide d'intervenir pour réaliser ou faire réaliser l'aménagement et l'équipement des terrains, notamment de ceux que cette collectivité ou cet établissement a acquis ou acquerra en vue de les céder ou de les concéder ultérieurement à des utilisateurs publics ou privés.",
@@ -24,256 +24,417 @@
       ]
     },
     {
-      "bloom": "comprehension",
-      "q": "Pourquoi une simple opération d'aménagement ne suffit-elle pas à justifier la création d'une ZAC ?",
+      "bloom": "rappel",
+      "q": "Quel est l'objet que doit poursuivre une zone d'aménagement concerté ?",
       "options": [
-        "Parce que le projet doit révéler une opération d'équipement complexe ayant des incidences urbaines",
-        "Parce que la ZAC est réservée aux seules extensions urbaines de grande ampleur",
-        "Parce que seule l'acquisition préalable de tous les terrains la justifie",
-        "Parce que la ZAC suppose toujours l'accord unanime des propriétaires"
+        "La seule acquisition de réserves foncières",
+        "La protection des espaces naturels sensibles",
+        "La construction directe de logements sociaux par l'État",
+        "L'aménagement et l'équipement des terrains"
       ],
-      "answer": 0,
-      "explanation": "Il a été exigé que le projet révèle une opération d'équipement complexe ayant des incidences urbaines.",
-      "id": "urb1__107-operations-amenagement__1_1_1_1__opus_002",
+      "answer": 3,
+      "explanation": "Le texte indique qu'en somme, l'aménagement doit avoir pour objet l'aménagement et l'équipement des terrains.",
+      "id": "urb__107-operations-amenagement__1_1_1_1__opus_002",
       "sectionTitle": "L’objet de la ZAC",
       "sourceLink": "#section-107-operations-amenagement__1_1_1_1",
-      "sourceText": "La notion d’aménagement étant très large, il a été exigé que le projet révèle une opération d’équipement complexe ayant des incidences urbaines.",
-      "sourceContext": "La notion d’aménagement étant très large, il a été exigé que le projet révèle une opération d’équipement complexe ayant des incidences urbaines.",
+      "sourceText": "En somme, l'aménagement doit avoir pour objet l'aménagement et l'équipement des terrains.",
+      "sourceContext": "En somme, l'aménagement doit avoir pour objet l'aménagement et l'équipement des terrains.",
       "sectionId": "107-operations-amenagement__1_1_1_1",
       "keywords": [
+        "ZAC",
+        "objet",
+        "aménagement"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Pour qu'une ZAC soit justifiée, à quelle exigence le projet doit-il répondre au regard de la notion d'aménagement, jugée très large ?",
+      "options": [
+        "Le projet doit révéler une opération d'équipement complexe ayant des incidences urbaines",
+        "Le projet doit se limiter à une simple division parcellaire sans incidence urbaine",
+        "Le projet doit exclure toute acquisition de terrains par l'aménageur",
+        "Le projet doit obligatoirement porter sur une seule parcelle déjà urbanisée"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que la notion d'aménagement étant très large, il a été exigé que le projet révèle une opération d'équipement complexe ayant des incidences urbaines.",
+      "id": "urb__107-operations-amenagement__1_1_1_1__opus_003",
+      "sectionTitle": "L’objet de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_1_1_1",
+      "sourceText": "La notion d'aménagement étant très large, il a été exigé que le projet révèle une opération d'équipement complexe ayant des incidences urbaines.",
+      "sourceContext": "La notion d'aménagement étant très large, il a été exigé que le projet révèle une opération d'équipement complexe ayant des incidences urbaines.",
+      "sectionId": "107-operations-amenagement__1_1_1_1",
+      "keywords": [
+        "ZAC",
         "opération complexe",
-        "incidences urbaines",
-        "objet ZAC"
+        "incidences urbaines"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Une ZAC peut-elle être créée pour transformer un tissu urbain déjà existant ?",
+      "options": [
+        "Non, une ZAC est réservée à la seule protection du tissu urbain existant",
+        "Non, une ZAC ne peut être créée que pour des extensions urbaines sur terrains nus",
+        "Oui, mais uniquement si aucune acquisition de terrain n'est nécessaire",
+        "Oui, une ZAC peut être créée pour réaliser des extensions urbaines mais également pour transformer le tissu urbain déjà existant et le renouveler"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que si la condition est remplie, une ZAC peut être créée principalement pour réaliser des extensions urbaines, mais également pour transformer le tissu urbain déjà existant et le renouveler.",
+      "id": "urb__107-operations-amenagement__1_1_1_1__opus_004",
+      "sectionTitle": "L’objet de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_1_1_1",
+      "sourceText": "Ainsi, si cette condition est remplie, une ZAC peut être créée principalement pour réaliser des extensions urbaines, mais également pour transformer le tissu urbain déjà existant et le renouveler.",
+      "sourceContext": "Ainsi, si cette condition est remplie, une ZAC peut être créée principalement pour réaliser des extensions urbaines, mais également pour transformer le tissu urbain déjà existant et le renouveler.",
+      "sectionId": "107-operations-amenagement__1_1_1_1",
+      "keywords": [
+        "ZAC",
+        "extension urbaine",
+        "renouvellement urbain"
       ]
     },
     {
       "bloom": "application",
-      "q": "Une commune couverte par un PLU veut créer une ZAC dont le projet se heurte au zonage en vigueur. Que devra-t-elle faire ?",
+      "q": "Dans une commune couverte par un plan local d'urbanisme (PLU), quel est l'effet du zonage sur la localisation de la ZAC ?",
       "options": [
-        "Modifier ou réviser le PLU pour permettre la réalisation de l'opération",
-        "Abandonner le projet, le zonage du PLU étant intangible",
-        "Solliciter une dérogation préfectorale au zonage existant",
-        "Créer la ZAC sans formalité, le zonage lui étant inopposable"
+        "La localisation de la ZAC impose la suppression pure et simple du PLU",
+        "La localisation de la ZAC est indifférente au zonage, la commune pouvant être contrainte de modifier ou réviser le PLU",
+        "La ZAC ne peut être implantée que dans les zones déjà classées constructibles, sans modification possible",
+        "Le zonage du PLU interdit par principe toute implantation de ZAC sur la commune"
       ],
-      "answer": 0,
-      "explanation": "Lorsque la commune est couverte par un PLU, elle pourra être contrainte de modifier ou réviser le PLU pour permettre la réalisation de l'opération.",
-      "id": "urb1__107-operations-amenagement__1_1_1_2__opus_003",
+      "answer": 1,
+      "explanation": "Le texte indique que lorsque la commune est couverte par un PLU, la localisation de la ZAC est indifférente au zonage, la commune pouvant être contrainte de modifier ou réviser le PLU pour permettre la réalisation de l'opération.",
+      "id": "urb__107-operations-amenagement__1_1_1_2__opus_001",
       "sectionTitle": "La localisation de la ZAC",
       "sourceLink": "#section-107-operations-amenagement__1_1_1_2",
-      "sourceText": "La commune pourra être contrainte de modifier ou réviser le PLU pour permettre la réalisation de l’opération.",
-      "sourceContext": "La commune pourra être contrainte de modifier ou réviser le PLU pour permettre la réalisation de l’opération.",
+      "sourceText": "La localisation de la ZAC est alors indifférente au zonage. La commune pourra être contrainte de modifier ou réviser le PLU pour permettre la réalisation de l'opération.",
+      "sourceContext": "La localisation de la ZAC est alors indifférente au zonage. La commune pourra être contrainte de modifier ou réviser le PLU pour permettre la réalisation de l'opération.",
       "sectionId": "107-operations-amenagement__1_1_1_2",
       "keywords": [
+        "ZAC",
         "PLU",
-        "localisation ZAC",
-        "révision"
+        "zonage"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans une commune ne disposant d'aucun document de planification, quelle règle s'applique et quel risque en découle pour une ZAC ?",
+      "options": [
+        "Aucune règle ne s'applique, la ZAC peut être implantée librement partout",
+        "La ZAC est interdite sur tout le territoire de la commune",
+        "La ZAC doit obligatoirement être compatible avec le PLU intercommunal",
+        "La règle de la constructibilité limitée s'applique, et une ZAC en dehors des parties actuellement urbanisées risque de poser problème"
+      ],
+      "answer": 3,
+      "explanation": "Le texte précise que si la commune ne dispose d'aucun document de planification, la règle de la constructibilité limitée s'applique, et la réalisation d'une ZAC en dehors des parties actuellement urbanisées risque alors de poser problème.",
+      "id": "urb__107-operations-amenagement__1_1_1_2__opus_002",
+      "sectionTitle": "La localisation de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_1_1_2",
+      "sourceText": "la commune ne dispose d'aucun document de planification, la règle de la constructibilité limitée s'applique. La réalisation d'une ZAC en dehors des parties actuellement urbanisées risque alors de poser problème.",
+      "sourceContext": "la commune ne dispose d'aucun document de planification, la règle de la constructibilité limitée s'applique. La réalisation d'une ZAC en dehors des parties actuellement urbanisées risque alors de poser problème.",
+      "sectionId": "107-operations-amenagement__1_1_1_2",
+      "keywords": [
+        "ZAC",
+        "constructibilité limitée",
+        "planification"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Lorsqu'un schéma de cohérence territoriale (SCoT) existe, quel rapport la ZAC doit-elle entretenir avec celui-ci ?",
+      "options": [
+        "La ZAC devra être compatible avec le document d'orientation et d'objectifs",
+        "La ZAC devra être strictement identique au document d'orientation et d'objectifs",
+        "La ZAC se substitue automatiquement au document d'orientation et d'objectifs",
+        "La ZAC est dispensée de tout lien avec le schéma de cohérence territoriale"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que si un schéma de cohérence territoriale existe, la ZAC devra être compatible avec le document d'orientation et d'objectifs.",
+      "id": "urb__107-operations-amenagement__1_1_1_2__opus_003",
+      "sectionTitle": "La localisation de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_1_1_2",
+      "sourceText": "si un schéma de cohérence territoriale existe, la ZAC devra être compatible avec le document d'orientation et d'objectifs.",
+      "sourceContext": "si un schéma de cohérence territoriale existe, la ZAC devra être compatible avec le document d'orientation et d'objectifs.",
+      "sectionId": "107-operations-amenagement__1_1_1_2",
+      "keywords": [
+        "ZAC",
+        "SCoT",
+        "compatibilité"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Lorsqu'un schéma de cohérence territoriale existe, quelle exigence pèse sur la ZAC ?",
+      "q": "Au-delà des documents de planification, quelle contrainte de localisation s'impose dans tous les cas à la ZAC ?",
       "options": [
-        "Elle devra être compatible avec le document d'orientation et d'objectifs",
-        "Elle devra être strictement conforme au rapport de présentation du SCoT",
-        "Elle sera dispensée de toute concertation préalable",
-        "Elle pourra déroger librement aux orientations du SCoT"
+        "Elle doit obligatoirement être implantée en zone de montagne ou littoral",
+        "Elle peut déroger librement aux dispositions des zones de montagne ou littoral",
+        "Elle doit respecter les dispositions spécifiques aux territoires, comme celles concernant les zones de montagne ou littoral",
+        "Elle n'est soumise à aucune disposition spécifique de territoire"
       ],
-      "answer": 0,
-      "explanation": "Si un SCoT existe, la ZAC devra être compatible avec le document d'orientation et d'objectifs.",
-      "id": "urb1__107-operations-amenagement__1_1_1_2__opus_004",
+      "answer": 2,
+      "explanation": "Le texte précise que dans tous les cas, la localisation de la ZAC doit respecter dans les territoires les dispositions spécifiques, comme celles concernant les zones de montagne ou littoral.",
+      "id": "urb__107-operations-amenagement__1_1_1_2__opus_004",
       "sectionTitle": "La localisation de la ZAC",
       "sourceLink": "#section-107-operations-amenagement__1_1_1_2",
-      "sourceText": "Enfin, si un schéma de cohérence territoriale existe, la ZAC devra être compatible avec le document d’orientation et d’objectifs.",
-      "sourceContext": "Enfin, si un schéma de cohérence territoriale existe, la ZAC devra être compatible avec le document d’orientation et d’objectifs.",
+      "sourceText": "Dans tous les cas, la localisation de la ZAC doit respecter dans les territoires les dispositions spécifiques, comme celles concernant les zones de montagne ou littoral.",
+      "sourceContext": "Dans tous les cas, la localisation de la ZAC doit respecter dans les territoires les dispositions spécifiques, comme celles concernant les zones de montagne ou littoral.",
       "sectionId": "107-operations-amenagement__1_1_1_2",
       "keywords": [
-        "SCoT",
-        "compatibilité",
-        "DOO"
+        "ZAC",
+        "montagne",
+        "littoral"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Par qui l'initiative de la ZAC peut-elle être prise ?",
+      "q": "Qui peut prendre l'initiative de la création d'une ZAC ?",
       "options": [
-        "Par une collectivité publique ou un établissement public ayant vocation à intervenir",
-        "Par tout aménageur privé titulaire d'une concession",
-        "Par les seules communes et l'État, à l'exclusion des autres personnes publiques",
-        "Par une association syndicale de propriétaires"
+        "Exclusivement un opérateur privé d'aménagement",
+        "Uniquement une association de riverains",
+        "Uniquement le préfet de département",
+        "Une collectivité publique ou un établissement public ayant vocation à intervenir"
       ],
-      "answer": 0,
-      "explanation": "L'initiative de la ZAC peut être prise par une collectivité publique ou un établissement public ayant vocation à intervenir.",
-      "id": "urb1__107-operations-amenagement__1_1_2_1__opus_005",
+      "answer": 3,
+      "explanation": "Le texte indique que l'initiative de la ZAC peut être prise par une collectivité publique ou un établissement public ayant vocation à intervenir.",
+      "id": "urb__107-operations-amenagement__1_1_2_1__opus_001",
       "sectionTitle": "L’initiative",
       "sourceLink": "#section-107-operations-amenagement__1_1_2_1",
-      "sourceText": "L’initiative de la ZAC peut être prise par une collectivité publique ou un établissement public ayant vocation à intervenir.",
-      "sourceContext": "L’initiative de la ZAC peut être prise par une collectivité publique ou un établissement public ayant vocation à intervenir.",
+      "sourceText": "L'initiative de la ZAC peut être prise par une collectivité publique ou un établissement public ayant vocation à intervenir.",
+      "sourceContext": "L'initiative de la ZAC peut être prise par une collectivité publique ou un établissement public ayant vocation à intervenir.",
       "sectionId": "107-operations-amenagement__1_1_2_1",
       "keywords": [
-        "initiative",
         "ZAC",
-        "personne publique"
+        "initiative",
+        "collectivité"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "Quel caractère revêt la procédure de concertation préalable à la création d'une ZAC ?",
+      "bloom": "comprehension",
+      "q": "Parmi les personnes susceptibles de prendre l'initiative d'une ZAC, laquelle figure dans le texte ?",
       "options": [
-        "Elle est obligatoire",
-        "Elle est facultative et laissée à l'appréciation de la collectivité",
-        "Elle n'est requise que pour les ZAC de plus de 50 hectares",
-        "Elle est remplacée par une simple enquête publique"
+        "Un établissement public de coopération intercommunale",
+        "Un syndicat de copropriétaires privé",
+        "Une chambre de commerce et d'industrie",
+        "Une société commerciale étrangère"
       ],
       "answer": 0,
-      "explanation": "Une procédure de concertation préalable est obligatoire dans la procédure de création de la ZAC.",
-      "id": "urb1__107-operations-amenagement__1_1_2_2__opus_006",
-      "sectionTitle": "Les études et concertations préalables",
-      "sourceLink": "#section-107-operations-amenagement__1_1_2_2",
-      "sourceText": "Une procédure de concertation préalable est également obligatoire.",
-      "sourceContext": "Une procédure de concertation préalable est également obligatoire.",
-      "sectionId": "107-operations-amenagement__1_1_2_2",
+      "explanation": "Le texte cite parmi les initiateurs possibles une commune, un établissement public de coopération intercommunale, un département, une région, l'État, ou un établissement public.",
+      "id": "urb__107-operations-amenagement__1_1_2_1__opus_002",
+      "sectionTitle": "L’initiative",
+      "sourceLink": "#section-107-operations-amenagement__1_1_2_1",
+      "sourceText": "Il peut donc s'agir d'une commune, d'un établissement public de coopération intercommunale, d'un département, d'une région, de l'Etat, ou d'un établissement public.",
+      "sourceContext": "Il peut donc s'agir d'une commune, d'un établissement public de coopération intercommunale, d'un département, d'une région, de l'Etat, ou d'un établissement public.",
+      "sectionId": "107-operations-amenagement__1_1_2_1",
       "keywords": [
-        "concertation préalable",
-        "obligatoire",
-        "public"
+        "ZAC",
+        "EPCI",
+        "initiative"
       ]
     },
     {
       "bloom": "comprehension",
       "q": "À quoi servent les études préalables menées avant la création d'une ZAC ?",
       "options": [
-        "À s'assurer que le choix de la personne publique est éclairé sur le programme, la faisabilité et le mode de réalisation",
-        "À garantir le financement intégral de l'opération par l'État",
-        "À fixer définitivement le prix de cession des terrains",
-        "À approuver le cahier des charges de cession des lots"
+        "À remplacer la décision de création de la ZAC",
+        "À dispenser la collectivité de toute concertation avec le public",
+        "À fixer définitivement le prix de cession des terrains aux constructeurs",
+        "À s'assurer que le choix de la personne publique est éclairé, notamment sur la définition du programme, la faisabilité et le mode de réalisation"
       ],
-      "answer": 0,
-      "explanation": "Les études préalables permettent de s'assurer que le choix de la personne publique est éclairé sur le programme, la faisabilité et le mode de réalisation.",
-      "id": "urb1__107-operations-amenagement__1_1_2_2__opus_007",
+      "answer": 3,
+      "explanation": "Le texte indique que les études préalables permettent de s'assurer que le choix de la personne publique est éclairé, en particulier sur la définition du programme d'aménagement, la faisabilité de l'opération, ou encore le mode de réalisation.",
+      "id": "urb__107-operations-amenagement__1_1_2_2__opus_001",
       "sectionTitle": "Les études et concertations préalables",
       "sourceLink": "#section-107-operations-amenagement__1_1_2_2",
-      "sourceText": "Les études préalables permettent de s’assurer que le choix de la personne publique est éclairé, en particulier sur la définition du programme d’aménagement, la faisabilité de l’opération, ou encore le mode de réalisation de l’opération.",
-      "sourceContext": "Les études préalables permettent de s’assurer que le choix de la personne publique est éclairé, en particulier sur la définition du programme d’aménagement, la faisabilité de l’opération, ou encore le mode de réalisation de l’opération.",
+      "sourceText": "Les études préalables permettent de s'assurer que le choix de la personne publique est éclairé, en particulier sur la définition du programme d'aménagement, la faisabilité de l'opération, ou encore le mode de réalisation de l'opération.",
+      "sourceContext": "Les études préalables permettent de s'assurer que le choix de la personne publique est éclairé, en particulier sur la définition du programme d'aménagement, la faisabilité de l'opération, ou encore le mode de réalisation de l'opération.",
       "sectionId": "107-operations-amenagement__1_1_2_2",
       "keywords": [
+        "ZAC",
         "études préalables",
-        "faisabilité",
-        "programme"
+        "faisabilité"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Lorsque la commune compétente a pris l'initiative de la ZAC, quelle est la portée de la délibération approuvant le dossier de la zone ?",
+      "q": "La procédure de concertation préalable à la création d'une ZAC est-elle obligatoire ?",
       "options": [
-        "Elle porte création de la zone",
-        "Elle ne fait que transmettre le dossier au préfet pour création",
-        "Elle vaut seulement avis consultatif sur le projet",
-        "Elle déclenche automatiquement la suppression de la zone"
+        "Non, elle n'est exigée que pour les ZAC privées",
+        "Oui, une procédure de concertation préalable est obligatoire",
+        "Non, elle est purement facultative et laissée au choix de l'aménageur",
+        "Oui, mais seulement après la décision de création"
       ],
-      "answer": 0,
-      "explanation": "Lorsque la commune compétente a pris l'initiative, la délibération approuvant le dossier de la zone porte création de celle-ci.",
-      "id": "urb1__107-operations-amenagement__1_1_2_4__opus_008",
-      "sectionTitle": "La décision de création",
-      "sourceLink": "#section-107-operations-amenagement__1_1_2_4",
-      "sourceText": "Lorsque la commune ou l'établissement public de coopération intercommunale compétent a pris l'initiative de la création de la zone, la délibération approuvant le dossier de la zone porte création de celle-ci.",
-      "sourceContext": "Lorsque la commune ou l'établissement public de coopération intercommunale compétent a pris l'initiative de la création de la zone, la délibération approuvant le dossier de la zone porte création de celle-ci.",
-      "sectionId": "107-operations-amenagement__1_1_2_4",
+      "answer": 1,
+      "explanation": "Le texte affirme qu'une procédure de concertation préalable est également obligatoire.",
+      "id": "urb__107-operations-amenagement__1_1_2_2__opus_002",
+      "sectionTitle": "Les études et concertations préalables",
+      "sourceLink": "#section-107-operations-amenagement__1_1_2_2",
+      "sourceText": "Une procédure de concertation préalable est également obligatoire.",
+      "sourceContext": "Une procédure de concertation préalable est également obligatoire.",
+      "sectionId": "107-operations-amenagement__1_1_2_2",
       "keywords": [
-        "décision de création",
-        "délibération",
-        "commune"
+        "ZAC",
+        "concertation",
+        "obligatoire"
       ]
     },
     {
       "bloom": "application",
-      "q": "Une commune de 5 000 habitants vient de créer une ZAC. Quelles mesures de publicité doit-elle assurer ?",
+      "q": "Dans le cadre de la concertation préalable, que doit permettre la personne publique au public ?",
       "options": [
-        "Affichage un mois en mairie, mention dans un journal du département et publication au recueil des actes administratifs",
-        "Affichage en mairie pendant une semaine seulement",
-        "Publication au Journal officiel de la République française",
-        "Notification individuelle à chaque propriétaire concerné"
+        "De fixer le programme global des constructions à la place de la collectivité",
+        "De désigner l'aménageur chargé de l'opération",
+        "De voter directement l'approbation du dossier de création",
+        "D'accéder aux informations concernant le projet et de formuler des propositions, selon une durée et des moyens en adéquation avec l'importance du projet"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que par le biais de la concertation, la personne publique doit permettre au public d'accéder aux informations concernant le projet, de formuler des propositions, et ce selon une durée et des moyens en adéquation avec l'importance du projet.",
+      "id": "urb__107-operations-amenagement__1_1_2_2__opus_003",
+      "sectionTitle": "Les études et concertations préalables",
+      "sourceLink": "#section-107-operations-amenagement__1_1_2_2",
+      "sourceText": "la personne publique doit permettre au public d'accéder aux informations concernant le projet, de formuler de propositions, et ce selon une durée et des moyens en adéquation avec l'importance du projet.",
+      "sourceContext": "la personne publique doit permettre au public d'accéder aux informations concernant le projet, de formuler de propositions, et ce selon une durée et des moyens en adéquation avec l'importance du projet.",
+      "sectionId": "107-operations-amenagement__1_1_2_2",
+      "keywords": [
+        "ZAC",
+        "concertation",
+        "public"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lorsque la commune ou l'EPCI compétent a pris l'initiative de la création de la zone, quel acte porte création de la ZAC ?",
+      "options": [
+        "La délibération approuvant le dossier de la zone porte création de celle-ci",
+        "Un arrêté préfectoral est seul compétent pour créer la zone",
+        "Un décret en Conseil d'État porte création de la zone",
+        "La signature de la concession d'aménagement porte création de la zone"
       ],
       "answer": 0,
-      "explanation": "La décision créant la ZAC doit être affichée un mois en mairie, mentionnée dans un journal du département et publiée au recueil des actes administratifs si la population dépasse 3500 habitants.",
-      "id": "urb1__107-operations-amenagement__1_1_2_4__opus_009",
+      "explanation": "Le texte indique que lorsque la commune ou l'EPCI compétent a pris l'initiative de la création de la zone, la délibération approuvant le dossier de la zone porte création de celle-ci.",
+      "id": "urb__107-operations-amenagement__1_1_2_4__opus_001",
       "sectionTitle": "La décision de création",
       "sourceLink": "#section-107-operations-amenagement__1_1_2_4",
-      "sourceText": "La décision créant le ZAC doit ensuite être affichée pendant 1 mois en mairie, mentionnée dans un journal diffusé dans le département, et publiée au recueil des actes administratifs si la population est supérieure à 3500 habitants.",
-      "sourceContext": "La décision créant le ZAC doit ensuite être affichée pendant 1 mois en mairie, mentionnée dans un journal diffusé dans le département, et publiée au recueil des actes administratifs si la population est supérieure à 3500 habitants.",
+      "sourceText": "la délibération approuvant le dossier de la zone porte création de celle-ci.",
+      "sourceContext": "la délibération approuvant le dossier de la zone porte création de celle-ci.",
       "sectionId": "107-operations-amenagement__1_1_2_4",
       "keywords": [
-        "publicité",
-        "3500 habitants",
-        "recueil des actes"
+        "ZAC",
+        "délibération",
+        "création"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Un département prend l'initiative de créer une ZAC, mais la création relève de la compétence du préfet. À qui le département adresse-t-il le dossier de création, et que doit-il faire vis-à-vis de la commune ?",
+      "options": [
+        "Il adresse le dossier uniquement à la commune, qui crée la zone",
+        "Il crée lui-même la zone par délibération sans saisir le préfet",
+        "Il adresse le dossier au seul ministre chargé de l'urbanisme",
+        "Il adresse le dossier au préfet, et l'adresse également à la commune ou l'EPCI compétent en vue de recueillir son avis"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que la personne publique qui a pris l'initiative adresse le dossier au préfet pour la créer, et que lorsque la création est de la compétence du préfet, elle l'adresse également à la commune ou à l'EPCI compétent en vue de recueillir son avis.",
+      "id": "urb__107-operations-amenagement__1_1_2_4__opus_002",
+      "sectionTitle": "La décision de création",
+      "sourceLink": "#section-107-operations-amenagement__1_1_2_4",
+      "sourceText": "la personne publique qui a pris l'initiative de la création de la zone adresse le dossier de création au préfet pour la créer. Lorsque la création est de la compétence du préfet, elle l'adresse également à la commune ou à l'établissement public de coopération intercommunale compétent en vue de recueillir son avis.",
+      "sourceContext": "la personne publique qui a pris l'initiative de la création de la zone adresse le dossier de création au préfet pour la créer. Lorsque la création est de la compétence du préfet, elle l'adresse également à la commune ou à l'établissement public de coopération intercommunale compétent en vue de recueillir son avis.",
+      "sectionId": "107-operations-amenagement__1_1_2_4",
+      "keywords": [
+        "ZAC",
+        "préfet",
+        "avis commune"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "De quel droit disposent les propriétaires à partir de la publication de l'acte de création de la ZAC ?",
+      "q": "Quel droit les propriétaires acquièrent-ils à partir de la publication de l'acte de création de la ZAC ?",
       "options": [
-        "D'un droit de délaissement de leur immeuble",
-        "D'un droit de préemption prioritaire sur les terrains voisins",
-        "D'un droit de veto sur le programme d'aménagement",
-        "D'un droit à indemnisation forfaitaire automatique"
+        "Un droit de veto sur le programme de constructions",
+        "Un droit à indemnité forfaitaire automatique sans condition",
+        "Un droit de délaissement de leur immeuble",
+        "Un droit de préemption sur les terrains voisins"
       ],
-      "answer": 0,
-      "explanation": "À partir de la publication de l'acte de création, les propriétaires disposent d'un droit de délaissement de leur immeuble.",
-      "id": "urb1__107-operations-amenagement__1_1_2_4__opus_010",
+      "answer": 2,
+      "explanation": "Le texte indique qu'à partir de la publication de l'acte de création, les propriétaires disposent d'un droit de délaissement de leur immeuble.",
+      "id": "urb__107-operations-amenagement__1_1_2_4__opus_003",
       "sectionTitle": "La décision de création",
       "sourceLink": "#section-107-operations-amenagement__1_1_2_4",
-      "sourceText": "A partir de la publication de l’acte de création, les propriétaires disposent d’un droit de délaissement de leur immeuble.",
-      "sourceContext": "A partir de la publication de l’acte de création, les propriétaires disposent d’un droit de délaissement de leur immeuble.",
+      "sourceText": "les propriétaires disposent d'un droit de délaissement de leur immeuble.",
+      "sourceContext": "les propriétaires disposent d'un droit de délaissement de leur immeuble.",
       "sectionId": "107-operations-amenagement__1_1_2_4",
       "keywords": [
+        "ZAC",
         "droit de délaissement",
-        "propriétaires",
-        "acte de création"
+        "propriétaires"
       ]
     },
     {
-      "bloom": "rappel",
+      "bloom": "comprehension",
       "q": "Où doivent figurer les règles d'urbanisme applicables à la ZAC ?",
       "options": [
         "Au PLU",
-        "Dans le seul cahier des charges de cession",
-        "Dans un règlement autonome propre à la ZAC",
-        "Dans l'acte de concession d'aménagement"
+        "Dans le seul cahier des charges de cession de terrain",
+        "Dans un règlement autonome distinct du PLU",
+        "Dans le schéma de cohérence territoriale exclusivement"
       ],
       "answer": 0,
-      "explanation": "Les règles d'urbanisme applicables à la ZAC doivent figurer au PLU.",
-      "id": "urb1__107-operations-amenagement__1_2_1__opus_011",
+      "explanation": "Le texte indique que les règles d'urbanisme applicables à la ZAC doivent figurer au PLU.",
+      "id": "urb__107-operations-amenagement__1_2_1__opus_001",
       "sectionTitle": "Les règles d’urbanisme applicables",
       "sourceLink": "#section-107-operations-amenagement__1_2_1",
-      "sourceText": "Les règles d’urbanisme applicables à la ZAC doivent figurer au PLU.",
-      "sourceContext": "Les règles d’urbanisme applicables à la ZAC doivent figurer au PLU.",
+      "sourceText": "Les règles d'urbanisme applicables à la ZAC doivent figurer au PLU.",
+      "sourceContext": "Les règles d'urbanisme applicables à la ZAC doivent figurer au PLU.",
       "sectionId": "107-operations-amenagement__1_2_1",
       "keywords": [
-        "règles d'urbanisme",
+        "ZAC",
         "PLU",
-        "ZAC"
+        "règles d'urbanisme"
       ]
     },
     {
       "bloom": "application",
-      "q": "Une commune qui n'est pas à l'initiative d'une ZAC s'apprête à délibérer sur son PLU. Quelle formalité s'impose à elle au préalable ?",
+      "q": "Si le règlement du PLU fait obstacle à la délivrance des autorisations d'occupation des sols nécessaires à la ZAC, que doit-il advenir ?",
       "options": [
-        "Recueillir l'avis de la personne initiatrice de la ZAC",
-        "Obtenir l'accord exprès du préfet de département",
-        "Organiser une nouvelle enquête publique",
-        "Suspendre toute délibération jusqu'à l'achèvement de la ZAC"
+        "Le contenu du PLU devra être adapté",
+        "La ZAC doit être abandonnée",
+        "Le préfet supprime le PLU sans procédure",
+        "Le règlement du PLU prime et bloque définitivement l'opération"
       ],
       "answer": 0,
-      "explanation": "Si elle n'est pas initiatrice de la ZAC, la commune doit avant toute délibération sur le PLU recueillir l'avis de la personne initiatrice.",
-      "id": "urb1__107-operations-amenagement__1_2_1__opus_012",
+      "explanation": "Le texte précise que si le règlement du PLU fait obstacle à la délivrance des autorisations des occupations des sols, le contenu du PLU devra être adapté.",
+      "id": "urb__107-operations-amenagement__1_2_1__opus_002",
       "sectionTitle": "Les règles d’urbanisme applicables",
       "sourceLink": "#section-107-operations-amenagement__1_2_1",
-      "sourceText": "Si elle n’est pas initiatrice de la ZAC, la commune doit avant toute délibération portant sur le PLU recueillir l’avis de la personne initiatrice de la ZAC.",
-      "sourceContext": "Si elle n’est pas initiatrice de la ZAC, la commune doit avant toute délibération portant sur le PLU recueillir l’avis de la personne initiatrice de la ZAC.",
+      "sourceText": "si le règlement du PLU fait obstacle à la délivrance des autorisations des occupations des sols, le contenu du PLU devra être adapté.",
+      "sourceContext": "si le règlement du PLU fait obstacle à la délivrance des autorisations des occupations des sols, le contenu du PLU devra être adapté.",
       "sectionId": "107-operations-amenagement__1_2_1",
       "keywords": [
-        "avis",
-        "personne initiatrice",
-        "PLU"
+        "ZAC",
+        "PLU",
+        "adaptation"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Une commune n'est pas l'initiatrice d'une ZAC située sur son territoire et envisage de délibérer sur son PLU. Quelle obligation s'impose à elle au préalable ?",
+      "options": [
+        "Transférer sa compétence en matière de PLU à l'initiateur de la ZAC",
+        "Organiser une nouvelle concertation publique sur l'ensemble du PLU",
+        "Obtenir l'accord exprès du préfet avant toute délibération",
+        "Recueillir l'avis de la personne initiatrice de la ZAC avant toute délibération portant sur le PLU"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que si elle n'est pas initiatrice de la ZAC, la commune doit, avant toute délibération portant sur le PLU, recueillir l'avis de la personne initiatrice de la ZAC.",
+      "id": "urb__107-operations-amenagement__1_2_1__opus_003",
+      "sectionTitle": "Les règles d’urbanisme applicables",
+      "sourceLink": "#section-107-operations-amenagement__1_2_1",
+      "sourceText": "Si elle n'est pas initiatrice de la ZAC, la commune doit avant toute délibération portant sur le PLU recueillir l'avis de la personne initiatrice de la ZAC.",
+      "sourceContext": "Si elle n'est pas initiatrice de la ZAC, la commune doit avant toute délibération portant sur le PLU recueillir l'avis de la personne initiatrice de la ZAC.",
+      "sectionId": "107-operations-amenagement__1_2_1",
+      "keywords": [
+        "ZAC",
+        "PLU",
+        "avis de l'initiateur"
       ]
     },
     {
@@ -281,201 +442,522 @@
       "q": "Que définit le dossier de réalisation de la ZAC ?",
       "options": [
         "Les conditions économiques et financières retenues pour l'équipement et l'aménagement de la ZAC",
-        "Le zonage réglementaire détaillé de la commune",
-        "La liste nominative des futurs acquéreurs de terrains",
-        "Le montant définitif de la taxe d'aménagement due"
+        "Le tracé définitif des limites administratives de la commune",
+        "Le programme global prévisionnel des constructions à édifier",
+        "L'identité des futurs acquéreurs des lots"
       ],
       "answer": 0,
-      "explanation": "Le dossier de réalisation définit les conditions économiques et financières retenues pour l'équipement et l'aménagement de la ZAC.",
-      "id": "urb1__107-operations-amenagement__1_2_2__opus_013",
+      "explanation": "Le texte indique que le dossier de réalisation définit les conditions économiques et financières qui ont été retenues pour l'équipement et l'aménagement de la ZAC.",
+      "id": "urb__107-operations-amenagement__1_2_2__opus_001",
       "sectionTitle": "Le dossier de réalisation",
       "sourceLink": "#section-107-operations-amenagement__1_2_2",
-      "sourceText": "Le dossier de réalisation définit les conditions économiques et financières qui ont été retenues pour l’équipement et l’aménagement de la ZAC.",
-      "sourceContext": "Le dossier de réalisation définit les conditions économiques et financières qui ont été retenues pour l’équipement et l’aménagement de la ZAC.",
+      "sourceText": "Le dossier de réalisation définit les conditions économiques et financières qui ont été retenues pour l'équipement et l'aménagement de la ZAC.",
+      "sourceContext": "Le dossier de réalisation définit les conditions économiques et financières qui ont été retenues pour l'équipement et l'aménagement de la ZAC.",
       "sectionId": "107-operations-amenagement__1_2_2",
       "keywords": [
+        "ZAC",
         "dossier de réalisation",
-        "conditions financières",
-        "ZAC"
+        "conditions financières"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Quels sont les modes de réalisation possibles d'une ZAC ?",
+      "q": "Qui établit le dossier de réalisation de la ZAC ?",
       "options": [
-        "La régie directe, le mandat et la concession d'aménagement",
-        "La régie directe et la concession uniquement",
-        "Le mandat et l'affermage",
-        "La seule concession d'aménagement"
+        "Le préfet de département",
+        "Le futur cessionnaire des terrains",
+        "La personne ayant pris l'initiative de la ZAC",
+        "L'association syndicale des acquéreurs"
       ],
-      "answer": 0,
-      "explanation": "Trois modes sont possibles : la réalisation directe en régie, le mandat et la concession d'aménagement.",
-      "id": "urb1__107-operations-amenagement__1_2_3__opus_014",
+      "answer": 2,
+      "explanation": "Le texte indique que le dossier de réalisation est établi par la personne ayant pris l'initiative de la ZAC.",
+      "id": "urb__107-operations-amenagement__1_2_2__opus_002",
+      "sectionTitle": "Le dossier de réalisation",
+      "sourceLink": "#section-107-operations-amenagement__1_2_2",
+      "sourceText": "Il est établi par la personne ayant pris l'initiative de la ZAC.",
+      "sourceContext": "Il est établi par la personne ayant pris l'initiative de la ZAC.",
+      "sectionId": "107-operations-amenagement__1_2_2",
+      "keywords": [
+        "ZAC",
+        "dossier de réalisation",
+        "initiateur"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Dans quel cas un complément à l'étude d'impact peut-il figurer dans le dossier de réalisation ?",
+      "options": [
+        "Dans tous les cas, ce complément est systématiquement obligatoire",
+        "Si la réalisation de la zone fait apparaître de nouveaux éléments qui ne pouvaient pas être connus au moment de la constitution du dossier",
+        "Uniquement si la population de la commune dépasse un certain seuil",
+        "Uniquement si l'aménageur est une personne privée"
+      ],
+      "answer": 1,
+      "explanation": "Le texte précise que peut figurer un complément de l'étude d'impact déjà prévue dans le cadre du dossier de création, si la réalisation de la zone fait apparaître de nouveaux éléments qui ne pouvaient pas être connus au moment de la constitution du dossier.",
+      "id": "urb__107-operations-amenagement__1_2_2__opus_003",
+      "sectionTitle": "Le dossier de réalisation",
+      "sourceLink": "#section-107-operations-amenagement__1_2_2",
+      "sourceText": "Peuvent également y figurer un complément de l'étude d'impact déjà prévue dans le cadre du dossier de création, si la réalisation de la zone fait apparaitre de nouveaux éléments qui ne pouvaient pas être connus au moment de la constitution du dossier.",
+      "sourceContext": "Peuvent également y figurer un complément de l'étude d'impact déjà prévue dans le cadre du dossier de création, si la réalisation de la zone fait apparaitre de nouveaux éléments qui ne pouvaient pas être connus au moment de la constitution du dossier.",
+      "sectionId": "107-operations-amenagement__1_2_2",
+      "keywords": [
+        "ZAC",
+        "étude d'impact",
+        "complément"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel énoncé reflète le nombre de modes de réalisation des ZAC prévus par le texte ?",
+      "options": [
+        "Deux modes seulement : la régie et le mandat",
+        "Un mode unique : la concession d'aménagement",
+        "Trois modes de réalisation sont possibles : la régie, le mandat et la concession d'aménagement",
+        "Quatre modes, dont la cession directe aux particuliers"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que trois modes de réalisation des ZAC sont possibles : la réalisation directe en régie, la réalisation dans le cadre d'un mandat, et la concession d'aménagement conclue avec un aménageur.",
+      "id": "urb__107-operations-amenagement__1_2_3__opus_001",
       "sectionTitle": "Les modes de réalisation",
       "sourceLink": "#section-107-operations-amenagement__1_2_3",
       "sourceText": "Trois modes de réalisation des ZAC sont possibles.",
       "sourceContext": "Trois modes de réalisation des ZAC sont possibles.",
       "sectionId": "107-operations-amenagement__1_2_3",
       "keywords": [
-        "modes de réalisation",
+        "ZAC",
+        "modes de réalisation"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "En quoi la réalisation en régie se distingue-t-elle de la réalisation par mandat ?",
+      "options": [
+        "La régie est assurée directement par la collectivité initiatrice, tandis que dans le mandat le mandataire assure la représentation de la collectivité mandante et passe les contrats nécessaires",
+        "Le mandat est réalisé directement par la collectivité, alors que la régie suppose un tiers",
+        "La régie et le mandat sont deux termes désignant une même réalité juridique",
+        "La régie confie la maîtrise d'ouvrage à un aménageur privé, contrairement au mandat"
+      ],
+      "answer": 0,
+      "explanation": "Le texte distingue la réalisation directe en régie par la collectivité qui a pris l'initiative, et la réalisation dans le cadre d'un mandat où le mandataire assure la représentation de la collectivité mandante et passe les contrats nécessaires.",
+      "id": "urb__107-operations-amenagement__1_2_3__opus_002",
+      "sectionTitle": "Les modes de réalisation",
+      "sourceLink": "#section-107-operations-amenagement__1_2_3",
+      "sourceText": "Il peut s'agir de la réalisation directe en régie par la collectivité qui a pris l'initiative de la création de la zone. La réalisation peut aussi avoir lieu dans le cadre d'un mandat, le mandataire assurant la représentation de la collectivité mandante et passant alors les contrats nécessaires.",
+      "sourceContext": "Il peut s'agir de la réalisation directe en régie par la collectivité qui a pris l'initiative de la création de la zone. La réalisation peut aussi avoir lieu dans le cadre d'un mandat, le mandataire assurant la représentation de la collectivité mandante et passant alors les contrats nécessaires.",
+      "sectionId": "107-operations-amenagement__1_2_3",
+      "keywords": [
+        "ZAC",
         "régie",
-        "concession"
+        "mandat"
       ]
     },
     {
       "bloom": "application",
-      "q": "Une opération de ZAC d'utilité publique nécessite l'acquisition de terrains que les propriétaires refusent de vendre. Quelle procédure peut être utilisée ?",
+      "q": "Dans le cadre d'une concession d'aménagement, quel rôle joue l'aménageur ?",
       "options": [
-        "La procédure d'expropriation",
-        "La taxation d'office des parcelles concernées",
-        "La cession amiable forcée par arrêté préfectoral",
-        "Le transfert d'office dans le domaine public communal"
+        "Il se borne à recueillir l'avis du public sans réaliser de travaux",
+        "Il fixe seul le programme global prévisionnel des constructions",
+        "Il assure la maîtrise d'ouvrage des travaux et équipements qui concourent à l'opération",
+        "Il approuve la délibération de création de la zone"
       ],
-      "answer": 0,
-      "explanation": "Si l'opération a un caractère d'utilité publique, la procédure d'expropriation peut être utilisée.",
-      "id": "urb1__107-operations-amenagement__1_2_4_1__opus_015",
-      "sectionTitle": "Les acquisitions foncières",
-      "sourceLink": "#section-107-operations-amenagement__1_2_4_1",
-      "sourceText": "Enfin, si l’opération a un caractère d’utilité publique, la procédure d’expropriation peut être utilisée.",
-      "sourceContext": "Enfin, si l’opération a un caractère d’utilité publique, la procédure d’expropriation peut être utilisée.",
-      "sectionId": "107-operations-amenagement__1_2_4_1",
+      "answer": 2,
+      "explanation": "Le texte indique que dans le cadre d'une concession d'aménagement, l'aménageur assure la maîtrise d'ouvrage des travaux et équipements qui concourent à l'opération.",
+      "id": "urb__107-operations-amenagement__1_2_3__opus_003",
+      "sectionTitle": "Les modes de réalisation",
+      "sourceLink": "#section-107-operations-amenagement__1_2_3",
+      "sourceText": "L'aménageur assure alors la maitrise d'ouvrage des travaux et équipements qui concourent à l'opération.",
+      "sourceContext": "L'aménageur assure alors la maitrise d'ouvrage des travaux et équipements qui concourent à l'opération.",
+      "sectionId": "107-operations-amenagement__1_2_3",
       "keywords": [
-        "expropriation",
-        "utilité publique",
-        "acquisitions foncières"
+        "ZAC",
+        "concession",
+        "maîtrise d'ouvrage"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Dans le cadre d'une concession d'aménagement, l'aménageur peut-il bénéficier de la procédure d'expropriation ?",
+      "q": "Dans le cadre d'une concession d'aménagement, par quels moyens l'aménageur peut-il acquérir les biens nécessaires à l'opération ?",
       "options": [
-        "Oui, qu'il soit public ou privé",
-        "Non, ce bénéfice est réservé au créateur public de la ZAC",
-        "Oui, mais uniquement s'il est une personne publique",
-        "Non, l'aménageur ne peut procéder que par acquisitions amiables"
+        "Par tirage au sort entre propriétaires",
+        "Par voie de réquisition militaire",
+        "Par donation imposée aux propriétaires",
+        "Par voie d'expropriation ou de préemption"
       ],
-      "answer": 0,
-      "explanation": "Si une concession a été conclue, l'aménageur peut bénéficier de la procédure d'expropriation, qu'il soit public ou privé.",
-      "id": "urb1__107-operations-amenagement__1_2_4_1__opus_016",
+      "answer": 3,
+      "explanation": "Le texte précise que l'aménageur peut notamment acquérir des biens nécessaires à la réalisation de l'opération, que ce soit par voie d'expropriation ou de préemption.",
+      "id": "urb__107-operations-amenagement__1_2_3__opus_004",
+      "sectionTitle": "Les modes de réalisation",
+      "sourceLink": "#section-107-operations-amenagement__1_2_3",
+      "sourceText": "Il peut notamment acquérir des biens nécessaires à la réalisation de l'opération, que ce soit par voie d'expropriation ou de préemption.",
+      "sourceContext": "Il peut notamment acquérir des biens nécessaires à la réalisation de l'opération, que ce soit par voie d'expropriation ou de préemption.",
+      "sectionId": "107-operations-amenagement__1_2_3",
+      "keywords": [
+        "ZAC",
+        "expropriation",
+        "préemption"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "L'acquisition par l'aménageur des terrains d'assiette de la ZAC répond-elle à une obligation juridique ?",
+      "options": [
+        "Oui, l'aménageur est légalement obligé d'acquérir tous les terrains d'assiette",
+        "Non, l'aménageur ne peut jamais acquérir les terrains d'assiette",
+        "Oui, mais uniquement par voie d'expropriation",
+        "Non, en règle générale l'aménageur acquiert ces terrains, surtout pour un projet global, bien qu'aucune obligation ne le prévoie"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique qu'en règle générale, l'aménageur acquiert les terrains d'assiette des ZAC, surtout lorsque le projet d'aménagement est global, bien qu'aucune obligation ne le prévoie.",
+      "id": "urb__107-operations-amenagement__1_2_4_1__opus_001",
       "sectionTitle": "Les acquisitions foncières",
       "sourceLink": "#section-107-operations-amenagement__1_2_4_1",
-      "sourceText": "Si une concession d’aménagement a été conclue, l’aménageur peut aussi bénéficier de la procédure d’expropriation, et ce que l’aménageur soit public ou privé.",
-      "sourceContext": "Si une concession d’aménagement a été conclue, l’aménageur peut aussi bénéficier de la procédure d’expropriation, et ce que l’aménageur soit public ou privé.",
+      "sourceText": "l'aménageur acquiert les terrains d'assiette des ZAC, surtout lorsque le projet d'aménagement est global, bien qu'aucune obligation ne le prévoie.",
+      "sourceContext": "l'aménageur acquiert les terrains d'assiette des ZAC, surtout lorsque le projet d'aménagement est global, bien qu'aucune obligation ne le prévoie.",
       "sectionId": "107-operations-amenagement__1_2_4_1",
       "keywords": [
+        "ZAC",
+        "acquisition foncière",
+        "aménageur"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Pour sécuriser une opération de ZAC, comment la personne publique initiatrice peut-elle faire entrer les terrains dans son patrimoine au préalable ?",
+      "options": [
+        "Par cession gratuite imposée aux propriétaires",
+        "Par voie de réquisition automatique",
+        "Au titre des réserves foncières",
+        "Par classement en site protégé"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que pour éviter toute difficulté, la personne publique à l'initiative de la création de la ZAC peut au préalable faire entrer les terrains dans son patrimoine au titre des réserves foncières.",
+      "id": "urb__107-operations-amenagement__1_2_4_1__opus_002",
+      "sectionTitle": "Les acquisitions foncières",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_1",
+      "sourceText": "la personne publique à l'initiative de la création de la ZAC peut au préalable faire entrer les terrains dans son patrimoine au titre des réserves foncières.",
+      "sourceContext": "la personne publique à l'initiative de la création de la ZAC peut au préalable faire entrer les terrains dans son patrimoine au titre des réserves foncières.",
+      "sectionId": "107-operations-amenagement__1_2_4_1",
+      "keywords": [
+        "ZAC",
+        "réserves foncières",
+        "patrimoine"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "À quelle condition la procédure d'expropriation peut-elle être utilisée pour acquérir des terrains d'une ZAC ?",
+      "options": [
+        "Si la commune a refusé d'exercer son droit de préemption",
+        "Si aucun document d'urbanisme n'existe sur la commune",
+        "Si l'opération a un caractère d'utilité publique",
+        "Si l'aménageur est nécessairement une personne privée"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que si l'opération a un caractère d'utilité publique, la procédure d'expropriation peut être utilisée.",
+      "id": "urb__107-operations-amenagement__1_2_4_1__opus_003",
+      "sectionTitle": "Les acquisitions foncières",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_1",
+      "sourceText": "si l'opération a un caractère d'utilité publique, la procédure d'expropriation peut être utilisée.",
+      "sourceContext": "si l'opération a un caractère d'utilité publique, la procédure d'expropriation peut être utilisée.",
+      "sectionId": "107-operations-amenagement__1_2_4_1",
+      "keywords": [
+        "ZAC",
+        "expropriation",
+        "utilité publique"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Lorsqu'une concession d'aménagement a été conclue, qui peut bénéficier de la procédure d'expropriation ?",
+      "options": [
+        "Uniquement l'association syndicale des acquéreurs",
+        "L'aménageur, qu'il soit public ou privé",
+        "Uniquement le préfet, à l'exclusion de l'aménageur",
+        "Uniquement l'aménageur public, à l'exclusion de l'aménageur privé"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que si une concession d'aménagement a été conclue, l'aménageur peut aussi bénéficier de la procédure d'expropriation, et ce que l'aménageur soit public ou privé.",
+      "id": "urb__107-operations-amenagement__1_2_4_1__opus_004",
+      "sectionTitle": "Les acquisitions foncières",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_1",
+      "sourceText": "Si une concession d'aménagement a été conclue, l'aménageur peut aussi bénéficier de la procédure d'expropriation, et ce que l'aménageur soit public ou privé.",
+      "sourceContext": "Si une concession d'aménagement a été conclue, l'aménageur peut aussi bénéficier de la procédure d'expropriation, et ce que l'aménageur soit public ou privé.",
+      "sectionId": "107-operations-amenagement__1_2_4_1",
+      "keywords": [
+        "ZAC",
         "concession",
-        "aménageur privé",
         "expropriation"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "À quoi servent les travaux de viabilité primaire dans une ZAC ?",
+      "bloom": "analyse",
+      "q": "Comment se distinguent la viabilité primaire et la viabilité tertiaire dans l'équipement d'une ZAC ?",
       "options": [
-        "À relier la zone à l'extérieur",
-        "À équiper la zone dans son ensemble",
-        "À desservir une catégorie déterminée d'habitants de la zone",
-        "À financer les superstructures publiques"
+        "La viabilité primaire ne vise qu'une catégorie d'habitants, alors que la tertiaire relie la zone à l'extérieur",
+        "Les deux types de viabilité désignent les mêmes travaux de raccordement",
+        "La viabilité primaire équipe la zone dans son ensemble, la tertiaire la relie à l'extérieur",
+        "La viabilité primaire permet notamment de relier la zone à l'extérieur, tandis que la viabilité tertiaire ne vise qu'une catégorie déterminée d'habitants de la zone"
       ],
-      "answer": 0,
-      "explanation": "Les travaux de viabilité primaire permettent notamment de relier la zone à l'extérieur.",
-      "id": "urb1__107-operations-amenagement__1_2_4_2__opus_017",
+      "answer": 3,
+      "explanation": "Le texte indique que les travaux de viabilité primaire permettent notamment de relier la zone à l'extérieur, tandis que ceux de viabilité tertiaire ne visent qu'une catégorie déterminée d'habitants de la zone.",
+      "id": "urb__107-operations-amenagement__1_2_4_2__opus_001",
       "sectionTitle": "L’aménagement et l’équipement de la zone",
       "sourceLink": "#section-107-operations-amenagement__1_2_4_2",
-      "sourceText": "ceux de viabilité primaire permettent notamment de relier la zone à l’extérieur, ceux de viabilité secondaire permettent d’équiper la zone dans son ensemble, tandis que ceux de viabilité tertiaire ne visent qu’une catégorie déterminée d’habitants de la zone.",
-      "sourceContext": "ceux de viabilité primaire permettent notamment de relier la zone à l’extérieur, ceux de viabilité secondaire permettent d’équiper la zone dans son ensemble, tandis que ceux de viabilité tertiaire ne visent qu’une catégorie déterminée d’habitants de la zone.",
+      "sourceText": "ceux de viabilité primaire permettent notamment de relier la zone à l'extérieur, ceux de viabilité secondaire permettent d'équiper la zone dans son ensemble, tandis que ceux de viabilité tertiaire ne visent qu'une catégorie déterminée d'habitants de la zone.",
+      "sourceContext": "ceux de viabilité primaire permettent notamment de relier la zone à l'extérieur, ceux de viabilité secondaire permettent d'équiper la zone dans son ensemble, tandis que ceux de viabilité tertiaire ne visent qu'une catégorie déterminée d'habitants de la zone.",
       "sectionId": "107-operations-amenagement__1_2_4_2",
       "keywords": [
-        "viabilité primaire",
-        "équipements",
-        "ZAC"
+        "ZAC",
+        "viabilité",
+        "infrastructures"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Lorsqu'une ZAC est réalisée, à quel régime échappent les divisions de terrains opérées par l'aménageur lors de la cession ?",
+      "q": "Que permettent les travaux de viabilité secondaire dans une ZAC ?",
       "options": [
-        "Au régime des lotissements",
-        "Au régime du permis de construire",
-        "Au régime de la déclaration préalable de travaux",
-        "Au régime des installations classées"
+        "Relier exclusivement la zone à l'extérieur",
+        "Remplacer la maîtrise d'ouvrage de l'aménageur",
+        "Servir une seule catégorie déterminée d'habitants",
+        "Équiper la zone dans son ensemble"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que les travaux de viabilité secondaire permettent d'équiper la zone dans son ensemble.",
+      "id": "urb__107-operations-amenagement__1_2_4_2__opus_002",
+      "sectionTitle": "L’aménagement et l’équipement de la zone",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_2",
+      "sourceText": "ceux de viabilité secondaire permettent d'équiper la zone dans son ensemble, tandis que ceux de viabilité tertiaire ne visent qu'une catégorie déterminée d'habitants de la zone.",
+      "sourceContext": "ceux de viabilité secondaire permettent d'équiper la zone dans son ensemble, tandis que ceux de viabilité tertiaire ne visent qu'une catégorie déterminée d'habitants de la zone.",
+      "sectionId": "107-operations-amenagement__1_2_4_2",
+      "keywords": [
+        "ZAC",
+        "viabilité secondaire",
+        "équipement"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Une collectivité réalise elle-même une opération de ZAC et souhaite faire édifier des ouvrages de superstructures. Selon le régime de maîtrise d'ouvrage applicable, que peut-elle faire ?",
+      "options": [
+        "Elle doit obligatoirement conclure une concession d'aménagement",
+        "Elle peut réaliser elle-même librement tous les ouvrages de superstructures",
+        "Elle ne peut que déléguer par mandat les ouvrages de superstructures",
+        "Elle doit transférer la maîtrise d'ouvrage au préfet"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que si c'est la collectivité qui réalise l'opération, elle ne peut que déléguer par mandat les ouvrages de superstructures.",
+      "id": "urb__107-operations-amenagement__1_2_4_2__opus_003",
+      "sectionTitle": "L’aménagement et l’équipement de la zone",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_2",
+      "sourceText": "Si c'est la collectivité qui réalise l'opération, elle ne peut que déléguer par mandat les ouvrages de superstructures.",
+      "sourceContext": "Si c'est la collectivité qui réalise l'opération, elle ne peut que déléguer par mandat les ouvrages de superstructures.",
+      "sectionId": "107-operations-amenagement__1_2_4_2",
+      "keywords": [
+        "ZAC",
+        "maîtrise d'ouvrage",
+        "superstructures"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "La commercialisation des terrains d'une ZAC peut-elle intervenir avant l'achèvement des travaux ?",
+      "options": [
+        "Oui, rien ne s'oppose à ce que la commercialisation ait lieu avant que les travaux soient achevés",
+        "Non, sauf autorisation expresse du préfet",
+        "Oui, mais uniquement si l'opération a été déclarée d'utilité publique",
+        "Non, la commercialisation est interdite tant que les travaux ne sont pas achevés"
       ],
       "answer": 0,
-      "explanation": "Lors de la cession des terrains d'une ZAC, les divisions ne sont pas soumises au régime des lotissements.",
-      "id": "urb1__107-operations-amenagement__1_2_4_3__opus_018",
+      "explanation": "Le texte indique que rien ne s'oppose à ce que la commercialisation des terrains ait lieu avant que les travaux soient achevés.",
+      "id": "urb__107-operations-amenagement__1_2_4_3__opus_001",
+      "sectionTitle": "La cession des terrains",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_3",
+      "sourceText": "Rien ne s'oppose d'ailleurs à ce que la commercialisation des terrains ait lieu avant que les travaux soient achevés.",
+      "sourceContext": "Rien ne s'oppose d'ailleurs à ce que la commercialisation des terrains ait lieu avant que les travaux soient achevés.",
+      "sectionId": "107-operations-amenagement__1_2_4_3",
+      "keywords": [
+        "ZAC",
+        "cession",
+        "commercialisation"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Les divisions de terrains opérées lors de la cession dans une ZAC sont-elles soumises au régime des lotissements ?",
+      "options": [
+        "Non, les divisions de terrains ne sont alors pas soumises au régime des lotissements",
+        "Oui, mais uniquement pour les terrains expropriés",
+        "Oui, elles relèvent intégralement du régime des lotissements",
+        "Non, sauf si la commune compte plus d'habitants qu'un certain seuil"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que les divisions de terrains ne sont alors pas soumises au régime des lotissements.",
+      "id": "urb__107-operations-amenagement__1_2_4_3__opus_002",
       "sectionTitle": "La cession des terrains",
       "sourceLink": "#section-107-operations-amenagement__1_2_4_3",
       "sourceText": "Les divisions de terrains ne sont alors pas soumises au régime des lotissements.",
       "sourceContext": "Les divisions de terrains ne sont alors pas soumises au régime des lotissements.",
       "sectionId": "107-operations-amenagement__1_2_4_3",
       "keywords": [
-        "cession",
-        "divisions",
-        "régime des lotissements"
+        "ZAC",
+        "lotissement",
+        "division"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "Qui doit approuver chacun des cahiers des charges de cession de terrain d'une ZAC communale ?",
+      "bloom": "application",
+      "q": "Lorsque le terrain n'a pas été acquis par voie d'expropriation, quelle précision le cahier des charges de cession doit-il comporter ?",
       "options": [
-        "Le maire ou le président de l'EPCI, ou le préfet dans les autres cas",
-        "Le seul aménageur titulaire de la concession",
-        "Le conseil départemental compétent",
-        "L'assemblée générale de l'association syndicale"
+        "Le nombre de mètres carrés de surface de plancher dont la construction est autorisée sur la parcelle",
+        "L'identité de tous les futurs occupants du terrain",
+        "Le montant des impôts locaux dus par l'acquéreur",
+        "La durée maximale de détention du terrain par l'acquéreur"
       ],
       "answer": 0,
-      "explanation": "Chaque cahier des charges doit être approuvé par le maire ou le président de l'EPCI, ou le préfet dans les autres cas.",
-      "id": "urb1__107-operations-amenagement__1_2_4_3__opus_019",
+      "explanation": "Le texte indique que lorsque le terrain n'a pas été acquis par la voie de l'expropriation, le cahier des charges doit préciser le nombre de mètres carrés de surface de plancher dont la construction est autorisée sur la parcelle.",
+      "id": "urb__107-operations-amenagement__1_2_4_3__opus_003",
       "sectionTitle": "La cession des terrains",
       "sourceLink": "#section-107-operations-amenagement__1_2_4_3",
-      "sourceText": "Chacun des cahiers des charges doit être approuvé par le maire ou le président de l’établissement public de coopération intercommunale, ou le préfet dans les autres cas.",
-      "sourceContext": "Chacun des cahiers des charges doit être approuvé par le maire ou le président de l’établissement public de coopération intercommunale, ou le préfet dans les autres cas.",
+      "sourceText": "Lorsque le terrain n'a pas été acquis par la voie de l'expropriation, il ce cahier des charges doit préciser le nombre de mètres carrés de surface de plancher dont la construction est autorisée sur la parcelle.",
+      "sourceContext": "Lorsque le terrain n'a pas été acquis par la voie de l'expropriation, il ce cahier des charges doit préciser le nombre de mètres carrés de surface de plancher dont la construction est autorisée sur la parcelle.",
       "sectionId": "107-operations-amenagement__1_2_4_3",
       "keywords": [
+        "ZAC",
         "cahier des charges",
-        "approbation",
-        "maire"
+        "surface de plancher"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Un cahier des charges de cession de terrain a été établi dans une ZAC créée par une commune. Qui doit l'approuver ?",
+      "options": [
+        "Le maire ou le président de l'EPCI, ou le préfet dans les autres cas",
+        "L'association syndicale des acquéreurs de lots",
+        "Exclusivement le préfet, dans tous les cas",
+        "Le cessionnaire lui-même"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que chacun des cahiers des charges doit être approuvé par le maire ou le président de l'établissement public de coopération intercommunale, ou le préfet dans les autres cas.",
+      "id": "urb__107-operations-amenagement__1_2_4_3__opus_004",
+      "sectionTitle": "La cession des terrains",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_3",
+      "sourceText": "Chacun des cahiers des charges doit être approuvé par le maire ou le président de l'établissement public de coopération intercommunale, ou le préfet dans les autres cas.",
+      "sourceContext": "Chacun des cahiers des charges doit être approuvé par le maire ou le président de l'établissement public de coopération intercommunale, ou le préfet dans les autres cas.",
+      "sectionId": "107-operations-amenagement__1_2_4_3",
+      "keywords": [
+        "ZAC",
+        "cahier des charges",
+        "approbation"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Par qui une ZAC est-elle supprimée une fois l'opération achevée ou abandonnée ?",
+      "q": "Qu'est-ce qu'une modification de la ZAC est susceptible de remettre en cause ?",
       "options": [
-        "Par l'autorité qui l'a créée, sur proposition ou après avis de la personne initiatrice",
-        "Par le préfet en toute hypothèse",
-        "Par le juge administratif saisi à cette fin",
-        "Par délibération automatique de l'association syndicale"
+        "Le seul programme de financement des équipements publics nationaux",
+        "Uniquement la délibération approuvant le PLU",
+        "L'acte de création de la ZAC, par exemple en modifiant l'objet, le mode de réalisation ou en augmentant ou réduisant le périmètre",
+        "Uniquement le cahier des charges de cession des terrains"
       ],
-      "answer": 0,
-      "explanation": "La ZAC est supprimée par l'autorité qui l'a créée, sur proposition ou après avis de la personne initiatrice.",
-      "id": "urb1__107-operations-amenagement__1_2_4_4__opus_020",
+      "answer": 2,
+      "explanation": "Le texte indique que la modification est susceptible de remettre en cause l'acte de création de la ZAC, par exemple en modifiant l'objet, le mode de réalisation ou encore en augmentant ou réduisant le périmètre.",
+      "id": "urb__107-operations-amenagement__1_2_4_4__opus_001",
       "sectionTitle": "La modification et la suppression de la ZAC",
       "sourceLink": "#section-107-operations-amenagement__1_2_4_4",
-      "sourceText": "La ZAC est alors supprimée par l’autorité qui l’a créée, sur proposition ou après avis de la personne qui en avait été initiatrice.",
-      "sourceContext": "La ZAC est alors supprimée par l’autorité qui l’a créée, sur proposition ou après avis de la personne qui en avait été initiatrice.",
+      "sourceText": "La modification est susceptible de remettre en cause l'acte de création de la ZAC, par exemple en modifiant l'objet, le mode de réalisation ou encore en augmentant ou réduisant le périmètre.",
+      "sourceContext": "La modification est susceptible de remettre en cause l'acte de création de la ZAC, par exemple en modifiant l'objet, le mode de réalisation ou encore en augmentant ou réduisant le périmètre.",
       "sectionId": "107-operations-amenagement__1_2_4_4",
       "keywords": [
-        "suppression",
-        "autorité créatrice",
-        "ZAC"
+        "ZAC",
+        "modification",
+        "acte de création"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "Comment le lotissement est-il défini ?",
+      "bloom": "application",
+      "q": "Quelle exigence procédurale s'impose à toute modification de la ZAC ?",
       "options": [
-        "L'opération consistant à diviser une propriété foncière en plusieurs lots destinés à être bâtis",
-        "Toute division foncière, qu'elle soit ou non destinée à la construction",
-        "L'acquisition par une collectivité de terrains en vue de leur aménagement",
-        "La cession d'un immeuble unique à plusieurs copropriétaires"
+        "Obtenir l'accord unanime des propriétaires concernés",
+        "Soumettre la modification à un référendum local",
+        "Reprendre les règles applicables à la création de la ZAC",
+        "Saisir le juge administratif avant toute décision"
       ],
-      "answer": 0,
-      "explanation": "Le lotissement est l'opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis.",
-      "id": "urb1__107-operations-amenagement__2__opus_021",
+      "answer": 2,
+      "explanation": "Le texte indique que toute modification doit reprendre les règles applicables à la création de la ZAC.",
+      "id": "urb__107-operations-amenagement__1_2_4_4__opus_002",
+      "sectionTitle": "La modification et la suppression de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_4",
+      "sourceText": "Toute modification doit reprendre les règles applicables à la création de la ZAC.",
+      "sourceContext": "Toute modification doit reprendre les règles applicables à la création de la ZAC.",
+      "sectionId": "107-operations-amenagement__1_2_4_4",
+      "keywords": [
+        "ZAC",
+        "modification",
+        "procédure"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Une opération de ZAC est achevée. Qui prononce sa suppression et selon quelle modalité ?",
+      "options": [
+        "Le préfet seul, sans aucun avis préalable",
+        "L'association syndicale des acquéreurs, par vote majoritaire",
+        "Le juge administratif, sur saisine d'un propriétaire",
+        "L'autorité qui l'a créée, sur proposition ou après avis de la personne qui en avait été initiatrice"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique qu'une fois l'opération achevée ou abandonnée, la ZAC est supprimée par l'autorité qui l'a créée, sur proposition ou après avis de la personne qui en avait été initiatrice.",
+      "id": "urb__107-operations-amenagement__1_2_4_4__opus_003",
+      "sectionTitle": "La modification et la suppression de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_4",
+      "sourceText": "La ZAC est alors supprimée par l'autorité qui l'a créée, sur proposition ou après avis de la personne qui en avait été initiatrice.",
+      "sourceContext": "La ZAC est alors supprimée par l'autorité qui l'a créée, sur proposition ou après avis de la personne qui en avait été initiatrice.",
+      "sectionId": "107-operations-amenagement__1_2_4_4",
+      "keywords": [
+        "ZAC",
+        "suppression",
+        "autorité créatrice"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel document doit justifier les motifs de la suppression de la ZAC ?",
+      "options": [
+        "Le cahier des charges de cession de terrain",
+        "Le dossier de réalisation",
+        "Le programme global prévisionnel des constructions",
+        "Un rapport de présentation"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique qu'un rapport de présentation doit notamment justifier les motifs de la suppression.",
+      "id": "urb__107-operations-amenagement__1_2_4_4__opus_004",
+      "sectionTitle": "La modification et la suppression de la ZAC",
+      "sourceLink": "#section-107-operations-amenagement__1_2_4_4",
+      "sourceText": "Un rapport de présentation doit notamment justifier les motifs de la suppression.",
+      "sourceContext": "Un rapport de présentation doit notamment justifier les motifs de la suppression.",
+      "sectionId": "107-operations-amenagement__1_2_4_4",
+      "keywords": [
+        "ZAC",
+        "suppression",
+        "rapport de présentation"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment le texte définit-il le lotissement ?",
+      "options": [
+        "L'opération de cession d'un immeuble bâti à un acquéreur unique",
+        "L'opération qui consiste à regrouper plusieurs parcelles en une seule unité foncière",
+        "L'opération de classement d'un terrain en réserve foncière",
+        "L'opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis"
+      ],
+      "answer": 3,
+      "explanation": "Le texte définit le lotissement comme l'opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis.",
+      "id": "urb__107-operations-amenagement__2__opus_001",
       "sectionTitle": "Les lotissements",
       "sourceLink": "#section-107-operations-amenagement__2",
-      "sourceText": "Le lotissement est l’opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis.",
-      "sourceContext": "Le lotissement est l’opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis.",
+      "sourceText": "Le lotissement est l'opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis.",
+      "sourceContext": "Le lotissement est l'opération qui consiste à diviser une propriété foncière en plusieurs lots destinés à être bâtis.",
       "sectionId": "107-operations-amenagement__2",
       "keywords": [
         "lotissement",
@@ -485,186 +967,576 @@
     },
     {
       "bloom": "application",
-      "q": "Un lotisseur projette de créer des voies et des équipements communs à plusieurs lots destinés à être bâtis. Quelle autorisation est requise ?",
+      "q": "Dans quel cas un lotissement doit-il être précédé de la délivrance d'un permis d'aménager au titre des équipements ?",
       "options": [
-        "Un permis d'aménager",
-        "Une simple déclaration préalable",
-        "Un permis de construire global",
-        "Aucune autorisation préalable"
+        "Lorsqu'il porte sur un seul lot bâti existant",
+        "Lorsqu'il prévoit la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement",
+        "Lorsqu'il ne prévoit aucun équipement commun entre les lots",
+        "Lorsqu'il se situe en dehors de tout document d'urbanisme"
       ],
-      "answer": 0,
-      "explanation": "Les lotissements prévoyant la création de voies, espaces ou équipements communs à plusieurs lots à bâtir doivent être précédés d'un permis d'aménager.",
-      "id": "urb1__107-operations-amenagement__2_1_2__opus_022",
+      "answer": 1,
+      "explanation": "Le texte indique que les lotissements doivent être précédés d'un permis d'aménager lorsqu'ils prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
+      "id": "urb__107-operations-amenagement__2_1_2__opus_001",
       "sectionTitle": "Les divisions soumises à permis d’aménager",
       "sourceLink": "#section-107-operations-amenagement__2_1_2",
-      "sourceText": "Les lotissements doivent être précédés de la délivrance d’un permis d’aménager lorsqu’ils prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
-      "sourceContext": "Les lotissements doivent être précédés de la délivrance d’un permis d’aménager lorsqu’ils prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
+      "sourceText": "Les lotissements doivent être précédés de la délivrance d'un permis d'aménager lorsqu'ils prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
+      "sourceContext": "Les lotissements doivent être précédés de la délivrance d'un permis d'aménager lorsqu'ils prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
       "sectionId": "107-operations-amenagement__2_1_2",
       "keywords": [
+        "lotissement",
         "permis d'aménager",
-        "voies",
         "équipements communs"
       ]
     },
     {
-      "bloom": "comprehension",
-      "q": "À quelle formalité sont soumis les lotissements qui ne relèvent pas du permis d'aménager ?",
+      "bloom": "analyse",
+      "q": "Quels équipements sont pris en compte pour apprécier l'exigence d'un permis d'aménager ?",
       "options": [
-        "À une déclaration préalable",
-        "À un permis de construire valant division",
-        "À aucune formalité particulière",
-        "À une autorisation environnementale unique"
+        "Les seuls équipements existants avant l'opération",
+        "Les équipements dont la réalisation est à la charge du lotisseur",
+        "Les équipements financés exclusivement par l'État",
+        "Tous les équipements de la commune, y compris hors lotissement"
       ],
-      "answer": 0,
-      "explanation": "Les lotissements non soumis à permis d'aménager doivent faire l'objet d'une déclaration préalable.",
-      "id": "urb1__107-operations-amenagement__2_1_3__opus_023",
-      "sectionTitle": "Les divisions soumises à déclaration préalable",
-      "sourceLink": "#section-107-operations-amenagement__2_1_3",
-      "sourceText": "Les lotissements qui ne sont pas soumis à la délivrance d’un permis d’aménager doivent faire l’objet d’une déclaration préalable.",
-      "sourceContext": "Les lotissements qui ne sont pas soumis à la délivrance d’un permis d’aménager doivent faire l’objet d’une déclaration préalable.",
-      "sectionId": "107-operations-amenagement__2_1_3",
+      "answer": 1,
+      "explanation": "Le texte précise que les équipements pris en compte sont les équipements dont la réalisation est à la charge du lotisseur.",
+      "id": "urb__107-operations-amenagement__2_1_2__opus_002",
+      "sectionTitle": "Les divisions soumises à permis d’aménager",
+      "sourceLink": "#section-107-operations-amenagement__2_1_2",
+      "sourceText": "Les équipements pris en compte sont les équipements dont la réalisation est à la charge du lotisseur.",
+      "sourceContext": "Les équipements pris en compte sont les équipements dont la réalisation est à la charge du lotisseur.",
+      "sectionId": "107-operations-amenagement__2_1_2",
       "keywords": [
-        "déclaration préalable",
         "lotissement",
-        "permis d'aménager"
-      ]
-    },
-    {
-      "bloom": "rappel",
-      "q": "Que doit préciser la demande, spécifiquement au lotissement, en plus des mentions communes au permis d'aménager ?",
-      "options": [
-        "Le nombre maximum de lots et la surface de plancher maximale envisagée dans l'ensemble du lotissement",
-        "Le prix de vente prévisionnel de chaque lot",
-        "L'identité des futurs acquéreurs de chaque lot",
-        "La durée d'amortissement des équipements communs"
-      ],
-      "answer": 0,
-      "explanation": "La demande doit préciser le nombre maximum de lots et la surface de plancher maximale envisagée dans l'ensemble du lotissement.",
-      "id": "urb1__107-operations-amenagement__2_2_1_1__opus_024",
-      "sectionTitle": "Les pièces et informations exigées",
-      "sourceLink": "#section-107-operations-amenagement__2_2_1_1",
-      "sourceText": "Plus spécifiquement au lotissement, la demander doit préciser le nombre maximum de lots et la surface de plancher maximale dont la construction est envisagée dans l'ensemble du lotissement.",
-      "sourceContext": "Plus spécifiquement au lotissement, la demander doit préciser le nombre maximum de lots et la surface de plancher maximale dont la construction est envisagée dans l'ensemble du lotissement.",
-      "sectionId": "107-operations-amenagement__2_2_1_1",
-      "keywords": [
-        "demande",
-        "nombre de lots",
-        "surface de plancher"
+        "permis d'aménager",
+        "lotisseur"
       ]
     },
     {
       "bloom": "application",
-      "q": "Un lotisseur obtient son permis d'aménager le 1er mars. Dans quel délai doit-il entreprendre les travaux prescrits ?",
+      "q": "En dehors de la création d'équipements communs, dans quelle situation de localisation un permis d'aménager est-il exigé pour un lotissement ?",
       "options": [
-        "Dans un délai de 2 ans à compter de la notification du permis d'aménager",
-        "Dans un délai de 6 mois à compter de la délivrance du permis",
-        "Dans un délai de 5 ans à compter de l'approbation du PLU",
-        "Dans un délai de 1 an à compter de la première vente de lot"
+        "Lorsque le lotissement est situé dans un secteur sauvegardé, dans un site classé ou en instance de classement",
+        "Lorsque le lotissement est situé hors de tout périmètre protégé",
+        "Lorsque le lotissement est situé dans une zone agricole ordinaire",
+        "Lorsque le lotissement comporte un seul lot à bâtir"
       ],
       "answer": 0,
-      "explanation": "Les travaux doivent être entrepris dans un délai de 2 ans à compter de la notification du permis d'aménager ou de la non-opposition à la déclaration préalable.",
-      "id": "urb1__107-operations-amenagement__2_3_1__opus_025",
-      "sectionTitle": "L’exécution des travaux",
-      "sourceLink": "#section-107-operations-amenagement__2_3_1",
-      "sourceText": "Ils doivent être entrepris dans un délai de 2 ans à compter de la notification du permis d’aménager ou de la date de non-opposition à la déclaration préalable.",
-      "sourceContext": "Ils doivent être entrepris dans un délai de 2 ans à compter de la notification du permis d’aménager ou de la date de non-opposition à la déclaration préalable.",
-      "sectionId": "107-operations-amenagement__2_3_1",
+      "explanation": "Le texte indique qu'il en va de même lorsque les lotissements sont situés dans un secteur sauvegardé, dans un site classé ou en instance de classement.",
+      "id": "urb__107-operations-amenagement__2_1_2__opus_003",
+      "sectionTitle": "Les divisions soumises à permis d’aménager",
+      "sourceLink": "#section-107-operations-amenagement__2_1_2",
+      "sourceText": "Il en va de même lorsque les lotissements sont situés dans un secteur sauvegardé, dans un site classé ou en instance de classement.",
+      "sourceContext": "Il en va de même lorsque les lotissements sont situés dans un secteur sauvegardé, dans un site classé ou en instance de classement.",
+      "sectionId": "107-operations-amenagement__2_1_2",
       "keywords": [
-        "délai",
-        "exécution des travaux",
-        "permis d'aménager"
+        "lotissement",
+        "secteur sauvegardé",
+        "site classé"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Que doit mentionner toute publicité relative à la vente ou à la location de terrains situés dans un lotissement ?",
+      "q": "Quels lotissements doivent faire l'objet d'une déclaration préalable ?",
       "options": [
-        "Si le permis a été ou non délivré, ou si la déclaration préalable a ou non fait l'objet d'une opposition",
-        "Le montant exact de la taxe d'aménagement applicable au lot",
-        "Le nom de l'aménageur et celui du maître d'œuvre",
-        "La date prévisionnelle d'achèvement total du lotissement"
+        "Uniquement les lotissements créant des équipements communs",
+        "Tous les lotissements sans exception",
+        "Uniquement les lotissements situés en site classé",
+        "Les lotissements qui ne sont pas soumis à la délivrance d'un permis d'aménager"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que les lotissements qui ne sont pas soumis à la délivrance d'un permis d'aménager doivent faire l'objet d'une déclaration préalable.",
+      "id": "urb__107-operations-amenagement__2_1_3__opus_001",
+      "sectionTitle": "Les divisions soumises à déclaration préalable",
+      "sourceLink": "#section-107-operations-amenagement__2_1_3",
+      "sourceText": "Les lotissements qui ne sont pas soumis à la délivrance d'un permis d'aménager doivent faire l'objet d'une déclaration préalable.",
+      "sourceContext": "Les lotissements qui ne sont pas soumis à la délivrance d'un permis d'aménager doivent faire l'objet d'une déclaration préalable.",
+      "sectionId": "107-operations-amenagement__2_1_3",
+      "keywords": [
+        "lotissement",
+        "déclaration préalable"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Quels lotissements sont visés par la déclaration préalable au regard des équipements et de la localisation ?",
+      "options": [
+        "Ceux dont les équipements sont financés par l'État",
+        "Ceux qui sont situés dans un secteur sauvegardé ou un site classé",
+        "Ceux qui ne prévoient pas la création de voies, d'espaces ou d'équipements communs à plusieurs lots, ou qui ne sont pas dans un secteur protégé",
+        "Ceux qui prévoient la création de voies et d'équipements communs propres au lotissement"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que sont visés les lotissements qui ne prévoient pas la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots, ou qui ne sont pas dans un secteur protégé.",
+      "id": "urb__107-operations-amenagement__2_1_3__opus_002",
+      "sectionTitle": "Les divisions soumises à déclaration préalable",
+      "sourceLink": "#section-107-operations-amenagement__2_1_3",
+      "sourceText": "Sont ainsi visés les lotissements qui ne prévoient pas la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots, ou qui ne sont pas dans un secteur protégé.",
+      "sourceContext": "Sont ainsi visés les lotissements qui ne prévoient pas la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots, ou qui ne sont pas dans un secteur protégé.",
+      "sectionId": "107-operations-amenagement__2_1_3",
+      "keywords": [
+        "lotissement",
+        "déclaration préalable",
+        "équipements"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Spécifiquement au lotissement, quelles informations la demande de permis d'aménager doit-elle préciser ?",
+      "options": [
+        "Le montant des taxes locales dues par chaque acquéreur",
+        "Le nombre maximum de lots et la surface de plancher maximale dont la construction est envisagée dans l'ensemble du lotissement",
+        "Le prix de vente de chaque lot et l'identité des acquéreurs",
+        "La liste des entreprises chargées des travaux"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que, plus spécifiquement au lotissement, la demande doit préciser le nombre maximum de lots et la surface de plancher maximale dont la construction est envisagée dans l'ensemble du lotissement.",
+      "id": "urb__107-operations-amenagement__2_2_1_1__opus_001",
+      "sectionTitle": "Les pièces et informations exigées",
+      "sourceLink": "#section-107-operations-amenagement__2_2_1_1",
+      "sourceText": "la demander doit préciser le nombre maximum de lots et la surface de plancher maximale dont la construction est envisagée dans l'ensemble du lotissement.",
+      "sourceContext": "la demander doit préciser le nombre maximum de lots et la surface de plancher maximale dont la construction est envisagée dans l'ensemble du lotissement.",
+      "sectionId": "107-operations-amenagement__2_2_1_1",
+      "keywords": [
+        "lotissement",
+        "permis d'aménager",
+        "nombre de lots"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Un projet de lotissement est situé à l'intérieur d'un lotissement déjà autorisé par un permis d'aménager. De quelle pièce la demande doit-elle, le cas échéant, être complétée ?",
+      "options": [
+        "D'un avis conforme du préfet",
+        "D'une déclaration d'utilité publique",
+        "D'un nouveau dossier de création de ZAC",
+        "De l'attestation de l'accord du lotisseur"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que lorsque le projet est situé à l'intérieur d'un lotissement autorisé par un permis d'aménager, la demande est, le cas échéant, complétée par l'attestation de l'accord du lotisseur.",
+      "id": "urb__107-operations-amenagement__2_2_1_1__opus_002",
+      "sectionTitle": "Les pièces et informations exigées",
+      "sourceLink": "#section-107-operations-amenagement__2_2_1_1",
+      "sourceText": "Lorsque le projet est situé à l'intérieur d'un lotissement autorisé par un permis d'aménager, la demande est, le cas échéant, complétée par l'attestation de l'accord du lotisseur.",
+      "sourceContext": "Lorsque le projet est situé à l'intérieur d'un lotissement autorisé par un permis d'aménager, la demande est, le cas échéant, complétée par l'attestation de l'accord du lotisseur.",
+      "sectionId": "107-operations-amenagement__2_2_1_1",
+      "keywords": [
+        "lotissement",
+        "accord du lotisseur",
+        "attestation"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle pièce d'ensemble est jointe à la demande de permis d'aménager un lotissement ?",
+      "options": [
+        "Une étude d'impact établie par le préfet",
+        "Un projet architectural, paysager et environnemental",
+        "Un rapport de présentation justifiant la suppression",
+        "Un cahier des charges de cession de terrain"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique qu'un projet architectural, paysager et environnemental est joint à la demande.",
+      "id": "urb__107-operations-amenagement__2_2_1_1__opus_003",
+      "sectionTitle": "Les pièces et informations exigées",
+      "sourceLink": "#section-107-operations-amenagement__2_2_1_1",
+      "sourceText": "Un projet architectural, paysager et environnemental est joint à la demande.",
+      "sourceContext": "Un projet architectural, paysager et environnemental est joint à la demande.",
+      "sectionId": "107-operations-amenagement__2_2_1_1",
+      "keywords": [
+        "lotissement",
+        "projet architectural",
+        "permis d'aménager"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lorsque des équipements communs sont prévus dans un lotissement, quel engagement le dossier de demande doit-il comprendre ?",
+      "options": [
+        "L'engagement des acquéreurs de renoncer à toute construction",
+        "L'engagement du lotisseur de céder gratuitement les lots à la commune",
+        "L'engagement de l'État de financer les équipements communs",
+        "L'engagement du lotisseur que sera constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que si des équipements communs sont prévus, le dossier doit comprendre l'engagement du lotisseur que sera constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs.",
+      "id": "urb__107-operations-amenagement__2_2_1_2__opus_001",
+      "sectionTitle": "Les pièces complémentaires",
+      "sourceLink": "#section-107-operations-amenagement__2_2_1_2",
+      "sourceText": "Si des équipements communs sont prévus, le dossier de demande doit comprendre l'engagement du lotisseur que sera constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs.",
+      "sourceContext": "Si des équipements communs sont prévus, le dossier de demande doit comprendre l'engagement du lotisseur que sera constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs.",
+      "sectionId": "107-operations-amenagement__2_2_1_2",
+      "keywords": [
+        "lotissement",
+        "association syndicale",
+        "équipements communs"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Dans quel cas la règle imposant l'engagement de constituer une association syndicale n'est-elle pas applicable ?",
+      "options": [
+        "Lorsque le lotisseur est une personne publique",
+        "Lorsque le lotissement comporte plus d'un lot à bâtir",
+        "Lorsque le lotissement est situé en site classé",
+        "Lorsque les voies et espaces communs sont destinés à être attribués en propriété aux acquéreurs de lots, ou lorsque le lotisseur justifie d'une convention de transfert dans le domaine de la commune ou de l'EPCI une fois les travaux achevés"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que cette règle n'est pas applicable lorsque les voies et espaces communs sont destinés à être attribués en propriété aux acquéreurs de lots ou lorsque le lotisseur justifie de la conclusion d'une convention prévoyant le transfert dans leur domaine de la totalité des voies et espaces communs une fois les travaux achevés.",
+      "id": "urb__107-operations-amenagement__2_2_1_2__opus_002",
+      "sectionTitle": "Les pièces complémentaires",
+      "sourceLink": "#section-107-operations-amenagement__2_2_1_2",
+      "sourceText": "Cette règle n'est pas applicable lorsque les voies et espaces communs sont destinés à être attribués en propriété aux acquéreurs de lots ou lorsque le lotisseur justifie de la conclusion avec la commune ou l'établissement public de coopération intercommunale compétent d'une convention prévoyant le transfert dans leur domaine de la totalité des voies et espaces communs une fois les travaux achevés.",
+      "sourceContext": "Cette règle n'est pas applicable lorsque les voies et espaces communs sont destinés à être attribués en propriété aux acquéreurs de lots ou lorsque le lotisseur justifie de la conclusion avec la commune ou l'établissement public de coopération intercommunale compétent d'une convention prévoyant le transfert dans leur domaine de la totalité des voies et espaces communs une fois les travaux achevés.",
+      "sectionId": "107-operations-amenagement__2_2_1_2",
+      "keywords": [
+        "lotissement",
+        "association syndicale",
+        "convention de transfert"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle obligation pèse sur le lotisseur concernant les travaux prescrits ?",
+      "options": [
+        "Il doit attendre la fin de la commercialisation pour exécuter les travaux",
+        "Il doit exécuter les travaux prescrits",
+        "Il doit transférer l'exécution des travaux au préfet",
+        "Il peut renoncer librement à tout travail prescrit"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le lotisseur doit exécuter les travaux prescrits.",
+      "id": "urb__107-operations-amenagement__2_3_1__opus_001",
+      "sectionTitle": "L’exécution des travaux",
+      "sourceLink": "#section-107-operations-amenagement__2_3_1",
+      "sourceText": "Le lotisseur doit exécuter les travaux prescrits.",
+      "sourceContext": "Le lotisseur doit exécuter les travaux prescrits.",
+      "sectionId": "107-operations-amenagement__2_3_1",
+      "keywords": [
+        "lotissement",
+        "travaux",
+        "lotisseur"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Un lotisseur souhaite éviter la dégradation des voies pendant la construction des bâtiments. Que peut-il solliciter par dérogation au principe de réalisation des travaux avant commercialisation ?",
+      "options": [
+        "L'autorisation de différer la réalisation du revêtement définitif des voies, l'aménagement des trottoirs et les plantations prescrites",
+        "L'autorisation de transférer les travaux à la commune sans convention",
+        "L'autorisation de supprimer définitivement toute voie de desserte",
+        "L'autorisation de commercialiser sans aucune garantie d'achèvement"
       ],
       "answer": 0,
-      "explanation": "Toute publicité doit mentionner si le permis a été ou non délivré, ou si la déclaration préalable a ou non fait l'objet d'une opposition.",
-      "id": "urb1__107-operations-amenagement__2_3_2_1__opus_026",
+      "explanation": "Le texte indique que le lotisseur peut solliciter l'autorisation de différer, en vue d'éviter la dégradation des voies pendant la construction des bâtiments, la réalisation du revêtement définitif de ces voies, l'aménagement des trottoirs, la pose de leurs bordures, la mise en place des équipements dépendant de ces trottoirs ainsi que les plantations prescrites.",
+      "id": "urb__107-operations-amenagement__2_3_1__opus_002",
+      "sectionTitle": "L’exécution des travaux",
+      "sourceLink": "#section-107-operations-amenagement__2_3_1",
+      "sourceText": "Il en va différemment si le demandeur sollicite l'autorisation de différer, en vue d'éviter la dégradation des voies pendant la construction des bâtiments, la réalisation du revêtement définitif de ces voies, l'aménagement des trottoirs, la pose de leurs bordures, la mise en place des équipements dépendant de ces trottoirs ainsi que les plantations prescrites.",
+      "sourceContext": "Il en va différemment si le demandeur sollicite l'autorisation de différer, en vue d'éviter la dégradation des voies pendant la construction des bâtiments, la réalisation du revêtement définitif de ces voies, l'aménagement des trottoirs, la pose de leurs bordures, la mise en place des équipements dépendant de ces trottoirs ainsi que les plantations prescrites.",
+      "sectionId": "107-operations-amenagement__2_3_1",
+      "keywords": [
+        "lotissement",
+        "travaux différés",
+        "voies"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle situation, autre que l'autorisation de différer, constitue une exception au principe de réalisation des travaux avant commercialisation ?",
+      "options": [
+        "La situation dans laquelle le lotissement est situé en zone de montagne",
+        "La situation dans laquelle l'opération est déclarée d'utilité publique",
+        "La situation dans laquelle la commune renonce à percevoir les taxes",
+        "La situation dans laquelle le lotisseur justifie d'une garantie d'achèvement des travaux"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique qu'une exception concerne également la situation dans laquelle le lotisseur justifie d'une garantie d'achèvement des travaux.",
+      "id": "urb__107-operations-amenagement__2_3_1__opus_003",
+      "sectionTitle": "L’exécution des travaux",
+      "sourceLink": "#section-107-operations-amenagement__2_3_1",
+      "sourceText": "Une exception concerne également la situation dans laquelle le lotisseur justifie d'une garantie d'achèvement des travaux.",
+      "sourceContext": "Une exception concerne également la situation dans laquelle le lotisseur justifie d'une garantie d'achèvement des travaux.",
+      "sectionId": "107-operations-amenagement__2_3_1",
+      "keywords": [
+        "lotissement",
+        "garantie d'achèvement",
+        "commercialisation"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "À quelle condition le permis d'aménager un lotissement peut-il être prorogé pour une année supplémentaire ?",
+      "options": [
+        "Si l'opération a été déclarée d'utilité publique",
+        "Si la commune l'autorise par référendum local",
+        "Si le lotisseur a déjà commercialisé tous les lots",
+        "Si les prescriptions et servitudes d'urbanisme auxquelles est soumis le projet n'ont pas évolué de façon défavorable à son égard"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que le permis d'aménager peut être prorogé pour une année si les prescriptions d'urbanisme et les servitudes d'urbanisme auxquelles est soumis le projet n'ont pas évolué de façon défavorable à son égard.",
+      "id": "urb__107-operations-amenagement__2_3_1__opus_004",
+      "sectionTitle": "L’exécution des travaux",
+      "sourceLink": "#section-107-operations-amenagement__2_3_1",
+      "sourceText": "Le permis d'aménager peut cependant être prorogé pour une année si les prescriptions d'urbanisme et les servitudes d'urbanisme auxquelles est soumis le projet n'ont pas évolué de façon défavorable à son égard.",
+      "sourceContext": "Le permis d'aménager peut cependant être prorogé pour une année si les prescriptions d'urbanisme et les servitudes d'urbanisme auxquelles est soumis le projet n'ont pas évolué de façon défavorable à son égard.",
+      "sectionId": "107-operations-amenagement__2_3_1",
+      "keywords": [
+        "lotissement",
+        "permis d'aménager",
+        "prorogation"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que doit mentionner de manière explicite toute publicité relative à la vente ou à la location de terrains situés dans un lotissement ?",
+      "options": [
+        "Le nom de l'aménageur du lotissement voisin",
+        "Le montant exact des taxes foncières applicables au terrain",
+        "Si le permis a été ou non délivré ou si la déclaration préalable a ou non fait l'objet d'une opposition",
+        "L'identité de tous les futurs voisins du lot"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que toute publicité relative à la vente ou à la location de terrains situés dans un lotissement doit mentionner de manière explicite si le permis a été ou non délivré ou si la déclaration préalable a ou non fait l'objet d'une opposition.",
+      "id": "urb__107-operations-amenagement__2_3_2_1__opus_001",
       "sectionTitle": "Les règles de publicité",
       "sourceLink": "#section-107-operations-amenagement__2_3_2_1",
       "sourceText": "Toute publicité, sous quelque forme que ce soit, relative à la vente ou à la location de terrains situés dans un lotissement doit mentionner de manière explicite si le permis a été ou non délivré ou si la déclaration préalable a ou non fait l'objet d'une opposition.",
       "sourceContext": "Toute publicité, sous quelque forme que ce soit, relative à la vente ou à la location de terrains situés dans un lotissement doit mentionner de manière explicite si le permis a été ou non délivré ou si la déclaration préalable a ou non fait l'objet d'une opposition.",
       "sectionId": "107-operations-amenagement__2_3_2_1",
       "keywords": [
+        "lotissement",
         "publicité",
-        "permis",
-        "lotissement"
+        "permis"
       ]
     },
     {
       "bloom": "application",
-      "q": "Un acquéreur signe une promesse unilatérale de vente d'un lot après délivrance du permis d'aménager. Dans quel délai peut-il se rétracter ?",
+      "q": "Que doit faire connaître toute publicité postérieure à l'intervention du permis d'aménager ou de la décision de non-opposition ?",
       "options": [
-        "La promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur peut se rétracter",
-        "Aucune rétractation n'est possible une fois la promesse signée",
-        "L'acquéreur dispose de trente jours pour se rétracter",
-        "La rétractation n'est ouverte qu'avant la délivrance du permis"
+        "La date de la décision et le fait que le dossier peut être consulté à la mairie",
+        "Le nombre d'habitants de la commune d'implantation",
+        "Le prix de vente minimal imposé par la commune",
+        "La liste des entreprises de travaux retenues"
       ],
       "answer": 0,
-      "explanation": "La promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter.",
-      "id": "urb1__107-operations-amenagement__2_3_2_2__opus_027",
-      "sectionTitle": "Les règles temporelles",
-      "sourceLink": "#section-107-operations-amenagement__2_3_2_2",
-      "sourceText": "La promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter.",
-      "sourceContext": "La promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter.",
-      "sectionId": "107-operations-amenagement__2_3_2_2",
+      "explanation": "Le texte indique que toute publicité postérieure à l'intervention du permis d'aménager ou de la décision de non-opposition à la déclaration préalable doit faire connaître la date de la décision et mentionner que le dossier peut être consulté à la mairie.",
+      "id": "urb__107-operations-amenagement__2_3_2_1__opus_002",
+      "sectionTitle": "Les règles de publicité",
+      "sourceLink": "#section-107-operations-amenagement__2_3_2_1",
+      "sourceText": "Toute publicité postérieure à l'intervention du permis d'aménager ou de la décision de non-opposition à la déclaration préalable doit faire connaître la date de la décision et mentionner que le dossier peut être consulté à la mairie.",
+      "sourceContext": "Toute publicité postérieure à l'intervention du permis d'aménager ou de la décision de non-opposition à la déclaration préalable doit faire connaître la date de la décision et mentionner que le dossier peut être consulté à la mairie.",
+      "sectionId": "107-operations-amenagement__2_3_2_1",
       "keywords": [
-        "promesse de vente",
-        "délai de rétractation",
-        "sept jours"
+        "lotissement",
+        "publicité",
+        "consultation en mairie"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "Avant la délivrance du permis d'aménager, que ne peut-on faire s'agissant d'un terrain situé dans un lotissement ?",
+      "bloom": "analyse",
+      "q": "Que ne doit comporter aucune publicité relative à la vente ou la location de lots ?",
       "options": [
-        "Consentir une promesse de vente ou de location, ni accepter d'acompte",
-        "Réaliser les seuls travaux de viabilité primaire",
-        "Engager la concertation préalable du public",
-        "Déposer la déclaration attestant l'achèvement des travaux"
+        "Aucune information sur la superficie des lots",
+        "Aucune indication non conforme aux prescriptions de la décision ou susceptible d'induire l'acquéreur en erreur sur les charges et conditions de vente ou de location",
+        "Aucune référence à la mairie de la commune",
+        "Aucune mention du prix de vente des lots"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que la publicité ne doit comporter aucune indication qui ne serait pas conforme aux prescriptions dont la décision a été assortie ou qui serait susceptible d'induire l'acquéreur en erreur sur les charges et conditions auxquelles le lotisseur entend subordonner la vente ou la location des lots.",
+      "id": "urb__107-operations-amenagement__2_3_2_1__opus_003",
+      "sectionTitle": "Les règles de publicité",
+      "sourceLink": "#section-107-operations-amenagement__2_3_2_1",
+      "sourceText": "Elle ne doit comporter aucune indication qui ne serait pas conforme aux prescriptions dont la décision a, le cas échéant, été assortie ou qui serait susceptible d'induire l'acquéreur en erreur sur les charges et conditions auxquelles le lotisseur entend subordonner la vente ou la location des lots.",
+      "sourceContext": "Elle ne doit comporter aucune indication qui ne serait pas conforme aux prescriptions dont la décision a, le cas échéant, été assortie ou qui serait susceptible d'induire l'acquéreur en erreur sur les charges et conditions auxquelles le lotisseur entend subordonner la vente ou la location des lots.",
+      "sectionId": "107-operations-amenagement__2_3_2_1",
+      "keywords": [
+        "lotissement",
+        "publicité",
+        "erreur de l'acquéreur"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Avant la délivrance du permis d'aménager, quelles opérations sont interdites s'agissant d'un terrain situé dans un lotissement ?",
+      "options": [
+        "Aucune promesse de vente ou de location ne peut être consentie et aucun acompte ne peut être accepté",
+        "Aucune interdiction ne s'applique avant la délivrance du permis",
+        "Seuls les acomptes supérieurs à un certain seuil sont interdits",
+        "Seule la publicité est interdite, les promesses de vente restant possibles"
       ],
       "answer": 0,
-      "explanation": "Aucune promesse de vente ou de location ni aucun acompte ne peut être consenti ou accepté avant la délivrance du permis d'aménager.",
-      "id": "urb1__107-operations-amenagement__2_3_2_2__opus_028",
+      "explanation": "Le texte indique qu'aucune promesse de vente ou de location d'un terrain situé dans un lotissement ne peut être consentie et aucun acompte ne peut être accepté avant la délivrance du permis d'aménager.",
+      "id": "urb__107-operations-amenagement__2_3_2_2__opus_001",
       "sectionTitle": "Les règles temporelles",
       "sourceLink": "#section-107-operations-amenagement__2_3_2_2",
       "sourceText": "Aucune promesse de vente ou de location d'un terrain situé dans un lotissement ne peut être consentie et aucun acompte ne peut être accepté avant la délivrance du permis d'aménager.",
       "sourceContext": "Aucune promesse de vente ou de location d'un terrain situé dans un lotissement ne peut être consentie et aucun acompte ne peut être accepté avant la délivrance du permis d'aménager.",
       "sectionId": "107-operations-amenagement__2_3_2_2",
       "keywords": [
-        "promesse",
-        "acompte",
+        "lotissement",
+        "promesse de vente",
         "permis d'aménager"
       ]
     },
     {
-      "bloom": "comprehension",
-      "q": "À qui revient la gestion et l'entretien des équipements communs lorsqu'ils sont transférés dans le domaine public de la collectivité ?",
+      "bloom": "cas_pratique",
+      "q": "Après la délivrance du permis d'aménager, un lotisseur consent une promesse unilatérale de vente à un acquéreur. À quel moment cette promesse devient-elle définitive ?",
       "options": [
-        "À la collectivité",
-        "À l'association syndicale des acquéreurs de lots",
-        "Au lotisseur jusqu'à la vente du dernier lot",
-        "À chaque propriétaire au prorata de son lot"
+        "Au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter",
+        "Après approbation de la promesse par le maire",
+        "Dès la signature de la promesse, sans aucun délai de rétractation",
+        "À l'achèvement complet des travaux du lotissement"
       ],
       "answer": 0,
-      "explanation": "Si les équipements sont transférés dans le domaine public, c'est la collectivité qui assure la gestion et l'entretien des équipements communs.",
-      "id": "urb1__107-operations-amenagement__2_3_3__opus_029",
+      "explanation": "Le texte indique qu'à compter de la délivrance du permis d'aménager, le lotisseur peut consentir une promesse unilatérale de vente, et que la promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter.",
+      "id": "urb__107-operations-amenagement__2_3_2_2__opus_002",
+      "sectionTitle": "Les règles temporelles",
+      "sourceLink": "#section-107-operations-amenagement__2_3_2_2",
+      "sourceText": "A compter de la délivrance du permis d'aménager, le lotisseur peut consentir une promesse unilatérale de vente indiquant la consistance du lot réservé, sa délimitation, son prix et son délai de livraison. La promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter.",
+      "sourceContext": "A compter de la délivrance du permis d'aménager, le lotisseur peut consentir une promesse unilatérale de vente indiquant la consistance du lot réservé, sa délimitation, son prix et son délai de livraison. La promesse ne devient définitive qu'au terme d'un délai de sept jours pendant lequel l'acquéreur a la faculté de se rétracter.",
+      "sectionId": "107-operations-amenagement__2_3_2_2",
+      "keywords": [
+        "lotissement",
+        "promesse unilatérale",
+        "rétractation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle structure doit en principe être constituée pour la propriété, la gestion et l'entretien des terrains et équipements communs d'un lotissement ?",
+      "options": [
+        "Une société commerciale détenue par le lotisseur",
+        "Un syndicat mixte départemental",
+        "Une association syndicale des acquéreurs de lots",
+        "Une régie autonome préfectorale"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que doit être constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs.",
+      "id": "urb__107-operations-amenagement__2_3_3__opus_001",
       "sectionTitle": "La gestion des équipements collectifs",
       "sourceLink": "#section-107-operations-amenagement__2_3_3",
-      "sourceText": "Si les équipements sont transférés dans le domaine public de la collectivité, c’est cette dernière qui assure la gestion et l’entretien des équipements communs.",
-      "sourceContext": "Si les équipements sont transférés dans le domaine public de la collectivité, c’est cette dernière qui assure la gestion et l’entretien des équipements communs.",
+      "sourceText": "Doit être constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs.",
+      "sourceContext": "Doit être constituée une association syndicale des acquéreurs de lots à laquelle seront dévolus la propriété, la gestion et l'entretien des terrains et équipements communs.",
       "sectionId": "107-operations-amenagement__2_3_3",
       "keywords": [
-        "équipements communs",
+        "lotissement",
+        "association syndicale",
+        "équipements communs"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Lorsque les équipements communs sont transférés dans le domaine public de la collectivité, qui en assure la gestion et l'entretien ?",
+      "options": [
+        "Le lotisseur, qui conserve la charge de l'entretien",
+        "L'association syndicale des acquéreurs, qui demeure compétente",
+        "Le préfet, au titre de son pouvoir de police",
+        "La collectivité, qui assure alors la gestion et l'entretien des équipements communs"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que si les équipements sont transférés dans le domaine public de la collectivité, c'est cette dernière qui assure la gestion et l'entretien des équipements communs.",
+      "id": "urb__107-operations-amenagement__2_3_3__opus_002",
+      "sectionTitle": "La gestion des équipements collectifs",
+      "sourceLink": "#section-107-operations-amenagement__2_3_3",
+      "sourceText": "Si les équipements sont transférés dans le domaine public de la collectivité, c'est cette dernière qui assure la gestion et l'entretien des équipements communs.",
+      "sourceContext": "Si les équipements sont transférés dans le domaine public de la collectivité, c'est cette dernière qui assure la gestion et l'entretien des équipements communs.",
+      "sectionId": "107-operations-amenagement__2_3_3",
+      "keywords": [
+        "lotissement",
         "domaine public",
         "gestion"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "En dehors de l'hypothèse amiable de transfert, comment des voies privées d'un lotissement peuvent-elles être transférées dans le domaine public de la commune ?",
+      "options": [
+        "Par simple décision unilatérale du lotisseur",
+        "D'office, après enquête publique",
+        "Par tirage au sort entre les acquéreurs de lots",
+        "Par vente de gré à gré à un opérateur privé"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique qu'hormis l'hypothèse amiable, il est aussi possible que les voies privées soient d'office transférées dans le domaine public de la commune sur laquelle elles sont situées, après enquête publique.",
+      "id": "urb__107-operations-amenagement__2_3_3__opus_003",
+      "sectionTitle": "La gestion des équipements collectifs",
+      "sourceLink": "#section-107-operations-amenagement__2_3_3",
+      "sourceText": "il est aussi possible que les voies privées soient d'office transférées dans le domaine public de la commune sur laquelle elles sont situées, après enquête publique.",
+      "sourceContext": "il est aussi possible que les voies privées soient d'office transférées dans le domaine public de la commune sur laquelle elles sont situées, après enquête publique.",
+      "sectionId": "107-operations-amenagement__2_3_3",
+      "keywords": [
+        "lotissement",
+        "transfert d'office",
+        "enquête publique"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lorsqu'un permis de construire est demandé sur un lot avant l'exécution complète des travaux, à quelle condition peut-il être accordé ?",
+      "options": [
+        "À condition que le préfet ait approuvé chaque construction",
+        "À condition que les équipements desservant le lot soient achevés",
+        "À condition que la commune renonce à toute taxe",
+        "À condition que tous les lots du lotissement soient déjà vendus"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le permis de construire peut être accordé sur les lots avant exécution des travaux, à condition que les équipements desservant le lot soient achevés.",
+      "id": "urb__107-operations-amenagement__2_3_4__opus_001",
+      "sectionTitle": "La construction du lotissement",
+      "sourceLink": "#section-107-operations-amenagement__2_3_4",
+      "sourceText": "lots avant exécution des travaux, à condition que les équipements desservant le lot soient achevés.",
+      "sourceContext": "lots avant exécution des travaux, à condition que les équipements desservant le lot soient achevés.",
+      "sectionId": "107-operations-amenagement__2_3_4",
+      "keywords": [
+        "lotissement",
+        "permis de construire",
+        "équipements desservant"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Un lot est vendu avant l'exécution des travaux du lotissement. Quel document le lotisseur fournit-il à l'acquéreur pour permettre la demande de permis de construire ?",
+      "options": [
+        "Un certificat attestant, sous sa responsabilité, l'achèvement des équipements desservant le lot, joint à la demande de permis",
+        "Une attestation d'assurance dommages-ouvrage",
+        "Une déclaration d'utilité publique",
+        "Un cahier des charges de cession de terrain approuvé par le préfet"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que dans ce cas, le lotisseur fournit à l'acquéreur un certificat attestant, sous sa responsabilité, l'achèvement de ces équipements, et que ce certificat est joint à la demande de permis.",
+      "id": "urb__107-operations-amenagement__2_3_4__opus_002",
+      "sectionTitle": "La construction du lotissement",
+      "sourceLink": "#section-107-operations-amenagement__2_3_4",
+      "sourceText": "le lotisseur fournit à l'acquéreur un certificat attestant, sous sa responsabilité, l'achèvement de ces équipements. Ce certificat est joint à la demande de permis soit mis en œuvre que lorsque les équipements desservant le lot seront achevés ; cette possibilité n'est pas ouverte lorsque la construction est une maison individuelle.",
+      "sourceContext": "le lotisseur fournit à l'acquéreur un certificat attestant, sous sa responsabilité, l'achèvement de ces équipements. Ce certificat est joint à la demande de permis soit mis en œuvre que lorsque les équipements desservant le lot seront achevés ; cette possibilité n'est pas ouverte lorsque la construction est une maison individuelle.",
+      "sectionId": "107-operations-amenagement__2_3_4",
+      "keywords": [
+        "lotissement",
+        "certificat",
+        "achèvement des équipements"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "La possibilité de mettre en œuvre le permis de construire seulement lorsque les équipements desservant le lot seront achevés est-elle ouverte pour une maison individuelle ?",
+      "options": [
+        "Non, sauf accord exprès de l'association syndicale",
+        "Oui, elle est ouverte sans restriction pour les maisons individuelles",
+        "Oui, mais uniquement si la maison est située en site classé",
+        "Non, cette possibilité n'est pas ouverte lorsque la construction est une maison individuelle"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que la mise en œuvre du permis lorsque les équipements desservant le lot seront achevés n'est pas ouverte lorsque la construction est une maison individuelle.",
+      "id": "urb__107-operations-amenagement__2_3_4__opus_003",
+      "sectionTitle": "La construction du lotissement",
+      "sourceLink": "#section-107-operations-amenagement__2_3_4",
+      "sourceText": "cette possibilité n'est pas ouverte lorsque la construction est une maison individuelle.",
+      "sourceContext": "cette possibilité n'est pas ouverte lorsque la construction est une maison individuelle.",
+      "sectionId": "107-operations-amenagement__2_3_4",
+      "keywords": [
+        "lotissement",
+        "maison individuelle",
+        "permis de construire"
       ]
     }
   ]

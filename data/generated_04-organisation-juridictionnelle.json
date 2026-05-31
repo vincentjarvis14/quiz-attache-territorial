@@ -1,0 +1,688 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Selon quels ordres l'organisation juridictionnelle française est-elle structurée ?",
+      "options": [
+        "Deux ordres : l'ordre judiciaire et l'ordre administratif",
+        "Trois ordres : judiciaire, administratif et constitutionnel",
+        "Un seul ordre unifié sous l'autorité du Conseil d'État",
+        "Deux ordres : l'ordre civil et l'ordre pénal"
+      ],
+      "answer": 0,
+      "explanation": "L'organisation juridictionnelle française est divisée en deux ordres : l'ordre judiciaire et l'ordre administratif.",
+      "id": "env__04-organisation-juridictionnelle__c2__opus_001",
+      "sectionTitle": "Partie 2",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c2",
+      "sourceText": "L'organisation juridictionnelle en France est divisée en deux ordres juridictionnels : l'ordre judiciaire et l'ordre administratif.",
+      "sourceContext": "L'organisation juridictionnelle en France est divisée en deux ordres juridictionnels : l'ordre judiciaire et l'ordre administratif.",
+      "sectionId": "04-organisation-juridictionnelle__c2",
+      "keywords": ["ordres juridictionnels", "judiciaire", "administratif"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est l'objet du pourvoi en Cour de cassation ou auprès du Conseil d'État ?",
+      "options": [
+        "Vérifier le respect des règles de procédure et de droit, sans rejuger une troisième fois le litige",
+        "Rejuger entièrement le litige sur les faits et sur le droit",
+        "Statuer en premier ressort sur les litiges les plus graves",
+        "Trancher les conflits de compétence entre les deux ordres"
+      ],
+      "answer": 0,
+      "explanation": "Le pourvoi ne rejuge pas le litige mais vérifie le respect des règles de procédure et de droit.",
+      "id": "env__04-organisation-juridictionnelle__c2__opus_002",
+      "sectionTitle": "Partie 2",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c2",
+      "sourceText": "En revanche, le pourvoi, en Cour de Cassation ou auprès du Conseil d'Etat, ne va pas juger une troisième fois le litige mais vérifier le respect des règles de procédure et de droits.",
+      "sourceContext": "En revanche, le pourvoi, en Cour de Cassation ou auprès du Conseil d'Etat, ne va pas juger une troisième fois le litige mais vérifier le respect des règles de procédure et de droits.",
+      "sectionId": "04-organisation-juridictionnelle__c2",
+      "keywords": ["pourvoi", "cassation", "procédure"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle juridiction juge les comptes des comptables publics des collectivités territoriales ?",
+      "options": [
+        "La Chambre Régionale des Comptes",
+        "La Cour des Comptes",
+        "Le tribunal administratif",
+        "Le tribunal judiciaire"
+      ],
+      "answer": 0,
+      "explanation": "La Chambre Régionale des Comptes juge en premier ressort les comptes des comptables publics des collectivités territoriales.",
+      "id": "env__04-organisation-juridictionnelle__c3__opus_003",
+      "sectionTitle": "Partie 3",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c3",
+      "sourceText": "La Chambre Régionale des Comptes, juge en premier ressort des comptes tenus par les comptables publics des collectivités territoriales et de leurs établissements publics, des lycées, des collèges, hôpitaux… territorialement compétents, soit 15 806 comptables publics.",
+      "sourceContext": "La Chambre Régionale des Comptes, juge en premier ressort des comptes tenus par les comptables publics des collectivités territoriales et de leurs établissements publics, des lycées, des collèges, hôpitaux… territorialement compétents, soit 15 806 comptables publics.",
+      "sectionId": "04-organisation-juridictionnelle__c3",
+      "keywords": ["Chambre Régionale des Comptes", "comptables publics", "collectivités"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel cas un litige relève-t-il du tribunal judiciaire, juridiction de droit commun ?",
+      "options": [
+        "Lorsqu'aucune autre juridiction ne s'est vu attribuer spécifiquement une compétence",
+        "Uniquement pour les litiges entre commerçants",
+        "Seulement pour les litiges du travail entre salariés et employeurs",
+        "Exclusivement pour les litiges opposant l'administration aux particuliers"
+      ],
+      "answer": 0,
+      "explanation": "Le tribunal judiciaire connaît des litiges pour lesquels aucune autre juridiction n'a reçu spécifiquement compétence.",
+      "id": "env__04-organisation-juridictionnelle__c4__opus_004",
+      "sectionTitle": "Partie 4",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c4",
+      "sourceText": "Il a à connaître des litiges civils de nature civile (état civil, changement de nom et de prénom, divorce, adoption…) et commerciale (loyers, droits bancaires…) pour lesquels aucune autre juridiction ne s'est vu attribuer, spécifiquement, une compétence (exemple le conseil des prud'hommes).",
+      "sourceContext": "Il a à connaître des litiges civils de nature civile (état civil, changement de nom et de prénom, divorce, adoption…) et commerciale (loyers, droits bancaires…) pour lesquels aucune autre juridiction ne s'est vu attribuer, spécifiquement, une compétence (exemple le conseil des prud'hommes).",
+      "sectionId": "04-organisation-juridictionnelle__c4",
+      "keywords": ["tribunal judiciaire", "droit commun", "compétence"]
+    },
+    {
+      "bloom": "application",
+      "q": "Deux voisins s'opposent dans un litige lié au voisinage portant sur 3 000 €. Quelle juridiction est compétente ?",
+      "options": [
+        "Le tribunal de proximité, qui a une compétence exclusive pour les litiges liés au voisinage",
+        "Le tribunal judiciaire, seul compétent en matière de voisinage",
+        "Le tribunal de commerce, pour tout litige inférieur à 5 000 €",
+        "Le conseil de prud'hommes, compétent pour les litiges de la vie quotidienne"
+      ],
+      "answer": 0,
+      "explanation": "Le tribunal de proximité a une compétence exclusive pour les litiges liés au voisinage.",
+      "id": "env__04-organisation-juridictionnelle__c5__opus_005",
+      "sectionTitle": "Partie 5",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c5",
+      "sourceText": "Il a une compétence exclusive pour les litiges liés au voisinage.",
+      "sourceContext": "Il a une compétence exclusive pour les litiges liés au voisinage.",
+      "sectionId": "04-organisation-juridictionnelle__c5",
+      "keywords": ["tribunal de proximité", "voisinage", "compétence exclusive"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la compétence principale du conseil de prud'hommes ?",
+      "options": [
+        "Régler les litiges individuels nés lors de la relation de travail entre salariés, apprentis et employeurs",
+        "Trancher les désaccords issus des relations collectives de travail comme la grève",
+        "Juger les litiges entre commerçants et particuliers",
+        "Statuer sur les contrats des agents contractuels de droit public"
+      ],
+      "answer": 0,
+      "explanation": "Le conseil de prud'hommes règle les litiges individuels nés lors de la relation de travail entre salariés, apprentis et employeurs.",
+      "id": "env__04-organisation-juridictionnelle__c6__opus_006",
+      "sectionTitle": "Partie 6",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c6",
+      "sourceText": "Le conseil de prud'hommes est une juridiction de premier degré, dont la compétence principale, est de régler par la conciliation les différends et les litiges individuels nés lors de la relation de travail entre salariés, apprentis et employeurs.",
+      "sourceContext": "Le conseil de prud'hommes est une juridiction de premier degré, dont la compétence principale, est de régler par la conciliation les différends et les litiges individuels nés lors de la relation de travail entre salariés, apprentis et employeurs.",
+      "sectionId": "04-organisation-juridictionnelle__c6",
+      "keywords": ["conseil de prud'hommes", "relation de travail", "litiges individuels"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un commerçant conteste un litige de 4 000 € devant le tribunal de commerce. Quelle voie de recours lui reste-t-il ?",
+      "options": [
+        "Seul un pourvoi en cassation, car le tribunal statue en premier et dernier ressort",
+        "Un appel devant la cour d'appel, puis un pourvoi en cassation",
+        "Aucun recours, la décision est définitive",
+        "Un recours gracieux devant le tribunal judiciaire"
+      ],
+      "answer": 0,
+      "explanation": "Pour un litige n'excédant pas 5 000 €, le tribunal de commerce statue en premier et dernier ressort, seul un pourvoi en cassation étant possible.",
+      "id": "env__04-organisation-juridictionnelle__c7__opus_007",
+      "sectionTitle": "Partie 7",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c7",
+      "sourceText": "Quand le litige ne dépasse pas 5 000 €, le tribunal de commerce statue en premier et dernier ressort, sans appel. Seul un pourvoi en cassation est possible.",
+      "sourceContext": "Quand le litige ne dépasse pas 5 000 €, le tribunal de commerce statue en premier et dernier ressort, sans appel. Seul un pourvoi en cassation est possible.",
+      "sectionId": "04-organisation-juridictionnelle__c7",
+      "keywords": ["tribunal de commerce", "premier et dernier ressort", "pourvoi"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Pour quels litiges le tribunal paritaire des baux ruraux est-il compétent ?",
+      "options": [
+        "Les litiges entre les propriétaires bailleurs et les exploitants de terres",
+        "Les litiges entre commerçants relatifs à des récoltes",
+        "Les litiges de voisinage en zone agricole",
+        "Les litiges entre l'administration et les agriculteurs"
+      ],
+      "answer": 0,
+      "explanation": "Le tribunal des baux ruraux est compétent pour juger des litiges entre les propriétaires bailleurs et les exploitants de terres.",
+      "id": "env__04-organisation-juridictionnelle__c8__opus_008",
+      "sectionTitle": "Partie 8",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c8",
+      "sourceText": "Le tribunal des baux ruraux est donc compétent pour juger des litiges entre les propriétaires bailleurs et les exploitants de terres.",
+      "sourceContext": "Le tribunal des baux ruraux est donc compétent pour juger des litiges entre les propriétaires bailleurs et les exploitants de terres.",
+      "sectionId": "04-organisation-juridictionnelle__c8",
+      "keywords": ["baux ruraux", "bailleurs", "exploitants"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment se classent les trois catégories d'infractions jugées par les juridictions pénales, de la moins grave à la plus grave ?",
+      "options": [
+        "La contravention, le délit, puis le crime",
+        "Le délit, la contravention, puis le crime",
+        "La contravention, le crime, puis le délit",
+        "Le crime, le délit, puis la contravention"
+      ],
+      "answer": 0,
+      "explanation": "La contravention est l'infraction la moins grave, le délit l'infraction intermédiaire et le crime l'infraction la plus grave.",
+      "id": "env__04-organisation-juridictionnelle__c8__opus_009",
+      "sectionTitle": "Partie 8",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c8",
+      "sourceText": "La contravention est l'infraction la moins grave, le délit est l'infraction intermédiaire et le crime est l'infraction la plus grave.",
+      "sourceContext": "La contravention est l'infraction la moins grave, le délit est l'infraction intermédiaire et le crime est l'infraction la plus grave.",
+      "sectionId": "04-organisation-juridictionnelle__c8",
+      "keywords": ["contravention", "délit", "crime"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles sont les deux peines principales prévues pour sanctionner un délit ?",
+      "options": [
+        "L'emprisonnement et l'amende",
+        "La réclusion criminelle et l'amende",
+        "Le travail d'intérêt général et le jour-amende",
+        "L'emprisonnement et la confiscation de véhicule"
+      ],
+      "answer": 0,
+      "explanation": "Les délits sont punis de deux peines principales prévues par l'article 131-3 du code pénal : l'emprisonnement et l'amende.",
+      "id": "env__04-organisation-juridictionnelle__c9__opus_010",
+      "sectionTitle": "Partie 9",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c9",
+      "sourceText": "Les délits sont punis d'une des deux peines principales prévues par l'article 131-3 du code pénal : l'emprisonnement et l'amende.",
+      "sourceContext": "Les délits sont punis d'une des deux peines principales prévues par l'article 131-3 du code pénal : l'emprisonnement et l'amende.",
+      "sectionId": "04-organisation-juridictionnelle__c9",
+      "keywords": ["délit", "emprisonnement", "amende"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment nomme-t-on la peine de prison en matière de crime ?",
+      "options": [
+        "La réclusion criminelle, ou détention criminelle pour les crimes politiques",
+        "L'emprisonnement correctionnel",
+        "La détention provisoire",
+        "Le travail d'intérêt général aggravé"
+      ],
+      "answer": 0,
+      "explanation": "La peine de prison en matière de crime est appelée réclusion criminelle, ou détention criminelle pour les crimes politiques.",
+      "id": "env__04-organisation-juridictionnelle__c9__opus_011",
+      "sectionTitle": "Partie 9",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c9",
+      "sourceText": "La peine de prison en matière de crime est appelée réclusion criminelle – ou détention criminelle pour les crimes politiques.",
+      "sourceContext": "La peine de prison en matière de crime est appelée réclusion criminelle – ou détention criminelle pour les crimes politiques.",
+      "sectionId": "04-organisation-juridictionnelle__c9",
+      "keywords": ["crime", "réclusion criminelle", "détention"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel cas l'information judiciaire est-elle obligatoire ?",
+      "options": [
+        "Lorsque les faits sont de nature criminelle",
+        "Lorsque les faits sont de nature contraventionnelle",
+        "Dans tous les cas, quelle que soit la gravité des faits",
+        "Lorsque les faits sont de nature délictuelle et simples"
+      ],
+      "answer": 0,
+      "explanation": "L'information judiciaire est obligatoire lorsque les faits sont de nature criminelle, et facultative pour les faits délictuels.",
+      "id": "env__04-organisation-juridictionnelle__c11__opus_012",
+      "sectionTitle": "Partie 11",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c11",
+      "sourceText": "L'information judiciaire est obligatoire lorsque les faits sont de nature criminelle, et facultative lorsque les faits sont de nature délictuelle.",
+      "sourceContext": "L'information judiciaire est obligatoire lorsque les faits sont de nature criminelle, et facultative lorsque les faits sont de nature délictuelle.",
+      "sectionId": "04-organisation-juridictionnelle__c11",
+      "keywords": ["information judiciaire", "crime", "obligatoire"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle obligation pèse sur le juge d'instruction lorsqu'il instruit un dossier ?",
+      "options": [
+        "Rechercher à la fois des preuves d'innocence et de culpabilité, à charge et à décharge",
+        "Rechercher uniquement les preuves de culpabilité de la personne mise en examen",
+        "Représenter le ministère public lors de l'audience de jugement",
+        "Prononcer la peine définitive à l'encontre de la personne soupçonnée"
+      ],
+      "answer": 0,
+      "explanation": "Le juge d'instruction instruit le dossier à charge et à décharge, recherchant des preuves d'innocence comme de culpabilité.",
+      "id": "env__04-organisation-juridictionnelle__c11__opus_013",
+      "sectionTitle": "Partie 11",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c11",
+      "sourceText": "Il est chargé d'instruire le dossier à charge et à décharge, ce qui signifie que le code de procédure pénale lui fait obligation de rechercher à la fois des preuves d'innocence et de culpabilité des personnes soupçonnées d'avoir commis les faits ayant motivé l'ouverture de l'information judiciaire.",
+      "sourceContext": "Il est chargé d'instruire le dossier à charge et à décharge, ce qui signifie que le code de procédure pénale lui fait obligation de rechercher à la fois des preuves d'innocence et de culpabilité des personnes soupçonnées d'avoir commis les faits ayant motivé l'ouverture de l'information judiciaire.",
+      "sectionId": "04-organisation-juridictionnelle__c11",
+      "keywords": ["juge d'instruction", "à charge et à décharge", "preuves"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une personne majeure se voit reprocher une contravention. Devant quelle juridiction sera-t-elle jugée ?",
+      "options": [
+        "Le tribunal de police, qui statue à juge unique",
+        "Le tribunal correctionnel, en formation collégiale",
+        "La cour criminelle départementale",
+        "Le tribunal judiciaire en formation civile"
+      ],
+      "answer": 0,
+      "explanation": "Le tribunal de police, statuant à juge unique, juge les contraventions reprochées aux personnes majeures.",
+      "id": "env__04-organisation-juridictionnelle__c12__opus_014",
+      "sectionTitle": "Partie 12",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c12",
+      "sourceText": "Le tribunal de police est une juridiction statuant à juge unique assisté d'un greffier et chargé de juger les contraventions reprochées à des personnes majeures.",
+      "sourceContext": "Le tribunal de police est une juridiction statuant à juge unique assisté d'un greffier et chargé de juger les contraventions reprochées à des personnes majeures.",
+      "sectionId": "04-organisation-juridictionnelle__c12",
+      "keywords": ["tribunal de police", "contraventions", "juge unique"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la compétence du tribunal correctionnel ?",
+      "options": [
+        "Juger les délits commis par des personnes majeures et les contraventions qui y sont liées",
+        "Juger les crimes punis de la réclusion criminelle à perpétuité",
+        "Juger les seules contraventions des personnes majeures",
+        "Juger les litiges civils opposant des particuliers"
+      ],
+      "answer": 0,
+      "explanation": "Le tribunal correctionnel juge les délits commis par des personnes majeures et les contraventions liées à ces mêmes délits.",
+      "id": "env__04-organisation-juridictionnelle__c12__opus_015",
+      "sectionTitle": "Partie 12",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c12",
+      "sourceText": "Le tribunal correctionnel est chargé de juger les délits commis par des personnes majeures (vol, violences graves, escroqueries, discriminations, homicide involontaire, agressions sexuelles…) et les contraventions liées à ces mêmes délits.",
+      "sourceContext": "Le tribunal correctionnel est chargé de juger les délits commis par des personnes majeures (vol, violences graves, escroqueries, discriminations, homicide involontaire, agressions sexuelles…) et les contraventions liées à ces mêmes délits.",
+      "sectionId": "04-organisation-juridictionnelle__c12",
+      "keywords": ["tribunal correctionnel", "délits", "personnes majeures"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une personne majeure est accusée d'un crime puni de 15 à 20 ans de réclusion, hors récidive légale. Quelle juridiction la juge ?",
+      "options": [
+        "La cour criminelle départementale",
+        "La cour d'assise composée d'un jury de citoyens",
+        "Le tribunal correctionnel à juge unique",
+        "Le tribunal de police"
+      ],
+      "answer": 0,
+      "explanation": "La cour criminelle départementale juge les personnes majeures accusées d'un crime puni de 15 à 20 ans de réclusion hors récidive légale.",
+      "id": "env__04-organisation-juridictionnelle__c13__opus_016",
+      "sectionTitle": "Partie 13",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c13",
+      "sourceText": "Elle a vocation à juger des personnes majeures accusé d'un crime puni de 15 à 20 ans de réclusion hors récidive légale (viol, vol à main armée…).",
+      "sourceContext": "Elle a vocation à juger des personnes majeures accusé d'un crime puni de 15 à 20 ans de réclusion hors récidive légale (viol, vol à main armée…).",
+      "sectionId": "04-organisation-juridictionnelle__c13",
+      "keywords": ["cour criminelle départementale", "crime", "15 à 20 ans"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Comment est composée la cour d'assise jugeant les crimes les plus graves ?",
+      "options": [
+        "De 3 juges professionnels et d'un jury de 6 citoyens tirés au sort",
+        "De 5 juges professionnels sans jury populaire",
+        "D'un juge unique assisté d'un greffier",
+        "De 4 assesseurs non professionnels présidés par un juge"
+      ],
+      "answer": 0,
+      "explanation": "La cour d'assise est composée de 3 juges professionnels et d'un jury de 6 citoyens tirés au sort sur les listes électorales.",
+      "id": "env__04-organisation-juridictionnelle__c13__opus_017",
+      "sectionTitle": "Partie 13",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c13",
+      "sourceText": "Elle est saisie par un juge d'instruction et composée de 3 juges professionnels et d'un jury constitué de 6 citoyens tirés au sort sur les listes électorales.",
+      "sourceContext": "Elle est saisie par un juge d'instruction et composée de 3 juges professionnels et d'un jury constitué de 6 citoyens tirés au sort sur les listes électorales.",
+      "sectionId": "04-organisation-juridictionnelle__c13",
+      "keywords": ["cour d'assise", "jury", "citoyens"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Par quel texte le principe de spécialisation de la justice des mineurs est-il garanti ?",
+      "options": [
+        "La Convention internationale des droits de l'enfant du 20 novembre 1989",
+        "Le code de la justice pénale pour mineurs",
+        "La Constitution de la Ve République",
+        "La loi de programmation 2018-2022"
+      ],
+      "answer": 0,
+      "explanation": "Le principe de spécialisation est garanti par la Convention internationale des droits de l'enfant du 20 novembre 1989.",
+      "id": "env__04-organisation-juridictionnelle__c14__opus_018",
+      "sectionTitle": "Partie 14",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c14",
+      "sourceText": "Le principe de spécialisation est garanti par la Convention internationale des droits de l'enfant du 20 novembre 1989.",
+      "sourceContext": "Le principe de spécialisation est garanti par la Convention internationale des droits de l'enfant du 20 novembre 1989.",
+      "sectionId": "04-organisation-juridictionnelle__c14",
+      "keywords": ["mineurs", "spécialisation", "Convention droits de l'enfant"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi un tribunal ne peut-il pas réexaminer lui-même une affaire qu'il a déjà jugée ?",
+      "options": [
+        "En raison du principe de l'autorité de la chose jugée",
+        "En raison du principe de séparation des deux ordres",
+        "Parce que seul le ministère public peut le saisir à nouveau",
+        "Parce que l'appel n'a pas d'effet suspensif"
+      ],
+      "answer": 0,
+      "explanation": "En raison du principe de l'autorité de la chose jugée, un tribunal ne peut pas réexaminer une affaire qu'il a déjà jugée.",
+      "id": "env__04-organisation-juridictionnelle__c15__opus_019",
+      "sectionTitle": "Partie 15",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c15",
+      "sourceText": "En effet, en raison du principe de l'autorité de la chose jugée, un tribunal ne peut pas réexaminer une affaire qu'il a déjà jugée.",
+      "sourceContext": "En effet, en raison du principe de l'autorité de la chose jugée, un tribunal ne peut pas réexaminer une affaire qu'il a déjà jugée.",
+      "sectionId": "04-organisation-juridictionnelle__c15",
+      "keywords": ["autorité de la chose jugée", "cour d'appel", "réexamen"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle chambre de la cour d'appel examine les décisions du tribunal de commerce ?",
+      "options": [
+        "La chambre commerciale",
+        "Les chambres civiles",
+        "La chambre de l'application des peines",
+        "La chambre de l'instruction"
+      ],
+      "answer": 0,
+      "explanation": "La chambre commerciale de la cour d'appel examine les décisions du tribunal de commerce.",
+      "id": "env__04-organisation-juridictionnelle__c16__opus_020",
+      "sectionTitle": "Partie 16",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c16",
+      "sourceText": "La chambre commerciale qui examine les décisions du tribunal de commerce.",
+      "sourceContext": "La chambre commerciale qui examine les décisions du tribunal de commerce.",
+      "sectionId": "04-organisation-juridictionnelle__c16",
+      "keywords": ["cour d'appel", "chambre commerciale", "tribunal de commerce"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle est la mission de la Cour de cassation, plus haute juridiction de l'ordre judiciaire ?",
+      "options": [
+        "Veiller à ce que les règles de droit soient appliquées de manière identique sur tout le territoire",
+        "Rejuger les faits une troisième fois pour corriger les erreurs d'appréciation",
+        "Trancher les conflits de compétence entre les deux ordres juridictionnels",
+        "Contrôler la conformité des lois à la Constitution"
+      ],
+      "answer": 0,
+      "explanation": "La Cour de cassation juge en droit, sa mission étant de veiller à l'application identique des règles de droit sur tout le territoire.",
+      "id": "env__04-organisation-juridictionnelle__c16__opus_021",
+      "sectionTitle": "Partie 16",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c16",
+      "sourceText": "Elle ne ré-examine pas les faits mais juge uniquement en droit. Sa mission est de veiller à ce que les règles de droit soient appliquées de manière identique sur l'ensemble du territoire.",
+      "sourceContext": "Elle ne ré-examine pas les faits mais juge uniquement en droit. Sa mission est de veiller à ce que les règles de droit soient appliquées de manière identique sur l'ensemble du territoire.",
+      "sectionId": "04-organisation-juridictionnelle__c16",
+      "keywords": ["Cour de cassation", "juge en droit", "application uniforme"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles sont les deux catégories de magistrats au sein de l'ordre judiciaire ?",
+      "options": [
+        "Les magistrats du siège et les magistrats du parquet",
+        "Les magistrats professionnels et les juges consulaires",
+        "Les conseillers et les présidents",
+        "Les magistrats du siège et les juges administratifs"
+      ],
+      "answer": 0,
+      "explanation": "On distingue deux catégories de magistrats : les magistrats du siège et les magistrats du parquet.",
+      "id": "env__04-organisation-juridictionnelle__c17__opus_022",
+      "sectionTitle": "Partie 17",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c17",
+      "sourceText": "On distingue deux catégories de magistrats : les magistrats du siège et les magistrats du parquet.",
+      "sourceContext": "On distingue deux catégories de magistrats : les magistrats du siège et les magistrats du parquet.",
+      "sectionId": "04-organisation-juridictionnelle__c17",
+      "keywords": ["magistrats", "siège", "parquet"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est le rôle des magistrats du parquet lors des audiences ?",
+      "options": [
+        "Ils représentent le ministère public et la société, et ne rendent pas de jugement",
+        "Ils prononcent les jugements au nom du peuple français",
+        "Ils instruisent les dossiers à charge et à décharge",
+        "Ils assurent le greffe et la conservation des pièces"
+      ],
+      "answer": 0,
+      "explanation": "Les magistrats du parquet représentent le ministère public et la société lors des audiences, et ne rendent pas de jugement.",
+      "id": "env__04-organisation-juridictionnelle__c19__opus_023",
+      "sectionTitle": "Partie 19",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c19",
+      "sourceText": "Les magistrats du parquet représentent le ministère public, la société, lors des audiences. Ils ne rendent pas de jugement.",
+      "sourceContext": "Les magistrats du parquet représentent le ministère public, la société, lors des audiences. Ils ne rendent pas de jugement.",
+      "sectionId": "04-organisation-juridictionnelle__c19",
+      "keywords": ["parquet", "ministère public", "audiences"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle valeur juridique est reconnue à l'indépendance de la juridiction administrative ?",
+      "options": [
+        "Une valeur constitutionnelle",
+        "Une simple valeur réglementaire",
+        "Une valeur conventionnelle internationale",
+        "Une valeur législative ordinaire"
+      ],
+      "answer": 0,
+      "explanation": "L'indépendance de la juridiction administrative est reconnue à valeur constitutionnelle.",
+      "id": "env__04-organisation-juridictionnelle__c20__opus_024",
+      "sectionTitle": "Partie 20",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c20",
+      "sourceText": "Cette indépendance de la juridiction administrative est reconnue à valeur constitutionnelle.",
+      "sourceContext": "Cette indépendance de la juridiction administrative est reconnue à valeur constitutionnelle.",
+      "sectionId": "04-organisation-juridictionnelle__c20",
+      "keywords": ["juridiction administrative", "indépendance", "valeur constitutionnelle"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un usager mécontent d'une décision défavorable de l'administration lui demande directement de la revoir. De quel type de recours s'agit-il ?",
+      "options": [
+        "Un recours gracieux auprès de l'administration",
+        "Un recours contentieux devant le tribunal administratif",
+        "Un pourvoi en cassation devant le Conseil d'État",
+        "Une question prioritaire de constitutionnalité"
+      ],
+      "answer": 0,
+      "explanation": "Lorsque l'administré demande à l'administration de revoir sa décision, il exerce un recours gracieux, distinct du recours contentieux.",
+      "id": "env__04-organisation-juridictionnelle__c21__opus_025",
+      "sectionTitle": "Partie 21",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c21",
+      "sourceText": "En effet, si l'administration prend une décision que l'administré juge défavorable il peut exercer un recours gracieux auprès de l'administration lui demandant de revoir sa décision.",
+      "sourceContext": "En effet, si l'administration prend une décision que l'administré juge défavorable il peut exercer un recours gracieux auprès de l'administration lui demandant de revoir sa décision.",
+      "sectionId": "04-organisation-juridictionnelle__c21",
+      "keywords": ["recours gracieux", "administration", "décision défavorable"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Comment se détermine le tribunal administratif territorialement compétent ?",
+      "options": [
+        "C'est celui dans le ressort duquel se trouve l'autorité administrative ayant pris la décision litigieuse",
+        "C'est celui du domicile du requérant qui conteste la décision",
+        "C'est systématiquement le tribunal administratif de Paris",
+        "C'est celui choisi librement par le requérant"
+      ],
+      "answer": 0,
+      "explanation": "Le tribunal compétent est celui dans le ressort duquel se trouve l'autorité administrative qui a pris la décision litigieuse.",
+      "id": "env__04-organisation-juridictionnelle__c22__opus_026",
+      "sectionTitle": "Partie 22",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c22",
+      "sourceText": "Le tribunal compétent est celui dans le ressort duquel se trouve l'autorité administrative qui a pris la décision ou passé l'acte litigieux.",
+      "sourceContext": "Le tribunal compétent est celui dans le ressort duquel se trouve l'autorité administrative qui a pris la décision ou passé l'acte litigieux.",
+      "sectionId": "04-organisation-juridictionnelle__c22",
+      "keywords": ["tribunal administratif", "compétence territoriale", "ressort"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel effet l'appel produit-il sur le jugement rendu par le tribunal administratif ?",
+      "options": [
+        "Aucun effet suspensif : le jugement doit être exécuté jusqu'à la décision d'appel",
+        "Un effet suspensif automatique qui dispense d'exécuter le jugement",
+        "L'annulation immédiate du jugement de premier ressort",
+        "Le renvoi du litige devant le Conseil constitutionnel"
+      ],
+      "answer": 0,
+      "explanation": "L'appel n'a pas d'effet suspensif : le requérant doit exécuter le jugement de premier ressort jusqu'à la décision de la cour administrative d'appel.",
+      "id": "env__04-organisation-juridictionnelle__c23__opus_027",
+      "sectionTitle": "Partie 23",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c23",
+      "sourceText": "L'appel n'a pas d'effet suspensif sur le jugement du tribunal administratif. Cela signifie que le requérant doit exécuter le jugement rendu en premier ressort jusqu'à la décision de la cour administrative d'appel.",
+      "sourceContext": "L'appel n'a pas d'effet suspensif sur le jugement du tribunal administratif. Cela signifie que le requérant doit exécuter le jugement rendu en premier ressort jusqu'à la décision de la cour administrative d'appel.",
+      "sectionId": "04-organisation-juridictionnelle__c23",
+      "keywords": ["appel", "effet suspensif", "cour administrative d'appel"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qu'est-ce qui distingue les arrêts de la cour administrative d'appel des décisions du tribunal administratif ?",
+      "options": [
+        "La cour rend des arrêts alors que le tribunal rend des jugements",
+        "La cour rend des jugements alors que le tribunal rend des arrêts",
+        "La cour statue toujours à juge unique, le tribunal en collégialité",
+        "La cour statue sans avocat, le tribunal avec avocat obligatoire"
+      ],
+      "answer": 0,
+      "explanation": "La cour administrative d'appel rend des arrêts, contrairement au tribunal administratif qui rend des jugements.",
+      "id": "env__04-organisation-juridictionnelle__c24__opus_028",
+      "sectionTitle": "Partie 24",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c24",
+      "sourceText": "La cour rend des arrêts contrairement au tribunal qui rend des jugements.",
+      "sourceContext": "La cour rend des arrêts contrairement au tribunal qui rend des jugements.",
+      "sectionId": "04-organisation-juridictionnelle__c24",
+      "keywords": ["cour administrative d'appel", "arrêts", "jugements"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le rôle du Conseil d'État vis-à-vis des arrêts des cours administratives d'appel ?",
+      "options": [
+        "Il en est le juge de cassation et vérifie le respect des règles de procédure et de droit",
+        "Il rejuge une troisième fois le litige sur les faits",
+        "Il statue toujours en premier ressort sur ces affaires",
+        "Il tranche les conflits de compétence avec l'ordre judiciaire"
+      ],
+      "answer": 0,
+      "explanation": "Juridiction suprême de l'ordre administratif, le Conseil d'État est juge de cassation des arrêts des cours administratives d'appel.",
+      "id": "env__04-organisation-juridictionnelle__c25__opus_029",
+      "sectionTitle": "Partie 25",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c25",
+      "sourceText": "Elle est le juge de cassation des arrêts rendus par les cours administratives d'appel.",
+      "sourceContext": "Elle est le juge de cassation des arrêts rendus par les cours administratives d'appel.",
+      "sectionId": "04-organisation-juridictionnelle__c25",
+      "keywords": ["Conseil d'État", "cassation", "cours administratives d'appel"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle garantie statutaire les juges des tribunaux et cours administratives d'appel possèdent-ils ?",
+      "options": [
+        "Une garantie d'inamovibilité inscrite dans la loi du 6 janvier 1986",
+        "Aucune garantie particulière, comme les membres du Conseil d'État",
+        "Une nomination à vie par le Président de la République",
+        "Un statut identique à celui des magistrats judiciaires"
+      ],
+      "answer": 0,
+      "explanation": "Les juges des cours et tribunaux administratifs bénéficient d'une garantie d'inamovibilité inscrite dans la loi du 6 janvier 1986.",
+      "id": "env__04-organisation-juridictionnelle__c26__opus_030",
+      "sectionTitle": "Partie 26",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c26",
+      "sourceText": "les juges des cours et tribunaux administratifs bénéficient d'une garantie d'inamovibilité inscrite dans la loi du 6 janvier 1986.",
+      "sourceContext": "les juges des cours et tribunaux administratifs bénéficient d'une garantie d'inamovibilité inscrite dans la loi du 6 janvier 1986.",
+      "sectionId": "04-organisation-juridictionnelle__c26",
+      "keywords": ["juges administratifs", "inamovibilité", "loi de 1986"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle particularité caractérise le statut des membres du Conseil d'État par rapport aux autres juges administratifs ?",
+      "options": [
+        "Leur statut ne leur confère que des garanties juridiques limitées, sans inamovibilité",
+        "Ils bénéficient d'une inamovibilité plus forte que les autres juges",
+        "Ils relèvent du même corps que les juges des tribunaux administratifs",
+        "Ils sont recrutés exclusivement par voie de détachement"
+      ],
+      "answer": 0,
+      "explanation": "Le statut des membres du Conseil d'État ne leur confère que des garanties juridiques limitées, aucune inamovibilité n'étant prévue.",
+      "id": "env__04-organisation-juridictionnelle__c27__opus_031",
+      "sectionTitle": "Partie 27",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c27",
+      "sourceText": "Le statut des membres de la plus haute juridiction administrative ne leur confère que des garanties juridiques limitées : aucune inamovibilité n'est par exemple prévue.",
+      "sourceContext": "Le statut des membres de la plus haute juridiction administrative ne leur confère que des garanties juridiques limitées : aucune inamovibilité n'est par exemple prévue.",
+      "sectionId": "04-organisation-juridictionnelle__c27",
+      "keywords": ["membres du Conseil d'État", "garanties limitées", "inamovibilité"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Qui règle les conflits d'attribution entre la juridiction administrative et la juridiction judiciaire ?",
+      "options": [
+        "Le Tribunal des conflits",
+        "Le Conseil constitutionnel",
+        "La Cour de cassation",
+        "Le Conseil d'État statuant seul"
+      ],
+      "answer": 0,
+      "explanation": "Les conflits d'attribution entre les deux ordres sont réglés par un Tribunal des conflits.",
+      "id": "env__04-organisation-juridictionnelle__c28__opus_032",
+      "sectionTitle": "Partie 28",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c28",
+      "sourceText": "Les conflits d'attribution entre la juridiction administrative et la juridiction judiciaire sont réglés par un Tribunal des conflits.",
+      "sourceContext": "Les conflits d'attribution entre la juridiction administrative et la juridiction judiciaire sont réglés par un Tribunal des conflits.",
+      "sectionId": "04-organisation-juridictionnelle__c28",
+      "keywords": ["Tribunal des conflits", "conflits d'attribution", "deux ordres"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la portée des décisions rendues par le Tribunal des conflits ?",
+      "options": [
+        "Elles s'imposent à toutes les juridictions de l'ordre judiciaire et de l'ordre administratif",
+        "Elles ne lient que les parties au litige tranché",
+        "Elles peuvent faire l'objet d'un pourvoi devant le Conseil constitutionnel",
+        "Elles ne s'imposent qu'aux seules juridictions administratives"
+      ],
+      "answer": 0,
+      "explanation": "Les décisions du Tribunal des conflits s'imposent à toutes les juridictions de l'ordre judiciaire et de l'ordre administratif.",
+      "id": "env__04-organisation-juridictionnelle__c28__opus_033",
+      "sectionTitle": "Partie 28",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c28",
+      "sourceText": "Les décisions du Tribunal des conflits s'imposent à toutes les juridictions de l'ordre judiciaire et de l'ordre administratif.",
+      "sourceContext": "Les décisions du Tribunal des conflits s'imposent à toutes les juridictions de l'ordre judiciaire et de l'ordre administratif.",
+      "sectionId": "04-organisation-juridictionnelle__c28",
+      "keywords": ["Tribunal des conflits", "décisions", "portée"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est notamment la charge confiée au Conseil constitutionnel ?",
+      "options": [
+        "Le contrôle de conformité de la loi à la Constitution",
+        "Le jugement en cassation des arrêts administratifs",
+        "Le règlement des conflits entre les deux ordres juridictionnels",
+        "Le jugement des comptes des comptables publics"
+      ],
+      "answer": 0,
+      "explanation": "Le Conseil constitutionnel a notamment la charge du contrôle de conformité de la loi à la Constitution.",
+      "id": "env__04-organisation-juridictionnelle__c29__opus_034",
+      "sectionTitle": "Partie 29",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c29",
+      "sourceText": "Régulateur du fonctionnement des pouvoirs publics et juridiction aux compétences variées, il a notamment la charge du contrôle de conformité de la loi à la Constitution.",
+      "sourceContext": "Régulateur du fonctionnement des pouvoirs publics et juridiction aux compétences variées, il a notamment la charge du contrôle de conformité de la loi à la Constitution.",
+      "sectionId": "04-organisation-juridictionnelle__c29",
+      "keywords": ["Conseil constitutionnel", "contrôle de conformité", "Constitution"]
+    },
+    {
+      "bloom": "application",
+      "q": "Au cours d'une instance, un justiciable soutient qu'une loi déjà en vigueur porte atteinte à ses droits garantis par la Constitution. De quel mécanisme s'agit-il ?",
+      "options": [
+        "La question prioritaire de constitutionnalité (QPC), un contrôle a posteriori",
+        "Le contrôle a priori des lois avant promulgation",
+        "Un recours gracieux devant le Conseil constitutionnel",
+        "Un recours contentieux devant le tribunal administratif"
+      ],
+      "answer": 0,
+      "explanation": "Lorsqu'une disposition en application est contestée à l'occasion d'une instance en cours, on parle de question prioritaire de constitutionnalité (QPC).",
+      "id": "env__04-organisation-juridictionnelle__c30__opus_035",
+      "sectionTitle": "Partie 30",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c30",
+      "sourceText": "On parle de question prioritaire de constitutionnalité (QPC).",
+      "sourceContext": "On parle de question prioritaire de constitutionnalité (QPC).",
+      "sectionId": "04-organisation-juridictionnelle__c30",
+      "keywords": ["QPC", "contrôle a posteriori", "Conseil constitutionnel"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "De quelle élection le Conseil constitutionnel proclame-t-il les résultats et surveille-t-il la régularité ?",
+      "options": [
+        "L'élection du Président de la République et les opérations de référendum",
+        "Les seules élections municipales et départementales",
+        "Les élections des comptables publics territoriaux",
+        "Les élections des magistrats du siège"
+      ],
+      "answer": 0,
+      "explanation": "Le Conseil constitutionnel veille à la régularité de l'élection du Président de la République et des opérations de référendum, dont il proclame les résultats.",
+      "id": "env__04-organisation-juridictionnelle__c31__opus_036",
+      "sectionTitle": "Partie 31",
+      "sourceLink": "#section-04-organisation-juridictionnelle__c31",
+      "sourceText": "Le Conseil constitutionnel veille à la régularité de l'élection du Président de la République et des opérations de référendum, dont il proclame les résultats.",
+      "sourceContext": "Le Conseil constitutionnel veille à la régularité de l'élection du Président de la République et des opérations de référendum, dont il proclame les résultats.",
+      "sectionId": "04-organisation-juridictionnelle__c31",
+      "keywords": ["Conseil constitutionnel", "élection présidentielle", "référendum"]
+    }
+  ]
+}

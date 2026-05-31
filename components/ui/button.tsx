@@ -4,43 +4,43 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-semibold ring-offset-background transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-40 select-none",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-semibold ring-offset-background transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-40 select-none",
   {
     variants: {
       variant: {
         default:
-          "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-300 shadow-sm",
+          "border border-ink/10 bg-white text-ink hover:bg-cream/60 shadow-sm",
         primary:
-          "bg-blue-900 text-white hover:bg-blue-800 shadow-sm",
+          "bg-coral-500 text-white hover:bg-coral-600 shadow-sm",
         primaryOutline:
-          "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-400",
+          "border border-ink/15 bg-white text-ink hover:bg-cream/60 hover:border-ink/25",
         secondary:
-          "bg-slate-100 text-slate-700 hover:bg-slate-200",
+          "bg-white text-ink hover:bg-cream/60 shadow-sm",
         secondaryOutline:
-          "border border-slate-300 bg-white text-slate-600 hover:bg-slate-50",
+          "border border-ink/15 bg-transparent text-ink hover:bg-white/60",
         ghost:
-          "text-slate-600 hover:text-slate-900 hover:bg-slate-100",
+          "text-ink/70 hover:text-ink hover:bg-ink/5",
         danger:
-          "bg-rose-600 text-white hover:bg-rose-700 shadow-sm",
+          "bg-coral-600 text-white hover:bg-coral-700 shadow-sm",
         dangerOutline:
-          "border border-rose-200 bg-white text-rose-600 hover:bg-rose-50",
+          "border border-coral-100 bg-white text-coral-600 hover:bg-coral-50",
         super:
-          "bg-indigo-700 text-white hover:bg-indigo-800 shadow-sm",
+          "bg-coral-500 text-white hover:bg-coral-600 shadow-sm",
         superOutline:
-          "border border-indigo-200 bg-white text-indigo-700 hover:bg-indigo-50",
+          "border border-coral-100 bg-white text-coral-600 hover:bg-coral-50",
         locked:
-          "bg-slate-200 text-slate-400 cursor-not-allowed",
+          "bg-ink/10 text-ink/40 cursor-not-allowed",
         sidebar:
-          "bg-transparent text-slate-500 border-2 border-transparent hover:bg-slate-100 transition-none",
+          "bg-transparent text-ink/60 border-2 border-transparent hover:bg-ink/5 transition-none",
         sidebarOutline:
-          "bg-blue-50 text-blue-900 border-blue-200 border-2 hover:bg-blue-100 transition-none",
+          "bg-coral-50 text-coral-700 border-coral-100 border-2 hover:bg-coral-100 transition-none",
       },
       size: {
-        default: "h-10 px-5 py-2",
-        sm: "h-8 px-3 text-xs",
-        lg: "h-11 px-7 text-base",
-        xl: "h-12 px-8 text-base",
-        icon: "h-10 w-10",
+        default: "h-11 px-5 py-2",
+        sm: "h-9 px-4 text-xs",
+        lg: "h-12 px-7 text-base",
+        xl: "h-14 px-9 text-base",
+        icon: "h-11 w-11",
         rounded: "rounded-full",
       },
     },

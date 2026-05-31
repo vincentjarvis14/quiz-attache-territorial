@@ -2,20 +2,20 @@
   "questions": [
     {
       "bloom": "rappel",
-      "q": "Quelles sont les quatre catégories d'autorisations concernées par les contrôles généraux ?",
+      "q": "Selon le texte, quelles sont les quatre catégories soumises aux contrôles généraux d'urbanisme ?",
       "options": [
-        "Le permis de construire, le permis d'aménager, le permis de démolir et la déclaration préalable",
-        "Le permis de construire, le certificat d'urbanisme, le permis de démolir et la déclaration préalable",
-        "Le permis de construire, le permis d'aménager, le permis de lotir et l'autorisation de travaux",
-        "Le permis de construire, le permis d'aménager, le permis de démolir et le certificat d'urbanisme"
+        "Le permis de construire, le permis d'aménager, le permis de lotir et le permis de démolir",
+        "Le permis de construire, le permis de démolir, le certificat d'urbanisme et la déclaration préalable",
+        "Le permis de construire, la déclaration de travaux, le permis d'aménager et le certificat d'urbanisme",
+        "Le permis de construire, le permis d'aménager, le permis de démolir et la déclaration préalable"
       ],
-      "answer": 0,
-      "explanation": "Les contrôles généraux concernent le permis de construire, le permis d'aménager, le permis de démolir et la déclaration préalable.",
-      "id": "urb1__103-regles-communes-autorisations__1_1__opus_001",
+      "answer": 3,
+      "explanation": "Le texte énumère explicitement le permis de construire, le permis d'aménager, le permis de démolir et la déclaration préalable comme les quatre catégories soumises aux contrôles généraux.",
+      "id": "urb__103-regles-communes-autorisations__1_1__opus_001",
       "sectionTitle": "Les hypothèses de contrôle",
       "sourceLink": "#section-103-regles-communes-autorisations__1_1",
-      "sourceText": "Il s'agit du permis de construire, du permis d'aménager, du permis de démolir et de la déclaration préalable.",
-      "sourceContext": "Il s'agit du permis de construire, du permis d'aménager, du permis de démolir et de la déclaration préalable.",
+      "sourceText": "Les contrôles généraux concernent 4 catégories. Il s'agit du permis de construire, du permis d'aménager, du permis de démolir et de la déclaration préalable.",
+      "sourceContext": "Les contrôles généraux concernent 4 catégories. Il s'agit du permis de construire, du permis d'aménager, du permis de démolir et de la déclaration préalable.",
       "sectionId": "103-regles-communes-autorisations__1_1",
       "keywords": [
         "contrôles généraux",
@@ -25,132 +25,223 @@
     },
     {
       "bloom": "comprehension",
-      "q": "À quelle condition relative à leur situation les constructions de très faible importance perdent-elles le bénéfice de la dispense de toute formalité ?",
+      "q": "D'après le texte, à quoi correspondent les régimes particuliers qui subsistent à côté des contrôles généraux ?",
       "options": [
-        "Lorsqu'elles sont implantées dans un secteur sauvegardé ou dans un site classé ou en instance de classement",
-        "Lorsqu'elles sont implantées dans une zone agricole d'un plan local d'urbanisme",
-        "Lorsqu'elles sont implantées à moins de cinquante mètres d'une voie publique",
-        "Lorsqu'elles sont implantées dans une commune dépourvue de carte communale"
+        "Aux travaux d'entretien et de réparation ordinaires sur les bâtiments existants",
+        "Aux seuls projets situés en secteur sauvegardé ou site classé",
+        "Exclusivement aux ouvrages militaires et aux installations classées",
+        "À des projets répondant à un objectif de tourisme et de loisirs, ou des permis pour des constructions saisonnières"
+      ],
+      "answer": 3,
+      "explanation": "Le texte cite, comme exemples de régimes particuliers, les projets répondant à un objectif de tourisme et de loisirs et les permis délivrés pour des constructions saisonnières.",
+      "id": "urb__103-regles-communes-autorisations__1_1__opus_002",
+      "sectionTitle": "Les hypothèses de contrôle",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_1",
+      "sourceText": "Certains régimes particuliers subsistent, qui concernent par exemple les projets répondant à un objectif de tourisme et de loisirs, ou des permis délivrés pour des constructions saisonnières.",
+      "sourceContext": "Certains régimes particuliers subsistent, qui concernent par exemple les projets répondant à un objectif de tourisme et de loisirs, ou des permis délivrés pour des constructions saisonnières.",
+      "sectionId": "103-regles-communes-autorisations__1_1",
+      "keywords": [
+        "régimes particuliers",
+        "tourisme",
+        "constructions saisonnières"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, quel est le statut des projets visés par les hypothèses d'absence de contrôle ?",
+      "options": [
+        "Ils sont, par dérogation, dispensés de toute formalité",
+        "Ils relèvent d'un permis d'aménager allégé",
+        "Ils sont soumis à une simple déclaration préalable",
+        "Ils doivent obtenir un avis conforme du préfet"
       ],
       "answer": 0,
-      "explanation": "La dispense ne joue pas lorsque ces constructions sont implantées dans un secteur sauvegardé ou dans un site classé ou en instance de classement.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_1__opus_002",
-      "sectionTitle": "Les projets dispensés de toute formalité en raison de leur nature ou de leur faible importance",
+      "explanation": "Le texte indique que certains projets, par dérogation, sont dispensés de toute formalité.",
+      "id": "urb__103-regles-communes-autorisations__1_2__opus_001",
+      "sectionTitle": "Les hypothèses d’absence de contrôle",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2",
+      "sourceText": "Certains projets, par dérogation, sont dispensés de toute formalité.",
+      "sourceContext": "Certains projets, par dérogation, sont dispensés de toute formalité.",
+      "sectionId": "103-regles-communes-autorisations__1_2",
+      "keywords": [
+        "dérogation",
+        "dispense",
+        "absence de contrôle"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Pour qu'une construction nouvelle soit dispensée de toute formalité au titre de sa très faible importance, comment doivent être réunis les critères de hauteur, d'emprise au sol et de surface de plancher ?",
+      "options": [
+        "Ils doivent être réunis de façon cumulative",
+        "Seuls les critères d'emprise et de surface comptent, la hauteur étant indifférente",
+        "Les critères s'apprécient alternativement selon la zone",
+        "Il suffit qu'un seul des trois critères soit respecté"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que les constructions nouvelles doivent répondre aux critères cumulatifs de hauteur, d'emprise au sol et de surface de plancher.",
+      "id": "urb__103-regles-communes-autorisations__1_2_1__opus_001",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de leur nature ou de leur faible",
       "sourceLink": "#section-103-regles-communes-autorisations__1_2_1",
       "sourceText": "Sont dispensées de toute formalité, en raison de leur nature ou de leur très faible importance, sauf lorsqu'ils sont implantés dans un secteur sauvegardé ou dans un site classé ou en instance de classement, les constructions nouvelles répondant aux critères cumulatifs suivants : une hauteur au-dessus du sol inférieure ou égale à douze mètres, une emprise au sol inférieure ou égale à cinq mètres carrés, et une surface de plancher inférieure ou égale à cinq mètres carrés.",
       "sourceContext": "Sont dispensées de toute formalité, en raison de leur nature ou de leur très faible importance, sauf lorsqu'ils sont implantés dans un secteur sauvegardé ou dans un site classé ou en instance de classement, les constructions nouvelles répondant aux critères cumulatifs suivants : une hauteur au-dessus du sol inférieure ou égale à douze mètres, une emprise au sol inférieure ou égale à cinq mètres carrés, et une surface de plancher inférieure ou égale à cinq mètres carrés.",
       "sectionId": "103-regles-communes-autorisations__1_2_1",
       "keywords": [
-        "dispense de formalité",
-        "secteur sauvegardé",
-        "site classé"
+        "critères cumulatifs",
+        "construction nouvelle",
+        "dispense"
       ]
     },
     {
-      "bloom": "application",
-      "q": "Un particulier souhaite installer une piscine dispensée de toute formalité en raison de sa faible importance. Quelle superficie maximale le bassin doit-il respecter ?",
+      "bloom": "evaluation",
+      "q": "Une construction de très faible importance respectant les critères cumulatifs est implantée dans un site classé. Au regard du texte, peut-elle bénéficier de la dispense de formalité ?",
       "options": [
-        "Une superficie inférieure ou égale à dix mètres carrés",
-        "Une superficie inférieure ou égale à cinq mètres carrés",
-        "Une superficie inférieure ou égale à vingt mètres carrés",
-        "Une superficie inférieure ou égale à trente-cinq mètres carrés"
+        "Oui, la localisation est sans incidence sur la dispense",
+        "Oui, à condition d'en informer simplement la mairie",
+        "Non, mais uniquement si elle se situe en instance de classement",
+        "Non, car la dispense ne joue pas lorsque le projet est implanté dans un secteur sauvegardé ou un site classé"
       ],
-      "answer": 0,
-      "explanation": "Sont dispensées les piscines dont le bassin a une superficie inférieure ou égale à dix mètres carrés.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_1__opus_003",
-      "sectionTitle": "Les projets dispensés de toute formalité en raison de leur nature ou de leur faible importance",
+      "answer": 3,
+      "explanation": "Le texte réserve la dispense « sauf lorsqu'ils sont implantés dans un secteur sauvegardé ou dans un site classé ou en instance de classement ».",
+      "id": "urb__103-regles-communes-autorisations__1_2_1__opus_002",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de leur nature ou de leur faible",
       "sourceLink": "#section-103-regles-communes-autorisations__1_2_1",
-      "sourceText": "et également les piscines dont le bassin a une superficie inférieure ou égale à dix mètres carrés.",
-      "sourceContext": "et également les piscines dont le bassin a une superficie inférieure ou égale à dix mètres carrés.",
+      "sourceText": "Sont dispensées de toute formalité, en raison de leur nature ou de leur très faible importance, sauf lorsqu'ils sont implantés dans un secteur sauvegardé ou dans un site classé ou en instance de classement, les constructions nouvelles répondant aux critères cumulatifs suivants : une hauteur au-dessus du sol inférieure ou égale à douze mètres, une emprise au sol inférieure ou égale à cinq mètres carrés, et une surface de plancher inférieure ou égale à cinq mètres carrés.",
+      "sourceContext": "Sont dispensées de toute formalité, en raison de leur nature ou de leur très faible importance, sauf lorsqu'ils sont implantés dans un secteur sauvegardé ou dans un site classé ou en instance de classement, les constructions nouvelles répondant aux critères cumulatifs suivants : une hauteur au-dessus du sol inférieure ou égale à douze mètres, une emprise au sol inférieure ou égale à cinq mètres carrés, et une surface de plancher inférieure ou égale à cinq mètres carrés.",
       "sectionId": "103-regles-communes-autorisations__1_2_1",
       "keywords": [
-        "piscine",
-        "dispense de formalité",
-        "bassin"
+        "site classé",
+        "secteur sauvegardé",
+        "exception"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Quelle est la durée maximale de maintien en place permettant à une construction temporaire d'être, par principe, dispensée de toute formalité ?",
+      "q": "Selon le texte, à quelle condition de surface de plancher les habitations légères de loisirs implantées dans les emplacements mentionnés sont-elles dispensées de formalité ?",
       "options": [
-        "Une durée n'excédant pas trois mois",
-        "Une durée n'excédant pas un mois",
-        "Une durée n'excédant pas six mois",
-        "Une durée n'excédant pas un an"
+        "Une surface de plancher inférieure ou égale à vingt mètres carrés",
+        "Une surface de plancher inférieure ou égale à cinq mètres carrés",
+        "Une surface de plancher inférieure ou égale à quarante mètres carrés",
+        "Une surface de plancher inférieure ou égale à trente-cinq mètres carrés"
       ],
-      "answer": 0,
-      "explanation": "Par principe, sont dispensées les constructions implantées pour une durée n'excédant pas trois mois.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_2__opus_004",
-      "sectionTitle": "Les projets dispensés de toute formalité en raison de la faible durée de leur maintien en place",
+      "answer": 3,
+      "explanation": "Le texte fixe pour ces habitations légères de loisirs une surface de plancher inférieure ou égale à trente-cinq mètres carrés.",
+      "id": "urb__103-regles-communes-autorisations__1_2_1__opus_003",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de leur nature ou de leur faible",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2_1",
+      "sourceText": "Sont également visées les habitations légères de loisirs implantées dans les emplacements mentionnés dont la surface de plancher est inférieure ou égale à trente-cinq mètres carrés, es éoliennes terrestres dont la hauteur du mât et de la nacelle au-dessus du sol est inférieure à douze mètres ainsi que les ouvrages de production d'électricité à partir de l'énergie solaire installés sur le sol dont la puissance crête est inférieure à trois kilowatts et dont la hauteur maximum au-dessus du sol ne peut pas dépasser un mètre quatre-vingt, et également les piscines dont le bassin a une superficie inférieure ou égale à dix mètres carrés.",
+      "sourceContext": "Sont également visées les habitations légères de loisirs implantées dans les emplacements mentionnés dont la surface de plancher est inférieure ou égale à trente-cinq mètres carrés, es éoliennes terrestres dont la hauteur du mât et de la nacelle au-dessus du sol est inférieure à douze mètres ainsi que les ouvrages de production d'électricité à partir de l'énergie solaire installés sur le sol dont la puissance crête est inférieure à trois kilowatts et dont la hauteur maximum au-dessus du sol ne peut pas dépasser un mètre quatre-vingt, et également les piscines dont le bassin a une superficie inférieure ou égale à dix mètres carrés.",
+      "sectionId": "103-regles-communes-autorisations__1_2_1",
+      "keywords": [
+        "habitations légères de loisirs",
+        "surface de plancher"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un mur d'une hauteur inférieure à deux mètres constitue une clôture située dans un secteur sauvegardé. Selon le texte, est-il dispensé de toute formalité ?",
+      "options": [
+        "Non, aucun mur n'est jamais dispensé de formalité",
+        "Oui, sauf si la commune s'y oppose expressément",
+        "Non, car la dispense pour ces murs ne joue pas s'ils constituent des clôtures situées dans un secteur sauvegardé ou un site classé",
+        "Oui, dès lors que sa hauteur reste inférieure à deux mètres"
+      ],
+      "answer": 2,
+      "explanation": "Le texte dispense les murs de moins de deux mètres « sauf s'ils constituent des clôtures situées dans un secteur sauvegardé ou un site classé ».",
+      "id": "urb__103-regles-communes-autorisations__1_2_1__opus_004",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de leur nature ou de leur faible",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2_1",
+      "sourceText": "les murs dont la hauteur au-dessus du sol est inférieure à deux mètres, sauf s'ils constituent des clôtures situées dans un secteur sauvegardé ou un site classé, les clôtures, en dehors de celles situées dans un secteur sauvegardé ou un site classé ainsi que les clôtures nécessaires à l'activité agricole ou forestière.",
+      "sourceContext": "les murs dont la hauteur au-dessus du sol est inférieure à deux mètres, sauf s'ils constituent des clôtures situées dans un secteur sauvegardé ou un site classé, les clôtures, en dehors de celles situées dans un secteur sauvegardé ou un site classé ainsi que les clôtures nécessaires à l'activité agricole ou forestière.",
+      "sectionId": "103-regles-communes-autorisations__1_2_1",
+      "keywords": [
+        "mur",
+        "clôture",
+        "secteur sauvegardé"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Par principe, quelle est la durée maximale d'implantation en deçà de laquelle les constructions temporaires sont dispensées de toute formalité ?",
+      "options": [
+        "Une durée n'excédant pas une année",
+        "Une durée n'excédant pas trois mois",
+        "Une durée n'excédant pas une année scolaire",
+        "La durée du chantier, sans limite"
+      ],
+      "answer": 1,
+      "explanation": "Le texte pose en principe la dispense pour les constructions implantées pour une durée n'excédant pas trois mois.",
+      "id": "urb__103-regles-communes-autorisations__1_2_2__opus_001",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de la faible durée de leur maintien",
       "sourceLink": "#section-103-regles-communes-autorisations__1_2_2",
       "sourceText": "Par principe, sont dispensées de toute formalité, en raison de la faible durée de leur maintien en place ou de leur caractère temporaire compte tenu de l'usage auquel elles sont destinées, les constructions implantées pour une durée n'excédant pas trois mois.",
       "sourceContext": "Par principe, sont dispensées de toute formalité, en raison de la faible durée de leur maintien en place ou de leur caractère temporaire compte tenu de l'usage auquel elles sont destinées, les constructions implantées pour une durée n'excédant pas trois mois.",
       "sectionId": "103-regles-communes-autorisations__1_2_2",
       "keywords": [
-        "construction temporaire",
+        "temporaire",
         "trois mois",
-        "dispense"
-      ]
-    },
-    {
-      "bloom": "application",
-      "q": "Une commune installe des classes démontables pour pallier un manque de capacité d'accueil dans une école. Pendant quelle durée ces constructions sont-elles dispensées de toute formalité ?",
-      "options": [
-        "Pendant une année scolaire",
-        "Pendant trois mois",
-        "Pendant un an",
-        "Pendant la durée du chantier"
-      ],
-      "answer": 0,
-      "explanation": "La dispense vaut pour une année scolaire s'agissant des classes démontables installées pour pallier les insuffisances temporaires de capacités d'accueil.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_2__opus_005",
-      "sectionTitle": "Les projets dispensés de toute formalité en raison de la faible durée de leur maintien en place",
-      "sourceLink": "#section-103-regles-communes-autorisations__1_2_2",
-      "sourceText": "Il peut aussi s'agir d'une année scolaire en ce qui concerne les classes démontables installées dans les établissements scolaires ou universitaires pour pallier les insuffisances temporaires de capacités d'accueil.",
-      "sourceContext": "Il peut aussi s'agir d'une année scolaire en ce qui concerne les classes démontables installées dans les établissements scolaires ou universitaires pour pallier les insuffisances temporaires de capacités d'accueil.",
-      "sectionId": "103-regles-communes-autorisations__1_2_2",
-      "keywords": [
-        "classes démontables",
-        "année scolaire",
-        "capacités d'accueil"
+        "principe"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "À l'expiration de la durée pour laquelle une construction temporaire dispensée de formalité a été implantée, quelle obligation pèse sur le constructeur ?",
+      "q": "Pour quelles constructions la durée de dispense peut-elle être portée à un an au titre du relogement, d'après le texte ?",
+      "options": [
+        "Les constructions nécessaires au relogement d'urgence des personnes victimes d'un sinistre ou d'une catastrophe naturelle ou technologique",
+        "Les constructions liées à une manifestation culturelle ou sportive",
+        "Les classes démontables installées dans les établissements scolaires",
+        "Les installations liées à la commercialisation d'un bâtiment en cours de construction"
+      ],
+      "answer": 0,
+      "explanation": "Le texte attache la durée d'un an aux constructions nécessaires au relogement d'urgence des victimes d'un sinistre ou d'une catastrophe naturelle ou technologique.",
+      "id": "urb__103-regles-communes-autorisations__1_2_2__opus_002",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de la faible durée de leur maintien",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2_2",
+      "sourceText": "elle peut être d'un an en ce qui concerne les constructions nécessaires au relogement d'urgence des personnes victimes d'un sinistre ou d'une catastrophe naturelle ou technologique.",
+      "sourceContext": "elle peut être d'un an en ce qui concerne les constructions nécessaires au relogement d'urgence des personnes victimes d'un sinistre ou d'une catastrophe naturelle ou technologique.",
+      "sectionId": "103-regles-communes-autorisations__1_2_2",
+      "keywords": [
+        "relogement d'urgence",
+        "un an",
+        "catastrophe"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, quelle obligation pèse sur le constructeur à l'issue de la durée autorisée pour une construction temporaire dispensée de formalité ?",
       "options": [
         "Il est tenu de remettre les lieux dans leur état initial",
         "Il doit déposer une déclaration préalable de régularisation",
-        "Il doit solliciter une prorogation auprès du maire",
-        "Il doit transmettre une attestation d'achèvement au préfet"
+        "Il doit obtenir un permis de construire rétroactif",
+        "Il peut conserver la construction après simple notification au maire"
       ],
       "answer": 0,
-      "explanation": "À l'issue de cette durée, le constructeur est tenu de remettre les lieux dans leur état initial.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_2__opus_006",
-      "sectionTitle": "Les projets dispensés de toute formalité en raison de la faible durée de leur maintien en place",
+      "explanation": "Le texte impose qu'à l'issue de cette durée, le constructeur remette les lieux dans leur état initial.",
+      "id": "urb__103-regles-communes-autorisations__1_2_2__opus_003",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison de la faible durée de leur maintien",
       "sourceLink": "#section-103-regles-communes-autorisations__1_2_2",
       "sourceText": "A l'issue de cette durée, le constructeur est tenu de remettre les lieux dans leur état initial.",
       "sourceContext": "A l'issue de cette durée, le constructeur est tenu de remettre les lieux dans leur état initial.",
       "sectionId": "103-regles-communes-autorisations__1_2_2",
       "keywords": [
-        "état initial",
+        "remise en état",
         "construction temporaire",
         "obligation"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Pour quel motif les constructions situées à l'intérieur des arsenaux de la marine sont-elles dispensées de toute formalité ?",
+      "q": "Quel motif justifie, dans cette catégorie, la dispense de toute formalité selon le texte ?",
       "options": [
-        "En raison du fait qu'elles nécessitent le secret pour des motifs de sécurité",
-        "En raison de leur très faible importance",
-        "En raison de la faible durée de leur maintien en place",
-        "En raison de leur affectation exclusive au service public"
+        "La faible importance des constructions concernées",
+        "L'absence de document d'urbanisme sur le territoire",
+        "Le fait que les constructions nécessitent le secret pour des motifs de sécurité",
+        "Le caractère temporaire des constructions"
       ],
-      "answer": 0,
-      "explanation": "Ces constructions sont dispensées car elles nécessitent le secret pour des motifs de sécurité.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_3__opus_007",
-      "sectionTitle": "Les projets dispensés de toute formalité en raison du secret pour des raisons de sécurité",
+      "answer": 2,
+      "explanation": "Le texte rattache cette dispense au fait que ces constructions nécessitent le secret pour des motifs de sécurité.",
+      "id": "urb__103-regles-communes-autorisations__1_2_3__opus_001",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison du secret pour des raisons de",
       "sourceLink": "#section-103-regles-communes-autorisations__1_2_3",
       "sourceText": "Sont dispensés de toute formalité, en raison du fait qu'ils nécessitent le secret pour des motifs de sécurité, certaines constructions.",
       "sourceContext": "Sont dispensés de toute formalité, en raison du fait qu'ils nécessitent le secret pour des motifs de sécurité, certaines constructions.",
@@ -158,90 +249,204 @@
       "keywords": [
         "secret",
         "sécurité",
-        "dispense de formalité"
+        "dispense"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Selon le texte, par quel acte est fixée la liste des grands camps dont les constructions sont dispensées de formalité au titre du secret ?",
+      "options": [
+        "Un arrêté du seul ministre de la défense",
+        "Une délibération du conseil municipal",
+        "Un décret en Conseil d'État",
+        "Un arrêté conjoint du ministre chargé de l'urbanisme et du ministre de la défense"
+      ],
+      "answer": 3,
+      "explanation": "Le texte vise une liste fixée par arrêté conjoint du ministre chargé de l'urbanisme et du ministre de la défense.",
+      "id": "urb__103-regles-communes-autorisations__1_2_3__opus_002",
+      "sectionTitle": "Les projets dispensés de toute formalité en raison du secret pour des raisons de",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2_3",
+      "sourceText": "Sont concernées les constructions couvertes par le secret de la défense nationale, et les constructions situées à l'intérieur des arsenaux de la marine, des aérodromes militaires et des grands camps figurant sur une liste fixée par arrêté conjoint du ministre chargé de l'urbanisme et du ministre de la défense.",
+      "sourceContext": "Sont concernées les constructions couvertes par le secret de la défense nationale, et les constructions situées à l'intérieur des arsenaux de la marine, des aérodromes militaires et des grands camps figurant sur une liste fixée par arrêté conjoint du ministre chargé de l'urbanisme et du ministre de la défense.",
+      "sectionId": "103-regles-communes-autorisations__1_2_3",
+      "keywords": [
+        "arrêté conjoint",
+        "ministre de la défense",
+        "grands camps"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "D'après le texte, pour quelle raison les projets dont le contrôle est exclusivement assuré par une autre autorisation sont-ils dispensés de formalité d'urbanisme ?",
+      "options": [
+        "Parce qu'ils présentent un caractère temporaire",
+        "Parce que leur contrôle est exclusivement assuré par une autre autorisation ou une autre législation",
+        "Parce qu'ils sont couverts par le secret de la défense nationale",
+        "Parce qu'ils sont de très faible importance"
+      ],
+      "answer": 1,
+      "explanation": "Le texte dispense les projets dont le contrôle est exclusivement assuré par une autre autorisation ou une autre législation.",
+      "id": "urb__103-regles-communes-autorisations__1_2_4__opus_001",
+      "sectionTitle": "Les autres projets dispensés de toute formalité",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2_4",
+      "sourceText": "Sont dispensés de toute formalité les projets dont le contrôle est exclusivement assuré par une autre autorisation ou une autre législation, ou les projets sur le domaine public maritime immergé au-delà de la laisse de la basse mer.",
+      "sourceContext": "Sont dispensés de toute formalité les projets dont le contrôle est exclusivement assuré par une autre autorisation ou une autre législation, ou les projets sur le domaine public maritime immergé au-delà de la laisse de la basse mer.",
+      "sectionId": "103-regles-communes-autorisations__1_2_4",
+      "keywords": [
+        "autre autorisation",
+        "autre législation",
+        "dispense"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Des travaux d'entretien ou de réparations ordinaires sont exécutés sur une construction existante. Au regard du texte, sont-ils soumis à permis de construire ?",
+      "options": [
+        "Oui, tous les travaux sur constructions existantes exigent un permis",
+        "Oui, sauf s'ils sont de faible importance",
+        "Non, car ils sont expressément exceptés des travaux soumis à permis de construire",
+        "Non, mais ils exigent un permis d'aménager"
+      ],
+      "answer": 2,
+      "explanation": "Le texte soumet à permis de construire certains travaux sur constructions existantes « à l'exception des travaux d'entretien ou de réparations ordinaires ».",
+      "id": "urb__103-regles-communes-autorisations__1_2_4__opus_002",
+      "sectionTitle": "Les autres projets dispensés de toute formalité",
+      "sourceLink": "#section-103-regles-communes-autorisations__1_2_4",
+      "sourceText": "sont soumis à permis de construire certains travaux, exécutés sur des constructions existantes, à l'exception des travaux d'entretien ou de réparations ordinaires.",
+      "sourceContext": "sont soumis à permis de construire certains travaux, exécutés sur des constructions existantes, à l'exception des travaux d'entretien ou de réparations ordinaires.",
+      "sectionId": "103-regles-communes-autorisations__1_2_4",
+      "keywords": [
+        "entretien",
+        "réparations ordinaires",
+        "permis de construire"
       ]
     },
     {
       "bloom": "application",
-      "q": "Sur une construction existante, quels travaux sont soumis à permis de construire au regard de la surface créée, en dehors de toute zone urbaine d'un PLU ?",
+      "q": "Selon le texte, des travaux sur une construction existante créant une surface de plancher supérieure à vingt mètres carrés relèvent de quelle formalité ?",
       "options": [
-        "Les travaux créant une surface de plancher ou une emprise au sol supérieure à vingt mètres carrés",
-        "Les travaux créant une surface de plancher ou une emprise au sol supérieure à cinq mètres carrés",
-        "Les travaux créant une surface de plancher ou une emprise au sol supérieure à quarante mètres carrés",
-        "Tous les travaux d'entretien ou de réparations ordinaires"
+        "Du permis de construire",
+        "D'une simple déclaration préalable dans tous les cas",
+        "D'un permis d'aménager",
+        "D'aucune formalité s'ils sont d'entretien"
       ],
       "answer": 0,
-      "explanation": "Sont soumis à permis de construire les travaux ayant pour effet la création d'une surface de plancher ou d'une emprise au sol supérieure à vingt mètres carrés.",
-      "id": "urb1__103-regles-communes-autorisations__1_2_4__opus_008",
+      "explanation": "Le texte range parmi les travaux soumis à permis de construire ceux ayant pour effet la création d'une surface de plancher ou d'une emprise au sol supérieure à vingt mètres carrés.",
+      "id": "urb__103-regles-communes-autorisations__1_2_4__opus_003",
       "sectionTitle": "Les autres projets dispensés de toute formalité",
       "sourceLink": "#section-103-regles-communes-autorisations__1_2_4",
       "sourceText": "Il s'agit des travaux ayant pour effet la création d'une surface de plancher ou d'une emprise au sol supérieure à vingt mètres carrés.",
       "sourceContext": "Il s'agit des travaux ayant pour effet la création d'une surface de plancher ou d'une emprise au sol supérieure à vingt mètres carrés.",
       "sectionId": "103-regles-communes-autorisations__1_2_4",
       "keywords": [
-        "permis de construire",
-        "travaux existants",
-        "vingt mètres carrés"
+        "surface de plancher",
+        "emprise au sol",
+        "permis de construire"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Outre le propriétaire du terrain, qui peut présenter une demande d'autorisation d'urbanisme ?",
+      "q": "Selon le texte, qui peut présenter une demande d'autorisation d'urbanisme ?",
       "options": [
-        "Une personne attestant être autorisée à exécuter les travaux",
-        "Tout voisin riverain du terrain concerné",
-        "Le maire de la commune d'implantation",
-        "Toute personne justifiant d'un intérêt à agir"
+        "Exclusivement l'architecte chargé du projet",
+        "Le propriétaire du terrain, son mandataire, ou une personne attestant être autorisée à exécuter les travaux",
+        "Uniquement la commune et l'EPCI compétents",
+        "Le seul propriétaire du terrain, à l'exclusion de tout mandataire"
       ],
-      "answer": 0,
-      "explanation": "La demande peut être présentée notamment par une personne attestant être autorisée à exécuter les travaux.",
-      "id": "urb1__103-regles-communes-autorisations__2_1__opus_010",
+      "answer": 1,
+      "explanation": "Le texte cite le propriétaire du terrain, son mandataire, ou une personne attestant être autorisée à exécuter les travaux.",
+      "id": "urb__103-regles-communes-autorisations__2_1__opus_001",
       "sectionTitle": "Les personnes compétentes pour présenter une demande",
       "sourceLink": "#section-103-regles-communes-autorisations__2_1",
       "sourceText": "Il peut s'agir du propriétaire du terrain, de son mandataire, ou d'une personne attestant être autorisée à exécuter les travaux.",
       "sourceContext": "Il peut s'agir du propriétaire du terrain, de son mandataire, ou d'une personne attestant être autorisée à exécuter les travaux.",
       "sectionId": "103-regles-communes-autorisations__2_1",
       "keywords": [
-        "demandeur",
         "propriétaire",
-        "mandataire"
+        "mandataire",
+        "demande"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Dans quel cas un exemplaire supplémentaire du dossier doit-il être intégré à la demande ?",
+      "q": "Outre le propriétaire et l'indivision, quelle autre personne peut, selon le texte, présenter une demande d'autorisation ?",
       "options": [
-        "Quand la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France",
-        "Quand le projet est situé en zone agricole d'un PLU",
-        "Quand la demande émane d'un co-indivisaire",
-        "Quand le projet dépasse vingt mètres carrés de surface de plancher"
+        "Une personne ayant qualité pour bénéficier d'une éventuelle expropriation pour cause d'utilité publique",
+        "Tout voisin immédiat du terrain concerné",
+        "Le préfet agissant au nom de l'État",
+        "Le commissaire enquêteur désigné pour le projet"
       ],
       "answer": 0,
-      "explanation": "Un exemplaire supplémentaire est requis quand la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France.",
-      "id": "urb1__103-regles-communes-autorisations__2_2__opus_012",
-      "sectionTitle": "Le nombre d'exemplaires du dossier",
+      "explanation": "Le texte mentionne la personne ayant qualité pour bénéficier d'une éventuelle expropriation pour cause d'utilité publique.",
+      "id": "urb__103-regles-communes-autorisations__2_1__opus_002",
+      "sectionTitle": "Les personnes compétentes pour présenter une demande",
+      "sourceLink": "#section-103-regles-communes-autorisations__2_1",
+      "sourceText": "Enfin, une personne ayant qualité pour bénéficier d'une éventuelle expropriation pour cause d'utilité publique peut également agir.",
+      "sourceContext": "Enfin, une personne ayant qualité pour bénéficier d'une éventuelle expropriation pour cause d'utilité publique peut également agir.",
+      "sectionId": "103-regles-communes-autorisations__2_1",
+      "keywords": [
+        "expropriation",
+        "utilité publique",
+        "demande"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Selon le texte, comment se distingue le nombre d'exemplaires exigés entre une déclaration préalable et un permis de construire ?",
+      "options": [
+        "Deux exemplaires dans les deux cas",
+        "Un seul exemplaire pour la déclaration préalable, trois pour le permis de construire",
+        "Deux exemplaires pour la déclaration préalable, quatre pour le permis de construire",
+        "Quatre exemplaires pour la déclaration préalable, deux pour le permis de construire"
+      ],
+      "answer": 2,
+      "explanation": "Le texte distingue deux exemplaires pour les déclarations préalables et quatre pour les demandes de permis de construire, d'aménager ou de démolir.",
+      "id": "urb__103-regles-communes-autorisations__2_2__opus_001",
+      "sectionTitle": "Le nombre d’exemplaires du dossier",
       "sourceLink": "#section-103-regles-communes-autorisations__2_2",
-      "sourceText": "Des aménagements sont cependant à prendre en compte, puisqu'un exemplaire supplémentaire doit être intégré quand les travaux sont soumis à l'autorisation du ministre de la Défense, ou quand la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France.",
-      "sourceContext": "Des aménagements sont cependant à prendre en compte, puisqu'un exemplaire supplémentaire doit être intégré quand les travaux sont soumis à l'autorisation du ministre de la Défense, ou quand la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France.",
+      "sourceText": "Deux exemplaires sont en principe nécessaires pour les déclarations préalables, tandis que quatre sont imposés pour les demandes de permis de construire, d'aménager ou de démolir.",
+      "sourceContext": "Deux exemplaires sont en principe nécessaires pour les déclarations préalables, tandis que quatre sont imposés pour les demandes de permis de construire, d'aménager ou de démolir.",
+      "sectionId": "103-regles-communes-autorisations__2_2",
+      "keywords": [
+        "exemplaires",
+        "déclaration préalable",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un projet est subordonné à l'avis de l'architecte des Bâtiments de France. Selon le texte, quelle conséquence en résulte sur le dossier ?",
+      "options": [
+        "Un exemplaire supplémentaire doit être intégré au dossier",
+        "Le dossier doit être déposé directement à la préfecture",
+        "Le délai d'instruction est automatiquement réduit",
+        "Aucune incidence sur le nombre d'exemplaires"
+      ],
+      "answer": 0,
+      "explanation": "Le texte impose un exemplaire supplémentaire lorsque la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France.",
+      "id": "urb__103-regles-communes-autorisations__2_2__opus_002",
+      "sectionTitle": "Le nombre d’exemplaires du dossier",
+      "sourceLink": "#section-103-regles-communes-autorisations__2_2",
+      "sourceText": "puisqu'un exemplaire supplémentaire doit être intégré quand les travaux sont soumis à l'autorisation du ministre de la Défense, ou quand la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France.",
+      "sourceContext": "puisqu'un exemplaire supplémentaire doit être intégré quand les travaux sont soumis à l'autorisation du ministre de la Défense, ou quand la décision est subordonnée à l'avis ou l'accord de l'architecte des Bâtiments de France.",
       "sectionId": "103-regles-communes-autorisations__2_2",
       "keywords": [
         "exemplaire supplémentaire",
-        "architecte des Bâtiments de France",
-        "ministre de la Défense"
+        "architecte des Bâtiments de France"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Selon quelles modalités les demandes d'autorisation peuvent-elles être transmises à la mairie ?",
+      "q": "Selon le texte, comment les demandes d'autorisation peuvent-elles être transmises ?",
       "options": [
-        "Par pli recommandé avec demande d'avis de réception ou par dépôt à la mairie",
-        "Exclusivement par dépôt physique au guichet de la mairie",
-        "Uniquement par voie électronique sécurisée",
-        "Par remise directe au préfet du département"
+        "Exclusivement par dépôt physique en préfecture",
+        "Par lettre simple adressée au préfet",
+        "Uniquement par voie électronique sur un portail national",
+        "Par pli recommandé avec demande d'avis de réception ou par dépôt à la mairie de la commune où les travaux sont envisagés"
       ],
-      "answer": 0,
-      "explanation": "Les demandes sont adressées par pli recommandé avec demande d'avis de réception ou déposées à la mairie de la commune.",
-      "id": "urb1__103-regles-communes-autorisations__2_4__opus_013",
+      "answer": 3,
+      "explanation": "Le texte prévoit l'adressage par pli recommandé avec avis de réception ou le dépôt à la mairie de la commune où les travaux sont envisagés.",
+      "id": "urb__103-regles-communes-autorisations__2_4__opus_001",
       "sectionTitle": "Le dépôt du dossier et le récépissé",
       "sourceLink": "#section-103-regles-communes-autorisations__2_4",
       "sourceText": "Les demandes sont adressées par pli recommandé avec demande d'avis de réception ou déposées à la mairie de la commune dans laquelle les travaux sont envisagés.",
@@ -255,131 +460,131 @@
     },
     {
       "bloom": "comprehension",
-      "q": "Dans quel délai à compter du dépôt l'autorité compétente peut-elle notifier au demandeur que son dossier est incomplet ?",
+      "q": "Quel rôle joue le maire à réception d'une demande, selon le texte ?",
       "options": [
-        "Dans le délai d'un mois à compter du dépôt du dossier",
-        "Dans le délai de quinze jours à compter du dépôt du dossier",
-        "Dans le délai de deux mois à compter du dépôt du dossier",
-        "Dans le délai de trois mois à compter du dépôt du dossier"
+        "Il transmet la demande au commissaire enquêteur",
+        "Il recueille l'avis conforme du conseil municipal",
+        "Il statue immédiatement sur la demande",
+        "Il affecte un numéro d'enregistrement à la demande et en délivre récépissé"
       ],
-      "answer": 0,
-      "explanation": "L'autorité compétente peut, dans le délai d'un mois à compter du dépôt, notifier que le dossier est incomplet.",
-      "id": "urb1__103-regles-communes-autorisations__2_4__opus_014",
+      "answer": 3,
+      "explanation": "Le texte indique que le maire affecte un numéro d'enregistrement à la demande ou à la déclaration et en délivre récépissé.",
+      "id": "urb__103-regles-communes-autorisations__2_4__opus_002",
       "sectionTitle": "Le dépôt du dossier et le récépissé",
       "sourceLink": "#section-103-regles-communes-autorisations__2_4",
-      "sourceText": "Le récépissé précise également que l'autorité compétente peut, dans le délai d'un mois à compter du dépôt du dossier notifier au demandeur que le dossier est incomplet ou notifier au demandeur un délai différent de celui qui lui avait été initialement indiqué, lorsque le projet entre dans les cas le justifiant.",
-      "sourceContext": "Le récépissé précise également que l'autorité compétente peut, dans le délai d'un mois à compter du dépôt du dossier notifier au demandeur que le dossier est incomplet ou notifier au demandeur un délai différent de celui qui lui avait été initialement indiqué, lorsque le projet entre dans les cas le justifiant.",
+      "sourceText": "Le maire affecte un numéro d'enregistrement à la demande ou à la déclaration et en délivre récépissé, lequel précise le numéro d'enregistrement et la date à laquelle un permis tacite doit intervenir, ou, dans le cas d'une déclaration préalable, la date à partir de laquelle les travaux peuvent être entrepris.",
+      "sourceContext": "Le maire affecte un numéro d'enregistrement à la demande ou à la déclaration et en délivre récépissé, lequel précise le numéro d'enregistrement et la date à laquelle un permis tacite doit intervenir, ou, dans le cas d'une déclaration préalable, la date à partir de laquelle les travaux peuvent être entrepris.",
       "sectionId": "103-regles-communes-autorisations__2_4",
       "keywords": [
-        "dossier incomplet",
-        "délai d'un mois",
+        "maire",
+        "numéro d'enregistrement",
         "récépissé"
       ]
     },
     {
       "bloom": "application",
-      "q": "Une demande de permis vient d'être déposée. Dans quel délai le maire doit-il procéder à l'affichage en mairie de l'avis de dépôt ?",
+      "q": "Selon le texte, dans quel délai l'autorité compétente peut-elle notifier au demandeur que son dossier est incomplet ?",
       "options": [
-        "Dans les quinze jours qui suivent le dépôt de la demande",
-        "Dans les huit jours qui suivent le dépôt de la demande",
-        "Dans le délai d'un mois qui suit le dépôt de la demande",
-        "Dans les deux jours qui suivent le dépôt de la demande"
+        "Dans le délai d'un mois à compter du dépôt du dossier",
+        "Dans le délai de quinze jours à compter du dépôt",
+        "Dans le délai de trois mois à compter du dépôt",
+        "Dans le délai de deux mois à compter du dépôt"
       ],
       "answer": 0,
-      "explanation": "Le maire procède à l'affichage en mairie de l'avis de dépôt dans les quinze jours qui suivent le dépôt.",
-      "id": "urb1__103-regles-communes-autorisations__2_4__opus_015",
+      "explanation": "Le texte fixe ce délai à un mois à compter du dépôt du dossier.",
+      "id": "urb__103-regles-communes-autorisations__2_4__opus_003",
       "sectionTitle": "Le dépôt du dossier et le récépissé",
       "sourceLink": "#section-103-regles-communes-autorisations__2_4",
-      "sourceText": "Dans les quinze jours qui suivent le dépôt de la demande ou de la déclaration et pendant la durée d'instruction de celle-ci, le maire procède à l'affichage en mairie d'un avis de dépôt de demande de permis ou de déclaration préalable précisant les caractéristiques essentielles du projet.",
-      "sourceContext": "Dans les quinze jours qui suivent le dépôt de la demande ou de la déclaration et pendant la durée d'instruction de celle-ci, le maire procède à l'affichage en mairie d'un avis de dépôt de demande de permis ou de déclaration préalable précisant les caractéristiques essentielles du projet.",
+      "sourceText": "l'autorité compétente peut, dans le délai d'un mois à compter du dépôt du dossier notifier au demandeur que le dossier est incomplet ou notifier au demandeur un délai différent de celui qui lui avait été initialement indiqué, lorsque le projet entre dans les cas le justifiant.",
+      "sourceContext": "l'autorité compétente peut, dans le délai d'un mois à compter du dépôt du dossier notifier au demandeur que le dossier est incomplet ou notifier au demandeur un délai différent de celui qui lui avait été initialement indiqué, lorsque le projet entre dans les cas le justifiant.",
       "sectionId": "103-regles-communes-autorisations__2_4",
       "keywords": [
-        "affichage en mairie",
-        "quinze jours",
-        "avis de dépôt"
+        "dossier incomplet",
+        "délai d'un mois",
+        "notification"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "À partir de quel évènement le délai d'instruction d'une demande d'autorisation commence-t-il à courir ?",
+      "bloom": "comprehension",
+      "q": "Lorsque la décision est prise au nom de la commune, sous quelle autorité l'instruction est-elle conduite selon le texte ?",
       "options": [
-        "À compter de la réception en mairie d'un dossier complet",
-        "À compter de la date de signature du récépissé par le pétitionnaire",
-        "À compter de l'affichage de l'avis de dépôt sur le terrain",
-        "À compter de la transmission du dossier au préfet"
+        "Au nom et sous l'autorité du maire ou du président de l'établissement public",
+        "Sous l'autorité exclusive du préfet",
+        "Sous l'autorité du conseil municipal réuni en formation collégiale",
+        "Sous l'autorité du commissaire enquêteur"
       ],
       "answer": 0,
-      "explanation": "Le délai d'instruction court à compter de la réception en mairie d'un dossier complet.",
-      "id": "urb1__103-regles-communes-autorisations__2_5__opus_016",
-      "sectionTitle": "L'instruction",
+      "explanation": "Le texte précise que l'instruction est faite au nom et sous l'autorité du maire ou du président de l'établissement public.",
+      "id": "urb__103-regles-communes-autorisations__2_5__opus_001",
+      "sectionTitle": "L’instruction",
       "sourceLink": "#section-103-regles-communes-autorisations__2_5",
-      "sourceText": "Le délai d'instruction court à compter de la réception en mairie d'un dossier complet (les éventuelles pièces manquantes devant être réclamées dans le délai d'un mois), ou, lorsque le permis ne peut être délivré qu'après enquête publique, à la réception par l'autorité compétente du rapport du commissaire enquêteur ou de la commission d'enquête.",
-      "sourceContext": "Le délai d'instruction court à compter de la réception en mairie d'un dossier complet (les éventuelles pièces manquantes devant être réclamées dans le délai d'un mois), ou, lorsque le permis ne peut être délivré qu'après enquête publique, à la réception par l'autorité compétente du rapport du commissaire enquêteur ou de la commission d'enquête.",
+      "sourceText": "Lorsque la décision est prise au nom de la commune (ou de l'EPCI), l'instruction est faite au nom et sous l'autorité du maire ou du président de l'établissement public.",
+      "sourceContext": "Lorsque la décision est prise au nom de la commune (ou de l'EPCI), l'instruction est faite au nom et sous l'autorité du maire ou du président de l'établissement public.",
       "sectionId": "103-regles-communes-autorisations__2_5",
       "keywords": [
-        "délai d'instruction",
-        "dossier complet",
-        "point de départ"
+        "instruction",
+        "maire",
+        "EPCI"
       ]
     },
     {
-      "bloom": "application",
-      "q": "Un dossier de permis de construire portant sur une maison individuelle est déposé. Quel est le délai d'instruction de droit commun applicable ?",
+      "bloom": "analyse",
+      "q": "Selon le texte, quel est le délai d'instruction de droit commun pour une déclaration préalable comparé à celui d'un permis de construire portant sur une maison individuelle ?",
       "options": [
-        "Deux mois",
-        "Un mois",
-        "Trois mois",
-        "Quatre mois"
+        "Un mois pour la déclaration préalable, deux mois pour ce permis de construire",
+        "Un mois pour la déclaration préalable, trois mois pour ce permis de construire",
+        "Délai identique de deux mois dans les deux cas",
+        "Deux mois pour la déclaration préalable, trois mois pour ce permis de construire"
       ],
       "answer": 0,
-      "explanation": "Le délai d'instruction de droit commun est de deux mois pour un permis de construire portant sur une maison individuelle ou ses annexes.",
-      "id": "urb1__103-regles-communes-autorisations__2_5__opus_017",
-      "sectionTitle": "L'instruction",
+      "explanation": "Le texte fixe un mois pour les déclarations préalables et deux mois pour les permis de construire portant sur une maison individuelle ou ses annexes.",
+      "id": "urb__103-regles-communes-autorisations__2_5__opus_002",
+      "sectionTitle": "L’instruction",
       "sourceLink": "#section-103-regles-communes-autorisations__2_5",
       "sourceText": "Le délai d'instruction de droit commun est d'un mois pour les déclarations préalables, de deux mois pour les demandes de permis de démolir et pour les demandes de permis de construire portant sur une maison individuelle ou ses annexes, de trois mois pour les autres demandes de permis de construire et pour les demandes de permis d'aménager.",
       "sourceContext": "Le délai d'instruction de droit commun est d'un mois pour les déclarations préalables, de deux mois pour les demandes de permis de démolir et pour les demandes de permis de construire portant sur une maison individuelle ou ses annexes, de trois mois pour les autres demandes de permis de construire et pour les demandes de permis d'aménager.",
       "sectionId": "103-regles-communes-autorisations__2_5",
       "keywords": [
         "délai d'instruction",
-        "maison individuelle",
-        "deux mois"
+        "déclaration préalable",
+        "maison individuelle"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Pour quelle raison le délai d'instruction peut-il être majoré d'un mois ?",
+      "q": "Selon le texte, que se passe-t-il en cas de majoration ou de prolongation du délai d'instruction ?",
       "options": [
-        "Lorsque la décision nécessite une dérogation au PLU",
-        "Lorsque le dossier comporte un exemplaire surnuméraire",
-        "Lorsque la demande émane de plusieurs co-indivisaires",
-        "Lorsque le projet a fait l'objet d'un récépissé tardif"
+        "Elle doit être approuvée par le préfet avant d'être appliquée",
+        "Elle est notifiée au demandeur en toute hypothèse",
+        "Elle est seulement affichée en mairie",
+        "Elle n'a pas à être portée à la connaissance du demandeur"
       ],
-      "answer": 0,
-      "explanation": "Le délai peut être majoré d'un mois notamment lorsque la décision nécessite une dérogation au PLU.",
-      "id": "urb1__103-regles-communes-autorisations__2_5__opus_018",
-      "sectionTitle": "L'instruction",
+      "answer": 1,
+      "explanation": "Le texte impose qu'en toute hypothèse, toute majoration ou prolongation du délai d'instruction soit notifiée au demandeur.",
+      "id": "urb__103-regles-communes-autorisations__2_5__opus_003",
+      "sectionTitle": "L’instruction",
       "sourceLink": "#section-103-regles-communes-autorisations__2_5",
-      "sourceText": "Ce délai peut être majoré d'un mois lorsque le projet est soumis à un régime d'autorisation ou à des prescriptions prévus par d'autres législations ou réglementations que le code de l'urbanisme, lorsque la décision nécessite une dérogation au PLU, lorsque le projet est situé dans un secteur sauvegardé ou lorsque le projet doit être soumis à l'avis de la commission départementale de la consommation des espaces agricoles.",
-      "sourceContext": "Ce délai peut être majoré d'un mois lorsque le projet est soumis à un régime d'autorisation ou à des prescriptions prévus par d'autres législations ou réglementations que le code de l'urbanisme, lorsque la décision nécessite une dérogation au PLU, lorsque le projet est situé dans un secteur sauvegardé ou lorsque le projet doit être soumis à l'avis de la commission départementale de la consommation des espaces agricoles.",
+      "sourceText": "En toute hypothèse, toute majoration ou prolongation du délai d'instruction est notifiée au demandeur.",
+      "sourceContext": "En toute hypothèse, toute majoration ou prolongation du délai d'instruction est notifiée au demandeur.",
       "sectionId": "103-regles-communes-autorisations__2_5",
       "keywords": [
         "majoration",
-        "dérogation au PLU",
-        "délai d'instruction"
+        "prolongation",
+        "notification"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "Dans le cas de principe, au nom de qui le maire délivre-t-il le permis de construire dans une commune dotée d'un PLU ?",
+      "bloom": "comprehension",
+      "q": "Dans une commune dotée d'un PLU, qui est en principe l'autorité compétente pour délivrer le permis de construire selon le texte ?",
       "options": [
-        "Au nom de la commune",
-        "Au nom de l'État",
-        "Au nom du préfet",
-        "Au nom de l'EPCI"
+        "Le maire, au nom de la commune",
+        "Le préfet, au nom de l'État",
+        "Le président de l'EPCI dans tous les cas",
+        "Le conseil municipal statuant par délibération"
       ],
       "answer": 0,
-      "explanation": "Le maire est l'autorité compétente pour délivrer le permis au nom de la commune dans les communes dotées d'un PLU.",
-      "id": "urb1__103-regles-communes-autorisations__3_1_1__opus_019",
+      "explanation": "Le texte désigne le maire, au nom de la commune, comme autorité compétente dans les communes dotées d'un PLU ou d'un document en tenant lieu.",
+      "id": "urb__103-regles-communes-autorisations__3_1_1__opus_001",
       "sectionTitle": "Le principe : la décision prise au nom de la commune",
       "sourceLink": "#section-103-regles-communes-autorisations__3_1_1",
       "sourceText": "L'autorité compétente pour délivrer le permis de construire, d'aménager ou de démolir et pour se prononcer sur un projet faisant l'objet d'une déclaration préalable est le maire, au nom de la commune, dans les communes qui se sont dotées d'un PLU ou d'un document d'urbanisme en tenant lieu, ainsi que dans les communes qui se sont dotées d'une carte communale après le 26 mars 2014 (date de publication de la loi n° 2014-366 du 24 mars 2014 pour l'accès au logement et un urbanisme rénové).",
@@ -387,69 +592,115 @@
       "sectionId": "103-regles-communes-autorisations__3_1_1",
       "keywords": [
         "maire",
-        "autorité compétente",
-        "commune"
+        "PLU",
+        "autorité compétente"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Lorsqu'une commune délègue à l'EPCI sa compétence en matière d'autorisations d'urbanisme, que doit-il advenir de cette délégation après chaque renouvellement du conseil municipal ?",
+      "q": "Selon le texte, quel est le caractère du transfert de compétence à la commune une fois intervenu ?",
       "options": [
-        "Elle doit être confirmée dans les mêmes formes",
-        "Elle devient définitive et irrévocable",
-        "Elle est automatiquement reconduite sans formalité",
-        "Elle doit être validée par le préfet"
+        "Il peut être retiré par le préfet à tout moment",
+        "Il est provisoire et limité à six ans",
+        "Il est définitif",
+        "Il est révocable à chaque renouvellement du conseil municipal"
       ],
-      "answer": 0,
-      "explanation": "La délégation de compétence doit être confirmée dans les mêmes formes après chaque renouvellement du conseil municipal.",
-      "id": "urb1__103-regles-communes-autorisations__3_1_1__opus_020",
+      "answer": 2,
+      "explanation": "Le texte indique que, lorsque le transfert de compétence à la commune est intervenu, il est définitif.",
+      "id": "urb__103-regles-communes-autorisations__3_1_1__opus_002",
       "sectionTitle": "Le principe : la décision prise au nom de la commune",
       "sourceLink": "#section-103-regles-communes-autorisations__3_1_1",
-      "sourceText": "Cette délégation de compétence doit être confirmée dans les mêmes formes après chaque renouvellement du conseil municipal ou après l'élection d'un nouveau président de l'établissement public.",
-      "sourceContext": "Cette délégation de compétence doit être confirmée dans les mêmes formes après chaque renouvellement du conseil municipal ou après l'élection d'un nouveau président de l'établissement public.",
+      "sourceText": "Lorsque le transfert de compétence à la commune est intervenu, il est définitif.",
+      "sourceContext": "Lorsque le transfert de compétence à la commune est intervenu, il est définitif.",
       "sectionId": "103-regles-communes-autorisations__3_1_1",
       "keywords": [
-        "délégation",
-        "EPCI",
-        "renouvellement du conseil"
+        "transfert de compétence",
+        "définitif",
+        "commune"
       ]
     },
     {
-      "bloom": "application",
-      "q": "Le maire d'une commune est personnellement intéressé au projet faisant l'objet d'une demande de permis. Qui prend alors la décision ?",
+      "bloom": "cas_pratique",
+      "q": "Un maire dépose une demande de permis de construire pour un projet le concernant personnellement. Selon le texte, qui prend alors la décision ?",
       "options": [
-        "Un autre membre du conseil municipal désigné à cet effet",
-        "Le préfet du département",
-        "Le président de l'EPCI",
-        "Le directeur des services de l'urbanisme"
+        "Le maire lui-même, après s'être déporté du vote",
+        "Un autre membre désigné par le conseil municipal ou l'organe délibérant de l'établissement public",
+        "Le préfet, qui se substitue automatiquement au maire",
+        "Le président de l'EPCI dans tous les cas"
       ],
-      "answer": 0,
-      "explanation": "Si le maire est intéressé au projet, le conseil municipal désigne un autre de ses membres pour prendre la décision.",
-      "id": "urb1__103-regles-communes-autorisations__3_1_1__opus_021",
+      "answer": 1,
+      "explanation": "Le texte prévoit que, lorsque le maire est intéressé au projet, le conseil municipal ou l'organe délibérant désigne un autre de ses membres pour prendre la décision.",
+      "id": "urb__103-regles-communes-autorisations__3_1_1__opus_003",
       "sectionTitle": "Le principe : la décision prise au nom de la commune",
       "sourceLink": "#section-103-regles-communes-autorisations__3_1_1",
       "sourceText": "Si le maire ou le président de l'EPCI est intéressé au projet faisant l'objet de la demande de permis ou de la déclaration préalable, soit en son nom personnel, soit comme mandataire, le conseil municipal de la commune ou l'organe délibérant de l'établissement public désigne un autre de ses membres pour prendre la décision.",
       "sourceContext": "Si le maire ou le président de l'EPCI est intéressé au projet faisant l'objet de la demande de permis ou de la déclaration préalable, soit en son nom personnel, soit comme mandataire, le conseil municipal de la commune ou l'organe délibérant de l'établissement public désigne un autre de ses membres pour prendre la décision.",
       "sectionId": "103-regles-communes-autorisations__3_1_1",
       "keywords": [
+        "conflit d'intérêts",
         "maire intéressé",
-        "conseil municipal",
-        "décision"
+        "conseil municipal"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Lorsque le préfet prend la décision au nom de l'État, quelle formalité doit-il accomplir auprès des élus locaux ?",
+      "q": "Selon le texte, lorsque la commune délègue sa compétence à l'EPCI, par qui et au nom de qui est-elle exercée ?",
       "options": [
-        "Il recueille l'avis du maire ou du président de l'EPCI compétent",
-        "Il sollicite l'avis conforme du conseil municipal",
-        "Il obtient l'accord exprès du maire concerné",
-        "Il transmet sa décision pour ratification à l'EPCI"
+        "Par le conseil municipal, au nom de la commune",
+        "Par le préfet, au nom de l'État",
+        "Par le maire, au nom de la commune",
+        "Par le président de l'EPCI, au nom de l'EPCI"
       ],
-      "answer": 0,
-      "explanation": "Lorsque la décision est prise par le préfet, celui-ci recueille l'avis du maire ou du président de l'EPCI compétent.",
-      "id": "urb1__103-regles-communes-autorisations__3_1_2__opus_022",
-      "sectionTitle": "Les aménagements : les décisions prises au nom de l'Etat",
+      "answer": 3,
+      "explanation": "Le texte indique que la compétence déléguée est exercée par le président de l'EPCI au nom de ce dernier.",
+      "id": "urb__103-regles-communes-autorisations__3_1_1__opus_004",
+      "sectionTitle": "Le principe : la décision prise au nom de la commune",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_1_1",
+      "sourceText": "La commune peut déléguer cette compétence à l'EPCI dont elle fait partie, qui est alors exercée par le président de l'EPCI au nom de ce dernier.",
+      "sourceContext": "La commune peut déléguer cette compétence à l'EPCI dont elle fait partie, qui est alors exercée par le président de l'EPCI au nom de ce dernier.",
+      "sectionId": "103-regles-communes-autorisations__3_1_1",
+      "keywords": [
+        "délégation",
+        "EPCI",
+        "président"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune ne dispose d'aucun document d'urbanisme. Selon le texte, au nom de qui la décision est-elle alors prise ?",
+      "options": [
+        "Au nom de la commune, par le maire",
+        "Au nom du conseil municipal délibérant",
+        "Au nom de l'État",
+        "Au nom de l'EPCI, par son président"
+      ],
+      "answer": 2,
+      "explanation": "Le texte range parmi les hypothèses de décision prise au nom de l'État le cas où la commune ne dispose d'aucun document d'urbanisme.",
+      "id": "urb__103-regles-communes-autorisations__3_1_2__opus_001",
+      "sectionTitle": "Les aménagements : les décisions prises au nom de l’Etat",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_1_2",
+      "sourceText": "La première correspond au cas où la commune ne dispose d'aucun document d'urbanisme, ou à celui dans lequel les communes dotées d'une carte communale ont un conseil municipal qui n'a pas désigné le maire pour agir au nom de la commune.",
+      "sourceContext": "La première correspond au cas où la commune ne dispose d'aucun document d'urbanisme, ou à celui dans lequel les communes dotées d'une carte communale ont un conseil municipal qui n'a pas désigné le maire pour agir au nom de la commune.",
+      "sectionId": "103-regles-communes-autorisations__3_1_2",
+      "keywords": [
+        "décision",
+        "État",
+        "absence de document d'urbanisme"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque la décision est prise par le préfet, quelle formalité doit-il accomplir selon le texte ?",
+      "options": [
+        "Il sollicite l'accord du conseil municipal",
+        "Il transmet le dossier à l'architecte des Bâtiments de France",
+        "Il statue seul, sans consulter la commune",
+        "Il recueille l'avis du maire ou du président de l'EPCI compétent"
+      ],
+      "answer": 3,
+      "explanation": "Le texte impose au préfet, lorsqu'il prend la décision, de recueillir l'avis du maire ou du président de l'EPCI compétent.",
+      "id": "urb__103-regles-communes-autorisations__3_1_2__opus_002",
+      "sectionTitle": "Les aménagements : les décisions prises au nom de l’Etat",
       "sourceLink": "#section-103-regles-communes-autorisations__3_1_2",
       "sourceText": "Lorsque la décision est prise par le préfet, celui-ci recueille l'avis du maire ou du président de l'EPCI compétent.",
       "sourceContext": "Lorsque la décision est prise par le préfet, celui-ci recueille l'avis du maire ou du président de l'EPCI compétent.",
@@ -457,182 +708,366 @@
       "keywords": [
         "préfet",
         "avis du maire",
-        "décision de l'État"
+        "EPCI"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "En l'absence de notification d'une décision à l'issue du délai d'instruction, quel est en principe le sort de la demande de permis ?",
+      "q": "Selon le texte, quel est en principe l'effet du silence de l'administration à l'issue du délai d'instruction ?",
       "options": [
-        "Le permis est tacitement accordé",
-        "La demande est tacitement rejetée",
-        "Le délai d'instruction est prorogé d'office",
-        "La demande devient caduque"
+        "Le dossier est automatiquement transmis au préfet",
+        "Le délai d'instruction recommence à courir",
+        "Le silence vaut systématiquement rejet de la demande",
+        "Le permis ou la décision de non-opposition est tacitement accordé, sauf dans certains cas où le silence vaut rejet"
       ],
-      "answer": 0,
-      "explanation": "Le permis est tacitement accordé si aucune décision n'est notifiée à l'issue du délai d'instruction, sauf cas particuliers.",
-      "id": "urb1__103-regles-communes-autorisations__3_2__opus_023",
+      "answer": 3,
+      "explanation": "Le texte pose que le permis ou la non-opposition est tacitement accordé si aucune décision n'est notifiée à l'issue du délai, sauf dans certains cas où le silence vaut rejet.",
+      "id": "urb__103-regles-communes-autorisations__3_2__opus_001",
       "sectionTitle": "Le contenu de la décision",
       "sourceLink": "#section-103-regles-communes-autorisations__3_2",
-      "sourceText": "Le permis ou la décision de non-opposition à la déclaration préalable est tacitement accordé si aucune décision n'est notifiée au demandeur à l'issue du délai d'instruction, sauf dans certains cas, ou ce silence vaut rejet (travaux sont soumis à l'autorisation du ministre de la défense ou à une autorisation au titre des sites classés ou en instance de classement ou des réserves naturelles, projet portant sur un immeuble inscrit ou un immeuble adossé à un immeuble classé au titre des monuments historiques, projet soumis à enquête publique, etc.).",
-      "sourceContext": "Le permis ou la décision de non-opposition à la déclaration préalable est tacitement accordé si aucune décision n'est notifiée au demandeur à l'issue du délai d'instruction, sauf dans certains cas, ou ce silence vaut rejet (travaux sont soumis à l'autorisation du ministre de la défense ou à une autorisation au titre des sites classés ou en instance de classement ou des réserves naturelles, projet portant sur un immeuble inscrit ou un immeuble adossé à un immeuble classé au titre des monuments historiques, projet soumis à enquête publique, etc.).",
+      "sourceText": "Le permis ou la décision de non-opposition à la déclaration préalable est tacitement accordé si aucune décision n'est notifiée au demandeur à l'issue du délai d'instruction, sauf dans certains cas, ou ce silence vaut rejet (travaux sont soumis à l'autorisation du ministre de la défense ou à une autorisation au titre des sites classés ou en instance de classement ou des réserves naturelles, projet portant sur un immeuble inscrit ou un immeuble adossé à un immeuble classé au titre des monuments historiques, projet soumis à enquête publique, etc.",
+      "sourceContext": "Le permis ou la décision de non-opposition à la déclaration préalable est tacitement accordé si aucune décision n'est notifiée au demandeur à l'issue du délai d'instruction, sauf dans certains cas, ou ce silence vaut rejet (travaux sont soumis à l'autorisation du ministre de la défense ou à une autorisation au titre des sites classés ou en instance de classement ou des réserves naturelles, projet portant sur un immeuble inscrit ou un immeuble adossé à un immeuble classé au titre des monuments historiques, projet soumis à enquête publique, etc.",
       "sectionId": "103-regles-communes-autorisations__3_2",
       "keywords": [
         "permis tacite",
         "silence",
-        "délai d'instruction"
+        "rejet"
       ]
     },
     {
-      "bloom": "rappel",
-      "q": "À quel moment le permis délivré par le maire au nom de la commune devient-il exécutoire ?",
+      "bloom": "analyse",
+      "q": "Selon le texte, dans laquelle des situations suivantes la décision doit-elle être motivée ?",
       "options": [
-        "À compter de sa notification au demandeur et de sa transmission au préfet",
-        "À compter de sa seule signature par le maire",
-        "À compter de son affichage sur le terrain par le bénéficiaire",
-        "À compter de l'expiration du délai de recours contentieux"
+        "Lorsqu'elle délivre un récépissé de dépôt",
+        "Lorsqu'elle rejette la demande ou s'oppose à la déclaration préalable",
+        "Lorsqu'elle se borne à enregistrer une demande complète",
+        "Lorsqu'elle accorde un permis tacite sans condition"
       ],
-      "answer": 0,
-      "explanation": "Le permis est exécutoire à compter de sa notification au demandeur et de sa transmission au préfet.",
-      "id": "urb1__103-regles-communes-autorisations__3_2__opus_024",
+      "answer": 1,
+      "explanation": "Le texte exige la motivation notamment lorsque la décision rejette la demande ou s'oppose à la déclaration préalable, est assortie de prescriptions, oppose un sursis à statuer ou comporte une dérogation.",
+      "id": "urb__103-regles-communes-autorisations__3_2__opus_002",
       "sectionTitle": "Le contenu de la décision",
       "sourceLink": "#section-103-regles-communes-autorisations__3_2",
-      "sourceText": "Lorsque l'autorité compétente est le maire au nom de la commune ou le président de l'EPCI, le permis est exécutoire, lorsqu'il s'agit d'un arrêté, à compter de sa notification au demandeur et de sa transmission au préfet.",
-      "sourceContext": "Lorsque l'autorité compétente est le maire au nom de la commune ou le président de l'EPCI, le permis est exécutoire, lorsqu'il s'agit d'un arrêté, à compter de sa notification au demandeur et de sa transmission au préfet.",
+      "sourceText": "La décision doit être motivée lorsqu'elle rejette la demande ou s'oppose à la déclaration préalable, qu'elle est assortie de prescriptions, ou encore qu'elle oppose un sursis à statuer, voire qu'elle comporte une dérogation ou une adaptation mineure aux règles d'urbanisme applicables.",
+      "sourceContext": "La décision doit être motivée lorsqu'elle rejette la demande ou s'oppose à la déclaration préalable, qu'elle est assortie de prescriptions, ou encore qu'elle oppose un sursis à statuer, voire qu'elle comporte une dérogation ou une adaptation mineure aux règles d'urbanisme applicables.",
       "sectionId": "103-regles-communes-autorisations__3_2",
       "keywords": [
-        "caractère exécutoire",
+        "motivation",
+        "rejet",
+        "prescriptions"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lorsque le maire délivre un permis par arrêté, à compter de quel moment celui-ci devient-il exécutoire selon le texte ?",
+      "options": [
+        "À compter de son affichage sur le terrain",
+        "À compter de l'expiration du délai de recours contentieux",
+        "À compter de sa seule signature par le maire",
+        "À compter de sa notification au demandeur et de sa transmission au préfet"
+      ],
+      "answer": 3,
+      "explanation": "Le texte rend le permis exécutoire, lorsqu'il s'agit d'un arrêté, à compter de sa notification au demandeur et de sa transmission au préfet.",
+      "id": "urb__103-regles-communes-autorisations__3_2__opus_003",
+      "sectionTitle": "Le contenu de la décision",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_2",
+      "sourceText": "le permis est exécutoire, lorsqu'il s'agit d'un arrêté, à compter de sa notification au demandeur et de sa transmission au préfet.",
+      "sourceContext": "le permis est exécutoire, lorsqu'il s'agit d'un arrêté, à compter de sa notification au demandeur et de sa transmission au préfet.",
+      "sectionId": "103-regles-communes-autorisations__3_2",
+      "keywords": [
+        "exécutoire",
         "notification",
         "transmission au préfet"
       ]
     },
     {
-      "bloom": "application",
-      "q": "Un bénéficiaire obtient un permis de construire mais n'entreprend aucun travaux. À l'expiration de quel délai son permis devient-il périmé ?",
+      "bloom": "evaluation",
+      "q": "Une déclaration préalable porte sur un abattage d'arbres situé en dehors des secteurs urbanisés. Selon le texte, l'affichage sur le terrain est-il obligatoire ?",
       "options": [
-        "Si les travaux ne sont pas entrepris dans le délai de deux ans",
-        "Si les travaux ne sont pas entrepris dans le délai d'un an",
-        "Si les travaux ne sont pas entrepris dans le délai de trois ans",
-        "Si les travaux ne sont pas entrepris dans le délai de cinq ans"
+        "Non, sauf si le préfet l'exige expressément",
+        "Non, cet affichage n'est pas obligatoire dans ce cas",
+        "Oui, l'affichage est toujours obligatoire sans exception",
+        "Oui, mais seulement pendant huit jours"
       ],
-      "answer": 0,
-      "explanation": "Le permis est périmé si les travaux ne sont pas entrepris dans le délai de deux ans à compter de la notification.",
-      "id": "urb1__103-regles-communes-autorisations__3_4__opus_026",
-      "sectionTitle": "La durée de validité des décisions",
-      "sourceLink": "#section-103-regles-communes-autorisations__3_4",
-      "sourceText": "Le permis de construire, d'aménager ou de démolir, ou la décision de non-opposition à une déclaration préalable lorsque cette déclaration porte sur une opération comportant des travaux, est périmé si les travaux ne sont pas entrepris dans le délai de deux ans à compter de la notification ou de la date à laquelle la décision tacite est intervenue.",
-      "sourceContext": "Le permis de construire, d'aménager ou de démolir, ou la décision de non-opposition à une déclaration préalable lorsque cette déclaration porte sur une opération comportant des travaux, est périmé si les travaux ne sont pas entrepris dans le délai de deux ans à compter de la notification ou de la date à laquelle la décision tacite est intervenue.",
-      "sectionId": "103-regles-communes-autorisations__3_4",
+      "answer": 1,
+      "explanation": "Le texte dispense d'affichage les déclarations préalables portant sur une coupe ou un abattage d'arbres situés en dehors des secteurs urbanisés.",
+      "id": "urb__103-regles-communes-autorisations__3_3__opus_001",
+      "sectionTitle": "Les mesures de publicité et le caractère exécutoire des décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_3",
+      "sourceText": "Cet affichage n'est pas obligatoire pour les déclarations préalables portant sur une coupe ou un abattage d'arbres situés en dehors des secteurs urbanisés.",
+      "sourceContext": "Cet affichage n'est pas obligatoire pour les déclarations préalables portant sur une coupe ou un abattage d'arbres situés en dehors des secteurs urbanisés.",
+      "sectionId": "103-regles-communes-autorisations__3_3",
       "keywords": [
-        "péremption",
-        "deux ans",
-        "durée de validité"
-      ]
-    },
-    {
-      "bloom": "comprehension",
-      "q": "Dans quelles conditions un permis de construire illégal peut-il être retiré par l'autorité compétente sans demande de son bénéficiaire ?",
-      "options": [
-        "S'il est illégal et dans le délai de trois mois suivant la date de la décision",
-        "S'il est illégal et dans le délai de six mois suivant la date de la décision",
-        "À tout moment, dès lors que son illégalité est établie",
-        "S'il est illégal et dans le délai de deux ans suivant la date de la décision"
-      ],
-      "answer": 0,
-      "explanation": "Le permis ne peut être retiré que s'il est illégal et dans le délai de trois mois suivant la date de la décision.",
-      "id": "urb1__103-regles-communes-autorisations__4_1__opus_027",
-      "sectionTitle": "Le contrôle sur les décisions",
-      "sourceLink": "#section-103-regles-communes-autorisations__4_1",
-      "sourceText": "La décision de non-opposition à une déclaration préalable ou le permis de construire ou d'aménager ou de démolir, tacite ou explicite, ne peuvent être retirés que s'ils sont illégaux et dans le délai de trois mois suivant la date de ces décisions.",
-      "sourceContext": "La décision de non-opposition à une déclaration préalable ou le permis de construire ou d'aménager ou de démolir, tacite ou explicite, ne peuvent être retirés que s'ils sont illégaux et dans le délai de trois mois suivant la date de ces décisions.",
-      "sectionId": "103-regles-communes-autorisations__4_1",
-      "keywords": [
-        "retrait du permis",
-        "trois mois",
-        "illégalité"
+        "affichage",
+        "abattage d'arbres",
+        "secteurs urbanisés"
       ]
     },
     {
       "bloom": "rappel",
-      "q": "Pendant quelle période les contrôles sur place et sur pièce de la conformité des travaux peuvent-ils être exercés ?",
+      "q": "Selon le texte, pendant quelle durée un extrait du permis est-il publié par voie d'affichage à la mairie ?",
       "options": [
-        "Pendant trois ans après l'achèvement des travaux",
-        "Pendant un an après l'achèvement des travaux",
-        "Pendant cinq ans après l'achèvement des travaux",
-        "Pendant dix ans après l'achèvement des travaux"
+        "Pendant huit jours",
+        "Pendant toute la durée du chantier",
+        "Pendant deux mois",
+        "Pendant quinze jours"
+      ],
+      "answer": 2,
+      "explanation": "Le texte prévoit que cet extrait est publié par voie d'affichage à la mairie pendant deux mois.",
+      "id": "urb__103-regles-communes-autorisations__3_3__opus_002",
+      "sectionTitle": "Les mesures de publicité et le caractère exécutoire des décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_3",
+      "sourceText": "un extrait du permis ou de la déclaration est publié par voie d'affichage à la mairie pendant deux mois.",
+      "sourceContext": "un extrait du permis ou de la déclaration est publié par voie d'affichage à la mairie pendant deux mois.",
+      "sectionId": "103-regles-communes-autorisations__3_3",
+      "keywords": [
+        "affichage en mairie",
+        "extrait",
+        "deux mois"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Selon le texte, dans quel délai les travaux doivent-ils être entrepris pour éviter la péremption du permis ?",
+      "options": [
+        "Dans le délai de six mois à compter de la notification",
+        "Dans le délai de trois ans à compter de la notification",
+        "Dans le délai d'un an à compter de la notification",
+        "Dans le délai de deux ans à compter de la notification ou de la décision tacite"
+      ],
+      "answer": 3,
+      "explanation": "Le texte fixe la péremption si les travaux ne sont pas entrepris dans le délai de deux ans à compter de la notification ou de la décision tacite.",
+      "id": "urb__103-regles-communes-autorisations__3_4__opus_001",
+      "sectionTitle": "La durée de validité des décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_4",
+      "sourceText": "est périmé si les travaux ne sont pas entrepris dans le délai de deux ans à compter de la notification ou de la date à laquelle la décision tacite est intervenue.",
+      "sourceContext": "est périmé si les travaux ne sont pas entrepris dans le délai de deux ans à compter de la notification ou de la date à laquelle la décision tacite est intervenue.",
+      "sectionId": "103-regles-communes-autorisations__3_4",
+      "keywords": [
+        "péremption",
+        "deux ans",
+        "travaux"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Selon le texte, qu'advient-il du permis si les travaux sont interrompus pendant un délai supérieur à une année ?",
+      "options": [
+        "Le permis est automatiquement prorogé",
+        "Le permis doit être renouvelé par le préfet",
+        "Le permis reste valable sans limitation",
+        "Le permis est également périmé"
+      ],
+      "answer": 3,
+      "explanation": "Le texte assimile à la péremption le cas où, passé le délai, les travaux sont interrompus pendant un délai supérieur à une année.",
+      "id": "urb__103-regles-communes-autorisations__3_4__opus_002",
+      "sectionTitle": "La durée de validité des décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_4",
+      "sourceText": "Il en est de même si, passé ce délai, les travaux sont interrompus pendant un délai supérieur à une année.",
+      "sourceContext": "Il en est de même si, passé ce délai, les travaux sont interrompus pendant un délai supérieur à une année.",
+      "sectionId": "103-regles-communes-autorisations__3_4",
+      "keywords": [
+        "interruption",
+        "une année",
+        "péremption"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "À quelle condition de fond, selon le texte, le permis peut-il être prorogé pour une année sur demande de son bénéficiaire ?",
+      "options": [
+        "Si les prescriptions d'urbanisme et les servitudes n'ont pas évolué de façon défavorable à son égard",
+        "Si le projet est situé en secteur sauvegardé",
+        "Si les travaux ont déjà commencé partiellement",
+        "Si le préfet donne son accord exprès"
       ],
       "answer": 0,
-      "explanation": "Ces contrôles ne peuvent être exercés que pendant trois ans après l'achèvement des travaux.",
-      "id": "urb1__103-regles-communes-autorisations__4_2_1__opus_028",
+      "explanation": "Le texte conditionne la prorogation d'une année à l'absence d'évolution défavorable des prescriptions d'urbanisme et des servitudes administratives.",
+      "id": "urb__103-regles-communes-autorisations__3_4__opus_003",
+      "sectionTitle": "La durée de validité des décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__3_4",
+      "sourceText": "peut être prorogé pour une année, sur demande de son bénéficiaire si les prescriptions d'urbanisme et les servitudes administratives de tous ordres auxquelles est soumis le projet n'ont pas évolué de façon défavorable à son égard.",
+      "sourceContext": "peut être prorogé pour une année, sur demande de son bénéficiaire si les prescriptions d'urbanisme et les servitudes administratives de tous ordres auxquelles est soumis le projet n'ont pas évolué de façon défavorable à son égard.",
+      "sectionId": "103-regles-communes-autorisations__3_4",
+      "keywords": [
+        "prorogation",
+        "servitudes",
+        "prescriptions d'urbanisme"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Selon le texte, à quelles conditions un permis ou une décision de non-opposition peut-il être retiré ?",
+      "options": [
+        "À tout moment, dès lors que l'administration le juge opportun",
+        "Dans le délai d'un an, même s'il est légal",
+        "Seulement s'il est illégal, sans condition de délai",
+        "Seulement s'il est illégal et dans le délai de trois mois suivant la date de la décision"
+      ],
+      "answer": 3,
+      "explanation": "Le texte n'autorise le retrait que si la décision est illégale et dans le délai de trois mois suivant sa date.",
+      "id": "urb__103-regles-communes-autorisations__4_1__opus_001",
+      "sectionTitle": "Le contrôle sur les décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_1",
+      "sourceText": "ne peuvent être retirés que s'ils sont illégaux et dans le délai de trois mois suivant la date de ces décisions.",
+      "sourceContext": "ne peuvent être retirés que s'ils sont illégaux et dans le délai de trois mois suivant la date de ces décisions.",
+      "sectionId": "103-regles-communes-autorisations__4_1",
+      "keywords": [
+        "retrait",
+        "illégalité",
+        "trois mois"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Passé le délai de trois mois, à quelle condition le permis peut-il encore être retiré selon le texte ?",
+      "options": [
+        "Sur simple décision de l'autorité compétente",
+        "Il ne peut plus jamais être retiré",
+        "Sur demande de tout tiers intéressé",
+        "Seulement sur demande expresse de son bénéficiaire"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que, passé ce délai, le retrait ne peut intervenir que sur demande expresse du bénéficiaire.",
+      "id": "urb__103-regles-communes-autorisations__4_1__opus_002",
+      "sectionTitle": "Le contrôle sur les décisions",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_1",
+      "sourceText": "Passé ce délai, la décision de non-opposition et le permis ne peuvent être retirés que sur demande expresse de leur bénéficiaire.",
+      "sourceContext": "Passé ce délai, la décision de non-opposition et le permis ne peuvent être retirés que sur demande expresse de leur bénéficiaire.",
+      "sectionId": "103-regles-communes-autorisations__4_1",
+      "keywords": [
+        "retrait",
+        "demande expresse",
+        "bénéficiaire"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Selon le texte, pendant quelle période les contrôles sur place ou sur pièce peuvent-ils être exercés ?",
+      "options": [
+        "Pendant deux ans après l'achèvement des travaux",
+        "Pendant cinq ans après l'achèvement des travaux",
+        "Pendant trois ans après l'achèvement des travaux",
+        "Sans limitation de durée après l'achèvement"
+      ],
+      "answer": 2,
+      "explanation": "Le texte limite ces contrôles à trois ans après l'achèvement des travaux.",
+      "id": "urb__103-regles-communes-autorisations__4_2_1__opus_001",
       "sectionTitle": "Un contrôle général",
       "sourceLink": "#section-103-regles-communes-autorisations__4_2_1",
       "sourceText": "Ces contrôles ne peuvent être exercés que pendant trois ans après l'achèvement des travaux.",
       "sourceContext": "Ces contrôles ne peuvent être exercés que pendant trois ans après l'achèvement des travaux.",
       "sectionId": "103-regles-communes-autorisations__4_2_1",
       "keywords": [
-        "contrôle général",
+        "contrôle",
         "trois ans",
-        "achèvement des travaux"
+        "achèvement"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Quel est l'objet de la déclaration d'achèvement des travaux présentée à la mairie par le constructeur ?",
+      "q": "Selon le texte, quel type de contrôle le préfet et les autorités compétentes peuvent-ils exercer avec un droit de visite ?",
       "options": [
-        "Attester de l'achèvement des travaux et de leur conformité à la décision délivrée",
-        "Solliciter une prorogation du permis pour une année supplémentaire",
-        "Demander l'affichage de la décision sur le terrain",
-        "Obtenir le récépissé de dépôt du dossier"
+        "Des contrôles sur place",
+        "Des contrôles par voie de sondage statistique",
+        "Des contrôles délégués au commissaire enquêteur",
+        "Des contrôles exclusivement sur pièce"
       ],
       "answer": 0,
-      "explanation": "La déclaration a pour but d'attester de l'achèvement des travaux et de leur conformité à la décision délivrée.",
-      "id": "urb1__103-regles-communes-autorisations__4_2_2_1__opus_029",
-      "sectionTitle": "La déclaration d'achèvement des travaux",
+      "explanation": "Le texte prévoit des contrôles sur place, avec un droit de visite, exercés par le préfet et les autorités compétentes.",
+      "id": "urb__103-regles-communes-autorisations__4_2_1__opus_002",
+      "sectionTitle": "Un contrôle général",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_2_1",
+      "sourceText": "Le préfet et les autorités compétentes peuvent exercer des contrôles sur place, avec un droit de visite.",
+      "sourceContext": "Le préfet et les autorités compétentes peuvent exercer des contrôles sur place, avec un droit de visite.",
+      "sectionId": "103-regles-communes-autorisations__4_2_1",
+      "keywords": [
+        "contrôle sur place",
+        "droit de visite",
+        "préfet"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Selon le texte, par quels moyens le constructeur peut-il présenter sa déclaration d'achèvement des travaux à la mairie ?",
+      "options": [
+        "En la déposant, en l'envoyant par lettre recommandée ou par voie électronique",
+        "Uniquement par dépôt physique en mairie",
+        "Uniquement par voie électronique sur un portail dédié",
+        "Uniquement par lettre recommandée avec avis de réception"
+      ],
+      "answer": 0,
+      "explanation": "Le texte autorise le dépôt, l'envoi par lettre recommandée ou l'envoi par voie électronique.",
+      "id": "urb__103-regles-communes-autorisations__4_2_2_1__opus_001",
+      "sectionTitle": "La déclaration d’achèvement des travaux",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_2_2_1",
+      "sourceText": "le constructeur doit présenter une déclaration d'achèvement des travaux à la mairie, soit en la déposant, soit en l'envoyant par lettre recommandée, soit en l'envoyant par voie électronique.",
+      "sourceContext": "le constructeur doit présenter une déclaration d'achèvement des travaux à la mairie, soit en la déposant, soit en l'envoyant par lettre recommandée, soit en l'envoyant par voie électronique.",
+      "sectionId": "103-regles-communes-autorisations__4_2_2_1",
+      "keywords": [
+        "déclaration d'achèvement",
+        "mairie",
+        "lettre recommandée"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, quel est l'objet de la déclaration d'achèvement des travaux ?",
+      "options": [
+        "Demander la prorogation du permis pour une année",
+        "Attester de l'achèvement des travaux et de leur conformité à la décision délivrée",
+        "Solliciter un récépissé de dépôt de demande",
+        "Notifier un recours contentieux à l'auteur de la décision"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le but de cette déclaration est d'attester de l'achèvement des travaux et de leur conformité à la décision délivrée.",
+      "id": "urb__103-regles-communes-autorisations__4_2_2_1__opus_002",
+      "sectionTitle": "La déclaration d’achèvement des travaux",
       "sourceLink": "#section-103-regles-communes-autorisations__4_2_2_1",
       "sourceText": "Le but de cette déclaration est d'attester de l'achèvement des travaux et de leur conformité à la décision délivrée.",
       "sourceContext": "Le but de cette déclaration est d'attester de l'achèvement des travaux et de leur conformité à la décision délivrée.",
       "sectionId": "103-regles-communes-autorisations__4_2_2_1",
       "keywords": [
-        "déclaration d'achèvement",
+        "achèvement",
         "conformité",
-        "travaux"
-      ]
-    },
-    {
-      "bloom": "application",
-      "q": "Un récolement facultatif est engagé après réception d'une déclaration d'achèvement. De quel délai disposent les autorités pour contester la conformité des travaux ?",
-      "options": [
-        "Trois mois",
-        "Cinq mois",
-        "Un mois",
-        "Six mois"
-      ],
-      "answer": 0,
-      "explanation": "Dans le cas d'un récolement facultatif, les autorités ont trois mois pour contester la conformité des travaux.",
-      "id": "urb1__103-regles-communes-autorisations__4_2_2_2__opus_030",
-      "sectionTitle": "Le récolement des travaux",
-      "sourceLink": "#section-103-regles-communes-autorisations__4_2_2_2",
-      "sourceText": "Les autorités ont alors trois mois pour contester la conformité des travaux aux décisions d'urbanisme délivrées.",
-      "sourceContext": "Les autorités ont alors trois mois pour contester la conformité des travaux aux décisions d'urbanisme délivrées.",
-      "sectionId": "103-regles-communes-autorisations__4_2_2_2",
-      "keywords": [
-        "récolement",
-        "trois mois",
-        "conformité"
+        "déclaration"
       ]
     },
     {
       "bloom": "comprehension",
-      "q": "Dans les cas où le récolement des travaux est obligatoire, quel est le délai de récolement applicable ?",
+      "q": "Selon le texte, quel est le caractère de la décision des autorités compétentes de procéder à un récolement, dans le cas général ?",
       "options": [
-        "Cinq mois",
-        "Trois mois",
-        "Deux mois",
-        "Un an"
+        "Subordonné à l'accord du préfet",
+        "Discrétionnaire",
+        "Conditionné à une demande du constructeur",
+        "Toujours obligatoire"
       ],
-      "answer": 0,
-      "explanation": "Lorsque le récolement est obligatoire, le délai de récolement est porté à cinq mois.",
-      "id": "urb1__103-regles-communes-autorisations__4_2_2_2__opus_031",
+      "answer": 1,
+      "explanation": "Le texte indique que, dans le cas général, les autorités peuvent de façon discrétionnaire décider de procéder à un récolement des travaux.",
+      "id": "urb__103-regles-communes-autorisations__4_2_2_2__opus_001",
+      "sectionTitle": "Le récolement des travaux",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_2_2_2",
+      "sourceText": "les autorités compétentes peuvent de façon discrétionnaire décider de procéder à un récolement des travaux.",
+      "sourceContext": "les autorités compétentes peuvent de façon discrétionnaire décider de procéder à un récolement des travaux.",
+      "sectionId": "103-regles-communes-autorisations__4_2_2_2",
+      "keywords": [
+        "récolement",
+        "discrétionnaire",
+        "autorités compétentes"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Selon le texte, comment le délai de récolement diffère-t-il entre le récolement facultatif et le récolement obligatoire ?",
+      "options": [
+        "Trois mois dans les deux cas",
+        "Cinq mois lorsqu'il est facultatif, trois mois lorsqu'il est obligatoire",
+        "Un mois lorsqu'il est facultatif, deux mois lorsqu'il est obligatoire",
+        "Trois mois lorsqu'il est facultatif, cinq mois lorsqu'il est obligatoire"
+      ],
+      "answer": 3,
+      "explanation": "Le texte fixe trois mois pour contester la conformité dans le cas général et porte le délai à cinq mois lorsque le récolement est obligatoire.",
+      "id": "urb__103-regles-communes-autorisations__4_2_2_2__opus_002",
       "sectionTitle": "Le récolement des travaux",
       "sourceLink": "#section-103-regles-communes-autorisations__4_2_2_2",
       "sourceText": "Dans certains cas, le récolement est en revanche obligatoire, le délai de récolement est alors porté à cinq mois.",
@@ -645,26 +1080,95 @@
       ]
     },
     {
-      "bloom": "comprehension",
-      "q": "Lorsqu'une construction est achevée depuis plus de dix ans, sur quoi le refus d'un permis de construire ne peut-il en principe être fondé ?",
+      "bloom": "application",
+      "q": "Selon le texte, le récolement est obligatoire pour un projet portant sur lequel de ces objets ?",
       "options": [
-        "Sur l'irrégularité initiale de la construction",
-        "Sur la non-conformité aux règles d'urbanisme en vigueur",
-        "Sur l'absence de déclaration d'achèvement des travaux",
-        "Sur l'absence de récolement des travaux"
+        "Un établissement recevant du public",
+        "Un mur de soutènement hors secteur sauvegardé",
+        "Une maison individuelle en zone urbaine ordinaire",
+        "Une clôture nécessaire à l'activité agricole"
       ],
       "answer": 0,
-      "explanation": "Pour une construction achevée depuis plus de dix ans, le refus ne peut en principe être fondé sur l'irrégularité initiale.",
-      "id": "urb1__103-regles-communes-autorisations__4_2_3__opus_032",
+      "explanation": "Le texte rend le récolement obligatoire notamment lorsque le projet concerne des établissements recevant du public.",
+      "id": "urb__103-regles-communes-autorisations__4_2_2_2__opus_003",
+      "sectionTitle": "Le récolement des travaux",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_2_2_2",
+      "sourceText": "Cette intervention est obligatoire lorsque le projet concerne un immeuble protégé au titre du patrimoine naturel ou culturel, qu'il intervient au sein d'un parc national ou d'une réserve naturelle, qu'il concerne des établissements recevant du public ou des travaux réalisés dans un secteur couvert par un plan de prévention des risques naturels.",
+      "sourceContext": "Cette intervention est obligatoire lorsque le projet concerne un immeuble protégé au titre du patrimoine naturel ou culturel, qu'il intervient au sein d'un parc national ou d'une réserve naturelle, qu'il concerne des établissements recevant du public ou des travaux réalisés dans un secteur couvert par un plan de prévention des risques naturels.",
+      "sectionId": "103-regles-communes-autorisations__4_2_2_2",
+      "keywords": [
+        "récolement obligatoire",
+        "établissement recevant du public",
+        "patrimoine"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le texte, de quoi l'autorité compétente peut-elle mettre en demeure le maître de l'ouvrage ?",
+      "options": [
+        "De déposer un dossier modificatif ou de mettre les travaux en conformité",
+        "De démolir immédiatement la construction",
+        "De solliciter un nouveau permis de construire complet",
+        "De saisir le juge administratif"
+      ],
+      "answer": 0,
+      "explanation": "Le texte permet à l'autorité compétente de mettre en demeure le maître de l'ouvrage de déposer un dossier modificatif ou de mettre les travaux en conformité.",
+      "id": "urb__103-regles-communes-autorisations__4_2_3__opus_001",
       "sectionTitle": "La portée des contrôles",
       "sourceLink": "#section-103-regles-communes-autorisations__4_2_3",
-      "sourceText": "En effet, si une construction est achevée depuis plus de 10 ans, le refus de permis de construire ou la déclaration préalable ne peut en principe être fondée sur l'irrégularité initiale.",
-      "sourceContext": "En effet, si une construction est achevée depuis plus de 10 ans, le refus de permis de construire ou la déclaration préalable ne peut en principe être fondée sur l'irrégularité initiale.",
+      "sourceText": "L'autorité compétente peut mettre en demeure le maître de l'ouvrage de déposer un dossier modificatif ou de mettre les travaux en conformité.",
+      "sourceContext": "L'autorité compétente peut mettre en demeure le maître de l'ouvrage de déposer un dossier modificatif ou de mettre les travaux en conformité.",
       "sectionId": "103-regles-communes-autorisations__4_2_3",
       "keywords": [
-        "prescription",
+        "mise en demeure",
+        "dossier modificatif",
+        "conformité"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Une construction est achevée depuis plus de dix ans avec une irrégularité initiale. Selon le texte, le refus d'un nouveau permis peut-il en principe se fonder sur cette irrégularité ?",
+      "options": [
+        "Non, sauf accord exprès du conseil municipal",
+        "Oui, l'irrégularité initiale justifie toujours le refus",
+        "Oui, mais seulement si la construction est en zone urbaine",
+        "Non, en principe le refus ne peut être fondé sur l'irrégularité initiale"
+      ],
+      "answer": 3,
+      "explanation": "Le texte pose qu'au-delà de dix ans d'achèvement, le refus ne peut en principe être fondé sur l'irrégularité initiale.",
+      "id": "urb__103-regles-communes-autorisations__4_2_3__opus_002",
+      "sectionTitle": "La portée des contrôles",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_2_3",
+      "sourceText": "si une construction est achevée depuis plus de 10 ans, le refus de permis de construire ou la déclaration préalable ne peut en principe être fondée sur l'irrégularité initiale.",
+      "sourceContext": "si une construction est achevée depuis plus de 10 ans, le refus de permis de construire ou la déclaration préalable ne peut en principe être fondée sur l'irrégularité initiale.",
+      "sectionId": "103-regles-communes-autorisations__4_2_3",
+      "keywords": [
         "dix ans",
-        "irrégularité initiale"
+        "irrégularité initiale",
+        "refus de permis"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Selon le texte, dans quel cas la protection de la construction ancienne ne joue pas et le refus reste possible ?",
+      "options": [
+        "Lorsque le propriétaire n'a pas déposé de déclaration d'achèvement",
+        "Lorsque la construction dépasse de peu les seuils de surface",
+        "Lorsque la construction se situe en zone agricole",
+        "Lorsque la construction expose à un risque de mort ou de blessures graves, ou si une action en démolition a été engagée"
+      ],
+      "answer": 3,
+      "explanation": "Le texte écarte la protection notamment lorsque la construction expose ses usagers ou des tiers à un risque de mort ou de blessures graves, ou si une action en démolition a été engagée.",
+      "id": "urb__103-regles-communes-autorisations__4_2_3__opus_003",
+      "sectionTitle": "La portée des contrôles",
+      "sourceLink": "#section-103-regles-communes-autorisations__4_2_3",
+      "sourceText": "Il en va différemment si la construction est de nature, par sa situation, à exposer ses usagers ou des tiers à un risque de mort ou de blessures de nature à entrainer une mutilation ou une infirmité permanente, ou si une action en démolition a été engagée.",
+      "sourceContext": "Il en va différemment si la construction est de nature, par sa situation, à exposer ses usagers ou des tiers à un risque de mort ou de blessures de nature à entrainer une mutilation ou une infirmité permanente, ou si une action en démolition a été engagée.",
+      "sectionId": "103-regles-communes-autorisations__4_2_3",
+      "keywords": [
+        "risque",
+        "démolition",
+        "exception"
       ]
     }
   ]

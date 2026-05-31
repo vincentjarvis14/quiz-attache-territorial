@@ -7,7 +7,7 @@ import { BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV = [
-  { href: "/learn", label: "Apprendre" },
+  { href: "/learn", label: "Quizz" },
   { href: "/progression", label: "Progression" },
   { href: "/library", label: "Bibliothèque" },
 ];

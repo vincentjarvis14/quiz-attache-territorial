@@ -2,9 +2,19 @@ import { redirect } from "next/navigation";
 import {
   getLesson,
   getQuestionsPool,
-  getRevisionQuestions,
+  getDueCards,
 } from "@/db/queries";
 import { QuizPlayer, type QuizQuestion } from "./quiz-player";
+
+// Mélange (Fisher-Yates) — copie sans muter l'entrée.
+function shuffle<T>(arr: readonly T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 function toQuizQuestion(ch: {
   id: number;
@@ -15,7 +25,10 @@ function toQuizQuestion(ch: {
   explanation: string;
   challengeOptions: { id: number; text: string; correct: boolean }[];
 }, sousThemeTitle?: string): QuizQuestion {
-  const opts = [...ch.challengeOptions].sort((a, b) => a.id - b.id);
+  // Les options sont seedées avec la bonne réponse en premier : sans mélange,
+  // la bonne réponse tomberait toujours en position A. On mélange à l'affichage
+  // et on recalcule l'index de la bonne option après coup.
+  const opts = shuffle(ch.challengeOptions);
   return {
     id: ch.id,
     question: ch.question,
@@ -49,7 +62,7 @@ const LessonPage = async ({
   let questions: QuizQuestion[] = [];
 
   if (isRevision) {
-    const rows = await getRevisionQuestions(20);
+    const rows = await getDueCards(20);
     if (!rows) redirect("/learn");
     questions = (rows ?? []).map((ch) => toQuizQuestion(ch));
   } else if (idsParam) {

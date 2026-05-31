@@ -1,36 +1,29 @@
 import { cookies } from "next/headers";
-import { supabase } from "./supabase";
+import { createSupabaseServerClient } from "./supabase-server";
 
-/**
- * Récupère l'ID de l'utilisateur connecté via Supabase Auth ou le cookie invité.
- * Retourne null si non connecté.
- */
 export async function auth(): Promise<string | null> {
   try {
-    // 1. Essayer Supabase Auth
-    const { data } = await supabase.auth.getSession();
-    if (data.session?.user?.id) {
-      return data.session.user.id;
-    }
+    const supabase = await createSupabaseServerClient();
+    const { data } = await supabase.auth.getUser();
+    if (data.user?.id) return data.user.id;
+  } catch {
+    // Supabase indisponible — on tente le fallback invité
+  }
 
-    // 2. Essayer le cookie invité
+  try {
     const cookieStore = await cookies();
     const guestId = cookieStore.get("guest_id")?.value;
-    if (guestId) {
-      return guestId;
-    }
-
-    return null;
+    if (guestId) return guestId;
   } catch {
-    return null;
+    // Cookie store indisponible
   }
+
+  return null;
 }
 
-/**
- * Récupère l'utilisateur connecté complet.
- */
 export async function getUser() {
   try {
+    const supabase = await createSupabaseServerClient();
     const { data } = await supabase.auth.getUser();
     return data.user || null;
   } catch {

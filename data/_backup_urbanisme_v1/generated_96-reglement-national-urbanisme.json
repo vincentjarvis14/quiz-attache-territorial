@@ -1,0 +1,740 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "À quelles communes le règlement national d'urbanisme (RNU) fixe-t-il les dispositions applicables aux terrains constructibles ?",
+      "options": [
+        "Aux villes ne disposant pas d'un POS, d'un PLU ou d'un document en tenant lieu",
+        "À toutes les communes, qu'elles soient ou non dotées d'un PLU",
+        "Aux seules communes dotées d'un plan local d'urbanisme approuvé",
+        "Aux seules communes de plus de 3 500 habitants"
+      ],
+      "answer": 0,
+      "explanation": "Le RNU fixe les dispositions applicables aux terrains constructibles dans les villes ne disposant pas d'un POS, d'un PLU ou d'un document en tenant lieu.",
+      "id": "urb1__96-reglement-national-urbanisme__1_1__opus_001",
+      "sectionTitle": "Présentation générale",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_1",
+      "sourceText": "Le RNU fixe les dispositions applicables aux terrains constructibles dans les villes ne disposant pas d’un plan d’occupation des sols (POS), d’un plan local d’urbanisme (PLU), ou d’un document en tenant lieu.",
+      "sourceContext": "Le RNU fixe les dispositions applicables aux terrains constructibles dans les villes ne disposant pas d’un plan d’occupation des sols (POS), d’un plan local d’urbanisme (PLU), ou d’un document en tenant lieu.",
+      "sectionId": "96-reglement-national-urbanisme__1_1",
+      "keywords": [
+        "RNU",
+        "terrains constructibles",
+        "absence de PLU"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Même dans une commune disposant d'un PLU, pourquoi certaines règles du RNU peuvent-elles s'appliquer ?",
+      "options": [
+        "Parce que certaines règles sont d'ordre public et s'appliquent à l'ensemble du territoire",
+        "Parce que le PLU est toujours subordonné à l'autorisation préalable du préfet",
+        "Parce que le RNU prime systématiquement sur tout document local",
+        "Parce que le PLU ne peut régir que les zones agricoles"
+      ],
+      "answer": 0,
+      "explanation": "Certaines règles du RNU sont d'ordre public et s'appliquent à l'ensemble du territoire, même là où existe un PLU.",
+      "id": "urb1__96-reglement-national-urbanisme__1_1__opus_002",
+      "sectionTitle": "Présentation générale",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_1",
+      "sourceText": "Toutefois, certaines règles sont d’ordre public et s’appliquent à l’ensemble du territoire.",
+      "sourceContext": "Toutefois, certaines règles sont d’ordre public et s’appliquent à l’ensemble du territoire.",
+      "sectionId": "96-reglement-national-urbanisme__1_1",
+      "keywords": [
+        "ordre public",
+        "ensemble du territoire",
+        "RNU"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Par quel type de texte sont déterminées les règles générales applicables en matière d'utilisation du sol (localisation, desserte, implantation, architecture) ?",
+      "options": [
+        "Par des décrets en Conseil d'État",
+        "Par de simples arrêtés ministériels",
+        "Par délibération du conseil municipal",
+        "Par circulaire du préfet de département"
+      ],
+      "answer": 0,
+      "explanation": "Ces règles générales sont déterminées par des décrets en Conseil d'État.",
+      "id": "urb1__96-reglement-national-urbanisme__1_1__opus_003",
+      "sectionTitle": "Présentation générale",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_1",
+      "sourceText": "Les règles générales applicables, en dehors de la production agricole en matière d'utilisation du sol, notamment en ce qui concerne la localisation, la desserte, l'implantation et l'architecture des constructions, le mode de clôture et la tenue décente des propriétés foncières et des constructions, sont déterminées par des décrets en Conseil d'Etat.",
+      "sourceContext": "Les règles générales applicables, en dehors de la production agricole en matière d'utilisation du sol, notamment en ce qui concerne la localisation, la desserte, l'implantation et l'architecture des constructions, le mode de clôture et la tenue décente des propriétés foncières et des constructions, sont déterminées par des décrets en Conseil d'Etat.",
+      "sectionId": "96-reglement-national-urbanisme__1_1",
+      "keywords": [
+        "décrets Conseil d'État",
+        "règles générales",
+        "utilisation du sol"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "À quels actes les dispositions du RNU sont-elles applicables ?",
+      "options": [
+        "Aux constructions, aménagements, installations et travaux soumis à permis de construire, permis d'aménager ou déclaration préalable",
+        "Aux seuls permis de construire de logements collectifs",
+        "Aux seules constructions situées en zone agricole",
+        "Aux seuls travaux dispensés de toute autorisation d'urbanisme"
+      ],
+      "answer": 0,
+      "explanation": "Le RNU s'applique aux constructions, aménagements, installations et travaux faisant l'objet d'un permis de construire, d'aménager ou d'une déclaration préalable.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2__opus_004",
+      "sectionTitle": "Les règles applicables à l’ensemble du territoire",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2",
+      "sourceText": "Les dispositions du RNU sont applicables aux constructions, aménagements, installations et travaux faisant l'objet d'un permis de construire, d'un permis d'aménager ou d'une déclaration préalable ainsi qu'aux autres utilisations du sol régies par le code de l’urbanisme.",
+      "sourceContext": "Les dispositions du RNU sont applicables aux constructions, aménagements, installations et travaux faisant l'objet d'un permis de construire, d'un permis d'aménager ou d'une déclaration préalable ainsi qu'aux autres utilisations du sol régies par le code de l’urbanisme.",
+      "sectionId": "96-reglement-national-urbanisme__1_2",
+      "keywords": [
+        "RNU",
+        "permis de construire",
+        "déclaration préalable"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Au titre de la protection de la salubrité et de la sécurité publique, quelles suites peuvent être réservées à un projet qui y porte atteinte ?",
+      "options": [
+        "Il peut être refusé, ou accepté sous réserve de l'observation de prescriptions spéciales",
+        "Il doit obligatoirement être accepté en l'état",
+        "Il est automatiquement transmis au juge administratif",
+        "Il ne peut faire l'objet que d'une simple recommandation non contraignante"
+      ],
+      "answer": 0,
+      "explanation": "Un projet portant atteinte à la salubrité ou à la sécurité publique peut être refusé ou accepté sous réserve de prescriptions spéciales.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2_1__opus_006",
+      "sectionTitle": "La protection de la salubrité et de la sécurité publique",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2_1",
+      "sourceText": "Un projet peut être refusé, ou accepté sous réserve de l’observation de prescriptions spéciales, s’il porte atteinte à la salubrité ou à la sécurité publique, du fait de leur situation, leurs caractéristiques, leur importance ou leur implantation à proximité d’autres installations.",
+      "sourceContext": "Un projet peut être refusé, ou accepté sous réserve de l’observation de prescriptions spéciales, s’il porte atteinte à la salubrité ou à la sécurité publique, du fait de leur situation, leurs caractéristiques, leur importance ou leur implantation à proximité d’autres installations.",
+      "sectionId": "96-reglement-national-urbanisme__1_2_1",
+      "keywords": [
+        "salubrité",
+        "sécurité publique",
+        "prescriptions spéciales"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune est exposée à un risque naturel important. Sur le fondement de la protection de la sécurité publique, l'autorité peut-elle refuser un projet de construction ?",
+      "options": [
+        "Oui, le juge administratif admet que l'existence d'un risque naturel peut justifier le refus d'un projet",
+        "Non, un risque naturel est sans incidence sur la délivrance des autorisations",
+        "Non, seul le maire peut refuser, jamais sur ce motif",
+        "Oui, mais uniquement si la commune dispose d'un PLU"
+      ],
+      "answer": 0,
+      "explanation": "Le juge administratif a considéré que l'existence d'un risque naturel pouvait justifier le refus d'un projet.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2_1__opus_007",
+      "sectionTitle": "La protection de la salubrité et de la sécurité publique",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2_1",
+      "sourceText": "Ayant eu à se pencher sur cette question, le juge administratif a ainsi pu considérer que l’existence d’un risque naturel pouvait justifier le refus d’un projet (CE, 16 février 2007, Préfet de Charente-Maritime).",
+      "sourceContext": "Ayant eu à se pencher sur cette question, le juge administratif a ainsi pu considérer que l’existence d’un risque naturel pouvait justifier le refus d’un projet (CE, 16 février 2007, Préfet de Charente-Maritime).",
+      "sectionId": "96-reglement-national-urbanisme__1_2_1",
+      "keywords": [
+        "risque naturel",
+        "refus",
+        "juge administratif"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel but un projet peut-il être refusé ou assorti de prescriptions spéciales au titre de la protection des sites ou vestiges archéologiques ?",
+      "options": [
+        "S'il est de nature à porter atteinte à la conservation ou la mise en valeur d'un site ou de vestiges archéologiques",
+        "S'il ne respecte pas la hauteur moyenne des constructions voisines",
+        "S'il dépasse une emprise au sol fixée par le maire",
+        "S'il n'est pas raccordé au réseau public d'eau potable"
+      ],
+      "answer": 0,
+      "explanation": "Le projet peut être refusé s'il est de nature à porter atteinte à la conservation ou la mise en valeur d'un site ou de vestiges archéologiques.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2_2__opus_008",
+      "sectionTitle": "La protection de sites ou de vestiges archéologiques",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2_2",
+      "sourceText": "De la même façon, un projet peut être refusé, ou n’être accepté que sous réserve de l’observation de prescriptions spéciales, s’il est de nature, par sa localisation et ses caractéristiques, à porter atteinte à la conservation ou la mise en valeur d’un site ou de vestiges archéologiques.",
+      "sourceContext": "De la même façon, un projet peut être refusé, ou n’être accepté que sous réserve de l’observation de prescriptions spéciales, s’il est de nature, par sa localisation et ses caractéristiques, à porter atteinte à la conservation ou la mise en valeur d’un site ou de vestiges archéologiques.",
+      "sectionId": "96-reglement-national-urbanisme__1_2_2",
+      "keywords": [
+        "vestiges archéologiques",
+        "conservation",
+        "prescriptions"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Que doit respecter le permis ou la décision prise sur déclaration préalable au titre de la protection de l'environnement ?",
+      "options": [
+        "Les préoccupations environnementales mentionnées dans le code de l'environnement",
+        "Les seules normes thermiques en vigueur",
+        "L'avis conforme de la commission départementale des sites",
+        "Les recommandations du schéma de cohérence territoriale"
+      ],
+      "answer": 0,
+      "explanation": "Le permis ou la décision sur déclaration préalable doit respecter les préoccupations environnementales mentionnées dans le code de l'environnement.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2_3__opus_009",
+      "sectionTitle": "La protection de l’environnement",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2_3",
+      "sourceText": "Il est indispensable que le permis ou la décision prise sur la déclaration préalable respecte les préoccupations environnementales mentionnées dans le code de l’environnement.",
+      "sourceContext": "Il est indispensable que le permis ou la décision prise sur la déclaration préalable respecte les préoccupations environnementales mentionnées dans le code de l’environnement.",
+      "sectionId": "96-reglement-national-urbanisme__1_2_3",
+      "keywords": [
+        "environnement",
+        "déclaration préalable",
+        "code de l'environnement"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon la protection des lieux environnants, à quoi les constructions ne doivent-elles pas porter atteinte ?",
+      "options": [
+        "Au caractère ou à l'intérêt des lieux avoisinants, aux sites, paysages et perspectives monumentales",
+        "À la rentabilité économique des terrains voisins",
+        "Au plan de financement des équipements publics",
+        "À la liberté de circulation des engins agricoles"
+      ],
+      "answer": 0,
+      "explanation": "Les constructions ne doivent pas porter atteinte au caractère ou à l'intérêt des lieux avoisinants, aux sites, paysages et à la conservation des perspectives monumentales.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2_4__opus_010",
+      "sectionTitle": "La protection des lieux environnants",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2_4",
+      "sourceText": "Les constructions, par leur situation, leur architecture, leurs dimensions ou l’aspect des bâtiments, ne doivent pas être de nature à porter atteinte au caractère ou à l’intérêt des lieux avoisinants, aux sites, aux paysages naturels et urbains ainsi qu’à la conservation des perspectives monumentales.",
+      "sourceContext": "Les constructions, par leur situation, leur architecture, leurs dimensions ou l’aspect des bâtiments, ne doivent pas être de nature à porter atteinte au caractère ou à l’intérêt des lieux avoisinants, aux sites, aux paysages naturels et urbains ainsi qu’à la conservation des perspectives monumentales.",
+      "sectionId": "96-reglement-national-urbanisme__1_2_4",
+      "keywords": [
+        "lieux avoisinants",
+        "paysages",
+        "perspectives monumentales"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quels territoires les dispositions de l'article R. 111-21 (protection des lieux environnants) ne sont-elles pas applicables ?",
+      "options": [
+        "Dans les ZPPAUP et les territoires dotés d'un plan de sauvegarde et de mise en valeur approuvé",
+        "Dans toutes les communes de plus de 10 000 habitants",
+        "Dans les seules zones agricoles protégées",
+        "Dans les communes littorales soumises à la loi Littoral"
+      ],
+      "answer": 0,
+      "explanation": "L'article R. 111-21 ne s'applique pas dans les zones de protection du patrimoine (ZPPAUP) ni dans les territoires dotés d'un plan de sauvegarde et de mise en valeur approuvé.",
+      "id": "urb1__96-reglement-national-urbanisme__1_2_4__opus_011",
+      "sectionTitle": "La protection des lieux environnants",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_2_4",
+      "sourceText": "De plus, les dispositions de l’article R.111-21 ne sont pas applicables dans les zones de protection du patrimoine architectural, urbain et paysager ni dans les territoires dotés d’un plan de sauvegarde et de mise en valeur approuvé, qui comportent leur propre règlement.",
+      "sourceContext": "De plus, les dispositions de l’article R.111-21 ne sont pas applicables dans les zones de protection du patrimoine architectural, urbain et paysager ni dans les territoires dotés d’un plan de sauvegarde et de mise en valeur approuvé, qui comportent leur propre règlement.",
+      "sectionId": "96-reglement-national-urbanisme__1_2_4",
+      "keywords": [
+        "R. 111-21",
+        "ZPPAUP",
+        "plan de sauvegarde"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans les territoires non dotés d'un PLU, que limitent les règles contenues dans le RNU ?",
+      "options": [
+        "Le droit de réaliser une construction lorsqu'elle pourrait porter atteinte à un intérêt urbanistique, d'hygiène, de sécurité ou de salubrité",
+        "Le droit de vendre un terrain entre particuliers",
+        "Le droit de la commune à percevoir la taxe d'aménagement",
+        "Le droit du préfet de prescrire un PLU"
+      ],
+      "answer": 0,
+      "explanation": "Les règles du RNU limitent le droit de construire dans les hypothèses où la construction pourrait porter atteinte à un intérêt urbanistique, d'hygiène, de sécurité et de salubrité.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3__opus_012",
+      "sectionTitle": "Les règles applicables aux territoires non dotés d’un PLU ou d’un",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3",
+      "sourceText": "Les règles contenues dans le RNU limitent le droit de réaliser une construction dans de nombreuses hypothèses où elle pourrait porter atteinte à un intérêt urbanistique, d’hygiène ou de sécurité, et de salubrité.",
+      "sourceContext": "Les règles contenues dans le RNU limitent le droit de réaliser une construction dans de nombreuses hypothèses où elle pourrait porter atteinte à un intérêt urbanistique, d’hygiène ou de sécurité, et de salubrité.",
+      "sectionId": "96-reglement-national-urbanisme__1_3",
+      "keywords": [
+        "RNU",
+        "droit de construire",
+        "intérêt urbanistique"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qu'est-ce qui caractérise les règles dites permissives du RNU ?",
+      "options": [
+        "Elles laissent à l'autorité compétente un pouvoir d'appréciation pour refuser ou accorder, éventuellement avec prescriptions",
+        "Elles imposent une décision automatique sans marge d'appréciation",
+        "Elles s'appliquent uniquement aux communes littorales",
+        "Elles relèvent exclusivement de la compétence du préfet"
+      ],
+      "answer": 0,
+      "explanation": "Les règles permissives laissent à l'autorité compétente un pouvoir d'appréciation lui permettant de refuser ou d'accorder le projet, éventuellement avec des prescriptions.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_1__opus_013",
+      "sectionTitle": "Les règles permissives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_1",
+      "sourceText": "Elles laissent à l’autorité compétente un pouvoir d’appréciation lui permettant de refuser ou de l’accorder avec éventuellement des prescriptions.",
+      "sourceContext": "Elles laissent à l’autorité compétente un pouvoir d’appréciation lui permettant de refuser ou de l’accorder avec éventuellement des prescriptions.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_1",
+      "keywords": [
+        "règles permissives",
+        "pouvoir d'appréciation",
+        "prescriptions"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un projet de lotissement dessert ses lots par des voies trop étroites pour les engins de secours. Sur quel motif l'autorité peut-elle refuser le permis ?",
+      "options": [
+        "Parce que les caractéristiques de ces voies rendent difficile la circulation ou l'utilisation des engins de lutte contre l'incendie",
+        "Parce que le projet n'a pas reçu l'avis conforme de la CDCEA",
+        "Parce que la commune n'est pas couverte par un SCOT",
+        "Parce que le projet dépasse la hauteur moyenne des constructions voisines"
+      ],
+      "answer": 0,
+      "explanation": "Le projet peut être refusé si les caractéristiques des voies rendent difficile la circulation ou l'utilisation des engins de lutte contre l'incendie.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_1__opus_014",
+      "sectionTitle": "Les règles permissives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_1",
+      "sourceText": "si les caractéristiques de ces voies rendent difficile la circulation ou l'utilisation des engins de lutte contre l'incendie ; si les accès présentent un risque pour la sécurité des usagers des voies publiques ou pour celle des personnes utilisant ces accès.",
+      "sourceContext": "si les caractéristiques de ces voies rendent difficile la circulation ou l'utilisation des engins de lutte contre l'incendie ; si les accès présentent un risque pour la sécurité des usagers des voies publiques ou pour celle des personnes utilisant ces accès.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_1",
+      "keywords": [
+        "desserte",
+        "engins de lutte contre l'incendie",
+        "sécurité des accès"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Pour un programme de bâtiments à usage d'habitation, qu'est-ce que l'autorité compétente peut exiger du constructeur ?",
+      "options": [
+        "La réalisation d'aires de jeux et de loisirs situées à proximité des logements et correspondant à leur importance",
+        "Le versement d'une participation financière au budget communal",
+        "La cession gratuite de 10 % du terrain à la commune",
+        "La construction d'un local commercial en rez-de-chaussée"
+      ],
+      "answer": 0,
+      "explanation": "Pour des bâtiments d'habitation, l'autorité compétente peut exiger la réalisation d'aires de jeux et de loisirs à proximité, correspondant à leur importance.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_1__opus_015",
+      "sectionTitle": "Les règles permissives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_1",
+      "sourceText": "des bâtiments à usage d'habitation, l'autorité compétente peut exiger la réalisation, par le constructeur, d'aires de jeux et de loisirs situées à proximité de ces logements et correspondant à leur importance.",
+      "sourceContext": "des bâtiments à usage d'habitation, l'autorité compétente peut exiger la réalisation, par le constructeur, d'aires de jeux et de loisirs situées à proximité de ces logements et correspondant à leur importance.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_1",
+      "keywords": [
+        "aires de jeux",
+        "habitation",
+        "constructeur"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En quoi consistent les règles impératives en matière de desserte par les réseaux publics ?",
+      "options": [
+        "Le projet ne peut être autorisé que si ces règles sont respectées",
+        "Elles laissent à l'autorité une marge d'appréciation au cas par cas",
+        "Elles ne s'appliquent qu'aux constructions à usage industriel",
+        "Elles peuvent être écartées par simple décision du maire"
+      ],
+      "answer": 0,
+      "explanation": "Les règles impératives impliquent que le projet ne peut être autorisé que si ces règles sont respectées.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_2__opus_016",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_2",
+      "sourceText": "Elles impliquent que le projet ne peut être autorisé que si ces règles sont respectées.",
+      "sourceContext": "Elles impliquent que le projet ne peut être autorisé que si ces règles sont respectées.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_2",
+      "keywords": [
+        "règles impératives",
+        "autorisation",
+        "réseaux publics"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque des bâtiments à usage d'habitation sont prévus, à quelle obligation de desserte en eau sont-ils soumis ?",
+      "options": [
+        "Ils doivent être desservis par un réseau de distribution d'eau potable sous pression raccordé aux réseaux publics",
+        "Ils peuvent se contenter d'une citerne de récupération des eaux de pluie",
+        "Ils doivent disposer d'un forage privé homologué par le préfet",
+        "Ils sont dispensés de toute desserte en eau potable"
+      ],
+      "answer": 0,
+      "explanation": "Les bâtiments à usage d'habitation doivent nécessairement être desservis par un réseau de distribution d'eau potable sous pression raccordé aux réseaux publics.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_2__opus_017",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_2",
+      "sourceText": "Ensuite, dans l’hypothèse où des bâtiments à usage d’habitation sont prévus, ils doivent nécessairement être desservis par un réseau de distribution d’eau potable sous pression raccordé aux réseaux publics.",
+      "sourceContext": "Ensuite, dans l’hypothèse où des bâtiments à usage d’habitation sont prévus, ils doivent nécessairement être desservis par un réseau de distribution d’eau potable sous pression raccordé aux réseaux publics.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_2",
+      "keywords": [
+        "eau potable",
+        "réseau sous pression",
+        "habitation"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un secteur n'est pas raccordé au réseau public d'eau potable. À quelle condition l'alimentation peut-elle être assurée par un seul point d'eau ?",
+      "options": [
+        "Sous réserve que l'hygiène générale et la protection sanitaire soient assurées",
+        "À la condition d'obtenir l'avis conforme de la CDCEA",
+        "À la condition que la commune adopte un PLU dans l'année",
+        "Sans aucune condition particulière"
+      ],
+      "answer": 0,
+      "explanation": "En l'absence de réseau public, l'alimentation peut être assurée par un seul point d'eau sous réserve que l'hygiène générale et la protection sanitaire soient assurées.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_2__opus_018",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_2",
+      "sourceText": "Pour autant, s’il n’existe pas de réseau public de distribution d’eau potable, et sous réserve que l’hygiène générale et la protection sanitaire soient assurées, l’alimentation peut être assurée par un seul point d’eau, ou en cas d’impossibilité par le plus petit nombre possible de points d’eau.",
+      "sourceContext": "Pour autant, s’il n’existe pas de réseau public de distribution d’eau potable, et sous réserve que l’hygiène générale et la protection sanitaire soient assurées, l’alimentation peut être assurée par un seul point d’eau, ou en cas d’impossibilité par le plus petit nombre possible de points d’eau.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_2",
+      "keywords": [
+        "point d'eau",
+        "hygiène",
+        "protection sanitaire"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi des dérogations à l'obligation d'installations collectives de distribution d'eau peuvent-elles être accordées à titre exceptionnel ?",
+      "options": [
+        "Lorsque la grande superficie des parcelles ou la faible densité rend l'alimentation individuelle plus économique",
+        "Lorsque la commune compte moins de 500 habitants",
+        "Lorsque le préfet l'impose pour des raisons budgétaires",
+        "Lorsque le projet est porté par un bailleur social"
+      ],
+      "answer": 0,
+      "explanation": "Ces dérogations visent les cas où la grande superficie des parcelles ou la faible densité fait apparaître l'alimentation individuelle comme plus économique.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_1_2__opus_019",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_1_2",
+      "sourceText": "Il s’agit des hypothèses dans lesquelles la grande superficie des parcelles ou la faible densité de construction ainsi que la facilité d’alimentation individuelle font apparaitre cette dernière comme plus économique.",
+      "sourceContext": "Il s’agit des hypothèses dans lesquelles la grande superficie des parcelles ou la faible densité de construction ainsi que la facilité d’alimentation individuelle font apparaitre cette dernière comme plus économique.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_1_2",
+      "keywords": [
+        "dérogation",
+        "superficie des parcelles",
+        "alimentation individuelle"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle règle d'implantation s'applique de façon générale par rapport à la limite parcellaire la plus proche ?",
+      "options": [
+        "Une distance au moins égale à la moitié de la différence d'altitude entre les deux points, sans pouvoir être inférieure à trois mètres",
+        "Une distance au moins égale à la différence d'altitude entre les deux points",
+        "Une distance fixe de cinq mètres en toute hypothèse",
+        "Aucune distance, l'implantation étant libre hors voie publique"
+      ],
+      "answer": 0,
+      "explanation": "La distance à la limite parcellaire la plus proche doit être au moins égale à la moitié de la différence d'altitude, sans pouvoir être inférieure à trois mètres.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_2_2__opus_021",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_2_2",
+      "sourceText": "De façon générale, la distance comptée horizontalement de tout point du bâtiment au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à la moitié de la différence d’altitude entre ces deux points, sans pouvoir être inférieure à trois mètres.",
+      "sourceContext": "De façon générale, la distance comptée horizontalement de tout point du bâtiment au point de la limite parcellaire qui en est le plus rapproché doit être au moins égale à la moitié de la différence d’altitude entre ces deux points, sans pouvoir être inférieure à trois mètres.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_2_2",
+      "keywords": [
+        "limite parcellaire",
+        "implantation",
+        "différence d'altitude"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un propriétaire veut faire des travaux sur un immeuble existant non conforme aux règles d'implantation et de gabarit. Quels travaux le permis peut-il autoriser ?",
+      "options": [
+        "Des travaux améliorant la conformité de l'implantation ou du gabarit, ou sans effet sur ceux-ci",
+        "Tous travaux, dès lors que l'immeuble est antérieur au RNU",
+        "Uniquement la démolition complète de l'immeuble",
+        "Tous travaux d'extension, sans condition de conformité"
+      ],
+      "answer": 0,
+      "explanation": "Le permis ne peut être accordé que pour des travaux améliorant la conformité de l'implantation ou du gabarit, ou n'ayant aucun effet sur ceux-ci.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_2_2__opus_022",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_2_2",
+      "sourceText": "Si un immeuble bâti existant n’est pas conforme aux prescriptions précédentes, le permis ne peut être accordé que pour des travaux qui ont pour objet d’améliorer la conformité de l’implantation ou du gabarit de cet immeuble avec ces prescriptions, ou encore pour des travaux qui n’ont aucun effet sur l’implantation ou le gabarit de l’immeuble.",
+      "sourceContext": "Si un immeuble bâti existant n’est pas conforme aux prescriptions précédentes, le permis ne peut être accordé que pour des travaux qui ont pour objet d’améliorer la conformité de l’implantation ou du gabarit de cet immeuble avec ces prescriptions, ou encore pour des travaux qui n’ont aucun effet sur l’implantation ou le gabarit de l’immeuble.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_2_2",
+      "keywords": [
+        "immeuble non conforme",
+        "amélioration de conformité",
+        "gabarit"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qui accorde les dérogations aux règles d'implantation et de volume des constructions ?",
+      "options": [
+        "L'autorité compétente, après avis du maire si celui-ci n'est pas l'autorité compétente",
+        "Le seul préfet de région, sans consultation du maire",
+        "La CDCEA par avis conforme",
+        "Le conseil municipal par délibération à l'unanimité"
+      ],
+      "answer": 0,
+      "explanation": "Les dérogations sont accordées par l'autorité compétente, après avis du maire lorsque celui-ci n'est pas l'autorité compétente.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_2_2__opus_023",
+      "sectionTitle": "Les règles impératives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_2_2",
+      "sourceText": "Il est à noter que les règles concernant l’implantation et le volume des constructions peuvent connaitre des dérogations, accordées par l’autorité compétente, après avis du maire si celui-ci n’est pas l’autorité compétente.",
+      "sourceContext": "Il est à noter que les règles concernant l’implantation et le volume des constructions peuvent connaitre des dérogations, accordées par l’autorité compétente, après avis du maire si celui-ci n’est pas l’autorité compétente.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_2_2",
+      "keywords": [
+        "dérogation",
+        "autorité compétente",
+        "avis du maire"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans un secteur déjà partiellement bâti présentant une unité d'aspect, un projet dépasse la hauteur moyenne des constructions voisines. Quelle suite est possible ?",
+      "options": [
+        "L'autorisation peut être refusée ou subordonnée à des prescriptions particulières",
+        "L'autorisation doit être accordée de plein droit",
+        "Le projet est renvoyé à l'avis conforme du préfet",
+        "Le projet doit être réduit à la hauteur exacte de la moyenne"
+      ],
+      "answer": 0,
+      "explanation": "L'autorisation de construire à une hauteur supérieure à la hauteur moyenne des constructions avoisinantes peut être refusée ou subordonnée à des prescriptions particulières.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_3_1__opus_024",
+      "sectionTitle": "Les règles permissives",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_3_1",
+      "sourceText": "puisque l’autorisation de construire à une hauteur supérieure à la hauteur moyenne des constructions avoisinantes peut être refusée ou subordonnée à des prescriptions particulières.",
+      "sourceContext": "puisque l’autorisation de construire à une hauteur supérieure à la hauteur moyenne des constructions avoisinantes peut être refusée ou subordonnée à des prescriptions particulières.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_3_1",
+      "keywords": [
+        "hauteur moyenne",
+        "unité d'aspect",
+        "prescriptions particulières"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Que pose la règle impérative relative à l'aspect des constructions concernant les murs séparatifs construits avec des matériaux différents des façades principales ?",
+      "options": [
+        "Ils doivent avoir un aspect qui s'harmonise avec celui des façades",
+        "Ils doivent être identiques aux murs de façades principales",
+        "Ils doivent être systématiquement enduits de la même teinte",
+        "Ils sont interdits dès lors qu'ils sont visibles depuis la voie"
+      ],
+      "answer": 0,
+      "explanation": "Les murs séparatifs construits avec des matériaux différents doivent avoir un aspect qui s'harmonise avec celui des façades.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_3_2__opus_025",
+      "sectionTitle": "La règle impérative",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_3_2",
+      "sourceText": "Dans le cas où les murs séparatifs et les murs apparentés d’un bâtiment sont construits avec des matériaux différents de ceux des murs de façades principales, ils doivent avoir un aspect qui s’harmonise avec celui des façades.",
+      "sourceContext": "Dans le cas où les murs séparatifs et les murs apparentés d’un bâtiment sont construits avec des matériaux différents de ceux des murs de façades principales, ils doivent avoir un aspect qui s’harmonise avec celui des façades.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_3_2",
+      "keywords": [
+        "murs séparatifs",
+        "harmonisation",
+        "aspect"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans le périmètre de l'opération d'intérêt national de la Défense, quelle séparation un immeuble de grande hauteur doit-il respecter par rapport à la ligne médiane de l'axe historique ?",
+      "options": [
+        "Au moins 50 mètres",
+        "Au moins 20 mètres",
+        "Au moins 10 mètres",
+        "Au moins 100 mètres"
+      ],
+      "answer": 0,
+      "explanation": "Un immeuble de grande hauteur doit respecter une séparation d'au moins 50 mètres par rapport à la ligne médiane de l'axe historique de La Défense.",
+      "id": "urb1__96-reglement-national-urbanisme__1_3_4__opus_026",
+      "sectionTitle": "Les dispositions spécifiques concernant les opérations d’intérêt national de la",
+      "sourceLink": "#section-96-reglement-national-urbanisme__1_3_4",
+      "sourceText": "Si le projet porte sur un immeuble de grande hauteur, chaque bâtiment doit en premier lieu respecter une séparation d'au moins 50 mètres par rapport à la ligne médiane de l'axe historique de La Défense et de 20 mètres par rapport au boulevard urbain circulaire, tandis qu’en second lieu des règles d'implantation respectant une séparation d'au moins 10 mètres par rapport à l'axe des autres voies de passage principales peuvent être imposées.",
+      "sourceContext": "Si le projet porte sur un immeuble de grande hauteur, chaque bâtiment doit en premier lieu respecter une séparation d'au moins 50 mètres par rapport à la ligne médiane de l'axe historique de La Défense et de 20 mètres par rapport au boulevard urbain circulaire, tandis qu’en second lieu des règles d'implantation respectant une séparation d'au moins 10 mètres par rapport à l'axe des autres voies de passage principales peuvent être imposées.",
+      "sectionId": "96-reglement-national-urbanisme__1_3_4",
+      "keywords": [
+        "La Défense",
+        "immeuble de grande hauteur",
+        "séparation"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est l'objectif de la règle de la constructibilité limitée dans les communes sans document d'urbanisme ?",
+      "options": [
+        "Lutter contre l'urbanisation diffuse en interdisant les constructions hors des parties actuellement urbanisées, sauf quatre hypothèses",
+        "Imposer une densité minimale à toutes les nouvelles constructions",
+        "Interdire toute construction sur l'ensemble du territoire communal",
+        "Réserver la constructibilité aux seules opérations de logement social"
+      ],
+      "answer": 0,
+      "explanation": "Cette règle vise à lutter contre l'urbanisation diffuse et interdit les constructions hors des parties actuellement urbanisées, sauf dans quatre hypothèses.",
+      "id": "urb1__96-reglement-national-urbanisme__2_1__opus_027",
+      "sectionTitle": "Présentation générale",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_1",
+      "sourceText": "Cette règle vise à lutter contre l’urbanisation diffuse, et interdit dès lors les constructions en dehors des parties actuellement urbanisées, sauf dans quatre hypothèses particulières.",
+      "sourceContext": "Cette règle vise à lutter contre l’urbanisation diffuse, et interdit dès lors les constructions en dehors des parties actuellement urbanisées, sauf dans quatre hypothèses particulières.",
+      "sectionId": "96-reglement-national-urbanisme__2_1",
+      "keywords": [
+        "constructibilité limitée",
+        "urbanisation diffuse",
+        "PAU"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que se passe-t-il, en principe, si un terrain est situé hors d'une partie actuellement urbanisée (PAU) ?",
+      "options": [
+        "Il est en principe inconstructible",
+        "Il devient automatiquement constructible après accord du maire",
+        "Il relève de plein droit du régime du PLU voisin",
+        "Il peut être bâti à condition d'être raccordé aux réseaux"
+      ],
+      "answer": 0,
+      "explanation": "Si le terrain est situé hors d'une PAU, il est en principe inconstructible.",
+      "id": "urb1__96-reglement-national-urbanisme__2_2__opus_028",
+      "sectionTitle": "La notion de parties actuellement urbanisées (PAU)",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_2",
+      "sourceText": "Elle est cependant fondamentale, car si le terrain est situé hors d’une PAU, il est en principe inconstructible.",
+      "sourceContext": "Elle est cependant fondamentale, car si le terrain est situé hors d’une PAU, il est en principe inconstructible.",
+      "sectionId": "96-reglement-national-urbanisme__2_2",
+      "keywords": [
+        "PAU",
+        "inconstructibilité",
+        "terrain"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune sans document d'urbanisme s'appuie sur la jurisprudence pour qualifier une PAU. Quel élément a été jugé insuffisant pour identifier un espace urbanisé ?",
+      "options": [
+        "L'absence de réseaux conjuguée à la distance",
+        "La présence de quelques constructions isolées récentes",
+        "La proximité immédiate d'une route départementale",
+        "L'existence d'un projet de lotissement à venir"
+      ],
+      "answer": 0,
+      "explanation": "Le Conseil d'État a considéré que l'absence de réseaux conjuguée à la distance ne permet pas d'identifier un espace urbanisé.",
+      "id": "urb1__96-reglement-national-urbanisme__2_2__opus_029",
+      "sectionTitle": "La notion de parties actuellement urbanisées (PAU)",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_2",
+      "sourceText": "Le Conseil d’Etat a ainsi pu considérer que l’absence de réseaux qui être conjuguée à la distance ne permet pas d’identifier un espace urbanisé (CE, 10 octobre 2011, SARL Les Tamarines).",
+      "sourceContext": "Le Conseil d’Etat a ainsi pu considérer que l’absence de réseaux qui être conjuguée à la distance ne permet pas d’identifier un espace urbanisé (CE, 10 octobre 2011, SARL Les Tamarines).",
+      "sectionId": "96-reglement-national-urbanisme__2_2",
+      "keywords": [
+        "PAU",
+        "absence de réseaux",
+        "espace urbanisé"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Parmi les exceptions à l'inconstructibilité, à quelle condition les constructions nécessaires à des équipements collectifs peuvent-elles être permises ?",
+      "options": [
+        "Dès lors qu'elles ne sont pas incompatibles avec l'exercice d'une activité agricole, pastorale ou forestière sur le terrain",
+        "À condition d'être implantées dans la bande des cent mètres",
+        "À condition d'obtenir l'avis conforme du conseil municipal",
+        "Uniquement si elles sont financées par des fonds publics"
+      ],
+      "answer": 0,
+      "explanation": "Ces constructions sont permises dès lors qu'elles ne sont pas incompatibles avec l'exercice d'une activité agricole, pastorale ou forestière sur le terrain.",
+      "id": "urb1__96-reglement-national-urbanisme__2_3__opus_030",
+      "sectionTitle": "Les exceptions",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_3",
+      "sourceText": "Peuvent également être permises les constructions et installations nécessaires à l'exploitation agricole, à des équipements collectifs dès lors qu'elles ne sont pas incompatibles avec l'exercice d'une activité agricole, pastorale ou forestière sur le terrain sur lequel elles sont implantées, à la réalisation d'aires d'accueil ou de terrains de passage des gens du voyage, à la mise en valeur des ressources naturelles et à la réalisation d'opérations d'intérêt national.",
+      "sourceContext": "Peuvent également être permises les constructions et installations nécessaires à l'exploitation agricole, à des équipements collectifs dès lors qu'elles ne sont pas incompatibles avec l'exercice d'une activité agricole, pastorale ou forestière sur le terrain sur lequel elles sont implantées, à la réalisation d'aires d'accueil ou de terrains de passage des gens du voyage, à la mise en valeur des ressources naturelles et à la réalisation d'opérations d'intérêt national.",
+      "sectionId": "96-reglement-national-urbanisme__2_3",
+      "keywords": [
+        "exceptions",
+        "équipements collectifs",
+        "activité agricole"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Le conseil municipal d'une commune sans document d'urbanisme veut autoriser une construction hors PAU pour éviter le déclin démographique. Sur quel fondement peut-il agir ?",
+      "options": [
+        "Sur délibération motivée considérant que l'intérêt de la commune, notamment pour éviter une diminution de la population, le justifie",
+        "Sur simple décision du maire, sans délibération",
+        "Sur autorisation expresse du préfet de région",
+        "Sur avis conforme du SCOT applicable"
+      ],
+      "answer": 0,
+      "explanation": "Des constructions peuvent être autorisées sur délibération motivée du conseil municipal lorsque l'intérêt de la commune, en particulier pour éviter une diminution de la population, le justifie.",
+      "id": "urb1__96-reglement-national-urbanisme__2_3__opus_031",
+      "sectionTitle": "Les exceptions",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_3",
+      "sourceText": "Enfin, des constructions ou installations peuvent, sur délibération motivée du conseil municipal, être mises en œuvre, si celui-ci considère que l'intérêt de la commune, en particulier pour éviter une diminution de la population communale, le justifie.",
+      "sourceContext": "Enfin, des constructions ou installations peuvent, sur délibération motivée du conseil municipal, être mises en œuvre, si celui-ci considère que l'intérêt de la commune, en particulier pour éviter une diminution de la population communale, le justifie.",
+      "sectionId": "96-reglement-national-urbanisme__2_3",
+      "keywords": [
+        "délibération motivée",
+        "conseil municipal",
+        "population communale"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Avec quelle loi la procédure d'autorisation des constructions hors des parties urbanisées a-t-elle évolué ?",
+      "options": [
+        "La loi pour l'Accès au logement et un urbanisme rénové (ALUR)",
+        "La loi Solidarité et renouvellement urbains (SRU)",
+        "La loi Littoral",
+        "La loi Engagement national pour le logement (ENL)"
+      ],
+      "answer": 0,
+      "explanation": "La procédure a évolué avec la loi pour l'Accès au logement et un urbanisme rénové (ALUR).",
+      "id": "urb1__96-reglement-national-urbanisme__2_4_1__opus_032",
+      "sectionTitle": "Le champ d’intervention de la Commission Départementale de Consommation des",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_4_1",
+      "sourceText": "Avec la loi pour l’Accès au logement et un urbanisme rénové (ALUR), la procédure à mettre en œuvre lorsque des constructions sont susceptibles d’être autorisées en dehors des parties urbanisées des communes a évolué.",
+      "sourceContext": "Avec la loi pour l’Accès au logement et un urbanisme rénové (ALUR), la procédure à mettre en œuvre lorsque des constructions sont susceptibles d’être autorisées en dehors des parties urbanisées des communes a évolué.",
+      "sectionId": "96-reglement-national-urbanisme__2_4_1",
+      "keywords": [
+        "loi ALUR",
+        "procédure",
+        "parties urbanisées"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un projet hors PAU relève de la quatrième hypothèse de constructibilité tolérée (délibération motivée). Quelle est la portée de l'avis de la CDCEA ?",
+      "options": [
+        "Un avis conforme",
+        "Un avis simple",
+        "Aucun avis n'est requis",
+        "Un avis facultatif du préfet"
+      ],
+      "answer": 0,
+      "explanation": "L'avis de la CDCEA est simple pour les trois premiers cas et conforme pour la dernière hypothèse.",
+      "id": "urb1__96-reglement-national-urbanisme__2_4_1__opus_033",
+      "sectionTitle": "Le champ d’intervention de la Commission Départementale de Consommation des",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_4_1",
+      "sourceText": "Il s’agira d’un avis simple pour les trois premiers cas de constructibilité tolérée, et d’un avis conforme pour la dernière hypothèse.",
+      "sourceContext": "Il s’agira d’un avis simple pour les trois premiers cas de constructibilité tolérée, et d’un avis conforme pour la dernière hypothèse.",
+      "sectionId": "96-reglement-national-urbanisme__2_4_1",
+      "keywords": [
+        "CDCEA",
+        "avis conforme",
+        "avis simple"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans une commune couverte ni par un SCOT applicable ni par un document d'urbanisme, à quelle condition une dérogation à l'inconstructibilité hors PAU peut-elle être accordée ?",
+      "options": [
+        "Si l'urbanisation ne nuit pas à la protection des espaces naturels et agricoles, ne conduit pas à une consommation excessive de l'espace et n'a pas d'impact excessif sur les déplacements",
+        "Si la commune s'engage à élaborer un PLU dans un délai de cinq ans",
+        "Si le projet est validé par référendum local",
+        "Si la dérogation est accordée par le ministre chargé de l'urbanisme"
+      ],
+      "answer": 0,
+      "explanation": "La dérogation est possible si l'urbanisation ne nuit pas aux espaces naturels et agricoles, ne conduit pas à une consommation excessive de l'espace et ne génère pas d'impact excessif sur les flux de déplacements.",
+      "id": "urb1__96-reglement-national-urbanisme__2_4_2__opus_034",
+      "sectionTitle": "Les spécificités de l’encadrement pour les communes non couvertes par un Schéma",
+      "sourceLink": "#section-96-reglement-national-urbanisme__2_4_2",
+      "sourceText": "Une dérogation peut cependant être accordée, si l'urbanisation envisagée ne nuit pas à la protection des espaces naturels, agricoles et forestiers ou à la préservation et à la remise en bon état des continuités écologiques, ne conduit pas à une consommation excessive de l'espace, ne génère pas d'impact excessif sur les flux de déplacements et ne nuit pas à une répartition équilibrée entre emploi, habitat, commerces et services.",
+      "sourceContext": "Une dérogation peut cependant être accordée, si l'urbanisation envisagée ne nuit pas à la protection des espaces naturels, agricoles et forestiers ou à la préservation et à la remise en bon état des continuités écologiques, ne conduit pas à une consommation excessive de l'espace, ne génère pas d'impact excessif sur les flux de déplacements et ne nuit pas à une répartition équilibrée entre emploi, habitat, commerces et services.",
+      "sectionId": "96-reglement-national-urbanisme__2_4_2",
+      "keywords": [
+        "dérogation",
+        "absence de SCOT",
+        "espaces naturels"
+      ]
+    }
+  ]
+}

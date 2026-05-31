@@ -1,0 +1,488 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Quelle autorisation doit précéder la réalisation d'une construction nouvelle ?",
+      "options": [
+        "Un permis de construire",
+        "Une simple déclaration en mairie",
+        "Un certificat d'urbanisme",
+        "Aucune formalité"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que les constructions nouvelles doivent être précédées de la délivrance d'un permis de construire.",
+      "id": "urb1__105-permis-construire__1_1__opus_001",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "Les constructions nouvelles doivent être précédées de la délivrance d’un permis de construire.",
+      "sourceContext": "Les constructions nouvelles doivent être précédées de la délivrance d’un permis de construire.",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "permis de construire",
+        "construction nouvelle"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "La destination de la future construction (habitat, commerce, industrie…) influe-t-elle sur l'exigence d'un permis de construire ?",
+      "options": [
+        "Non, la destination n'est pas prise en considération",
+        "Oui, seul l'habitat est soumis à permis",
+        "Oui, seules les constructions commerciales y échappent",
+        "Oui, l'industrie en est dispensée"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que la destination des constructions à réaliser n'est pas prise en considération.",
+      "id": "urb1__105-permis-construire__1_1__opus_002",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "La destination des constructions à réaliser n’est pas prise en considération.",
+      "sourceContext": "La destination des constructions à réaliser n’est pas prise en considération.",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "destination",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une construction ne comportant aucune fondation doit-elle être précédée d'un permis de construire ?",
+      "options": [
+        "Oui, même sans fondations elle requiert un permis de construire",
+        "Non, l'absence de fondations en dispense",
+        "Non, une déclaration suffit toujours",
+        "Oui, mais seulement si elle est permanente"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que les constructions, même ne comportant pas de fondations, doivent être précédées d'un permis de construire.",
+      "id": "urb1__105-permis-construire__1_1__opus_003",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "Les constructions, même ne comportant pas de fondations, doivent être précédées de la délivrance d’un permis de construire.",
+      "sourceContext": "Les constructions, même ne comportant pas de fondations, doivent être précédées de la délivrance d’un permis de construire.",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "fondations",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Qu'est-ce qui distingue une construction soumise à permis de construire d'une construction relevant d'une déclaration préalable ?",
+      "options": [
+        "La construction soumise à déclaration préalable n'a pas à être précédée d'un permis de construire",
+        "Les deux exigent cumulativement un permis de construire",
+        "La déclaration préalable ne dispense jamais du permis",
+        "La construction soumise à permis échappe à toute motivation"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que les constructions soumises à déclaration préalable n'ont pas à être précédées d'un permis de construire.",
+      "id": "urb1__105-permis-construire__1_1__opus_004",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "En outre, les constructions qui doivent faire l'objet d'une déclaration préalable n’ont pas non plus à être précédées de la délivrance d’un permis de construire (fiche 9).",
+      "sourceContext": "En outre, les constructions qui doivent faire l'objet d'une déclaration préalable n’ont pas non plus à être précédées de la délivrance d’un permis de construire (fiche 9).",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "déclaration préalable",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Une entreprise installe une construction à caractère temporaire. Cette nature temporaire la dispense-t-elle, à elle seule, du permis de construire ?",
+      "options": [
+        "Non, les constructions nouvelles peuvent avoir un caractère permanent ou temporaire et restent visées",
+        "Oui, le caractère temporaire dispense toujours de permis",
+        "Oui, seules les constructions permanentes sont visées",
+        "Non, mais une simple déclaration suffit pour le temporaire"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que les constructions nouvelles visées peuvent avoir un caractère permanent ou temporaire.",
+      "id": "urb1__105-permis-construire__1_1__opus_005",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "Les constructions nouvelles ainsi visées pourraient avoir un caractère permanent ou temporaire.",
+      "sourceContext": "Les constructions nouvelles ainsi visées pourraient avoir un caractère permanent ou temporaire.",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "construction temporaire",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le délai d'instruction de droit commun d'un permis de construire portant sur une maison individuelle ?",
+      "options": [
+        "Deux mois",
+        "Un mois",
+        "Trois mois",
+        "Six mois"
+      ],
+      "answer": 0,
+      "explanation": "Le délai de droit commun est fixé à deux mois pour l'instruction d'une demande portant sur une maison individuelle.",
+      "id": "urb1__105-permis-construire__2_2_1__opus_001",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
+      "sourceLink": "#section-105-permis-construire__2_2_1",
+      "sourceText": "Le délai imparti à l’administration est fixé à deux mois pour l’instruction des demandes de permis de construire portant sur une maison individuelle. Il s’agit du délai de droit commun.",
+      "sourceContext": "Le délai imparti à l’administration est fixé à deux mois pour l’instruction des demandes de permis de construire portant sur une maison individuelle. Il s’agit du délai de droit commun.",
+      "sectionId": "105-permis-construire__2_2_1",
+      "keywords": [
+        "délai d'instruction",
+        "maison individuelle"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le délai de droit commun pour l'instruction d'une demande portant sur un immeuble ou plusieurs maisons ?",
+      "options": [
+        "Trois mois",
+        "Deux mois",
+        "Un mois",
+        "Quatre mois"
+      ],
+      "answer": 0,
+      "explanation": "Le texte fixe ce délai de droit commun à trois mois pour la construction de plusieurs maisons ou d'un immeuble.",
+      "id": "urb1__105-permis-construire__2_2_1__opus_002",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
+      "sourceLink": "#section-105-permis-construire__2_2_1",
+      "sourceText": "Le même délai de droit commun est fixé à trois mois pour l’instruction de demandes portant sur la construction de plusieurs maisons ou d’un immeuble.",
+      "sourceContext": "Le même délai de droit commun est fixé à trois mois pour l’instruction de demandes portant sur la construction de plusieurs maisons ou d’un immeuble.",
+      "sectionId": "105-permis-construire__2_2_1",
+      "keywords": [
+        "délai",
+        "immeuble"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Qu'est-ce qui distingue le délai d'instruction d'une maison individuelle de celui d'un immeuble ?",
+      "options": [
+        "Deux mois pour la maison individuelle, trois mois pour l'immeuble",
+        "Le même délai de deux mois s'applique aux deux",
+        "Trois mois pour la maison, deux mois pour l'immeuble",
+        "Aucun délai n'est fixé pour l'immeuble"
+      ],
+      "answer": 0,
+      "explanation": "Le délai de droit commun est de deux mois pour une maison individuelle et de trois mois pour un immeuble ou plusieurs maisons.",
+      "id": "urb1__105-permis-construire__2_2_1__opus_003",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
+      "sourceLink": "#section-105-permis-construire__2_2_1",
+      "sourceText": "Le délai imparti à l’administration est fixé à deux mois pour l’instruction des demandes de permis de construire portant sur une maison individuelle. Il s’agit du délai de droit commun. Ce délai est susceptible d’être majoré d’un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu’il y a lieu de consulter une commission départementale ou régionale. Le même délai de droit commun est fixé à trois mois pour l’instruction de demandes portant sur la construction de plusieurs maisons ou d’un immeuble.",
+      "sourceContext": "Le délai imparti à l’administration est fixé à deux mois pour l’instruction des demandes de permis de construire portant sur une maison individuelle. Il s’agit du délai de droit commun. Ce délai est susceptible d’être majoré d’un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu’il y a lieu de consulter une commission départementale ou régionale. Le même délai de droit commun est fixé à trois mois pour l’instruction de demandes portant sur la construction de plusieurs maisons ou d’un immeuble.",
+      "sectionId": "105-permis-construire__2_2_1",
+      "keywords": [
+        "délai",
+        "comparaison"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Une demande de permis pour une maison individuelle porte sur un projet situé dans un secteur sauvegardé. De combien le délai d'instruction est-il majoré ?",
+      "options": [
+        "D'un mois",
+        "De deux mois",
+        "De trois mois",
+        "Il n'est pas majoré"
+      ],
+      "answer": 0,
+      "explanation": "Le texte prévoit une majoration d'un mois si le projet est situé dans un secteur sauvegardé.",
+      "id": "urb1__105-permis-construire__2_2_1__opus_004",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
+      "sourceLink": "#section-105-permis-construire__2_2_1",
+      "sourceText": "Ce délai est susceptible d’être majoré d’un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu’il y a lieu de consulter une commission départementale ou régionale.",
+      "sourceContext": "Ce délai est susceptible d’être majoré d’un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu’il y a lieu de consulter une commission départementale ou régionale.",
+      "sectionId": "105-permis-construire__2_2_1",
+      "keywords": [
+        "majoration",
+        "secteur sauvegardé"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Le projet de maison individuelle requiert la consultation d'une commission départementale. De combien le délai de droit commun est-il alors majoré ?",
+      "options": [
+        "De deux mois",
+        "D'un mois",
+        "De trois mois",
+        "Il n'est pas majoré"
+      ],
+      "answer": 0,
+      "explanation": "Le texte prévoit une majoration de deux mois lorsqu'il y a lieu de consulter une commission départementale ou régionale.",
+      "id": "urb1__105-permis-construire__2_2_1__opus_005",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
+      "sourceLink": "#section-105-permis-construire__2_2_1",
+      "sourceText": "Ce délai est susceptible d’être majoré d’un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu’il y a lieu de consulter une commission départementale ou régionale.",
+      "sourceContext": "Ce délai est susceptible d’être majoré d’un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu’il y a lieu de consulter une commission départementale ou régionale.",
+      "sectionId": "105-permis-construire__2_2_1",
+      "keywords": [
+        "majoration",
+        "commission départementale"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle(s) autorité(s) peu(ven)t opposer un sursis à statuer au pétitionnaire ?",
+      "options": [
+        "Le maire ou le préfet compétent",
+        "Le seul préfet",
+        "Le seul maire",
+        "Le tribunal administratif"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que le maire ou le préfet compétent peut opposer un sursis à statuer.",
+      "id": "urb1__105-permis-construire__2_3_1__opus_001",
+      "sectionTitle": "Le sursis à statuer",
+      "sourceLink": "#section-105-permis-construire__2_3_1",
+      "sourceText": "Le maire ou le préfet compétent peut opposer au pétitionnaire un sursis à statuer.",
+      "sourceContext": "Le maire ou le préfet compétent peut opposer au pétitionnaire un sursis à statuer.",
+      "sectionId": "105-permis-construire__2_3_1",
+      "keywords": [
+        "sursis à statuer",
+        "autorité compétente"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quelle situation l'autorité compétente peut-elle surseoir à statuer sur une demande de permis ?",
+      "options": [
+        "Lorsque le document d'urbanisme applicable est en cours de révision ou de modification",
+        "Lorsque le demandeur n'a pas payé les taxes",
+        "Lorsque le projet est conforme au PLU",
+        "Lorsque le délai d'instruction est expiré"
+      ],
+      "answer": 0,
+      "explanation": "Le sursis est possible lorsque le document d'urbanisme applicable est en cours de révision ou de modification.",
+      "id": "urb1__105-permis-construire__2_3_1__opus_002",
+      "sectionTitle": "Le sursis à statuer",
+      "sourceLink": "#section-105-permis-construire__2_3_1",
+      "sourceText": "Ainsi, lorsque le document d’urbanisme applicable est en cours de révision ou de modification, l’autorité compétente saisie d’une demande de permis de construire pourrait surseoir à statuer sur ladite demande, à l’issue de la phase d’instruction.",
+      "sourceContext": "Ainsi, lorsque le document d’urbanisme applicable est en cours de révision ou de modification, l’autorité compétente saisie d’une demande de permis de construire pourrait surseoir à statuer sur ladite demande, à l’issue de la phase d’instruction.",
+      "sectionId": "105-permis-construire__2_3_1",
+      "keywords": [
+        "sursis à statuer",
+        "révision"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle est la durée de validité d'une décision portant sursis à statuer ?",
+      "options": [
+        "Deux ans",
+        "Un an",
+        "Trois ans",
+        "Six mois"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique qu'une décision portant sursis à statuer est valable deux ans.",
+      "id": "urb1__105-permis-construire__2_3_1__opus_003",
+      "sectionTitle": "Le sursis à statuer",
+      "sourceLink": "#section-105-permis-construire__2_3_1",
+      "sourceText": "Une décision portant sursis à statuer est valable deux ans. À l’expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande. L’autorité compétente sera alors tenue de se prononcer définitivement.",
+      "sourceContext": "Une décision portant sursis à statuer est valable deux ans. À l’expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande. L’autorité compétente sera alors tenue de se prononcer définitivement.",
+      "sectionId": "105-permis-construire__2_3_1",
+      "keywords": [
+        "sursis",
+        "durée"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Un sursis à statuer arrive à expiration. De quel délai le demandeur dispose-t-il pour confirmer sa demande ?",
+      "options": [
+        "Deux mois",
+        "Deux ans",
+        "Un mois",
+        "Six mois"
+      ],
+      "answer": 0,
+      "explanation": "À l'expiration du délai, le demandeur a deux mois pour éventuellement confirmer sa demande.",
+      "id": "urb1__105-permis-construire__2_3_1__opus_004",
+      "sectionTitle": "Le sursis à statuer",
+      "sourceLink": "#section-105-permis-construire__2_3_1",
+      "sourceText": "Une décision portant sursis à statuer est valable deux ans. À l’expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande. L’autorité compétente sera alors tenue de se prononcer définitivement.",
+      "sourceContext": "Une décision portant sursis à statuer est valable deux ans. À l’expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande. L’autorité compétente sera alors tenue de se prononcer définitivement.",
+      "sectionId": "105-permis-construire__2_3_1",
+      "keywords": [
+        "sursis",
+        "confirmation"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Face à un projet en contradiction avec les règles d'urbanisme applicables, l'autorité dispose-t-elle d'un pouvoir d'appréciation pour délivrer quand même le permis ?",
+      "options": [
+        "Non, elle est dans l'obligation de refuser la délivrance",
+        "Oui, elle peut délivrer le permis par dérogation",
+        "Oui, si le demandeur s'engage à régulariser",
+        "Non, mais elle peut surseoir indéfiniment"
+      ],
+      "answer": 0,
+      "explanation": "Le texte place l'autorité dans l'obligation de refuser en cas de contradiction avec les règles d'urbanisme : compétence liée.",
+      "id": "urb1__105-permis-construire__2_3_3__opus_001",
+      "sectionTitle": "Le refus de permis de construire",
+      "sourceLink": "#section-105-permis-construire__2_3_3",
+      "sourceText": "En cas de contradiction entre le projet présenté et les règles d’urbanisme applicables, l’autorité compétente est placée dans l’obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "sourceContext": "En cas de contradiction entre le projet présenté et les règles d’urbanisme applicables, l’autorité compétente est placée dans l’obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "sectionId": "105-permis-construire__2_3_3",
+      "keywords": [
+        "refus",
+        "compétence liée"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "La décision de refus d'un permis de construire est-elle soumise à motivation ?",
+      "options": [
+        "Oui, la décision de refus est soumise à motivation",
+        "Non, le refus n'a pas à être motivé",
+        "Uniquement si le demandeur le réclame",
+        "Seulement en secteur sauvegardé"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que la décision de refus est soumise à motivation.",
+      "id": "urb1__105-permis-construire__2_3_3__opus_002",
+      "sectionTitle": "Le refus de permis de construire",
+      "sourceLink": "#section-105-permis-construire__2_3_3",
+      "sourceText": "En cas de contradiction entre le projet présenté et les règles d’urbanisme applicables, l’autorité compétente est placée dans l’obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "sourceContext": "En cas de contradiction entre le projet présenté et les règles d’urbanisme applicables, l’autorité compétente est placée dans l’obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "sectionId": "105-permis-construire__2_3_3",
+      "keywords": [
+        "refus",
+        "motivation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle est la durée de validité d'un permis de construire à compter de sa délivrance ?",
+      "options": [
+        "Deux ans",
+        "Un an",
+        "Trois ans",
+        "Cinq ans"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique qu'un permis de construire est valable deux ans à compter de sa délivrance.",
+      "id": "urb1__105-permis-construire__3_1__opus_001",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "Un permis de construire est valable deux ans à compter de délivrance.",
+      "sourceContext": "Un permis de construire est valable deux ans à compter de délivrance.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "validité",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Quelles sont les deux causes de péremption d'un permis de construire prévues par le texte ?",
+      "options": [
+        "Projet non entrepris dans le délai de deux ans, ou travaux interrompus plus d'un an",
+        "Refus de l'administration, ou recours d'un tiers",
+        "Non-paiement des taxes, ou absence de déclaration de chantier",
+        "Modification du PLU, ou changement de propriétaire"
+      ],
+      "answer": 0,
+      "explanation": "Le permis est frappé de péremption si le projet n'est pas entrepris dans le délai de deux ans ou si les travaux sont interrompus pendant plus d'un an.",
+      "id": "urb1__105-permis-construire__3_1__opus_002",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "Le permis de construire est frappé de péremption, si la réalisation du projet n’est pas entreprise dans ce délai de deux ans ou si les travaux initialement entrepris sont interrompus pendant un délai supérieur à une année.",
+      "sourceContext": "Le permis de construire est frappé de péremption, si la réalisation du projet n’est pas entreprise dans ce délai de deux ans ou si les travaux initialement entrepris sont interrompus pendant un délai supérieur à une année.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "péremption",
+        "interruption"
+      ]
+    },
+    {
+      "bloom": "cas_pratique",
+      "q": "Le bénéficiaire d'un permis interrompt son chantier pendant quatorze mois consécutifs. Quel est l'effet sur le permis ?",
+      "options": [
+        "Le permis est frappé de péremption",
+        "Le permis reste valable sans limite",
+        "Le délai est automatiquement prorogé",
+        "Le permis devient définitif"
+      ],
+      "answer": 0,
+      "explanation": "Une interruption des travaux supérieure à une année entraîne la péremption ; quatorze mois dépassent ce seuil.",
+      "id": "urb1__105-permis-construire__3_1__opus_003",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "Le permis de construire est frappé de péremption, si la réalisation du projet n’est pas entreprise dans ce délai de deux ans ou si les travaux initialement entrepris sont interrompus pendant un délai supérieur à une année.",
+      "sourceContext": "Le permis de construire est frappé de péremption, si la réalisation du projet n’est pas entreprise dans ce délai de deux ans ou si les travaux initialement entrepris sont interrompus pendant un délai supérieur à une année.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "péremption",
+        "interruption chantier"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Un tiers forme un recours juridictionnel contre la décision octroyant le permis. Quel est l'effet sur le délai de validité ?",
+      "options": [
+        "Le délai de validité est suspendu jusqu'à la décision de la juridiction",
+        "Le délai continue de courir normalement",
+        "Le permis est immédiatement annulé",
+        "Le délai est définitivement perdu"
+      ],
+      "answer": 0,
+      "explanation": "Tout recours juridictionnel contre la décision octroyant le permis suspend le délai de validité jusqu'à la décision de la juridiction.",
+      "id": "urb1__105-permis-construire__3_1__opus_004",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "Tout recours juridictionnel dirigé contre la décision octroyant le permis a pour effet de suspendre le délai de validité jusqu’à la décision de la juridiction saisie.",
+      "sourceContext": "Tout recours juridictionnel dirigé contre la décision octroyant le permis a pour effet de suspendre le délai de validité jusqu’à la décision de la juridiction saisie.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "recours",
+        "suspension délai"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans quel délai minimal la demande de prorogation d'un permis de construire doit-elle être présentée ?",
+      "options": [
+        "Deux mois au moins avant l'expiration de la durée de validité",
+        "Un mois après l'expiration",
+        "Six mois avant l'expiration",
+        "Le jour de l'expiration"
+      ],
+      "answer": 0,
+      "explanation": "La demande de prorogation doit être présentée deux mois au moins avant l'expiration de la durée de validité initiale.",
+      "id": "urb1__105-permis-construire__3_1__opus_005",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "La prorogation, qui est d’une année, est obtenue lorsque la demande est présentée deux mois au moins avant l’expiration de la durée de validité initiale et si les règles d’urbanisme et les servitudes n’ont pas évolué de manière défavorable. En cas de silence, il y a prorogation tacite. Références : R.",
+      "sourceContext": "La prorogation, qui est d’une année, est obtenue lorsque la demande est présentée deux mois au moins avant l’expiration de la durée de validité initiale et si les règles d’urbanisme et les servitudes n’ont pas évolué de manière défavorable. En cas de silence, il y a prorogation tacite. Références : R.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "prorogation",
+        "délai"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que se passe-t-il en cas de silence de l'administration sur une demande de prorogation régulièrement présentée ?",
+      "options": [
+        "Il y a prorogation tacite",
+        "La demande est réputée rejetée",
+        "Le permis est annulé",
+        "Le délai recommence à zéro"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique qu'en cas de silence, il y a prorogation tacite.",
+      "id": "urb1__105-permis-construire__3_1__opus_006",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "La prorogation, qui est d’une année, est obtenue lorsque la demande est présentée deux mois au moins avant l’expiration de la durée de validité initiale et si les règles d’urbanisme et les servitudes n’ont pas évolué de manière défavorable. En cas de silence, il y a prorogation tacite. Références : R.",
+      "sourceContext": "La prorogation, qui est d’une année, est obtenue lorsque la demande est présentée deux mois au moins avant l’expiration de la durée de validité initiale et si les règles d’urbanisme et les servitudes n’ont pas évolué de manière défavorable. En cas de silence, il y a prorogation tacite. Références : R.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "prorogation tacite",
+        "silence"
+      ]
+    }
+  ]
+}

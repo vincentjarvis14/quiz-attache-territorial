@@ -10,7 +10,6 @@ import {
   ArrowRight,
   CheckCircle2,
   XCircle,
-  ExternalLink,
   BookOpen,
   ChevronLeft,
   FileText,
@@ -301,6 +300,59 @@ function SourceError({ onRetry }: { onRetry: () => void }) {
   );
 }
 
+/**
+ * Sur mobile, le geste « retour » du système doit fermer l'overlay ouvert
+ * (source, chapitre, glossaire, PDF) au lieu de quitter le quiz. On pousse une
+ * entrée d'historique factice à l'ouverture et on la consomme au retour.
+ *
+ * Un coordinateur central garde une pile des overlays ouverts : seul le plus
+ * haut (dernier ouvert) répond au retour, ce qui gère correctement l'imbrication.
+ */
+type OverlayEntry = { close: () => void; viaBack: boolean };
+const overlayStack: OverlayEntry[] = [];
+let overlayListenerAttached = false;
+// Neutralise le popstate déclenché par nos propres fermetures programmatiques
+// (bouton X, ou double-invocation des effets en StrictMode/dev).
+let suppressNextPop = false;
+
+function handleOverlayPop() {
+  if (suppressNextPop) {
+    suppressNextPop = false;
+    return;
+  }
+  const top = overlayStack[overlayStack.length - 1];
+  if (!top) return;
+  top.viaBack = true; // la fermeture vient du geste retour : ne pas re-naviguer
+  top.close();
+}
+
+function useBackToClose(isOpen: boolean, close: () => void) {
+  useEffect(() => {
+    if (!isOpen || typeof window === "undefined") return;
+
+    const entry: OverlayEntry = { close, viaBack: false };
+    window.history.pushState({ overlay: true }, "");
+    overlayStack.push(entry);
+    if (!overlayListenerAttached) {
+      window.addEventListener("popstate", handleOverlayPop);
+      overlayListenerAttached = true;
+    }
+
+    return () => {
+      const i = overlayStack.lastIndexOf(entry);
+      if (i !== -1) overlayStack.splice(i, 1);
+      // Fermé via l'UI (et non par le retour) → on retire l'entrée factice.
+      if (!entry.viaBack && window.history.state?.overlay) {
+        suppressNextPop = true;
+        window.history.back();
+        window.setTimeout(() => {
+          suppressNextPop = false;
+        }, 60);
+      }
+    };
+  }, [isOpen, close]);
+}
+
 function SourceDrawer({
   open,
   onOpenChange,
@@ -395,6 +447,13 @@ function SourceDrawer({
     setGlossaryTerm(null);
     setGlossaryResults([]);
   }, []);
+
+  const closePdf = useCallback(() => setPdfView(null), []);
+
+  // Geste « retour » mobile → ferme l'overlay le plus haut au lieu de quitter le quiz.
+  useBackToClose(pdfView !== null, closePdf);
+  useBackToClose(chapterOpen, closeChapter);
+  useBackToClose(glossaryTerm !== null, closeGlossary);
 
   const blocks = useMemo(() => section?.blocks ?? [], [section]);
   const markIdx = useMemo(() => {
@@ -753,6 +812,7 @@ export function QuizPlayer({
   const [selectedIdx, setSelectedIdx] = useState<number | undefined>(undefined);
   const [status, setStatus] = useState<"none" | "correct" | "wrong">("none");
   const [correctCount, setCorrectCount] = useState(0);
+  const [streak, setStreak] = useState(0);
   const [finished, setFinished] = useState(false);
 
   // Réponses en cours d'enregistrement — flushées avant toute navigation
@@ -769,6 +829,26 @@ export function QuizPlayer({
   const [sectionLoading, setSectionLoading] = useState(false);
   const [sectionError, setSectionError] = useState(false);
 
+  const closeSource = useCallback(() => setSourceOpen(false), []);
+  // Geste « retour » mobile → ferme le panneau source au lieu de quitter le quiz.
+  useBackToClose(sourceOpen, closeSource);
+
+  // Le footer de validation est en position fixe et grandit une fois la réponse
+  // révélée (extrait + source). On mesure sa hauteur réelle pour réserver
+  // exactement l'espace correspondant sous les options (sinon il masque la
+  // dernière option sur mobile).
+  const footerRef = useRef<HTMLElement>(null);
+  const [footerHeight, setFooterHeight] = useState(96);
+  useEffect(() => {
+    const el = footerRef.current;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const measure = () => setFooterHeight(el.offsetHeight);
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
   const q = questions[activeIdx];
   const total = questions.length;
   const pct = ((activeIdx + (status !== "none" ? 1 : 0)) / total) * 100;
@@ -779,6 +859,7 @@ export function QuizPlayer({
     setSelectedIdx(undefined);
     setStatus("none");
     setCorrectCount(0);
+    setStreak(0);
     setFinished(false);
   };
 
@@ -810,7 +891,12 @@ export function QuizPlayer({
       if (selectedIdx === undefined) return;
       const correct = selectedIdx === q.correctIndex;
       setStatus(correct ? "correct" : "wrong");
-      if (correct) setCorrectCount((c) => c + 1);
+      if (correct) {
+        setCorrectCount((c) => c + 1);
+        setStreak((s) => s + 1);
+      } else {
+        setStreak(0);
+      }
       pending.current.push(
         recordAnswer({
           questionId: q.id,
@@ -859,6 +945,9 @@ export function QuizPlayer({
   return (
     <div className="flex min-h-screen flex-col bg-cream">
 
+      {/* Série « en feu » : cadre flammes + halo pulsant dès 3 bonnes réponses d'affilée */}
+      {streak >= 3 && <div className="streak-frame" aria-hidden />}
+
       {/* Header in-quiz : quitter + progression */}
       <header className="sticky top-0 z-50 h-14 border-b border-ink/[0.06] bg-cream/90 backdrop-blur-sm">
         <div className="mx-auto grid h-full max-w-5xl grid-cols-[1fr_auto_1fr] items-center gap-6 px-6">
@@ -894,7 +983,10 @@ export function QuizPlayer({
       </header>
 
       {/* Question + options */}
-      <main className="flex-1 px-6 pt-8 pb-36">
+      <main
+        className="flex-1 px-6 pt-8"
+        style={{ paddingBottom: footerHeight + 32 }}
+      >
         <div className="mx-auto max-w-[720px]">
           {(() => {
             const cat = getCategoryMeta(q.source);
@@ -972,8 +1064,9 @@ export function QuizPlayer({
 
       {/* Footer de validation */}
       <footer
+        ref={footerRef}
         className={cn(
-          "fixed inset-x-0 bottom-0 border-t bg-white shadow-[0_-8px_32px_-8px_rgba(31,29,27,0.06)] transition-all duration-300",
+          "fixed inset-x-0 bottom-0 border-t bg-white pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_32px_-8px_rgba(31,29,27,0.06)] transition-all duration-300",
           status === "correct" && "border-moss-500 bg-moss-50",
           status === "wrong" && "border-coral-700 bg-coral-50",
           status === "none" && "border-ink/8",
@@ -1005,21 +1098,26 @@ export function QuizPlayer({
                 «&nbsp;{q.source.excerpt}&nbsp;»
               </blockquote>
 
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink/40">
-                <span>{q.source.pdf}</span>
-                <span className="text-ink/20">·</span>
-                <span>{q.source.section}</span>
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink/40">
+                  <span>{q.source.pdf}</span>
+                  <span className="text-ink/20">·</span>
+                  <span>{q.source.section}</span>
+                </div>
                 {q.source.sectionId && (
                   <button
                     type="button"
                     onClick={openSource}
                     className={cn(
-                      "inline-flex items-center gap-1 normal-case tracking-normal transition-opacity hover:opacity-70",
-                      status === "correct" ? "text-moss-600" : "text-coral-600",
+                      "group inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-[12px] font-bold shadow-sm transition-all hover:-translate-y-px hover:opacity-90 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-cream",
+                      status === "correct"
+                        ? "border-moss-500/25 bg-moss-50 text-moss-700 focus-visible:ring-moss-500"
+                        : "border-coral-500/25 bg-coral-50 text-coral-700 focus-visible:ring-coral-500",
                     )}
                   >
-                    <ExternalLink className="h-3 w-3" strokeWidth={1.75} />
+                    <BookOpen className="h-3.5 w-3.5" strokeWidth={2.25} />
                     Consulter la source
+                    <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" strokeWidth={2.25} />
                   </button>
                 )}
               </div>

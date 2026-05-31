@@ -1,650 +1,1362 @@
 {
   "questions": [
     {
-      "bloom": "rappel",
-      "q": "Comment se définit juridiquement le permis de construire ?",
+      "bloom": "comprehension",
+      "q": "Comment le texte définit-il le permis de construire ?",
       "options": [
-        "Une autorisation administrative préalable d'édifier des constructions nouvelles ou de modifier des constructions existantes",
-        "Un contrôle effectué par l'administration une fois les travaux achevés",
-        "Une simple déclaration d'intention adressée au préfet avant le début du chantier",
-        "Un titre de propriété délivré par la commune pour le terrain à bâtir"
+        "Un avis consultatif rendu par l'architecte des bâtiments de France",
+        "L'autorisation administrative préalable d'édifier des constructions nouvelles ou de modifier des constructions existantes",
+        "Un contrat conclu entre la commune et le constructeur",
+        "Une déclaration faite après l'achèvement des travaux"
       ],
-      "answer": 0,
-      "explanation": "Le permis de construire est l'autorisation administrative préalable d'édifier des constructions nouvelles ou de modifier des constructions existantes.",
-      "id": "urb1__105-permis-construire__1__opus_001",
-      "sectionTitle": "Le champ d'application du permis de construire",
+      "answer": 1,
+      "explanation": "Le texte définit le permis comme l'autorisation administrative préalable d'édifier des constructions nouvelles ou de modifier une ou plusieurs constructions existantes.",
+      "id": "urb__105-permis-construire__1__opus_001",
+      "sectionTitle": "Le champ d’application du permis de construire",
       "sourceLink": "#section-105-permis-construire__1",
       "sourceText": "Le permis de construire est l'autorisation administrative préalable d'édifier des constructions nouvelles ou de modifier une ou plusieurs constructions existantes.",
       "sourceContext": "Le permis de construire est l'autorisation administrative préalable d'édifier des constructions nouvelles ou de modifier une ou plusieurs constructions existantes.",
       "sectionId": "105-permis-construire__1",
-      "keywords": ["permis de construire", "autorisation administrative", "champ d'application"]
+      "keywords": [
+        "permis de construire",
+        "autorisation prealable"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "D'après le texte, quels types de travaux sont soumis à permis de construire ?",
+      "options": [
+        "Uniquement les démolitions",
+        "Les constructions nouvelles et les travaux sur des constructions existantes",
+        "Uniquement les constructions nouvelles",
+        "Uniquement les travaux d'entretien"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que deux types de travaux sont soumis à permis : les constructions nouvelles et les travaux sur des constructions existantes.",
+      "id": "urb__105-permis-construire__1__opus_002",
+      "sectionTitle": "Le champ d’application du permis de construire",
+      "sourceLink": "#section-105-permis-construire__1",
+      "sourceText": "Deux types de travaux de construction sont soumis à permis de construire : les constructions nouvelles (1.1) et les travaux sur des constructions existantes (1.2).",
+      "sourceContext": "Deux types de travaux de construction sont soumis à permis de construire : les constructions nouvelles (1.1) et les travaux sur des constructions existantes (1.2).",
+      "sectionId": "105-permis-construire__1",
+      "keywords": [
+        "construction nouvelle",
+        "construction existante"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle autorisation doit précéder la réalisation d'une construction nouvelle ?",
+      "options": [
+        "Un permis de construire",
+        "Une déclaration préalable",
+        "Un certificat d'urbanisme",
+        "Aucune formalité"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que les constructions nouvelles doivent être précédées de la délivrance d'un permis de construire.",
+      "id": "urb__105-permis-construire__1_1__opus_001",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "Les constructions nouvelles doivent être précédées de la délivrance d'un permis de construire.",
+      "sourceContext": "Les constructions nouvelles doivent être précédées de la délivrance d'un permis de construire.",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "construction nouvelle",
+        "permis de construire"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Une construction nouvelle est-elle dispensée de permis de construire si elle ne comporte pas de fondations ?",
+      "q": "Une construction dépourvue de fondations échappe-t-elle au permis de construire selon le texte ?",
       "options": [
-        "Non, elle doit être précédée d'un permis même sans fondations",
-        "Oui, l'absence de fondations dispense de tout permis",
-        "Oui, sauf si elle dépasse vingt mètres carrés",
-        "Non, mais elle relève alors d'une simple déclaration préalable"
+        "Oui, sauf si elle est destinée à l'habitat",
+        "Oui, l'absence de fondations la dispense de tout permis",
+        "Non, même sans fondations elle doit être précédée d'un permis de construire",
+        "Non, mais elle relève d'une simple déclaration préalable"
       ],
-      "answer": 0,
-      "explanation": "Les constructions, même ne comportant pas de fondations, doivent être précédées de la délivrance d'un permis de construire.",
-      "id": "urb1__105-permis-construire__1_1__opus_002",
+      "answer": 2,
+      "explanation": "Le texte précise que les constructions, même ne comportant pas de fondations, doivent être précédées de la délivrance d'un permis de construire.",
+      "id": "urb__105-permis-construire__1_1__opus_002",
       "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
       "sourceLink": "#section-105-permis-construire__1_1",
       "sourceText": "Les constructions, même ne comportant pas de fondations, doivent être précédées de la délivrance d'un permis de construire.",
       "sourceContext": "Les constructions, même ne comportant pas de fondations, doivent être précédées de la délivrance d'un permis de construire.",
       "sectionId": "105-permis-construire__1_1",
-      "keywords": ["constructions nouvelles", "fondations", "permis de construire"]
+      "keywords": [
+        "fondations",
+        "permis de construire"
+      ]
     },
     {
-      "bloom": "application",
-      "q": "Un promoteur soutient qu'un bâtiment industriel échappe au permis car le permis ne viserait que les logements. Que répondre ?",
+      "bloom": "comprehension",
+      "q": "La destination de la future construction influe-t-elle sur l'exigence de permis ?",
       "options": [
-        "La destination des constructions à réaliser n'est pas prise en considération",
-        "Seules les constructions à usage d'habitation sont soumises à permis",
-        "Les bâtiments industriels relèvent uniquement de la déclaration préalable",
-        "Le permis n'est exigé que pour les constructions à caractère permanent"
+        "Oui, les constructions agricoles relèvent d'une déclaration",
+        "Oui, les constructions industrielles en sont dispensées",
+        "Non, la destination des constructions à réaliser n'est pas prise en considération",
+        "Oui, seules les constructions à usage d'habitat sont concernées"
       ],
-      "answer": 0,
-      "explanation": "La destination des constructions à réaliser (habitat, commerce, industrie, etc.) n'est pas prise en considération pour l'assujettissement au permis.",
-      "id": "urb1__105-permis-construire__1_1__opus_003",
+      "answer": 2,
+      "explanation": "Le texte indique que la destination des constructions à réaliser n'est pas prise en considération.",
+      "id": "urb__105-permis-construire__1_1__opus_003",
       "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
       "sourceLink": "#section-105-permis-construire__1_1",
       "sourceText": "La destination des constructions à réaliser n'est pas prise en considération.",
       "sourceContext": "La destination des constructions à réaliser n'est pas prise en considération.",
       "sectionId": "105-permis-construire__1_1",
-      "keywords": ["destination", "constructions nouvelles", "permis de construire"]
+      "keywords": [
+        "destination",
+        "permis de construire"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Selon le texte, quel est le caractère possible des constructions nouvelles visées ?",
+      "options": [
+        "Elles peuvent avoir un caractère permanent ou temporaire",
+        "Elles ne peuvent être que des équipements publics",
+        "Elles doivent obligatoirement avoir un caractère temporaire",
+        "Elles doivent obligatoirement avoir un caractère permanent"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que les constructions nouvelles visées pourraient avoir un caractère permanent ou temporaire.",
+      "id": "urb__105-permis-construire__1_1__opus_004",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "Les constructions nouvelles ainsi visées pourraient avoir un caractère permanent ou temporaire.",
+      "sourceContext": "Les constructions nouvelles ainsi visées pourraient avoir un caractère permanent ou temporaire.",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "permanent",
+        "temporaire"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Pour la jurisprudence administrative, un bâtiment en ruine est-il une construction existante ?",
+      "q": "Quel est le sort des constructions devant faire l'objet d'une déclaration préalable ?",
       "options": [
-        "Non, un bâtiment en ruine n'est pas une construction existante",
-        "Oui, dès lors que les murs porteurs subsistent",
-        "Oui, à condition qu'il ait été légalement édifié à l'origine",
-        "Non, sauf s'il est inscrit au titre des monuments historiques"
+        "Elles doivent obtenir un permis d'aménager",
+        "Elles sont systématiquement interdites",
+        "Elles doivent en plus obtenir un permis de construire",
+        "Elles n'ont pas à être précédées de la délivrance d'un permis de construire"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que les constructions qui doivent faire l'objet d'une déclaration préalable n'ont pas non plus à être précédées de la délivrance d'un permis de construire.",
+      "id": "urb__105-permis-construire__1_1__opus_005",
+      "sectionTitle": "Les constructions nouvelles soumises à permis de construire",
+      "sourceLink": "#section-105-permis-construire__1_1",
+      "sourceText": "les constructions qui doivent faire l'objet d'une déclaration préalable n'ont pas non plus à être précédées de la délivrance d'un permis de construire (fiche 9).",
+      "sourceContext": "les constructions qui doivent faire l'objet d'une déclaration préalable n'ont pas non plus à être précédées de la délivrance d'un permis de construire (fiche 9).",
+      "sectionId": "105-permis-construire__1_1",
+      "keywords": [
+        "declaration prealable",
+        "dispense"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Selon le texte, de quelles deux manières une construction existante peut-elle être envisagée ?",
+      "options": [
+        "D'un point de vue matériel et d'un point de vue juridique",
+        "D'un point de vue esthétique et d'un point de vue technique",
+        "D'un point de vue fiscal et d'un point de vue urbanistique",
+        "D'un point de vue public et d'un point de vue privé"
       ],
       "answer": 0,
-      "explanation": "Pour la jurisprudence administrative, un bâtiment en ruine n'est pas une construction existante.",
-      "id": "urb1__105-permis-construire__1_2__opus_004",
+      "explanation": "Le texte distingue le point de vue matériel (existence physique) et le point de vue juridique (légalité de la réalisation initiale).",
+      "id": "urb__105-permis-construire__1_2__opus_001",
+      "sectionTitle": "Les travaux exécutés sur des constructions existantes",
+      "sourceLink": "#section-105-permis-construire__1_2",
+      "sourceText": "Une construction existante peut être envisagée de deux manières. D'un point de vue matériel, on se réfère à l'existence physique de la construction.",
+      "sourceContext": "Une construction existante peut être envisagée de deux manières. D'un point de vue matériel, on se réfère à l'existence physique de la construction.",
+      "sectionId": "105-permis-construire__1_2",
+      "keywords": [
+        "construction existante",
+        "materiel",
+        "juridique"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Un bâtiment en ruine constitue-t-il une construction existante d'après la jurisprudence citée ?",
+      "options": [
+        "Cela dépend uniquement de sa destination",
+        "Non, un bâtiment en ruine n'est pas une construction existante",
+        "Oui, s'il a été légalement édifié à l'origine",
+        "Oui, dès lors qu'il a existé physiquement"
+      ],
+      "answer": 1,
+      "explanation": "Le texte rapporte que pour la jurisprudence administrative, un bâtiment en ruine n'est pas une construction existante.",
+      "id": "urb__105-permis-construire__1_2__opus_002",
       "sectionTitle": "Les travaux exécutés sur des constructions existantes",
       "sourceLink": "#section-105-permis-construire__1_2",
       "sourceText": "Pour la jurisprudence administrative, un bâtiment en ruine n'est par exemple pas une construction existante.",
       "sourceContext": "Pour la jurisprudence administrative, un bâtiment en ruine n'est par exemple pas une construction existante.",
       "sectionId": "105-permis-construire__1_2",
-      "keywords": ["bâtiment en ruine", "construction existante", "jurisprudence"]
+      "keywords": [
+        "batiment en ruine",
+        "construction existante"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Du point de vue juridique, à quoi est subordonnée l'existence d'une construction ?",
+      "q": "À quoi est subordonnée juridiquement l'existence d'une construction selon le texte ?",
       "options": [
-        "À la légalité de sa réalisation initiale",
-        "À son raccordement effectif aux réseaux publics",
-        "À son inscription au cadastre depuis plus de dix ans",
-        "À l'absence de tout désordre structurel"
+        "À l'accord de l'architecte des bâtiments de France",
+        "À son inscription au cadastre",
+        "À son raccordement aux réseaux publics",
+        "À la légalité de sa réalisation initiale"
       ],
-      "answer": 0,
-      "explanation": "Du point de vue juridique, l'existence d'une construction est subordonnée à la légalité de sa réalisation initiale.",
-      "id": "urb1__105-permis-construire__1_2__opus_005",
+      "answer": 3,
+      "explanation": "Le texte indique que, d'un point de vue juridique, l'existence d'une construction est subordonnée à la légalité de sa réalisation initiale.",
+      "id": "urb__105-permis-construire__1_2__opus_003",
       "sectionTitle": "Les travaux exécutés sur des constructions existantes",
       "sourceLink": "#section-105-permis-construire__1_2",
       "sourceText": "D'un point de vue juridique, l'existence d'une construction est subordonnée à la légalité de sa réalisation initiale.",
       "sourceContext": "D'un point de vue juridique, l'existence d'une construction est subordonnée à la légalité de sa réalisation initiale.",
       "sectionId": "105-permis-construire__1_2",
-      "keywords": ["existence juridique", "légalité initiale", "construction existante"]
+      "keywords": [
+        "legalite",
+        "realisation initiale"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "L'assujettissement de travaux sur constructions existantes à permis de construire procède-t-il d'une règle générale ?",
+      "q": "L'assujettissement à permis de construire des travaux sur constructions existantes obéit-il à une règle générale ?",
       "options": [
-        "Non, cet assujettissement ne procède pas d'une règle générale",
-        "Oui, tous les travaux sur l'existant exigent un permis",
-        "Oui, sauf pour les immeubles de moins de dix ans",
-        "Non, aucun travail sur l'existant n'exige jamais de permis"
+        "Oui, sauf pour les immeubles d'habitation",
+        "Oui, tous ces travaux y sont soumis sans exception",
+        "Non, il ne procède pas d'une règle générale",
+        "Oui, dès lors qu'il y a création de surface"
       ],
-      "answer": 0,
-      "explanation": "L'assujettissement de travaux sur constructions existantes à permis de construire ne procède pas d'une règle générale.",
-      "id": "urb1__105-permis-construire__1_2__opus_006",
+      "answer": 2,
+      "explanation": "Le texte précise que l'assujettissement de travaux sur constructions existantes à permis de construire ne procède pas d'une règle générale.",
+      "id": "urb__105-permis-construire__1_2__opus_004",
       "sectionTitle": "Les travaux exécutés sur des constructions existantes",
       "sourceLink": "#section-105-permis-construire__1_2",
       "sourceText": "L'assujettissement de travaux sur constructions existantes à permis de construire ne procède donc pas d'une règle générale.",
       "sourceContext": "L'assujettissement de travaux sur constructions existantes à permis de construire ne procède donc pas d'une règle générale.",
       "sectionId": "105-permis-construire__1_2",
-      "keywords": ["assujettissement", "règle générale", "constructions existantes"]
+      "keywords": [
+        "assujettissement",
+        "regle generale"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi certains projets normalement non soumis à permis le deviennent-ils en zone protégée ?",
+      "options": [
+        "Parce que le préfet l'exige systématiquement",
+        "Parce que leur intervention dans un secteur protégé impose qu'un permis soit demandé",
+        "Parce que le PLU l'interdit",
+        "Parce que la commune perçoit une taxe spécifique"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que l'intervention de ces projets dans un secteur protégé impose que soit demandé un permis de construire, sauf entretien ou réparation ordinaires.",
+      "id": "urb__105-permis-construire__1_3__opus_001",
+      "sectionTitle": "Les projets localisés en zone protégée",
+      "sourceLink": "#section-105-permis-construire__1_3",
+      "sourceText": "mais leur intervention dans un secteur protégé impose que soit demandé un permis de construire, sauf s'il s'agit d'entretien ou de réparation ordinaires.",
+      "sourceContext": "mais leur intervention dans un secteur protégé impose que soit demandé un permis de construire, sauf s'il s'agit d'entretien ou de réparation ordinaires.",
+      "sectionId": "105-permis-construire__1_3",
+      "keywords": [
+        "zone protegee",
+        "secteur protege"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Dans un secteur protégé, des travaux d'entretien ou de réparations ordinaires nécessitent-ils un permis ?",
+      "options": [
+        "Oui, sans exception en secteur protégé",
+        "Oui, uniquement s'ils modifient la structure",
+        "Oui, sur décision du maire",
+        "Non, ils en sont expressément exceptés"
+      ],
+      "answer": 3,
+      "explanation": "Le texte réserve l'exigence de permis « sauf s'il s'agit d'entretien ou de réparation ordinaires ».",
+      "id": "urb__105-permis-construire__1_3__opus_002",
+      "sectionTitle": "Les projets localisés en zone protégée",
+      "sourceLink": "#section-105-permis-construire__1_3",
+      "sourceText": "sauf s'il s'agit d'entretien ou de réparation ordinaires.",
+      "sourceContext": "sauf s'il s'agit d'entretien ou de réparation ordinaires.",
+      "sectionId": "105-permis-construire__1_3",
+      "keywords": [
+        "entretien",
+        "reparation ordinaire"
+      ]
     },
     {
       "bloom": "rappel",
-      "q": "Quel est le sort des travaux portant sur des constructions existantes au regard du permis de construire ?",
+      "q": "Quels travaux portant sur un immeuble inscrit au titre des monuments historiques sont soumis à permis ?",
       "options": [
-        "Certains de ces travaux sont placés dans l'obligation de faire l'objet d'un permis",
-        "Tous ces travaux sont dispensés de permis sans exception",
-        "Ces travaux relèvent exclusivement du permis d'aménager",
-        "Ces travaux ne nécessitent qu'un certificat d'urbanisme"
+        "Tous les travaux, sauf l'entretien, les réparations ordinaires et les travaux dispensés pour motifs de sécurité",
+        "Aucun, car ces immeubles sont protégés",
+        "Uniquement les travaux extérieurs",
+        "Uniquement les travaux de démolition totale"
       ],
       "answer": 0,
-      "explanation": "Certains travaux portant sur des constructions existantes sont placés dans l'obligation de faire l'objet d'un permis de construire.",
-      "id": "urb1__105-permis-construire__1_2__opus_007",
-      "sectionTitle": "Les travaux exécutés sur des constructions existantes",
-      "sourceLink": "#section-105-permis-construire__1_2",
-      "sourceText": "Certains travaux portant sur des constructions existantes sont placés dans l'obligation de faire l'objet d'un permis de construire.",
-      "sourceContext": "Certains travaux portant sur des constructions existantes sont placés dans l'obligation de faire l'objet d'un permis de construire.",
-      "sectionId": "105-permis-construire__1_2",
-      "keywords": ["constructions existantes", "obligation", "permis de construire"]
-    },
-    {
-      "bloom": "rappel",
-      "q": "Pour des travaux sur un immeuble inscrit au titre des monuments historiques, quel est le principe ?",
-      "options": [
-        "Tous les travaux sont soumis à permis de construire, sauf entretien et réparations ordinaires",
-        "Seuls les travaux modifiant la façade sont soumis à permis de construire",
-        "Aucun permis n'est requis, l'avis de l'architecte des Bâtiments de France suffisant",
-        "Seuls les travaux intérieurs sont dispensés de permis de construire"
-      ],
-      "answer": 0,
-      "explanation": "Tous les travaux portant sur un immeuble inscrit au titre des monuments historiques sont soumis à permis de construire, sauf entretien, réparations ordinaires et travaux dispensés pour motifs de sécurité.",
-      "id": "urb1__105-permis-construire__1_3__opus_008",
+      "explanation": "Le texte soumet à permis tous les travaux sur un immeuble inscrit au titre des monuments historiques, à l'exception de l'entretien, des réparations ordinaires et des travaux dispensés en raison du secret pour motifs de sécurité.",
+      "id": "urb__105-permis-construire__1_3__opus_003",
       "sectionTitle": "Les projets localisés en zone protégée",
       "sourceLink": "#section-105-permis-construire__1_3",
       "sourceText": "Tous les travaux portant sur un immeuble ou une partie d'immeuble inscrit au titre des monuments historiques sont soumis à permis de construire, à l'exception des travaux d'entretien ou de réparations ordinaires et des travaux dispensés de toute formalité en raison du secret pour des motifs de sécurité.",
       "sourceContext": "Tous les travaux portant sur un immeuble ou une partie d'immeuble inscrit au titre des monuments historiques sont soumis à permis de construire, à l'exception des travaux d'entretien ou de réparations ordinaires et des travaux dispensés de toute formalité en raison du secret pour des motifs de sécurité.",
       "sectionId": "105-permis-construire__1_3",
-      "keywords": ["monuments historiques", "zone protégée", "permis de construire"]
-    },
-    {
-      "bloom": "comprehension",
-      "q": "Pourquoi un projet normalement dispensé de permis peut-il en exiger un en secteur protégé ?",
-      "options": [
-        "Parce que son intervention dans un secteur protégé impose la demande d'un permis, sauf entretien ou réparation ordinaires",
-        "Parce que tout projet en secteur protégé est interdit par principe",
-        "Parce que le préfet substitue son autorisation à celle du maire",
-        "Parce que la déclaration préalable y est toujours convertie en permis d'aménager"
-      ],
-      "answer": 0,
-      "explanation": "L'intervention d'un projet dans un secteur protégé impose qu'un permis de construire soit demandé, sauf s'il s'agit d'entretien ou de réparation ordinaires.",
-      "id": "urb1__105-permis-construire__1_3__opus_009",
-      "sectionTitle": "Les projets localisés en zone protégée",
-      "sourceLink": "#section-105-permis-construire__1_3",
-      "sourceText": "Certains projets ne sont en principe pas soumis à permis de construire, mais leur intervention dans un secteur protégé impose que soit demandé un permis de construire, sauf s'il s'agit d'entretien ou de réparation ordinaires.",
-      "sourceContext": "Certains projets ne sont en principe pas soumis à permis de construire, mais leur intervention dans un secteur protégé impose que soit demandé un permis de construire, sauf s'il s'agit d'entretien ou de réparation ordinaires.",
-      "sectionId": "105-permis-construire__1_3",
-      "keywords": ["secteur protégé", "dispense", "permis de construire"]
+      "keywords": [
+        "monuments historiques",
+        "immeuble inscrit"
+      ]
     },
     {
       "bloom": "rappel",
-      "q": "Quels sont les trois éléments successifs de la procédure de délivrance du permis de construire ?",
+      "q": "Quels sont les trois éléments successifs de la procédure de délivrance du permis ?",
       "options": [
-        "La demande, l'instruction de la demande et la décision de l'autorité compétente",
-        "Le certificat d'urbanisme, l'enquête publique et l'arrêté du préfet",
-        "La déclaration préalable, l'affichage et le contrôle de conformité",
-        "L'avis des services, l'ouverture du chantier et la réception des travaux"
+        "Le dépôt, l'affichage et la péremption",
+        "La demande de permis, l'instruction de la demande et la décision de l'autorité compétente",
+        "La demande, l'enquête publique et le recours",
+        "L'instruction, le sursis et la prorogation"
       ],
-      "answer": 0,
-      "explanation": "La procédure distingue trois éléments successifs : la demande de permis, l'instruction de la demande et la décision de l'autorité compétente.",
-      "id": "urb1__105-permis-construire__2__opus_010",
+      "answer": 1,
+      "explanation": "Le texte distingue trois éléments successifs : la demande de permis, l'instruction de la demande et la décision de l'autorité compétente.",
+      "id": "urb__105-permis-construire__2__opus_001",
       "sectionTitle": "La procédure de délivrance du permis de",
       "sourceLink": "#section-105-permis-construire__2",
-      "sourceText": "Trois éléments successifs sont à distinguer : la demande de permis (2.1), l'instruction de la demande (2.2) et enfin la décision de l'autorité compétente (2.3).",
-      "sourceContext": "Trois éléments successifs sont à distinguer : la demande de permis (2.1), l'instruction de la demande (2.2) et enfin la décision de l'autorité compétente (2.3).",
+      "sourceText": "Trois éléments successifs sont à distinguer : la demande de permis (2.1), l’instruction de la demande (2.2) et enfin la décision de l’autorité compétente (2.3).",
+      "sourceContext": "Trois éléments successifs sont à distinguer : la demande de permis (2.1), l’instruction de la demande (2.2) et enfin la décision de l’autorité compétente (2.3).",
       "sectionId": "105-permis-construire__2",
-      "keywords": ["procédure", "demande", "instruction"]
+      "keywords": [
+        "demande",
+        "instruction",
+        "decision"
+      ]
     },
     {
-      "bloom": "comprehension",
-      "q": "Sur quels trois éléments la procédure de demande de permis insiste-t-elle particulièrement ?",
+      "bloom": "rappel",
+      "q": "Sur quels trois éléments la procédure de demande insiste-t-elle en particulier ?",
       "options": [
+        "L'affichage, l'enregistrement et la transmission",
         "La qualité du demandeur, le contenu de la demande et les conditions de dépôt",
-        "L'avis du voisinage, la conformité au PLU et le paiement des taxes",
-        "La nature du terrain, la surface du projet et l'identité de l'architecte",
-        "Le délai d'instruction, l'affichage en mairie et la péremption"
+        "Le délai, le sursis et le refus",
+        "La péremption, la prorogation et la conformité"
       ],
-      "answer": 0,
-      "explanation": "La procédure insiste sur trois éléments : la qualité du demandeur, le contenu de la demande et les conditions de dépôt de la demande.",
-      "id": "urb1__105-permis-construire__2_1__opus_011",
+      "answer": 1,
+      "explanation": "Le texte indique que la procédure insiste sur trois éléments : la qualité du demandeur, le contenu de la demande et les conditions de dépôt de la demande.",
+      "id": "urb__105-permis-construire__2_1__opus_001",
       "sectionTitle": "La demande de permis de construire",
       "sourceLink": "#section-105-permis-construire__2_1",
       "sourceText": "La procédure insiste en particulier sur trois éléments : la qualité du demandeur (2.1.1), le contenu de la demande (2.1.2) et les conditions de dépôt de la demande (2.1.3).",
       "sourceContext": "La procédure insiste en particulier sur trois éléments : la qualité du demandeur (2.1.1), le contenu de la demande (2.1.2) et les conditions de dépôt de la demande (2.1.3).",
       "sectionId": "105-permis-construire__2_1",
-      "keywords": ["demande", "qualité du demandeur", "dépôt"]
+      "keywords": [
+        "qualite du demandeur",
+        "contenu",
+        "depot"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "À quelle condition de forme l'obtention d'un permis de construire est-elle subordonnée ?",
+      "bloom": "comprehension",
+      "q": "À quelle condition un permis de construire est-il susceptible d'être obtenu ?",
       "options": [
-        "À une demande formellement présentée",
-        "À un accord verbal préalable du maire",
-        "À l'avis favorable de la commission départementale",
-        "À la simple publication d'un avis en mairie"
+        "Par accord verbal du maire",
+        "Automatiquement à l'achèvement des travaux",
+        "Après une simple visite du service technique",
+        "À la suite d'une demande formellement présentée"
       ],
-      "answer": 0,
-      "explanation": "Un permis de construire n'est susceptible d'être obtenu qu'à la suite d'une demande formellement présentée.",
-      "id": "urb1__105-permis-construire__2_1__opus_012",
+      "answer": 3,
+      "explanation": "Le texte précise qu'un permis n'est susceptible d'être obtenu qu'à la suite d'une demande formellement présentée.",
+      "id": "urb__105-permis-construire__2_1__opus_002",
       "sectionTitle": "La demande de permis de construire",
       "sourceLink": "#section-105-permis-construire__2_1",
       "sourceText": "Un permis de construire n'est susceptible d'être obtenu qu'à la suite d'une demande formellement présentée.",
       "sourceContext": "Un permis de construire n'est susceptible d'être obtenu qu'à la suite d'une demande formellement présentée.",
       "sectionId": "105-permis-construire__2_1",
-      "keywords": ["demande", "forme", "permis de construire"]
+      "keywords": [
+        "demande",
+        "formellement presentee"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Comment les demandes de permis et déclarations préalables sont-elles transmises selon le texte ?",
+      "options": [
+        "Exclusivement par voie électronique",
+        "Par pli recommandé avec demande d'avis de réception ou déposées à la mairie de la commune où les travaux sont envisagés",
+        "Par remise à l'architecte des bâtiments de France",
+        "Par dépôt à la préfecture"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que ces demandes sont adressées par pli recommandé avec demande d'avis de réception ou déposées à la mairie de la commune dans laquelle les travaux sont envisagés.",
+      "id": "urb__105-permis-construire__2_1_1__opus_001",
+      "sectionTitle": "La qualité du demandeur",
+      "sourceLink": "#section-105-permis-construire__2_1_1",
+      "sourceText": "Les demandes de permis de construire, d'aménager ou de démolir et les déclarations préalables sont adressées par pli recommandé avec demande d'avis de réception ou déposées à la mairie de la commune dans laquelle les travaux sont envisagés : être autorisées par eux à exécuter les travaux Référence : R. 423-1 du code de l’urbanisme 2.",
+      "sourceContext": "Les demandes de permis de construire, d'aménager ou de démolir et les déclarations préalables sont adressées par pli recommandé avec demande d'avis de réception ou déposées à la mairie de la commune dans laquelle les travaux sont envisagés : être autorisées par eux à exécuter les travaux Référence : R. 423-1 du code de l’urbanisme 2.",
+      "sectionId": "105-permis-construire__2_1_1",
+      "keywords": [
+        "pli recommande",
+        "mairie"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Lorsque le terrain d'assiette comporte déjà des constructions, que doit préciser la demande de permis ?",
+      "q": "Que doit comporter la demande concernant les conditions pour déposer une demande de permis ?",
       "options": [
-        "Leur destination, leur surface de plancher, leur maintien et toute modification de destination par le projet",
-        "Uniquement la date de leur édification initiale",
-        "Seulement leur valeur vénale et leur état de conservation",
-        "L'identité des occupants et la nature des baux en cours"
+        "L'attestation du ou des demandeurs qu'ils remplissent les conditions définies à l'article R*423-1",
+        "L'accord écrit de tous les voisins",
+        "Un certificat de conformité préalable",
+        "Une caution bancaire couvrant le coût des travaux"
       ],
       "answer": 0,
-      "explanation": "La demande précise la destination des constructions existantes, leur surface de plancher, si elles sont maintenues et si leur destination est modifiée par le projet.",
-      "id": "urb1__105-permis-construire__2_1_2_1__opus_013",
-      "sectionTitle": "Les documents d'information",
+      "explanation": "Le texte indique que la demande comporte l'attestation du ou des demandeurs qu'ils remplissent les conditions définies à l'article R*423-1 pour déposer une demande de permis.",
+      "id": "urb__105-permis-construire__2_1_2_1__opus_001",
+      "sectionTitle": "Les documents d’information",
+      "sourceLink": "#section-105-permis-construire__2_1_2_1",
+      "sourceText": "La demande comporte également l'attestation du ou des demandeurs qu'ils remplissent les conditions définies à l'article R*423-1 pour déposer une demande de permis.",
+      "sourceContext": "La demande comporte également l'attestation du ou des demandeurs qu'ils remplissent les conditions définies à l'article R*423-1 pour déposer une demande de permis.",
+      "sectionId": "105-permis-construire__2_1_2_1",
+      "keywords": [
+        "attestation",
+        "demandeur"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lorsque le terrain d'assiette comporte des constructions, que doit préciser la demande à leur sujet ?",
+      "options": [
+        "Leur destination, leur surface de plancher, et si elles sont maintenues ou si leur destination est modifiée",
+        "Uniquement leur valeur vénale",
+        "Uniquement le nom de leur propriétaire d'origine",
+        "Uniquement leur date de construction"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que la demande indique la destination des constructions existantes, leur surface de plancher, si elles sont maintenues et si leur destination est modifiée par le projet.",
+      "id": "urb__105-permis-construire__2_1_2_1__opus_002",
+      "sectionTitle": "Les documents d’information",
       "sourceLink": "#section-105-permis-construire__2_1_2_1",
       "sourceText": "Lorsque le terrain d'assiette comporte des constructions, la demande précise leur destination, par référence aux différentes destinations définies, leur surface de plancher et indique si ces constructions sont destinées à être maintenues et si leur destination est modifiée par le projet.",
       "sourceContext": "Lorsque le terrain d'assiette comporte des constructions, la demande précise leur destination, par référence aux différentes destinations définies, leur surface de plancher et indique si ces constructions sont destinées à être maintenues et si leur destination est modifiée par le projet.",
       "sectionId": "105-permis-construire__2_1_2_1",
-      "keywords": ["terrain d'assiette", "destination", "surface de plancher"]
+      "keywords": [
+        "terrain d'assiette",
+        "destination",
+        "surface de plancher"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel plan est obligatoire pour situer le terrain dans la commune ?",
+      "options": [
+        "Un plan de circulation routière",
+        "Un plan permettant de connaître la situation du terrain à l'intérieur de la commune",
+        "Un plan de financement du projet",
+        "Un plan cadastral européen"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique qu'un plan permettant de connaître la situation du terrain à l'intérieur de la commune est obligatoire.",
+      "id": "urb__105-permis-construire__2_1_2_1__opus_003",
+      "sectionTitle": "Les documents d’information",
+      "sourceLink": "#section-105-permis-construire__2_1_2_1",
+      "sourceText": "Un plan permettant de connaître la situation du terrain à l'intérieur de la commune est également obligatoire.",
+      "sourceContext": "Un plan permettant de connaître la situation du terrain à l'intérieur de la commune est également obligatoire.",
+      "sectionId": "105-permis-construire__2_1_2_1",
+      "keywords": [
+        "plan de situation",
+        "terrain"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "À quoi sert le projet architectural joint au dossier de permis de construire ?",
+      "q": "Quel est l'objet du projet architectural inséré au dossier ?",
       "options": [
-        "À identifier les caractéristiques du projet et son insertion urbaine, en intégrant les aspects environnementaux",
-        "À justifier la propriété du terrain par le demandeur",
-        "À fixer le montant des taxes d'urbanisme dues",
-        "À démontrer la rentabilité financière de l'opération"
+        "Garantir l'absence de recours des voisins",
+        "Fixer le prix de vente du bien",
+        "Désigner l'entreprise chargée des travaux",
+        "Identifier les caractéristiques du projet et son insertion urbaine, en intégrant les aspects environnementaux"
       ],
-      "answer": 0,
-      "explanation": "Le projet architectural permet d'identifier les caractéristiques du projet ainsi que son insertion urbaine, en intégrant les aspects environnementaux.",
-      "id": "urb1__105-permis-construire__2_1_2_2__opus_014",
+      "answer": 3,
+      "explanation": "Le texte précise que le projet architectural permet d'identifier les caractéristiques du projet ainsi que son insertion urbaine, en intégrant les aspects environnementaux.",
+      "id": "urb__105-permis-construire__2_1_2_2__opus_001",
       "sectionTitle": "Le projet architectural",
       "sourceLink": "#section-105-permis-construire__2_1_2_2",
       "sourceText": "Il permet d'identifier les caractéristiques du projet ainsi que son insertion urbaine, en intégrant les aspects environnementaux.",
       "sourceContext": "Il permet d'identifier les caractéristiques du projet ainsi que son insertion urbaine, en intégrant les aspects environnementaux.",
       "sectionId": "105-permis-construire__2_1_2_2",
-      "keywords": ["projet architectural", "insertion urbaine", "environnement"]
+      "keywords": [
+        "projet architectural",
+        "insertion urbaine"
+      ]
     },
     {
       "bloom": "application",
-      "q": "Un projet est situé en zone inondable délimitée par un plan de prévention des risques. Quelle exigence pèse sur le plan de masse ?",
+      "q": "Lorsque le terrain n'est pas directement desservi par une voie ouverte à la circulation publique, que doit indiquer le plan de masse ?",
       "options": [
-        "Ses cotes sont rattachées au système altimétrique de référence de ce plan",
-        "Il doit être validé par la commission départementale des risques",
-        "Il est dispensé de toute indication altimétrique",
-        "Il doit prévoir une surélévation minimale d'un mètre du bâti"
+        "La largeur réglementaire minimale d'un trottoir",
+        "Le nom du propriétaire de la voie la plus proche",
+        "Le coût de création d'une nouvelle voie",
+        "L'emplacement et les caractéristiques de la servitude de passage permettant d'y accéder"
       ],
-      "answer": 0,
-      "explanation": "Lorsque le projet est situé en zone inondable délimitée par un PPR, les cotes du plan de masse sont rattachées au système altimétrique de référence de ce plan.",
-      "id": "urb1__105-permis-construire__2_1_2_2__opus_015",
+      "answer": 3,
+      "explanation": "Le texte indique que, dans ce cas, le plan de masse indique l'emplacement et les caractéristiques de la servitude de passage permettant d'accéder au terrain.",
+      "id": "urb__105-permis-construire__2_1_2_2__opus_002",
+      "sectionTitle": "Le projet architectural",
+      "sourceLink": "#section-105-permis-construire__2_1_2_2",
+      "sourceText": "Lorsque le terrain n'est pas directement desservi par une voie ouverte à la circulation publique, le plan de masse indique l'emplacement et les caractéristiques de la servitude de passage permettant d'y accéder.",
+      "sourceContext": "Lorsque le terrain n'est pas directement desservi par une voie ouverte à la circulation publique, le plan de masse indique l'emplacement et les caractéristiques de la servitude de passage permettant d'y accéder.",
+      "sectionId": "105-permis-construire__2_1_2_2",
+      "keywords": [
+        "plan de masse",
+        "servitude de passage"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Lorsque le projet est situé dans une zone inondable délimitée par un plan de prévention des risques, comment sont traitées les cotes du plan de masse ?",
+      "options": [
+        "Elles sont laissées à l'appréciation de l'architecte",
+        "Elles sont remplacées par une simple mention écrite",
+        "Elles sont rattachées au système altimétrique de référence de ce plan",
+        "Elles sont exprimées en pourcentage de pente"
+      ],
+      "answer": 2,
+      "explanation": "Le texte précise que, dans une zone inondable délimitée par un plan de prévention des risques, les cotes du plan de masse sont rattachées au système altimétrique de référence de ce plan.",
+      "id": "urb__105-permis-construire__2_1_2_2__opus_003",
       "sectionTitle": "Le projet architectural",
       "sourceLink": "#section-105-permis-construire__2_1_2_2",
       "sourceText": "Lorsque le projet est situé dans une zone inondable délimitée par un plan de prévention des risques, les cotes du plan de masse sont rattachées au système altimétrique de référence de ce plan.",
       "sourceContext": "Lorsque le projet est situé dans une zone inondable délimitée par un plan de prévention des risques, les cotes du plan de masse sont rattachées au système altimétrique de référence de ce plan.",
       "sectionId": "105-permis-construire__2_1_2_2",
-      "keywords": ["zone inondable", "plan de masse", "système altimétrique"]
+      "keywords": [
+        "zone inondable",
+        "plan de masse",
+        "altimetrique"
+      ]
     },
     {
-      "bloom": "comprehension",
-      "q": "Lorsque le projet porte exclusivement sur des travaux intérieurs, quelles pièces ne sont pas exigées ?",
+      "bloom": "evaluation",
+      "q": "Lorsque le projet porte exclusivement sur des travaux intérieurs, la notice et les autres pièces complémentaires sont-elles exigées ?",
       "options": [
-        "La notice et les autres pièces complémentaires",
-        "Le formulaire de demande et l'attestation du demandeur",
-        "Le plan de situation du terrain dans la commune",
-        "L'attestation de prise en compte de la réglementation thermique"
+        "Oui, elles restent toutes exigées",
+        "Oui, sauf en secteur sauvegardé",
+        "Oui, sauf le plan de masse",
+        "Non, elles ne sont pas exigées"
       ],
-      "answer": 0,
-      "explanation": "Lorsque le projet porte exclusivement sur des travaux intérieurs, la notice et les autres pièces complémentaires ne sont pas exigées.",
-      "id": "urb1__105-permis-construire__2_1_2_2__opus_016",
+      "answer": 3,
+      "explanation": "Le texte indique que lorsque le projet porte exclusivement sur des travaux intérieurs, la notice et les autres pièces complémentaires ne sont pas exigées.",
+      "id": "urb__105-permis-construire__2_1_2_2__opus_004",
       "sectionTitle": "Le projet architectural",
       "sourceLink": "#section-105-permis-construire__2_1_2_2",
       "sourceText": "Lorsque le projet porte exclusivement sur des travaux intérieurs, la notice et les autres pièces complémentaires ne sont pas exigées.",
       "sourceContext": "Lorsque le projet porte exclusivement sur des travaux intérieurs, la notice et les autres pièces complémentaires ne sont pas exigées.",
       "sectionId": "105-permis-construire__2_1_2_2",
-      "keywords": ["travaux intérieurs", "notice", "pièces complémentaires"]
+      "keywords": [
+        "travaux interieurs",
+        "notice"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Quelle est la règle relative au nombre d'exemplaires d'une demande de permis de construire ?",
+      "q": "À quoi correspondent les pièces complémentaires « sur condition » ?",
       "options": [
-        "En quatre exemplaires, un ou deux supplémentaires pouvant être requis en cas d'enquête publique",
-        "En deux exemplaires, aucun supplément n'étant jamais exigé",
-        "En six exemplaires systématiquement",
-        "En un seul exemplaire transmis par voie dématérialisée"
+        "Des pièces facultatives jamais réclamées",
+        "Des pièces exigées selon certaines caractéristiques du projet ou sa localisation",
+        "Des pièces exigées seulement pour les démolitions",
+        "Des pièces remises uniquement après l'octroi du permis"
       ],
-      "answer": 0,
-      "explanation": "La demande est établie en quatre exemplaires, un ou deux supplémentaires pouvant être requis en cas d'enquête publique ou de consultation d'une commission spéciale.",
-      "id": "urb1__105-permis-construire__2_1_3__opus_017",
+      "answer": 1,
+      "explanation": "Le texte indique qu'il s'agit de pièces exigées selon certaines caractéristiques du projet ou sa localisation, et qu'elles sont très nombreuses.",
+      "id": "urb__105-permis-construire__2_1_2_3__opus_001",
+      "sectionTitle": "Les pièces complémentaires sur condition",
+      "sourceLink": "#section-105-permis-construire__2_1_2_3",
+      "sourceText": "Il s'agit de pièces exigées selon certaines caractéristiques du projet ou sa localisation, et sont très nombreuses.",
+      "sourceContext": "Il s'agit de pièces exigées selon certaines caractéristiques du projet ou sa localisation, et sont très nombreuses.",
+      "sectionId": "105-permis-construire__2_1_2_3",
+      "keywords": [
+        "pieces complementaires",
+        "localisation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Une demande de permis de construire doit être établie en autant d'exemplaires que précisé par le texte. Lequel ?",
+      "options": [
+        "En six exemplaires",
+        "En un seul exemplaire",
+        "En deux exemplaires",
+        "En quatre exemplaires"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique qu'une demande de permis de construire est établie en quatre exemplaires.",
+      "id": "urb__105-permis-construire__2_1_3__opus_001",
       "sectionTitle": "Les conditions de dépôt de la demande",
       "sourceLink": "#section-105-permis-construire__2_1_3",
-      "sourceText": "Une demande de permis de construire est établie en quatre exemplaires. Un ou deux exemplaires supplémentaires pourraient être requis en cas d'organisation d'une enquête publique ou de consultation d'une commission spéciale.",
-      "sourceContext": "Une demande de permis de construire est établie en quatre exemplaires. Un ou deux exemplaires supplémentaires pourraient être requis en cas d'organisation d'une enquête publique ou de consultation d'une commission spéciale.",
+      "sourceText": "Une demande de permis de construire est établie en quatre exemplaires.",
+      "sourceContext": "Une demande de permis de construire est établie en quatre exemplaires.",
       "sectionId": "105-permis-construire__2_1_3",
-      "keywords": ["dépôt", "exemplaires", "enquête publique"]
+      "keywords": [
+        "exemplaires",
+        "demande"
+      ]
     },
     {
       "bloom": "application",
-      "q": "Dans quel délai le service instructeur peut-il notifier au demandeur que son dossier est incomplet ?",
+      "q": "Dans quel cas des exemplaires supplémentaires de la demande pourraient-ils être requis ?",
       "options": [
-        "Dans un délai d'un mois à compter du dépôt",
-        "Dans un délai de quinze jours à compter du dépôt",
-        "Dans un délai de deux mois à compter du dépôt",
-        "À tout moment pendant l'instruction"
+        "En cas d'organisation d'une enquête publique ou de consultation d'une commission spéciale",
+        "Lorsque le permis est tacite",
+        "Lorsque le demandeur n'est pas propriétaire",
+        "En cas de projet situé hors de la commune"
       ],
       "answer": 0,
-      "explanation": "Le service instructeur peut notifier au demandeur, dans un délai d'un mois à compter du dépôt, que le dossier est incomplet ou qu'un délai différent est retenu.",
-      "id": "urb1__105-permis-construire__2_1_3__opus_018",
+      "explanation": "Le texte précise qu'un ou deux exemplaires supplémentaires pourraient être requis en cas d'organisation d'une enquête publique ou de consultation d'une commission spéciale.",
+      "id": "urb__105-permis-construire__2_1_3__opus_002",
+      "sectionTitle": "Les conditions de dépôt de la demande",
+      "sourceLink": "#section-105-permis-construire__2_1_3",
+      "sourceText": "Un ou deux exemplaires supplémentaires pourraient être requis en cas d'organisation d'une enquête publique ou de consultation d'une commission spéciale.",
+      "sourceContext": "Un ou deux exemplaires supplémentaires pourraient être requis en cas d'organisation d'une enquête publique ou de consultation d'une commission spéciale.",
+      "sectionId": "105-permis-construire__2_1_3",
+      "keywords": [
+        "exemplaires supplementaires",
+        "enquete publique"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que doit faire le maire dès réception de la demande s'agissant de son enregistrement ?",
+      "options": [
+        "La transmettre directement à la juridiction administrative",
+        "Convoquer immédiatement une enquête publique",
+        "Lui attribuer un numéro d'enregistrement et en délivrer récépissé avec mention de la date d'un éventuel permis tacite",
+        "La rejeter si elle n'est pas accompagnée d'une caution"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que le maire est tenu d'attribuer un numéro d'enregistrement, dont il délivre récépissé avec indication du numéro et mention de la date à laquelle pourrait intervenir un permis tacite.",
+      "id": "urb__105-permis-construire__2_1_3__opus_003",
+      "sectionTitle": "Les conditions de dépôt de la demande",
+      "sourceLink": "#section-105-permis-construire__2_1_3",
+      "sourceText": "Il est tenu d'attribuer à la demande reçue un numéro d'enregistrement, dont il délivre récépissé avec Centre National de la Fonction Publique Territoriale - Page 5 Le permis de construire indication du numéro correspondant et mention de la date à laquelle pourrait intervenir un permis tacite.",
+      "sourceContext": "Il est tenu d'attribuer à la demande reçue un numéro d'enregistrement, dont il délivre récépissé avec Centre National de la Fonction Publique Territoriale - Page 5 Le permis de construire indication du numéro correspondant et mention de la date à laquelle pourrait intervenir un permis tacite.",
+      "sectionId": "105-permis-construire__2_1_3",
+      "keywords": [
+        "numero d'enregistrement",
+        "recepisse",
+        "permis tacite"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans quel délai et par quel moyen les services peuvent-ils notifier que le dossier est incomplet ?",
+      "options": [
+        "Dans un délai de quinze jours, par affichage en mairie",
+        "Dans un délai de trois mois, par lettre du préfet",
+        "Dans un délai d'un mois à compter du dépôt, par le récépissé",
+        "Sans délai, par décision de la commission départementale"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que, par le même récépissé, l'autorité précise la faculté de notifier au demandeur, dans un délai d'un mois à compter du dépôt, que le dossier est incomplet ou qu'un délai différent est retenu.",
+      "id": "urb__105-permis-construire__2_1_3__opus_004",
       "sectionTitle": "Les conditions de dépôt de la demande",
       "sourceLink": "#section-105-permis-construire__2_1_3",
       "sourceText": "l'autorité administrative précise la faculté ouverte aux services instructeurs de notifier au demandeur, dans un délai d'un mois à compter du dépôt, soit que le dossier est incomplet, soit qu'un délai différent de celui initialement indiqué est finalement retenu, avec les motivations requises.",
       "sourceContext": "l'autorité administrative précise la faculté ouverte aux services instructeurs de notifier au demandeur, dans un délai d'un mois à compter du dépôt, soit que le dossier est incomplet, soit qu'un délai différent de celui initialement indiqué est finalement retenu, avec les motivations requises.",
       "sectionId": "105-permis-construire__2_1_3",
-      "keywords": ["dossier incomplet", "délai d'un mois", "notification"]
+      "keywords": [
+        "dossier incomplet",
+        "delai d'un mois"
+      ]
     },
     {
-      "bloom": "rappel",
-      "q": "Dans quel délai après le dépôt la demande fait-elle l'objet d'un affichage en mairie ?",
+      "bloom": "application",
+      "q": "Dans quel délai la demande fait-elle l'objet d'un affichage en mairie ?",
       "options": [
         "Dans les quinze jours qui suivent son dépôt",
-        "Dans les huit jours qui suivent son dépôt",
+        "Dans la semaine qui suit son dépôt",
         "Dans le mois qui suit son dépôt",
         "Le jour même du dépôt"
       ],
       "answer": 0,
-      "explanation": "La demande fait l'objet, de la part du maire, d'un affichage en mairie dans les quinze jours qui suivent son dépôt.",
-      "id": "urb1__105-permis-construire__2_1_3__opus_019",
+      "explanation": "Le texte indique que la demande fait l'objet, de la part du maire, d'un affichage en mairie dans les quinze jours qui suivent son dépôt.",
+      "id": "urb__105-permis-construire__2_1_3__opus_005",
       "sectionTitle": "Les conditions de dépôt de la demande",
       "sourceLink": "#section-105-permis-construire__2_1_3",
       "sourceText": "La demande fait l'objet, de la part du maire, d'un affichage en mairie dans les quinze jours qui suivent son dépôt.",
       "sourceContext": "La demande fait l'objet, de la part du maire, d'un affichage en mairie dans les quinze jours qui suivent son dépôt.",
       "sectionId": "105-permis-construire__2_1_3",
-      "keywords": ["affichage en mairie", "quinze jours", "dépôt"]
+      "keywords": [
+        "affichage en mairie",
+        "quinze jours"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Que vérifie la phase d'instruction de la demande de permis de construire ?",
+      "q": "Quelle est la durée de conservation de l'affichage en mairie de la demande ?",
       "options": [
-        "La conformité du projet aux dispositions législatives et réglementaires relatives à l'utilisation des sols",
-        "La solvabilité financière du pétitionnaire",
-        "L'absence d'opposition des riverains du terrain",
-        "La qualité esthétique subjective du projet"
+        "Pendant toute la durée d'instruction de la demande",
+        "Pendant deux ans",
+        "Pendant huit jours seulement",
+        "Pendant deux mois"
       ],
       "answer": 0,
-      "explanation": "L'instruction vérifie la conformité du projet présenté aux dispositions législatives et réglementaires relatives à l'utilisation des sols dans le périmètre.",
-      "id": "urb1__105-permis-construire__2_2__opus_020",
-      "sectionTitle": "L'instruction de la demande de permis de construire",
+      "explanation": "Le texte indique que cet affichage est conservé pendant toute la durée d'instruction de la demande.",
+      "id": "urb__105-permis-construire__2_1_3__opus_006",
+      "sectionTitle": "Les conditions de dépôt de la demande",
+      "sourceLink": "#section-105-permis-construire__2_1_3",
+      "sourceText": "Cet affichage est conservé pendant toute la durée d'instruction de la demande.",
+      "sourceContext": "Cet affichage est conservé pendant toute la durée d'instruction de la demande.",
+      "sectionId": "105-permis-construire__2_1_3",
+      "keywords": [
+        "affichage",
+        "duree d'instruction"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que vérifie la phase d'instruction de la demande ?",
+      "options": [
+        "La solvabilité financière du demandeur",
+        "L'accord des riverains du terrain",
+        "La conformité du projet aux dispositions législatives et réglementaires relatives à l'utilisation des sols dans le périmètre",
+        "La rentabilité économique du projet"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que l'instruction est la phase au cours de laquelle est vérifiée la conformité du projet aux dispositions législatives et réglementaires relatives à l'utilisation des sols dans le périmètre.",
+      "id": "urb__105-permis-construire__2_2__opus_001",
+      "sectionTitle": "L’instruction de la demande de permis de construire",
       "sourceLink": "#section-105-permis-construire__2_2",
       "sourceText": "La phase d'instruction de la demande est celle au cours de laquelle est vérifiée la conformité du projet présenté aux dispositions législatives et règlementaires relatives à l'utilisation des sols dans le périmètre.",
       "sourceContext": "La phase d'instruction de la demande est celle au cours de laquelle est vérifiée la conformité du projet présenté aux dispositions législatives et règlementaires relatives à l'utilisation des sols dans le périmètre.",
       "sectionId": "105-permis-construire__2_2",
-      "keywords": ["instruction", "conformité", "utilisation des sols"]
+      "keywords": [
+        "instruction",
+        "conformite",
+        "utilisation des sols"
+      ]
     },
     {
-      "bloom": "application",
-      "q": "Un particulier dépose une demande de permis pour une maison individuelle. Quel est le délai d'instruction de droit commun ?",
+      "bloom": "analyse",
+      "q": "Sous l'autorité de qui le service instructeur est-il placé ?",
       "options": [
-        "Deux mois",
-        "Un mois",
-        "Trois mois",
-        "Quatre mois"
+        "Du tribunal administratif",
+        "De l'architecte des bâtiments de France",
+        "De l'organe compétent pour statuer définitivement sur la demande (maire, président de l'EPCI ou préfet)",
+        "Du demandeur du permis"
       ],
-      "answer": 0,
-      "explanation": "Le délai d'instruction de droit commun pour une demande portant sur une maison individuelle est fixé à deux mois.",
-      "id": "urb1__105-permis-construire__2_2_1__opus_021",
-      "sectionTitle": "Le délai d'instruction et de délivrance d'un PC",
+      "answer": 2,
+      "explanation": "Le texte indique que le service instructeur, interne ou externe, est placé sous l'autorité et la responsabilité de l'organe compétent pour statuer définitivement (maire, président de l'EPCI ou préfet).",
+      "id": "urb__105-permis-construire__2_2__opus_002",
+      "sectionTitle": "L’instruction de la demande de permis de construire",
+      "sourceLink": "#section-105-permis-construire__2_2",
+      "sourceText": "placé sous l'autorité et la responsabilité de l'organe compétent pour statuer définitivement sur la demande (le maire, le président de l'EPCI ou le Préfet).",
+      "sourceContext": "placé sous l'autorité et la responsabilité de l'organe compétent pour statuer définitivement sur la demande (le maire, le président de l'EPCI ou le Préfet).",
+      "sectionId": "105-permis-construire__2_2",
+      "keywords": [
+        "service instructeur",
+        "autorite competente"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le délai d'instruction de droit commun pour une demande portant sur une maison individuelle ?",
+      "options": [
+        "Un mois",
+        "Six mois",
+        "Trois mois",
+        "Deux mois"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que le délai imparti à l'administration est fixé à deux mois pour l'instruction des demandes portant sur une maison individuelle, et qu'il s'agit du délai de droit commun.",
+      "id": "urb__105-permis-construire__2_2_1__opus_001",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
       "sourceLink": "#section-105-permis-construire__2_2_1",
       "sourceText": "Le délai imparti à l'administration est fixé à deux mois pour l'instruction des demandes de permis de construire portant sur une maison individuelle. Il s'agit du délai de droit commun.",
       "sourceContext": "Le délai imparti à l'administration est fixé à deux mois pour l'instruction des demandes de permis de construire portant sur une maison individuelle. Il s'agit du délai de droit commun.",
       "sectionId": "105-permis-construire__2_2_1",
-      "keywords": ["délai d'instruction", "maison individuelle", "droit commun"]
+      "keywords": [
+        "delai d'instruction",
+        "maison individuelle",
+        "droit commun"
+      ]
     },
     {
       "bloom": "application",
-      "q": "Quel délai de droit commun s'applique à l'instruction d'une demande portant sur plusieurs maisons ou un immeuble ?",
+      "q": "De combien le délai d'instruction est-il majoré lorsque le projet est situé dans un secteur sauvegardé ?",
+      "options": [
+        "De deux mois",
+        "D'un mois",
+        "Il n'est pas majoré",
+        "De trois mois"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que ce délai est susceptible d'être majoré d'un mois si le projet est situé dans un secteur sauvegardé.",
+      "id": "urb__105-permis-construire__2_2_1__opus_002",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
+      "sourceLink": "#section-105-permis-construire__2_2_1",
+      "sourceText": "Ce délai est susceptible d'être majoré d'un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu'il y a lieu de consulter une commission départementale ou régionale.",
+      "sourceContext": "Ce délai est susceptible d'être majoré d'un mois, si le projet est situé dans un secteur sauvegardé ou de deux mois lorsqu'il y a lieu de consulter une commission départementale ou régionale.",
+      "sectionId": "105-permis-construire__2_2_1",
+      "keywords": [
+        "majoration",
+        "secteur sauvegarde"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Quel est le délai de droit commun pour l'instruction d'une demande portant sur la construction de plusieurs maisons ou d'un immeuble ?",
       "options": [
         "Trois mois",
-        "Deux mois",
         "Un mois",
-        "Six mois"
+        "Deux mois",
+        "Quatre mois"
       ],
       "answer": 0,
-      "explanation": "Le délai de droit commun est fixé à trois mois pour l'instruction de demandes portant sur la construction de plusieurs maisons ou d'un immeuble.",
-      "id": "urb1__105-permis-construire__2_2_1__opus_022",
-      "sectionTitle": "Le délai d'instruction et de délivrance d'un PC",
+      "explanation": "Le texte indique que le délai de droit commun est fixé à trois mois pour l'instruction de demandes portant sur la construction de plusieurs maisons ou d'un immeuble.",
+      "id": "urb__105-permis-construire__2_2_1__opus_003",
+      "sectionTitle": "Le délai d’instruction et de délivrance d’un PC",
       "sourceLink": "#section-105-permis-construire__2_2_1",
       "sourceText": "Le même délai de droit commun est fixé à trois mois pour l'instruction de demandes portant sur la construction de plusieurs maisons ou d'un immeuble.",
       "sourceContext": "Le même délai de droit commun est fixé à trois mois pour l'instruction de demandes portant sur la construction de plusieurs maisons ou d'un immeuble.",
       "sectionId": "105-permis-construire__2_2_1",
-      "keywords": ["délai", "immeuble", "plusieurs maisons"]
+      "keywords": [
+        "trois mois",
+        "immeuble",
+        "plusieurs maisons"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "À partir de quel moment court le délai d'instruction d'une demande de permis ?",
+      "q": "À compter de quel événement le délai d'instruction commence-t-il à courir ?",
       "options": [
+        "À compter de la décision de la commission départementale",
         "À compter de la réception en mairie d'un dossier complet",
-        "À compter du jour de l'affichage en mairie",
-        "À compter de la signature du formulaire par le demandeur",
-        "À compter de la transmission au préfet"
+        "À compter de la signature du demandeur",
+        "À compter de l'affichage du permis sur le terrain"
       ],
-      "answer": 0,
-      "explanation": "Le délai dont dispose l'administration commence à courir à compter de la réception en mairie d'un dossier complet.",
-      "id": "urb1__105-permis-construire__2_2_2__opus_023",
-      "sectionTitle": "Le point de départ du délai d'instruction",
+      "answer": 1,
+      "explanation": "Le texte indique que le délai dont dispose l'administration pour instruire et décider commence à courir à compter de la réception en mairie d'un dossier complet.",
+      "id": "urb__105-permis-construire__2_2_2__opus_001",
+      "sectionTitle": "Le point de départ du délai d’instruction",
       "sourceLink": "#section-105-permis-construire__2_2_2",
-      "sourceText": "Le délai de droit commun ou particulier, dont dispose légalement l'administration pour instruire et décider, commence à courir à compter de la réception en mairie d'un dossier complet.",
-      "sourceContext": "Le délai de droit commun ou particulier, dont dispose légalement l'administration pour instruire et décider, commence à courir à compter de la réception en mairie d'un dossier complet.",
+      "sourceText": "commence à courir à compter de la réception en mairie d'un dossier complet.",
+      "sourceContext": "commence à courir à compter de la réception en mairie d'un dossier complet.",
       "sectionId": "105-permis-construire__2_2_2",
-      "keywords": ["point de départ", "dossier complet", "délai"]
+      "keywords": [
+        "point de depart",
+        "dossier complet"
+      ]
     },
     {
       "bloom": "rappel",
-      "q": "Quelle est la durée de validité d'une décision portant sursis à statuer ?",
+      "q": "Quelles décisions, hors le cas de l'obtention, sont envisageables au stade de la décision ?",
       "options": [
-        "Deux ans, le demandeur disposant ensuite de deux mois pour confirmer sa demande",
-        "Un an, sans possibilité de confirmation ultérieure",
-        "Trois ans, renouvelables une fois",
-        "Six mois, à l'issue desquels le permis est réputé accordé"
+        "Le sursis à statuer, l'octroi du permis et le refus de permis",
+        "Le recours, la mise en demeure et la prescription",
+        "L'enquête publique, l'affichage et la péremption",
+        "La prorogation, la conformité et le récépissé"
       ],
       "answer": 0,
-      "explanation": "Une décision portant sursis à statuer est valable deux ans, après quoi le demandeur a deux mois pour confirmer sa demande.",
-      "id": "urb1__105-permis-construire__2_3_1__opus_024",
-      "sectionTitle": "Le sursis à statuer",
-      "sourceLink": "#section-105-permis-construire__2_3_1",
-      "sourceText": "Une décision portant sursis à statuer est valable deux ans. À l'expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande.",
-      "sourceContext": "Une décision portant sursis à statuer est valable deux ans. À l'expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande.",
-      "sectionId": "105-permis-construire__2_3_1",
-      "keywords": ["sursis à statuer", "deux ans", "confirmation"]
+      "explanation": "Le texte indique que trois décisions sont envisageables, hors le cas de l'obtention : le sursis à statuer, l'octroi du permis et le refus de permis.",
+      "id": "urb__105-permis-construire__2_2_2__opus_002",
+      "sectionTitle": "Le point de départ du délai d’instruction",
+      "sourceLink": "#section-105-permis-construire__2_2_2",
+      "sourceText": "Trois décisions sont envisageables, hors le cas de l'obtention : le sursis à statuer (2.3.1), l'octroi du permis (2.3.2), et le refus de permis (2.3.3).",
+      "sourceContext": "Trois décisions sont envisageables, hors le cas de l'obtention : le sursis à statuer (2.3.1), l'octroi du permis (2.3.2), et le refus de permis (2.3.3).",
+      "sectionId": "105-permis-construire__2_2_2",
+      "keywords": [
+        "sursis a statuer",
+        "octroi",
+        "refus"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Dans quel cas l'autorité compétente peut-elle opposer un sursis à statuer à une demande de permis ?",
+      "q": "Dans quelle situation l'autorité compétente peut-elle surseoir à statuer sur une demande de permis ?",
       "options": [
+        "Lorsque le projet est jugé esthétiquement médiocre",
         "Lorsque le document d'urbanisme applicable est en cours de révision ou de modification",
-        "Lorsque le pétitionnaire n'a pas réglé les taxes d'urbanisme",
-        "Lorsque les riverains ont formé opposition au projet",
-        "Lorsque le dossier a été déposé hors délai"
+        "Lorsque la commune manque de personnel",
+        "Lorsque le demandeur n'a pas payé la taxe d'aménagement"
       ],
-      "answer": 0,
-      "explanation": "L'autorité compétente peut surseoir à statuer lorsque le document d'urbanisme applicable est en cours de révision ou de modification.",
-      "id": "urb1__105-permis-construire__2_3_1__opus_025",
+      "answer": 1,
+      "explanation": "Le texte indique que, lorsque le document d'urbanisme applicable est en cours de révision ou de modification, l'autorité pourrait surseoir à statuer à l'issue de la phase d'instruction.",
+      "id": "urb__105-permis-construire__2_3_1__opus_001",
       "sectionTitle": "Le sursis à statuer",
       "sourceLink": "#section-105-permis-construire__2_3_1",
       "sourceText": "lorsque le document d'urbanisme applicable est en cours de révision ou de modification, l'autorité compétente saisie d'une demande de permis de construire pourrait surseoir à statuer sur ladite demande, à l'issue de la phase d'instruction.",
       "sourceContext": "lorsque le document d'urbanisme applicable est en cours de révision ou de modification, l'autorité compétente saisie d'une demande de permis de construire pourrait surseoir à statuer sur ladite demande, à l'issue de la phase d'instruction.",
       "sectionId": "105-permis-construire__2_3_1",
-      "keywords": ["sursis à statuer", "document d'urbanisme", "révision"]
+      "keywords": [
+        "sursis a statuer",
+        "document d'urbanisme"
+      ]
     },
     {
-      "bloom": "comprehension",
-      "q": "Comment un permis de construire peut-il être obtenu de manière tacite ?",
+      "bloom": "rappel",
+      "q": "Quelle est la durée de validité d'une décision portant sursis à statuer ?",
       "options": [
-        "En cas d'absence de notification d'une décision explicite après expiration du délai d'instruction",
-        "Par accord verbal du maire lors du dépôt de la demande",
-        "Dès l'affichage de la demande en mairie",
-        "Après paiement intégral des taxes d'urbanisme"
+        "Six mois",
+        "Trois ans",
+        "Deux ans",
+        "Un an"
       ],
-      "answer": 0,
-      "explanation": "Un permis tacite naît de l'absence de notification d'une décision explicite après expiration du délai d'instruction.",
-      "id": "urb1__105-permis-construire__2_3_2__opus_026",
-      "sectionTitle": "L'octroi du permis",
-      "sourceLink": "#section-105-permis-construire__2_3_2",
-      "sourceText": "En cas d'absence de notification d'une décision explicite après expiration du délai d'instruction.",
-      "sourceContext": "En cas d'absence de notification d'une décision explicite après expiration du délai d'instruction.",
-      "sectionId": "105-permis-construire__2_3_2",
-      "keywords": ["permis tacite", "délai d'instruction", "octroi"]
-    },
-    {
-      "bloom": "comprehension",
-      "q": "Que doit faire l'autorité compétente en cas de contradiction entre le projet et les règles d'urbanisme ?",
-      "options": [
-        "Elle est tenue de refuser la délivrance du permis, par une décision motivée",
-        "Elle peut accorder le permis sous réserve de prescriptions",
-        "Elle doit surseoir à statuer pendant deux ans",
-        "Elle transmet le dossier au préfet pour arbitrage"
-      ],
-      "answer": 0,
-      "explanation": "En cas de contradiction avec les règles d'urbanisme, l'autorité est dans l'obligation de refuser le permis, par une décision soumise à motivation.",
-      "id": "urb1__105-permis-construire__2_3_3__opus_027",
-      "sectionTitle": "Le refus de permis de construire",
-      "sourceLink": "#section-105-permis-construire__2_3_3",
-      "sourceText": "En cas de contradiction entre le projet présenté et les règles d'urbanisme applicables, l'autorité compétente est placée dans l'obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
-      "sourceContext": "En cas de contradiction entre le projet présenté et les règles d'urbanisme applicables, l'autorité compétente est placée dans l'obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
-      "sectionId": "105-permis-construire__2_3_3",
-      "keywords": ["refus", "contradiction", "motivation"]
+      "answer": 2,
+      "explanation": "Le texte indique qu'une décision portant sursis à statuer est valable deux ans.",
+      "id": "urb__105-permis-construire__2_3_1__opus_002",
+      "sectionTitle": "Le sursis à statuer",
+      "sourceLink": "#section-105-permis-construire__2_3_1",
+      "sourceText": "Une décision portant sursis à statuer est valable deux ans.",
+      "sourceContext": "Une décision portant sursis à statuer est valable deux ans.",
+      "sectionId": "105-permis-construire__2_3_1",
+      "keywords": [
+        "sursis a statuer",
+        "deux ans"
+      ]
     },
     {
       "bloom": "application",
-      "q": "Des travaux entrepris sont interrompus pendant plus d'un an. Quelle conséquence pour le permis de construire ?",
+      "q": "À l'expiration du délai du sursis, de quel délai dispose le demandeur pour confirmer sa demande ?",
       "options": [
-        "Le permis est frappé de péremption",
-        "Le permis est automatiquement prorogé d'un an",
-        "Le permis reste valable sans limitation de durée",
-        "Le permis doit être transféré à un nouveau bénéficiaire"
+        "Deux mois",
+        "Un mois",
+        "Quinze jours",
+        "Six mois"
       ],
       "answer": 0,
-      "explanation": "Le permis est frappé de péremption si les travaux entrepris sont interrompus pendant un délai supérieur à une année.",
-      "id": "urb1__105-permis-construire__3_1__opus_028",
-      "sectionTitle": "Le délai d'exécution d'un permis",
+      "explanation": "Le texte indique qu'à l'expiration du délai, le demandeur aura deux mois pour éventuellement confirmer sa demande, l'autorité étant alors tenue de se prononcer définitivement.",
+      "id": "urb__105-permis-construire__2_3_1__opus_003",
+      "sectionTitle": "Le sursis à statuer",
+      "sourceLink": "#section-105-permis-construire__2_3_1",
+      "sourceText": "À l'expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande. L'autorité compétente sera alors tenue de se prononcer définitivement.",
+      "sourceContext": "À l'expiration de ce délai, le demandeur aura deux mois pour éventuellement confirmer sa demande. L'autorité compétente sera alors tenue de se prononcer définitivement.",
+      "sectionId": "105-permis-construire__2_3_1",
+      "keywords": [
+        "confirmation",
+        "deux mois"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel cas l'autorité délivre-t-elle le permis de construire ?",
+      "options": [
+        "Lorsque la commission régionale l'ordonne",
+        "Lorsque le demandeur est propriétaire depuis plus de deux ans",
+        "Lorsque le projet est jugé conforme aux règles et servitudes d'urbanisme",
+        "Lorsque le projet présente un intérêt économique"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que, lorsque le projet est jugé conforme aux règles et servitudes d'urbanisme, l'autorité délivre le permis de construire.",
+      "id": "urb__105-permis-construire__2_3_2__opus_001",
+      "sectionTitle": "L’octroi du permis",
+      "sourceLink": "#section-105-permis-construire__2_3_2",
+      "sourceText": "Lorsque le projet est jugé conforme aux règles et servitudes d'urbanisme, l'autorité délivre le permis de construire.",
+      "sourceContext": "Lorsque le projet est jugé conforme aux règles et servitudes d'urbanisme, l'autorité délivre le permis de construire.",
+      "sectionId": "105-permis-construire__2_3_2",
+      "keywords": [
+        "octroi",
+        "conformite",
+        "servitudes"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Quel est, par principe, le caractère de la décision portant octroi d'un permis, et quelle alternative le texte prévoit-il ?",
+      "options": [
+        "Elle est toujours explicite, sans exception",
+        "Elle dépend exclusivement d'un certificat préalable",
+        "Elle est toujours tacite et jamais explicite",
+        "Elle a par principe un caractère explicite, mais le permis peut aussi être obtenu de manière tacite"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que la décision d'octroi a par principe un caractère explicite, mais qu'un permis est susceptible d'être obtenu de manière tacite.",
+      "id": "urb__105-permis-construire__2_3_2__opus_002",
+      "sectionTitle": "L’octroi du permis",
+      "sourceLink": "#section-105-permis-construire__2_3_2",
+      "sourceText": "La décision portant octroi d'un permis de construire a un caractère explicite, par principe. Mais un permis de construire est susceptible d'être obtenu de manière tacite.",
+      "sourceContext": "La décision portant octroi d'un permis de construire a un caractère explicite, par principe. Mais un permis de construire est susceptible d'être obtenu de manière tacite.",
+      "sectionId": "105-permis-construire__2_3_2",
+      "keywords": [
+        "explicite",
+        "tacite"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Que peut obtenir le bénéficiaire pour attester l'existence d'un permis tacite ?",
+      "options": [
+        "Une copie du PLU communal",
+        "Une décharge de responsabilité du maire",
+        "Un certificat délivré par l'autorité compétente attestant de l'existence du permis tacite",
+        "Un avis favorable de l'architecte des bâtiments de France"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique qu'à la demande du bénéficiaire, l'autorité compétente délivre un certificat attestant de l'existence d'un tel permis tacite.",
+      "id": "urb__105-permis-construire__2_3_2__opus_003",
+      "sectionTitle": "L’octroi du permis",
+      "sourceLink": "#section-105-permis-construire__2_3_2",
+      "sourceText": "l'autorité compétente délivre un certificat attestant de l'existence d'un tel permis tacite.",
+      "sourceContext": "l'autorité compétente délivre un certificat attestant de l'existence d'un tel permis tacite.",
+      "sectionId": "105-permis-construire__2_3_2",
+      "keywords": [
+        "certificat",
+        "permis tacite"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "Que doit faire l'autorité en cas de contradiction entre le projet et les règles d'urbanisme applicables ?",
+      "options": [
+        "Elle peut délivrer le permis sous réserve d'une amende",
+        "Elle doit surseoir pendant deux ans",
+        "Elle est obligée de refuser la délivrance du permis, par une décision motivée",
+        "Elle transmet la demande au préfet pour décision"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique qu'en cas de contradiction entre le projet et les règles d'urbanisme, l'autorité est placée dans l'obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "id": "urb__105-permis-construire__2_3_3__opus_001",
+      "sectionTitle": "Le refus de permis de construire",
+      "sourceLink": "#section-105-permis-construire__2_3_3",
+      "sourceText": "l'autorité compétente est placée dans l'obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "sourceContext": "l'autorité compétente est placée dans l'obligation de refuser la délivrance du permis, cette décision étant soumise à motivation.",
+      "sectionId": "105-permis-construire__2_3_3",
+      "keywords": [
+        "refus",
+        "motivation",
+        "obligation"
+      ]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle est la durée de validité d'un permis de construire à compter de sa délivrance ?",
+      "options": [
+        "Trois ans",
+        "Cinq ans",
+        "Deux ans",
+        "Un an"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique qu'un permis de construire est valable deux ans à compter de la délivrance.",
+      "id": "urb__105-permis-construire__3_1__opus_001",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "Un permis de construire est valable deux ans à compter de délivrance.",
+      "sourceContext": "Un permis de construire est valable deux ans à compter de délivrance.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "validite",
+        "deux ans"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans quels cas un permis de construire est-il frappé de péremption ?",
+      "options": [
+        "Si la réalisation n'est pas entreprise dans le délai de deux ans, ou si les travaux sont interrompus pendant plus d'une année",
+        "Si le voisin forme un recours",
+        "Si le PLU est modifié favorablement",
+        "Uniquement si le demandeur change de domicile"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que le permis est frappé de péremption si la réalisation du projet n'est pas entreprise dans le délai de deux ans ou si les travaux entrepris sont interrompus pendant un délai supérieur à une année.",
+      "id": "urb__105-permis-construire__3_1__opus_002",
+      "sectionTitle": "Le délai d’exécution d’un permis",
       "sourceLink": "#section-105-permis-construire__3_1",
       "sourceText": "Le permis de construire est frappé de péremption, si la réalisation du projet n'est pas entreprise dans ce délai de deux ans ou si les travaux initialement entrepris sont interrompus pendant un délai supérieur à une année.",
       "sourceContext": "Le permis de construire est frappé de péremption, si la réalisation du projet n'est pas entreprise dans ce délai de deux ans ou si les travaux initialement entrepris sont interrompus pendant un délai supérieur à une année.",
       "sectionId": "105-permis-construire__3_1",
-      "keywords": ["péremption", "interruption", "délai"]
+      "keywords": [
+        "peremption",
+        "interruption"
+      ]
     },
     {
-      "bloom": "comprehension",
-      "q": "Quel est l'effet d'un recours juridictionnel dirigé contre la décision octroyant le permis ?",
+      "bloom": "evaluation",
+      "q": "Quel effet un recours juridictionnel dirigé contre la décision octroyant le permis produit-il sur le délai de validité ?",
       "options": [
+        "Il proroge automatiquement le permis de deux ans",
         "Il suspend le délai de validité jusqu'à la décision de la juridiction saisie",
-        "Il annule immédiatement le permis de construire",
-        "Il proroge le permis d'une durée illimitée",
-        "Il est sans effet sur le délai de validité du permis"
+        "Il est sans effet sur le délai de validité",
+        "Il annule définitivement le permis"
       ],
-      "answer": 0,
-      "explanation": "Tout recours juridictionnel contre la décision octroyant le permis suspend le délai de validité jusqu'à la décision de la juridiction saisie.",
-      "id": "urb1__105-permis-construire__3_1__opus_029",
-      "sectionTitle": "Le délai d'exécution d'un permis",
+      "answer": 1,
+      "explanation": "Le texte indique que tout recours juridictionnel dirigé contre la décision octroyant le permis a pour effet de suspendre le délai de validité jusqu'à la décision de la juridiction saisie.",
+      "id": "urb__105-permis-construire__3_1__opus_003",
+      "sectionTitle": "Le délai d’exécution d’un permis",
       "sourceLink": "#section-105-permis-construire__3_1",
       "sourceText": "Tout recours juridictionnel dirigé contre la décision octroyant le permis a pour effet de suspendre le délai de validité jusqu'à la décision de la juridiction saisie.",
       "sourceContext": "Tout recours juridictionnel dirigé contre la décision octroyant le permis a pour effet de suspendre le délai de validité jusqu'à la décision de la juridiction saisie.",
       "sectionId": "105-permis-construire__3_1",
-      "keywords": ["recours juridictionnel", "suspension", "validité"]
+      "keywords": [
+        "recours",
+        "suspension",
+        "validite"
+      ]
     },
     {
       "bloom": "application",
-      "q": "Un bénéficiaire souhaite proroger son permis. Dans quel délai sa demande doit-elle être introduite ?",
+      "q": "Dans quel délai la demande de prorogation de la validité du permis doit-elle être introduite ?",
       "options": [
+        "Quinze jours avant l'expiration",
+        "Six mois après l'expiration",
         "Deux mois au moins avant l'expiration du délai de validité",
-        "Le jour de l'expiration du délai de validité",
-        "Six mois au moins avant l'expiration du délai de validité",
-        "Quinze jours au moins avant l'expiration du délai de validité"
+        "Le jour de l'expiration"
       ],
-      "answer": 0,
-      "explanation": "La demande de prorogation doit être introduite deux mois au moins avant l'expiration du délai de validité.",
-      "id": "urb1__105-permis-construire__3_1__opus_030",
-      "sectionTitle": "Le délai d'exécution d'un permis",
+      "answer": 2,
+      "explanation": "Le texte indique que la demande de prorogation doit être introduite deux mois au moins avant l'expiration du délai de validité.",
+      "id": "urb__105-permis-construire__3_1__opus_004",
+      "sectionTitle": "Le délai d’exécution d’un permis",
       "sourceLink": "#section-105-permis-construire__3_1",
       "sourceText": "La demande doit être introduite deux mois, au moins, avant l'expiration du délai de validité.",
       "sourceContext": "La demande doit être introduite deux mois, au moins, avant l'expiration du délai de validité.",
       "sectionId": "105-permis-construire__3_1",
-      "keywords": ["prorogation", "deux mois", "validité"]
+      "keywords": [
+        "prorogation",
+        "deux mois"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "À quelle condition de fond la prorogation de la durée de validité peut-elle être obtenue ?",
+      "options": [
+        "Que la commune ait perçu la taxe d'aménagement",
+        "Que les voisins aient donné leur accord",
+        "Que le demandeur ait déjà commencé les fondations",
+        "Que les prescriptions d'urbanisme et les servitudes applicables n'aient pas évolué de manière défavorable"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que l'obtention de la prorogation suppose que les prescriptions d'urbanisme et les servitudes administratives applicables au bien n'aient pas évolué de manière défavorable.",
+      "id": "urb__105-permis-construire__3_1__opus_005",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "L'obtention de la prorogation suppose que les prescriptions d'urbanisme et les servitudes administratives applicables au bien n'aient pas évolué de manière défavorable.",
+      "sourceContext": "L'obtention de la prorogation suppose que les prescriptions d'urbanisme et les servitudes administratives applicables au bien n'aient pas évolué de manière défavorable.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "prorogation",
+        "servitudes",
+        "defavorable"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "Quel événement marque le point de départ du recours contentieux contre un permis de construire ?",
+      "q": "Que se passe-t-il en cas de silence de l'administration sur une demande de prorogation conforme ?",
       "options": [
-        "Le caractère effectif de l'affichage du permis sur le terrain",
-        "L'affichage du permis en mairie",
-        "La déclaration d'ouverture du chantier",
-        "La notification du permis au pétitionnaire"
+        "La demande est réputée rejetée",
+        "Il y a prorogation tacite",
+        "Un nouveau permis doit être déposé",
+        "Le permis est annulé"
       ],
-      "answer": 0,
-      "explanation": "C'est le caractère effectif de l'affichage sur le terrain qui marque le point de départ du recours contentieux, et non l'affichage en mairie.",
-      "id": "urb1__105-permis-construire__3_2__opus_031",
-      "sectionTitle": "La déclaration d'ouverture du chantier",
+      "answer": 1,
+      "explanation": "Le texte indique qu'en cas de silence, il y a prorogation tacite.",
+      "id": "urb__105-permis-construire__3_1__opus_006",
+      "sectionTitle": "Le délai d’exécution d’un permis",
+      "sourceLink": "#section-105-permis-construire__3_1",
+      "sourceText": "En cas de silence, il y a prorogation tacite.",
+      "sourceContext": "En cas de silence, il y a prorogation tacite.",
+      "sectionId": "105-permis-construire__3_1",
+      "keywords": [
+        "prorogation tacite",
+        "silence"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment le bénéficiaire doit-il afficher son permis sur le terrain ?",
+      "options": [
+        "À l'intérieur du bâtiment uniquement",
+        "De manière visible et lisible de l'extérieur",
+        "Sur le site internet de la commune",
+        "Dans un registre tenu en mairie"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le bénéficiaire est tenu d'afficher le permis sur le terrain de manière visible et lisible de l'extérieur.",
+      "id": "urb__105-permis-construire__3_2__opus_001",
+      "sectionTitle": "La déclaration d’ouverture du chantier",
+      "sourceLink": "#section-105-permis-construire__3_2",
+      "sourceText": "Le bénéficiaire du permis est tenu de l'afficher sur le terrain (mention du permis tacite) de manière visible et lisible de l'extérieur.",
+      "sourceContext": "Le bénéficiaire du permis est tenu de l'afficher sur le terrain (mention du permis tacite) de manière visible et lisible de l'extérieur.",
+      "sectionId": "105-permis-construire__3_2",
+      "keywords": [
+        "affichage",
+        "terrain"
+      ]
+    },
+    {
+      "bloom": "analyse",
+      "q": "Qu'est-ce qui marque le point de départ du recours contentieux contre le permis ?",
+      "options": [
+        "La déclaration d'ouverture du chantier",
+        "L'affichage du permis en mairie",
+        "La date de délivrance du permis",
+        "Le caractère effectif de l'affichage sur le terrain"
+      ],
+      "answer": 3,
+      "explanation": "Le texte indique que c'est le caractère effectif de l'affichage sur le terrain qui marque le point de départ du recours contentieux, et que l'affichage en mairie n'affecte pas ce point de départ.",
+      "id": "urb__105-permis-construire__3_2__opus_002",
+      "sectionTitle": "La déclaration d’ouverture du chantier",
       "sourceLink": "#section-105-permis-construire__3_2",
       "sourceText": "C'est le caractère effectif de cet affichage sur le terrain qui marque le point de départ du recours contentieux, alors même que le permis fait également l'objet d'un affichage en mairie, dans les huit jours et pendant deux mois.",
       "sourceContext": "C'est le caractère effectif de cet affichage sur le terrain qui marque le point de départ du recours contentieux, alors même que le permis fait également l'objet d'un affichage en mairie, dans les huit jours et pendant deux mois.",
       "sectionId": "105-permis-construire__3_2",
-      "keywords": ["affichage sur le terrain", "recours contentieux", "point de départ"]
+      "keywords": [
+        "recours contentieux",
+        "affichage terrain"
+      ]
     },
     {
-      "bloom": "application",
-      "q": "À qui le titulaire d'un permis doit-il adresser la déclaration d'ouverture du chantier, et quand ?",
+      "bloom": "rappel",
+      "q": "Auprès de qui le titulaire du permis doit-il adresser la déclaration d'ouverture du chantier ?",
       "options": [
-        "Au maire de la commune, dans les meilleurs délais, dès le début des travaux",
-        "Au préfet, dans le mois suivant la fin des travaux",
-        "À l'architecte des Bâtiments de France, avant tout commencement",
-        "Au service instructeur de l'EPCI, deux mois après l'octroi"
+        "Au tribunal administratif",
+        "À l'architecte des bâtiments de France",
+        "Au préfet",
+        "Au maire de la commune"
       ],
-      "answer": 0,
-      "explanation": "Le titulaire doit adresser au maire une déclaration d'ouverture du chantier dans les meilleurs délais, dès le début des travaux.",
-      "id": "urb1__105-permis-construire__3_2__opus_032",
-      "sectionTitle": "La déclaration d'ouverture du chantier",
+      "answer": 3,
+      "explanation": "Le texte indique que le titulaire d'un permis est tenu d'adresser au maire de la commune une déclaration d'ouverture du chantier dans les meilleurs délais.",
+      "id": "urb__105-permis-construire__3_2__opus_003",
+      "sectionTitle": "La déclaration d’ouverture du chantier",
       "sourceLink": "#section-105-permis-construire__3_2",
       "sourceText": "Le titulaire d'un permis de construire est tenu d'adresser au maire de la commune une déclaration d'ouverture du chantier dans les meilleurs délais, c'est-à-dire dès le début des travaux.",
       "sourceContext": "Le titulaire d'un permis de construire est tenu d'adresser au maire de la commune une déclaration d'ouverture du chantier dans les meilleurs délais, c'est-à-dire dès le début des travaux.",
       "sectionId": "105-permis-construire__3_2",
-      "keywords": ["déclaration d'ouverture", "maire", "début des travaux"]
+      "keywords": [
+        "declaration d'ouverture",
+        "maire"
+      ]
     },
     {
       "bloom": "application",
-      "q": "De quel délai dispose le maire ou le préfet pour contester la conformité des travaux après réception de la déclaration ?",
+      "q": "À partir de quel acte les agents du service technique communal peuvent-ils exercer leur droit de visite du chantier ?",
       "options": [
-        "Trois mois à compter de la réception de la déclaration",
-        "Un mois à compter de la réception de la déclaration",
-        "Six mois à compter de la réception de la déclaration",
-        "Quinze jours à compter de la réception de la déclaration"
+        "À partir de la déclaration d'ouverture du chantier",
+        "À partir de la délivrance du permis",
+        "À partir de l'achèvement des travaux",
+        "À partir de l'affichage en mairie"
       ],
       "answer": 0,
-      "explanation": "Le maire ou le préfet dispose d'un délai de trois mois, à compter de la réception de la déclaration, pour en contester éventuellement la conformité.",
-      "id": "urb1__105-permis-construire__3_3__opus_033",
-      "sectionTitle": "La fin du chantier et la déclaration de conformité des travaux",
-      "sourceLink": "#section-105-permis-construire__3_3",
-      "sourceText": "Le maire ou le Préfet dispose d'un délai de trois mois, à compter de la réception de la déclaration, pour en contester éventuellement la conformité.",
-      "sourceContext": "Le maire ou le Préfet dispose d'un délai de trois mois, à compter de la réception de la déclaration, pour en contester éventuellement la conformité.",
-      "sectionId": "105-permis-construire__3_3",
-      "keywords": ["conformité", "délai de trois mois", "contestation"]
+      "explanation": "Le texte indique qu'à partir de cette déclaration, les agents du service technique de la commune seront recevables à se rendre sur le chantier pour exercer leur droit de visite et de contrôle.",
+      "id": "urb__105-permis-construire__3_2__opus_004",
+      "sectionTitle": "La déclaration d’ouverture du chantier",
+      "sourceLink": "#section-105-permis-construire__3_2",
+      "sourceText": "À partir de cette déclaration, les agents du service technique de la commune seront recevables à s'y rendre en vue d'exercer leur droit de visite et de contrôle du chantier.",
+      "sourceContext": "À partir de cette déclaration, les agents du service technique de la commune seront recevables à s'y rendre en vue d'exercer leur droit de visite et de contrôle du chantier.",
+      "sectionId": "105-permis-construire__3_2",
+      "keywords": [
+        "droit de visite",
+        "controle du chantier"
+      ]
     },
     {
       "bloom": "comprehension",
-      "q": "À l'achèvement des travaux, à quelle double déclaration le bénéficiaire d'un permis procède-t-il auprès de la mairie ?",
+      "q": "À l'achèvement des travaux, à quelle double déclaration le bénéficiaire procède-t-il auprès de la mairie ?",
       "options": [
-        "L'achèvement officiel des travaux et la conformité juridique à l'autorisation délivrée",
-        "Le coût final des travaux et le nom de l'entreprise exécutante",
-        "L'ouverture du chantier et la fin du recours contentieux",
-        "Le transfert du permis et le paiement des taxes d'urbanisme"
+        "La péremption du permis et sa prorogation",
+        "L'achèvement officiel des travaux et la conformité juridique des travaux à l'autorisation initialement délivrée",
+        "Le coût final des travaux et le nom de l'entreprise",
+        "La revente du bien et son raccordement aux réseaux"
       ],
-      "answer": 0,
-      "explanation": "Le bénéficiaire déclare l'achèvement officiel des travaux et, en même temps, leur conformité juridique à l'autorisation d'urbanisme initialement délivrée.",
-      "id": "urb1__105-permis-construire__3_3__opus_034",
+      "answer": 1,
+      "explanation": "Le texte indique que le bénéficiaire déclare l'achèvement officiel des travaux et, en même temps, la conformité juridique des travaux réalisés à l'autorisation d'urbanisme initialement délivrée.",
+      "id": "urb__105-permis-construire__3_3__opus_001",
       "sectionTitle": "La fin du chantier et la déclaration de conformité des travaux",
       "sourceLink": "#section-105-permis-construire__3_3",
       "sourceText": "Il déclare l'achèvement officiel des travaux de construction. Il déclare en même temps la conformité juridique des travaux réalisés à l'autorisation d'urbanisme initialement délivrée.",
       "sourceContext": "Il déclare l'achèvement officiel des travaux de construction. Il déclare en même temps la conformité juridique des travaux réalisés à l'autorisation d'urbanisme initialement délivrée.",
       "sectionId": "105-permis-construire__3_3",
-      "keywords": ["achèvement", "déclaration de conformité", "double déclaration"]
+      "keywords": [
+        "achevement",
+        "conformite"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "De quel délai dispose le maire ou le préfet, à compter de la réception de la déclaration, pour en contester la conformité ?",
+      "options": [
+        "Quinze jours",
+        "Un mois",
+        "Trois mois",
+        "Deux ans"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique que le maire ou le préfet dispose d'un délai de trois mois, à compter de la réception de la déclaration, pour en contester éventuellement la conformité.",
+      "id": "urb__105-permis-construire__3_3__opus_002",
+      "sectionTitle": "La fin du chantier et la déclaration de conformité des travaux",
+      "sourceLink": "#section-105-permis-construire__3_3",
+      "sourceText": "Le maire ou le Préfet dispose d'un délai de trois mois, à compter de la réception de la déclaration, pour en contester éventuellement la conformité.",
+      "sourceContext": "Le maire ou le Préfet dispose d'un délai de trois mois, à compter de la réception de la déclaration, pour en contester éventuellement la conformité.",
+      "sectionId": "105-permis-construire__3_3",
+      "keywords": [
+        "contestation",
+        "trois mois",
+        "conformite"
+      ]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle forme prend la contestation de la conformité des travaux ?",
+      "options": [
+        "Une mise en demeure de déposer un dossier modificatif ou de réaliser des travaux de mise en conformité",
+        "Une amende administrative immédiate",
+        "La démolition d'office des travaux",
+        "Un recours devant le tribunal administratif"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique qu'une telle contestation prend la forme d'une mise en demeure de déposer un dossier modificatif ou de réaliser des travaux de mise en conformité adressée au titulaire déclarant.",
+      "id": "urb__105-permis-construire__3_3__opus_003",
+      "sectionTitle": "La fin du chantier et la déclaration de conformité des travaux",
+      "sourceLink": "#section-105-permis-construire__3_3",
+      "sourceText": "Une telle contestation prend la forme d'une mise en demeure de déposer un dossier modificatif ou de réaliser des travaux de mise en conformité des travaux adressée au titulaire déclarant.",
+      "sourceContext": "Une telle contestation prend la forme d'une mise en demeure de déposer un dossier modificatif ou de réaliser des travaux de mise en conformité des travaux adressée au titulaire déclarant.",
+      "sectionId": "105-permis-construire__3_3",
+      "keywords": [
+        "mise en demeure",
+        "dossier modificatif"
+      ]
+    },
+    {
+      "bloom": "application",
+      "q": "À l'expiration du délai de trois mois sans contestation, dans quel délai l'attestation de non-contestation est-elle délivrée à la demande du bénéficiaire ?",
+      "options": [
+        "Dans les huit jours",
+        "Dans les quinze jours",
+        "Dans le mois",
+        "Dans les deux mois"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique qu'à l'expiration du délai de trois mois, une attestation certifiant que la conformité n'a pas été contestée est délivrée à la demande du bénéficiaire dans les quinze jours.",
+      "id": "urb__105-permis-construire__3_3__opus_004",
+      "sectionTitle": "La fin du chantier et la déclaration de conformité des travaux",
+      "sourceLink": "#section-105-permis-construire__3_3",
+      "sourceText": "une attestation certifiant que la conformité des travaux n'a pas été contestée est délivrée à la demande du bénéficiaire dans les quinze jours.",
+      "sourceContext": "une attestation certifiant que la conformité des travaux n'a pas été contestée est délivrée à la demande du bénéficiaire dans les quinze jours.",
+      "sectionId": "105-permis-construire__3_3",
+      "keywords": [
+        "attestation",
+        "quinze jours"
+      ]
+    },
+    {
+      "bloom": "evaluation",
+      "q": "En cas de silence ou de refus, qui délivre l'attestation de non-contestation à la demande du bénéficiaire ?",
+      "options": [
+        "Le maire",
+        "Le tribunal administratif",
+        "Le préfet",
+        "L'architecte des bâtiments de France"
+      ],
+      "answer": 2,
+      "explanation": "Le texte indique qu'en cas de silence ou de refus, l'attestation est délivrée par le préfet à la demande du bénéficiaire du permis.",
+      "id": "urb__105-permis-construire__3_3__opus_005",
+      "sectionTitle": "La fin du chantier et la déclaration de conformité des travaux",
+      "sourceLink": "#section-105-permis-construire__3_3",
+      "sourceText": "En cas de silence ou de refus, l'attestation est délivrée par le Préfet à la demande du bénéficiaire du permis.",
+      "sourceContext": "En cas de silence ou de refus, l'attestation est délivrée par le Préfet à la demande du bénéficiaire du permis.",
+      "sectionId": "105-permis-construire__3_3",
+      "keywords": [
+        "attestation",
+        "prefet",
+        "silence"
+      ]
     }
   ]
 }

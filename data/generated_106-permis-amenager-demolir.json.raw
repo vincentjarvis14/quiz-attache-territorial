@@ -1,0 +1,308 @@
+{
+  "questions": [
+    {
+      "bloom": "comprehension",
+      "q": "Quelle caractéristique distingue un lotissement soumis à permis d'aménager parmi les aménagements généraux ?",
+      "options": [
+        "Il prévoit la création ou l'aménagement de voies, espaces ou équipements communs à plusieurs lots destinés à être bâtis",
+        "Il porte sur la division d'un terrain en deux lots distincts seulement",
+        "Il concerne exclusivement les terrains situés en zone agricole",
+        "Il vise toute vente de parcelle, qu'elle soit ou non destinée à la construction"
+      ],
+      "answer": 0,
+      "explanation": "Le permis d'aménager vise les lotissements prévoyant la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis.",
+      "id": "urb1__106-permis-amenager-demolir__1_1_1__opus_001",
+      "sectionTitle": "Les aménagements généraux",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_1_1",
+      "sourceText": "Il s'agit tout d'abord des lotissements qui prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
+      "sourceContext": "Il s'agit tout d'abord des lotissements qui prévoient la création ou l'aménagement de voies, d'espaces ou d'équipements communs à plusieurs lots destinés à être bâtis et propres au lotissement.",
+      "sectionId": "106-permis-amenager-demolir__1_1_1",
+      "keywords": ["permis d'aménager", "lotissement", "équipements communs"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Dans quel cas un remembrement réalisé par une association foncière urbaine libre exige-t-il un permis d'aménager ?",
+      "options": [
+        "Lorsqu'il prévoit la réalisation de voies ou espaces communs",
+        "Lorsqu'il porte sur plus de deux hectares de terrain",
+        "Lorsqu'il concerne des parcelles situées hors zone urbaine",
+        "Dans tous les cas, sans condition particulière"
+      ],
+      "answer": 0,
+      "explanation": "Un permis d'aménager est exigé pour les remembrements réalisés par une association foncière urbaine libre lorsqu'ils prévoient la réalisation de voies ou espaces communs.",
+      "id": "urb1__106-permis-amenager-demolir__1_1_1__opus_002",
+      "sectionTitle": "Les aménagements généraux",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_1_1",
+      "sourceText": "Un permis d'aménager est exigé pour les remembrements réalisés par une association foncière urbaine libre lorsqu'ils prévoient la réalisation de voies ou espaces communs.",
+      "sourceContext": "Un permis d'aménager est exigé pour les remembrements réalisés par une association foncière urbaine libre lorsqu'ils prévoient la réalisation de voies ou espaces communs.",
+      "sectionId": "106-permis-amenager-demolir__1_1_1",
+      "keywords": ["remembrement", "association foncière urbaine", "voies communes"]
+    },
+    {
+      "bloom": "application",
+      "q": "Pour apprécier si un lotissement relève du permis d'aménager au titre des équipements communs, quels équipements sont pris en compte ?",
+      "options": [
+        "Les équipements dont la réalisation est à la charge du lotisseur",
+        "Tous les équipements publics desservant le quartier, même réalisés par la commune",
+        "Les seuls équipements de raccordement aux réseaux d'eau et d'électricité",
+        "Les équipements financés par les futurs acquéreurs des lots"
+      ],
+      "answer": 0,
+      "explanation": "Les équipements pris en compte sont ceux dont la réalisation est à la charge du lotisseur.",
+      "id": "urb1__106-permis-amenager-demolir__1_1_1__opus_003",
+      "sectionTitle": "Les aménagements généraux",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_1_1",
+      "sourceText": "Les équipements pris en compte sont les équipements dont la réalisation est à la charge du lotisseur.",
+      "sourceContext": "Les équipements pris en compte sont les équipements dont la réalisation est à la charge du lotisseur.",
+      "sectionId": "106-permis-amenager-demolir__1_1_1",
+      "keywords": ["lotissement", "équipements communs", "lotisseur"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles dimensions rendent un exhaussement ou affouillement du sol soumis à permis d'aménager (aménagements généraux) ?",
+      "options": [
+        "Une hauteur ou profondeur excédant deux mètres portant sur une superficie supérieure ou égale à deux hectares",
+        "Une hauteur excédant un mètre sur toute superficie",
+        "Une profondeur excédant cinq mètres sur une superficie d'un hectare",
+        "Toute modification du niveau du sol, sans condition de surface"
+      ],
+      "answer": 0,
+      "explanation": "Sont soumis à permis d'aménager les exhaussements ou affouillements dont la hauteur ou la profondeur excède deux mètres et qui portent sur une superficie supérieure ou égale à deux hectares.",
+      "id": "urb1__106-permis-amenager-demolir__1_1_1__opus_004",
+      "sectionTitle": "Les aménagements généraux",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_1_1",
+      "sourceText": "exhaussements du sol dont la hauteur, s'il s'agit d'un exhaussement, ou la profondeur dans le cas d'un affouillement, excède deux mètres et qui portent sur une superficie supérieure ou égale à deux hectares.",
+      "sourceContext": "exhaussements du sol dont la hauteur, s'il s'agit d'un exhaussement, ou la profondeur dans le cas d'un affouillement, excède deux mètres et qui portent sur une superficie supérieure ou égale à deux hectares.",
+      "sectionId": "106-permis-amenager-demolir__1_1_1",
+      "keywords": ["exhaussement", "affouillement", "deux hectares"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans les secteurs sauvegardés, sites classés et réserves naturelles, comment l'exigence de permis d'aménager s'applique-t-elle aux aires de stationnement, dépôts de véhicules et garages collectifs susceptibles de contenir au moins cinquante unités ?",
+      "options": [
+        "Le permis d'aménager est obligatoire, quelle que soit l'importance de ces projets",
+        "Le permis n'est exigé qu'au-delà de cent unités",
+        "Une déclaration préalable remplace le permis dans ces secteurs",
+        "Aucune autorisation n'est requise dans les réserves naturelles"
+      ],
+      "answer": 0,
+      "explanation": "Dans ces secteurs spécifiques, le permis d'aménager est obligatoire quelle que soit l'importance de ces projets.",
+      "id": "urb1__106-permis-amenager-demolir__1_1_2__opus_005",
+      "sectionTitle": "Les aménagements dans des secteurs spécifiques",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_1_2",
+      "sourceText": "Le permis d'aménager est alors obligatoire, quelle que soit l'importance de ces projets.",
+      "sourceContext": "Le permis d'aménager est alors obligatoire, quelle que soit l'importance de ces projets.",
+      "sectionId": "106-permis-amenager-demolir__1_1_2",
+      "keywords": ["secteurs spécifiques", "permis obligatoire", "importance du projet"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans un secteur sauvegardé dont le périmètre a été délimité, quelles opérations sur la voirie doivent être précédées d'un permis d'aménager ?",
+      "options": [
+        "La création d'une voie ou les travaux modifiant les caractéristiques d'une voie existante",
+        "Le seul élargissement d'une voie classée à grande circulation",
+        "Toute opération d'entretien courant de la chaussée",
+        "Uniquement la création de voies privées fermées au public"
+      ],
+      "answer": 0,
+      "explanation": "Dans les secteurs sauvegardés délimités, la création d'une voie ou les travaux modifiant les caractéristiques d'une voie existante exigent un permis d'aménager.",
+      "id": "urb1__106-permis-amenager-demolir__1_1_2__opus_006",
+      "sectionTitle": "Les aménagements dans des secteurs spécifiques",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_1_2",
+      "sourceText": "Dans les secteurs sauvegardés dont le périmètre a été délimité, la création d'une voie ou les travaux ayant pour effet de modifier les caractéristiques d'une voie existante doivent être précédés de la délivrance d'un permis d'aménager.",
+      "sourceContext": "Dans les secteurs sauvegardés dont le périmètre a été délimité, la création d'une voie ou les travaux ayant pour effet de modifier les caractéristiques d'une voie existante doivent être précédés de la délivrance d'un permis d'aménager.",
+      "sectionId": "106-permis-amenager-demolir__1_1_2",
+      "keywords": ["secteur sauvegardé", "voie", "permis d'aménager"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En combien d'exemplaires le dossier de demande de permis d'aménager est-il adressé à la mairie ?",
+      "options": [
+        "En 4 exemplaires, des exemplaires supplémentaires étant parfois nécessaires en secteur protégé",
+        "En 2 exemplaires, sans exception",
+        "En 6 exemplaires systématiquement",
+        "En un seul exemplaire dématérialisé"
+      ],
+      "answer": 0,
+      "explanation": "Le pétitionnaire adresse à la mairie un dossier établi en 4 exemplaires, avec des exemplaires supplémentaires parfois nécessaires en secteur protégé.",
+      "id": "urb1__106-permis-amenager-demolir__1_2__opus_007",
+      "sectionTitle": "La demande d'autorisation",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_2",
+      "sourceText": "Le pétitionnaire adresse à la mairie un dossier établi en 4 exemplaires.",
+      "sourceContext": "Le pétitionnaire adresse à la mairie un dossier établi en 4 exemplaires.",
+      "sectionId": "106-permis-amenager-demolir__1_2",
+      "keywords": ["demande", "exemplaires", "mairie"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un pétitionnaire dépose une demande de permis d'aménager pour un lotissement. Quels éléments spécifiques au lotissement la demande doit-elle comporter ?",
+      "options": [
+        "Le nombre maximum de lots et la surface de plancher maximale des lotissements",
+        "Le nom des futurs acquéreurs de chaque lot",
+        "Le montant prévisionnel des taxes d'aménagement",
+        "Le calendrier détaillé des reventes de parcelles"
+      ],
+      "answer": 0,
+      "explanation": "Dans le cas de lotissements, la demande doit comprendre le nombre maximum de lots et la surface de plancher maximale des lotissements.",
+      "id": "urb1__106-permis-amenager-demolir__1_2__opus_008",
+      "sectionTitle": "La demande d'autorisation",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_2",
+      "sourceText": "La demande doit comprendre l'identité du demandeur, la localisation et la superficie du terrain, un plan situant le terrain dans la commune, la nature des travaux, et dans le cas de lotissements, le nombre maximum de lots et la surface de plancher maximale des lotissements.",
+      "sourceContext": "La demande doit comprendre l'identité du demandeur, la localisation et la superficie du terrain, un plan situant le terrain dans la commune, la nature des travaux, et dans le cas de lotissements, le nombre maximum de lots et la surface de plancher maximale des lotissements.",
+      "sectionId": "106-permis-amenager-demolir__1_2",
+      "keywords": ["lotissement", "nombre de lots", "surface de plancher"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est, en principe, le délai d'instruction d'une demande de permis d'aménager ?",
+      "options": [
+        "Trois mois, suivant les règles applicables au permis de construire",
+        "Un mois, comme la déclaration préalable",
+        "Deux mois, comme le permis de démolir",
+        "Six mois en raison de la complexité des aménagements"
+      ],
+      "answer": 0,
+      "explanation": "Les règles d'instruction suivent celles du permis de construire : le délai est en principe de 3 mois.",
+      "id": "urb1__106-permis-amenager-demolir__1_2__opus_009",
+      "sectionTitle": "La demande d'autorisation",
+      "sourceLink": "#section-106-permis-amenager-demolir__1_2",
+      "sourceText": "Les règles d'instruction suivent celles applicables au permis de construire. Le délai est donc en principe de 3 mois, et suit les mêmes délais particuliers et prolongations (fiche 8).",
+      "sourceContext": "Les règles d'instruction suivent celles applicables au permis de construire. Le délai est donc en principe de 3 mois, et suit les mêmes délais particuliers et prolongations (fiche 8).",
+      "sectionId": "106-permis-amenager-demolir__1_2",
+      "keywords": ["instruction", "délai", "permis d'aménager"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Hors protection particulière définie par décret, dans quel cas une démolition est-elle soumise à permis de démolir ?",
+      "options": [
+        "Lorsque la construction est située dans une commune où le conseil municipal a décidé d'instaurer le permis de démolir",
+        "Lorsque la construction a plus de cinquante ans d'âge",
+        "Lorsque le maître d'ouvrage est une personne publique",
+        "Lorsque la démolition dépasse une certaine surface de plancher"
+      ],
+      "answer": 0,
+      "explanation": "Le permis de démolir s'impose lorsque la construction est située dans une commune ou partie de commune où le conseil municipal a décidé d'instaurer le permis de démolir.",
+      "id": "urb1__106-permis-amenager-demolir__2_1__opus_010",
+      "sectionTitle": "Le champ d'application",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_1",
+      "sourceText": "Les démolitions de constructions existantes doivent être précédées de la délivrance d'un permis de démolir lorsque la construction relève d'une protection particulière définie par décret en Conseil d'Etat (2.1.1) ou est située dans une commune ou partie de commune où le conseil municipal a décidé d'instaurer le permis de démolir (2.1.2).",
+      "sourceContext": "Les démolitions de constructions existantes doivent être précédées de la délivrance d'un permis de démolir lorsque la construction relève d'une protection particulière définie par décret en Conseil d'Etat (2.1.1) ou est située dans une commune ou partie de commune où le conseil municipal a décidé d'instaurer le permis de démolir (2.1.2).",
+      "sectionId": "106-permis-amenager-demolir__2_1",
+      "keywords": ["permis de démolir", "champ d'application", "conseil municipal"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Par quelle délibération une construction identifiée au PLU comme élément de patrimoine ou de paysage à protéger est-elle soumise à permis de démolir ?",
+      "options": [
+        "Une délibération du conseil municipal prise après enquête publique",
+        "Un arrêté du préfet pris après avis de l'architecte des Bâtiments de France",
+        "Une décision du maire sans formalité particulière",
+        "Un décret en Conseil d'État après enquête publique"
+      ],
+      "answer": 0,
+      "explanation": "L'élément de patrimoine ou de paysage à protéger est identifié par délibération du conseil municipal prise après enquête publique.",
+      "id": "urb1__106-permis-amenager-demolir__2_1_1__opus_011",
+      "sectionTitle": "La protection obligatoire de certains immeubles",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_1_1",
+      "sourceText": "plan local d'urbanisme ou d'un document d'urbanisme en tenant lieu, identifiée par délibération du conseil municipal, prise après enquête publique, comme constituant un élément de patrimoine ou de paysage à protéger et à mettre en valeur.",
+      "sourceContext": "plan local d'urbanisme ou d'un document d'urbanisme en tenant lieu, identifiée par délibération du conseil municipal, prise après enquête publique, comme constituant un élément de patrimoine ou de paysage à protéger et à mettre en valeur.",
+      "sectionId": "106-permis-amenager-demolir__2_1_1",
+      "keywords": ["PLU", "délibération", "enquête publique"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un projet de démolition d'un immeuble est susceptible d'avoir des conséquences sur un site « Natura 2000 ». Quelle formalité s'impose alors ?",
+      "options": [
+        "Une évaluation environnementale est nécessaire",
+        "Le permis de démolir devient automatiquement tacite",
+        "Une simple information du préfet suffit",
+        "La démolition est purement et simplement interdite"
+      ],
+      "answer": 0,
+      "explanation": "Une évaluation environnementale est nécessaire si la démolition peut avoir des conséquences sur un site « Natura 2000 ».",
+      "id": "urb1__106-permis-amenager-demolir__2_2_1__opus_012",
+      "sectionTitle": "La démolition d'une construction",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_2_1",
+      "sourceText": "Au niveau des protections également, une évaluation environnementale est nécessaire si la démolition peut avoir des conséquences sur un site « Natura 2000 ».",
+      "sourceContext": "Au niveau des protections également, une évaluation environnementale est nécessaire si la démolition peut avoir des conséquences sur un site « Natura 2000 ».",
+      "sectionId": "106-permis-amenager-demolir__2_2_1",
+      "keywords": ["démolition", "évaluation environnementale", "Natura 2000"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel sort réserve la réglementation aux plaques commémoratives lorsqu'un immeuble est démoli ?",
+      "options": [
+        "Elles doivent être préservées et réinstallées",
+        "Elles peuvent être détruites avec l'immeuble",
+        "Elles sont obligatoirement remises au préfet de département",
+        "Elles font l'objet d'une vente aux enchères au profit de la commune"
+      ],
+      "answer": 0,
+      "explanation": "En cas de démolition d'un immeuble, les plaques commémoratives doivent être préservées et réinstallées.",
+      "id": "urb1__106-permis-amenager-demolir__2_2_1__opus_013",
+      "sectionTitle": "La démolition d'une construction",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_2_1",
+      "sourceText": "Certains éléments doivent être pris en compte lorsqu'une démolition est envisagée, notamment en ce qui concerne les plaques commémoratives, qui en cas de démolition d'un immeuble, doivent être préservées et réinstallées.",
+      "sourceContext": "Certains éléments doivent être pris en compte lorsqu'une démolition est envisagée, notamment en ce qui concerne les plaques commémoratives, qui en cas de démolition d'un immeuble, doivent être préservées et réinstallées.",
+      "sectionId": "106-permis-amenager-demolir__2_2_1",
+      "keywords": ["plaques commémoratives", "démolition", "préservation"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le délai d'instruction de la demande de permis de démolir et l'effet de l'absence de réponse ?",
+      "options": [
+        "Deux mois, l'absence de réponse dans le délai valant permis tacite",
+        "Trois mois, l'absence de réponse valant refus",
+        "Un mois, l'absence de réponse valant permis tacite",
+        "Deux mois, l'absence de réponse valant systématiquement refus"
+      ],
+      "answer": 0,
+      "explanation": "Le délai d'instruction du permis de démolir est de 2 mois, l'absence de réponse dans le délai valant permis tacite.",
+      "id": "urb1__106-permis-amenager-demolir__2_3__opus_014",
+      "sectionTitle": "La décision",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_3",
+      "sourceText": "Le délai d'instruction est de 2 mois, l'absence de réponse dans le délai valant permis tacite.",
+      "sourceContext": "Le délai d'instruction est de 2 mois, l'absence de réponse dans le délai valant permis tacite.",
+      "sectionId": "106-permis-amenager-demolir__2_3",
+      "keywords": ["permis de démolir", "délai", "permis tacite"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Lorsque l'immeuble concerné est protégé, quelle est la portée du dépassement du délai d'instruction du permis de démolir sans réponse ?",
+      "options": [
+        "Le permis est considéré comme rejeté",
+        "Le permis est réputé accordé de façon tacite",
+        "Le délai d'instruction est automatiquement prorogé de deux mois",
+        "Le maire doit se substituer au service instructeur"
+      ],
+      "answer": 0,
+      "explanation": "Lorsque l'immeuble est protégé, le permis est en revanche considéré comme rejeté en l'absence de réponse.",
+      "id": "urb1__106-permis-amenager-demolir__2_3__opus_015",
+      "sectionTitle": "La décision",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_3",
+      "sourceText": "Le permis est en revanche considéré comme rejeté si l'immeuble est protégé.",
+      "sourceContext": "Le permis est en revanche considéré comme rejeté si l'immeuble est protégé.",
+      "sectionId": "106-permis-amenager-demolir__2_3",
+      "keywords": ["immeuble protégé", "rejet", "permis de démolir"]
+    },
+    {
+      "bloom": "application",
+      "q": "Le permis de démolir vient d'être notifié et transmis au préfet. À partir de quand les travaux peuvent-ils légalement débuter ?",
+      "options": [
+        "15 jours après sa notification et sa transmission au préfet, le permis devenant alors exécutoire",
+        "Immédiatement après la notification, sans transmission préalable au préfet",
+        "Deux mois après la transmission au préfet",
+        "Dès l'affichage en mairie, sans condition de délai"
+      ],
+      "answer": 0,
+      "explanation": "Le permis est exécutoire 15 jours après sa notification et sa transmission au préfet.",
+      "id": "urb1__106-permis-amenager-demolir__2_4__opus_016",
+      "sectionTitle": "Les effets du permis",
+      "sourceLink": "#section-106-permis-amenager-demolir__2_4",
+      "sourceText": "Le permis est exécutoire 15 jours après sa notification et sa transmission au préfet.",
+      "sourceContext": "Le permis est exécutoire 15 jours après sa notification et sa transmission au préfet.",
+      "sectionId": "106-permis-amenager-demolir__2_4",
+      "keywords": ["effets du permis", "exécutoire", "transmission préfet"]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Test — Animations de streak (flamme)</title>
+<style>
+  :root {
+    --coral: #E85C51;
+    --coral-dark: #c8463c;
+    --coral-light: #ff7a6b;
+    --amber: #ffb347;
+    --gold: #ffd45e;
+    --cream: #FBF1E7;
+    --cream-2: #fff8f0;
+    --ink: #1F1D1B;
+    --ink-soft: #6b635c;
+    --shadow: 0 8px 30px rgba(31, 29, 27, 0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.5;
+    padding: 32px 20px 80px;
+  }
+
+  .wrap { max-width: 1100px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 8px; }
+  header h1 { font-size: 28px; letter-spacing: -0.02em; }
+  header p { color: var(--ink-soft); margin-top: 6px; font-size: 15px; }
+
+  /* ---------- Simulateur ---------- */
+  .sim {
+    position: sticky;
+    top: 16px;
+    z-index: 20;
+    margin: 28px auto;
+    max-width: 560px;
+    background: var(--cream-2);
+    border: 1px solid rgba(31,29,27,0.08);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    padding: 18px 20px;
+    text-align: center;
+  }
+  .sim .streak-readout {
+    font-size: 14px; color: var(--ink-soft); margin-bottom: 14px;
+  }
+  .sim .streak-readout b { color: var(--coral); font-size: 22px; }
+  .sim .btns { display: flex; gap: 12px; justify-content: center; }
+  .btn {
+    border: none; cursor: pointer; font-weight: 700; font-size: 15px;
+    padding: 12px 22px; border-radius: 14px; transition: transform .12s ease, filter .12s ease;
+  }
+  .btn:active { transform: translateY(2px) scale(0.98); }
+  .btn-good { background: var(--coral); color: #fff; box-shadow: 0 6px 16px rgba(232,92,81,0.35); }
+  .btn-good:hover { filter: brightness(1.05); }
+  .btn-bad { background: #fff; color: var(--ink); border: 1.5px solid rgba(31,29,27,0.15); }
+  .btn-bad:hover { background: #f5ece2; }
+  .btn-reset { background: transparent; color: var(--ink-soft); font-weight: 600; font-size: 13px; padding: 8px 12px; }
+
+  .hint { font-size: 12px; color: var(--ink-soft); margin-top: 10px; }
+
+  /* ---------- Grille des variantes ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 22px;
+    margin-top: 16px;
+  }
+  .card {
+    background: var(--cream-2);
+    border: 1px solid rgba(31,29,27,0.07);
+    border-radius: 22px;
+    padding: 22px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    min-height: 260px;
+  }
+  .card h2 { font-size: 16px; letter-spacing: -0.01em; }
+  .card .tag {
+    display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.04em; color: var(--coral); background: rgba(232,92,81,0.1);
+    padding: 3px 9px; border-radius: 99px; margin-bottom: 8px; align-self: flex-start;
+  }
+  .card .desc { font-size: 13px; color: var(--ink-soft); margin-bottom: 4px; }
+  .stage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 14px;
+    background: radial-gradient(120% 120% at 50% 120%, rgba(232,92,81,0.06), transparent 70%);
+  }
+  .idle-note { color: var(--ink-soft); font-size: 13px; opacity: 0.7; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+
+  /* ================= VARIANTE 1 : Flamme emoji par paliers ================= */
+  .v1-flame {
+    font-size: 64px;
+    line-height: 1;
+    transition: transform .35s cubic-bezier(.34,1.56,.64,1), filter .35s ease;
+    transform-origin: 50% 90%;
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  .v1-flame.flicker { animation: flicker 0.9s ease-in-out infinite alternate; }
+  @keyframes flicker {
+    0%   { transform: scale(var(--s,1)) rotate(-2deg); }
+    100% { transform: scale(calc(var(--s,1) * 1.04)) rotate(2deg); }
+  }
+  .v1-count {
+    position: absolute; top: 12px; right: 14px;
+    font-weight: 800; font-size: 15px; color: var(--coral);
+    background: #fff; border-radius: 99px; padding: 3px 11px;
+    box-shadow: 0 3px 8px rgba(31,29,27,0.1);
+    opacity: 0; transform: translateY(-6px); transition: all .3s ease;
+  }
+  .v1-count.show { opacity: 1; transform: translateY(0); }
+  .pop { animation: pop .4s cubic-bezier(.34,1.56,.64,1); }
+  @keyframes pop { 0%{transform:scale(0.6)} 60%{transform:scale(1.18)} 100%{transform:scale(1)} }
+
+  /* ================= VARIANTE 2 : Badge compteur + halo pulsé ================= */
+  .v2-badge {
+    display: flex; align-items: center; gap: 10px;
+    background: linear-gradient(135deg, var(--coral), var(--coral-light));
+    color: #fff; font-weight: 800; font-size: 20px;
+    padding: 12px 22px; border-radius: 99px;
+    box-shadow: 0 6px 18px rgba(232,92,81,0.4);
+    position: relative;
+    transition: transform .3s cubic-bezier(.34,1.56,.64,1);
+  }
+  .v2-badge .em { font-size: 24px; }
+  .v2-badge::before {
+    content: ""; position: absolute; inset: -4px; border-radius: 99px;
+    border: 2px solid var(--coral); opacity: 0;
+  }
+  .v2-badge.pulse::before { animation: halo 1s ease-out; }
+  @keyframes halo {
+    0% { opacity: 0.6; transform: scale(1); }
+    100% { opacity: 0; transform: scale(1.4); }
+  }
+
+  /* ================= VARIANTE 3 : Barre de chaleur ================= */
+  .v3 { width: 100%; padding: 0 10px; }
+  .v3-row { display: flex; align-items: center; gap: 12px; }
+  .v3-em { font-size: 30px; transition: transform .3s; }
+  .v3-track {
+    flex: 1; height: 14px; border-radius: 99px; background: rgba(31,29,27,0.08);
+    overflow: hidden;
+  }
+  .v3-fill {
+    height: 100%; width: 0%;
+    background: linear-gradient(90deg, var(--gold), var(--amber), var(--coral));
+    border-radius: 99px;
+    transition: width .5s cubic-bezier(.4,0,.2,1);
+  }
+  .v3-label { text-align: center; margin-top: 12px; font-size: 13px; color: var(--ink-soft); font-weight: 600; }
+
+  /* ================= VARIANTE 4 : Flamme SVG + particules ================= */
+  .v4-wrap { position: relative; width: 120px; height: 150px; display:flex; align-items:flex-end; justify-content:center; }
+  .v4-flame {
+    width: 80px; height: 110px;
+    transition: transform .4s cubic-bezier(.34,1.56,.64,1);
+    transform-origin: 50% 100%;
+  }
+  .v4-flame .core { transform-origin: 50% 100%; }
+  .v4-flame.alive .core { animation: sway 1.1s ease-in-out infinite alternate; }
+  @keyframes sway {
+    0% { transform: scaleY(1) skewX(-2deg); }
+    100% { transform: scaleY(1.06) skewX(2deg); }
+  }
+  .spark {
+    position: absolute; bottom: 30px; left: 50%;
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--gold); pointer-events: none; opacity: 0;
+  }
+  .spark.go { animation: rise 0.9s ease-out forwards; }
+  @keyframes rise {
+    0% { opacity: 1; transform: translate(-50%, 0) scale(1); }
+    100% { opacity: 0; transform: translate(calc(-50% + var(--dx,0px)), -90px) scale(0.3); }
+  }
+  .v4-count { position:absolute; top:8px; right:10px; font-weight:800; color:var(--coral); font-size:14px; }
+
+  /* ================= VARIANTE 5 : Plein cadre / overlay au palier ================= */
+  .v5-stage { cursor: default; }
+  .v5-num { font-size: 56px; font-weight: 900; color: var(--coral); letter-spacing: -0.03em; }
+  .v5-num small { display:block; font-size: 13px; font-weight:700; color: var(--ink-soft); letter-spacing: 0.05em; text-transform: uppercase; }
+  .v5-burst {
+    position: absolute; inset: 0; display:flex; align-items:center; justify-content:center;
+    pointer-events: none; opacity: 0;
+  }
+  .v5-burst.go { animation: burst .8s ease-out; }
+  .v5-burst .big { font-size: 90px; }
+  @keyframes burst {
+    0% { opacity: 0; transform: scale(0.4); }
+    30% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 0; transform: scale(1.5); }
+  }
+
+  .extinguish { animation: smoke .6s ease forwards; }
+  @keyframes smoke {
+    0% { opacity: 1; filter: grayscale(0); }
+    100% { opacity: 0.15; filter: grayscale(1); transform: scale(0.85) translateY(-6px); }
+  }
+
+  footer { text-align:center; margin-top: 40px; color: var(--ink-soft); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🔥 Streak « bonnes réponses » — comparatif</h1>
+    <p>Déclenchement à partir de <b>3 bonnes réponses d'affilée</b>. Clique pour simuler.</p>
+  </header>
+
+  <div class="sim">
+    <div class="streak-readout">Série en cours : <b id="streakNum">0</b> bonne(s) réponse(s)</div>
+    <div class="btns">
+      <button class="btn btn-good" onclick="good()">✓ Bonne réponse</button>
+      <button class="btn btn-bad" onclick="bad()">✕ Mauvaise réponse</button>
+    </div>
+    <button class="btn btn-reset" onclick="hardReset()">↺ Réinitialiser</button>
+    <div class="hint">Astuce : enchaîne 3+ bonnes réponses pour voir les animations s'activer, puis rate-en une.</div>
+  </div>
+
+  <div class="grid">
+    <!-- VARIANTE 1 -->
+    <div class="card">
+      <span class="tag">Variante 1</span>
+      <h2>Flamme par paliers (emoji)</h2>
+      <p class="desc">Simple, léger. La flamme grandit par seuils (3 / 5 / 8). Idéal en haut du quiz.</p>
+      <div class="stage" id="v1stage">
+        <span class="v1-count" id="v1count">×0</span>
+        <span class="v1-flame" id="v1flame" style="opacity:0">🔥</span>
+        <span class="idle-note" id="v1idle">— série &lt; 3 —</span>
+      </div>
+    </div>
+
+    <!-- VARIANTE 2 -->
+    <div class="card">
+      <span class="tag">Variante 2</span>
+      <h2>Badge compteur + halo</h2>
+      <p class="desc">Discret et informatif. Pastille corail avec onde à chaque bonne réponse.</p>
+      <div class="stage" id="v2stage">
+        <div class="v2-badge" id="v2badge" style="opacity:0;transform:scale(0.6)">
+          <span class="em">🔥</span><span id="v2num">×3</span>
+        </div>
+        <span class="idle-note" id="v2idle">— série &lt; 3 —</span>
+      </div>
+    </div>
+
+    <!-- VARIANTE 3 -->
+    <div class="card">
+      <span class="tag">Variante 3</span>
+      <h2>Barre de chaleur</h2>
+      <p class="desc">Progression continue façon « jauge ». Se remplit et change de couleur.</p>
+      <div class="stage">
+        <div class="v3">
+          <div class="v3-row">
+            <span class="v3-em" id="v3em">🌡️</span>
+            <div class="v3-track"><div class="v3-fill" id="v3fill"></div></div>
+          </div>
+          <div class="v3-label" id="v3label">Chauffe…</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VARIANTE 4 -->
+    <div class="card">
+      <span class="tag">Variante 4 · premium</span>
+      <h2>Flamme SVG vivante + étincelles</h2>
+      <p class="desc">Plus travaillée : flamme dégradé corail qui ondule, particules qui montent.</p>
+      <div class="stage" id="v4stage">
+        <span class="v4-count" id="v4count"></span>
+        <div class="v4-wrap">
+          <svg class="v4-flame" id="v4flame" viewBox="0 0 80 110" style="opacity:0;transform:scale(0.5)">
+            <defs>
+              <linearGradient id="fg" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0%" stop-color="#ffd45e"/>
+                <stop offset="45%" stop-color="#ffb347"/>
+                <stop offset="100%" stop-color="#E85C51"/>
+              </linearGradient>
+            </defs>
+            <g class="core">
+              <path fill="url(#fg)" d="M40 4 C50 26 70 36 70 66 C70 90 56 106 40 106 C24 106 10 90 10 66 C10 44 28 40 30 22 C34 30 32 42 42 46 C50 40 44 22 40 4 Z"/>
+              <path fill="#ffe9a8" opacity="0.9" d="M40 50 C46 60 52 64 52 78 C52 90 47 98 40 98 C33 98 28 90 28 78 C28 68 36 64 40 50 Z"/>
+            </g>
+          </svg>
+        </div>
+        <span class="idle-note" id="v4idle">— série &lt; 3 —</span>
+      </div>
+    </div>
+
+    <!-- VARIANTE 5 -->
+    <div class="card">
+      <span class="tag">Variante 5</span>
+      <h2>Compteur + flash au palier</h2>
+      <p class="desc">Chiffre net en permanence ; gros « flash flamme » uniquement aux paliers (5, 10…).</p>
+      <div class="stage v5-stage" id="v5stage">
+        <div class="v5-burst" id="v5burst"><span class="big">🔥</span></div>
+        <div id="v5wrap" style="opacity:0">
+          <div class="v5-num"><span id="v5num">3</span><small>en série</small></div>
+        </div>
+        <span class="idle-note" id="v5idle">— série &lt; 3 —</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Page de test isolée — aucune modification de l'app. Respecte <code>prefers-reduced-motion</code>.
+  </footer>
+</div>
+
+<script>
+  const THRESHOLD = 3;
+  let streak = 0;
+
+  // --- paliers de taille pour la flamme ---
+  function tierScale(s) {
+    if (s < THRESHOLD) return 0;
+    if (s < 5) return 1;      // 3-4
+    if (s < 8) return 1.35;   // 5-7
+    if (s < 12) return 1.7;   // 8-11
+    return 2.0;               // 12+
+  }
+  function tierColor(s) {
+    if (s < 5) return 'var(--amber)';
+    if (s < 8) return 'var(--coral-light)';
+    return 'var(--coral)';
+  }
+
+  function good() {
+    streak++;
+    render(true);
+  }
+  function bad() {
+    if (streak >= THRESHOLD) extinguishAll();
+    streak = 0;
+    render(false);
+  }
+  function hardReset() {
+    streak = 0;
+    render(false);
+  }
+
+  function render(isGood) {
+    document.getElementById('streakNum').textContent = streak;
+    const active = streak >= THRESHOLD;
+    const scale = tierScale(streak);
+
+    // ---- V1 ----
+    const v1 = document.getElementById('v1flame');
+    const v1c = document.getElementById('v1count');
+    const v1idle = document.getElementById('v1idle');
+    if (active) {
+      v1idle.style.display = 'none';
+      v1.style.opacity = 1;
+      v1.style.setProperty('--s', scale);
+      v1.style.transform = `scale(${scale})`;
+      v1.classList.add('flicker');
+      v1.style.filter = `drop-shadow(0 0 ${6*scale}px rgba(232,92,81,0.5))`;
+      v1c.classList.add('show');
+      v1c.textContent = '×' + streak;
+      if (isGood) { v1c.classList.remove('pop'); void v1c.offsetWidth; v1c.classList.add('pop'); }
+    } else {
+      v1idle.style.display = '';
+      v1.style.opacity = 0;
+      v1.classList.remove('flicker');
+      v1c.classList.remove('show');
+    }
+
+    // ---- V2 ----
+    const v2 = document.getElementById('v2badge');
+    const v2idle = document.getElementById('v2idle');
+    if (active) {
+      v2idle.style.display = 'none';
+      v2.style.opacity = 1;
+      v2.style.transform = 'scale(1)';
+      document.getElementById('v2num').textContent = '×' + streak;
+      if (isGood) { v2.classList.remove('pulse'); void v2.offsetWidth; v2.classList.add('pulse'); }
+    } else {
+      v2idle.style.display = '';
+      v2.style.opacity = 0;
+      v2.style.transform = 'scale(0.6)';
+    }
+
+    // ---- V3 (barre : se remplit dès la 1re bonne réponse, palier visuel à 3) ----
+    const pct = Math.min(100, (streak / 10) * 100);
+    document.getElementById('v3fill').style.width = pct + '%';
+    const v3em = document.getElementById('v3em');
+    const v3label = document.getElementById('v3label');
+    v3em.style.transform = `scale(${1 + Math.min(streak,10)*0.04})`;
+    if (streak === 0) { v3em.textContent = '🌡️'; v3label.textContent = 'Chauffe…'; }
+    else if (streak < THRESHOLD) { v3em.textContent = '🌡️'; v3label.textContent = `${streak}/3 pour enflammer`; }
+    else { v3em.textContent = '🔥'; v3label.textContent = `En feu · série de ${streak}`; }
+
+    // ---- V4 ----
+    const v4 = document.getElementById('v4flame');
+    const v4idle = document.getElementById('v4idle');
+    const v4c = document.getElementById('v4count');
+    if (active) {
+      v4idle.style.display = 'none';
+      v4.style.opacity = 1;
+      v4.style.transform = `scale(${0.7 + scale*0.45})`;
+      v4.classList.add('alive');
+      v4c.textContent = '×' + streak;
+      if (isGood) spawnSparks(Math.min(3 + Math.floor(scale*2), 8));
+    } else {
+      v4idle.style.display = '';
+      v4.style.opacity = 0;
+      v4.style.transform = 'scale(0.5)';
+      v4.classList.remove('alive');
+      v4c.textContent = '';
+    }
+
+    // ---- V5 ----
+    const v5wrap = document.getElementById('v5wrap');
+    const v5idle = document.getElementById('v5idle');
+    if (active) {
+      v5idle.style.display = 'none';
+      v5wrap.style.opacity = 1;
+      document.getElementById('v5num').textContent = streak;
+      // flash uniquement aux paliers “ronds”
+      if (isGood && (streak === THRESHOLD || streak % 5 === 0)) flashBurst();
+    } else {
+      v5idle.style.display = '';
+      v5wrap.style.opacity = 0;
+    }
+  }
+
+  function spawnSparks(n) {
+    const stage = document.getElementById('v4stage');
+    for (let i = 0; i < n; i++) {
+      const s = document.createElement('span');
+      s.className = 'spark';
+      const dx = (Math.random() * 60 - 30).toFixed(0) + 'px';
+      s.style.setProperty('--dx', dx);
+      s.style.background = Math.random() > 0.5 ? 'var(--gold)' : 'var(--amber)';
+      stage.appendChild(s);
+      requestAnimationFrame(() => s.classList.add('go'));
+      setTimeout(() => s.remove(), 1000);
+    }
+  }
+
+  function flashBurst() {
+    const b = document.getElementById('v5burst');
+    b.classList.remove('go'); void b.offsetWidth; b.classList.add('go');
+  }
+
+  function extinguishAll() {
+    ['v1flame','v2badge','v4flame'].forEach(id => {
+      const el = document.getElementById(id);
+      el.classList.add('extinguish');
+      setTimeout(() => { el.classList.remove('extinguish'); }, 600);
+    });
+  }
+
+  render(false);
+</script>
+</body>
+</html>

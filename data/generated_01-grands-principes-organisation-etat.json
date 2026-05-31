@@ -1,0 +1,232 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Quels sont les trois éléments nécessaires à la constitution d'un État ?",
+      "options": [
+        "Une population, un territoire et un pouvoir",
+        "Une constitution, un gouvernement et une armée",
+        "Un territoire, une monnaie et une langue commune",
+        "Une population, des frontières reconnues et des institutions élues"
+      ],
+      "answer": 0,
+      "explanation": "Les trois éléments constitutifs de l'État sont une population, un territoire et un pouvoir.",
+      "id": "env__01-grands-principes-organisation-etat__1__opus_001",
+      "sectionTitle": "L’Etat",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__1",
+      "sourceText": "Les éléments pour constituer un État sont au nombre de trois : une population, un territoire, un pouvoir.",
+      "sourceContext": "Les éléments pour constituer un État sont au nombre de trois : une population, un territoire, un pouvoir.",
+      "sectionId": "01-grands-principes-organisation-etat__1",
+      "keywords": ["État", "éléments constitutifs", "population territoire pouvoir"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi les trois éléments de base (population, territoire, pouvoir) ne suffisent-ils pas à définir l'État ?",
+      "options": [
+        "Parce qu'il faut aussi évoquer les notions de personnalité et de souveraineté",
+        "Parce qu'il faut y ajouter une reconnaissance par les autres États",
+        "Parce qu'un État ne peut exister sans constitution écrite",
+        "Parce que le territoire doit nécessairement être délimité par des frontières naturelles"
+      ],
+      "answer": 0,
+      "explanation": "Au-delà des trois éléments de base, deux autres notions doivent être évoquées : celle de personnalité et celle de souveraineté.",
+      "id": "env__01-grands-principes-organisation-etat__1__opus_002",
+      "sectionTitle": "L’Etat",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__1",
+      "sourceText": "Deux autres notions doivent être évoquées : celle de personnalité et celle de souveraineté.",
+      "sourceContext": "Deux autres notions doivent être évoquées : celle de personnalité et celle de souveraineté.",
+      "sectionId": "01-grands-principes-organisation-etat__1",
+      "keywords": ["État", "personnalité", "souveraineté"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Parmi les structures suivantes, lesquelles sont des personnes morales de droit public ?",
+      "options": [
+        "L'État, les collectivités territoriales et les établissements publics",
+        "Les associations, les sociétés commerciales et les syndicats professionnels",
+        "Les sociétés commerciales, l'État et les syndicats professionnels",
+        "Les associations, les collectivités territoriales et les établissements publics"
+      ],
+      "answer": 0,
+      "explanation": "Les personnes morales de droit public sont l'État, les collectivités territoriales et les établissements publics, dont le but est d'intérêt général.",
+      "id": "env__01-grands-principes-organisation-etat__1_1__opus_003",
+      "sectionTitle": "L’État est doté de la personnalité morale",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__1_1",
+      "sourceText": "il y a des personnes morales de droit public, comme l'État, les collectivités territoriales, les établissements publics, dont le but est d'intérêt général.",
+      "sourceContext": "il y a des personnes morales de droit public, comme l'État, les collectivités territoriales, les établissements publics, dont le but est d'intérêt général.",
+      "sectionId": "01-grands-principes-organisation-etat__1_1",
+      "keywords": ["personne morale", "droit public", "intérêt général"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que garantit le fait que l'État, doté de la personnalité morale, ait une vie propre et indépendante des volontés individuelles ?",
+      "options": [
+        "Sa permanence, car les changements dans sa composition n'affectent pas son existence",
+        "Son omnipotence, car il échappe à toute règle qu'il a posée",
+        "Sa neutralité politique vis-à-vis des gouvernements successifs",
+        "Sa supériorité hiérarchique sur les autres États souverains"
+      ],
+      "answer": 0,
+      "explanation": "L'État assure sa permanence : les changements survenant dans sa composition n'affectent ni son existence ni la durée de ses décisions.",
+      "id": "env__01-grands-principes-organisation-etat__1_1__opus_004",
+      "sectionTitle": "L’État est doté de la personnalité morale",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__1_1",
+      "sourceText": "Il assure sa permanence : les changements qui surviennent dans sa composition n'affectent pas son existence, ni la durée de ses décisions.",
+      "sourceContext": "Il assure sa permanence : les changements qui surviennent dans sa composition n'affectent pas son existence, ni la durée de ses décisions.",
+      "sectionId": "01-grands-principes-organisation-etat__1_1",
+      "keywords": ["permanence", "continuité", "personnalité morale"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle formule lapidaire résume le fait que l'État dispose d'un pouvoir ne relevant d'aucun autre ?",
+      "options": [
+        "« l'État a la compétence de ses compétences »",
+        "« l'État est le même marteau qui frappe »",
+        "« l'État a le monopole de la contrainte légitime »",
+        "« l'État est une personne morale d'intérêt général »"
+      ],
+      "answer": 0,
+      "explanation": "La souveraineté de l'État se résume par la formule : « l'État a la compétence de ses compétences ».",
+      "id": "env__01-grands-principes-organisation-etat__1_2__opus_005",
+      "sectionTitle": "L’État est souverain",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__1_2",
+      "sourceText": "il est le seul à disposer de la faculté de s'organiser lui-même de sa propre volonté, cela se résume en une formule lapidaire : « l'État a la compétence de ses compétences ».",
+      "sourceContext": "il est le seul à disposer de la faculté de s'organiser lui-même de sa propre volonté, cela se résume en une formule lapidaire : « l'État a la compétence de ses compétences ».",
+      "sectionId": "01-grands-principes-organisation-etat__1_2",
+      "keywords": ["souveraineté", "compétence de ses compétences", "État"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi affirme-t-on que le caractère souverain de l'État n'est pas synonyme d'omnipotence ou d'arbitraire ?",
+      "options": [
+        "Parce qu'il doit s'appliquer à lui-même les règles qu'il pose et ne s'en affranchir qu'en les modifiant",
+        "Parce que sa souveraineté est limitée par celle des collectivités territoriales",
+        "Parce qu'il partage son pouvoir avec les établissements publics",
+        "Parce qu'il est soumis au contrôle direct des autres personnes morales"
+      ],
+      "answer": 0,
+      "explanation": "L'État, maître de son organisation, doit s'appliquer les règles qu'il pose et ne peut s'en affranchir qu'en créant une nouvelle règle qui le liera.",
+      "id": "env__01-grands-principes-organisation-etat__1_2__opus_006",
+      "sectionTitle": "L’État est souverain",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__1_2",
+      "sourceText": "si l'État est bien maître de son organisation, il doit s'appliquer à lui-même les règles qu'il pose et il ne pourra s'en affranchir qu'en les modifiant, c'est-à-dire en créant une nouvelle règle qui le liera.",
+      "sourceContext": "si l'État est bien maître de son organisation, il doit s'appliquer à lui-même les règles qu'il pose et il ne pourra s'en affranchir qu'en les modifiant, c'est-à-dire en créant une nouvelle règle qui le liera.",
+      "sectionId": "01-grands-principes-organisation-etat__1_2",
+      "keywords": ["souveraineté", "soumission au droit", "État de droit"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Qu'est-ce qui caractérise un État unitaire ?",
+      "options": [
+        "Il ne possède qu'un seul centre d'impulsion politique",
+        "Il partage les compétences entre plusieurs États fédérés",
+        "Il possède plusieurs pouvoirs législatifs autonomes",
+        "Il confie chaque région à un centre d'impulsion politique distinct"
+      ],
+      "answer": 0,
+      "explanation": "L'État unitaire est celui qui ne possède qu'un seul centre d'impulsion politique.",
+      "id": "env__01-grands-principes-organisation-etat__2__opus_007",
+      "sectionTitle": "Unitaire",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__2",
+      "sourceText": "L'État unitaire est celui qui ne possède qu'un seul centre d'impulsion politique.",
+      "sourceContext": "L'État unitaire est celui qui ne possède qu'un seul centre d'impulsion politique.",
+      "sectionId": "01-grands-principes-organisation-etat__2",
+      "keywords": ["État unitaire", "centre d'impulsion politique", "organisation unique"]
+    },
+    {
+      "bloom": "application",
+      "q": "Aux États-Unis, dans l'organisation fédérale, à qui reviennent des domaines comme la défense, la monnaie et les relations internationales ?",
+      "options": [
+        "À l'État fédéral, dont le centre d'impulsion politique est composé du Congrès et du Président",
+        "Aux États fédérés, à travers leur gouverneur et leur assemblée législative",
+        "À une assemblée commune réunissant les exécutifs de chaque État fédéré",
+        "Conjointement à l'État fédéral et aux États fédérés selon les circonstances"
+      ],
+      "answer": 0,
+      "explanation": "Dans l'exemple américain, l'État fédéral, doté du Congrès et du Président, légifère et exécute dans des domaines comme la défense, la monnaie et les relations internationales.",
+      "id": "env__01-grands-principes-organisation-etat__2__opus_008",
+      "sectionTitle": "Unitaire",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__2",
+      "sourceText": "l'État fédéral qui se dote d'un centre d'impulsion politique composé du Congrès et du Président : l'un légiférera et l'autre exécutera dans des domaines comme la défense, la monnaie, les relations internationales ; et les États fédérés qui, dotés d'un centre d'impulsion politique composé d'un exécutif, d'un gouverneur et d'une assemblée législative, traiteront de tous les autres champs d'action.",
+      "sourceContext": "l'État fédéral qui se dote d'un centre d'impulsion politique composé du Congrès et du Président : l'un légiférera et l'autre exécutera dans des domaines comme la défense, la monnaie, les relations internationales ; et les États fédérés qui, dotés d'un centre d'impulsion politique composé d'un exécutif, d'un gouverneur et d'une assemblée législative, traiteront de tous les autres champs d'action.",
+      "sectionId": "01-grands-principes-organisation-etat__2",
+      "keywords": ["État fédéral", "compétences fédérales", "Congrès et Président"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En quoi la déconcentration consiste-t-elle dans l'organisation de l'État ?",
+      "options": [
+        "À découper le territoire en circonscriptions administratives dirigées par un représentant local du pouvoir central",
+        "À transférer des compétences à des collectivités dotées de la personnalité morale",
+        "À créer plusieurs centres d'impulsion politique autonomes sur le territoire",
+        "À confier la gestion des affaires locales à des organes élus au suffrage universel"
+      ],
+      "answer": 0,
+      "explanation": "La déconcentration consiste à découper le territoire en circonscriptions administratives dirigées par un représentant local du pouvoir central.",
+      "id": "env__01-grands-principes-organisation-etat__3__opus_009",
+      "sectionTitle": "Déconcentré",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__3",
+      "sourceText": "La déconcentration consiste à un découpage de l'ensemble du territoire en un certain nombre de circonscriptions administratives à la tête desquelles l'État place un représentant local du pouvoir central.",
+      "sourceContext": "La déconcentration consiste à un découpage de l'ensemble du territoire en un certain nombre de circonscriptions administratives à la tête desquelles l'État place un représentant local du pouvoir central.",
+      "sectionId": "01-grands-principes-organisation-etat__3",
+      "keywords": ["déconcentration", "circonscriptions administratives", "représentant local"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un préfet, représentant local de l'État dans son département, conteste une instruction du ministre. Quelle est sa situation juridique au regard de la déconcentration ?",
+      "options": [
+        "Il est dans une situation d'étroite subordination hiérarchique par rapport au pouvoir central",
+        "Il dispose d'une autonomie de décision car sa circonscription a la personnalité morale",
+        "Il agit librement car la déconcentration relève d'une logique de décentralisation",
+        "Il peut s'opposer au pouvoir central au nom de l'intérêt local"
+      ],
+      "answer": 0,
+      "explanation": "Les représentants locaux de l'État sont dans une situation d'étroite subordination hiérarchique par rapport au pouvoir central.",
+      "id": "env__01-grands-principes-organisation-etat__3__opus_010",
+      "sectionTitle": "Déconcentré",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__3",
+      "sourceText": "les représentants locaux de l'État sont dans une situation d'étroite subordination hiérarchique par rapport au pouvoir central.",
+      "sourceContext": "les représentants locaux de l'État sont dans une situation d'étroite subordination hiérarchique par rapport au pouvoir central.",
+      "sectionId": "01-grands-principes-organisation-etat__3",
+      "keywords": ["déconcentration", "subordination hiérarchique", "représentant local"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles sont les deux nouvelles catégories de personnes morales de droit public créées par la décentralisation à côté de l'État ?",
+      "options": [
+        "Les collectivités territoriales et les établissements publics",
+        "Les circonscriptions administratives et les collectivités territoriales",
+        "Les communes et les régions",
+        "Les établissements publics et les syndicats professionnels"
+      ],
+      "answer": 0,
+      "explanation": "La décentralisation se concrétise par la création des collectivités territoriales et des établissements publics, à côté de l'État.",
+      "id": "env__01-grands-principes-organisation-etat__4__opus_011",
+      "sectionTitle": "Décentralisé",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__4",
+      "sourceText": "Elle se concrétise par la création de deux nouvelles catégories de personnes morales de droit public à côté de l'État : les collectivités territoriales et les établissements publics.",
+      "sourceContext": "Elle se concrétise par la création de deux nouvelles catégories de personnes morales de droit public à côté de l'État : les collectivités territoriales et les établissements publics.",
+      "sectionId": "01-grands-principes-organisation-etat__4",
+      "keywords": ["décentralisation", "collectivités territoriales", "établissements publics"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi la distinction classique entre collectivités territoriales et établissements publics est-elle aujourd'hui plus difficile à systématiser ?",
+      "options": [
+        "Parce que les départements et régions ont perdu leur compétence générale avec la loi NOTRe du 7 août 2015",
+        "Parce que les établissements publics ont tous reçu une compétence générale",
+        "Parce que les collectivités territoriales ont perdu la personnalité morale",
+        "Parce que les communes ont été transformées en circonscriptions administratives"
+      ],
+      "answer": 0,
+      "explanation": "La loi NOTRe du 7 août 2015 a retiré la compétence générale aux départements et régions, ce qui en fait des collectivités spécialisées comme les établissements publics.",
+      "id": "env__01-grands-principes-organisation-etat__4__opus_012",
+      "sectionTitle": "Décentralisé",
+      "sourceLink": "#section-01-grands-principes-organisation-etat__4",
+      "sourceText": "les départements et régions se sont vu retirer leur compétence générale avec la loi NOTRe du 07 août 2015, ce qui tend à faire de ces collectivités, des collectivités territoriales spécialisées, comme le sont les établissements publics.",
+      "sourceContext": "les départements et régions se sont vu retirer leur compétence générale avec la loi NOTRe du 07 août 2015, ce qui tend à faire de ces collectivités, des collectivités territoriales spécialisées, comme le sont les établissements publics.",
+      "sectionId": "01-grands-principes-organisation-etat__4",
+      "keywords": ["loi NOTRe", "compétence générale", "collectivités spécialisées"]
+    }
+  ]
+}

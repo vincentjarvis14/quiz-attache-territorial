@@ -17,6 +17,7 @@ import {
   getProgressionBySousTheme,
   getMostMissedQuestions,
 } from "@/db/queries";
+import { auth } from "@/lib/auth";
 import { cn } from "@/lib/utils";
 
 import { AppHeader } from "../learn/app-header";
@@ -31,11 +32,14 @@ function toneFor(pct: number) {
 }
 
 export default async function ProgressionPage() {
-  const userProgress = await getUserProgress();
-
-  if (!userProgress || !userProgress.activeThemeId) {
-    redirect("/courses");
+  // L'app se navigue par pool /learn (multi-matières) : on n'exige PAS de
+  // « thème actif », seulement un utilisateur connecté.
+  const userId = await auth();
+  if (!userId) {
+    redirect("/learn");
   }
+
+  const userProgress = await getUserProgress();
 
   const [rows, missed] = await Promise.all([
     getProgressionBySousTheme(),
@@ -65,7 +69,7 @@ export default async function ProgressionPage() {
             <div className="mb-4 flex items-center gap-4">
               <span className="h-[3px] w-12 shrink-0 rounded-full bg-coral-500" />
               <span className="text-xs font-bold uppercase tracking-widest text-coral-500">
-                {userProgress.activeTheme?.title ?? "Progression"}
+                {userProgress?.activeTheme?.title ?? "Suivi de révision"}
               </span>
             </div>
             <h1 className="font-display text-[2.6rem] font-black leading-[0.9] tracking-tight text-ink md:text-[3.5rem]">

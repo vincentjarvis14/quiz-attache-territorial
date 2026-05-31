@@ -12,7 +12,12 @@ export function GuestButton() {
   };
 
   return (
-    <Button variant="secondaryOutline" size="lg" onClick={handleGuestLogin}>
+    <Button
+      variant="ghost"
+      size="lg"
+      onClick={handleGuestLogin}
+      className="text-ink/50 hover:bg-ink/5 hover:text-ink"
+    >
       Continuer en invité
     </Button>
   );

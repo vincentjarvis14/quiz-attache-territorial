@@ -1,0 +1,555 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Selon le décret du 7 mai 2015 portant charte de la déconcentration, quel rôle les administrations centrales assurent-elles au niveau national ?",
+      "options": [
+        "Un rôle de conception, d'animation, d'évaluation et de contrôle",
+        "Un rôle d'exécution directe des politiques publiques sur le terrain",
+        "Un rôle de gestion quotidienne des services de proximité",
+        "Un rôle exclusif de représentation diplomatique de l'État"
+      ],
+      "answer": 0,
+      "explanation": "La charte de la déconcentration confie aux administrations centrales un rôle de conception, d'animation, d'évaluation et de contrôle au niveau national.",
+      "id": "env__02-organisation-administrative-etat__1__opus_001",
+      "sectionTitle": "L'administration centrale",
+      "sourceLink": "#section-02-organisation-administrative-etat__1",
+      "sourceText": "Selon le décret n°2015-510 du 7 mai 2015 portant charte de la déconcentration « Les administrations centrales assurent au niveau national un rôle de conception, d'animation, d'évaluation et de contrôle ».",
+      "sourceContext": "Selon le décret n°2015-510 du 7 mai 2015 portant charte de la déconcentration « Les administrations centrales assurent au niveau national un rôle de conception, d'animation, d'évaluation et de contrôle ».",
+      "sectionId": "02-organisation-administrative-etat__1",
+      "keywords": ["administration centrale", "charte de la déconcentration", "rôle national"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Parmi les organes de l'administration centrale, quelle distinction est opérée entre les quatre groupes d'organes ?",
+      "options": [
+        "Conception/gestion/décision, consultation, coordination et contrôle",
+        "Exécution, planification, financement et sanction",
+        "Législation, réglementation, juridiction et médiation",
+        "Information, formation, recrutement et évaluation"
+      ],
+      "answer": 0,
+      "explanation": "Les organes de l'administration centrale se distinguent en quatre groupes : conception/gestion/décision, consultation, coordination et contrôle.",
+      "id": "env__02-organisation-administrative-etat__1__opus_002",
+      "sectionTitle": "L'administration centrale",
+      "sourceLink": "#section-02-organisation-administrative-etat__1",
+      "sourceText": "On peut cependant distinguer quatre groupes d'organes : les organes de conception, de gestion et de décision (1.1), de consultation (1.2), de coordination (1.3) et de contrôle (1.4).",
+      "sourceContext": "On peut cependant distinguer quatre groupes d'organes : les organes de conception, de gestion et de décision (1.1), de consultation (1.2), de coordination (1.3) et de contrôle (1.4).",
+      "sectionId": "02-organisation-administrative-etat__1",
+      "keywords": ["organes", "groupes", "classification"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En vertu de l'article 21 de la Constitution, de quel pouvoir réglementaire dispose le Premier ministre ?",
+      "options": [
+        "Du pouvoir réglementaire pour l'exécution des lois et pour prendre des règlements autonomes",
+        "Du seul pouvoir d'exécution des lois votées par le Parlement",
+        "D'aucun pouvoir réglementaire, réservé au Président de la République",
+        "Du pouvoir réglementaire limité aux seules collectivités territoriales"
+      ],
+      "answer": 0,
+      "explanation": "Le Premier ministre dispose du pouvoir réglementaire tant pour l'exécution des lois qu'au titre de l'article 37 pour prendre des règlements autonomes.",
+      "id": "env__02-organisation-administrative-etat__1_1__opus_003",
+      "sectionTitle": "Les organes de conception, de gestion et de décision",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_1",
+      "sourceText": "En vertu de l'article 21 de la Constitution, le Premier ministre dispose du pouvoir réglementaire tant en vue de l'exécution des lois qu'au titre de l'article 37 de la Constitution pour prendre des règlements autonomes.",
+      "sourceContext": "En vertu de l'article 21 de la Constitution, le Premier ministre dispose du pouvoir réglementaire tant en vue de l'exécution des lois qu'au titre de l'article 37 de la Constitution pour prendre des règlements autonomes.",
+      "sectionId": "02-organisation-administrative-etat__1_1",
+      "keywords": ["Premier ministre", "pouvoir réglementaire", "article 21"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En vertu de l'article 21 de la Constitution, à quels emplois le Premier ministre nomme-t-il ?",
+      "options": [
+        "Aux emplois civils et militaires",
+        "Aux seuls emplois militaires de commandement",
+        "Aux emplois des collectivités territoriales uniquement",
+        "Aux emplois de la magistrature judiciaire"
+      ],
+      "answer": 0,
+      "explanation": "En vertu de l'article 21 de la Constitution, le Premier ministre nomme aux emplois civils et militaires.",
+      "id": "env__02-organisation-administrative-etat__1_1__opus_004",
+      "sectionTitle": "Les organes de conception, de gestion et de décision",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_1",
+      "sourceText": "En vertu du même article de la Constitution, le Premier ministre « nomme aux emplois civils et militaires ».",
+      "sourceContext": "En vertu du même article de la Constitution, le Premier ministre « nomme aux emplois civils et militaires ».",
+      "sectionId": "02-organisation-administrative-etat__1_1",
+      "keywords": ["pouvoir de nomination", "article 13", "réserve"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "À quel moment le Conseil d'État est-il obligatoirement saisi des projets de loi ?",
+      "options": [
+        "Avant leur adoption par le Conseil des ministres et leur dépôt devant le Parlement",
+        "Après leur vote définitif par les deux assemblées",
+        "Uniquement en cas de saisine par soixante députés ou sénateurs",
+        "Après leur promulgation par le Président de la République"
+      ],
+      "answer": 0,
+      "explanation": "Le Conseil d'État est obligatoirement saisi de tous les projets de loi avant leur adoption par le Conseil des ministres et leur dépôt devant le Parlement.",
+      "id": "env__02-organisation-administrative-etat__1_2__opus_005",
+      "sectionTitle": "Les organes de consultation",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_2",
+      "sourceText": "il convient de citer tout particulièrement le Conseil d'Etat qui est obligatoirement saisi de tous les projets de loi, avant leur adoption par le Conseil des ministres et leur dépôt devant le Parlement (art. 39 de la Constitution).",
+      "sourceContext": "il convient de citer tout particulièrement le Conseil d'Etat qui est obligatoirement saisi de tous les projets de loi, avant leur adoption par le Conseil des ministres et leur dépôt devant le Parlement (art. 39 de la Constitution).",
+      "sectionId": "02-organisation-administrative-etat__1_2",
+      "keywords": ["Conseil d'État", "projets de loi", "consultation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel est le rôle assigné au Conseil économique, social et environnemental ?",
+      "options": [
+        "Conseiller le Gouvernement et le Parlement et renforcer la démocratie participative",
+        "Juger les litiges entre l'État et les collectivités territoriales",
+        "Contrôler l'exécution financière du budget de l'État",
+        "Nommer les membres des autorités administratives indépendantes"
+      ],
+      "answer": 0,
+      "explanation": "Le CESE a pour rôle de conseiller le Gouvernement et le Parlement, de participer aux politiques publiques et de renforcer la démocratie participative.",
+      "id": "env__02-organisation-administrative-etat__1_2__opus_006",
+      "sectionTitle": "Les organes de consultation",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_2",
+      "sourceText": "Peut également être cité le Conseil économique, social et environnemental (Titre XI de la Constitution) dont le rôle est de conseiller le Gouvernement et le Parlement, de participer à l'élaboration et à l'évaluation des politiques publiques dans ses champs de compétences ainsi que de renforcer la démocratie participative.",
+      "sourceContext": "Peut également être cité le Conseil économique, social et environnemental (Titre XI de la Constitution) dont le rôle est de conseiller le Gouvernement et le Parlement, de participer à l'élaboration et à l'évaluation des politiques publiques dans ses champs de compétences ainsi que de renforcer la démocratie participative.",
+      "sectionId": "02-organisation-administrative-etat__1_2",
+      "keywords": ["CESE", "démocratie participative", "consultation"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Qui préside le Conseil des ministres ?",
+      "options": [
+        "Le Président de la République",
+        "Le Premier ministre",
+        "Le secrétaire général du gouvernement",
+        "Le ministre de l'Intérieur"
+      ],
+      "answer": 0,
+      "explanation": "Le Conseil des ministres est présidé par le Président de la République.",
+      "id": "env__02-organisation-administrative-etat__1_3_1__opus_007",
+      "sectionTitle": "Le Conseil des ministres",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_3_1",
+      "sourceText": "Il est présidé par le Président de la République.",
+      "sourceContext": "Il est présidé par le Président de la République.",
+      "sectionId": "02-organisation-administrative-etat__1_3_1",
+      "keywords": ["Conseil des ministres", "présidence", "Président de la République"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un secrétaire d'État souhaite assister au Conseil des ministres ; dans quel cas peut-il y être convié ?",
+      "options": [
+        "Lorsque sont traitées des questions relevant de ses compétences",
+        "Systématiquement, en tant que membre permanent du Conseil",
+        "Uniquement sur autorisation du Conseil constitutionnel",
+        "Jamais, les secrétaires d'État en étant exclus par principe"
+      ],
+      "answer": 0,
+      "explanation": "Les secrétaires d'État peuvent être conviés au Conseil des ministres lorsque sont traitées des questions relevant de leurs compétences.",
+      "id": "env__02-organisation-administrative-etat__1_3_1__opus_008",
+      "sectionTitle": "Le Conseil des ministres",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_3_1",
+      "sourceText": "Le Premier ministre, les ministres et ministres délégués en sont les membres permanents, les secrétaires d'État peuvent y être conviés lorsque sont traitées des questions relevant de leurs compétences.",
+      "sourceContext": "Le Premier ministre, les ministres et ministres délégués en sont les membres permanents, les secrétaires d'État peuvent y être conviés lorsque sont traitées des questions relevant de leurs compétences.",
+      "sectionId": "02-organisation-administrative-etat__1_3_1",
+      "keywords": ["secrétaires d'État", "membres permanents", "Conseil des ministres"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quelle condition un ministre peut-il présider la réunion d'un comité interministériel ?",
+      "options": [
+        "Par délégation du Premier ministre",
+        "De plein droit, dès lors qu'il est concerné par l'ordre du jour",
+        "Sur désignation du secrétaire général du gouvernement",
+        "Par décision du Conseil des ministres"
+      ],
+      "answer": 0,
+      "explanation": "Un ministre peut présider la réunion d'un comité interministériel par délégation du Premier ministre.",
+      "id": "env__02-organisation-administrative-etat__1_3_2__opus_009",
+      "sectionTitle": "Les conseils et comités interministériels",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_3_2",
+      "sourceText": "Un ministre peut toutefois présider la réunion d'un comité interministériel par délégation du Premier ministre ; se tiennent sous la présidence d'un membre du cabinet du Premier ministre et du secrétaire général du gouvernement ou du directeur au secrétariat général du gouvernement.",
+      "sourceContext": "Un ministre peut toutefois présider la réunion d'un comité interministériel par délégation du Premier ministre ; se tiennent sous la présidence d'un membre du cabinet du Premier ministre et du secrétaire général du gouvernement ou du directeur au secrétariat général du gouvernement.",
+      "sectionId": "02-organisation-administrative-etat__1_3_2",
+      "keywords": ["comité interministériel", "délégation", "Premier ministre"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle juridiction exerce le contrôle financier parmi les organes de contrôle de l'administration centrale ?",
+      "options": [
+        "La Cour des comptes",
+        "Le Conseil d'État",
+        "Le Conseil constitutionnel",
+        "Le Tribunal des conflits"
+      ],
+      "answer": 0,
+      "explanation": "Le contrôle financier est exercé par une juridiction, la Cour des comptes.",
+      "id": "env__02-organisation-administrative-etat__1_4__opus_010",
+      "sectionTitle": "Les organes de contrôle",
+      "sourceLink": "#section-02-organisation-administrative-etat__1_4",
+      "sourceText": "il faut évoquer en premier lieu un contrôle financier exercé par une juridiction : la Cour des comptes.",
+      "sourceContext": "il faut évoquer en premier lieu un contrôle financier exercé par une juridiction : la Cour des comptes.",
+      "sectionId": "02-organisation-administrative-etat__1_4",
+      "keywords": ["Cour des comptes", "contrôle financier", "juridiction"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Pourquoi, selon le cours, l'État ne peut-il être totalement centralisé après 1789 ?",
+      "options": [
+        "Vu l'étendue du pays, il faut mettre en place la déconcentration",
+        "Parce que la Constitution interdit toute centralisation",
+        "Parce que les provinces de l'ancien régime ont été maintenues",
+        "Parce que les communes refusaient l'autorité du pouvoir central"
+      ],
+      "answer": 0,
+      "explanation": "L'étendue du pays empêche une centralisation totale, ce qui impose la mise en place de la déconcentration.",
+      "id": "env__02-organisation-administrative-etat__2_1__opus_011",
+      "sectionTitle": "La mise en place de l'administration déconcentrée",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_1",
+      "sourceText": "Mais vue l'étendue du pays, l'État ne peut être totalement centralisé, il faut mettre en place la déconcentration.",
+      "sourceContext": "Mais vue l'étendue du pays, l'État ne peut être totalement centralisé, il faut mettre en place la déconcentration.",
+      "sectionId": "02-organisation-administrative-etat__2_1",
+      "keywords": ["déconcentration", "centralisation", "étendue du pays"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel texte a fait de la commune la cellule administrative de base ?",
+      "options": [
+        "La loi du 14 décembre 1789",
+        "La loi du 28 pluviôse an VIII",
+        "Le décret du 7 janvier 1959",
+        "La loi du 16 janvier 2015"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 14 décembre 1789 a fait de la commune la cellule administrative de base.",
+      "id": "env__02-organisation-administrative-etat__2_1__opus_012",
+      "sectionTitle": "La mise en place de l'administration déconcentrée",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_1",
+      "sourceText": "La loi du 14 décembre 1789 fit de la commune la cellule administrative de base.",
+      "sourceContext": "La loi du 14 décembre 1789 fit de la commune la cellule administrative de base.",
+      "sectionId": "02-organisation-administrative-etat__2_1",
+      "keywords": ["commune", "cellule administrative de base", "1789"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel représentant local du pouvoir central la loi du 28 pluviôse an VIII a-t-elle instauré à la tête du département ?",
+      "options": [
+        "Le préfet",
+        "Le sous-préfet",
+        "Le maire",
+        "Le préfet de région"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 28 pluviôse an VIII a instauré le préfet comme représentant local du pouvoir central à la tête du département.",
+      "id": "env__02-organisation-administrative-etat__2_1__opus_013",
+      "sectionTitle": "La mise en place de l'administration déconcentrée",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_1",
+      "sourceText": "À la tête du département circonscription administrative, la loi du 28 pluviôse an VIII (7 février 1800) va instaurer comme représentant local du pouvoir central, le préfet.",
+      "sourceContext": "À la tête du département circonscription administrative, la loi du 28 pluviôse an VIII (7 février 1800) va instaurer comme représentant local du pouvoir central, le préfet.",
+      "sectionId": "02-organisation-administrative-etat__2_1",
+      "keywords": ["préfet", "département", "pluviôse an VIII"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel statut administratif le canton conserve-t-il aujourd'hui après son redécoupage de 2013 ?",
+      "options": [
+        "Celui de circonscription électorale pour l'élection des conseillers départementaux",
+        "Celui de circonscription dotée d'un sous-préfet",
+        "Celui de cellule administrative de base",
+        "Celui de circonscription d'action régionale"
+      ],
+      "answer": 0,
+      "explanation": "Depuis le redécoupage de 2013, les cantons ne sont plus que des circonscriptions électorales pour l'élection des conseillers départementaux.",
+      "id": "env__02-organisation-administrative-etat__2_1__opus_014",
+      "sectionTitle": "La mise en place de l'administration déconcentrée",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_1",
+      "sourceText": "les cantons ne sont plus aujourd'hui que des circonscriptions électorales pour l'élection des conseillers départementaux.",
+      "sourceContext": "les cantons ne sont plus aujourd'hui que des circonscriptions électorales pour l'élection des conseillers départementaux.",
+      "sectionId": "02-organisation-administrative-etat__2_1",
+      "keywords": ["canton", "circonscription électorale", "conseillers départementaux"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles sont les quatre catégories actuelles de circonscriptions administratives ?",
+      "options": [
+        "La région, le département, l'arrondissement et la commune",
+        "La zone, la région, le canton et la commune",
+        "La province, le département, le canton et la commune",
+        "La région, le département, le canton et l'arrondissement"
+      ],
+      "answer": 0,
+      "explanation": "Il existe actuellement quatre catégories de circonscriptions administratives : la région, le département, l'arrondissement et la commune.",
+      "id": "env__02-organisation-administrative-etat__2_1__opus_015",
+      "sectionTitle": "La mise en place de l'administration déconcentrée",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_1",
+      "sourceText": "Il y a donc à l'heure actuelle, quatre catégories de circonscriptions administratives : la région, le département, l'arrondissement, la commune, ayant chacune respectivement à leur tête un représentant local du pouvoir central, le préfet de région, le préfet de département, le sous- préfet et le maire.",
+      "sourceContext": "Il y a donc à l'heure actuelle, quatre catégories de circonscriptions administratives : la région, le département, l'arrondissement, la commune, ayant chacune respectivement à leur tête un représentant local du pouvoir central, le préfet de région, le préfet de département, le sous- préfet et le maire.",
+      "sectionId": "02-organisation-administrative-etat__2_1",
+      "keywords": ["circonscriptions administratives", "région", "commune"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle fonction le préfet de zone occupe-t-il également, en plus de diriger la zone de défense et de sécurité ?",
+      "options": [
+        "Préfet de la région et du département chef-lieu de la zone de défense",
+        "Directeur régional de l'environnement de la zone",
+        "Procureur général de la cour d'appel du ressort",
+        "Délégué militaire départemental du chef-lieu"
+      ],
+      "answer": 0,
+      "explanation": "Le préfet de zone est également préfet de la région et du département chef-lieu de la zone de défense.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_016",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "À la tête de la zone de défense et de sécurité se trouve le préfet de zone, également préfet de la région et du département chef-lieu de la zone de défense.",
+      "sourceContext": "À la tête de la zone de défense et de sécurité se trouve le préfet de zone, également préfet de la région et du département chef-lieu de la zone de défense.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["préfet de zone", "zone de défense", "chef-lieu"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une catastrophe naturelle dépasse le cadre d'un seul département ; quel rôle revient alors au préfet de zone ?",
+      "options": [
+        "Préparer et mettre en œuvre les mesures de prévention, de protection et de secours des biens et des personnes",
+        "Demander l'arbitrage du Conseil des ministres avant toute intervention",
+        "Transférer la gestion de la crise au préfet de région concerné",
+        "Confier la coordination au directeur de l'agence de l'eau"
+      ],
+      "answer": 0,
+      "explanation": "En cas de crise grave ou de catastrophe dépassant le cadre du département, le préfet de zone prépare et met en œuvre les mesures de prévention, de protection et de secours des biens et des personnes.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_017",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "il prépare et met en œuvre l'ensemble des mesures de prévention, de protection et de secours des biens et des personnes en cas de crise grave ou de catastrophe naturelle dépassant le cadre du département.",
+      "sourceContext": "il prépare et met en œuvre l'ensemble des mesures de prévention, de protection et de secours des biens et des personnes en cas de crise grave ou de catastrophe naturelle dépassant le cadre du département.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["préfet de zone", "catastrophe naturelle", "secours"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment le cours qualifie-t-il le niveau régional s'agissant des politiques publiques de l'État sur le territoire ?",
+      "options": [
+        "Comme le niveau privilégié de droit commun",
+        "Comme un échelon spécialisé dans l'administration de proximité",
+        "Comme une simple circonscription électorale",
+        "Comme un niveau exclusivement chargé de la défense"
+      ],
+      "answer": 0,
+      "explanation": "Le niveau régional est le niveau privilégié de droit commun des politiques publiques de l'État sur le territoire.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_018",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "C'est le niveau privilégié de droit commun des politiques publiques de l'État sur le territoire.",
+      "sourceContext": "C'est le niveau privilégié de droit commun des politiques publiques de l'État sur le territoire.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["niveau régional", "préfet de région", "autorité"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une commune cherche l'administration qui met en œuvre au niveau régional les politiques d'aménagement durable, d'énergie et de prévention des risques ; à quel service s'adresser ?",
+      "options": [
+        "La direction régionale de l'environnement, de l'aménagement et du logement (DREAL)",
+        "La direction régionale des finances publiques (DRFiP)",
+        "La direction régionale de la culture (DRAC)",
+        "L'agence régionale de santé (ARS)"
+      ],
+      "answer": 0,
+      "explanation": "La DREAL met en œuvre les politiques publiques liées à l'aménagement durable des territoires, à l'énergie, à l'environnement et à la prévention des risques.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_019",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "Elle met en œuvre les politiques publiques liées à l'aménagement durable des territoires, à l'énergie, à l'environnement et à la prévention des risques.",
+      "sourceContext": "Elle met en œuvre les politiques publiques liées à l'aménagement durable des territoires, à l'énergie, à l'environnement et à la prévention des risques.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["DREAL", "aménagement durable", "prévention des risques"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle mission est confiée à la direction régionale de la culture (DRAC) ?",
+      "options": [
+        "La mise en œuvre, au niveau régional, de la politique culturelle définie par le gouvernement",
+        "Le recouvrement de l'impôt et le contrôle financier déconcentré",
+        "Le pilotage régional des politiques de jeunesse et de sports",
+        "La sécurité sanitaire des aliments et la santé animale"
+      ],
+      "answer": 0,
+      "explanation": "La DRAC est chargée de la mise en œuvre, au niveau régional, de la politique culturelle définie par le gouvernement.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_020",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "la DRAC est chargée de la mise en œuvre, au niveau régional, de la politique culturelle définie par le gouvernement.",
+      "sourceContext": "la DRAC est chargée de la mise en œuvre, au niveau régional, de la politique culturelle définie par le gouvernement.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["DRAC", "politique culturelle", "service déconcentré"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel statut juridique la loi du 21 juillet 2009 a-t-elle conféré aux agences régionales de santé (ARS) ?",
+      "options": [
+        "Un statut d'établissement public administratif",
+        "Un statut de service déconcentré interministériel",
+        "Un statut de collectivité territoriale à statut particulier",
+        "Un statut d'autorité administrative indépendante"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 21 juillet 2009 a créé les agences régionales de santé avec un statut d'établissement public administratif.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_021",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "La loi du 21 juillet 2009 portant réforme de l'hôpital et relative aux patients, à la santé et aux territoires, a créé les agences régionales de santé (ARS) avec un statut d'établissement public administratif.",
+      "sourceContext": "La loi du 21 juillet 2009 portant réforme de l'hôpital et relative aux patients, à la santé et aux territoires, a créé les agences régionales de santé (ARS) avec un statut d'établissement public administratif.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["ARS", "établissement public administratif", "loi 2009"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la mission essentielle confiée aux agences régionales de santé à l'échelon régional ?",
+      "options": [
+        "Assurer le pilotage d'ensemble du système de santé",
+        "Recouvrer les cotisations de sécurité sociale",
+        "Gérer la trésorerie de l'État dans la région",
+        "Instruire les autorisations d'urbanisme"
+      ],
+      "answer": 0,
+      "explanation": "Les ARS ont pour mission d'assurer, à l'échelon régional, le pilotage d'ensemble du système de santé.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_022",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "Les agences régionales de santé ont pour mission d'assurer, à l'échelon régional, le pilotage d'ensemble du système de santé.",
+      "sourceContext": "Les agences régionales de santé ont pour mission d'assurer, à l'échelon régional, le pilotage d'ensemble du système de santé.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["ARS", "pilotage", "système de santé"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle direction départementale interministérielle a en charge la protection des populations, notamment la sécurité sanitaire des aliments ?",
+      "options": [
+        "La direction départementale de la protection des populations (DDPP)",
+        "La direction départementale des territoires (DDT)",
+        "La direction départementale des finances publiques (DDFiP)",
+        "La direction départementale de la sécurité publique (DDSP)"
+      ],
+      "answer": 0,
+      "explanation": "La DDPP est un service déconcentré interministériel chargé de la protection des populations, dont la sécurité sanitaire des aliments.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_023",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "La direction départementale de la protection des populations (DDPP) est un service déconcentré interministériel officiant auprès du préfet de département qui a en charge la protection des populations (protection du consommateur, santé animale et environnemental, sécurité sanitaire des aliments…).",
+      "sourceContext": "La direction départementale de la protection des populations (DDPP) est un service déconcentré interministériel officiant auprès du préfet de département qui a en charge la protection des populations (protection du consommateur, santé animale et environnemental, sécurité sanitaire des aliments…).",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["DDPP", "protection des populations", "interministériel"]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans un département du littoral, comment se nomme la direction chargée de l'aménagement des territoires lorsqu'elle intègre les affaires maritimes ?",
+      "options": [
+        "La direction départementale des territoires et de la mer",
+        "La direction départementale de la protection des populations",
+        "La direction régionale des affaires maritimes",
+        "La direction départementale de la sécurité publique"
+      ],
+      "answer": 0,
+      "explanation": "Dans les départements du littoral, les affaires maritimes s'ajoutent et la direction prend le nom de direction départementale des territoires et de la mer.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_024",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "Dans les départements du littoral, s'y ajoutent les affaires maritimes et la direction prend le nom de direction départementale des territoires et de la mer.",
+      "sourceContext": "Dans les départements du littoral, s'y ajoutent les affaires maritimes et la direction prend le nom de direction départementale des territoires et de la mer.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["DDTM", "littoral", "affaires maritimes"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "De quelle nature est l'échelon de l'arrondissement et qui se trouve à sa tête ?",
+      "options": [
+        "Un échelon spécialisé dans l'administration de proximité, à la tête duquel se trouvent les sous-préfets",
+        "Un échelon de coordination régionale dirigé par le préfet de région",
+        "Une circonscription purement électorale sans représentant de l'État",
+        "Un échelon de défense dirigé par le préfet de zone"
+      ],
+      "answer": 0,
+      "explanation": "L'arrondissement est un échelon spécialisé dans l'administration de proximité, à la tête duquel se trouvent les sous-préfets.",
+      "id": "env__02-organisation-administrative-etat__2_2_1__opus_025",
+      "sectionTitle": "Les différents niveaux des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_1",
+      "sourceText": "L'arrondissement est un échelon spécialisé dans l'administration de proximité, à la tête duquel se trouvent les sous-préfets.",
+      "sourceContext": "L'arrondissement est un échelon spécialisé dans l'administration de proximité, à la tête duquel se trouvent les sous-préfets.",
+      "sectionId": "02-organisation-administrative-etat__2_2_1",
+      "keywords": ["arrondissement", "administration de proximité", "sous-préfets"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qu'est-ce qui caractérise le statut du corps préfectoral par rapport au droit commun de la fonction publique ?",
+      "options": [
+        "Il est dérogatoire, notamment sur le plan du recrutement et du déroulement de carrière",
+        "Il est strictement identique à celui des autres fonctionnaires de l'État",
+        "Il relève exclusivement de la fonction publique territoriale",
+        "Il est régi par un contrat de droit privé renouvelable"
+      ],
+      "answer": 0,
+      "explanation": "Le statut du corps préfectoral est particulier car dérogatoire du droit commun de la fonction publique, notamment quant au recrutement et au déroulement de carrière.",
+      "id": "env__02-organisation-administrative-etat__2_2_2__opus_026",
+      "sectionTitle": "Le préfet, représentant des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_2",
+      "sourceText": "Le pilotage des services déconcentrés de l'État est confié aux membres du corps préfectoral qui constitue un corps de fonctionnaires dont le statut est particulier en ce qu'il est dérogatoire du droit commun de la fonction publique, notamment sur le plan du recrutement, ainsi que du déroulement de leur carrière.",
+      "sourceContext": "Le pilotage des services déconcentrés de l'État est confié aux membres du corps préfectoral qui constitue un corps de fonctionnaires dont le statut est particulier en ce qu'il est dérogatoire du droit commun de la fonction publique, notamment sur le plan du recrutement, ainsi que du déroulement de leur carrière.",
+      "sectionId": "02-organisation-administrative-etat__2_2_2",
+      "keywords": ["corps préfectoral", "statut dérogatoire", "fonction publique"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Comment les préfets sont-ils nommés ?",
+      "options": [
+        "Par décret du président de la République en Conseil des ministres, sur proposition du Premier ministre et du ministre de l'Intérieur",
+        "Par arrêté du seul ministre de l'Intérieur après concours",
+        "Par élection des conseillers départementaux du ressort",
+        "Par décision du Conseil d'État sur liste d'aptitude"
+      ],
+      "answer": 0,
+      "explanation": "Les préfets sont nommés par décret du président de la République en Conseil des ministres, sur proposition du Premier ministre et du ministre chargé de l'Intérieur.",
+      "id": "env__02-organisation-administrative-etat__2_2_2__opus_027",
+      "sectionTitle": "Le préfet, représentant des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_2",
+      "sourceText": "Ils sont nommés par décret du président de la République en Conseil des ministres, sur la proposition du Premier ministre et du ministre chargé de l'Intérieur.",
+      "sourceContext": "Ils sont nommés par décret du président de la République en Conseil des ministres, sur la proposition du Premier ministre et du ministre chargé de l'Intérieur.",
+      "sectionId": "02-organisation-administrative-etat__2_2_2",
+      "keywords": ["préfets", "nomination", "Conseil des ministres"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment les sanctions disciplinaires sont-elles prises à l'encontre des membres du corps préfectoral ?",
+      "options": [
+        "Directement par le ministre de l'Intérieur, sans l'intervention d'un conseil de discipline",
+        "Par un conseil de discipline paritaire comme dans la fonction publique",
+        "Par le Conseil d'État statuant au contentieux",
+        "Par le préfet de région sur proposition du sous-préfet"
+      ],
+      "answer": 0,
+      "explanation": "Les sanctions disciplinaires sont prises directement par le ministre de l'Intérieur sans l'intervention d'un conseil de discipline.",
+      "id": "env__02-organisation-administrative-etat__2_2_2__opus_028",
+      "sectionTitle": "Le préfet, représentant des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_2",
+      "sourceText": "Les sanctions disciplinaires sont prises directement par le ministre de l'Intérieur sans l'intervention d'un conseil de discipline comme c'est la règle dans la fonction publique.",
+      "sourceContext": "Les sanctions disciplinaires sont prises directement par le ministre de l'Intérieur sans l'intervention d'un conseil de discipline comme c'est la règle dans la fonction publique.",
+      "sectionId": "02-organisation-administrative-etat__2_2_2",
+      "keywords": ["sanctions disciplinaires", "ministre de l'Intérieur", "corps préfectoral"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un préfet de département reçoit une instruction du préfet de région sur une politique publique ; comment doit-il prendre ses décisions ?",
+      "options": [
+        "Conformément aux instructions que lui adresse le préfet de région",
+        "En toute indépendance, sans tenir compte du préfet de région",
+        "Après avis conforme du conseil départemental",
+        "Sur autorisation préalable du ministre concerné"
+      ],
+      "answer": 0,
+      "explanation": "Le préfet de région ayant autorité sur les préfets de département, ces derniers prennent leurs décisions conformément aux instructions qu'il leur adresse.",
+      "id": "env__02-organisation-administrative-etat__2_2_2__opus_029",
+      "sectionTitle": "Le préfet, représentant des services déconcentrés de l'État",
+      "sourceLink": "#section-02-organisation-administrative-etat__2_2_2",
+      "sourceText": "Les préfets de département prennent leurs décisions conformément aux instructions que leur adresse le préfet de région.",
+      "sourceContext": "Les préfets de département prennent leurs décisions conformément aux instructions que leur adresse le préfet de région.",
+      "sectionId": "02-organisation-administrative-etat__2_2_2",
+      "keywords": ["préfet de département", "instructions", "préfet de région"]
+    }
+  ]
+}

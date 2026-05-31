@@ -41,3 +41,4 @@ next-env.d.ts
 # Legacy / imports temporaires
 _legacy/
 quiz-attache-territorial-3-Emergent/
+.vercel

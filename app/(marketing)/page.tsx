@@ -1,276 +1,144 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, CheckCircle2, FileText, BarChart3, Target, ShieldCheck } from "lucide-react";
+import { ArrowRight, Landmark, Building2, LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "./header";
 import { Footer } from "./footer";
+import { MorphingAccent } from "./morphing-accent";
 import { GuestButton } from "./guest-button";
+import { getMarketingStats } from "@/db/queries";
 
-const STATS = [
-  { value: "400+", label: "Questions QCM" },
-  { value: "18", label: "Documents officiels" },
-  { value: "2", label: "Matières au programme" },
-  { value: "100%", label: "Sources référencées" },
-] as const;
+const MATIERE_ICONS: Record<string, LucideIcon> = {
+  environnement_territorial: Landmark,
+  urbanisme: Building2,
+};
 
-const MATIERES = [
-  {
-    emoji: "🏛️",
-    title: "Environnement Territorial",
-    badge: "5 sous-thèmes",
-    topics: [
-      "Organisation de l'État",
-      "Grandes étapes de la décentralisation",
-      "Collectivités territoriales",
-      "Organisation juridictionnelle",
-      "Principes constitutionnels",
-    ],
-  },
-  {
-    emoji: "🏗️",
-    title: "Urbanisme",
-    badge: "13 sous-thèmes",
-    topics: [
-      "Plan Local d'Urbanisme (PLU)",
-      "Schéma de Cohérence Territoriale",
-      "Permis de construire",
-      "Loi Littoral & Loi Montagne",
-      "Contentieux de l'urbanisme",
-    ],
-  },
-] as const;
+export default async function MarketingPage() {
+  const stats = await getMarketingStats();
+  const dynamicStats = [
+    {
+      value: stats.totalQuestions >= 400 ? `${Math.floor(stats.totalQuestions / 100) * 100}+` : String(stats.totalQuestions),
+      label: "questions",
+    },
+    { value: String(stats.totalDocs), label: "docs officiels" },
+    { value: String(stats.totalMatieres), label: "matières" },
+    { value: "100%", label: "gratuit" },
+  ];
 
-const STEPS = [
-  {
-    number: "01",
-    title: "Choisissez une matière",
-    description:
-      "Sélectionnez votre matière et le sous-thème à travailler selon vos points faibles.",
-  },
-  {
-    number: "02",
-    title: "Répondez aux QCM",
-    description:
-      "Questions de niveau expert — pièges, nuances, exceptions, jurisprudences. Conçues pour le niveau concours.",
-  },
-  {
-    number: "03",
-    title: "Consultez la source",
-    description:
-      "Chaque réponse renvoie vers l'extrait exact du document officiel pour ancrer la connaissance.",
-  },
-] as const;
-
-const FEATURES = [
-  {
-    Icon: Target,
-    title: "Questions d'expert",
-    description:
-      "Générées par IA à partir des textes officiels. Niveau Master 2 — pièges, nuances et exceptions inclus.",
-  },
-  {
-    Icon: FileText,
-    title: "Sources PDF incluses",
-    description:
-      "Chaque question est liée à l'extrait du document officiel. Apprenez dans le contexte réel du concours.",
-  },
-  {
-    Icon: BarChart3,
-    title: "Suivi de progression",
-    description:
-      "Progression suivie par sous-thème. Identifiez vos points faibles et ciblez vos révisions.",
-  },
-  {
-    Icon: ShieldCheck,
-    title: "Mode challenge",
-    description:
-      "5 cœurs disponibles. Chaque erreur coûte un cœur — la pression d'un vrai examen.",
-  },
-] as const;
-
-export default function MarketingPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-cream">
       <Header />
 
       <main className="flex-1">
-        {/* ── Hero ── */}
-        <section className="border-b border-slate-100 px-6 py-20 md:py-28">
-          <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-1.5 text-xs font-medium text-slate-500">
-              <span className="h-1.5 w-1.5 rounded-full bg-blue-900" />
-              Concours Attaché Territorial · Session 2026
-            </div>
 
-            <h1 className="mb-5 text-4xl font-bold leading-tight tracking-tight text-slate-900 md:text-5xl md:leading-[1.15]">
-              Préparez le concours
-              <br />
-              <span className="text-blue-900">avec les bons outils.</span>
-            </h1>
+        {/* ── HERO (plein écran, hero-only 2 colonnes) ──────────── */}
+        <section className="relative flex min-h-[calc(100dvh-56px)] items-center overflow-hidden px-6 py-10">
+          {/* Texture dot-grid */}
+          <div
+            className="pointer-events-none absolute right-0 top-0 h-full w-2/3 opacity-[0.03]"
+            style={{
+              backgroundImage: "radial-gradient(circle at 1px 1px, #1F1D1B 1px, transparent 0)",
+              backgroundSize: "20px 20px",
+            }}
+          />
 
-            <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-slate-500 md:text-lg">
-              400+ QCM d'expert générées à partir des textes officiels.
-              <br className="hidden md:block" />
-              Sources PDF référencées pour chaque réponse.
-            </p>
+          <div className="mx-auto w-full max-w-5xl">
+            <div className="grid items-center gap-10 md:grid-cols-[1fr_300px] lg:grid-cols-[1fr_340px]">
 
-            <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Link href="/sign-up">
-                <Button variant="primary" size="lg" className="min-w-[220px]">
-                  Commencer gratuitement
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-              <Link href="/sign-in">
-                <Button variant="primaryOutline" size="lg" className="min-w-[180px]">
-                  J'ai déjà un compte
-                </Button>
-              </Link>
-            </div>
-            <p className="mt-4 text-xs text-slate-400">
-              Ou commencez directement —{" "}
-              <span className="text-slate-500">aucune inscription requise</span>
-            </p>
-          </div>
-        </section>
+              {/* ── Colonne gauche : texte + CTAs ── */}
+              <div>
+                {/* Titre */}
+                <h1 className="anim-fade-up font-display font-black leading-[0.9] tracking-tight text-ink text-[2.8rem] md:text-[4.5rem] lg:text-[5.5rem]">
+                  Préparez votre<br /><span className="text-coral-500">concours,</span>
+                </h1>
 
-        {/* ── Stats ── */}
-        <section className="border-b border-slate-100 bg-slate-50 px-6 py-10">
-          <div className="mx-auto max-w-3xl">
-            <dl className="grid grid-cols-2 gap-8 md:grid-cols-4">
-              {STATS.map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <dt className="text-3xl font-bold tracking-tight text-slate-900">
-                    {stat.value}
-                  </dt>
-                  <dd className="mt-1 text-xs text-slate-500">{stat.label}</dd>
+                {/* Hook corail + morphing */}
+                <div className="anim-fade-up anim-delay-1 mt-4 flex items-center gap-4">
+                  <div className="h-[3px] w-12 shrink-0 rounded-full bg-coral-500" />
+                  <MorphingAccent />
                 </div>
-              ))}
-            </dl>
-          </div>
-        </section>
 
-        {/* ── Matières ── */}
-        <section className="px-6 py-16">
-          <div className="mx-auto max-w-3xl">
-            <p className="mb-2 text-center text-xs font-semibold uppercase tracking-widest text-slate-400">
-              Programme
-            </p>
-            <h2 className="mb-10 text-center text-2xl font-bold text-slate-900">
-              2 matières couvertes intégralement
-            </h2>
-            <div className="grid gap-4 md:grid-cols-2">
-              {MATIERES.map((matiere) => (
-                <div
-                  key={matiere.title}
-                  className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm"
-                >
-                  <div className="mb-4 flex items-start justify-between">
-                    <span className="text-2xl">{matiere.emoji}</span>
-                    <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
-                      {matiere.badge}
-                    </span>
-                  </div>
-                  <h3 className="mb-4 text-base font-semibold text-slate-900">
-                    {matiere.title}
-                  </h3>
-                  <ul className="space-y-2">
-                    {matiere.topics.map((topic) => (
-                      <li key={topic} className="flex items-center gap-2 text-sm text-slate-500">
-                        <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-blue-900" />
-                        {topic}
-                      </li>
+                {/* Sous-titre */}
+                <p className="anim-fade-up anim-delay-2 mt-6 max-w-md text-sm leading-relaxed text-ink/55 md:text-base">
+                  {stats.totalQuestions}+ QCM générées à partir des textes officiels.
+                  Chaque réponse cite sa source.
+                </p>
+
+                {/* CTAs */}
+                <div className="anim-fade-up anim-delay-3 mt-6 flex flex-wrap gap-3">
+                  <Link href="/sign-up">
+                    <Button variant="primary" size="lg" className="min-w-[200px]">
+                      Commencer gratuitement
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                  <Link href="/sign-in">
+                    <Button variant="primaryOutline" size="lg">
+                      J'ai déjà un compte
+                    </Button>
+                  </Link>
+                  <GuestButton />
+                </div>
+
+                {/* Stats mobile (sous CTAs) */}
+                <div className="anim-fade-up anim-delay-4 mt-8 flex flex-wrap gap-x-8 gap-y-4 border-t border-ink/8 pt-6 md:hidden">
+                  {dynamicStats.map((s) => (
+                    <div key={s.label}>
+                      <div className="font-display text-2xl font-black text-ink">{s.value}</div>
+                      <div className="text-[10px] font-semibold uppercase tracking-wider text-ink/35">{s.label}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* ── Colonne droite : panneau info ── */}
+              <div className="anim-fade-up anim-delay-2 hidden md:block">
+                <div className="rounded-2xl border border-ink/8 bg-white p-5 shadow-soft">
+
+                  {/* Stats 2×2 */}
+                  <div className="mb-4 grid grid-cols-2 gap-2">
+                    {dynamicStats.map((s) => (
+                      <div key={s.label} className="group relative cursor-default overflow-hidden rounded-xl bg-cream px-4 py-3 transition-shadow duration-200 hover:shadow-sm">
+                        <div className="absolute inset-0 origin-bottom scale-y-0 bg-coral-50 transition-transform duration-300 ease-out group-hover:scale-y-100" />
+                        <div className="relative font-display text-2xl font-black text-ink transition-colors duration-300 group-hover:text-coral-500">{s.value}</div>
+                        <div className="relative mt-0.5 text-[10px] font-semibold uppercase tracking-wider text-ink/40 transition-colors duration-300 group-hover:text-coral-400">
+                          {s.label}
+                        </div>
+                      </div>
                     ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+                  </div>
 
-        {/* ── Comment ça marche ── */}
-        <section className="border-y border-slate-100 bg-slate-50 px-6 py-16">
-          <div className="mx-auto max-w-3xl">
-            <p className="mb-2 text-center text-xs font-semibold uppercase tracking-widest text-slate-400">
-              Méthode
-            </p>
-            <h2 className="mb-10 text-center text-2xl font-bold text-slate-900">
-              Simple. Exigeant. Efficace.
-            </h2>
-            <div className="grid gap-8 md:grid-cols-3">
-              {STEPS.map((step) => (
-                <div key={step.number}>
-                  <span className="mb-3 block text-4xl font-black text-slate-200">
-                    {step.number}
-                  </span>
-                  <h3 className="mb-2 text-sm font-semibold text-slate-900">
-                    {step.title}
-                  </h3>
-                  <p className="text-sm leading-relaxed text-slate-500">
-                    {step.description}
+                  {/* Aperçu programme */}
+                  <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-coral-500">
+                    Programme
                   </p>
+                  <div className="space-y-2">
+                    {stats.themes.map((theme) => {
+                      const Icon = MATIERE_ICONS[theme.matiere] ?? Landmark;
+                      return (
+                        <div
+                          key={theme.id}
+                          className="group flex cursor-default items-center gap-3 rounded-xl border border-ink/6 bg-cream/60 px-3 py-2.5 transition-all duration-200 hover:border-coral-200 hover:bg-coral-50/50"
+                        >
+                          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-coral-50 text-coral-500 transition-transform duration-200 group-hover:rotate-6 group-hover:scale-110">
+                            <Icon className="h-4 w-4" strokeWidth={1.75} />
+                          </span>
+                          <div>
+                            <div className="text-xs font-semibold text-ink">{theme.title}</div>
+                            <div className="text-[10px] text-ink/40">
+                              {theme.chapitreCount} chapitres · {theme.questionCount} questions
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
-              ))}
+              </div>
+
             </div>
           </div>
         </section>
 
-        {/* ── Fonctionnalités ── */}
-        <section className="px-6 py-16">
-          <div className="mx-auto max-w-3xl">
-            <p className="mb-2 text-center text-xs font-semibold uppercase tracking-widest text-slate-400">
-              Fonctionnalités
-            </p>
-            <h2 className="mb-10 text-center text-2xl font-bold text-slate-900">
-              Conçu pour les candidats sérieux
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {FEATURES.map(({ Icon, title, description }) => (
-                <div
-                  key={title}
-                  className="flex gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
-                >
-                  <div className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-slate-100">
-                    <Icon className="h-4 w-4 text-blue-900" />
-                  </div>
-                  <div>
-                    <h3 className="mb-1 text-sm font-semibold text-slate-900">
-                      {title}
-                    </h3>
-                    <p className="text-xs leading-relaxed text-slate-500">
-                      {description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ── CTA final ── */}
-        <section className="bg-slate-900 px-6 py-16">
-          <div className="mx-auto max-w-lg text-center">
-            <BookOpen className="mx-auto mb-4 h-8 w-8 text-slate-500" />
-            <h2 className="mb-2 text-2xl font-bold text-white">
-              Commencez maintenant.
-            </h2>
-            <p className="mb-8 text-sm text-slate-400">
-              Gratuit. Aucune carte de crédit requise.
-            </p>
-            <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Link href="/sign-up">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="min-w-[220px] bg-white text-slate-900 hover:bg-slate-100 shadow-none"
-                >
-                  Créer un compte gratuit
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-              <GuestButton />
-            </div>
-          </div>
-        </section>
       </main>
 
       <Footer />

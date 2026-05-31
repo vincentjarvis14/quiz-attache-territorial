@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 import tailwindAnimate from "tailwindcss-animate";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -22,6 +23,21 @@ const config = {
     },
     extend: {
       colors: {
+        cream: "#FBF1E7",
+        ink: "#1F1D1B",
+        coral: {
+          DEFAULT: "#E85C51",
+          50: "#FDEDEB",
+          100: "#FBD9D5",
+          500: "#E85C51",
+          600: "#D94E43",
+          700: "#BC3E34",
+        },
+        moss: {
+          50: "#EAF1EA",
+          500: "#3F7D5C",
+          700: "#2C5A41",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,7 +73,8 @@ const config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...fontFamily.sans],
+        display: ["var(--font-display)", ...fontFamily.serif],
+        sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -1,0 +1,650 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Que devient, avec la loi du 2 mars 1982, l'établissement public régional créé en 1972 ?",
+      "options": [
+        "Une collectivité territoriale : la région",
+        "Un simple service déconcentré de l'État",
+        "Un établissement public de coopération intercommunale",
+        "Une chambre régionale des comptes"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 2 mars 1982 transforme l'établissement public régional créé en 1972 en collectivité territoriale : la région.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_001",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "Les points forts de la loi sont les suivants : l’établissement public régional crée en 1972 devient une collectivité territoriale : la région ; le préfet arrête d’être l’exécutif de la collectivité territoriale départementale et de la région ; les tutelles administratives, financières et techniques exercées sur les collectivités territoriales sont supprimées et elles sont remplacées par des contrôles juridictionnalisés exercés par des organes chargés de dire le droit, ces contrôles sont confiés aux tribunaux administratifs et aux nouvelles chambres régionales des comptes.",
+      "sourceContext": "Les points forts de la loi sont les suivants : l’établissement public régional crée en 1972 devient une collectivité territoriale : la région ; le préfet arrête d’être l’exécutif de la collectivité territoriale départementale et de la région ; les tutelles administratives, financières et techniques exercées sur les collectivités territoriales sont supprimées et elles sont remplacées par des contrôles juridictionnalisés exercés par des organes chargés de dire le droit, ces contrôles sont confiés aux tribunaux administratifs et aux nouvelles chambres régionales des comptes.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["acte I", "région", "collectivité territoriale"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Par quoi la loi du 2 mars 1982 remplace-t-elle les tutelles administratives, financières et techniques sur les collectivités territoriales ?",
+      "options": [
+        "Par des contrôles juridictionnalisés exercés par des organes chargés de dire le droit",
+        "Par un contrôle hiérarchique renforcé du préfet",
+        "Par un avis conforme du ministre de l'Intérieur",
+        "Par un contrôle a priori de la Cour des comptes"
+      ],
+      "answer": 0,
+      "explanation": "Les tutelles sont remplacées par des contrôles juridictionnalisés exercés par des organes chargés de dire le droit.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_002",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "les tutelles administratives, financières et techniques exercées sur les collectivités territoriales sont supprimées et elles sont remplacées par des contrôles juridictionnalisés exercés par des organes chargés de dire le droit, ces contrôles sont confiés aux tribunaux administratifs et aux nouvelles chambres régionales des comptes.",
+      "sourceContext": "les tutelles administratives, financières et techniques exercées sur les collectivités territoriales sont supprimées et elles sont remplacées par des contrôles juridictionnalisés exercés par des organes chargés de dire le droit, ces contrôles sont confiés aux tribunaux administratifs et aux nouvelles chambres régionales des comptes.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["tutelles", "contrôle de légalité", "chambres régionales des comptes"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la nature du contrôle exercé sur les collectivités après la loi du 2 mars 1982 ?",
+      "options": [
+        "Un contrôle de légalité, et non d'opportunité",
+        "Un contrôle d'opportunité, et non de légalité",
+        "Un contrôle financier exclusivement",
+        "Un contrôle de pure forme sans portée juridique"
+      ],
+      "answer": 0,
+      "explanation": "Le contrôle exercé n'est pas d'opportunité mais de légalité.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_003",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "Le contrôle exercé ne sera pas d’opportunité mais de légalité.",
+      "sourceContext": "Le contrôle exercé ne sera pas d’opportunité mais de légalité.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["contrôle de légalité", "acte I", "préfet"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un conseil régional doit organiser la construction et l'entretien d'un établissement scolaire. Quel type d'établissement relève de sa compétence selon les lois de répartition de 1983 ?",
+      "options": [
+        "Les lycées",
+        "Les collèges",
+        "Les écoles primaires",
+        "Les universités"
+      ],
+      "answer": 0,
+      "explanation": "Aux régions sont transférés la construction, l'aménagement et l'entretien des lycées.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_004",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "Aux régions sont transférés l’apprentissage ; la formation professionnelle ; la construction, l’aménagement et l’entretien des lycées.",
+      "sourceContext": "Aux régions sont transférés l’apprentissage ; la formation professionnelle ; la construction, l’aménagement et l’entretien des lycées.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["répartition des compétences", "régions", "lycées"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une famille demande l'organisation du transport scolaire de ses enfants. Quelle collectivité en a la charge selon les lois de répartition de 1983 ?",
+      "options": [
+        "Le département",
+        "La région",
+        "La commune",
+        "L'État"
+      ],
+      "answer": 0,
+      "explanation": "Aux départements sont confiés notamment les transports scolaires.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_005",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "Aux départements sont confiés les archives ; les bibliothèques départementales de prêts ; les transports scolaires ; la construction, l’aménagement et l’entretien des collèges.",
+      "sourceContext": "Aux départements sont confiés les archives ; les bibliothèques départementales de prêts ; les transports scolaires ; la construction, l’aménagement et l’entretien des collèges.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["département", "transports scolaires", "collèges"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel changement de système la loi du 26 janvier 1984 sur le statut de la fonction publique territoriale opère-t-elle pour les agents locaux ?",
+      "options": [
+        "Elle substitue le système de la carrière au système de l'emploi",
+        "Elle substitue le système de l'emploi au système de la carrière",
+        "Elle place tous les agents sous statut de droit privé",
+        "Elle aligne les agents locaux sur le statut des contractuels de l'État"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 26 janvier 1984 substitue pour les agents locaux le système de la carrière au système de l'emploi.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_006",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "La loi du 26 janvier 1984 sur le statut de la fonction publique territoriale substitue pour les agents locaux le système de la carrière au système de l’emploi : intégrés dans le grade d’un cadre d’emplois, les fonctionnaires territoriaux peuvent avoir accès aux emplois auxquels ils ont vocation, dans les collectivités et établissements publics.",
+      "sourceContext": "La loi du 26 janvier 1984 sur le statut de la fonction publique territoriale substitue pour les agents locaux le système de la carrière au système de l’emploi : intégrés dans le grade d’un cadre d’emplois, les fonctionnaires territoriaux peuvent avoir accès aux emplois auxquels ils ont vocation, dans les collectivités et établissements publics.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["fonction publique territoriale", "carrière", "cadre d'emplois"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles structures de coopération intercommunale la loi relative à l'administration territoriale de la République crée-t-elle ?",
+      "options": [
+        "Les communautés de communes et les communautés de villes",
+        "Les communautés urbaines et les métropoles",
+        "Les districts et les syndicats de communes",
+        "Les pôles métropolitains et les communautés d'agglomération"
+      ],
+      "answer": 0,
+      "explanation": "Cette loi relance la coopération intercommunale par la création des communautés de communes et des communautés de villes.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_007",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "relance la coopération intercommunale (création des communautés de communes et des communautés de villes) et renforce les droits des élus au sein des assemblées locales.",
+      "sourceContext": "relance la coopération intercommunale (création des communautés de communes et des communautés de villes) et renforce les droits des élus au sein des assemblées locales.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["intercommunalité", "communautés de communes", "communautés de villes"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le décret portant charte de la déconcentration, quel principe devient la règle générale de répartition des attributions et des moyens entre les échelons des administrations civiles de l'État ?",
+      "options": [
+        "La déconcentration",
+        "La décentralisation",
+        "La subsidiarité",
+        "La centralisation"
+      ],
+      "answer": 0,
+      "explanation": "Avec la charte de la déconcentration, la déconcentration devient la règle générale de répartition des attributions et des moyens entre les échelons de l'État.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_008",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "La déconcentration devient la règle générale de répartition des attributions et des moyens entre les différents échelons des administrations civiles de l’Etat.",
+      "sourceContext": "La déconcentration devient la règle générale de répartition des attributions et des moyens entre les différents échelons des administrations civiles de l’Etat.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["déconcentration", "charte", "administration de l'État"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles trois structures intercommunales la loi du 12 juillet 1999 met-elle en place, en remplacement des communautés de villes et des districts ?",
+      "options": [
+        "La communauté urbaine, la communauté d'agglomération et la communauté de communes",
+        "Le syndicat mixte, le district et la communauté de villes",
+        "La métropole, le pôle métropolitain et la communauté urbaine",
+        "La commune nouvelle, la métropole et la communauté de communes"
+      ],
+      "answer": 0,
+      "explanation": "Les communautés de villes et les districts disparaissent au profit de trois structures : la communauté urbaine, la communauté d'agglomération et la communauté de communes.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_009",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "les communautés de villes et les districts sont appelés à disparaître au profit de trois structures : la communauté urbaine, la communauté d’agglomération et la communauté de communes.",
+      "sourceContext": "les communautés de villes et les districts sont appelés à disparaître au profit de trois structures : la communauté urbaine, la communauté d’agglomération et la communauté de communes.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["loi de 1999", "intercommunalité", "communauté d'agglomération"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelles caractéristiques communes la loi du 12 juillet 1999 impose-t-elle aux trois nouvelles structures intercommunales ?",
+      "options": [
+        "Une fiscalité propre, être sans enclave et d'un seul tenant",
+        "Une absence de fiscalité propre et un territoire discontinu autorisé",
+        "Un financement intégral par dotation de l'État",
+        "Une libre adhésion révocable à tout moment par chaque commune"
+      ],
+      "answer": 0,
+      "explanation": "Ces trois structures sont dotées d'une fiscalité propre, doivent être sans enclave et d'un seul tenant.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_010",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "Ces trois structures sont dotées d’une fiscalité propre, doivent être sans enclave et d’un seul tenant et ont des règles de fonctionnement communes.",
+      "sourceContext": "Ces trois structures sont dotées d’une fiscalité propre, doivent être sans enclave et d’un seul tenant et ont des règles de fonctionnement communes.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["fiscalité propre", "sans enclave", "d'un seul tenant"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel objectif la loi du 27 février relative à la démocratie de proximité poursuit-elle ?",
+      "options": [
+        "Mieux associer les citoyens aux décisions locales en renforçant la démocratie participative",
+        "Supprimer les contrôles juridictionnels sur les collectivités",
+        "Centraliser les compétences au profit de l'État",
+        "Restreindre les droits de l'opposition au sein des assemblées"
+      ],
+      "answer": 0,
+      "explanation": "Cette loi permet une meilleure association des citoyens aux décisions locales en renforçant la démocratie participative et les droits de l'opposition.",
+      "id": "env__03-grandes-etapes-decentralisation__1__opus_011",
+      "sectionTitle": "L’acte I de la décentralisation : 1982 / 2003",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__1",
+      "sourceText": "La loi du 27 février relative à la démocratie de proximité permet une meilleure association des citoyens aux décisions locales en renforçant la démocratie participative et les droits de l’opposition au sein des assemblées délibérantes ; elle améliore aussi les conditions d’accès aux mandats locaux et leurs conditions d’exercice.",
+      "sourceContext": "La loi du 27 février relative à la démocratie de proximité permet une meilleure association des citoyens aux décisions locales en renforçant la démocratie participative et les droits de l’opposition au sein des assemblées délibérantes ; elle améliore aussi les conditions d’accès aux mandats locaux et leurs conditions d’exercice.",
+      "sectionId": "03-grandes-etapes-decentralisation__1",
+      "keywords": ["démocratie de proximité", "démocratie participative", "opposition"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelle formule la loi constitutionnelle du 28 mars 2003 inscrit-elle dans la Constitution à propos de l'organisation de la France ?",
+      "options": [
+        "« la France a une organisation décentralisée »",
+        "« la France est une République indivisible »",
+        "« la France garantit l'autonomie totale des collectivités »",
+        "« la France est un État fédéral »"
+      ],
+      "answer": 0,
+      "explanation": "La loi constitutionnelle du 28 mars 2003 met en place une nouvelle architecture des pouvoirs : « la France a une organisation décentralisée ».",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_012",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "La loi constitutionnelle du 28 mars 2003 donne une assise constitutionnelle à la décentralisation et aux collectivités territoriales et met en place une nouvelle architecture des pouvoirs : « la France a une organisation décentralisée ».",
+      "sourceContext": "La loi constitutionnelle du 28 mars 2003 donne une assise constitutionnelle à la décentralisation et aux collectivités territoriales et met en place une nouvelle architecture des pouvoirs : « la France a une organisation décentralisée ».",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["acte II", "loi constitutionnelle 2003", "organisation décentralisée"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle règle, acquérant valeur constitutionnelle en 2003, encadre les rapports entre collectivités territoriales ?",
+      "options": [
+        "Aucune collectivité territoriale ne peut exercer de tutelle sur une autre",
+        "La région exerce une tutelle de droit sur les départements",
+        "Le département exerce une tutelle financière sur les communes",
+        "L'État conserve une tutelle générale sur toutes les collectivités"
+      ],
+      "answer": 0,
+      "explanation": "Acquiert valeur constitutionnelle la règle selon laquelle aucune collectivité territoriale ne peut exercer de tutelle sur une autre.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_013",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "acquière valeur constitutionnelle la règle selon laquelle « aucune collectivité territoriale ne peut exercer de tutelle sur une autre ».",
+      "sourceContext": "acquière valeur constitutionnelle la règle selon laquelle « aucune collectivité territoriale ne peut exercer de tutelle sur une autre ».",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["absence de tutelle", "collectivités", "valeur constitutionnelle"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment la notion de « chef de file » est-elle définie dans le cadre de la réforme de 2003 ?",
+      "options": [
+        "Lorsqu'une compétence nécessite le concours de plusieurs collectivités, la loi peut autoriser l'une d'elles à organiser les modalités de leurs actions communes",
+        "Le chef de file exerce une tutelle hiérarchique sur les autres collectivités associées",
+        "Le chef de file est toujours désigné par le préfet de région",
+        "Le chef de file dispose d'un droit de veto sur les décisions des autres collectivités"
+      ],
+      "answer": 0,
+      "explanation": "Lorsque l'exercice d'une compétence nécessite le concours de plusieurs collectivités, la loi peut autoriser l'une d'elles à organiser les modalités de leurs actions communes.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_014",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "cependant, lorsque l’exercice d’une compétence nécessite le concours de plusieurs collectivités territoriales, la loi peut autoriser l’une d’entre elles et de leurs groupements à organiser les modalités de leurs actions communes ».",
+      "sourceContext": "cependant, lorsque l’exercice d’une compétence nécessite le concours de plusieurs collectivités territoriales, la loi peut autoriser l’une d’entre elles et de leurs groupements à organiser les modalités de leurs actions communes ».",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["chef de file", "actions communes", "compétence partagée"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En quoi consiste le droit à expérimentation reconnu aux collectivités territoriales par la réforme de 2003 ?",
+      "options": [
+        "Déroger, à titre expérimental et pour un objet et une durée limités, aux dispositions régissant l'exercice de leurs compétences",
+        "Créer librement de nouveaux impôts sans encadrement législatif",
+        "Modifier de façon permanente les lois nationales sur leur territoire",
+        "S'affranchir définitivement du contrôle de légalité du préfet"
+      ],
+      "answer": 0,
+      "explanation": "Les collectivités peuvent déroger, à titre expérimental et pour un objet et une durée limités, aux dispositions qui régissent l'exercice de leurs compétences.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_015",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "les collectivités territoriales ou leurs groupements peuvent, lorsque, selon le cas, la loi ou le règlement l'a prévu, déroger, à titre expérimental et pour un objet et une durée limités, aux dispositions législatives ou réglementaires qui régissent l'exercice de leurs compétences ».",
+      "sourceContext": "les collectivités territoriales ou leurs groupements peuvent, lorsque, selon le cas, la loi ou le règlement l'a prévu, déroger, à titre expérimental et pour un objet et une durée limités, aux dispositions législatives ou réglementaires qui régissent l'exercice de leurs compétences ».",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["droit à expérimentation", "dérogation", "compétences"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon le principe d'autonomie financière reconnu en 2003, qu'implique tout transfert de compétences entre l'État et les collectivités territoriales ?",
+      "options": [
+        "L'attribution de ressources équivalentes à celles qui étaient consacrées à leur exercice",
+        "Une réduction proportionnelle des dotations de l'État",
+        "Une compensation versée uniquement à la demande de la collectivité",
+        "Une prise en charge intégrale par l'emprunt local"
+      ],
+      "answer": 0,
+      "explanation": "Tout transfert de compétences s'accompagne de l'attribution de ressources équivalentes à celles qui étaient consacrées à leur exercice.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_016",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "Tout transfert de compétences entre l'État et les collectivités territoriales s'accompagne de l'attribution de ressources équivalentes à celles qui étaient consacrées à leur exercice.",
+      "sourceContext": "Tout transfert de compétences entre l'État et les collectivités territoriales s'accompagne de l'attribution de ressources équivalentes à celles qui étaient consacrées à leur exercice.",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["autonomie financière", "transfert de compétences", "ressources équivalentes"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel droit la réforme de 2003 reconnaît-elle aux électeurs de chaque collectivité territoriale au titre de la participation populaire ?",
+      "options": [
+        "Un droit de pétition",
+        "Un droit de révocation des élus",
+        "Un droit de veto sur le budget",
+        "Un droit de dissolution de l'assemblée délibérante"
+      ],
+      "answer": 0,
+      "explanation": "Les électeurs de chaque collectivité territoriale bénéficient d'un droit de pétition.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_017",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "Participation populaire : les électeurs de chaque collectivité territoriale bénéficie d’un droit de pétition.",
+      "sourceContext": "Participation populaire : les électeurs de chaque collectivité territoriale bénéficie d’un droit de pétition.",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["participation populaire", "droit de pétition", "électeurs"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est l'objet de la loi du 13 août 2004 relative aux libertés et responsabilités locales ?",
+      "options": [
+        "Énumérer l'ensemble des compétences transférées par l'État aux collectivités territoriales",
+        "Créer la collectivité européenne d'Alsace",
+        "Instituer la conférence territoriale de l'action publique",
+        "Supprimer la clause de compétence générale du département"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 13 août 2004 énumère l'ensemble des compétences transférées par l'État aux collectivités territoriales.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_018",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "La loi énumère l’ensemble des compétences transférées par l’Etat aux collectivités territoriales.",
+      "sourceContext": "La loi énumère l’ensemble des compétences transférées par l’Etat aux collectivités territoriales.",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["libertés et responsabilités locales", "transferts de compétences", "loi de 2004"]
+    },
+    {
+      "bloom": "application",
+      "q": "Un maire souhaite confier au président de la communauté la gestion du stationnement sur le territoire intercommunal. Quel pouvoir l'y autorise depuis la loi du 13 août 2004 ?",
+      "options": [
+        "Le transfert de certains pouvoirs de police spéciale au président de la communauté",
+        "Le transfert de l'intégralité de ses pouvoirs de police générale",
+        "La délégation automatique au préfet",
+        "La cession définitive de ses compétences au conseil départemental"
+      ],
+      "answer": 0,
+      "explanation": "La loi permet aux maires de transférer au président de la communauté certains pouvoirs de police spéciale, comme le stationnement.",
+      "id": "env__03-grandes-etapes-decentralisation__2__opus_019",
+      "sectionTitle": "L’acte II de la décentralisation : 2003 / 2007",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2",
+      "sourceText": "La loi permet aussi aux maires de transférer au président de la communauté certains pouvoirs de police spéciale : circulation, stationnement, traitement des ordures ménagères, etc.",
+      "sourceContext": "La loi permet aussi aux maires de transférer au président de la communauté certains pouvoirs de police spéciale : circulation, stationnement, traitement des ordures ménagères, etc.",
+      "sectionId": "03-grandes-etapes-decentralisation__2",
+      "keywords": ["police spéciale", "président de communauté", "stationnement"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel rapport, remis par le comité présidé par Edouard Balladur, amorce l'acte III de la décentralisation ?",
+      "options": [
+        "« Il est temps de décider »",
+        "« Refonder l'action publique locale »",
+        "« Cohésion sociale et territoires »",
+        "« Pour une République territoriale »"
+      ],
+      "answer": 0,
+      "explanation": "Le comité pour la réforme des collectivités locales présidé par Edouard Balladur remet un rapport intitulé « Il est temps de décider ».",
+      "id": "env__03-grandes-etapes-decentralisation__3__opus_020",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__3",
+      "sourceText": "le président de la République met en place « un comité pour la réforme des collectivités locales » présidé par Edouard Balladur, ancien Premier ministre, celui-ci lui remet un rapport intitulé « Il est temps de décider ».",
+      "sourceContext": "le président de la République met en place « un comité pour la réforme des collectivités locales » présidé par Edouard Balladur, ancien Premier ministre, celui-ci lui remet un rapport intitulé « Il est temps de décider ».",
+      "sectionId": "03-grandes-etapes-decentralisation__3",
+      "keywords": ["acte III", "comité Balladur", "réforme des collectivités"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel nouveau dispositif la loi du 16 décembre 2010 met-elle en place pour réduire le nombre des communes ?",
+      "options": [
+        "La commune nouvelle",
+        "Le pôle métropolitain",
+        "La communauté de villes",
+        "La métropole de plein exercice"
+      ],
+      "answer": 0,
+      "explanation": "Pour réduire le nombre des communes, la loi de 2010 met en place un nouveau dispositif : la commune nouvelle.",
+      "id": "env__03-grandes-etapes-decentralisation__3__opus_021",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__3",
+      "sourceText": "Pour réduire le nombre des communes, est mis en place un nouveau dispositif : la commune nouvelle.",
+      "sourceContext": "Pour réduire le nombre des communes, est mis en place un nouveau dispositif : la commune nouvelle.",
+      "sectionId": "03-grandes-etapes-decentralisation__3",
+      "keywords": ["loi de 2010", "commune nouvelle", "réduction des communes"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Qu'advient-il du conseiller territorial créé par la loi du 16 décembre 2010 ?",
+      "options": [
+        "Il est supprimé par la loi du 17 mai 2013, l'article qui le créait étant abrogé",
+        "Il est confirmé et généralisé à toutes les régions",
+        "Il est transformé en conseiller communautaire",
+        "Il devient un élu désigné par le préfet"
+      ],
+      "answer": 0,
+      "explanation": "Le conseiller territorial créé par l'article 1er de la loi du 16 décembre 2010 est supprimé, l'article 1er étant abrogé.",
+      "id": "env__03-grandes-etapes-decentralisation__3__opus_022",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__3",
+      "sourceText": "Le conseiller territorial créée par l’article 1er de la loi du 16 décembre 2010 est supprimé, l’article 1er étant abrogé.",
+      "sourceContext": "Le conseiller territorial créée par l’article 1er de la loi du 16 décembre 2010 est supprimé, l’article 1er étant abrogé.",
+      "sectionId": "03-grandes-etapes-decentralisation__3",
+      "keywords": ["conseiller territorial", "loi de 2013", "abrogation"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon la loi du 17 mai 2013, comment les conseillers départementaux sont-ils élus dans chaque canton ?",
+      "options": [
+        "En binôme femme-homme, au scrutin majoritaire à deux tours",
+        "Au scrutin de liste proportionnel à un tour",
+        "Par les conseillers municipaux suivant l'ordre du tableau",
+        "Au suffrage indirect par un collège de grands électeurs"
+      ],
+      "answer": 0,
+      "explanation": "Chaque canton dispose de deux conseillers départementaux, une femme et un homme, élus en binôme au scrutin majoritaire à deux tours.",
+      "id": "env__03-grandes-etapes-decentralisation__3__opus_023",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__3",
+      "sourceText": "chaque canton disposant de deux conseillers départementaux : une femme et un homme qui seront élus en binôme au scrutin majoritaire à deux tours, la parité sera ainsi assurée.",
+      "sourceContext": "chaque canton disposant de deux conseillers départementaux : une femme et un homme qui seront élus en binôme au scrutin majoritaire à deux tours, la parité sera ainsi assurée.",
+      "sectionId": "03-grandes-etapes-decentralisation__3",
+      "keywords": ["conseillers départementaux", "binôme", "parité"]
+    },
+    {
+      "bloom": "application",
+      "q": "Dans une commune de 1 500 habitants, selon la loi du 17 mai 2013, selon quel mode les conseillers municipaux sont-ils désormais élus ?",
+      "options": [
+        "Au scrutin de liste",
+        "Au scrutin majoritaire individuel",
+        "Par désignation au sein du conseil communautaire",
+        "Au suffrage indirect par le maire sortant"
+      ],
+      "answer": 0,
+      "explanation": "Les conseillers municipaux sont élus au scrutin de liste dans les communes de plus de 1 000 habitants, contre 3 500 auparavant.",
+      "id": "env__03-grandes-etapes-decentralisation__3__opus_024",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__3",
+      "sourceText": "Les conseillers municipaux seront maintenant élus au scrutin de liste dans les communes de plus de 1 000 habitants au lieu de 3 500 habitants précédemment, ce qui permet d’assurer la parité dans un plus grand nombre de communes.",
+      "sourceContext": "Les conseillers municipaux seront maintenant élus au scrutin de liste dans les communes de plus de 1 000 habitants au lieu de 3 500 habitants précédemment, ce qui permet d’assurer la parité dans un plus grand nombre de communes.",
+      "sectionId": "03-grandes-etapes-decentralisation__3",
+      "keywords": ["scrutin de liste", "conseillers municipaux", "parité"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Selon la loi du 17 mai 2013, à quelle condition peut-on être conseiller communautaire dans les communes concernées par le scrutin de liste ?",
+      "options": [
+        "Nul ne peut être conseiller communautaire s'il n'est conseiller municipal",
+        "Le conseiller communautaire est désigné directement par le préfet",
+        "Le conseiller communautaire est élu sur une liste distincte de la liste municipale",
+        "Le conseiller communautaire est nommé par le président de l'intercommunalité"
+      ],
+      "answer": 0,
+      "explanation": "Dans ces communes, les conseillers communautaires sont élus en même temps que les conseillers municipaux et nul ne peut être conseiller communautaire s'il n'est conseiller municipal.",
+      "id": "env__03-grandes-etapes-decentralisation__3__opus_025",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__3",
+      "sourceText": "dans ces communes, les conseillers communautaires seront élus en même temps que les conseillers municipaux, les deux listes étant sur le même bulletin de vote et nul ne peut être conseiller communautaire s’il n’est conseiller municipal.",
+      "sourceContext": "dans ces communes, les conseillers communautaires seront élus en même temps que les conseillers municipaux, les deux listes étant sur le même bulletin de vote et nul ne peut être conseiller communautaire s’il n’est conseiller municipal.",
+      "sectionId": "03-grandes-etapes-decentralisation__3",
+      "keywords": ["conseiller communautaire", "conseiller municipal", "loi de 2013"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle est la mission de la conférence territoriale de l'action publique (CTAP) créée dans chaque région par la loi Maptam ?",
+      "options": [
+        "Favoriser un exercice concerté des compétences des collectivités territoriales, de leurs groupements et établissements publics",
+        "Contrôler la légalité des actes des collectivités",
+        "Répartir les dotations de l'État entre collectivités",
+        "Nommer les exécutifs locaux"
+      ],
+      "answer": 0,
+      "explanation": "La CTAP est chargée de favoriser un exercice concerté des compétences des collectivités territoriales, de leurs groupements et de leurs établissements publics.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_026",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "Elle crée, dans chaque région, une conférence territoriale de l'action publique(CTAP) qui est chargée de favoriser un exercice concerté des compétences des collectivités territoriales, de leurs groupements et de leurs établissements publics.",
+      "sourceContext": "Elle crée, dans chaque région, une conférence territoriale de l'action publique(CTAP) qui est chargée de favoriser un exercice concerté des compétences des collectivités territoriales, de leurs groupements et de leurs établissements publics.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["CTAP", "exercice concerté", "compétences"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Sous quelle forme juridique la métropole de Lyon est-elle créée par la loi Maptam ?",
+      "options": [
+        "Une collectivité territoriale à statut particulier",
+        "Un établissement public de coopération intercommunale",
+        "Un syndicat mixte ouvert",
+        "Un simple pôle métropolitain"
+      ],
+      "answer": 0,
+      "explanation": "La métropole de Lyon est créée sous la forme d'une collectivité territoriale à statut particulier, à la différence du Grand Paris et d'Aix-Marseille-Provence qui sont des EPCI.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_027",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "la métropole de Lyon sous la forme d’une collectivité territoriale à statut particulier.",
+      "sourceContext": "la métropole de Lyon sous la forme d’une collectivité territoriale à statut particulier.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["métropole de Lyon", "statut particulier", "loi Maptam"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel effet la loi du 16 janvier 2015 produit-elle sur la carte des régions de France métropolitaine ?",
+      "options": [
+        "Elle prévoit une nouvelle carte à 12 régions, contre 22 précédemment",
+        "Elle porte le nombre de régions de 12 à 22",
+        "Elle supprime l'échelon régional au profit des métropoles",
+        "Elle fusionne toutes les régions en une administration unique"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 16 janvier 2015 prévoit une nouvelle carte de France métropolitaine à 12 régions, contre 22 précédemment.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_028",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "La loi du 16 janvier 2015 relative à la délimitation des régions, aux élections régionales et départementales et modifiant le calendrier électoral prévoit une nouvelle carte de France métropolitaine à 12 régions, contre 22 précédemment (la Corse est considérée comme une collectivité territoriale à statut particulier), et repousse les élections régionales de mars à décembre 2015.",
+      "sourceContext": "La loi du 16 janvier 2015 relative à la délimitation des régions, aux élections régionales et départementales et modifiant le calendrier électoral prévoit une nouvelle carte de France métropolitaine à 12 régions, contre 22 précédemment (la Corse est considérée comme une collectivité territoriale à statut particulier), et repousse les élections régionales de mars à décembre 2015.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["délimitation des régions", "12 régions", "loi de 2015"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que prévoit la loi NOTRe du 7 août 2015 quant à la clause de compétence du département et de la région ?",
+      "options": [
+        "Elle met fin à la clause de compétence pour le département et la région, au profit d'une redéfinition de leurs compétences",
+        "Elle rétablit la clause de compétence générale pour les deux niveaux",
+        "Elle transfère la clause de compétence aux communes",
+        "Elle maintient inchangée la clause de compétence générale"
+      ],
+      "answer": 0,
+      "explanation": "La loi NOTRe met fin à la clause de compétence pour le département et la région, au profit d'une redéfinition de leurs compétences.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_029",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "Parmi les principales dispositions, la fin de la clause de compétences pour le département et la région, au profit d’une redéfinition de leurs compétences.",
+      "sourceContext": "Parmi les principales dispositions, la fin de la clause de compétences pour le département et la région, au profit d’une redéfinition de leurs compétences.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["loi NOTRe", "clause de compétence", "redéfinition"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une intercommunalité doit atteindre le seuil de population prévu par la loi NOTRe. Quel est le seuil de droit commun fixé par cette loi ?",
+      "options": [
+        "15 000 habitants",
+        "5 000 habitants",
+        "10 000 habitants",
+        "20 000 habitants"
+      ],
+      "answer": 0,
+      "explanation": "La loi NOTRe fait passer les intercommunalités de 5 000 à 15 000 habitants, organisées autour de bassins de vie.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_030",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "Les intercommunalités passeront de 5 000 à 15 000 habitants et seront organisées autour de bassins de vie.",
+      "sourceContext": "Les intercommunalités passeront de 5 000 à 15 000 habitants et seront organisées autour de bassins de vie.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["loi NOTRe", "seuil intercommunal", "bassins de vie"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel statut la loi du 28 février 2017 crée-t-elle pour Paris à partir du 1er janvier 2019 ?",
+      "options": [
+        "Une collectivité unique à statut particulier, Ville de Paris, exerçant les compétences de la commune et du département",
+        "Une métropole de droit commun comparable aux autres grandes agglomérations",
+        "Un département autonome distinct de la commune de Paris",
+        "Un établissement public de coopération intercommunale"
+      ],
+      "answer": 0,
+      "explanation": "La loi crée à la place de la commune et du département de Paris une collectivité unique à statut particulier, Ville de Paris, exerçant les compétences de la commune et du département.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_031",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "A la place de la commune et du département de Paris, la loi crée, à partir du 1er janvier 2019, une collectivité unique à statut particulier, Ville de Paris, exerçant à la fois les compétences de la commune et du département.",
+      "sourceContext": "A la place de la commune et du département de Paris, la loi crée, à partir du 1er janvier 2019, une collectivité unique à statut particulier, Ville de Paris, exerçant à la fois les compétences de la commune et du département.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["statut de Paris", "collectivité unique", "Ville de Paris"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "À quel type d'établissement la compétence Gemapi, introduite par la loi Maptam, est-elle attribuée à titre exclusif et obligatoire au 1er janvier 2018 ?",
+      "options": [
+        "Aux EPCI",
+        "Aux régions",
+        "Aux départements",
+        "Aux services déconcentrés de l'État"
+      ],
+      "answer": 0,
+      "explanation": "La compétence Gemapi est attribuée au bénéfice des EPCI qui en ont la responsabilité à titre exclusif et obligatoire.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_032",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "est entrée en vigueur la compétence de gestion des milieux aquatiques et prévention des inondations (Gemapi) introduite en 2014 par la loi Maptam (Modernisation de l’action publique territoriale et d’affirmation des métropoles) au bénéfice des EPCI qui en ont la responsabilité à titre exclusif et obligatoire.",
+      "sourceContext": "est entrée en vigueur la compétence de gestion des milieux aquatiques et prévention des inondations (Gemapi) introduite en 2014 par la loi Maptam (Modernisation de l’action publique territoriale et d’affirmation des métropoles) au bénéfice des EPCI qui en ont la responsabilité à titre exclusif et obligatoire.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["Gemapi", "EPCI", "compétence exclusive"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quels départements le décret en Conseil d'État regroupe-t-il sous le nom de collectivité européenne d'Alsace ?",
+      "options": [
+        "Le Bas-Rhin et le Haut-Rhin",
+        "Le Haut-Rhin et la Moselle",
+        "Le Bas-Rhin et les Vosges",
+        "Le Haut-Rhin et le Territoire de Belfort"
+      ],
+      "answer": 0,
+      "explanation": "Le décret prévoit le regroupement des départements du Bas-Rhin et du Haut-Rhin dans une nouvelle collectivité, sous le nom de collectivité européenne d'Alsace.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_033",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "un décret en Conseil d’Etat prévoit le regroupement des départements du Bas-Rhin et du Haut-Rhin dans une nouvelle\ner\n\ncollectivité, sous le nom de collectivité européenne d’Alsace.",
+      "sourceContext": "un décret en Conseil d’Etat prévoit le regroupement des départements du Bas-Rhin et du Haut-Rhin dans une nouvelle\ner\n\ncollectivité, sous le nom de collectivité européenne d’Alsace.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["Collectivité européenne d'Alsace", "Bas-Rhin", "Haut-Rhin"]
+    },
+    {
+      "bloom": "application",
+      "q": "Parmi les compétences spécifiques transférées à la Collectivité européenne d'Alsace, laquelle figure dans la loi ?",
+      "options": [
+        "Le réseau routier national non concédé",
+        "La gestion des établissements pénitentiaires alsaciens",
+        "Le pilotage des forces de gendarmerie locales",
+        "La délivrance des passeports et titres de séjour"
+      ],
+      "answer": 0,
+      "explanation": "La loi transfère le réseau routier national non concédé à la nouvelle Collectivité européenne d'Alsace.",
+      "id": "env__03-grandes-etapes-decentralisation__2010__opus_034",
+      "sectionTitle": "L’acte III de la décentralisation : 2007 / 2019",
+      "sourceLink": "#section-03-grandes-etapes-decentralisation__2010",
+      "sourceText": "la loi transfère le réseau routier national non concédé à la nouvelle Collectivité européenne d’Alsace.",
+      "sourceContext": "la loi transfère le réseau routier national non concédé à la nouvelle Collectivité européenne d’Alsace.",
+      "sectionId": "03-grandes-etapes-decentralisation__2010",
+      "keywords": ["Collectivité européenne d'Alsace", "réseau routier", "compétences spécifiques"]
+    }
+  ]
+}

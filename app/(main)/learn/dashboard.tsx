@@ -204,7 +204,7 @@ export function Dashboard({
 
       {/* Barre de sélection flottante */}
       {selected.length > 0 && (
-        <div className="fixed inset-x-0 bottom-0 z-30 border-t border-ink/8 bg-white shadow-[0_-8px_32px_-8px_rgba(31,29,27,0.08)]">
+        <div className="fixed inset-x-0 bottom-0 z-[60] border-t border-ink/8 bg-white pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_32px_-8px_rgba(31,29,27,0.08)]">
           <div className="mx-auto flex max-w-5xl flex-col items-stretch gap-3 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-[18px]">
               <div className="flex items-baseline gap-2.5">

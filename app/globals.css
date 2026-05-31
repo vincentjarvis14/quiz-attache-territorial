@@ -2,37 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
+    --background: 33 67% 94%;       /* crème #FBF1E7 */
+    --foreground: 30 7% 12%;        /* charbon #1F1D1B */
 
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 30 7% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 30 7% 12%;
 
-    --primary: 213 94% 18%;
+    --primary: 4 77% 61%;           /* corail #E85C51 */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 33 40% 90%;
+    --secondary-foreground: 30 7% 12%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 33 35% 91%;
+    --muted-foreground: 30 8% 45%;
 
-    --accent: 210 40% 96%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 33 40% 90%;
+    --accent-foreground: 30 7% 12%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 213 94% 18%;
+    --border: 33 25% 87%;
+    --input: 33 25% 87%;
+    --ring: 4 77% 61%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
   }
 }
 
@@ -44,15 +54,30 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: "cv11", "ss01";
 }
 
 @layer utilities {
+  .shadow-soft {
+    box-shadow: 0 2px 24px -4px rgba(31, 29, 27, 0.06), 0 1px 4px rgba(31, 29, 27, 0.04);
+  }
   .animate-fade-in-up {
     animation: fade-in-up 0.4s ease-out both;
   }
@@ -65,10 +90,23 @@ body {
   .animation-delay-100 { animation-delay: 100ms; }
   .animation-delay-200 { animation-delay: 200ms; }
   .animation-delay-300 { animation-delay: 300ms; }
+
+  /* Editorial entrance animations */
+  .anim-fade-up { animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .anim-delay-1 { animation-delay: 100ms; }
+  .anim-delay-2 { animation-delay: 200ms; }
+  .anim-delay-3 { animation-delay: 320ms; }
+  .anim-delay-4 { animation-delay: 440ms; }
+  .anim-delay-5 { animation-delay: 560ms; }
 }
 
 @keyframes fade-in-up {
   from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(28px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
@@ -81,4 +119,55 @@ body {
   0%   { transform: scale(1); }
   50%  { transform: scale(1.3); }
   100% { transform: scale(1); }
+}
+
+/* ── Série « en feu » : cadre flammes + halo pulsant (streak ≥ 3) ──
+   Technique inspirée d'un dégradé animé par background-position, teintée flammes
+   (corail → orange → ambre → jaune, charte maison). La bordure utilise le masque
+   « gradient-border » pour ne peindre que l'anneau ; le halo est un box-shadow
+   interne confiné aux bords (centre lisible). Le centre reste neutre. */
+@keyframes flame-border {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes flame-halo {
+  0%, 100% { opacity: 0.4; }
+  50%      { opacity: 1; }
+}
+
+.streak-frame {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+}
+/* Bordure : anneau dégradé flammes animé */
+.streak-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  background: linear-gradient(
+    45deg,
+    #bc3e34, #e85c51, #f97316, #f59e0b, #facc15,
+    #f59e0b, #f97316, #e85c51, #bc3e34
+  );
+  background-size: 300% 300%;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  animation: flame-border 6s linear infinite;
+}
+/* Halo orangé pulsant, émanant des bords vers l'intérieur */
+.streak-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow:
+    inset 0 0 22px 2px rgba(232, 92, 81, 0.55),
+    inset 0 0 75px 16px rgba(249, 115, 22, 0.3);
+  animation: flame-halo 2.4s ease-in-out infinite;
 }

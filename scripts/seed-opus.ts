@@ -24,6 +24,9 @@ const BLOOM_DIFFICULTY: Record<string, number> = {
   rappel: 1,
   comprehension: 2,
   application: 3,
+  analyse: 4,
+  evaluation: 5,
+  cas_pratique: 4,
 };
 
 const LESSON_SIZE = 8;
@@ -130,6 +133,7 @@ async function main() {
             explanation: q.explanation,
             sourceChunk: q.sourceText,
             sourceSection: q.sectionTitle,
+            sourceSectionId: q.sectionId,
             difficulty: BLOOM_DIFFICULTY[q.bloom] ?? 2,
           })
           .returning();

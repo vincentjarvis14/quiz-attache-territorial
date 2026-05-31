@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { MarketingMobileMenu } from "./mobile-menu";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-3.5">
+    <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-sm">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="group flex items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-900 ring-2 ring-transparent transition-all group-hover:ring-blue-200">
+          <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-coral-500 transition-transform group-hover:scale-105">
             <svg
               className="h-4 w-4 text-white"
               fill="none"
@@ -21,11 +22,13 @@ export const Header = () => {
               />
             </svg>
           </div>
-          <span className="text-sm font-semibold text-slate-900">
-            Quiz Attaché Territorial
-          </span>
+          <span className="text-sm font-bold text-ink">Quiz Territorial</span>
         </Link>
-        <nav className="flex items-center gap-1.5">
+        {/* Nav desktop */}
+        <nav className="hidden items-center gap-2 sm:flex">
+          <Link href="/presentation" className="rounded-md px-3 py-1.5 text-sm font-medium text-ink/50 transition-colors hover:bg-ink/5 hover:text-ink">
+            Rapport technique
+          </Link>
           <Link href="/sign-in">
             <Button variant="ghost" size="sm">
               Se connecter
@@ -37,6 +40,16 @@ export const Header = () => {
             </Button>
           </Link>
         </nav>
+
+        {/* Nav mobile : CTA principal + burger (Rapport technique, Se connecter) */}
+        <div className="flex items-center gap-1.5 sm:hidden">
+          <Link href="/sign-up">
+            <Button variant="primary" size="sm">
+              Commencer
+            </Button>
+          </Link>
+          <MarketingMobileMenu />
+        </div>
       </div>
     </header>
   );

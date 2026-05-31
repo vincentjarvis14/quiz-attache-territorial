@@ -1,0 +1,270 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Sur quel critère se fonde la soumission d'un projet à déclaration préalable plutôt qu'à permis ?",
+      "options": [
+        "Sur ses dimensions, sa nature ou sa localisation qui ne justifient pas l'exigence d'un permis",
+        "Sur la seule volonté du maître d'ouvrage de simplifier sa démarche",
+        "Sur le coût prévisionnel des travaux, en deçà d'un plafond financier réglementé",
+        "Sur l'accord préalable et exprès du conseil municipal de la commune concernée"
+      ],
+      "answer": 0,
+      "explanation": "Les projets qui, en raison de leurs dimensions, de leur nature ou de leur localisation, ne justifient pas un permis relèvent de la déclaration préalable.",
+      "id": "urb1__104-declaration-prealable__1__opus_001",
+      "sectionTitle": "Le champ d'application de la déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1",
+      "sourceText": "En application de l'article L. 421-4 du Code de l'urbanisme les constructions, aménagements, installations et travaux qui, en raison de leurs dimensions, de leur nature ou de leur localisation, ne justifiant pas l'exigence d'un permis font l'objet d'une déclaration préalable.",
+      "sourceContext": "En application de l'article L. 421-4 du Code de l'urbanisme les constructions, aménagements, installations et travaux qui, en raison de leurs dimensions, de leur nature ou de leur localisation, ne justifiant pas l'exigence d'un permis font l'objet d'une déclaration préalable.",
+      "sectionId": "104-declaration-prealable__1",
+      "keywords": ["déclaration préalable", "champ d'application", "permis"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Comment le champ d'application de la déclaration préalable est-il structuré ?",
+      "options": [
+        "Les travaux, installations et aménagements ; les constructions ; les clôtures",
+        "Les travaux de démolition ; les lotissements ; les changements de destination",
+        "Le régime général ; les secteurs sauvegardés ; les sites classés",
+        "Les constructions nouvelles ; les extensions ; les ouvrages d'infrastructure"
+      ],
+      "answer": 0,
+      "explanation": "Le champ d'application se répartit entre travaux/installations/aménagements, constructions et clôtures soumis à déclaration préalable.",
+      "id": "urb1__104-declaration-prealable__1__opus_002",
+      "sectionTitle": "Le champ d'application de la déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1",
+      "sourceText": "A ce titre, le champ d'application est divisé en trois domaines d'action : les travaux, installations et aménagements soumis à déclaration préalable (1.1), les constructions soumises à déclaration préalable (1.2), et les clôtures soumises à déclaration préalable (1.3).",
+      "sourceContext": "A ce titre, le champ d'application est divisé en trois domaines d'action : les travaux, installations et aménagements soumis à déclaration préalable (1.1), les constructions soumises à déclaration préalable (1.2), et les clôtures soumises à déclaration préalable (1.3).",
+      "sectionId": "104-declaration-prealable__1",
+      "keywords": ["champ d'application", "trois domaines", "clôtures"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "À quels anciens régimes déclaratifs la déclaration préalable s'est-elle substituée ?",
+      "options": [
+        "À quatre anciens régimes déclaratifs, dont la déclaration de travaux et de clôture",
+        "À deux anciens régimes : la déclaration de travaux et la déclaration de démolition",
+        "Au seul régime de la déclaration de travaux de la loi du 6 janvier 1986",
+        "À l'ensemble des régimes de permis tacites antérieurs à 2007"
+      ],
+      "answer": 0,
+      "explanation": "La déclaration préalable a été substituée à quatre anciens régimes déclaratifs.",
+      "id": "urb1__104-declaration-prealable__1__opus_003",
+      "sectionTitle": "Le champ d'application de la déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1",
+      "sourceText": "La déclaration de travaux issue de la loi du 6 janvier 1986 a été transformée en une déclaration préalable substituée à quatre anciens régimes déclaratifs : déclaration de travaux, déclaration de clôture, déclaration en cas de division foncière non constitutive de lotissement, déclaration en cas de division de terrain non destiné à l'implantation de bâtiments.",
+      "sourceContext": "La déclaration de travaux issue de la loi du 6 janvier 1986 a été transformée en une déclaration préalable substituée à quatre anciens régimes déclaratifs : déclaration de travaux, déclaration de clôture, déclaration en cas de division foncière non constitutive de lotissement, déclaration en cas de division de terrain non destiné à l'implantation de bâtiments.",
+      "sectionId": "104-declaration-prealable__1",
+      "keywords": ["régimes déclaratifs", "déclaration de clôture", "division foncière"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle entité peut décider de soumettre l'édification des clôtures à déclaration préalable ?",
+      "options": [
+        "L'établissement public de coopération intercommunale compétent en matière de plan local d'urbanisme",
+        "Le préfet de département, après avis de l'architecte des Bâtiments de France",
+        "Le tribunal administratif saisi par un riverain",
+        "La chambre régionale des comptes, lors du contrôle budgétaire"
+      ],
+      "answer": 0,
+      "explanation": "L'EPCI compétent en matière de plan local d'urbanisme peut décider de soumettre les clôtures à déclaration préalable.",
+      "id": "urb1__104-declaration-prealable__1_3__opus_004",
+      "sectionTitle": "Les clôtures soumises à déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1_3",
+      "sourceText": "Doit être précédée d'une déclaration préalable l'édification d'une clôture située : protection du patrimoine architectural, urbain et paysager ou dans une aire de mise en valeur de l'architecture et du patrimoine patrimoniales ou environnementales public de coopération intercommunale compétent en matière de plan local d'urbanisme a décidé de soumettre les clôtures à déclaration.",
+      "sourceContext": "Doit être précédée d'une déclaration préalable l'édification d'une clôture située : protection du patrimoine architectural, urbain et paysager ou dans une aire de mise en valeur de l'architecture et du patrimoine patrimoniales ou environnementales public de coopération intercommunale compétent en matière de plan local d'urbanisme a décidé de soumettre les clôtures à déclaration.",
+      "sectionId": "104-declaration-prealable__1_3",
+      "keywords": ["clôture", "EPCI", "plan local d'urbanisme"]
+    },
+    {
+      "bloom": "application",
+      "q": "En secteur sauvegardé délimité, un service municipal souhaite installer du mobilier urbain et procéder à des plantations sur la voie publique. Quelle formalité s'impose ?",
+      "options": [
+        "Une déclaration préalable, sauf pour l'entretien et les travaux imposés par la sécurité",
+        "Aucune formalité, le mobilier urbain relevant du seul pouvoir de police du maire",
+        "Un permis d'aménager, dès lors que la voie publique est concernée",
+        "Une autorisation du préfet, l'installation touchant un secteur protégé"
+      ],
+      "answer": 0,
+      "explanation": "L'installation de mobilier urbain et les plantations sur voies publiques en secteur sauvegardé relèvent de la déclaration préalable, hors entretien et travaux de sécurité.",
+      "id": "urb1__104-declaration-prealable__1_1_2__opus_005",
+      "sectionTitle": "La soumission à déclaration préalable en raison de la localisation dans un secteur sauvegardé",
+      "sourceLink": "#section-104-declaration-prealable__1_1_2",
+      "sourceText": "Doivent aussi être précédées d'une déclaration préalable l'installation de mobilier urbain ou d'œuvres d'art, les modifications des voies ou espaces publics et les plantations qui sont effectuées sur ces voies ou espaces, à l'exception des travaux d'entretien ou de réparations ordinaires et des travaux imposés par les réglementations applicables en matière de sécurité.",
+      "sourceContext": "Doivent aussi être précédées d'une déclaration préalable l'installation de mobilier urbain ou d'œuvres d'art, les modifications des voies ou espaces publics et les plantations qui sont effectuées sur ces voies ou espaces, à l'exception des travaux d'entretien ou de réparations ordinaires et des travaux imposés par les réglementations applicables en matière de sécurité.",
+      "sectionId": "104-declaration-prealable__1_1_2",
+      "keywords": ["mobilier urbain", "secteur sauvegardé", "plantations"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "En secteur sauvegardé délimité, quels travaux sur les abords d'un bâtiment existant échappent à la déclaration préalable ?",
+      "options": [
+        "Les travaux d'entretien ou de réparations ordinaires",
+        "Les travaux modifiant l'aménagement des abords du bâtiment",
+        "Les ouvrages d'infrastructure terrestre, marine ou fluviale",
+        "Aucun : tous les travaux d'abords y sont soumis sans exception"
+      ],
+      "answer": 0,
+      "explanation": "Seuls les travaux d'entretien ou de réparations ordinaires sont exclus de l'obligation de déclaration préalable pour l'aménagement des abords.",
+      "id": "urb1__104-declaration-prealable__1_1_2__opus_006",
+      "sectionTitle": "La soumission à déclaration préalable en raison de la localisation dans un secteur sauvegardé",
+      "sourceLink": "#section-104-declaration-prealable__1_1_2",
+      "sourceText": "A l'exception des travaux d'entretien ou de réparations ordinaires, les travaux ayant pour effet de modifier l'aménagement des abords d'un bâtiment existant, situé, dans un secteur sauvegardé délimité, doivent être précédés d'une déclaration préalable.",
+      "sourceContext": "A l'exception des travaux d'entretien ou de réparations ordinaires, les travaux ayant pour effet de modifier l'aménagement des abords d'un bâtiment existant, situé, dans un secteur sauvegardé délimité, doivent être précédés d'une déclaration préalable.",
+      "sectionId": "104-declaration-prealable__1_1_2",
+      "keywords": ["secteur sauvegardé", "abords", "entretien"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "En secteur sauvegardé, site classé ou réserve naturelle, quel seuil de surface hors œuvre brute fait relever une construction de la déclaration préalable ?",
+      "options": [
+        "Une SHOB nulle ou inférieure ou égale à vingt mètres carrés, quelle que soit la hauteur",
+        "Une SHOB inférieure ou égale à quarante mètres carrés, quelle que soit la hauteur",
+        "Une SHOB inférieure ou égale à cinq mètres carrés uniquement",
+        "Une SHOB inférieure ou égale à deux mètres carrés, sous réserve d'une hauteur limitée"
+      ],
+      "answer": 0,
+      "explanation": "Y sont soumises les constructions ne créant aucune SHOB ou créant une SHOB inférieure ou égale à vingt mètres carrés, quelle que soit leur hauteur.",
+      "id": "urb1__104-declaration-prealable__1_1_2__opus_007",
+      "sectionTitle": "La soumission à déclaration préalable en raison de la localisation dans un secteur sauvegardé",
+      "sourceLink": "#section-104-declaration-prealable__1_1_2",
+      "sourceText": "doivent être précédées d'une déclaration préalable les constructions n'ayant pas pour effet de créer une surface hors œuvre brute ou ayant pour effet de créer une surface hors oeuvre brute inférieure ou égale à vingt mètres carrés, quelle que soit leur hauteur, ainsi que les murs, quelle que soit leur hauteur.",
+      "sourceContext": "doivent être précédées d'une déclaration préalable les constructions n'ayant pas pour effet de créer une surface hors œuvre brute ou ayant pour effet de créer une surface hors oeuvre brute inférieure ou égale à vingt mètres carrés, quelle que soit leur hauteur, ainsi que les murs, quelle que soit leur hauteur.",
+      "sectionId": "104-declaration-prealable__1_1_2",
+      "keywords": ["SHOB", "vingt mètres carrés", "murs"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quel principe régit la formalité applicable aux constructions nouvelles ?",
+      "options": [
+        "Par principe le permis de construire, certaines étant seulement soumises à déclaration préalable",
+        "Par principe la déclaration préalable, le permis n'étant exigé qu'au-delà de seuils",
+        "Par principe la dispense de formalité, sauf en secteur protégé",
+        "Par principe une autorisation préfectorale, le maire n'étant pas compétent"
+      ],
+      "answer": 0,
+      "explanation": "Les constructions nouvelles sont par principe soumises à permis de construire, certaines relevant seulement de la déclaration préalable.",
+      "id": "urb1__104-declaration-prealable__1_2_1__opus_008",
+      "sectionTitle": "Les constructions nouvelles soumises à déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1_2_1",
+      "sourceText": "Par principe, les constructions nouvelles sont soumises à permis de construire. Certaines d'entre elles sont cependant seulement soumises à déclaration préalable.",
+      "sourceContext": "Par principe, les constructions nouvelles sont soumises à permis de construire. Certaines d'entre elles sont cependant seulement soumises à déclaration préalable.",
+      "sectionId": "104-declaration-prealable__1_2_1",
+      "keywords": ["construction nouvelle", "permis de construire", "principe"]
+    },
+    {
+      "bloom": "application",
+      "q": "Une construction nouvelle de 11 mètres de haut, 18 m² d'emprise au sol et 18 m² de surface de plancher peut-elle relever de la simple déclaration préalable ?",
+      "options": [
+        "Oui, car les trois critères cumulatifs de hauteur et de surfaces sont respectés",
+        "Non, car la hauteur de onze mètres impose obligatoirement un permis de construire",
+        "Non, car l'emprise au sol ne doit pas dépasser cinq mètres carrés",
+        "Oui, mais uniquement si elle est implantée hors de toute zone urbaine"
+      ],
+      "answer": 0,
+      "explanation": "Sont soumises à déclaration préalable les constructions d'au plus douze mètres de hauteur, vingt mètres carrés d'emprise au sol et vingt mètres carrés de surface de plancher.",
+      "id": "urb1__104-declaration-prealable__1_2_1__opus_009",
+      "sectionTitle": "Les constructions nouvelles soumises à déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1_2_1",
+      "sourceText": "répondant aux critères cumulatifs suivants : une hauteur au-dessus du sol inférieure ou égale à douze mètres, une emprise au sol inférieure ou égale à vingt mètres carrés et une surface de plancher inférieure ou égale à vingt mètres carrés",
+      "sourceContext": "répondant aux critères cumulatifs suivants : une hauteur au-dessus du sol inférieure ou égale à douze mètres, une emprise au sol inférieure ou égale à vingt mètres carrés et une surface de plancher inférieure ou égale à vingt mètres carrés",
+      "sectionId": "104-declaration-prealable__1_2_1",
+      "keywords": ["critères cumulatifs", "douze mètres", "vingt mètres carrés"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Parmi les travaux sur constructions existantes, lesquels échappent à la déclaration préalable ?",
+      "options": [
+        "Les travaux d'entretien ou de réparations ordinaires",
+        "Les changements de destination des constructions existantes",
+        "Le ravalement de la construction existante",
+        "Tous les travaux non soumis à permis de construire y sont soumis"
+      ],
+      "answer": 0,
+      "explanation": "Les travaux exécutés sur des constructions existantes sont soumis à déclaration préalable à l'exception des travaux d'entretien ou de réparations ordinaires.",
+      "id": "urb1__104-declaration-prealable__1_2_2__opus_010",
+      "sectionTitle": "Les travaux et changements de destination soumis à déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1_2_2",
+      "sourceText": "Doivent être précédés d'une déclaration préalable lorsqu'ils ne sont pas soumis à permis de construire les travaux exécutés sur des constructions existantes, à l'exception des travaux d'entretien ou de réparations ordinaires, et les changements de destination des constructions existantes suivants :",
+      "sourceContext": "Doivent être précédés d'une déclaration préalable lorsqu'ils ne sont pas soumis à permis de construire les travaux exécutés sur des constructions existantes, à l'exception des travaux d'entretien ou de réparations ordinaires, et les changements de destination des constructions existantes suivants :",
+      "sectionId": "104-declaration-prealable__1_2_2",
+      "keywords": ["constructions existantes", "changement de destination", "entretien"]
+    },
+    {
+      "bloom": "application",
+      "q": "En zone urbaine d'un PLU, à quel seuil sont portés ceux applicables aux travaux et changements de destination soumis à déclaration préalable ?",
+      "options": [
+        "À quarante mètres carrés",
+        "À vingt mètres carrés",
+        "À cent mètres carrés",
+        "À soixante mètres carrés"
+      ],
+      "answer": 0,
+      "explanation": "En zone urbaine d'un PLU, les seuils déclenchant la déclaration préalable sont portés à quarante mètres carrés.",
+      "id": "urb1__104-declaration-prealable__1_2_2__opus_011",
+      "sectionTitle": "Les travaux et changements de destination soumis à déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__1_2_2",
+      "sourceText": "Ces seuils sont portés à quarante mètres carrés pour les projets situés en zone urbaine d'un plan local d'urbanisme ou d'un document d'urbanisme en tenant lieu, à l'exclusion de ceux impliquant la création d'au moins vingt mètres carrés et d'au plus quarante mètres carrés de surface de plancher ou d'emprise au sol lorsque cette création conduit au dépassement de l'un des seuils déterminant l'intervention d'un architecte.",
+      "sourceContext": "Ces seuils sont portés à quarante mètres carrés pour les projets situés en zone urbaine d'un plan local d'urbanisme ou d'un document d'urbanisme en tenant lieu, à l'exclusion de ceux impliquant la création d'au moins vingt mètres carrés et d'au plus quarante mètres carrés de surface de plancher ou d'emprise au sol lorsque cette création conduit au dépassement de l'un des seuils déterminant l'intervention d'un architecte.",
+      "sectionId": "104-declaration-prealable__1_2_2",
+      "keywords": ["zone urbaine", "quarante mètres carrés", "architecte"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quelles indications la déclaration préalable doit-elle préciser ?",
+      "options": [
+        "L'identité du déclarant, la localisation et la superficie du terrain, la nature des travaux",
+        "Le budget prévisionnel détaillé et le nom de l'entreprise réalisant les travaux",
+        "L'avis motivé des riverains immédiats du terrain concerné",
+        "La date d'achèvement prévisionnelle et la garantie décennale du constructeur"
+      ],
+      "answer": 0,
+      "explanation": "La déclaration préalable précise notamment l'identité du déclarant, la localisation et la superficie du terrain et la nature des travaux.",
+      "id": "urb1__104-declaration-prealable__2_1__opus_012",
+      "sectionTitle": "Le dépôt de la déclaration",
+      "sourceLink": "#section-104-declaration-prealable__2_1",
+      "sourceText": "La déclaration préalable précise l'identité du déclarant, la localisation et la superficie du terrain, la nature des travaux ou du changement de destination, la surface hors œuvre et la destination des constructions envisagées, s'il y a lieu.",
+      "sourceContext": "La déclaration préalable précise l'identité du déclarant, la localisation et la superficie du terrain, la nature des travaux ou du changement de destination, la surface hors œuvre et la destination des constructions envisagées, s'il y a lieu.",
+      "sectionId": "104-declaration-prealable__2_1",
+      "keywords": ["dépôt", "identité du déclarant", "superficie"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel est le délai d'instruction de droit commun d'une déclaration préalable ?",
+      "options": [
+        "Un mois",
+        "Deux mois",
+        "Trois mois",
+        "Quarante-cinq jours"
+      ],
+      "answer": 0,
+      "explanation": "Le délai d'instruction de droit commun est d'un mois pour les déclarations préalables.",
+      "id": "urb1__104-declaration-prealable__2_2__opus_013",
+      "sectionTitle": "Les mesures d'instruction d'une déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__2_2",
+      "sourceText": "Le délai d'instruction de droit commun est d'un mois pour les déclarations préalables. Ce délai court à compter de la réception en mairie d'un dossier complet de déclaration préalable.",
+      "sourceContext": "Le délai d'instruction de droit commun est d'un mois pour les déclarations préalables. Ce délai court à compter de la réception en mairie d'un dossier complet de déclaration préalable.",
+      "sectionId": "104-declaration-prealable__2_2",
+      "keywords": ["délai d'instruction", "un mois", "dossier complet"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Dans quel cas le délai d'instruction d'une déclaration préalable peut-il être majoré ?",
+      "options": [
+        "Lorsque le projet est situé dans un secteur sauvegardé",
+        "Lorsque le déclarant dépose son dossier hors délai",
+        "Lorsque le projet excède cent mètres carrés de surface de plancher",
+        "Lorsque la commune ne dispose pas de plan local d'urbanisme"
+      ],
+      "answer": 0,
+      "explanation": "Une hypothèse de majoration du délai vise les déclarations préalables dont le projet est situé dans un secteur sauvegardé.",
+      "id": "urb1__104-declaration-prealable__2_2__opus_014",
+      "sectionTitle": "Les mesures d'instruction d'une déclaration préalable",
+      "sourceLink": "#section-104-declaration-prealable__2_2",
+      "sourceText": "Une hypothèse de majoration de délai vise les déclarations préalables lorsque le projet est situé dans un secteur sauvegardé.",
+      "sourceContext": "Une hypothèse de majoration de délai vise les déclarations préalables lorsque le projet est situé dans un secteur sauvegardé.",
+      "sectionId": "104-declaration-prealable__2_2",
+      "keywords": ["majoration", "secteur sauvegardé", "délai"]
+    }
+  ]
+}

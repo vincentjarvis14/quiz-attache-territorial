@@ -1,0 +1,156 @@
+{
+  "questions": [
+    {
+      "bloom": "rappel",
+      "q": "Quels sont les trois volets qui composent le principe d'autonomie des collectivités territoriales ?",
+      "options": [
+        "L'autonomie juridique, l'autonomie organique et l'autonomie fonctionnelle",
+        "L'autonomie juridique, l'autonomie financière et l'autonomie fiscale",
+        "L'autonomie organique, l'autonomie politique et l'autonomie budgétaire",
+        "L'autonomie de gestion, l'autonomie de tutelle et l'autonomie de contrôle"
+      ],
+      "answer": 0,
+      "explanation": "Le principe d'autonomie se décompose en autonomie juridique, organique et fonctionnelle.",
+      "id": "env__05-principes-collectivites-territoriales__1__opus_001",
+      "sectionTitle": "Le principe d'autonomie",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1",
+      "sourceText": "Le principe d'autonomie se décompose en trois volets : l'autonomie juridique, l'autonomie organique et l'autonomie fonctionnelle.",
+      "sourceContext": "Le principe d'autonomie se décompose en trois volets : l'autonomie juridique, l'autonomie organique et l'autonomie fonctionnelle.",
+      "sectionId": "05-principes-collectivites-territoriales__1",
+      "keywords": ["principe d'autonomie", "volets", "collectivités territoriales"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que signifie le fait que les collectivités territoriales soient des personnes morales de droit public au titre de l'autonomie juridique ?",
+      "options": [
+        "Elles disposent d'un patrimoine, de la capacité d'accomplir des actes juridiques et d'ester en justice",
+        "Elles dépendent juridiquement de l'État qui agit en leur nom devant les tribunaux",
+        "Elles ne peuvent posséder de patrimoine propre, distinct de celui de l'État",
+        "Elles sont soumises au seul droit privé dans l'exercice de leurs compétences"
+      ],
+      "answer": 0,
+      "explanation": "Personnes morales de droit public, les collectivités disposent d'un patrimoine, de la capacité d'accomplir des actes juridiques et d'ester en justice.",
+      "id": "env__05-principes-collectivites-territoriales__1_1__opus_002",
+      "sectionTitle": "L'autonomie juridique",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1_1",
+      "sourceText": "Personnes morales de droit public, elles disposent en tant que telles d'un patrimoine, de la capacité d'accomplir des actes juridiques et d'ester en justice.",
+      "sourceContext": "Personnes morales de droit public, elles disposent en tant que telles d'un patrimoine, de la capacité d'accomplir des actes juridiques et d'ester en justice.",
+      "sectionId": "05-principes-collectivites-territoriales__1_1",
+      "keywords": ["autonomie juridique", "personne morale", "droit public"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Quel article de la Constitution institue les collectivités territoriales de la République ?",
+      "options": [
+        "L'article 72 de la Constitution",
+        "L'article 34 de la Constitution",
+        "L'article 74 de la Constitution",
+        "L'article 1er de la Constitution"
+      ],
+      "answer": 0,
+      "explanation": "C'est l'article 72 de la Constitution qui institue les collectivités territoriales de la République.",
+      "id": "env__05-principes-collectivites-territoriales__1_1__opus_003",
+      "sectionTitle": "L'autonomie juridique",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1_1",
+      "sourceText": "L'article 72 de la Constitution les institue : « Les collectivités territoriales de la République sont les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer régies par l'article 74… ».",
+      "sourceContext": "L'article 72 de la Constitution les institue : « Les collectivités territoriales de la République sont les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer régies par l'article 74… ».",
+      "sectionId": "05-principes-collectivites-territoriales__1_1",
+      "keywords": ["article 72", "Constitution", "collectivités territoriales"]
+    },
+    {
+      "bloom": "application",
+      "q": "Comment sont désignés les organes exécutifs des collectivités territoriales (maire, président du conseil départemental ou régional) ?",
+      "options": [
+        "Ils sont élus par les organes délibérants, donc au suffrage indirect",
+        "Ils sont élus directement par les citoyens au suffrage universel",
+        "Ils sont nommés par l'État, à l'image du préfet",
+        "Ils sont désignés par tirage au sort parmi les conseillers"
+      ],
+      "answer": 0,
+      "explanation": "Les organes exécutifs sont élus par les organes délibérants, donc au suffrage indirect.",
+      "id": "env__05-principes-collectivites-territoriales__1_2__opus_004",
+      "sectionTitle": "L'autonomie organique",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1_2",
+      "sourceText": "Quant aux organes exécutifs (maire, président du conseil départemental, président du conseil régional), ils sont élus par les organes délibérants, donc au suffrage indirect.",
+      "sourceContext": "Quant aux organes exécutifs (maire, président du conseil départemental, président du conseil régional), ils sont élus par les organes délibérants, donc au suffrage indirect.",
+      "sectionId": "05-principes-collectivites-territoriales__1_2",
+      "keywords": ["autonomie organique", "organes exécutifs", "suffrage indirect"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Que permet la clause générale de compétence aux collectivités qui en disposent ?",
+      "options": [
+        "Se saisir de toute question d'intérêt local, même sans texte le prévoyant, sans empiéter sur la compétence d'une autre collectivité",
+        "Intervenir librement sur tout sujet, y compris ceux relevant d'une autre collectivité",
+        "Légiférer dans leur domaine au même titre que le Parlement",
+        "Exercer uniquement les compétences expressément attribuées par la loi"
+      ],
+      "answer": 0,
+      "explanation": "La clause générale permet aux collectivités de se saisir de toute question d'intérêt local, même sans texte, dès lors qu'elle n'empiète pas sur une compétence relevant d'une autre collectivité.",
+      "id": "env__05-principes-collectivites-territoriales__1_3__opus_005",
+      "sectionTitle": "L'autonomie fonctionnelle",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1_3",
+      "sourceText": "Cette « clause générale » se conjugue avec les compétences d'attribution ; elle permet aux collectivités de se saisir de toute question d'intérêt local, même en l'absence de texte lui en donnant explicitement compétence, dès lors qu'elle n'empiète pas sur une compétence relevant d'une autre collectivité.",
+      "sourceContext": "Cette « clause générale » se conjugue avec les compétences d'attribution ; elle permet aux collectivités de se saisir de toute question d'intérêt local, même en l'absence de texte lui en donnant explicitement compétence, dès lors qu'elle n'empiète pas sur une compétence relevant d'une autre collectivité.",
+      "sectionId": "05-principes-collectivites-territoriales__1_3",
+      "keywords": ["clause générale de compétence", "intérêt local", "autonomie fonctionnelle"]
+    },
+    {
+      "bloom": "application",
+      "q": "Depuis la loi NOTRe du 7 août 2015, de quelles compétences les régions et les départements disposent-ils ?",
+      "options": [
+        "Ils ne conservent que des compétences d'attribution, ayant perdu la clause générale de compétences",
+        "Ils conservent la clause générale de compétences au même titre que les communes",
+        "Ils ont récupéré une clause générale élargie aux affaires nationales",
+        "Ils n'exercent plus aucune compétence propre, transférée à l'intercommunalité"
+      ],
+      "answer": 0,
+      "explanation": "Depuis la loi NOTRe, les régions et les départements ont perdu la clause générale de compétences et ne conservent que des compétences d'attribution.",
+      "id": "env__05-principes-collectivites-territoriales__1_3__opus_006",
+      "sectionTitle": "L'autonomie fonctionnelle",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1_3",
+      "sourceText": "Depuis la loi NOTRe du 7 août 2015, les régions et les départements ont perdu cette clause générale de compétences et ne conservent que des compétences d'attribution.",
+      "sourceContext": "Depuis la loi NOTRe du 7 août 2015, les régions et les départements ont perdu cette clause générale de compétences et ne conservent que des compétences d'attribution.",
+      "sectionId": "05-principes-collectivites-territoriales__1_3",
+      "keywords": ["loi NOTRe", "compétences d'attribution", "régions et départements"]
+    },
+    {
+      "bloom": "comprehension",
+      "q": "Quelle transformation la loi du 2 mars 1982 a-t-elle opérée s'agissant du contrôle exercé par l'État sur les collectivités ?",
+      "options": [
+        "Le contrôle d'opportunité a priori s'est transformé en contrôle de légalité a posteriori",
+        "Le contrôle de légalité a posteriori est devenu un contrôle d'opportunité a priori",
+        "Le contrôle de l'État a été purement et simplement supprimé",
+        "Le contrôle a été confié au juge constitutionnel plutôt qu'au préfet"
+      ],
+      "answer": 0,
+      "explanation": "La loi du 2 mars 1982 a transformé le contrôle d'opportunité exercé a priori en contrôle de légalité exercé a posteriori.",
+      "id": "env__05-principes-collectivites-territoriales__1_4__opus_007",
+      "sectionTitle": "L'existence d'un contrôle de l'État",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__1_4",
+      "sourceText": "Plus précisément, le contrôle d'opportunité exercé a priori s'est transformé en contrôle de légalité exercé a posteriori.",
+      "sourceContext": "Plus précisément, le contrôle d'opportunité exercé a priori s'est transformé en contrôle de légalité exercé a posteriori.",
+      "sectionId": "05-principes-collectivites-territoriales__1_4",
+      "keywords": ["loi du 2 mars 1982", "contrôle de légalité", "a posteriori"]
+    },
+    {
+      "bloom": "rappel",
+      "q": "Par quelle juridiction le principe de libre administration des collectivités territoriales a-t-il été dégagé pour la première fois ?",
+      "options": [
+        "Le Conseil constitutionnel, dans sa décision du 23 mai 1979 dite Nouvelle-Calédonie 1",
+        "Le Conseil d'État, dans un arrêt de principe de 1982",
+        "La Cour de cassation, lors de la décentralisation",
+        "Le Tribunal des conflits, au moment de la création des régions"
+      ],
+      "answer": 0,
+      "explanation": "Le principe de libre administration a été dégagé par le Conseil constitutionnel pour la première fois dans sa décision du 23 mai 1979 dite Nouvelle-Calédonie 1.",
+      "id": "env__05-principes-collectivites-territoriales__2__opus_008",
+      "sectionTitle": "Le principe de libre administration",
+      "sourceLink": "#section-05-principes-collectivites-territoriales__2",
+      "sourceText": "Il a été dégagé par le Conseil constitutionnel pour la première fois dans sa décision n° 79-104 DC du 23 mai 1979 dite NouvelleCalédonie 1.",
+      "sourceContext": "Il a été dégagé par le Conseil constitutionnel pour la première fois dans sa décision n° 79-104 DC du 23 mai 1979 dite NouvelleCalédonie 1.",
+      "sectionId": "05-principes-collectivites-territoriales__2",
+      "keywords": ["libre administration", "Conseil constitutionnel", "Nouvelle-Calédonie"]
+    }
+  ]
+}

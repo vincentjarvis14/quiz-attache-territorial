@@ -1,6 +1,12 @@
 import { cache } from "react";
-import { eq, and, desc, sql, inArray } from "drizzle-orm";
+import { eq, and, desc, sql, inArray, lte, lt } from "drizzle-orm";
 import { auth } from "@/lib/auth";
+import {
+  reviewCard,
+  DEFAULT_EXAM_DATE,
+  isSousThemeDecayed,
+  startOfDay,
+} from "@/lib/srs";
 
 import db from "@/db/drizzle";
 import {
@@ -16,6 +22,7 @@ import {
   userSousThemeProgress,
   quizSessions,
   userAnswers,
+  userQuestionSrs,
   sectionLegalRefs,
   legalChunks,
 } from "@/db/schema";
@@ -117,6 +124,27 @@ export const getSousThemesWithProgress = cache(async (): Promise<SousThemeWithPr
     questionCounts.map((q) => [q.sousThemeId, q.count])
   );
 
+  // Oubli simulé : nombre de cartes EN RETARD (dueAt < aujourd'hui) par sous-thème.
+  const now = new Date();
+  const overdueRows = await db
+    .select({
+      sousThemeId: lessons.sousThemeId,
+      count: sql<number>`count(*)`,
+    })
+    .from(userQuestionSrs)
+    .innerJoin(challenges, eq(userQuestionSrs.questionId, challenges.id))
+    .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+    .where(
+      and(
+        eq(userQuestionSrs.userId, userId),
+        lt(userQuestionSrs.dueAt, startOfDay(now))
+      )
+    )
+    .groupBy(lessons.sousThemeId);
+  const overdueMap = new Map(
+    overdueRows.map((r) => [r.sousThemeId, Number(r.count)])
+  );
+
   return sousThemesList.map((st) => {
     const progress = progressMap.get(st.id);
     const totalQuestions = questionCountMap.get(st.id) || 0;
@@ -125,6 +153,16 @@ export const getSousThemesWithProgress = cache(async (): Promise<SousThemeWithPr
     const percentage = totalAnswered > 0
       ? Math.round((correctCount / totalAnswered) * 100)
       : 0;
+
+    let status = (progress?.status || "not_started") as SousThemeWithProgress["status"];
+    // Decay (affichage) : un sous-thème "mastered" repasse "needs_review" s'il a
+    // trop de cartes en retard ou n'a pas été revu depuis longtemps.
+    if (
+      status === "mastered" &&
+      isSousThemeDecayed(overdueMap.get(st.id) || 0, progress?.lastReviewedAt ?? null, now)
+    ) {
+      status = "needs_review";
+    }
 
     return {
       id: st.id,
@@ -138,7 +176,7 @@ export const getSousThemesWithProgress = cache(async (): Promise<SousThemeWithPr
       totalAnswered,
       correctCount,
       percentage,
-      status: (progress?.status || "not_started") as SousThemeWithProgress["status"],
+      status,
     };
   });
 });
@@ -566,33 +604,32 @@ export async function getWeaknessQuestions(userId: string, limit: number = 10) {
     .limit(limit);
 }
 
-// ─── Mode révision : questions à retravailler ───────────────────
-// Priorité : (1) questions dont la DERNIÈRE réponse est incorrecte,
-// (2) complément par sous-thèmes faibles (needs_review / selfMastery a_revoir),
-// (3) complément par questions jamais répondues. Renvoie challenges + options.
+// ─── Mode révision : cartes dues (répétition espacée) ───────────
+// Une "carte due" = dont dueAt <= fin de journée. Complété par des questions
+// jamais vues (sans ligne SRS). Renvoie challenges + options (même forme qu'avant).
 
-async function getMissedQuestionIds(userId: string): Promise<number[]> {
-  // Dernière réponse par question (tie-break id DESC car createdAt non unique).
-  const rows = await db
-    .select({
-      questionId: userAnswers.questionId,
-      lastCorrect: sql<boolean>`(array_agg(${userAnswers.correct} ORDER BY ${userAnswers.createdAt} DESC, ${userAnswers.id} DESC))[1]`,
-    })
-    .from(userAnswers)
-    .where(eq(userAnswers.userId, userId))
-    .groupBy(userAnswers.questionId);
-
-  return rows.filter((r) => r.lastCorrect === false).map((r) => r.questionId);
+function endOfToday(): Date {
+  const d = new Date();
+  d.setHours(23, 59, 59, 999);
+  return d;
 }
 
 export async function getRevisionCount(): Promise<number> {
   const userId = await auth();
   if (!userId) return 0;
-  const missed = await getMissedQuestionIds(userId);
-  return missed.length;
+  const [row] = await db
+    .select({ count: sql<number>`count(*)` })
+    .from(userQuestionSrs)
+    .where(
+      and(
+        eq(userQuestionSrs.userId, userId),
+        lte(userQuestionSrs.dueAt, endOfToday())
+      )
+    );
+  return Number(row?.count ?? 0);
 }
 
-export async function getRevisionQuestions(limit = 20) {
+export async function getDueCards(limit = 20) {
   const userId = await auth();
   if (!userId) return null;
 
@@ -604,44 +641,27 @@ export async function getRevisionQuestions(limit = 20) {
       limit,
     });
 
-  // 1. Questions ratées (dernière réponse incorrecte).
-  const missedIds = await getMissedQuestionIds(userId);
-  const collected = new Set<number>(missedIds);
+  // 1. Cartes dues, les plus en retard d'abord.
+  const due = await db
+    .select({ id: userQuestionSrs.questionId })
+    .from(userQuestionSrs)
+    .where(
+      and(
+        eq(userQuestionSrs.userId, userId),
+        lte(userQuestionSrs.dueAt, endOfToday())
+      )
+    )
+    .orderBy(userQuestionSrs.dueAt)
+    .limit(limit);
+  const collected = new Set<number>(due.map((d) => d.id));
 
-  // 2. Complément : sous-thèmes faibles (needs_review OU selfMastery a_revoir).
+  // 2. Complément : questions jamais vues (aucune ligne SRS pour l'utilisateur).
   if (collected.size < limit) {
-    const weak = await db
-      .select({ sousThemeId: userSousThemeProgress.sousThemeId })
-      .from(userSousThemeProgress)
-      .where(
-        and(
-          eq(userSousThemeProgress.userId, userId),
-          sql`(${userSousThemeProgress.status} = 'needs_review' OR ${userSousThemeProgress.selfMastery} = 'a_revoir')`
-        )
-      );
-
-    if (weak.length > 0) {
-      const weakRows = await db
-        .select({ id: challenges.id })
-        .from(challenges)
-        .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
-        .where(inArray(lessons.sousThemeId, weak.map((w) => w.sousThemeId)))
-        .orderBy(sql`RANDOM()`)
-        .limit(limit * 2);
-      for (const r of weakRows) {
-        if (collected.size >= limit) break;
-        collected.add(r.id);
-      }
-    }
-  }
-
-  // 3. Fallback : questions jamais répondues (toutes matières confondues).
-  if (collected.size < limit) {
-    const answered = await db
-      .select({ questionId: userAnswers.questionId })
-      .from(userAnswers)
-      .where(eq(userAnswers.userId, userId));
-    const answeredIds = new Set(answered.map((a) => a.questionId));
+    const seen = await db
+      .select({ questionId: userQuestionSrs.questionId })
+      .from(userQuestionSrs)
+      .where(eq(userQuestionSrs.userId, userId));
+    const seenIds = new Set(seen.map((s) => s.questionId));
 
     const freshRows = await db
       .select({ id: challenges.id })
@@ -650,7 +670,7 @@ export async function getRevisionQuestions(limit = 20) {
       .limit(limit * 3);
     for (const r of freshRows) {
       if (collected.size >= limit) break;
-      if (!answeredIds.has(r.id)) collected.add(r.id);
+      if (!seenIds.has(r.id)) collected.add(r.id);
     }
   }
 
@@ -678,27 +698,10 @@ export type ProgressionRow = {
 export const getProgressionBySousTheme = cache(
   async (): Promise<ProgressionRow[]> => {
     const userId = await auth();
+    if (!userId) return [];
     const userProg = await getUserProgress();
-    if (!userId || !userProg?.activeThemeId) return [];
 
-    // 1. Tous les challenges du thème actif, rattachés à leur sous-thème.
-    const challengeRows = await db
-      .select({
-        challengeId: challenges.id,
-        sousThemeId: sousThemes.id,
-        sousThemeTitle: sousThemes.title,
-        sousThemeOrder: sousThemes.order,
-        matiere: themes.matiere,
-      })
-      .from(challenges)
-      .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
-      .innerJoin(sousThemes, eq(lessons.sousThemeId, sousThemes.id))
-      .innerJoin(themes, eq(sousThemes.themeId, themes.id))
-      .where(eq(sousThemes.themeId, userProg.activeThemeId));
-
-    if (challengeRows.length === 0) return [];
-
-    // 2. Dernière réponse par question (même motif que le mode révision).
+    // 1. Dernière réponse par question (même motif que le mode révision).
     const lastAnswers = await db
       .select({
         questionId: userAnswers.questionId,
@@ -711,6 +714,42 @@ export const getProgressionBySousTheme = cache(
     const lastMap = new Map(
       lastAnswers.map((r) => [r.questionId, r.lastCorrect]),
     );
+
+    // 2. Périmètre des sous-thèmes : le thème actif s'il est défini (couverture
+    //    de la matière en cours), sinon les sous-thèmes effectivement
+    //    travaillés (la navigation par pool /learn ne fixe pas de thème actif).
+    let scope;
+    if (userProg?.activeThemeId) {
+      scope = eq(sousThemes.themeId, userProg.activeThemeId);
+    } else {
+      if (lastMap.size === 0) return [];
+      const answeredIds = [...lastMap.keys()];
+      const stRows = await db
+        .select({ id: lessons.sousThemeId })
+        .from(challenges)
+        .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+        .where(inArray(challenges.id, answeredIds));
+      const stIds = [...new Set(stRows.map((r) => r.id))];
+      if (stIds.length === 0) return [];
+      scope = inArray(sousThemes.id, stIds);
+    }
+
+    // 3. Tous les challenges du périmètre, rattachés à leur sous-thème.
+    const challengeRows = await db
+      .select({
+        challengeId: challenges.id,
+        sousThemeId: sousThemes.id,
+        sousThemeTitle: sousThemes.title,
+        sousThemeOrder: sousThemes.order,
+        matiere: themes.matiere,
+      })
+      .from(challenges)
+      .innerJoin(lessons, eq(challenges.lessonId, lessons.id))
+      .innerJoin(sousThemes, eq(lessons.sousThemeId, sousThemes.id))
+      .innerJoin(themes, eq(sousThemes.themeId, themes.id))
+      .where(scope);
+
+    if (challengeRows.length === 0) return [];
 
     // 3. Agrégation par sous-thème (ordre stable via sousThemes.order).
     const acc = new Map<number, ProgressionRow & { order: number }>();
@@ -883,6 +922,53 @@ export async function saveUserAnswer(
     correct,
     sessionId,
   });
+
+  // ── Répétition espacée : planifie la carte. TOUJOURS exécuté (mode normal ET
+  // révision) — c'est l'inverse de updateProgress, donc AVANT le return ci-dessous. ──
+  {
+    const prevSrs = await db
+      .select({ box: userQuestionSrs.box, lapses: userQuestionSrs.lapses })
+      .from(userQuestionSrs)
+      .where(
+        and(
+          eq(userQuestionSrs.userId, userId),
+          eq(userQuestionSrs.questionId, questionId)
+        )
+      )
+      .limit(1)
+      .then((r) => r[0]);
+
+    const examRow = await db
+      .select({ examDate: userProgress.examDate })
+      .from(userProgress)
+      .where(eq(userProgress.userId, userId))
+      .limit(1)
+      .then((r) => r[0]);
+    const examDate = examRow?.examDate ?? new Date(DEFAULT_EXAM_DATE);
+
+    const now = new Date();
+    const next = reviewCard(prevSrs ?? null, correct, now, examDate);
+
+    await db
+      .insert(userQuestionSrs)
+      .values({
+        userId,
+        questionId,
+        box: next.box,
+        dueAt: next.dueAt,
+        lastReviewedAt: now,
+        lapses: next.lapses,
+      })
+      .onConflictDoUpdate({
+        target: [userQuestionSrs.userId, userQuestionSrs.questionId],
+        set: {
+          box: next.box,
+          dueAt: next.dueAt,
+          lastReviewedAt: now,
+          lapses: next.lapses,
+        },
+      });
+  }
 
   if (!updateProgress) return;
 
