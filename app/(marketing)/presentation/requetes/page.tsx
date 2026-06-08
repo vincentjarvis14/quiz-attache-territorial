@@ -2,10 +2,13 @@ import Link from "next/link"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 import { Reveal } from "../motion"
 import { QueriesSection } from "../queries-section"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
 
 export default function RequetesPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-4xl">
       <Reveal>
         <Link
           href="/presentation/architecture"
@@ -27,6 +30,7 @@ export default function RequetesPage() {
           Chaque fonction = une question précise posée à la base, réutilisable partout. En voici
           le fonctionnement et le catalogue complet.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <div className="mt-8">
@@ -47,6 +51,7 @@ export default function RequetesPage() {
           </span>
         </Link>
       </div>
+      </TracingBeam>
     </div>
   )
 }

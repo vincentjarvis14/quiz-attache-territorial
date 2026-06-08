@@ -5,11 +5,13 @@ import { usePathname } from "next/navigation";
 import { BookOpen } from "lucide-react";
 
 import { cn } from "@/lib/utils";
+import { ProfileMenu } from "./profile-menu";
 
 const NAV = [
   { href: "/learn", label: "Quizz" },
   { href: "/progression", label: "Progression" },
   { href: "/library", label: "Bibliothèque" },
+  { href: "/recherche-ia", label: "Recherche" },
 ];
 
 export function AppHeader() {
@@ -52,6 +54,7 @@ export function AppHeader() {
           </nav>
         </div>
 
+        <ProfileMenu />
       </div>
     </header>
   );

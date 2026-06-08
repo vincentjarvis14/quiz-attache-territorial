@@ -8,6 +8,8 @@ import {
   LayoutGrid,
   Award,
   Compass,
+  Target,
+  Wallet,
   ArrowRight,
   type LucideIcon,
 } from "lucide-react"
@@ -30,13 +32,15 @@ type Section = {
 
 const SECTIONS: Section[] = [
   { numero: "01", href: "/presentation/comment-ca-marche", titre: "Comprendre le site", tag: "Pour commencer", Icon: Compass, accent: "coral", span: "lg:col-span-6", description: "À lire en premier, sans jargon : à quoi sert le site, ce qui se passe quand on l'utilise, et où vivent les informations. Avec un mini-lexique des termes techniques." },
-  { numero: "02", href: "/presentation/vibe-coding", titre: "Vibe Coding", tag: "Démarche", Icon: Sparkles, accent: "coral", span: "lg:col-span-3", description: "Comment Claude Code a orchestré la construction du projet. Méthode en 3 temps, itérations V1→V2, posture de concepteur-orchestrateur." },
-  { numero: "03", href: "/presentation/stack", titre: "Stack technique", tag: "Technologie", Icon: Layers, accent: "ink", span: "lg:col-span-3", description: "Next.js 16, Neon, Supabase Auth, Drizzle ORM, Tailwind. Pourquoi ces outils — avec les alternatives considérées et rejetées." },
-  { numero: "06", href: "/presentation/rag", titre: "Pipeline RAG", tag: "Intelligence Artificielle", Icon: BrainCircuit, accent: "coral", span: "lg:col-span-3", description: "De 17 PDFs officiels à ~760 questions QCM. Extraction, génération Claude Opus offline, seed DB, plus une recherche juridique live dans le Code de l'urbanisme." },
-  { numero: "04", href: "/presentation/architecture", titre: "Architecture", tag: "Technique", Icon: Network, accent: "ink", span: "lg:col-span-3", description: "4 couches applicatives reliées, Route Groups Next.js, React Server Components, structure des fichiers explorable." },
-  { numero: "05", href: "/presentation/base-de-donnees", titre: "Base de données", tag: "Données", Icon: Database, accent: "moss", span: "lg:col-span-2", description: "14 tables PostgreSQL, schéma Drizzle : contenu pédagogique, progression et RAG urbanisme." },
-  { numero: "07", href: "/presentation/fonctionnalites", titre: "Fonctionnalités MVP", tag: "Produit", Icon: LayoutGrid, accent: "ink", span: "lg:col-span-2", description: "Les 6 fonctionnalités livrées et leur correspondance au cahier des charges." },
-  { numero: "08", href: "/presentation/synthese", titre: "Synthèse", tag: "Bilan", Icon: Award, accent: "coral", span: "lg:col-span-2", description: "Ce que ce projet démontre : compétences et MVP déployé." },
+  { numero: "02", href: "/presentation/cadrage", titre: "Cadrage & cas d'usage", tag: "Analyse", Icon: Target, accent: "ink", span: "lg:col-span-3", description: "Du besoin à la solution : cas d'usage priorisés (MoSCoW), périmètre assumé, et contraintes traduites en choix de conception." },
+  { numero: "03", href: "/presentation/vibe-coding", titre: "Vibe Coding", tag: "Démarche", Icon: Sparkles, accent: "coral", span: "lg:col-span-3", description: "Comment Claude Code a orchestré la construction du projet. Méthode en 3 temps, itérations V1→V2, posture de concepteur-orchestrateur." },
+  { numero: "04", href: "/presentation/stack", titre: "Stack technique", tag: "Technologie", Icon: Layers, accent: "ink", span: "lg:col-span-2", description: "Next.js 16, Neon, Supabase Auth, Drizzle ORM, Tailwind. Pourquoi ces outils — avec les alternatives considérées et rejetées." },
+  { numero: "05", href: "/presentation/architecture", titre: "Architecture", tag: "Technique", Icon: Network, accent: "moss", span: "lg:col-span-2", description: "4 couches applicatives, Route Groups, React Server Components, Server Actions et structure des fichiers explorable." },
+  { numero: "06", href: "/presentation/base-de-donnees", titre: "Base de données", tag: "Données", Icon: Database, accent: "ink", span: "lg:col-span-2", description: "15 tables PostgreSQL, schéma Drizzle : contenu pédagogique, progression et RAG urbanisme." },
+  { numero: "07", href: "/presentation/rag", titre: "Pipeline RAG", tag: "Intelligence Artificielle", Icon: BrainCircuit, accent: "coral", span: "lg:col-span-3", description: "De 17 PDFs officiels à ~760 questions QCM. Génération Claude Opus offline, plus une recherche juridique live dans le Code de l'urbanisme." },
+  { numero: "08", href: "/presentation/fonctionnalites", titre: "Fonctionnalités MVP", tag: "Produit", Icon: LayoutGrid, accent: "ink", span: "lg:col-span-3", description: "Les 6 fonctionnalités livrées et leur correspondance au cahier des charges." },
+  { numero: "09", href: "/presentation/couts-tests", titre: "Coûts & tests", tag: "Fiabilité", Icon: Wallet, accent: "moss", span: "lg:col-span-3", description: "Hébergement à 0 €/mois sur offres gratuites (pièges anticipés) et qualité fiabilisée : validation du contenu + 24 tests unitaires." },
+  { numero: "10", href: "/presentation/synthese", titre: "Synthèse", tag: "Bilan", Icon: Award, accent: "coral", span: "lg:col-span-3", description: "Ce que ce projet démontre : compétences et MVP déployé." },
 ]
 
 const METRIQUES = [

@@ -6,6 +6,10 @@ import { Reveal, Stagger, StaggerItem } from "../motion"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { EnClair } from "../plain-box"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
+import { SectionHeading } from "../section-heading"
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient"
 
 const ROUTE_GROUPS = [
   {
@@ -27,10 +31,11 @@ const ROUTE_GROUPS = [
 
 export default function ArchitecturePage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">04 — Architecture</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">05 — Architecture</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Structure applicative
         </h1>
@@ -39,6 +44,7 @@ export default function ArchitecturePage() {
           la présentation, la logique métier, l'authentification et la persistance.
           Les données circulent de haut en bas.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <Reveal delay={0.06}>
@@ -56,7 +62,7 @@ export default function ArchitecturePage() {
       {/* Couches avec beams */}
       <div className="mt-10">
         <Reveal>
-          <h2 className="mb-4 text-sm font-bold text-ink">Les 4 couches</h2>
+          <SectionHeading id="couches" index="01" toc="Les 4 couches" className="mb-4">Les 4 couches</SectionHeading>
         </Reveal>
         <ArchitectureBeams />
       </div>
@@ -64,7 +70,7 @@ export default function ArchitecturePage() {
       {/* Route Groups */}
       <div className="mt-12">
         <Reveal>
-          <h2 className="mb-2 text-sm font-bold text-ink">Route Groups Next.js</h2>
+          <SectionHeading id="route-groups" index="02" toc="Route Groups" className="mb-2">Route Groups Next.js</SectionHeading>
           <p className="mb-4 text-sm leading-relaxed text-ink/55">
             L'App Router organise les pages en groupes logiques qui partagent un layout
             sans modifier l'URL. Les parenthèses dans le nom du dossier indiquent un groupe.
@@ -73,7 +79,7 @@ export default function ArchitecturePage() {
         <Stagger className="space-y-2">
           {ROUTE_GROUPS.map((g) => (
             <StaggerItem key={g.groupe}>
-              <SpotlightCard topAccent className="p-4">
+              <HoverBorderGradient containerClassName="h-full" className="h-full p-4">
                 <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:gap-4">
                   <code className="w-fit shrink-0 rounded-lg bg-coral-50 px-2.5 py-1 text-xs font-mono font-bold text-coral-500">
                     {g.groupe}
@@ -83,7 +89,7 @@ export default function ArchitecturePage() {
                     <p className="mt-0.5 text-sm text-ink/60">{g.description}</p>
                   </div>
                 </div>
-              </SpotlightCard>
+              </HoverBorderGradient>
             </StaggerItem>
           ))}
         </Stagger>
@@ -93,7 +99,7 @@ export default function ArchitecturePage() {
       <div className="mt-12">
         <Reveal>
           <SpotlightCard className="p-5">
-            <h2 className="mb-2 text-sm font-bold text-ink">React Server Components (RSC)</h2>
+            <SectionHeading id="rsc" index="03" toc="RSC" accent="ink" className="mb-2">React Server Components (RSC)</SectionHeading>
             <p className="text-sm leading-relaxed text-ink/60">
               Par défaut dans Next.js 16, tous les composants sont des Server Components :
               ils s'exécutent côté serveur, interrogent la DB directement, et n'envoient aucun
@@ -114,10 +120,52 @@ export default function ArchitecturePage() {
         </Reveal>
       </div>
 
+      {/* Server Actions */}
+      <div className="mt-12">
+        <Reveal>
+          <SectionHeading id="server-actions" index="04" toc="Server Actions" className="mb-2">
+            Mutations : les Server Actions
+          </SectionHeading>
+          <p className="mb-4 text-sm leading-relaxed text-ink/55">
+            Les écritures (répondre à une question, mettre à jour la progression) passent par des
+            Server Actions — des fonctions «&nbsp;use server&nbsp;» appelées directement depuis les
+            composants, sans API REST à maintenir.
+          </p>
+        </Reveal>
+        <Reveal delay={0.06}>
+          <SpotlightCard className="p-5">
+            <div className="grid gap-3 sm:grid-cols-3">
+              {[
+                { fn: "recordAnswer()", file: "actions/answers.ts", desc: "Enregistre la réponse dans user_answers — base du mode révision." },
+                { fn: "setSelfMastery()", file: "actions/self-mastery.ts", desc: "Maîtrise auto-déclarée d'un sous-thème." },
+                { fn: "upsertUserProgress()", file: "actions/user-progress.ts", desc: "Points et thème actif de l'utilisateur." },
+              ].map((a) => (
+                <div key={a.fn} className="rounded-xl bg-cream p-3">
+                  <code className="font-mono text-[11px] font-bold text-coral-500">{a.fn}</code>
+                  <div className="mt-0.5 font-mono text-[10px] text-ink/35">{a.file}</div>
+                  <p className="mt-1 text-[11px] leading-relaxed text-ink/55">{a.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-4 flex items-start gap-2 rounded-xl border border-moss-500/20 bg-moss-50 p-3">
+              <svg className="mt-0.5 h-4 w-4 shrink-0 text-moss-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              <p className="text-[12px] leading-relaxed text-ink/65">
+                <strong className="text-ink">Sécurité :</strong> l&apos;identité est résolue côté serveur via{" "}
+                <code className="rounded bg-ink/5 px-1 py-0.5 font-mono text-[11px] text-ink/70">auth()</code>{" "}
+                (lib/auth.ts) — utilisateur Supabase, sinon invité par cookie.{" "}
+                <strong className="text-ink">Le userId ne vient jamais du client.</strong>
+              </p>
+            </div>
+          </SpotlightCard>
+        </Reveal>
+      </div>
+
       {/* File Tree */}
       <div className="mt-12">
         <Reveal>
-          <h2 className="mb-2 text-sm font-bold text-ink">Structure des fichiers</h2>
+          <SectionHeading id="fichiers" index="05" toc="Fichiers" className="mb-2">Structure des fichiers</SectionHeading>
           <p className="mb-4 text-sm text-ink/55">Cliquez sur un dossier pour l'explorer.</p>
         </Reveal>
         <Reveal delay={0.05}>
@@ -151,6 +199,8 @@ export default function ArchitecturePage() {
       </div>
 
       <PrevNextNav current="/presentation/architecture" />
+
+      </TracingBeam>
     </div>
   )
 }

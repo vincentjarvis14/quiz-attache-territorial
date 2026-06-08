@@ -3,6 +3,10 @@ import { SpotlightCard } from "../spotlight-card"
 import { Reveal, Stagger, StaggerItem } from "../motion"
 import { CodeWindow, K, S, C, T, F } from "../code-window"
 import { EnClair } from "../plain-box"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
+import { SectionHeading } from "../section-heading"
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient"
 
 const DB_CONTENU = [
   { table: "themes", role: "Matières (Urbanisme, Env. territorial)", cols: "id, title, description, matiere, order" },
@@ -19,6 +23,7 @@ const DB_PROGRESSION = [
   { table: "challenge_progress", role: "Questions complétées", cols: "userId, challengeId, completed" },
   { table: "quiz_sessions", role: "Sessions de quiz (libre/leçon/révision)", cols: "id, userId, sousThemeId, mode, questionIds" },
   { table: "user_answers", role: "Réponses détaillées (base du mode révision)", cols: "id, userId, questionId, sessionId, selectedAnswer, correct" },
+  { table: "user_question_srs", role: "Répétition espacée (boîtes Leitner)", cols: "userId, questionId, box, dueAt, lapses" },
   { table: "profiles", role: "Profils utilisateurs", cols: "id, userId, ..." },
 ]
 
@@ -58,18 +63,20 @@ function TableRow({ t, i }: { t: { table: string; role: string; cols: string }; 
 
 export default function BaseDeDonneesPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-4xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">05 — Base de données</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">06 — Base de données</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Schéma PostgreSQL
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink/60">
-          14 tables organisées en trois domaines : contenu pédagogique, progression utilisateur
+          15 tables organisées en trois domaines : contenu pédagogique, progression utilisateur
           et RAG urbanisme. Le schéma est défini en TypeScript via Drizzle ORM —
           la source de vérité qui génère automatiquement les migrations SQL.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <Reveal delay={0.06}>
@@ -84,7 +91,12 @@ export default function BaseDeDonneesPage() {
       </Reveal>
 
       {/* Code window schema */}
-      <div className="mt-8">
+      <div className="mt-10">
+        <Reveal>
+          <SectionHeading id="schema" index="01" toc="Le schéma" className="mb-4">
+            Le schéma en TypeScript
+          </SectionHeading>
+        </Reveal>
         <Reveal>
           <CodeWindow
             filename="db/schema.ts"
@@ -103,7 +115,12 @@ export default function BaseDeDonneesPage() {
       </div>
 
       {/* Schéma 2 colonnes */}
-      <div className="mt-10 grid gap-6 md:grid-cols-2">
+      <Reveal>
+        <SectionHeading id="tables" index="02" toc="Les tables" className="mt-10 mb-4">
+          Les 15 tables, par domaine
+        </SectionHeading>
+      </Reveal>
+      <div className="mt-2 grid gap-6 md:grid-cols-2">
         <Reveal>
           <div className="mb-3 flex items-center gap-2">
             <div className="h-2 w-2 rounded-full bg-coral-500" />
@@ -139,9 +156,14 @@ export default function BaseDeDonneesPage() {
       </Reveal>
 
       {/* Hiérarchie + statuts */}
-      <Stagger className="mt-8 grid gap-4 md:grid-cols-2">
+      <Reveal>
+        <SectionHeading id="structure" index="03" toc="Hiérarchie & statuts" className="mt-10 mb-4">
+          Hiérarchie &amp; statuts
+        </SectionHeading>
+      </Reveal>
+      <Stagger className="mt-2 grid gap-4 md:grid-cols-2">
         <StaggerItem className="h-full">
-          <div className="h-full rounded-2xl border border-coral-200 bg-coral-50 p-5">
+          <HoverBorderGradient containerClassName="h-full" className="h-full p-5">
             <div className="mb-3 text-xs font-bold text-coral-600">Hiérarchie du contenu</div>
             <div className="space-y-1 font-mono text-xs text-ink/70">
               <div>themes</div>
@@ -153,11 +175,11 @@ export default function BaseDeDonneesPage() {
             <p className="mt-3 text-[11px] text-ink/45">
               Cascade delete : supprimer un thème supprime toute sa hiérarchie descendante.
             </p>
-          </div>
+          </HoverBorderGradient>
         </StaggerItem>
 
         <StaggerItem className="h-full">
-          <div className="h-full rounded-2xl border border-moss-500/20 bg-moss-50 p-5">
+          <HoverBorderGradient containerClassName="h-full" className="h-full p-5">
             <div className="mb-3 text-xs font-bold text-moss-700">Statuts de progression</div>
             <div className="space-y-2">
               {[
@@ -172,11 +194,12 @@ export default function BaseDeDonneesPage() {
                 </div>
               ))}
             </div>
-          </div>
+          </HoverBorderGradient>
         </StaggerItem>
       </Stagger>
 
       <PrevNextNav current="/presentation/base-de-donnees" />
+      </TracingBeam>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 export const NAV_PAGES = [
   { href: "/presentation", label: "Vue d'ensemble", short: "Aperçu" },
   { href: "/presentation/comment-ca-marche", label: "Comprendre le site", short: "Comprendre" },
+  { href: "/presentation/cadrage", label: "Cadrage & cas d'usage", short: "Cadrage" },
   { href: "/presentation/vibe-coding", label: "Vibe Coding", short: "Vibe" },
   { href: "/presentation/stack", label: "Stack", short: "Stack" },
   { href: "/presentation/architecture", label: "Architecture", short: "Archi" },
@@ -8,5 +9,6 @@ export const NAV_PAGES = [
   { href: "/presentation/base-de-donnees", label: "Base de données", short: "DB" },
   { href: "/presentation/rag", label: "Pipeline RAG", short: "RAG" },
   { href: "/presentation/fonctionnalites", label: "Fonctionnalités", short: "MVP" },
+  { href: "/presentation/couts-tests", label: "Coûts & tests", short: "Coûts" },
   { href: "/presentation/synthese", label: "Synthèse", short: "Bilan" },
 ]

@@ -16,7 +16,7 @@ export type LegalChunk = {
  * "plan local urbanisme PLU" → "plan | local | urbanisme | plu"
  * Permet le rappel quand plainto_tsquery (logique AND) échoue.
  */
-function buildOrTsQuery(query: string): string {
+export function buildOrTsQuery(query: string): string {
   return query
     .toLowerCase()
     .replace(/[^\p{L}\p{N}\s]/gu, " ")

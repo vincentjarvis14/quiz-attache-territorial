@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowRight, RotateCcw, Play, X } from "lucide-react";
+import { ArrowRight, RotateCcw, Play, X, CalendarDays } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -28,11 +28,24 @@ export type DashMatiere = {
 export function Dashboard({
   matieres,
   revisionCount = 0,
+  examDate,
 }: {
   matieres: DashMatiere[];
   revisionCount?: number;
+  examDate?: string;
 }) {
   const router = useRouter();
+
+  // Jours restants avant le concours (bandeau J-X)
+  const daysLeft = examDate
+    ? (() => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const target = new Date(examDate);
+        target.setHours(0, 0, 0, 0);
+        return Math.round((target.getTime() - today.getTime()) / 86_400_000);
+      })()
+    : null;
   const [activeId, setActiveId] = useState(matieres[0]?.id);
   const [selected, setSelected] = useState<number[]>([]);
 
@@ -74,6 +87,23 @@ export function Dashboard({
   return (
     <main className="flex-1 px-6 pb-40 pt-8">
       <div className="mx-auto max-w-5xl">
+
+        {/* Compte à rebours avant le concours */}
+        {daysLeft !== null && daysLeft >= 0 && (
+          <div className="mb-6 inline-flex items-center gap-2.5 rounded-full border border-coral-200 bg-coral-50 px-4 py-2">
+            <CalendarDays className="h-4 w-4 text-coral-600" strokeWidth={2.5} />
+            <span className="text-[13px] font-semibold text-coral-700">
+              {daysLeft === 0 ? (
+                "Concours aujourd'hui — bonne chance !"
+              ) : (
+                <>
+                  <span className="font-display font-black">J-{daysLeft}</span>{" "}
+                  avant l'épreuve
+                </>
+              )}
+            </span>
+          </div>
+        )}
 
         {/* Reprise : quiz quitté avant la fin, restitué à l'identique */}
         {resumeSession && (

@@ -3,13 +3,16 @@ import { PrevNextNav } from "../prev-next-nav"
 import { Reveal } from "../motion"
 import { EnClair } from "../plain-box"
 import { CoverageMeter } from "../coverage-meter"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
 
 export default function FonctionnalitesPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">07 — Produit</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">08 — Produit</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Fonctionnalités MVP
         </h1>
@@ -17,6 +20,7 @@ export default function FonctionnalitesPage() {
           Six fonctionnalités constituent le MVP livré. Chaque item est mis en regard
           du critère correspondant du cahier des charges. Cliquez pour voir les détails d'implémentation.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <Reveal delay={0.06}>
@@ -40,6 +44,7 @@ export default function FonctionnalitesPage() {
       </Reveal>
 
       <PrevNextNav current="/presentation/fonctionnalites" />
+      </TracingBeam>
     </div>
   )
 }

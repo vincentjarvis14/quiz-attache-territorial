@@ -18,6 +18,10 @@ import { Reveal, Stagger, StaggerItem } from "../motion"
 import { EnClair } from "../plain-box"
 import { Terme } from "../term"
 import { TECH_GLOSSARY } from "../tech-glossary"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
+import { SectionHeading } from "../section-heading"
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient"
 
 const PARCOURS: { Icon: LucideIcon; titre: string; desc: string }[] = [
   { Icon: UserPlus, titre: "Je m'inscris (ou j'entre en invité)", desc: "Création de compte en quelques secondes, ou accès direct sans compte pour essayer." },
@@ -53,7 +57,8 @@ const LEXIQUE_KEYS: (keyof typeof TECH_GLOSSARY)[] = [
 
 export default function CommentCaMarchePage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-3xl">
       <Reveal>
         <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">01 — Comprendre</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
@@ -63,6 +68,7 @@ export default function CommentCaMarchePage() {
           Avant la technique, l'essentiel en une page : à quoi sert le site, ce qui se passe
           quand on l'utilise, et où vivent les informations. Sans jargon.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <Reveal delay={0.08}>
@@ -80,7 +86,7 @@ export default function CommentCaMarchePage() {
       {/* Parcours en 4 étapes */}
       <div className="mt-12">
         <Reveal>
-          <h2 className="mb-4 text-sm font-bold text-ink">Le parcours, en 4 étapes</h2>
+          <SectionHeading id="parcours" index="01" toc="Le parcours" className="mb-4">Le parcours, en 4 étapes</SectionHeading>
         </Reveal>
         <Stagger className="space-y-3">
           {PARCOURS.map((e, i) => {
@@ -112,9 +118,9 @@ export default function CommentCaMarchePage() {
       {/* Que se passe-t-il quand je réponds */}
       <div className="mt-12">
         <Reveal>
-          <h2 className="mb-1 text-sm font-bold text-ink">
+          <SectionHeading id="reponse" index="02" toc="Quand je réponds" className="mb-1">
             Que se passe-t-il quand je réponds à une question ?
-          </h2>
+          </SectionHeading>
           <p className="mb-4 text-sm leading-relaxed text-ink/55">
             Tout se déroule en une fraction de seconde. Décomposé, voici le trajet de ma réponse.
           </p>
@@ -150,10 +156,10 @@ export default function CommentCaMarchePage() {
       {/* Où vivent les informations */}
       <div className="mt-12">
         <Reveal>
-          <h2 className="mb-1 text-sm font-bold text-ink">Où vivent les informations ?</h2>
+          <SectionHeading id="lieux" index="03" toc="Où vivent les infos" className="mb-1">Où vivent les informations ?</SectionHeading>
           <p className="mb-4 text-sm leading-relaxed text-ink/55">
-            Un site web, c&apos;est un peu comme un restaurant : trois espaces qui se répartissent
-            le travail. (Passe la souris sur les mots soulignés pour leur définition.)
+            Un site web répartit le travail entre trois espaces complémentaires.
+            (Passe la souris sur les mots soulignés pour leur définition.)
           </p>
         </Reveal>
         <Stagger className="grid gap-3 sm:grid-cols-3">
@@ -161,7 +167,7 @@ export default function CommentCaMarchePage() {
             const Icon = l.Icon
             return (
               <StaggerItem key={l.titre} className="h-full">
-                <SpotlightCard className="relative h-full overflow-visible p-5 hover:z-20">
+                <HoverBorderGradient containerClassName="h-full" className="h-full p-5">
                   <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-ink/8 text-ink/60">
                     <Icon className="h-5 w-5" strokeWidth={1.75} />
                   </span>
@@ -170,7 +176,7 @@ export default function CommentCaMarchePage() {
                   <div className="mt-2 text-xs">
                     <Terme k={l.k} />
                   </div>
-                </SpotlightCard>
+                </HoverBorderGradient>
               </StaggerItem>
             )
           })}
@@ -180,7 +186,7 @@ export default function CommentCaMarchePage() {
       {/* Mini-lexique */}
       <div className="mt-12">
         <Reveal>
-          <h2 className="mb-1 text-sm font-bold text-ink">Le vocabulaire, en une phrase</h2>
+          <SectionHeading id="lexique" index="04" toc="Vocabulaire" className="mb-1">Le vocabulaire, en une phrase</SectionHeading>
           <p className="mb-4 text-sm leading-relaxed text-ink/55">
             Les quelques mots techniques qui reviennent dans le reste du rapport.
           </p>
@@ -201,6 +207,7 @@ export default function CommentCaMarchePage() {
       </div>
 
       <PrevNextNav current="/presentation/comment-ca-marche" />
+      </TracingBeam>
     </div>
   )
 }

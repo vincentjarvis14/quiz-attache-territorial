@@ -1,6 +1,10 @@
 import { PrevNextNav } from "../prev-next-nav"
 import { SpotlightCard } from "../spotlight-card"
 import { Reveal, Stagger, StaggerItem } from "../motion"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
+import { SectionHeading } from "../section-heading"
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient"
 
 const ETAPES = [
   { n: "01", titre: "Cadrer", description: "Transformer un besoin métier en spec technique. L'IA aide à formaliser les contraintes : hiérarchie des données, routes, schéma DB, pipeline RAG. Rien n'est codé tant que l'architecture n'est pas claire." },
@@ -15,16 +19,18 @@ const ITERATIONS = [
 
 export default function VibeCodingPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">02 — Démarche</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">03 — Démarche</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">Vibe Coding</h1>
         <p className="mt-4 text-base leading-relaxed text-ink/60">
           Ce projet n'a pas été construit ligne par ligne. Il a été <strong className="font-semibold text-ink">orchestré</strong> :
           chaque fonctionnalité est le résultat d'un dialogue structuré avec une IA, d'une validation
           fonctionnelle, et d'une itération sur le résultat obtenu.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <Reveal delay={0.08}>
@@ -41,7 +47,7 @@ export default function VibeCodingPage() {
 
       {/* 3 étapes */}
       <div className="mt-10">
-        <Reveal><h2 className="mb-4 text-sm font-bold text-ink">La méthode en 3 temps</h2></Reveal>
+        <Reveal><SectionHeading id="methode" index="01" toc="Méthode 3 temps" className="mb-4">La méthode en 3 temps</SectionHeading></Reveal>
         <Stagger className="space-y-3">
           {ETAPES.map((e) => (
             <StaggerItem key={e.n}>
@@ -63,7 +69,7 @@ export default function VibeCodingPage() {
 
       {/* Claude Code */}
       <div className="mt-10">
-        <Reveal><h2 className="mb-4 text-sm font-bold text-ink">L'outil central : Claude Code</h2></Reveal>
+        <Reveal><SectionHeading id="claude-code" index="02" toc="Claude Code" className="mb-4">L'outil central : Claude Code</SectionHeading></Reveal>
         <Reveal delay={0.05}>
           <SpotlightCard accent="ink" className="p-5">
             <div className="flex items-start gap-4">
@@ -89,11 +95,11 @@ export default function VibeCodingPage() {
 
       {/* Chronologie */}
       <div className="mt-10">
-        <Reveal><h2 className="mb-4 text-sm font-bold text-ink">Chronologie des itérations</h2></Reveal>
+        <Reveal><SectionHeading id="chronologie" index="03" toc="Chronologie" className="mb-4">Chronologie des itérations</SectionHeading></Reveal>
         <Stagger className="space-y-3">
           {ITERATIONS.map((it) => (
             <StaggerItem key={it.tag}>
-              <div className={`rounded-2xl border p-5 ${it.coral ? "border-coral-200 bg-coral-50" : "border-ink/8 bg-white shadow-soft"}`}>
+              <HoverBorderGradient containerClassName="h-full" className="h-full p-5">
                 <div className="mb-3 flex items-center gap-3">
                   <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-xs font-black text-ink shadow-soft">{it.tag}</span>
                   <div>
@@ -103,13 +109,14 @@ export default function VibeCodingPage() {
                 </div>
                 <p className="text-sm leading-relaxed text-ink/65">{it.description}</p>
                 <p className="mt-2.5 text-[12px] italic text-ink/40">{it.note}</p>
-              </div>
+              </HoverBorderGradient>
             </StaggerItem>
           ))}
         </Stagger>
       </div>
 
       <PrevNextNav current="/presentation/vibe-coding" />
+      </TracingBeam>
     </div>
   )
 }

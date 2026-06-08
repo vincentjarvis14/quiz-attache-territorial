@@ -15,9 +15,13 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "seed:themes": "tsx ./scripts/seed-themes.ts",
-    "seed:questions": "tsx ./scripts/seed-opus.ts"
+    "seed:questions": "tsx ./scripts/seed-opus.ts",
+    "embed:questions": "tsx ./scripts/embed-challenges.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
     "@neondatabase/serverless": "^1.1.0",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-avatar": "^1.1.11",
@@ -68,7 +72,8 @@
     "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^3.4.19",
     "tsx": "^4.22.3",
-    "typescript": "^6"
+    "typescript": "^6",
+    "vitest": "^4.1.8"
   },
   "license": "MIT"
 }

@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  // Transformers.js (recherche sémantique locale) embarque un binaire natif
+  // (onnxruntime-node) : on l'exclut du bundle serveur. Côté client, il est
+  // chargé dynamiquement et utilise automatiquement le runtime WASM/WebGPU.
+  serverExternalPackages: ["@huggingface/transformers"],
   images: {
     remotePatterns: [
       {

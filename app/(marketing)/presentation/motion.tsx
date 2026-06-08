@@ -1,7 +1,11 @@
 "use client"
 
-import { motion, useReducedMotion, type Variants } from "framer-motion"
+import { motion, type Variants } from "framer-motion"
 import type { ReactNode } from "react"
+
+// Le respect de « prefers-reduced-motion » est délégué à <MotionConfig reducedMotion="user">
+// (posé dans le layout). On NE branche PAS le rendu sur useReducedMotion ici : cela
+// produirait un HTML serveur ≠ client (le hook renvoie null au SSR) → erreur d'hydratation.
 
 const EASE = [0.21, 0.5, 0.3, 1] as const
 
@@ -16,12 +20,11 @@ export function Reveal({
   y?: number
   className?: string
 }) {
-  const reduce = useReducedMotion()
   return (
     <motion.div
       className={className}
-      initial={reduce ? false : { opacity: 0, y }}
-      whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
+      initial={{ opacity: 0, y }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
       transition={{ duration: 0.55, delay, ease: EASE }}
     >
@@ -41,8 +44,6 @@ const itemVariants: Variants = {
 }
 
 export function Stagger({ children, className }: { children: ReactNode; className?: string }) {
-  const reduce = useReducedMotion()
-  if (reduce) return <div className={className}>{children}</div>
   return (
     <motion.div
       className={className}
@@ -57,8 +58,6 @@ export function Stagger({ children, className }: { children: ReactNode; classNam
 }
 
 export function StaggerItem({ children, className }: { children: ReactNode; className?: string }) {
-  const reduce = useReducedMotion()
-  if (reduce) return <div className={className}>{children}</div>
   return (
     <motion.div className={className} variants={itemVariants}>
       {children}

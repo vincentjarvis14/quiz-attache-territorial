@@ -1,9 +1,15 @@
 import { eq, sql } from "drizzle-orm";
 
 import db from "@/db/drizzle";
-import { challenges, lessons, userSousThemeProgress } from "@/db/schema";
+import {
+  challenges,
+  lessons,
+  userProgress,
+  userSousThemeProgress,
+} from "@/db/schema";
 import { auth } from "@/lib/auth";
 import { getRevisionCount } from "@/db/queries";
+import { DEFAULT_EXAM_DATE } from "@/lib/srs";
 
 import { GuestWelcomeModal } from "@/components/modals/guest-welcome-modal";
 
@@ -48,6 +54,17 @@ const LearnPage = async () => {
 
   const revisionCount = await getRevisionCount();
 
+  // Date du concours (réglage utilisateur) → bandeau J-X
+  const progRow = userId
+    ? await db.query.userProgress.findFirst({
+        where: eq(userProgress.userId, userId),
+        columns: { examDate: true },
+      })
+    : null;
+  const examDate = (progRow?.examDate ?? new Date(DEFAULT_EXAM_DATE))
+    .toISOString()
+    .slice(0, 10);
+
   const matieres: DashMatiere[] = themesList.map((theme) => ({
     id: theme.id,
     title: theme.title,
@@ -64,7 +81,11 @@ const LearnPage = async () => {
   return (
     <div className="flex min-h-screen flex-col bg-cream">
       <AppHeader />
-      <Dashboard matieres={matieres} revisionCount={revisionCount} />
+      <Dashboard
+        matieres={matieres}
+        revisionCount={revisionCount}
+        examDate={examDate}
+      />
       <GuestWelcomeModal isGuest={isGuest} />
     </div>
   );

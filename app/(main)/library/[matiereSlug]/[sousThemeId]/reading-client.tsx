@@ -107,6 +107,21 @@ export function ReadingClient({
     setMobileTocOpen(false);
   };
 
+  // Atterrissage direct sur une section précise via le hash d'URL (#sectionId),
+  // p.ex. depuis la Recherche. Scroll immédiat, avec offset pour le header collant.
+  useEffect(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (!id) return;
+    const t = setTimeout(() => {
+      const el = sectionRefs.current.get(id);
+      if (!el) return;
+      const top = el.getBoundingClientRect().top + window.scrollY - 72;
+      window.scrollTo({ top, behavior: "auto" });
+      setActiveId(id);
+    }, 100);
+    return () => clearTimeout(t);
+  }, [sections]);
+
   return (
     <>
       {/* Barre de progression de lecture */}

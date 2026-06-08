@@ -2,6 +2,8 @@ import Link from "next/link"
 import { PrevNextNav } from "../prev-next-nav"
 import { SpotlightCard } from "../spotlight-card"
 import { Reveal, Stagger, StaggerItem } from "../motion"
+import { TracingBeam } from "@/components/ui/tracing-beam"
+import { ReadingMeta } from "../reading-meta"
 
 const COMPETENCES = [
   { titre: "Compréhension du besoin métier", detail: "Transformer \"préparer un concours\" en architecture précise : hiérarchie de données, flux utilisateur, gestion de la progression, types de quiz." },
@@ -25,15 +27,17 @@ const RECAP = [
 
 export default function SynthesePage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12 md:py-16">
+    <div className="px-6 py-12 md:py-16">
+      <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">08 — Bilan</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">10 — Bilan</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">Synthèse</h1>
         <p className="mt-4 text-base leading-relaxed text-ink/60">
           Ce projet répond aux critères d'évaluation du challenge Vibe Coding.
           Voici ce qu'il démontre concrètement.
         </p>
+        <ReadingMeta />
       </Reveal>
 
       <Stagger className="mt-10 space-y-3">
@@ -86,6 +90,7 @@ export default function SynthesePage() {
       </Reveal>
 
       <PrevNextNav current="/presentation/synthese" />
+      </TracingBeam>
     </div>
   )
 }

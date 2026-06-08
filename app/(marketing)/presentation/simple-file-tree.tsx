@@ -79,7 +79,7 @@ const TREE: TreeNode[] = [
               { name: "motion.tsx", description: "Reveal + Stagger (Client)" },
               { name: "spotlight-card.tsx", description: "Carte halo curseur (Client)" },
               { name: "code-window.tsx", description: "Éditeur stylisé" },
-              { name: "rag-pipeline.tsx", description: "Pipeline animé (Client)" },
+              { name: "table-of-contents.tsx", description: "Sommaire scroll-spy (Client)" },
               { name: "architecture-beams.tsx", description: "Couches + beams (Client)" },
             ],
           },

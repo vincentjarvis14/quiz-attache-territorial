@@ -1,8 +1,10 @@
 import type { Metadata } from "next"
+import { MotionConfig } from "framer-motion"
 import { Header } from "../header"
 import { Footer } from "../footer"
-import { PresentationNav } from "./presentation-nav"
+import { ScrollNavMenu } from "./scroll-nav-menu"
 import { ReadingProgress } from "./reading-progress"
+import { TableOfContents } from "./table-of-contents"
 
 export const metadata: Metadata = {
   title: "Rapport technique — Quiz Attaché Territorial",
@@ -12,11 +14,14 @@ export const metadata: Metadata = {
 export default function PresentationLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col bg-cream">
-      <ReadingProgress />
-      <Header />
-      <PresentationNav />
-      <main className="flex-1">{children}</main>
-      <Footer />
+      <MotionConfig reducedMotion="user">
+        <ReadingProgress />
+        <Header />
+        <ScrollNavMenu />
+        <TableOfContents />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </MotionConfig>
     </div>
   )
 }
