@@ -5,6 +5,7 @@ import {
   getDueCards,
 } from "@/db/queries";
 import { QuizPlayer, type QuizQuestion } from "./quiz-player";
+import { ResumeQuiz } from "./resume-quiz";
 
 // Mélange (Fisher-Yates) — copie sans muter l'entrée.
 function shuffle<T>(arr: readonly T[]): T[] {
@@ -51,9 +52,16 @@ const LessonPage = async ({
     sousThemeId?: string;
     sousThemeIds?: string;
     mode?: string;
+    resume?: string;
   }>;
 }) => {
-  const { lessonId, sousThemeId, sousThemeIds, mode } = await searchParams;
+  const { lessonId, sousThemeId, sousThemeIds, mode, resume } =
+    await searchParams;
+
+  // Reprise d'un quiz quitté en cours : l'état (questions, position, score) est
+  // restauré depuis le localStorage, on court-circuite donc tout chargement.
+  if (resume === "1") return <ResumeQuiz />;
+
   const isRevision = mode === "revision";
 
   // Accepte sousThemeIds (pluriel, depuis le dashboard) ou sousThemeId (singulier, depuis la page chapitre)

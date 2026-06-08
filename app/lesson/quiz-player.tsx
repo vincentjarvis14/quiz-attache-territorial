@@ -19,6 +19,11 @@ import { cn } from "@/lib/utils";
 import { GLOSSARY_TERMS, GLOSSARY_MAP } from "@/lib/glossary-terms";
 import { getCategoryMeta } from "@/lib/category-icons";
 import { recordAnswer } from "@/actions/answers";
+import {
+  saveQuizSession,
+  clearQuizSession,
+  type SavedQuizSession,
+} from "@/lib/quiz-session";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -803,17 +808,53 @@ const LETTERS = ["A", "B", "C", "D"];
 export function QuizPlayer({
   questions,
   revision = false,
+  initial,
 }: {
   questions: QuizQuestion[];
   revision?: boolean;
+  // État restauré quand on reprend un quiz quitté en cours de route.
+  initial?: SavedQuizSession;
 }) {
   const router = useRouter();
-  const [activeIdx, setActiveIdx] = useState(0);
-  const [selectedIdx, setSelectedIdx] = useState<number | undefined>(undefined);
-  const [status, setStatus] = useState<"none" | "correct" | "wrong">("none");
-  const [correctCount, setCorrectCount] = useState(0);
-  const [streak, setStreak] = useState(0);
+  const [activeIdx, setActiveIdx] = useState(initial?.activeIdx ?? 0);
+  const [selectedIdx, setSelectedIdx] = useState<number | undefined>(
+    initial?.selectedIdx,
+  );
+  const [status, setStatus] = useState<"none" | "correct" | "wrong">(
+    initial?.status ?? "none",
+  );
+  const [correctCount, setCorrectCount] = useState(initial?.correctCount ?? 0);
+  const [streak, setStreak] = useState(initial?.streak ?? 0);
   const [finished, setFinished] = useState(false);
+
+  // Persiste l'état du quiz à chaque changement pour pouvoir le reprendre
+  // exactement où il s'est arrêté si l'utilisatrice quitte. On purge dès que
+  // le quiz est terminé (plus rien à reprendre).
+  useEffect(() => {
+    if (finished) {
+      clearQuizSession();
+      return;
+    }
+    saveQuizSession({
+      questions,
+      revision,
+      activeIdx,
+      selectedIdx,
+      status,
+      correctCount,
+      streak,
+      savedAt: Date.now(),
+    });
+  }, [
+    questions,
+    revision,
+    activeIdx,
+    selectedIdx,
+    status,
+    correctCount,
+    streak,
+    finished,
+  ]);
 
   // Réponses en cours d'enregistrement — flushées avant toute navigation
   // pour ne perdre aucune donnée de révision (la donnée la plus précieuse).

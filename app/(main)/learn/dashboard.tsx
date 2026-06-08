@@ -1,10 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowRight, RotateCcw } from "lucide-react";
+import { ArrowRight, RotateCcw, Play, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import {
+  loadQuizSession,
+  clearQuizSession,
+  type SavedQuizSession,
+} from "@/lib/quiz-session";
 
 export type DashSousTheme = {
   id: number;
@@ -30,6 +35,15 @@ export function Dashboard({
   const router = useRouter();
   const [activeId, setActiveId] = useState(matieres[0]?.id);
   const [selected, setSelected] = useState<number[]>([]);
+
+  // Quiz quitté en cours de route : proposé en reprise (lu côté client car
+  // l'état vit dans le localStorage).
+  const [resumeSession, setResumeSession] = useState<SavedQuizSession | null>(
+    null,
+  );
+  useEffect(() => {
+    setResumeSession(loadQuizSession());
+  }, []);
 
   const current = matieres.find((m) => m.id === activeId) ?? matieres[0];
   if (!current) return null;
@@ -60,6 +74,48 @@ export function Dashboard({
   return (
     <main className="flex-1 px-6 pb-40 pt-8">
       <div className="mx-auto max-w-5xl">
+
+        {/* Reprise : quiz quitté avant la fin, restitué à l'identique */}
+        {resumeSession && (
+          <div className="group relative mb-8 flex items-center justify-between gap-4 rounded-2xl bg-coral-500 p-5 text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-8px_rgba(232,92,81,0.45)]">
+            <button
+              onClick={() => router.push("/lesson?resume=1")}
+              className="absolute inset-0 z-0 rounded-2xl"
+              aria-label="Reprendre le quiz en cours"
+            />
+            <div className="pointer-events-none flex items-center gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/20 text-white">
+                <Play className="h-6 w-6" strokeWidth={2} fill="currentColor" />
+              </div>
+              <div>
+                <div className="font-display text-lg font-black leading-tight">
+                  Reprendre le quiz en cours
+                </div>
+                <div className="text-[13px] text-white/75">
+                  {resumeSession.revision ? "Révision" : "Quiz"} · question{" "}
+                  {resumeSession.activeIdx + 1} sur{" "}
+                  {resumeSession.questions.length}
+                </div>
+              </div>
+            </div>
+            <div className="pointer-events-none relative z-10 flex items-center gap-3">
+              <span className="hidden items-center gap-1.5 text-sm font-semibold text-white sm:inline-flex">
+                Continuer
+                <ArrowRight className="h-4 w-4" />
+              </span>
+              <button
+                onClick={() => {
+                  clearQuizSession();
+                  setResumeSession(null);
+                }}
+                aria-label="Abandonner le quiz en cours"
+                className="pointer-events-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white/30"
+              >
+                <X className="h-4 w-4" strokeWidth={2.5} />
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Encart révision : questions ratées à retravailler */}
         {revisionCount > 0 && (
