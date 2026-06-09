@@ -11,7 +11,7 @@ export default function StackPage() {
       <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">04 — Stack technique</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">05 — Stack technique</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Pourquoi ces outils<br />et pas d'autres
         </h1>

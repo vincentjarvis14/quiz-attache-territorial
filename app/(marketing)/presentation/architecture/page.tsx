@@ -35,7 +35,7 @@ export default function ArchitecturePage() {
       <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">05 — Architecture</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">06 — Architecture</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Structure applicative
         </h1>

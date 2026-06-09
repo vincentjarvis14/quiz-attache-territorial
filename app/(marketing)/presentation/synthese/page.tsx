@@ -31,7 +31,7 @@ export default function SynthesePage() {
       <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">10 — Bilan</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">11 — Bilan</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">Synthèse</h1>
         <p className="mt-4 text-base leading-relaxed text-ink/60">
           Ce projet répond aux critères d'évaluation du challenge Vibe Coding.

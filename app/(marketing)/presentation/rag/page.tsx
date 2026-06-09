@@ -72,7 +72,7 @@ export default function RagPage() {
       <TracingBeam className="max-w-3xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">07 — Intelligence Artificielle</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">08 — Intelligence Artificielle</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Pipeline RAG
         </h1>

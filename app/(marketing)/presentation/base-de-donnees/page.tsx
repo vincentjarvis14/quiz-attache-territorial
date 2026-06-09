@@ -67,7 +67,7 @@ export default function BaseDeDonneesPage() {
       <TracingBeam className="max-w-4xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">06 — Base de données</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">07 — Base de données</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Schéma PostgreSQL
         </h1>

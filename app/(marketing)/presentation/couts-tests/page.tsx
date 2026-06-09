@@ -142,7 +142,7 @@ export default function CoutsTestsPage() {
       <TracingBeam className="max-w-4xl">
 
       <Reveal>
-        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">09 — Coûts &amp; tests</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-coral-500">10 — Coûts &amp; tests</p>
         <h1 className="mt-2 font-display text-4xl font-black leading-tight text-ink md:text-5xl">
           Combien ça coûte,<br />comment c&apos;est fiabilisé
         </h1>

@@ -3,6 +3,7 @@ export const NAV_PAGES = [
   { href: "/presentation/comment-ca-marche", label: "Comprendre le site", short: "Comprendre" },
   { href: "/presentation/cadrage", label: "Cadrage & cas d'usage", short: "Cadrage" },
   { href: "/presentation/vibe-coding", label: "Vibe Coding", short: "Vibe" },
+  { href: "/presentation/framework-bmad", label: "Framework BMAD", short: "BMAD" },
   { href: "/presentation/stack", label: "Stack", short: "Stack" },
   { href: "/presentation/architecture", label: "Architecture", short: "Archi" },
   { href: "/presentation/requetes", label: "Requêtes", short: "Requêtes" },
