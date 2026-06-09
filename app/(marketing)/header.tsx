@@ -27,7 +27,7 @@ export const Header = () => {
         {/* Nav desktop */}
         <nav className="hidden items-center gap-2 sm:flex">
           <Link href="/presentation" className="rounded-md px-3 py-1.5 text-sm font-medium text-ink/50 transition-colors hover:bg-ink/5 hover:text-ink">
-            Rapport technique
+            Présentation projet
           </Link>
           <Link href="/sign-in">
             <Button variant="ghost" size="sm">

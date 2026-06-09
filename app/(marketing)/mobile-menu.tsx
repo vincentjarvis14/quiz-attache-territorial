@@ -29,7 +29,7 @@ export function MarketingMobileMenu() {
               className="flex items-center gap-3 rounded-lg px-3 py-3 text-[15px] font-semibold text-ink/70 transition-colors hover:bg-ink/5 hover:text-ink"
             >
               <FileText className="h-[18px] w-[18px]" strokeWidth={2} />
-              Rapport technique
+              Présentation projet
             </Link>
           </SheetClose>
           <SheetClose asChild>
