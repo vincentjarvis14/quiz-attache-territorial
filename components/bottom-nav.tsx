@@ -7,7 +7,7 @@ import { GraduationCap, TrendingUp, Library, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV = [
-  { href: "/learn", label: "Quizz", icon: GraduationCap },
+  { href: "/learn", label: "Quiz", icon: GraduationCap },
   { href: "/progression", label: "Progression", icon: TrendingUp },
   { href: "/library", label: "Bibliothèque", icon: Library },
   { href: "/recherche-ia", label: "Recherche", icon: Search },

@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import { ProfileMenu } from "./profile-menu";
 
 const NAV = [
-  { href: "/learn", label: "Quizz" },
+  { href: "/learn", label: "Quiz" },
   { href: "/progression", label: "Progression" },
   { href: "/library", label: "Bibliothèque" },
   { href: "/recherche-ia", label: "Recherche" },
