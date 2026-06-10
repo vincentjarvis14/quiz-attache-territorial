@@ -8,19 +8,8 @@ import { EnClair } from "../plain-box"
 import { Callout } from "../callout"
 import { SectionHeading } from "../section-heading"
 import { ReadingMeta } from "../reading-meta"
-import {
-  Search,
-  ClipboardList,
-  Palette,
-  DraftingCompass,
-  ListChecks,
-  KanbanSquare,
-  Code2,
-  ShieldCheck,
-  Workflow,
-  Wand2,
-  type LucideIcon,
-} from "lucide-react"
+import { AgentsGrid } from "./agents-grid"
+import { Workflow, Wand2, type LucideIcon } from "lucide-react"
 
 type Agent = {
   persona: string
@@ -30,91 +19,6 @@ type Agent = {
   mission: string
   projet: string
 }
-
-// Les agents « cœur » du cycle de développement BMAD, chacun avec sa
-// responsabilité et sa traduction concrète sur Quiz Attaché Territorial.
-const AGENTS: Agent[] = [
-  {
-    persona: "Mary",
-    role: "Analyste",
-    Icon: Search,
-    accent: "coral",
-    mission:
-      "Point d'entrée du cycle. Recherche le domaine, formalise le besoin et le périmètre, produit le brief initial.",
-    projet:
-      "Cadrage du concours d'Attaché Territorial : matières visées (urbanisme, environnement territorial), corpus de 17 PDF officiels, cas d'usage priorisés (MoSCoW) et contraintes de l'épreuve.",
-  },
-  {
-    persona: "John",
-    role: "Product Manager",
-    Icon: ClipboardList,
-    accent: "ink",
-    mission:
-      "Traduit le brief en spécification produit : un PRD avec exigences fonctionnelles et non-fonctionnelles, découpé en epics.",
-    projet:
-      "Périmètre du MVP mono-utilisateur — exclusion assumée de tout module social ou compétitif. Les 6 fonctionnalités livrées : quiz libre / leçon / révision, bibliothèque, recherche, progression.",
-  },
-  {
-    persona: "Sally",
-    role: "UX Expert",
-    Icon: Palette,
-    accent: "moss",
-    mission:
-      "Conçoit les parcours, les écrans et les schémas d'interaction avant le code. Garantit une expérience cohérente.",
-    projet:
-      "Design system maison — corail #E85C51, cream #FBF1E7, ink — parcours inspiré de Duolingo, lecteur de quiz, tableau de bord et reprise de quiz interrompu.",
-  },
-  {
-    persona: "Winston",
-    role: "Architecte",
-    Icon: DraftingCompass,
-    accent: "ink",
-    mission:
-      "Pose les fondations techniques : stack, découpage en couches, flux de données, stratégie d'intégration. Produit le document d'architecture.",
-    projet:
-      "Next.js 16 (App Router), 4 couches applicatives, React Server Components + Server Actions, Neon Postgres via Drizzle, Supabase Auth, et le pipeline RAG offline (génération une fois, servie sans LLM).",
-  },
-  {
-    persona: "Sarah",
-    role: "Product Owner",
-    Icon: ListChecks,
-    accent: "coral",
-    mission:
-      "Garde la cohérence du backlog : valide les artefacts, découpe (shard) les documents et fixe les critères d'acceptation.",
-    projet:
-      "Découpage du schéma en 15 tables cohérentes, critères d'acceptation des features (ancrage strict à la source, répétition espacée Leitner) et alignement entre PRD et architecture.",
-  },
-  {
-    persona: "Bob",
-    role: "Scrum Master",
-    Icon: KanbanSquare,
-    accent: "moss",
-    mission:
-      "Transforme les epics en stories « prêtes pour le dev » : contexte complet, sans ambiguïté, exécutables d'un bloc.",
-    projet:
-      "Stories autonomes telles que « réviser mes erreurs », « reprendre un quiz quitté en cours » ou « recherche juridique live » — chacune cadrée avant écriture du moindre code.",
-  },
-  {
-    persona: "James",
-    role: "Développeur",
-    Icon: Code2,
-    accent: "ink",
-    mission:
-      "Implémente une story à la fois, en stricte adhérence au contexte fourni : code et tests, sans interpréter au-delà.",
-    projet:
-      "Server Components et Server Actions (recordAnswer…), requêtes Drizzle, composants UI, et scripts de génération des ~760 questions via Claude Opus.",
-  },
-  {
-    persona: "Quinn",
-    role: "QA / Test Architect",
-    Icon: ShieldCheck,
-    accent: "coral",
-    mission:
-      "Définit la stratégie de test et les portes de qualité (quality gates). Couverture d'abord, fiabilité avant tout.",
-    projet:
-      "24 tests unitaires, validation automatique du contenu généré (rejet des questions non ancrées) et audit qualité ayant tranché la bascule DeepSeek → Opus.",
-  },
-]
 
 // Les deux agents « méta » : ils ne portent pas une étape, ils orchestrent.
 const META: Agent[] = [
@@ -263,41 +167,7 @@ export default function FrameworkBmadPage() {
               traduction concrète sur <strong className="text-ink">Quiz Attaché Territorial</strong>.
             </p>
           </Reveal>
-          <Stagger className="grid gap-3 sm:grid-cols-2">
-            {AGENTS.map((a) => {
-              const Icon = a.Icon
-              const tone =
-                a.accent === "coral"
-                  ? "bg-coral-50 text-coral-500"
-                  : a.accent === "moss"
-                  ? "bg-moss-50 text-moss-700"
-                  : "bg-ink/8 text-ink/60"
-              return (
-                <StaggerItem key={a.persona} className="h-full">
-                  <SpotlightCard accent={a.accent} className="flex h-full flex-col p-5">
-                    <div className="flex items-center gap-3">
-                      <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${tone}`}>
-                        <Icon className="h-[18px] w-[18px]" strokeWidth={1.75} />
-                      </span>
-                      <div>
-                        <div className="text-sm font-bold text-ink">{a.role}</div>
-                        <div className="text-[11px] font-semibold uppercase tracking-wider text-ink/35">
-                          {a.persona}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="mt-3 text-[12.5px] leading-relaxed text-ink/60">{a.mission}</p>
-                    <div className="mt-3 rounded-xl bg-cream p-3">
-                      <div className="mb-1 text-[9.5px] font-bold uppercase tracking-widest text-coral-500">
-                        Sur ce projet
-                      </div>
-                      <p className="text-[12px] leading-relaxed text-ink/60">{a.projet}</p>
-                    </div>
-                  </SpotlightCard>
-                </StaggerItem>
-              )
-            })}
-          </Stagger>
+          <AgentsGrid />
         </div>
 
         {/* Le flux de travail */}
