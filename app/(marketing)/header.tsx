@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { MarketingMobileMenu } from "./mobile-menu";
 
 export const Header = () => {
   return (
@@ -24,32 +22,6 @@ export const Header = () => {
           </div>
           <span className="text-sm font-bold text-ink">Quiz Territorial</span>
         </Link>
-        {/* Nav desktop */}
-        <nav className="hidden items-center gap-2 sm:flex">
-          <Link href="/presentation" className="rounded-md px-3 py-1.5 text-sm font-medium text-ink/50 transition-colors hover:bg-ink/5 hover:text-ink">
-            Présentation projet
-          </Link>
-          <Link href="/sign-in">
-            <Button variant="ghost" size="sm">
-              Se connecter
-            </Button>
-          </Link>
-          <Link href="/sign-up">
-            <Button variant="primary" size="sm">
-              Commencer
-            </Button>
-          </Link>
-        </nav>
-
-        {/* Nav mobile : CTA principal + burger (Rapport technique, Se connecter) */}
-        <div className="flex items-center gap-1.5 sm:hidden">
-          <Link href="/sign-up">
-            <Button variant="primary" size="sm">
-              Commencer
-            </Button>
-          </Link>
-          <MarketingMobileMenu />
-        </div>
       </div>
     </header>
   );
